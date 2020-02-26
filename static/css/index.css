@@ -1,0 +1,35 @@
+p {
+    font-family: 'Cabin';
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.mainContainer {
+    margin: 20px 0;
+    max-width: 650px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 1px black solid;
+    width: 120px;
+    height: 120px;
+    margin: 10px
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

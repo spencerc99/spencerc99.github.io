@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cousine:400,400i,700,700i&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="mainContainer">
+            <div class="header">
+                <img class="avatar" src="assets/spencer_maker_character.png" />
+                <h1>Spencer Chang</h1>
+                <p>hello i like to write and code.</p>
+            </div>
+            <!-- Ranges through content/posts/*.md -->
+            {{ range .Pages }}
+            <li>
+                <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+            </li>
+            {{ end }}
+        </div>
+        <div>
+        </div>
+
+    </div>
+</body>
+
+</html>
