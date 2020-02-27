@@ -1,5 +1,13 @@
+{{ define "header" }}
+<div class="header post">
+    <a href="/"><img class="avatar small" src="/assets/spencer_maker_character.png" /></a>
+    <a class="headerLink" href="/">{{.Site.Home.Title}}</a>
+    <!-- TODO: add hamburger -->
+</div>
+{{ end }}
+
 {{ define "main" }}
-<h1 id="title">{{ .Title }}</h1>
+<h1 class="post">{{ .Title }}</h1>
 <div>
     <article id="content">
         {{ .Content }}

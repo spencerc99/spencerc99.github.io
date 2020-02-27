@@ -1,16 +1,37 @@
+body {
+    font-family: 'Muli';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 p {
-    font-family: 'Cabin';
+    font-family: 'Raleway';
+    line-height: 1.6;
+}
+
+p.mono {
+    font-family: 'Cousine';
+}
+
+p.serif {
+    font-family: 'Playfair Display';
+}
+
+h1 {
+    text-align: center;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Raleway';
-    font-weight: 700;
+    font-family: 'Muli';
 }
 
 .mainContainer {
-    margin: 20px 0;
+    margin: 0 20px;
     max-width: 650px;
     min-width: 350px;
     display: flex;
@@ -28,8 +49,53 @@ h3 {
     margin: 10px
 }
 
+.avatar.small {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
 .header {
+    max-width: 490px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header.post {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 4px;
+    border-bottom: 2px slategrey solid;
+    max-width: none;
+}
+
+.header.post a {
+    color: inherit;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.headerLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1.post {
+    position: relative;
+}
+
+h1.post:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: -15px;
+    left: 25%;
+    border-bottom: 1px dashed slategrey;
 }
