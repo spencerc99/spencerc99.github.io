@@ -1,0 +1,28 @@
+{
+    "baseURL": "http://example.org/",
+    "languageCode": "en-us",
+    "title": "Spencer's Home",
+    "params": {
+        "social": [{
+                "name": "Instagram",
+                "imgSrc": "/assets/instagram.svg",
+                "url": "https://www.instagram.com/spencerchang.photography/"
+            },
+            {
+                "name": "Twitter",
+                "imgSrc": "/assets/twitter.svg",
+                "url": "https://twitter.com/spencerc99/"
+            },
+            {
+                "name": "Github",
+                "imgSrc": "/assets/github.svg",
+                "url": "https://github.com/spencerc99/"
+            },
+            {
+                "name": "LinkedIn",
+                "imgSrc": "/assets/linkedin.svg",
+                "url": "https://www.linkedin.com/in/spencerchang1/"
+            }
+        ]
+    }
+}

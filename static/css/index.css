@@ -99,3 +99,17 @@ h1.post:before {
     left: 25%;
     border-bottom: 1px dashed slategrey;
 }
+
+
+.socialMediaContainer {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.socialMediaContainer img {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    filter: grayscale(90%)
+}
