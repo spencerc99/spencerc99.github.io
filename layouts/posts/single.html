@@ -11,6 +11,9 @@
   <div>
     <h3 class="description">{{ .Description }}</h3>
     <article class="postContent">
+      {{ with .Params.external_link }}
+      <p>This post was originally published <a href="{{.}}">somewhere else</a>.</p>
+      {{ end }}
       {{ .Content }}
     </article>
   </div>
