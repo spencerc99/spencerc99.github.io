@@ -221,6 +221,13 @@ a.internal {
     padding: 5px;
     // filter: grayscale(90%);
   }
+
+  i {
+    &:before {
+      margin-left: .1em;
+      margin-right: .1em;
+    }
+  }
 }
 
 .summaryList {
