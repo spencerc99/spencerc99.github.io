@@ -1,0 +1,47 @@
+<hr />
+<!-- TODO: if you add side scrolling for links and stuff remove this. -->
+<div class="postFooter">
+  Follow me on <a href="https://twitter.com/spencerc99/">Twitter</a> for updates
+  on my writing ✍️, check out my
+  <a href="https://www.instagram.com/spencerchang.photography/">Instagram</a> to
+  check out my photos 📸, or see how I'm doing on my
+  <a href="https://coda.io/@spencer/decoding-your-mind">live monitor</a> 👨‍💻.
+</div>
+<!-- TODO: add sharing this article need to pass in article link -->
+<div class="twitterCta">
+  <a
+    href="https://twitter.com/share"
+    data-size="large"
+    data-count="none"
+    data-text="{{ .Title }}"
+    class="twitter-share-button"
+    data-lang="en"
+    data-via="spencerc99"
+    >Tweet</a
+  >
+  <script
+    src="//platform.twitter.com/widgets.js"
+    type="text/javascript"
+  ></script>
+</div>
+<!-- TODO: add some type of navigation here -->
+
+<div class="navigation">
+  {{ if .Next }}
+  <div class="navigationPrev">
+    <span class="adjacent-posts__relative">Previously</span>
+    <a href="{{ .Next.Permalink }}">
+      {{.Next.Title}}
+    </a>
+    <span>{{ .Next.Date.Format "January 2, 2006" }}</span>
+  </div>
+  {{ end }} {{ if .Prev }}
+  <div class="navigationNext">
+    <span class="adjacent-posts__relative">Up next</span>
+    <a href="{{ .Prev.Permalink }}">
+      {{.Prev.Title}}
+    </a>
+    <span>{{ .Prev.Date.Format "January 2, 2006" }}</span>
+  </div>
+  {{ end }}
+</div>

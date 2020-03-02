@@ -7,38 +7,61 @@ body {
     overflow-x: hidden;
 }
 
+#content {
+    max-width: 650px;
+    min-width: 350px;
+    width: 100%;
+}
+
 p {
-    font-family: 'Raleway';
-    line-height: 1.6;
+    font-family: 'Muli';
+    line-height: 22px;
 }
 
 p.mono {
-    font-family: 'Cousine';
+    font-family: 'Cousine'monospace;
 }
 
 p.serif {
     font-family: 'Playfair Display';
 }
 
-h1 {
+#siteTitle {
     text-align: center;
+}
+
+.title {
+    font-size: 2.25em;
+    font-family: 'Raleway';
 }
 
 h1,
 h2,
-h3 {
-    font-family: 'Muli';
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway';
+}
+
+pre,
+code {
+    font-family: "Cousine", "Menlo", "Courier", monospace;
+    color: #4f4f4f;
+}
+
+p>code {
+    font-size: 95%;
 }
 
 .mainContainer {
     margin: 0 20px;
-    max-width: 650px;
-    min-width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
 
 .avatar {
@@ -56,13 +79,19 @@ h3 {
     vertical-align: middle;
 }
 
-.header {
+.headerContainer {
     max-width: 490px;
     text-align: center;
     margin-bottom: 40px;
+    margin: auto;
 }
 
-.header.post {
+.headerContainer .description div {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.headerContainer.post {
     display: flex;
     align-items: center;
     margin-bottom: 0;
@@ -71,19 +100,30 @@ h3 {
     max-width: none;
 }
 
-.header.post a {
-    color: inherit;
-    font-size: 2em;
-    font-weight: bold;
+.headerContainer.post a {
+    color: #6b7a8f;
+    text-decoration: none;
 }
+
+.headerContainer.post h2 {
+    margin: 0;
+}
+
+a {
+    color: #fea680;
+    ;
+    text-decoration: none;
+}
+
+a.internal {}
+
 
 a:hover {
     text-decoration: underline;
 }
 
-a.headerLink {
-    text-decoration: none;
-    color: inherit;
+.postContent hr {
+    max-width: 450px;
 }
 
 h1.post {
@@ -111,5 +151,81 @@ h1.post:before {
     width: 32px;
     height: 32px;
     padding: 5px;
-    filter: grayscale(90%)
+    filter: grayscale(90%);
+    transition: filter 0.25s ease-in-out;
+}
+
+.socialMediaContainer img:hover {
+    filter: none;
+}
+
+.summaryList {
+    width: 100%;
+}
+
+.postSummaryTitle {
+    margin-bottom: 0px;
+}
+
+.postSummary {
+    margin: 6px 0;
+}
+
+.post.meta {
+    color: slategrey;
+}
+
+.postDate {
+    text-transform: uppercase;
+}
+
+/* .post hr {
+        max-width: 100px;
+        border-width: 3px;
+        border-style: solid;
+        MARGIN: 30px auto;
+        color: #ABABAB;
+} */
+
+.twitterCta {
+    margin: 10px 0;
+}
+
+.randomColors {
+    /* Apple Core */
+    color: #DCC7AA;
+    /* Blueberry */
+    color: #6b7a8f;
+    /* COral */
+    color: #FF533d;
+    /* Eggshell */
+    color: #f5f5f5;
+    /* Peach */
+    color: #fea680;
+    /* Azure */
+    color: #01abaa;
+    /* Slate */
+    color: #eae3ea;
+    /* Watermelon */
+    color: #ff6a5c;
+    /* steel blue */
+    color: #52AFBB;
+    /* sea green */
+    color: #246E86;
+    /* midnight blue */
+    color: #0F4761;
+    /* tan */
+    color: #D6B8A0
+}
+
+#coda {
+    color: #f46a54
+}
+
+#airbnb {
+    color: #FD5C63
+}
+
+#square {
+    color: #27C800
 }

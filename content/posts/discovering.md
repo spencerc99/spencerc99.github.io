@@ -1,8 +1,8 @@
 ---
 title: "Discovering a New Year"
 description: "Learning from nature, past leaders, and the consequences of human toils"
-date: "2019-02-23"
-draft: true
+summary: "Exploration—the relinquishing of the old for something new and unknown. Why do we explore? What drives us to leave behind cozy homes, comfortable routines, and familiar lands, foods, and faces to seek out the new and unknown?"
+date: "2020-02-23"
 ---
 I had a very different New Year’s for 2020. You know the typical New Year’s—flashing lights, glittering displays of gold and silver, a steady stream of booze, and of course, the company of reveling friends and family. Instead, the lights were replaced with the striking orange streaming from the sunset at a punctual 9:36pm. The glittering displays became the alpine glow reflecting off pristine snow-topped mountains and the vast stretch of ocean. A steady stream of fog rolled in across the horizon of mountains; the lapping waves laughed with a thunderous timbre, while the wind cheered and sighed with the ebb and flow of the festivities. It was our first sighting of land officially part of Antarctica, the South Orkney Islands. 
 
@@ -44,9 +44,3 @@ As for why this drive leads some to do good and some to do bad, I don't have a s
 
 20200101-DSC_4540.jpg
 another view of my New Year Day environment (find more at my instagram)
-
-
----
-
-As part of my exploring, I've been exploring some shorter form fantastical stories recently :) Check out Sublime Arts and The Rider.
-Follow me on Medium for updates on when I write ✍️, check out my website for more information on me 👨‍💻, or follow me on Instagram to check out my photos 📸.

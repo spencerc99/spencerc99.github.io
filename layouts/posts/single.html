@@ -1,17 +1,26 @@
 {{ define "header" }}
-<div class="header post">
-    <a href="/"><img class="avatar small" src="/assets/spencer_maker_character.png" /></a>
-    <a class="headerLink" href="/">{{.Site.Home.Title}}</a>
-    <!-- TODO: add hamburger -->
+<div class="headerContainer post">
+  <a href="/"
+    ><img class="avatar small" src="/assets/spencer_maker_character.png"
+  /></a>
+  <a href="/"><h2>{{.Site.Home.Title}}</h2></a>
+  <!-- TODO: add hamburger -->
 </div>
-{{ end }}
+{{ end }} {{ define "main" }}
+<h1 class="post title">{{ .Title }}</h1>
+<div class="post meta">
+  <!-- TODO: make the date linkable -->
+  <span
+    ><span class="postDate">{{ .Date.Format "Jan 2, 2006" }}</span>
+    // {{ .FuzzyWordCount }} words
+  </span>
+</div>
 
-{{ define "main" }}
-<h1 class="post">{{ .Title }}</h1>
 <div>
-    <article id="content">
-        {{ .Content }}
-    </article>
+  <article class="postContent">
+    {{ .Content }}
+  </article>
+  {{ partial "post_footer.html" }}
 </div>
 <!-- <aside id="meta">
     <div>
