@@ -7,8 +7,52 @@ body {
     overflow-x: hidden;
 }
 
+$navBar-height: 50px;
+
+#navbar {
+    border-bottom: 1px solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: $navBar-height;
+}
+
+/* Collapse nav bar on scroll down */
+.collapse {
+    animation: collapse .5s ease forwards;
+}
+
+/* Open nav bar on scroll up */
+.open {
+    animation: open .5s ease forwards;
+}
+
+@keyframes collapse {
+    from {
+        opacity: 1;
+        top: 0;
+    }
+
+    to {
+        opacity: 0;
+        top: -$navBar-height;
+    }
+}
+
+@keyframes open {
+    from {
+        opacity: 0;
+        top: -$navBar-height;
+    }
+
+    to {
+        opacity: 1;
+        top: 0;
+    }
+}
+
 #content {
-    max-width: 650px;
+    max-width: 600px;
     min-width: 350px;
     width: 100%;
 }
