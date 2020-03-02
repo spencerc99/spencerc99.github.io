@@ -1,0 +1,51 @@
+<!-- src: https://blog.christopherianmurphy.com/2017/05/expand-collapse-navbar/ -->
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/"
+            ><img class="avatar small" src="/assets/spencer_maker_character.png"
+        /></a>
+        <a href="/"><h2>{{.Site.Title}}</h2></a>
+    <!-- TODO: add hamburger -->
+    {{ partial "social_media.html" . }}
+  </div>
+  <script>
+    // Store navbar classes
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    // returns current scroll position
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    // Initial scroll position
+    var scrollState = 0;
+
+    // Primary scroll event function
+    var scrollDetect = function(down, up) {
+      // Current scroll position
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 2) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      // Set previous scroll position
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>

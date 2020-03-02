@@ -1,27 +1,25 @@
-{{ define "header" }}
-<div class="headerContainer post">
-  <a href="/"
-    ><img class="avatar small" src="/assets/spencer_maker_character.png"
-  /></a>
-  <a href="/"><h2>{{.Site.Home.Title}}</h2></a>
-  <!-- TODO: add hamburger -->
+{{ define "header" }} 
+{{ partial "navbar.html" . }} 
+{{ end }} 
+{{ define "main"}}
+<div class="postContainer {{ with .Params.storyType }} {{ . }} {{ end }}">
+  <h1 class="title">{{ .Title }}</h1>
+  <div class="post meta">
+    <!-- TODO: make the date linkable -->
+    <span class="postDate">{{ .Date.Format "Jan 2, 2006" }}</span>
+  </div>
+  <div>
+    <h3 class="description">{{ .Description }}</h3>
+    <article class="postContent">
+      {{ .Content }}
+    </article>
+  </div>
 </div>
-{{ end }} {{ define "main" }}
-<h1 class="post title">{{ .Title }}</h1>
-<div class="post meta">
-  <!-- TODO: make the date linkable -->
-  <span
-    ><span class="postDate">{{ .Date.Format "Jan 2, 2006" }}</span>
-    // {{ .FuzzyWordCount }} words
-  </span>
-</div>
+<footer>
+    <hr/>
+    {{ partial "post_footer.html" . }}
+</footer>
 
-<div>
-  <article class="postContent">
-    {{ .Content }}
-  </article>
-  {{ partial "post_footer.html" }}
-</div>
 <!-- <aside id="meta">
     <div>
         <section>
@@ -41,14 +39,6 @@
             <li> <a href="{{ "tags" | absURL }}{{ . | urlize }}">{{ . }}</a> </li>
             {{ end }}
         </ul>
-        {{ end }}
-    </div>
-    <div>
-        {{ with .PrevInSection }}
-        <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
-        {{ end }}
-        {{ with .NextInSection }}
-        <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
         {{ end }}
     </div>
 </aside> -->
