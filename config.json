@@ -2,6 +2,7 @@
     "baseURL": "http://spencerchang.me",
     "languageCode": "en-us",
     "title": "Spencer Chang",
+    "googleAnalytics": "UA-159413154-1",
     "params": {
         "social": [{
                 "name": "Instagram",
