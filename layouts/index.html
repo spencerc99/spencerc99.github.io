@@ -2,10 +2,6 @@
 <div class="headerContainer">
   <img class="avatar" src="/assets/spencer_maker_character.png" />
   <h1 id="siteTitle">{{.Title}}</h1>
-  {{ with .Params.subtitle }}
-  <span class="subtitle">{{.}}</span>
-  {{ end }}
-  <!-- {{.Description}} -->
   <div class="description">
     <div>
       I like optimistic dreaming 💭 and deep thinking 🤔. Exploring, learning, and
@@ -24,9 +20,25 @@
   {{ partial "social_media.html" . }}
 </div>
 {{ end }} {{ define "main" }}
+<!--— facebook open graph tags -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Site.BaseURL }}" />
+<meta property="og:title" content="{{.Title}}" />
+<meta property="og:description" content="{{.Params.subtitle}}" />
+<meta property="og:image" content="{{ .Params.image | absURL }}" />
+
+<!-- twitter card tags additive with the og: tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:domain" value="{{ .Site.BaseURL }}" />
+<meta name="twitter:title" value="{{.Title}}" />
+<meta name="twitter:description" value="{{.Description}}" />
+<meta name="twitter:image" content="{{ .Params.image | absURL }}" />
+<meta name="twitter:url" value="{{ .Site.BaseURL }}" />
+<meta name="twitter:label1" value="Currently" />
+<meta name="twitter:data1" value='Engineering in San Francisco 🌉⛰' />
 <div class="homepage-content">
-  <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-  {{.Content}}
+    <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+    {{.Content}}
 </div>
 <div class="summaryList">
   {{ range first 10 .Site.RegularPages }} {{ .Render "summary" }} {{ end }}
