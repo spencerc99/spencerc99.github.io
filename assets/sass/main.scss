@@ -4,6 +4,7 @@ $color-light-grey: #ababab;
 $color-lighter-grey: rgba(112, 128, 144, 0.25);
 $color-blueberry: #6b7a8f;
 $color-link: #fea680;
+$color-highlight: #fef4ad;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 $screenXsmallMin: 320px;
@@ -49,6 +50,29 @@ body {
   color: #282828;
   margin-left: 16px;
   margin-right: 16px;
+}
+
+::selection {
+  background: $color-highlight; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: $color-highlight; /* Gecko Browsers */
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge*/
+  user-select: none; /* Non-prefixed version, currently not supported by any browser */
 }
 
 div {
