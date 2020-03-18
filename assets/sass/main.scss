@@ -5,6 +5,40 @@ $color-lighter-grey: rgba(112, 128, 144, 0.25);
 $color-blueberry: #6b7a8f;
 $color-link: #fea680;
 
+// source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+$screenXsmallMin: 320px;
+$screenSmallMin: 481px;
+$screenMediumMin: 768px;
+$screenLargeMin: 1025px;
+$screenXlargeMin: 1281px;
+
+$screenMinWidths: (
+  xsmallScreen: $screenXsmallMin,
+  smallScreen: $screenSmallMin,
+  mediumScreen: $screenMediumMin,
+  largeScreen: $screenLargeMin,
+  xlargeScreen: $screenXlargeMin
+);
+
+$screenMaxWidths: (
+  xsmallScreen: $screenSmallMin - 1,
+  smallScreen: $screenMediumMin - 1,
+  mediumScreen: $screenLargeMin - 1,
+  largeScreen: $screenXlargeMin - 1
+);
+
+// sources
+// https://stackoverflow.com/questions/9829612/save-media-query-in-variable
+// https://stackoverflow.com/questions/55882215/how-can-i-use-multiple-include-in-scss
+//  mixin to print out media queries (based on map keys passed)
+@mixin media($keys...) {
+  @each $key in $keys {
+    @media only screen and (min-width: map-get($screenMinWidths, $key)) and (max-width: map-get($screenMaxWidths, $key)) {
+      @content;
+    }
+  }
+}
+
 body {
   font-family: "Muli";
   display: flex;
@@ -29,7 +63,7 @@ div {
 
 p {
   font-family: "Muli";
-  line-height: 22px;
+  line-height: 1.6;
 
   .mono & {
     font-family: "Cousine" monospace;
@@ -41,6 +75,9 @@ p {
 
   & > code {
     font-size: 95%;
+  }
+  figcaption > & {
+    font-size: 90%;
   }
 }
 
@@ -69,7 +106,7 @@ code {
 
 #content {
   max-width: $viewport-width;
-  min-width: 350px;
+  min-width: 300px;
   width: 100%;
 }
 
@@ -108,6 +145,11 @@ code {
   align-items: center;
   max-width: $viewport-width;
   margin: auto;
+
+  @include media(xsmallScreen) {
+    font-size: 90%;
+    margin: 0 5px;
+  }
 
   a {
     color: $color-blueberry;
@@ -226,8 +268,8 @@ a.internal {
 
   i {
     &:before {
-      margin-left: .1em;
-      margin-right: .1em;
+      margin-left: 0.1em;
+      margin-right: 0.1em;
     }
   }
 }
@@ -237,11 +279,12 @@ a.internal {
 }
 
 .postContainer {
-  width: 100%;
+  width: auto;
   margin-top: $navBar-height;
 
   .title {
     margin-bottom: 0;
+    margin-top: 0;
   }
 
   .description {
@@ -253,7 +296,7 @@ a.internal {
   }
 
   // narrow margin on the first descendant if there's not a full width image
-  article>*:not(figure):not(img):first-child {
+  article > *:not(figure):not(img):first-child {
     margin-top: 6px;
   }
 }
@@ -326,7 +369,7 @@ a.internal {
       margin: auto;
     }
 
-    figcaption {  
+    figcaption {
       margin: auto;
       font-style: italic;
       color: $color-light-grey;
