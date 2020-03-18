@@ -36,7 +36,7 @@
     var scrollDetect = function(down, up) {
       // Current scroll position
       var currentScroll = scrollTop();
-      if (currentScroll > scrollState && currentScroll > navbarHeight * 2 / 3) {
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
         down();
       } else if (currentScroll < scrollState) {
         up();
