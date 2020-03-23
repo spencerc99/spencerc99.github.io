@@ -63,7 +63,23 @@
                event.preventDefault()
            }
         });
+
     </script>
+    <!-- Enhanced google analytics -->
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', '{{ .Site.GoogleAnalytics }}', 'auto');
+
+        // Additional plugins to use
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
 </head>
 
 <body>

@@ -8,3 +8,6 @@ I've also designed this site to be friendly to sharing and gaining traffic by en
 
 This site is deployed via `deploy.sh` which builds the site and pushes it up to this (repository)[https://github.com/spencerc99/spencerchang.me], which is automatically deployed to "spencerchang.me" via Github Pages.
 
+## Specifics
+### Analytics
+This site is set up with Google Analytics using the Hugo GA shortcode. I also augmented this with (this repo)[https://github.com/googleanalytics/autotrack] which adds additional GA tracking.

@@ -233,12 +233,19 @@ code {
   width: 120px;
   height: 120px;
   margin: 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 
   &.small {
     width: 24px;
     height: 24px;
     margin-left: 5px;
     vertical-align: middle;
+  }
+
+  &:hover, &:active, &:focus {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
