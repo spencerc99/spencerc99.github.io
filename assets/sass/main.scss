@@ -389,7 +389,9 @@ a.internal {
         width: 75vw;
         margin-left: -50vw;
         margin-right: -50vw;
-        left: 75%;
+        // this is a hack to center
+        // some weird stuff happening where only right margin is showing up.
+        left: 85%;
         position: relative;
       }
     }
