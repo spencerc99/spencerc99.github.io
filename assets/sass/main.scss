@@ -105,6 +105,12 @@ p {
   }
 }
 
+* > li {
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+}
+
 h1,
 h2,
 h3,
