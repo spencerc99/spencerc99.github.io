@@ -23,7 +23,7 @@ So it’s a bit of an understatement when I say that learning to be comfortable 
 
 Part of why I was so afraid of the unknown was because I led a sheltered life prior to college. I grew up in Houston, but I stuck to the same places near home and school and didn’t explore new areas. So, I managed to avoid experiencing all the diversity that Houston had to offer, let alone appreciate it. In fact, I hadn’t even had the opportunity to bond with someone my age over shared Chinese culture and heritage and all the common childhood experiences that entails, and as such, never fully explored my own cultural background and differences. Thus, discovering all the loud, proud expressions of personal and cultural identity at Rice was like being doused in a bucket of ice water (unfortunately, the Ice Bucket Challenge was a year too early). I hadn’t encountered radically different ideas and perspectives, so I couldn’t fully comprehend the fact that new approaches that I hadn’t tried could be better. Even my tried and true study habits suddenly were inadequate and required a radically different approach.
 
-{{< figure src="/images/stupid-scholars/icebucket.jpeg" caption="even Rice’s President Leebron did the ice bucket challenge" >}}
+{{< figure src="/images/stupid-scholars/icebucket.jpg" caption="even Rice’s President Leebron did the ice bucket challenge" >}}
 
 I had to learn to open my mind to new experiences, unexpected solutions, and seemingly ridiculous perspectives. I also had to learn to admit my faults, concede long-standing positions, and question basic assumptions. Learning, it turns out, is about questioning and pruning existing knowledge as much as it is acquiring new knowledge and viewpoints.
 
