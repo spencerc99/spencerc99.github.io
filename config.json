@@ -3,6 +3,13 @@
     "languageCode": "en-us",
     "title": "Spencer Chang",
     "googleAnalytics": "UA-159413154-1",
+    "markup": {
+        "goldmark": {
+            "renderer": {
+                "unsafe": true
+            }
+        }
+    },
     "params": {
         "social": [{
                 "name": "Instagram",

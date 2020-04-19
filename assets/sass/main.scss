@@ -18,14 +18,14 @@ $screenMinWidths: (
   smallScreen: $screenSmallMin,
   mediumScreen: $screenMediumMin,
   largeScreen: $screenLargeMin,
-  xlargeScreen: $screenXlargeMin
+  xlargeScreen: $screenXlargeMin,
 );
 
 $screenMaxWidths: (
   xsmallScreen: $screenSmallMin - 1,
   smallScreen: $screenMediumMin - 1,
   mediumScreen: $screenLargeMin - 1,
-  largeScreen: $screenXlargeMin - 1
+  largeScreen: $screenXlargeMin - 1,
 );
 
 // sources
@@ -58,6 +58,28 @@ body {
 
 ::-moz-selection {
   background: $color-highlight; /* Gecko Browsers */
+}
+
+mark {
+  background: $color-highlight;
+}
+
+.pullquote {
+  position: relative;
+  // padding: 1em;
+  margin: 1em;
+  font-size: 18px;
+
+  &:before {
+    content: "“";
+    font-family: "Muli";
+    position: absolute;
+    right: 100%;
+    font-size: 80px;
+    line-height: 0;
+    top: 25px;
+    color: $color-blueberry;
+  }
 }
 
 img {
@@ -107,7 +129,7 @@ p {
 
 * > li {
   &:not(:last-child) {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -249,7 +271,9 @@ code {
     vertical-align: middle;
   }
 
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
@@ -311,12 +335,27 @@ a.internal {
   }
 }
 
+.embedContainer {
+  position: relative;
+  width: 100%;
+  height: 0px;
+  padding-bottom: 56.25%;
+
+  *:first-child {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .summaryList {
   width: 100%;
 }
 
 .postContainer {
-  width: auto;
+  width: 100%;
   margin-top: $navBar-height;
 
   .title {
@@ -397,12 +436,17 @@ a.internal {
         margin-right: -50vw;
         left: 50%;
         position: relative;
-        
+
         // only let the caption expand to 75% of the full viewport width
         p {
           margin: 0 12.5vw;
         }
       }
+    }
+
+    &.embed {
+      display: flex;
+      flex-direction: column;
     }
 
     img {
