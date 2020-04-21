@@ -187,4 +187,4 @@ Resolve to charge into the muddy, messy middle, really *listen* and understand o
 
 This means if you disagreed with me or think I was off base at any point in this post, please [let me know](http://twitter.com/spencerc99)! I would love to hear your perspective and have a conversation that moves us closer to the better answer :)
 
-Thanks to [Avery Jordan](https://medium.com/@averyjordan1) for systematically yanking out my inconsistent structural weeds, to Ameesh Shah for the candid brainstorms, and [Andee Liao](https://medium.com/@andeeliao) for edits and sharing relevant anecdotes.
+Thanks to [Avery Jordan](https://medium.com/@averyjordan1) for systematically yanking out my inconsistent structural weeds, to [Ameesh Shah](https://scholar.google.com/citations?hl=en&user=x_GpAaAAAAAJ) for the candid brainstorms, and [Andee Liao](https://medium.com/@andeeliao) for edits and sharing relevant anecdotes.

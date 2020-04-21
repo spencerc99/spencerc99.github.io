@@ -11,7 +11,7 @@
         content="{{ with .Params.Keywords }}{{ delimit . ", " }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}" />
     <!--— facebook open graph tags -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:title" content="{{.Title}}" />
     <meta property="og:description" content="{{ .Description }}" />
     <meta property="og:image" content="{{ .Params.image | absURL }}" />
@@ -22,7 +22,7 @@
     <meta name="twitter:title" value="{{.Title}}" />
     <meta name="twitter:description" value="{{ .Description }}" />
     <meta name="twitter:image" content="{{ .Params.image | absURL }}" />
-    <meta name="twitter:url" value="{{ .Site.BaseURL }}" />
+    <meta name="twitter:url" value="{{ .Permalink }}" />
     {{ if .IsHome }}
     <!-- twitter card tags additive with the og: tags -->
     <meta name="twitter:label1" value="Currently" />
