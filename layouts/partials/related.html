@@ -1,0 +1,16 @@
+{{ $pageurls := apply (.Params.related | default slice) "string" "." }}
+{{ $linkedPages := slice }}
+{{ range $pageurls }}
+{{ $linkedPages = $linkedPages | append (. | $.Site.GetPage) }}
+{{ end }}
+{{ $related := $linkedPages | union (.Site.RegularPages.Related .) | first 5 }}
+{{ with $related }}
+<h3>See Also</h3>
+<div class="relatedPosts">
+	{{ range . }}
+	<li class="relatedPost">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+	{{ end }}
+</div>
+{{ end }}

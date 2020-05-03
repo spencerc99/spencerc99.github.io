@@ -4,6 +4,8 @@ description: 'What happens when good intentions are lost, everyone wants to be a
 summary: 'What happens when good intentions are lost, everyone wants to be a hero, and the fight against evil spills over into innocents.'
 image: '/images/war-of-intentions/discussion.jpg'
 date: '2020-04-19'
+# related: ['/posts/stupid-scholars']
+# keywords: ['testkeyword']
 ---
 
 {{< figure src="/images/war-of-intentions/discussion.jpg" class="fullWidth" >}}
@@ -122,7 +124,7 @@ Unfortunately, because emotions are heavily involved in these arguments, there i
 
 {{< figure src="/images/war-of-intentions/no-mans-land.png" caption="A depiction of No Man's Land; luckily the ideological analog is not as gloomy (Lucien Jonas, 1927, Library of Congress)" >}}
 
-A pre-requisite to this resolve is having the humility and forethought to deliberately articulate your own assumptions beforehand and actively test them to see if they're up to snuff, [pruning the ones](http://spencerchang.me/posts/stupid-scholars) that don't pass the test. It also means understanding what you are predisposed to believe or categorize in order to supplement counteracting sorts of viewpoints or thinking. Instead of looking for the answer to end all answers, gather specific information within certain contexts and build your arsenal of mental models (the equivalent of tools for your mind) to increase the number of angles you can approach a problem.
+A pre-requisite to this resolve is having the humility and forethought to deliberately articulate your own assumptions beforehand and actively test them to see if they're up to snuff, [pruning the ones](/posts/stupid-scholars) that don't pass the test. It also means understanding what you are predisposed to believe or categorize in order to supplement counteracting sorts of viewpoints or thinking. Instead of looking for the answer to end all answers, gather specific information within certain contexts and build your arsenal of mental models (the equivalent of tools for your mind) to increase the number of angles you can approach a problem.
 
 ## Knowing the Enemy
 

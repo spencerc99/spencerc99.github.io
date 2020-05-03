@@ -11,7 +11,7 @@ image: /images/rice-fields/rice-field.jpeg"
 
 ---
 
-For context, I recently went and lived in Taiwan for a month as a volunteer English teacher. I wrote a piece focusing specifically on the teaching part last week, which you can find [here](https://medium.com/@spencerc99/from-student-to-teacher-taiwan-part-1-b58485f07e4e). In this post, I focus on my experience with actually living in Taiwan, interacting with the people there, and how those affected my relationship and perspective of my culture.
+For context, I recently went and lived in Taiwan for a month as a volunteer English teacher. I wrote a piece focusing specifically on the teaching part last week, which you can find [here](/posts/student-to-teacher). In this post, I focus on my experience with actually living in Taiwan, interacting with the people there, and how those affected my relationship and perspective of my culture.
 
 # Reconnecting with Culture & Community
 
