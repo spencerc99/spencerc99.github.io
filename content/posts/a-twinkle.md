@@ -40,7 +40,7 @@ a grass here, a beetle there, a star out somewhere\
 form quite the coalition in the collective.\
 The most powerful chain reaction system\
 which, try as we might, none have budged,\
-let alone mastered the intricate controls.\
+let alone mastered the intricate controls.
 
 Still, stubborn ball pits we are, we fight.\
 We live, we laugh, we cry;\
@@ -64,6 +64,10 @@ struggling to reach beyond the twinkle at the end of the tunnel,\
 struggling to see the unseeable,\
 struggling to make sense of the unsensable,\
 struggling to stake our claim amongst the unreachable.
+
+<br/>
+
+{{< figure src="/images/a-twinkle/firefly.jpg" caption="Photo by [Kieran White](https://unsplash.com/@kierancwhite?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/twinkle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" >}}
 
 ---
 
