@@ -3,7 +3,7 @@ title: "Stupid Scholars, the Power of Hands, and Free Lunches: Riding Through 4 
 description: "A reflection on my university journey"
 date: "2019-06-02"
 image: "/images/stupid-scholars/rollercoaster.jpeg"
-keywords: ['testkeyword']
+related: []
 ---
 
 {{< figure src="/images/stupid-scholars/rollercoaster.jpeg" class="fullWidth" >}}

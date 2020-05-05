@@ -5,12 +5,20 @@
 {{ end }}
 {{ $related := $linkedPages | union (.Site.RegularPages.Related .) | first 5 }}
 {{ with $related }}
-<h3>See Also</h3>
+<h3>Related Posts</h3>
 <div class="relatedPosts">
-	{{ range . }}
-	<li class="relatedPost">
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </li>
+    {{ range . }}
+    <div class="relatedPost">
+            <a href="{{ .RelPermalink }}" class="relatedLink">
+                <h3>{{ .Title }}</h3>
+                <div class="post summary meta">
+                    <span class="postDate">{{ .Date.Format "Jan 2, 2006" }}</span>
+                </div>
+                <div class="postSummary">
+                    {{ .Description }}
+                </div>
+            </a>
+    </div>
 	{{ end }}
 </div>
 {{ end }}

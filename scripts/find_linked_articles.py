@@ -1,10 +1,13 @@
 import re
 import toml
+import os
+import ast
 from typing import (Set,List, IO, AnyStr)
 
 INTERNAL_ARTICLE_REGEX = re.compile('\(\/[^)]+')
 LINKED_ARTICLES_FIELDNAME = 'related'
 ARTICLE_METADATA_DELIMETER = '---'
+CONTENT_PATH = 'content/posts/'
 
 def parse_linked_articles(lines: List[AnyStr]) -> Set[str]:
     articles = set()
@@ -32,8 +35,8 @@ def upsert_related_articles(filename: str):
                 linked_field_idx = idx + 1
 
         if linked_field_idx:
-            linked_field_line = lines[linked_field_idx].trim()
-            existing_articles = set(list(linked_field_line[linked_field_line.index(':')+1:]))
+            linked_field_line = lines[linked_field_idx].strip()
+            existing_articles = set(ast.literal_eval(linked_field_line[linked_field_line.index(':')+2:]))
             all_articles = existing_articles.union(linked_articles)
             if len(all_articles) == len(linked_articles):
                 # don't write if not needed
@@ -46,3 +49,7 @@ def upsert_related_articles(filename: str):
         f.seek(0)
         f.writelines(lines)
 
+if __name__ == "__main__":
+    for filename in os.listdir(CONTENT_PATH):
+        print(f'Upserting related content for {CONTENT_PATH}{filename}')
+        upsert_related_articles(f'{CONTENT_PATH}{filename}')

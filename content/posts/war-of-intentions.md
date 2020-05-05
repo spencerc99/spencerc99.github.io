@@ -4,8 +4,8 @@ description: 'What happens when good intentions are lost, everyone wants to be a
 summary: 'What happens when good intentions are lost, everyone wants to be a hero, and the fight against evil spills over into innocents.'
 image: '/images/war-of-intentions/discussion.jpg'
 date: '2020-04-19'
-# related: ['/posts/stupid-scholars']
-# keywords: ['testkeyword']
+keywords: ['politics', 'thinking', 'advice']
+related: ['/posts/stupid-scholars']
 ---
 
 {{< figure src="/images/war-of-intentions/discussion.jpg" class="fullWidth" >}}

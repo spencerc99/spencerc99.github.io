@@ -3,6 +3,7 @@ title: "Rice Fields and Murky Identities"
 description: "How an American-born Chinese navigated teaching and living in Taiwan"
 date: "2019-10-06"
 image: /images/rice-fields/rice-field.jpeg"
+related: ['/posts/student-to-teacher']
 ---
 
 {{< figure src="/images/rice-fields/rice-field.jpeg" caption="Rice fields right outside 宜梧 (YiWu) Junior High School during sunset (taken on my Nikon D3400)" class="fullWidth" >}}

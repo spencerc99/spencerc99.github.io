@@ -251,6 +251,76 @@ code {
   font-family: "Raleway";
 }
 
+.relatedPosts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem 1.5rem;
+
+  @include media(xsmallScreen) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.relatedPost {
+  display: flex;
+  flex-direction: column;
+  // padding: 10px;
+  // border: 1px black solid;
+  // border-radius: 6px;
+  // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  //   0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: background-color 0.2s;
+  max-height: 140px;
+  position: relative;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  overflow: hidden;
+
+  & h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $color-link;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  // source: https://github.com/IanLunn/Hover/blob/master/css/hover.css
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: $color-blueberry;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  &:hover {
+    // background-color: $color-highlight;
+    &:before {
+      right: 0;
+    }
+  }
+}
+
+.relatedLink {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .mainContainer {
   margin: 0 20px;
   display: flex;
@@ -349,7 +419,7 @@ a.internal {
 
   *:first-child {
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
