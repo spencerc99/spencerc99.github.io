@@ -578,6 +578,10 @@ blockquote {
   margin-top: 30px;
   max-width: 250px;
 
+  @include media(xsmallScreen) {
+    max-width:150px;
+  }
+
   &.left {
     margin-right: auto;
     text-align: left;
