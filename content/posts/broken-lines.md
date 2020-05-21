@@ -33,4 +33,8 @@ And while it can be a guilty pleasure to peek into this parallel world every onc
 
 The illusion of the seamless line has been broken irrevocably. Who we are from this point forward is very different from who we would've been. How divergent the two paths end up being in the journey and the destination remains to be seen. The only question that's left for us to answer is: Where will our new line lead?
 
+---
 
+If you couldn't tell from the article, I've been experiencing a huge range of emotions during quarantine, and it has been hard to regulate emotions as well as I normally do. If you have stories you'd like to share whether they reflect the same or different experiences, I would love to hear them!
+
+Thanks to [Ameesh Shah](https://scholar.google.com/citations?hl=en&user=x_GpAaAAAAAJ), [Avery Jordan](https://medium.com/@averyjordan1), [Jamie Wong](http://jamie-wong.com/), [Lilly Shi](https://shiwolfblog.wordpress.com/), [Andee Liao](https://medium.com/@andeeliao), and [Nikhil Thota](https://nikhilthota.com/) for reading and giving feedback!
