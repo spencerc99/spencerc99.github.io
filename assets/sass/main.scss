@@ -66,9 +66,8 @@ mark {
 
 .pullquote {
   position: relative;
-  // padding: 1em;
   margin: 1em;
-  font-size: 18px;
+  font-size: 112.5%;
 
   &:before {
     content: "“";
@@ -104,12 +103,14 @@ img {
 }
 
 div {
-  .serif & {
+  .serif &,
+  &.serif {
     font-family: "Playfair Display";
   }
 
-  .mono & {
-    font-family: "Cousine" monospace;
+  .mono &,
+  &.mono {
+    font-family: "Cousine", monospace;
   }
 }
 
@@ -118,7 +119,7 @@ p {
   line-height: 1.6;
 
   .mono & {
-    font-family: "Cousine" monospace;
+    font-family: "Cousine", monospace;
   }
 
   .serif & {
@@ -152,7 +153,7 @@ h6 {
   }
 
   .mono & {
-    font-family: "Cousine" monospace;
+    font-family: "Cousine", monospace;
   }
 }
 
@@ -455,6 +456,9 @@ a.internal {
 
 .postFooter {
   font-weight: bold;
+  color: $color-light-grey;
+  @extend .mono;
+  font-size: 90%;
 }
 
 .postSummaryTitle {
@@ -572,6 +576,27 @@ blockquote {
 .fullContainer {
   display: flex;
   width: 100%;
+}
+
+section.footnotes {
+  & > hr {
+    display:none;
+  }
+
+  &::before {
+    content: "References";
+
+    // copy over default h3 styling
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+    @extend h3;
+  }
 }
 
 .navigation {
