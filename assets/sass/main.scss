@@ -366,6 +366,10 @@ code {
     margin-bottom: 10px;
     text-align: left;
   }
+  
+  ul {
+    margin-top: 6px;
+  }
 }
 
 a {
@@ -497,19 +501,15 @@ a.internal {
       }
     }
 
-    // source: https://gomakethings.com/how-to-break-an-image-out-of-its-parent-container-with-css/
     &.fullWidth {
       img {
-        left: 50%;
-        margin-left: -50vw;
-        margin-right: -50vw;
-        max-width: 100vw;
-        position: relative;
-        right: 50%;
-        width: 100vw;
+        box-shadow: 0 0px 15px 2px rgba(0,0,0,.2), 
+        0 0px 36px -18px rgba(0,0,0,.22);
       }
-
+      
+      // source: https://gomakethings.com/how-to-break-an-image-out-of-its-parent-container-with-css/
       figcaption {
+        // allow this div to take up full screen width
         max-width: 100vw;
         width: 100vw;
         margin-left: -50vw;
@@ -520,6 +520,28 @@ a.internal {
         // only let the caption expand to 75% of the full viewport width
         p {
           margin: 0 12.5vw;
+        }
+      }
+
+      // allow image to grow to 3/4 of viewport.
+      // at 800 = 600 (viewport width) * 4/3 (inverse of ratio below),
+      // revert to normal sizing since it 75% of viewport will be smaller than normal sizing.
+      @media(min-width: 801px) {
+        img {
+          left: 50%;
+          margin-left: -37.5vw;
+          margin-right: -37.5vw;
+          max-width: 75vw;
+          position: relative;
+          right: 50%;
+          width: 100vw;
+          min-width: $viewport-width;
+        }
+
+        // only let the caption expand to 75% of 75% of full viewport width
+        // since we are constraining the image to 75% of viewport above.
+        figcaption p {
+          margin: 0 25vw;
         }
       }
     }
@@ -682,4 +704,8 @@ section.footnotes {
 
 #rice {
   color: #00205b;
+}
+
+ul.noPadding {
+  padding-left: 18px;
 }
