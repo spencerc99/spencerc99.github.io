@@ -41,6 +41,22 @@ $screenMaxWidths: (
   }
 }
 
+@mixin image-dropshadow() {
+  box-shadow: 0 0px 15px 2px rgba(0,0,0,.2), 
+        0 0px 36px -18px rgba(0,0,0,.22);
+}
+
+@mixin extend-width() {
+  left: 50%;
+  margin-left: -37.5vw;
+  margin-right: -37.5vw;
+  max-width: 75vw;
+  position: relative;
+  right: 50%;
+  width: 100vw;
+  min-width: $viewport-width;
+}
+
 body {
   font-family: "Muli";
   display: flex;
@@ -492,7 +508,7 @@ a.internal {
     margin-left: 0;
     margin-right: 0;
 
-    &:not(.fullWidth) {
+    &:not(.fullWidth):not(.gallery-item) {
       display: table;
       margin: auto;
 
@@ -502,10 +518,10 @@ a.internal {
       }
     }
 
-    &.fullWidth {
+    // make more specific than img tag below.
+    &.fullWidth.fullWidth {
       img {
-        box-shadow: 0 0px 15px 2px rgba(0,0,0,.2), 
-        0 0px 36px -18px rgba(0,0,0,.22);
+        @include image-dropshadow();
       }
       
       // source: https://gomakethings.com/how-to-break-an-image-out-of-its-parent-container-with-css/
@@ -529,14 +545,7 @@ a.internal {
       // revert to normal sizing since it 75% of viewport will be smaller than normal sizing.
       @media(min-width: 801px) {
         img {
-          left: 50%;
-          margin-left: -37.5vw;
-          margin-right: -37.5vw;
-          max-width: 75vw;
-          position: relative;
-          right: 50%;
-          width: 100vw;
-          min-width: $viewport-width;
+          @include extend-width();
         }
 
         // only let the caption expand to 75% of 75% of full viewport width
@@ -547,12 +556,13 @@ a.internal {
       }
     }
 
-    &.embed {
+    &.embed.embed {
       display: flex;
       flex-direction: column;
+      align-items: center;
     }
 
-    img {
+    img:not(.galleryImage) {
       max-width: 100%;
       display: flex;
       margin: auto;
@@ -709,4 +719,62 @@ section.footnotes {
 
 ul.noPadding {
   padding-left: 18px;
+}
+
+.galleryContainer {
+  @media(min-width: 801px) {
+    @include extend-width();
+  }
+}
+
+.galleryCaption {
+  font-size: 90%;
+  font-style: italic;
+  color: $color-light-grey;
+  text-align: right;
+  
+  @include media(xsmallScreen) {
+    float: none;
+    text-align:center;
+  }
+}
+
+// Masonry code
+.gallery {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+
+  column-count: 4;
+  column-gap: 0.2rem;
+  width: 100%;
+
+  /* Extra Small Devices, Phones */ 
+  @include media(xsmallScreen) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Small Devices, Tablets */
+  @include media(smallScreen) {
+    column-count: 2;
+    column-gap: 3px;
+  }
+
+  @include media(mediumScreen) {
+    column-count: 3;
+    column-gap: 3px;
+  }
+  
+  img {
+    max-width: 100%;
+    @include image-dropshadow();
+  }
+}
+
+.gallery-item { /* Masonry bricks or child elements */
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 0.2rem;
+  width: auto;
 }
