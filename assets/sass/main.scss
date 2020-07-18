@@ -740,6 +740,11 @@ ul.noPadding {
   }
 }
 
+// Photoswipe, hide download button
+.pswp__share-tooltip a.pswp__share--download { 
+    display:none;
+}
+
 // Masonry code
 .gallery {
   width: 100%;
