@@ -5,7 +5,7 @@ $color-lighter-grey: rgba(112, 128, 144, 0.25);
 $color-blueberry: #6b7a8f;
 $color-link: #fea680;
 $color-highlight: #fef4ad;
-$color-light-peach: #fff9ef;
+$color-light-peach: #fffcf7;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 $screenXsmallMin: 320px;
@@ -67,6 +67,7 @@ body {
   color: #282828;
   margin-left: 16px;
   margin-right: 16px;
+  background: $color-light-peach;
 }
 
 ::selection {
