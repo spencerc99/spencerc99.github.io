@@ -15,8 +15,8 @@ related: ['/posts/stupid-scholars']
 The other day, I came across this juicy [thread on Twitter](https://twitter.com/cyantist/status/1233898149153927168) ([2](https://twitter.com/EricaMighetto/status/1234221363734310912)) (yeah, I'm on [twitter](http://twitter.com/@spencerc99) now if you didn't know). Two people, who started with a disagreement about minimum wage, had a back and forth that quickly escalated into personal attacks and a warzone as opinionated scrollersby joined the fray. By the time I arrived, the initial disagreement was buried so deep I had to do some dedicated snooping just to understand how it started and what it was about. It got me thinking: how did this happen? How does a simple disagreement morph into an all out Hunger Games-esque brawl?
 
 <figure class="embed">
-<blockquote class="twitter-tweet" data-dnt="true" data-theme="light" align="center"><p lang="en" dir="ltr">You absolutely are and I know it. Marinate on it for a while. Go ask a person poorer than yourself if they’d be thrilled to have your car and your position for some actual perspective. You speak from an absolute place of privilege. Many people don’t even have a damn car.</p>&mdash; Cyan (@cyantist) <a href="https://twitter.com/cyantist/status/1234222184056229888?ref_src=twsrc%5Etfw">March 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<figcaption><p>a particularly juicy excerpt</p></figcaption>
+    {{< tweet 1234222184056229888 >}}
+    <figcaption><p>a particularly juicy excerpt</p></figcaption>
 </figure>
 
 This kind of thing doesn't just happen on Twitter (although it is a lot more frequent and pervasive in online communities compared to real life)ーI'm sure you can think of a time in your workplace where you've seen two people talk past each other until the original point of contention is lost and they're left arguing for the sake of arguing. We recognize it because it's something that we have all done at some point in our lives, even as we joke about how stupid it is when we see other people doing it.
@@ -138,9 +138,10 @@ It's important to be careful about taking this to the extreme (if you ever have 
 
 While a straw man helps us to feel good, it only worsens our ability to persuade and defeat the other side. What if, instead, we decided to actually listen to what our opponents are saying? I know, crazy idea, right? It's easy for people to "listen." Usually, when people say they're listening it means they are listening to respond. Instead of being fully present for what the other person is communicating and internalizing their point of view, a significant part of our mind is turned inward, working to extract which statements to fight back on. We've turned someone with an opinion of their own into another opportunity for us to dispense our knowledge.
 
+
 <figure class="embed">
 <div class="embedContainer">
-<iframe  src="https://www.youtube-nocookie.com/embed/eyC_NKEz62A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {{< youtube eyC_NKEz62A >}}
 </div>
 <figcaption><p>listening to respond to the extreme (note how listening feels like a misnomer)</p></figcaption></figure>
 
