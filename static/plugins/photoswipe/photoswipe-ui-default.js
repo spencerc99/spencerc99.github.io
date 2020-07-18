@@ -243,7 +243,9 @@ var PhotoSwipeUI_Default =
 				shareButtonOut += '<a href="' + shareURL + '" target="_blank" '+
 									'class="pswp__share--' + shareButtonData.id + '"' +
 									(shareButtonData.download ? 'download' : '') + '>' + 
-									shareButtonData.label + '</a>';
+                  shareButtonData.label + '</a>';
+
+        // TODO: add button that links to collection page / place to buy print.
 
 				if(_options.parseShareButtonOut) {
 					shareButtonOut = _options.parseShareButtonOut(shareButtonData, shareButtonOut);
