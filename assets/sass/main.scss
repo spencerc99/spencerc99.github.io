@@ -42,8 +42,8 @@ $screenMaxWidths: (
 }
 
 @mixin image-dropshadow() {
-  box-shadow: 0 0px 15px 2px rgba(0,0,0,.2), 
-        0 0px 36px -18px rgba(0,0,0,.22);
+  box-shadow: 0 0px 15px 2px rgba(0, 0, 0, 0.2),
+    0 0px 36px -18px rgba(0, 0, 0, 0.22);
 }
 
 @mixin extend-width() {
@@ -87,7 +87,7 @@ mark {
   margin: 1em;
   font-size: 112.5%;
 
-  &:before {
+  &::before {
     content: "“";
     font-family: "Muli";
     position: absolute;
@@ -165,6 +165,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway";
+  position: relative;
 
   .serif & {
     font-family: "Playfair Display";
@@ -384,7 +385,7 @@ code {
     margin-bottom: 10px;
     text-align: left;
   }
-  
+
   ul {
     margin-top: 6px;
   }
@@ -524,7 +525,7 @@ a.internal {
       img {
         @include image-dropshadow();
       }
-      
+
       // source: https://gomakethings.com/how-to-break-an-image-out-of-its-parent-container-with-css/
       figcaption {
         // allow this div to take up full screen width
@@ -544,7 +545,7 @@ a.internal {
       // allow image to grow to 3/4 of viewport.
       // at 800 = 600 (viewport width) * 4/3 (inverse of ratio below),
       // revert to normal sizing since it 75% of viewport will be smaller than normal sizing.
-      @media(min-width: 801px) {
+      @media (min-width: 801px) {
         img {
           @include extend-width();
         }
@@ -614,7 +615,7 @@ blockquote {
 
 section.footnotes {
   & > hr {
-    display:none;
+    display: none;
   }
 
   &::before {
@@ -638,7 +639,7 @@ section.footnotes {
   max-width: 250px;
 
   @include media(xsmallScreen) {
-    max-width:150px;
+    max-width: 150px;
   }
 
   &.left {
@@ -723,7 +724,7 @@ ul.noPadding {
 }
 
 .galleryContainer {
-  @media(min-width: 801px) {
+  @media (min-width: 801px) {
     @include extend-width();
   }
 }
@@ -733,16 +734,16 @@ ul.noPadding {
   font-style: italic;
   color: $color-light-grey;
   text-align: right;
-  
+
   @include media(xsmallScreen) {
     float: none;
-    text-align:center;
+    text-align: center;
   }
 }
 
 // Photoswipe, hide download button
-.pswp__share-tooltip a.pswp__share--download { 
-    display:none;
+.pswp__share-tooltip a.pswp__share--download {
+  display: none;
 }
 
 // Masonry code
@@ -755,7 +756,7 @@ ul.noPadding {
   column-gap: 0.2rem;
   width: 100%;
 
-  /* Extra Small Devices, Phones */ 
+  /* Extra Small Devices, Phones */
   @include media(xsmallScreen) {
     display: flex;
     flex-direction: column;
@@ -771,16 +772,33 @@ ul.noPadding {
     column-count: 3;
     column-gap: 3px;
   }
-  
+
   img {
     max-width: 100%;
     @include image-dropshadow();
   }
 }
 
-.gallery-item { /* Masonry bricks or child elements */
+.gallery-item {
+  /* Masonry bricks or child elements */
   background-color: #eee;
   display: inline-block;
   margin: 0 0 0.2rem;
   width: auto;
+}
+
+// header permalinks
+.anchor {
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  height: 100%;
+  background: transparent;
+  width: 100%;
 }
