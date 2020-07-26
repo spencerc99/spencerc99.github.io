@@ -32,6 +32,6 @@
     {{.Content}}
 </div>
 <div class="summaryList">
-  {{ range first 10 .Site.RegularPages }} {{ .Render "summary" }} {{ end }}
+  {{ range .Site.RegularPages }} {{ .Render "summary" }} {{ end }}
 </div>
 {{ end }}

@@ -99,6 +99,29 @@ mark {
   }
 }
 
+.calloutBlock {
+  background-color: #eaf5f0;
+  padding: 1em 2em;
+  border: 1px solid #52afbb;
+  border-radius: 8px;
+
+  span {
+    position: relative;
+    line-height: 1.4;
+
+    &::before {
+      content: "❓";
+      font-family: "Muli";
+      position: absolute;
+      right: 100%;
+      font-size: 120%;
+      line-height: 0;
+      top: 10px;
+      margin-right: 6px;
+    }
+  }
+}
+
 section.footnotes {
   ol {
     padding-left: 1rem;
@@ -721,6 +744,12 @@ section.footnotes {
 
 ul.noPadding {
   padding-left: 18px;
+}
+
+.subscribe {
+  max-width: $viewport-width;
+  width: 80%;
+  margin: auto;
 }
 
 .galleryContainer {
