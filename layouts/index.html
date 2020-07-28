@@ -31,7 +31,9 @@
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     {{.Content}}
 </div>
+{{ template "_internal/pagination.html" . }}
 <div class="summaryList">
-  {{ range .Site.RegularPages }} {{ .Render "summary" }} {{ end }}
+  {{ $paginator := .Paginate .Site.RegularPages }}
+  {{ range $paginator.Pages }} {{ .Render "summary" }} {{ end }}
 </div>
 {{ end }}
