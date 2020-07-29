@@ -3,11 +3,11 @@ title: "George Floyd"
 description: "Sharing the photos from the protest I attended last week."
 image: 'posts/george-floyd/images/1-20200603-DSC_7875.jpg'
 date: "2020-06-07"
-related: []
 resources: 
 - src: "images/*.jpg"
   name: images-:counter
   title: images-title-:counter
+related: []
 ---
 
 {{< gallery folder="images" title="SF George Floyd Protest 06/03" caption="for more see my [instagram](https://www.instagram.com/spencerchang.photography/)" >}}

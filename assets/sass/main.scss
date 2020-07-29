@@ -757,6 +757,18 @@ ul.noPadding {
   @media (min-width: 801px) {
     @include extend-width();
   }
+
+  &.centered {
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    .galleryCaption {
+      text-align:center;
+    }
+  }
 }
 
 .galleryCaption {

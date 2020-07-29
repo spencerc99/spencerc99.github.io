@@ -4,6 +4,7 @@ description: "When the progress of things is broken by catastrophe"
 image: '/images/broken-lines/logs.jpg'
 date: "2020-05-20"
 keywords: ['coronavirus', 'world', 'society', 'culture']
+related: []
 ---
 
 {{< figure src="/images/broken-lines/logs.jpg" class="fullWidth" caption="a stack of logs on a Napa trip ([for more photos](https://www.instagram.com/spencerchang.photography/))" >}}
