@@ -6,6 +6,7 @@ $color-blueberry: #6b7a8f;
 $color-link: #fea680;
 $color-highlight: #fef4ad;
 $color-light-peach: #fffcf7;
+$color-dark-blue-grey: #5f6580;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 $screenXsmallMin: 320px;
@@ -57,6 +58,10 @@ $screenMaxWidths: (
   min-width: $viewport-width;
 }
 
+@mixin quote-font() {
+  font-family: "Crimson Text";
+}
+
 body {
   font-family: "Muli";
   display: flex;
@@ -85,7 +90,9 @@ mark {
 .pullquote {
   position: relative;
   margin: 1em;
-  font-size: 112.5%;
+  color: $color-dark-blue-grey;
+  font-size: 125%;
+  @include quote-font();
 
   &::before {
     content: "“";
@@ -488,6 +495,7 @@ a.internal {
 
   .description {
     color: $color-light-grey;
+    margin-top: 8px;
   }
 
   h3:first-child {
@@ -755,7 +763,9 @@ ul.noPadding {
 
 .galleryContainer {
   @media (min-width: 801px) {
-    @include extend-width();
+    &.fullWidth {
+      @include extend-width();
+    }
   }
 
   &.centered {
@@ -763,6 +773,11 @@ ul.noPadding {
       display: flex;
       justify-content: center;
       flex-direction: row;
+
+      figure {
+        display: flex;
+        align-items: center;
+      }
     }
 
     .galleryCaption {

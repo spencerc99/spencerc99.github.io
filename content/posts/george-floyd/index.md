@@ -10,7 +10,7 @@ resources:
 related: []
 ---
 
-{{< gallery folder="images" title="SF George Floyd Protest 06/03" caption="for more see my [instagram](https://www.instagram.com/spencerchang.photography/)" >}}
+{{< gallery folder="images" title="SF George Floyd Protest 06/03" caption="for more see my [instagram](https://www.instagram.com/spencerchang.photography/)" fullWidth=true >}}
 
 This week should have felt like another rude awakening for those of us who have rarely had to think about the problems in our criminal justice system and how our country handles protecting our communities. As a friend relayed to me, “privilege is being able to take a break from all of this” (credit to [May Zhong](https://www.instagram.com/may_takes_shots/)). We should feel tired, uncomfortable, and frustrated just as we should’ve felt the many past times the face of injustice in our treatment of the Black community has reared its head in our faces. However, the massive turnout and care demonstrated by protesters, distributing water, snacks, and masks, instilled a sense of guarded optimism in me that material structural changes are possible and a general amazement at our willingness as a people to stand up for what is right when a few others donate their voices to championing a better future.
 

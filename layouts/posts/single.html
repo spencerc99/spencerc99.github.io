@@ -3,13 +3,13 @@
 {{ end }} 
 {{ define "main"}}
 <div class="postContainer {{ with .Params.storyType }} {{ . }} {{ end }}">
-  <h1 class="title">{{ .Title }}</h1>
   <div class="post meta">
     <!-- TODO: make the date linkable -->
     <span class="postDate">{{ .Date.Format "January 2, 2006" }}</span>
   </div>
+  <h1 class="title">{{ .Title }}</h1>
+  <h3 class="description">{{ .Description }}</h3>
   <div>
-    <h3 class="description">{{ .Description }}</h3>
     <article class="postContent">
       {{ with .Params.external_link }}
       <p>This post was originally published <a href="{{.}}">somewhere else</a>.</p>
