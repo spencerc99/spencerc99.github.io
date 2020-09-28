@@ -1,7 +1,7 @@
 ---
 title: "Making the World a Better Place: When Delusion Becomes Dissonance"
 description: "A critical re-evaluation of the tenets of Silicon Valley and an exploration of society and identity."
-image: 'posts/george-floyd/images/fog.jpg'
+image: 'posts/better-world-delusion/images/fog.jpg'
 date: "2020-09-26"
 resources: 
 - src: "images/salesforce/*.png"
