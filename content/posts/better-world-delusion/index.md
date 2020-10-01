@@ -28,7 +28,7 @@ On my flight to San Francisco for my first tech internship, I felt close to burs
 
 {{< gallery folder="bridge" caption="*Where else can you find all these nice bridges? (photo credit* [*spencerchang.photography*](https://www.instagram.com/spencerchang.photography/)*)*" centered=true fullWidth=true resizeHeight=true resizeSize=480 >}}
 
-As I settled in, I followed all the rules to *get in* to this heaven-on-earth where my dreams could be realized in a socially acceptable manner: I beefed up my LinkedIn and prepared questions for the executive Q&As, I drank my cold-pressed juice smoothies, fresh daily from the smoothie bar on the 10th floor[^1], I thrived in the lushness of the manicured nature just a short drive away. It was all part of my master plan to adapt myself to the clever, carefree, and mission-driven attitude that my idols projected, the same attitude that was now the gold standard for all in the Valley.
+As I settled in, I followed all the rules to *get in* to this heaven-on-earth where my dreams could be realized in a socially acceptable manner: I beefed up my LinkedIn and prepared questions for the executive Q&As, I drank my cold-pressed juice smoothies, fresh daily from the smoothie bar on the ~~10th~~ 9th floor[^1], I thrived in the lushness of the manicured nature just a short drive away. It was all part of my master plan to adapt myself to the clever, carefree, and mission-driven attitude that my idols projected, the same attitude that was now the gold standard for all in the Valley.
 
 I felt myself improving—felt myself getting better at the game. Doors were opening, and the squishy imaginary reality I strove towards was feeling more solid by the second. I was making progress towards my dream, so why did I feel a marked lack of satisfaction?
 
@@ -60,6 +60,6 @@ So where does this leave my story and motivations? My identity and purpose are c
 Thanks to [Jamie Wong](http://jamie-wong.com/), [Ameesh Shah](https://scholar.google.com/citations?hl=en&user=x_GpAaAAAAAJ), [Andee Liao](https://medium.com/@andeeliao), [Nikhil Thota](http://nikhilthota.com), [Avery Jordan](https://medium.com/@averyjordan1), and [Lucy Lai](https://lucyblogs.wordpress.com/) for their thoughts and comments! </br>
 inspired by this [piece on SF](https://twitter.com/noampomsky/status/1296519596942401536) by [Ava](https://twitter.com/noampomsky).
 
-[^1]: One of the best perks of working at Square
+[^1]: One of the best perks of working at Square. I've also been informed by Sal, my former coworker and fellow Rice alum, that my memory has failed me on the correct floor number.
 [^2]: [Brian Stevenson](https://www.youtube.com/watch?v=1RyAwZIHo4Y) at the Equal Justice Initiative champions this term as one of the main solutions for addressing racial inequity in American society by getting “proximate” with the marginalized, excluded, and poor.
 
