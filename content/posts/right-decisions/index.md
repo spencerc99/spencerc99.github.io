@@ -7,6 +7,7 @@ resources:
 - src: "images/bread/*.jpg"
   name: images-:counter
   title: images-title-:counter
+keywords: ['decisions']
 related: ['/posts/rice-fields', '/posts/war-of-intentions', '/posts/student-to-teacher']
 ---
 

@@ -62,7 +62,7 @@ if __name__ == "__main__":
     for filename in os.listdir(CONTENT_PATH):
         if '.DS_Store' in filename:
             continue
-        print(f'Upserting related content for {CONTENT_PATH}{filename}')
         if os.path.isdir(f'{CONTENT_PATH}{filename}'):
             filename = f'{filename}/index.md'
+        print(f'Upserting related content for {CONTENT_PATH}{filename}')
         upsert_related_articles(f'{CONTENT_PATH}{filename}')

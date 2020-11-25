@@ -10,6 +10,7 @@ resources:
 - src: "images/bridge/*.jpg"
   name: bridge-:counter
   title: bridge-title-:counter
+keywords: ['decisions', 'existentialist']
 related: []
 ---
 {{< figure src="images/fog.jpg" caption="*a beach along Route 1 covered by the fog (photo credit [spencerchang.photography](https://www.instagram.com/spencerchang.photography/))*" class="fullWidth" >}}
