@@ -405,6 +405,22 @@ code {
   }
 }
 
+
+.sidebar {
+  position: absolute;
+  left: 10vh;
+  margin: auto 0;
+  display: flex;
+  height: 100vh;
+  margin-top: 10vh;
+  flex-direction: column;
+
+  a {
+    color: $color-blueberry;
+    cursor:pointer;
+  }
+}
+
 .headerContainer {
   max-width: 490px;
   text-align: center;
