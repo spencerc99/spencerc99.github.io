@@ -7,7 +7,7 @@
             <a href="{{ .Params.external_link }}" target="_blank">{{ .Title }}</a><i class='uil uil-arrow-up-right'></i>
         <!-- Else show internal post page -->
         {{ else }}
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
         {{ with .Params.icon }} 
             <i class="{{.}}"></i>

@@ -63,7 +63,11 @@
         // navigator.clipboard doesn't have 100% browser support so let fall through otherwise.
         navigator.clipboard.writeText(clone.href);
       };
-      el.insertBefore(clone, el.firstChild);
+      let elementContent = document.createElement("span")
+      elementContent.className = "postHeaderLink"
+      el.appendChild(elementContent);
+      elementContent.appendChild(el.firstChild);
+      el.insertBefore(clone, elementContent);
       count = count + 1;
     });
   }
