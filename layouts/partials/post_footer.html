@@ -1,6 +1,6 @@
 <!-- TODO: if you add side scrolling for links and stuff remove this. -->
 <div class="postFooter">
-  Follow me on <a href="https://twitter.com/spencerc99/">Twitter</a> (or submit your email below) for updates
+  Submit your email below (or <a href="/index.xml">RSS</a> if you prefer) or follow me on <a href="https://twitter.com/spencerc99/">Twitter</a> for updates
   on my writing ✍️, follow me on 
   <a href="https://www.instagram.com/spencerchang.photography/">Instagram</a> to
   see my photos 📸, or see how I'm doing on my
@@ -29,7 +29,7 @@
 <div class="fullContainer">
     {{ with .PrevInSection }}
     <div class="navigation left">
-        <a class="previous" href="{{.Permalink}}"> 
+        <a class="previous" href="{{.RelPermalink}}"> 
             <i class='uil uil-enter'></i>
             <h3>{{.Title}}</h3>
         </a>
@@ -37,7 +37,7 @@
     {{ end }}
     {{ with .NextInSection }}
     <div class="navigation right">
-        <a class="previous" href="{{.Permalink}}"> 
+        <a class="previous" href="{{.RelPermalink}}"> 
             <h3>{{.Title}}</h3>
             <i class='uil uil-corner-down-right-alt'></i>   
         </a>
