@@ -261,7 +261,7 @@ code {
     margin: 0 5px;
   }
 
-  a {
+  a:not(.socialMediaLink) {
     color: $color-blueberry !important;
   }
 
@@ -440,7 +440,7 @@ a[href^="http"]:not(.relatedLink):not(.socialMediaLink):not(.anchor) {
 }
 
 // internal links
-a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor) {
+a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.avatarLink) {
   color: $color-link;
   text-decoration: none;
   transition: background-color 0.25s ease-in-out;
