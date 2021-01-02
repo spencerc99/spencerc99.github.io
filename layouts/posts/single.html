@@ -5,7 +5,8 @@
 <div class="postContainer {{ with .Params.storyType }} {{ . }} {{ end }}">
   <div class="post meta">
     <!-- TODO: make the date linkable -->
-    <span class="postDate">{{ .Date.Format "January 2, 2006" }}</span>
+    <span class="postDate">{{ .Date.Format "01.02.2006" }}</span>
+    <!-- TODO: add other metadata like location and time and song with icons -->
   </div>
   <h1 class="title">{{ .Title }}</h1>
   <h3 class="description">{{ .Description }}</h3>
