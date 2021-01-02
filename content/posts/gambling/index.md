@@ -1,12 +1,15 @@
 ---
 title: "Gambling on Dreams"
 description: "✌️2020 | 👋2021."
-image: 'posts/gambling/images/bestof2020/20200909-DSC_0308.jpg'
+image: 'posts/gambling/images/apocalypse.jpg'
 date: "2021-01-01"
 resources: 
 - src: "images/bestof2020/*.jpg"
-  name: bestof2020-:counter
+  name: bestof2020
   title: bestof2020-title-:counter
+- src: "images/moments/*.png"
+  name: moments
+  title: moments-title-:counter
 related: ['/posts/a-twinkle', '/posts/crowdsourced-birthday-recs', '/posts/george-floyd', '/posts/dilution', '/posts/better-world-delusion', '/posts/discovering']
 ---
 A vibration ripples out from my phone. It’s a message from a classmate asking about my rooming plans for next semester with a not-so-subtle suggestion at a better option. I’m nearing the end of my first year in college, and having been successful at my quest to fit in, I’m tempted to change as little as possible to keep the good things going. The proposal to room with someone new (who I knew from the very intimate experience of recognizing their face across the dining hall every once in a while) was both an opportunity and a risk. It *could* be the start of a beautiful new relationship, or it could be the unremarkable beginning to a year of pain and troubles. I remember taking a few days to consider the offer but not having a strong conviction either way. Perhaps it truly was a quintessential “f-it” moment where my instincts momentarily held sway over my body that forked of a new branch in my life. It turned out to be a golden opportunity as that mysterious dining-hall person became one of my closest friends. It *could’ve* turned out poorly, but it ended up being one of the most impactful events to the direction of my life.
@@ -18,7 +21,7 @@ A vibration ripples out from my phone. It’s a message from a classmate asking 
 Last year this time I was on the deck of a vessel headed towards the edge of the world as I explored the concept of exploration and made a commitment to [*doing more than thinking*](/posts/discovering/) in 2020. Right now, I'm sitting in my kitchen clacking away on my laptop with a small porcelain bowl of leftover duck fried rice, slightly steaming from the microwave, wondering when a time for free exploration of what the world has to offer will come again. Suffice it to say that this year’s conditions didn’t prove to be very conducive to the goals I gave myself in line with the exploration theme, such as having a conversation with a stranger every day. Yet despite all the twists and turns, I can’t imagine being anything but grateful for how my life has been relatively unscathed from the turmoils of the world. I’ve been able to keep a job that affords me the opportunity to grow and learn and impact, treasure time with my family and friends, and stretch my creative boundaries. The only feeling that continues to weigh on my mind is one of “what if.” What if the U.S. had leveraged its brilliant scientists and dedicated civil servants in combination with early warnings to combat the virus quickly and effectively? What if people and communities could come together, casting aside differences to support each other, in a time of need instead of fanning the flames while an existential, uncaring threat bore down on society? What if I hadn’t held myself back from experiencing everything I wanted before that freedom was taken away?
 
 
-{{< figure src="images/bestof2020/20200909-DSC_0308.jpg" caption="*an unforgettable day in San Francisco during wildfires that can only be interpreted as the apocalypse (see more [here](http://gram.com/spencerchang.photography/))*" class="fullWidth" >}}
+{{< figure src="images/apocalypse.jpg" caption="*an unforgettable day in San Francisco during wildfires that can only be interpreted as the apocalypse (see more [here](http://gram.com/spencerchang.photography/))*" class="fullWidth" >}}
 
 
 A series of what ifs, uncontrollable and controllable, is what followed me into my yearly reflection[^1], and I came out of it with a single word to define my next year:
@@ -76,6 +79,8 @@ This year, I stretched my creative limits by exploring new styles of editing and
     - road trip across the country!
     - went to a [protest](/posts/george-floyd)
     - the prophecy (a heart-attack-inducing fantasy from college involving a Taco Bell cheesy gordita crunch stuffed with a Raising Canes finger)
+
+{{< gallery folder="moments" caption="*moments of the year*" resizeHeight=true resizeSize=200 centered=true >}}
 
 With gratitude, love, and a flair of recklessness,\
 Spencer
