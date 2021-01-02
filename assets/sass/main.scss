@@ -829,6 +829,7 @@ ul.noPadding {
       display: flex;
       justify-content: center;
       flex-direction: row;
+      flex-wrap: wrap;
 
       figure {
         display: flex;
@@ -839,6 +840,12 @@ ul.noPadding {
     .galleryCaption {
       text-align:center;
     }
+  }
+
+  // for now, don't display the caption in the gallery outside of photoswipe.
+  // eventually can add an optional hover effect to show it.
+  .galleryImageCaption {
+    display:none;
   }
 }
 
