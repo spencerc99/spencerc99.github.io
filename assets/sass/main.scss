@@ -8,6 +8,7 @@ $color-external-link: #62b3b2;
 $color-highlight: #fef4ad;
 $color-light-peach: #fffcf7;
 $color-dark-blue-grey: #5f6580;
+$color-light-lavender: rgb(250, 248, 254);
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 $screenXsmallMin: 320px;
@@ -104,6 +105,21 @@ mark {
     line-height: 0;
     top: 25px;
     color: $color-blueberry;
+  }
+  
+  // background coloring
+  &::after {
+    content: "";
+    width: $viewport-width + 50px;
+    height: 110%;
+    background: $color-light-lavender;
+    display: block;
+    position: absolute;
+    top: -5%;
+    z-index: -1;
+    left: -50px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,.1);
   }
 }
 
@@ -795,7 +811,8 @@ ul.noPadding {
 
 .subscribe {
   max-width: $viewport-width;
-  width: 80%;
+  width: 100%;
+  height: 180px;
   margin: auto;
   display: flex;
 }

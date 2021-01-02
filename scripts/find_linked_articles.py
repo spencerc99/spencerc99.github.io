@@ -23,6 +23,8 @@ def parse_linked_articles(lines: List[AnyStr]) -> Set[str]:
         matches = re.findall(INTERNAL_ARTICLE_REGEX, line)
         for match in matches:
             linked_post = match[1:]
+            if linked_post == '/posts':
+                continue
             cleaned_linked_post = clean_internal_link(linked_post)
             articles.add(cleaned_linked_post)
 
