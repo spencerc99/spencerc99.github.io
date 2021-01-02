@@ -30,10 +30,10 @@
                 "url": "https://github.com/spencerc99/"
             },
             {
-                "name": "LinkedIn",
-                "imgSrc": "/assets/linkedin.svg",
-                "class": "uil-linkedin",
-                "url": "https://www.linkedin.com/in/spencerchang1/"
+                "name": "Newsletter",
+                "imgSrc": "/assets/newsletter.svg",
+                "class": "uil-mailbox",
+                "url": "https://spencerchang.substack.com/"
             },
             {
                 "name": "Live Monitor",
