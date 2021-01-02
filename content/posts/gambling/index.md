@@ -1,6 +1,6 @@
 ---
 title: "Gambling on Dreams"
-description: "Putting everything on the line to play the game."
+description: "✌️2020 | 👋2021."
 image: 'posts/gambling/images/bestof2020/20200909-DSC_0308.jpg'
 date: "2021-01-01"
 resources: 
