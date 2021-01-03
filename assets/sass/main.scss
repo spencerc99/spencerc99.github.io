@@ -110,7 +110,9 @@ mark {
   // background coloring
   &::after {
     content: "";
-    width: $viewport-width + 50px;
+    max-width: $viewport-width + 50px;
+    left: -30%;
+    width: 100vh;
     height: 110%;
     background: $color-light-lavender;
     display: block;
