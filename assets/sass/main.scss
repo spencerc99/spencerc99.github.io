@@ -75,6 +75,7 @@ body {
   margin-left: 16px;
   margin-right: 16px;
   background: $color-light-peach;
+  overflow-x: none;
 }
 
 ::selection {
@@ -111,15 +112,14 @@ mark {
   &::after {
     content: "";
     max-width: $viewport-width + 50px;
-    left: -30%;
-    width: 100vh;
+    left: -50px;
+    width: 100vw;
     height: 110%;
     background: $color-light-lavender;
     display: block;
     position: absolute;
     top: -5%;
     z-index: -1;
-    left: -50px;
     border-radius: 8px;
     box-shadow: 1px 1px 4px 1px rgba(0,0,0,.1);
   }
