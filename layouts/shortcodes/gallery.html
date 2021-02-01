@@ -6,6 +6,7 @@
 {{ $shouldMakeSquare := .Get "shouldMakeSquare" | string | default "false" }}
 {{ $resizeOneDimensionInput := cond (eq (.Get "resizeHeight") "") (printf "%sx" $resizeSize) (printf "x%s" $resizeSize) }}
 <div class="galleryContainer {{ $centered }} {{ $fullWidth }}">
+    <div class="galleryContentContainer">
     {{ with .Get "title" }}
     <h4>{{ . }}</h4>
     {{ end }}
@@ -39,4 +40,5 @@
     {{ with .Get "caption" }}
     <div class="galleryCaption">{{ . | markdownify }}</div>
     {{ end }}
+    </div>
 </div>

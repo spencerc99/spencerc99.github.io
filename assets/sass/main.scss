@@ -9,6 +9,9 @@ $color-highlight: #fef4ad;
 $color-light-peach: #fffcf7;
 $color-dark-blue-grey: #5f6580;
 $color-light-lavender: rgb(250, 248, 254);
+$default-font-size: 18px;
+$scaled-font-size: calc(min(max(18px, .75vw), 20px));
+$default-line-height: 1.6;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 $screenXsmallMin: 320px;
@@ -49,13 +52,13 @@ $screenMaxWidths: (
     0 0px 36px -18px rgba(0, 0, 0, 0.22);
 }
 
+// source: https://gomakethings.com/how-to-break-an-image-out-of-its-parent-container-with-css/
 @mixin extend-width() {
   left: 50%;
-  margin-left: -37.5vw;
-  margin-right: -37.5vw;
-  max-width: 75vw;
-  position: relative;
   right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
   width: 100vw;
   min-width: $viewport-width;
 }
@@ -170,6 +173,7 @@ img {
 }
 
 div {
+  font-size: $default-font-size;
   .serif &,
   &.serif {
     font-family: "Playfair Display";
@@ -183,7 +187,8 @@ div {
 
 p {
   font-family: "Muli";
-  line-height: 1.6;
+  line-height: $default-line-height;
+  font-size: $scaled-font-size;
 
   .mono & {
     font-family: "Cousine", monospace;
@@ -569,7 +574,8 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
   font-weight: bold;
   color: $color-light-grey;
   @extend .mono;
-  font-size: 90%;
+  font-size: 85%;
+  line-height: $default-line-height;
 }
 
 .postSummaryTitle {
@@ -614,16 +620,7 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
         @include image-dropshadow();
       }
 
-      // source: https://gomakethings.com/how-to-break-an-image-out-of-its-parent-container-with-css/
       figcaption {
-        // allow this div to take up full screen width
-        max-width: 100vw;
-        width: 100vw;
-        margin-left: -50vw;
-        margin-right: -50vw;
-        left: 50%;
-        position: relative;
-
         // only let the caption expand to 75% of the full viewport width
         p {
           margin: 0 12.5vw;
@@ -634,7 +631,7 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
       // at 800 = 600 (viewport width) * 4/3 (inverse of ratio below),
       // revert to normal sizing since it 75% of viewport will be smaller than normal sizing.
       @media (min-width: 801px) {
-        img {
+        & {
           @include extend-width();
         }
 
@@ -823,6 +820,15 @@ ul.noPadding {
   @media (min-width: 801px) {
     &.fullWidth {
       @include extend-width();
+    }
+  }
+
+  &.fullWidth {
+    .galleryContentContainer {
+      // this is the point for 4 columns where it starts to introduce gaps.
+      max-width: 1350px;
+      margin-left:auto;
+      margin-right: auto;
     }
   }
 
