@@ -5,7 +5,7 @@ storyType: 'serif'
 image: '/images/a-twinkle/firefly.jpg'
 icon: "uil uil-bolt"
 date: "2020-05-03"
-keywords: ['existentialist']
+keywords: ['existentialist', 'fiction']
 related: ['/posts/student-to-teacher', '/posts/rice-fields']
 ---
 \
