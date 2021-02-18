@@ -5,7 +5,7 @@ storyType: 'serif'
 image: 'posts/you-and-them/images/library.jpg'
 icon: "uil uil-bolt"
 date: "2021-02-17"
-keywords: ['fiction']
+keywords: ['fiction', 'existentialist']
 ---
 
 {{< figure src="images/library.jpg" caption="*Seattle Public Library ([more here](http://www.instagram.com/spencerchang.photography/))*" class="fullWidth" >}}
