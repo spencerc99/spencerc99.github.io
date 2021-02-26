@@ -6,6 +6,7 @@ image: 'posts/you-and-them/images/library.jpg'
 icon: "uil uil-bolt"
 date: "2021-02-17"
 keywords: ['fiction', 'existentialist']
+related: []
 ---
 
 {{< figure src="images/library.jpg" caption="*Seattle Public Library ([more here](http://www.instagram.com/spencerchang.photography/))*" class="fullWidth" >}}
@@ -32,5 +33,4 @@ Thanks to [Avery Jordan](https://medium.com/@averyjordan1), [Ameesh Shah](https:
 
 #### Backstory
 
-I wrote this piece after an incubation period following watching a particularly impactful scene from Schitt’s Creek when [Alexis tells David](https://www.youtube.com/watch?v=FkXAutT_6Wc) “nobody cares” while he’s freaking out over his driving test. It’s a statement that personally resonates because one of my critical weaknesses is worrying too much about what other people think. It’s a feeling that has been amplified across society with social media seeping into all parts of our lives, forcing us to put on our best selves 24/7 while showcasing the most “perfect” images. Modern culture proliferates extremes. The shame around not “meeting the bar” has become a staple of society while the height of fame for embodying the idea of perfection has become unattainable. I wrote this story to try to capture experience of the pressure that everyone feels on the need to be something different, something better based on an abstract societal notion of “goodness,” and the journey involved in escaping the trap.
-
+I got the idea inspiration for this piece after watching a particularly impactful scene from Schitt’s Creek when [Alexis tells David](https://www.youtube.com/watch?v=FkXAutT_6Wc) “nobody cares” while he’s freaking out over his driving test. It’s a statement that personally resonates because one of my critical weaknesses is worrying too much about what other people think, and I drew a lot of the feelings and the yearnings from this piece on my own experiences navigating school and the societal expectations I’ve always felt around me. This feeling has been amplified across society with social media seeping into all parts of our lives, forcing us to put on our best selves 24/7. Modern culture proliferates extremes. The shame around not “meeting the bar” has become a staple of society while the height of fame for embodying the idea of perfection has become unattainable. I wanted to capture the experience of the pressure that everyone feels on the need to be something different, something better based on an abstract societal notion of “goodness,” and how hard of a journey it is to even get to the level of awareness and how powerful that simple switch can be.
