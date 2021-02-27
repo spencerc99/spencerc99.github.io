@@ -587,6 +587,19 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
   }
 }
 
+.icons {
+  display: inline-flex;
+  font-size: inherit;
+
+  i::before {
+    margin: 0 0.05em;
+  }
+}
+
+i.uis.uis-star {
+  color: gold;
+}
+
 .postSummary {
   margin: 6px 0;
 }

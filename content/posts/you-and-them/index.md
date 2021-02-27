@@ -6,6 +6,7 @@ image: 'posts/you-and-them/images/library.jpg'
 icon: "uil uil-bolt"
 date: "2021-02-17"
 keywords: ['fiction', 'existentialist']
+tags: ['favorite', 'creative']
 related: []
 ---
 

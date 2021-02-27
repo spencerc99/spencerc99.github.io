@@ -5,18 +5,6 @@
   {{ with .Params.subtitle }}
   <span class="subtitle">{{.}}</span>
   {{ end }}
-  <!-- {{.Description}} -->
-  <div class="description">
-    <div>
-      I like optimistic dreaming and deep thinking. Exploring, learning, and
-      laughing through life.
-    </div>
-    <div>
-      Currently, making @ <a id="coda" href="coda.io">Coda</a>. Previously @
-      <a id="airbnb" href="airbnb.com">Airbnb</a>,
-      <a id="square" href="squareup.com">Square</a>.
-    </div>
-  </div>
   {{ partial "social_media.html" . }}
 </div>
 {{ end }} {{ define "main" }}
@@ -25,6 +13,7 @@
   {{.Content}}
 </div>
 <div class="summaryList">
+  <p><i>Assorted writing below. Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</i></p>
   {{ range first 10 .Site.RegularPages }} {{ .Render "summary" }} {{ end }}
 </div>
 {{ end }}

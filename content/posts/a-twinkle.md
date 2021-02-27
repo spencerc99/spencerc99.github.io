@@ -7,6 +7,7 @@ icon: "uil uil-bolt"
 date: "2020-05-03"
 keywords: ['existentialist', 'fiction']
 related: ['/posts/student-to-teacher', '/posts/rice-fields']
+tags: ['favorite', 'creative', 'poem']
 ---
 \
 A shaft of moonlight pierces the curtain\
