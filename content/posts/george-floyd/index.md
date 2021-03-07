@@ -8,6 +8,7 @@ resources:
   name: images-:counter
   title: images-title-:counter
 related: []
+tags: ['personal', 'culture']
 ---
 
 {{< gallery folder="images" title="SF George Floyd Protest 06/03" caption="for more see my [instagram](https://www.instagram.com/spencerchang.photography/)" fullWidth=true >}}

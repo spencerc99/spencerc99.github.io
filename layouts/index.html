@@ -1,3 +1,4 @@
+
 {{ define "header" }}
 <div class="headerContainer">
   <img class="avatar" src="/assets/spencer_maker_character.png" />
@@ -47,10 +48,52 @@
     <p>🆕 <a href="https://coda.io/@spencer/postal-portals">Postal Portals</a>: letter series with friends to deep-dive into concepts weighing on our minds.</p>
     <p>🆕 04/11 <a href="{{(.Site.GetPage "/experiments/100posts").RelPermalink}}">Mini-essay experiment</a>: publishing raw, lightly edited pieces semi-daily towards achieving 100 public pieces.</p>
     {{ partial "legend.html" . }}
+    <br/>
   <!-- <p>Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</p> -->
-  </div>
+  <!-- <p><i>Assorted writing below. Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</i></p> -->
+  {{ $tags := $.Site.Taxonomies.tags.ByCount }}
+  <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
+    All Tags
+  </button>
+  {{ range $tags }}
+    {{ if .Term }}
+      <button xx class="tag-button" id="tag-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'tag-')">
+        <span>{{.Term | humanize | title }}</span>
+        (<span id="stags-{{ .Term | urlize }}"> -count-</span>/<span id="ctags-{{ .Term | urlize }}"> -count-</span>)
+      </button>
+    {{ end }}
+  {{ end }}
   <div class="postsList">
-  {{ range where .Site.RegularPages ".Section" "posts" }} {{ .Render "summary" }} {{ end }}
+  {{ range where .Site.RegularPages ".Section" "posts" }}
+    <div class="tf-filter-item tf-item"  data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }} {{ end }} ">
+      {{ .Render "summary" }} 
+    </div>
+  {{ end }}
   </div>
 </div>
+
+<script src="/plugins/filtering/filter.js"></script>
+<script>
+  const htfConfig = {
+    filters: [
+      {
+        name: 'tags',
+        prefix: 'tag-',
+        buttonClass: 'tag-button',
+        allSelector: '#selectAllTags',
+        attrName: 'data-tags',
+        selectedPrefix: 'stags-',
+        countPrefix: 'ctags-'
+      }
+    ],
+    showItemClass: "show-item",
+    filterItemClass: "tf-filter-item",
+    activeButtonClass: "active",
+    counterSelector: "selectedItemCount",
+    populateCount: true,
+    setDisabledButtonClass: "disable-button"
+  } 
+  
+  var htf = new HugoTagsFilter(htfConfig);
+</script>
 {{ end }}

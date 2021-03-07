@@ -4,6 +4,7 @@ description: "A reflection on my university journey"
 date: "2019-06-02"
 image: "/images/stupid-scholars/rollercoaster.jpeg"
 related: []
+tags: ['personal']
 ---
 
 {{< figure src="/images/stupid-scholars/rollercoaster.jpeg" class="fullWidth" >}}

@@ -7,6 +7,7 @@ icon: "uil uil-bolt"
 date: "2019-11-19"
 keywords: ['fiction']
 related: []
+tags: ['creative', 'short story']
 ---
 ### 1:45 am.
 We had just gotten back from the movies, and I was going through the regular ritual of preparing for my nightly recharge. The room was pitch dark except for the flickering amalgam of multicolored lights dancing across the window: reflections mirroring the revelry of a city alive at night.

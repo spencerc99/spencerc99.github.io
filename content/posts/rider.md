@@ -8,6 +8,7 @@ icon: "uil uil-bolt"
 date: "2019-12-18"
 keywords: ['fiction']
 related: []
+tags: ['creative', 'short story']
 ---
 The night was cold and dark. The moon shone brightly, gently singing her graceful hymn. The light didn't shine very far, however. A thick wall of sinister clouds prevented any escape of the beautiful song below. 
 

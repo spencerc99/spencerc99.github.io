@@ -7,6 +7,7 @@ date: "2020-12-06"
 related: ['/posts/a-twinkle', '/posts/right-decisions', '/posts/broken-lines']
 icon: "uil uil-bolt"
 keywords: ['existentialist']
+tags: ['creative', 'personal']
 ---
 Under my watchful eyes, a weight settles over the world. Thick layers of shadows pile on top of one another until all that’s left poking out in the sea of night are tiny fireflies, little torches signaling life. I look out my golden-ratioed window, a precise, technical masterpiece with a reinforced panel of glass acting as a projector for the production playing out beyond. In the distant horizon, the line where the sky meets the world and the galactic bend, glinting ever so inconspicuously, levels with my eyes. I get the sensation that I’m staring into the eyes of the universe—snuggled tightly under the darkness, fast asleep. Her curls fill out the vast emptiness above, the physical manifestations of her dreams. A mosaic of creatures frolic in an infinite, ancient plain: Orion, the unparalleled hunter traveling betwixt distant ends to stretch the limits of his skill; a pair of tilted spoons, scooping up the steaming broth seeping out from the seams of the treasure-studded wrapping; a dangerous beauty, Scorpio, her red scaled tail narrowing into an intoxicating point. My eyes are drawn to the warm, brighter star that forms her abdomen as it sparkles and spins, an intoxicating momentum sending the gears of my mind into motion.
 

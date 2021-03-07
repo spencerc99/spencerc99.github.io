@@ -16,6 +16,7 @@ $scaled-font-size: $default-font-size;
 $default-line-height: 1.6;
 $smaller-font-size: $default-font-size * .8;
 $navbar-zindex: 999;
+$color-text-color: #282828;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 $screenXsmallMin: 320px;
@@ -109,7 +110,7 @@ body {
   align-items: center;
   max-width: 100%;
   overflow-x: hidden;
-  color: #282828;
+  color: $color-text-color;
   margin-left: 16px;
   margin-right: 16px;
   background: $color-light-peach;
@@ -1154,3 +1155,29 @@ ul.noPadding {
   display: block;
   height: inherit;
 }
+// for tags
+.tf-filter-item {
+  display: none;
+  
+  &.show-item {
+    display: inherit;
+  }
+}
+
+button {
+  border-radius: 16px;
+  font-family: "Muli";
+  font-size: $default-font-size * .9;
+  background: $color-light-lavender;
+  border:1px solid $color-text-color;
+  padding: 2px 8px;
+
+  &.active {
+    background-color: $color-link;
+  }
+
+  &.disable-button {
+    color: opacity
+  }
+}
+
