@@ -18,10 +18,10 @@
       </ul>
     </div>
     <div>
-      Engineering in San Francisco 🌉
+      Engineer by study, creator at heart in San Francisco 🌉
     </div>
     <div>
-      Currently working to empower people to collaborate and create @ <a id="coda" href="https://coda.io">Coda</a>. Previously @
+      Currently working to empower people to collaborate and create @ <a id="coda" href="https://coda.io">Coda</a> (never heard of it? check out my <a href="https://coda.io/@spencer/decoding-your-mind/live-spencer-monitor-22">live monitor</a> for a taste). Previously @
       <a id="airbnb" href="https://airbnb.com">Airbnb</a>,
       <a id="square" href="https://squareup.com">Square</a>,
       <a id="rice" href="http://rice.edu/">Rice🦉</a>
@@ -30,7 +30,7 @@
         Sometimes <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, sometimes <a href="#">writing</a>, other times taking <a href="https://www.instagram.com/spencerchang.photography/">photos</a>, and often eating.
     </div>
     <div>
-        Always looking to learn about different perspectives and jamming with curious people. If my vibe resonates, shoot me a message on <a href="https://twitter.com/@spencerc99">Twitter</a> or email!
+        Always looking to learn about different perspectives and jamming with curious people. Say hi via <a href="https://twitter.com/@spencerc99">Twitter</a> or <a href="mailto:spencerc99@gmail.com">email</a>!
     </div>
   </div>
   {{ partial "social_media.html" . }}
@@ -42,7 +42,8 @@
     {{.Content}}
 </div>
 <div class="summaryList">
-  <p><i>Assorted writing below. Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</i></p>
-  {{ range .Site.RegularPages }} {{ .Render "summary" }} {{ end }}
+  <i><p>Assorted writing below. Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</p>
+  <p>I'm currently (as of 04-09-21) undertaking an experiment of publishing raw, lightly edited pieces every day towards achieving 100 public pieces. Check out the rationale and the full list <a href="{{.Site.GetPage "/experiments/100posts"}}">here</a>.</p></i>
+  {{ range where .Site.RegularPages ".Section" "posts" }} {{ .Render "summary" }} {{ end }}
 </div>
 {{ end }}
