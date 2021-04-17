@@ -22,10 +22,6 @@
       <!-- TODO: make the date linkable -->
       <span>
         <span class="postDate">{{ .Date.Format "01.02.2006" }}</span>
-        {{ if isset .Params "external_link" }}
-        {{else}}
-            // {{ .WordCount }} words // {{ .ReadingTime }} min read
-        {{ end }}        
       </span>
     </div>
   </div>

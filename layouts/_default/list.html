@@ -1,7 +1,7 @@
 {{ define "header" }}
 <div class="headerContainer">
   <img class="avatar" src="/assets/spencer_maker_character.png" />
-  <h1 id="siteTitle">{{.Site.Title}}</h1>
+  <h1 id="siteTitle"><span class="wave">✌️</span>I'm Spencer</h1>
   {{ with .Params.subtitle }}
   <span class="subtitle">{{.}}</span>
   {{ end }}
@@ -13,7 +13,13 @@
   {{.Content}}
 </div>
 <div class="summaryList">
-  <p><i>Assorted writing below. Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</i></p>
-  {{ range first 10 .Site.RegularPages }} {{ .Render "summary" }} {{ end }}
+  {{ if isset .Params "postfilter" }}
+  {{ range where .Site.Pages "Params.keywords" "intersect" .Params.postfilter }} 
+    {{ .Render "summary" }} 
+  {{ end }}
+  {{ else }}
+    <p><i>Assorted writing below. Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</i></p>
+    {{ range .Pages }} {{ .Render "summary" }} {{ end }}
+  {{ end }}
 </div>
 {{ end }}
