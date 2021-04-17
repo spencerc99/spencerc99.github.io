@@ -8,6 +8,7 @@ date: "2021-02-17"
 keywords: ['fiction', 'existentialist']
 tags: ['favorite', 'creative']
 related: []
+draft: true
 ---
 
 {{< figure src="images/library.jpg" caption="*Seattle Public Library ([more here](http://www.instagram.com/spencerchang.photography/))*" class="fullWidth" >}}
