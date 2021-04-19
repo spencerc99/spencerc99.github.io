@@ -21,10 +21,10 @@
     <div class="post summary meta">
       <!-- TODO: make the date linkable -->
       <span>
-        <span class="postDate">{{ .Date.Format "01.02.2006" }}</span>
+        <span class="postDate">{{ .Date.Format "01.02.06" }}</span>
         {{ if isset .Params "external_link" }}
-          {{ if in .Params.keywords "100posts" }}
-          // from my newsletter <i class="uil uil-mailbox"></i>
+          {{ if in .Params.tags "newsletter" }}
+          // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
           {{ end }}
         {{else}}
             // {{ .WordCount }} words // {{ .ReadingTime }} min read

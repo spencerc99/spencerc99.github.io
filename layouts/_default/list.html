@@ -14,7 +14,7 @@
 </div>
 <div class="summaryList">
   {{ if isset .Params "postfilter" }}
-  {{ range where .Site.Pages "Params.keywords" "intersect" .Params.postfilter }} 
+  {{ range where .Site.Pages "Params.tags" "intersect" .Params.postfilter }} 
     {{ .Render "summary" }} 
   {{ end }}
   {{ else }}
