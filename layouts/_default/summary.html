@@ -5,7 +5,10 @@
         <!-- If external link exists in post matter -->
         {{ if isset .Params "external_link" }}
             <a href="{{ .Params.external_link }}" target="_blank">{{ .Title }}</a><i class='uil uil-arrow-up-right'></i>
-        <!-- Else show internal post page -->
+            <!-- Else if internal link, link to that -->
+        {{ else if isset .Params "internal_link" }}
+            <a href="{{ .Params.internal_link }}">{{ .Title }}</a>        
+          <!-- Else show internal post page -->
         {{ else }}
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
@@ -25,6 +28,10 @@
         {{ if isset .Params "external_link" }}
           {{ if in .Params.tags "newsletter" }}
           // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+          {{ end }}
+        {{ else if isset .Params "internal_link" }}
+          {{ with .Site.GetPage .Params.internal_link}}
+            // {{ .WordCount }} words // {{ .ReadingTime }} min read
           {{ end }}
         {{else}}
             // {{ .WordCount }} words // {{ .ReadingTime }} min read

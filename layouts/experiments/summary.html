@@ -5,8 +5,8 @@
         <!-- If external link exists in post matter -->
         {{ if isset .Params "external_link" }}
             <a href="{{ .Params.external_link }}" target="_blank">{{ .Title }}</a><i class='uil uil-arrow-up-right'></i>
-        <!-- Else show internal post page -->
-        {{ else }}
+          <!-- Else show internal post page -->
+          {{ else }}
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
         <div class="icons">
