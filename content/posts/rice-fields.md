@@ -2,7 +2,7 @@
 title: "Rice Fields and Murky Identities"
 description: "How an American-born Chinese navigated teaching and living in Taiwan"
 date: "2019-10-06"
-image: /images/rice-fields/rice-field.jpeg"
+image: /images/rice-fields/rice-field.jpeg
 related: ['/posts/student-to-teacher']
 tags: ['favorite']
 ---
