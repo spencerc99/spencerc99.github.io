@@ -576,13 +576,27 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
   font-weight: bold;
   color: $color-light-grey;
   @extend .mono;
-  font-size: 85%;
+  font-size: 80%;
   line-height: $default-line-height;
+}
+
+.summaryList {
+  margin-top: 16px;
+}
+
+.writingMeta {
+  p {
+    font-size: 80%;
+    margin: 4px 0;
+  }
+  p:first-child {
+    margin-top: 0;
+  }
 }
 
 .postSummaryContainer {
   display: flex;
-  margin-top: 20px;
+  margin-top: 32px;
   // card-like experience.
   // padding: 10px;
   // border-radius: 12px;
@@ -590,10 +604,21 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
   // &:hover {
   //   background: $color-highlight;
   // }
+  @include media(xsmallScreen) {
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 100%;
+    }
+
+    .postSummaryHeader {
+      width: 100%;
+    }
+  }
 }
 
 .postSummaryImageContainer {
-  margin-left: auto;
+  margin-right: 24px;
 }
 
 .postSummaryImage {
@@ -605,12 +630,11 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
 }
 
 .postSummaryHeader {
-  h1 {
-    margin-top: 0;
+  h3 {
+    margin-top: 2px;
   }
   display:flex;
   flex-direction: column;
-  margin-right: 12px;
 }
 
 .postSummaryTitle {
@@ -641,6 +665,7 @@ i.uis.uis-star {
 .post.meta {
   color: slategrey;
   font-family: "Muli";
+  font-size: 80%;
 }
 
 .postDate {

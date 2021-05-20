@@ -1,4 +1,9 @@
 <article class="postSummaryContainer {{ with .Params.storyType }} {{ . }} {{ end }}">
+  {{ with .Params.image }}
+  <div class="postSummaryImageContainer">
+      <img class="postSummaryImage" src="{{ . }}" />
+  </div>
+  {{ end }}
   <div class="postSummaryHeader">
    <div class="post summary meta">
         <!-- TODO: make the date linkable -->
@@ -15,9 +20,21 @@
           {{else}}
               // {{ .WordCount }} words
           {{ end }}        
+          {{ $hasIcon := or (in .Params.tags "favorite") (isset .Params "icon") }}
+          {{ if $hasIcon}}
+          // 
+            <div class="icons">
+              {{ with .Params.icon }} 
+                  <i class="{{.}}"></i>
+              {{ end }}
+              {{ if in .Params.tags "favorite" }} 
+                  <i class="uis uis-star"></i>
+              {{ end }}
+            </div>
+          {{end}}
         </span>
       </div>
-    <h1 class="postSummaryTitle">
+    <h3 class="postSummaryTitle">
         <!-- src: https://harrycresswell.com/articles/hugo-external-articles/ -->
         <!-- If external link exists in post matter -->
         {{ if isset .Params "external_link" }}
@@ -29,24 +46,11 @@
         {{ else }}
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
-        <div class="icons">
-          {{ with .Params.icon }} 
-              <i class="{{.}}"></i>
-          {{ end }}
-          {{ if in .Params.tags "favorite" }} 
-              <i class="uis uis-star"></i>
-          {{ end }}
-        </div>
-      </h1>
+      </h3>
    
     <div class="postSummary">
       {{ .Description }}
     </div>
-  </div>
-  <div class="postSummaryImageContainer">
-    {{ with .Params.image }}
-      <img class="postSummaryImage" src="{{ . }}" />
-    {{ end }}
   </div>
   <!-- TODO: add tags or something here -->
 </article>
