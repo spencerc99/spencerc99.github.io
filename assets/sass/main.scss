@@ -611,7 +611,17 @@ summary {
   border-radius: 4px;
 }
 
-// Custom icons for collapsing
+// Hide the standard > marker since not showing on Chrome so using custom icon.
+// from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details#Customizing_the_disclosure_widget
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+// Custom icons for collapsing since the default one doesn't show on
+// Chrome-based browsers when display: inline on for some reason.
 summary:before {
   box-sizing: border-box;
 	content: '\e804';
