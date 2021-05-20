@@ -44,8 +44,9 @@
 <div class="summaryList">
   <b>Recent writing</b>
   <div class="writingMeta">
-  <p>Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</p>
-  <p>I'm currently (as of 04-09-21) undertaking an experiment of publishing raw, lightly edited pieces every day towards achieving 100 public pieces. Check out the rationale and the full list <a href="{{(.Site.GetPage "/experiments/100posts").RelPermalink}}">here</a>.</p>
+    <p>🆕 As of April 11, I'm undertaking an experiment of publishing raw, lightly edited pieces every day towards achieving 100 public pieces. Check out the rationale and the full list <a href="{{(.Site.GetPage "/experiments/100posts").RelPermalink}}">here</a>.</p>
+    {{ partial "legend.html" . }}
+  <!-- <p>Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</p> -->
   </div>
   <div class="postsList">
   {{ range where .Site.RegularPages ".Section" "posts" }} {{ .Render "summary" }} {{ end }}

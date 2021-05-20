@@ -11,8 +11,10 @@ $color-light-peach: #fffcf7;
 $color-dark-blue-grey: #5f6580;
 $color-light-lavender: rgb(250, 248, 254);
 $default-font-size: 18px;
-$scaled-font-size: calc(min(max(18px, .75vw), 20px));
+// $scaled-font-size: calc(min(max(18px, .75vw), 20px));
+$scaled-font-size: $default-font-size;
 $default-line-height: 1.6;
+$smaller-font-size: $default-font-size * .8;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 $screenXsmallMin: 320px;
@@ -66,6 +68,25 @@ $screenMaxWidths: (
 
 @mixin quote-font() {
   font-family: "Crimson Text";
+}
+
+* {
+  font-family: 'Muli';
+
+  .sans-serif &,
+  &.sans-serif {
+    font-family: "Muli";
+  }
+  
+  .serif &,
+  &.serif {
+    font-family: "Playfair Display";
+  }
+
+  .mono &,
+  &.mono {
+    font-family: "Cousine", monospace;
+  }
 }
 
 body {
@@ -174,7 +195,7 @@ img {
 }
 
 div {
-  font-size: $default-font-size;
+  font-size: $scaled-font-size;
   .serif &,
   &.serif {
     font-family: "Playfair Display";
@@ -576,8 +597,45 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
   font-weight: bold;
   color: $color-light-grey;
   @extend .mono;
-  font-size: 80%;
+  // font-size: 80%;
+  font-size: $smaller-font-size;
   line-height: $default-line-height;
+}
+
+// Collapsible sections
+summary {
+  font-size: $scaled-font-size;
+  line-height: $default-line-height;
+  position:relative;
+  display: inline;
+  border-radius: 4px;
+}
+
+// Custom icons for collapsing
+summary:before {
+  box-sizing: border-box;
+	content: '\e804';
+  font-family: unicons-solid;
+  font-style: normal;
+  speak: none;
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+details[open] summary:before {
+	content: '\e80d';
+}
+
+summary:hover, summary:focus {
+	background: $color-highlight;
+}
+
+details div {
+  display:flex;
+  flex-direction: column;
 }
 
 .summaryList {
@@ -585,12 +643,12 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
 }
 
 .writingMeta {
-  p {
-    font-size: 80%;
-    margin: 4px 0;
+  * { 
+    // font-size: 80%;
+    // font-size: $smaller-font-size !important;
   }
-  p:first-child {
-    margin-top: 0;
+  p {
+    margin: 4px 0;
   }
 }
 
@@ -641,7 +699,8 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
   margin-bottom: 0px;
 
   i {
-    font-size: 80%;
+    // font-size: 80%;
+    font-size: $smaller-font-size;
   }
 }
 
@@ -664,8 +723,9 @@ i.uis.uis-star {
 
 .post.meta {
   color: slategrey;
-  font-family: "Muli";
-  font-size: 80%;
+  @extend .sans-serif;
+  // font-size: 80%;
+  font-size: $smaller-font-size;
 }
 
 .postDate {
