@@ -7,6 +7,8 @@
     <!-- TODO: make the date linkable -->
     <span class="postDate">{{ .Date.Format "01.02.2006" }}</span>
     <!-- TODO: add other metadata like location and time and song with icons -->
+    {{ $hasIcon := or (in .Params.tags "favorite") (isset .Params "icon") }}
+    {{ if $hasIcon}}
     // 
     <div class="icons">
       {{ with .Params.icon }} 
@@ -16,6 +18,7 @@
         <i class="uis uis-star"></i>
       {{ end }}
     </div>
+    {{ end }}
   </div>
   <h1 class="title">{{ .Title }}</h1>
   <h3 class="description">{{ .Description }}</h3>
