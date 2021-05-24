@@ -258,6 +258,33 @@ code {
   color: #4f4f4f;
 }
 
+.shareCta {
+  display:flex;
+  align-items: center;
+  gap: 0 6px;
+
+  button {
+    margin-bottom: 6px;
+  }
+}
+
+button.icon {
+  display: flex;
+  justify-content: center;
+  border: none;
+  align-items: center;
+  background: none;
+  cursor: pointer;
+  transition: color 0.25s ease-in-out;
+
+  i {
+    font-size: 20px;
+  }
+  &:hover {
+    color: $color-link
+  }
+}
+
 #content {
   max-width: $viewport-width;
   min-width: 300px;
