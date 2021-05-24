@@ -15,6 +15,7 @@ $default-font-size: 18px;
 $scaled-font-size: $default-font-size;
 $default-line-height: 1.6;
 $smaller-font-size: $default-font-size * .8;
+$navbar-zindex: 999;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 $screenXsmallMin: 320px;
@@ -299,7 +300,7 @@ button.icon {
   top: 0;
   width: 100%;
   height: $navBar-height;
-  z-index: 999;
+  z-index: $navbar-zindex;
   scroll-margin-top: $navBar-height;
 
   /* Collapse nav bar on scroll down */
@@ -1122,4 +1123,25 @@ ul.noPadding {
     transform-origin: 70% 70%;
     display: inline-block;
   }
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: $navbar-zindex + 1;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  height: 5px;
+  display: block;
+}
+.progress-bar {
+  background-color: $color-link;
+  width: 0%;
+  display: block;
+  height: inherit;
 }
