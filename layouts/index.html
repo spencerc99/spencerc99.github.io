@@ -48,21 +48,31 @@
     <p>🆕 <a href="https://coda.io/@spencer/postal-portals">Postal Portals</a>: letter series with friends to deep-dive into concepts weighing on our minds.</p>
     <p>🆕 04/11 <a href="{{(.Site.GetPage "/experiments/100posts").RelPermalink}}">Mini-essay experiment</a>: publishing raw, lightly edited pieces semi-daily towards achieving 100 public pieces.</p>
     {{ partial "legend.html" . }}
-    <br/>
   <!-- <p>Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</p> -->
   <!-- <p><i>Assorted writing below. Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</i></p> -->
-  {{ $tags := $.Site.Taxonomies.tags.ByCount }}
-  <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
-    All Tags
-  </button>
-  {{ range $tags }}
-    {{ if .Term }}
-      <button xx class="tag-button" id="tag-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'tag-')">
-        <span>{{.Term | humanize | title }}</span>
-        (<span id="stags-{{ .Term | urlize }}"> -count-</span>/<span id="ctags-{{ .Term | urlize }}"> -count-</span>)
-      </button>
-    {{ end }}
-  {{ end }}
+    <details>
+      <summary>
+          <span>Filter by tag</span>
+      </summary>
+      <span>
+        <br/>
+        <!-- TODO: filter tags for ones that have at least one matching -->
+        <!-- TODO: maybe just curate to the top 3 divisions, or ones that match with icons and hide under the dropdown -->
+        {{ $tags := $.Site.Taxonomies.tags.ByCount }}
+        <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
+          All Tags
+        </button>
+        {{ range $tags }}
+          {{ if .Term }}
+          <button xx class="tag-button" id="tag-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'tag-')">
+            <span>{{.Term | humanize | title }}</span>
+            (<span id="stags-{{ .Term | urlize }}"> -count-</span>/<span id="ctags-{{ .Term | urlize }}"> -count-</span>)
+          </button>
+          {{ end }}
+        {{ end }}
+      </span>
+    </details>
+  </div>
   <div class="postsList">
   {{ range where .Site.RegularPages ".Section" "posts" }}
     <div class="tf-filter-item tf-item"  data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }} {{ end }} ">
