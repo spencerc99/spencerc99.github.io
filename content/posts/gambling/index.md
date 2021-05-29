@@ -1,7 +1,7 @@
 ---
 title: "Gambling on Dreams"
 description: "✌️2020 | 👋2021."
-image: 'posts/gambling/images/apocalypse.jpg'
+image: '/posts/gambling/images/apocalypse.jpg'
 date: "2021-01-01"
 resources: 
 - src: "images/bestof2020/*.jpg"

@@ -3,12 +3,13 @@
 {{ range $pageurls }}
 {{ $linkedPages = $linkedPages | append (. | $.Site.GetPage) }}
 {{ end }}
-{{ $related := $linkedPages | union (.Site.RegularPages.Related .) | first 5 }}
+{{ $related := $linkedPages | union (.Site.RegularPages.Related .) | first 4 }}
 {{ with $related }}
 <h3>Related Posts</h3>
 <div class="relatedPosts">
     {{ range . }}
-    <div class="relatedPost">
+        {{ .Render "summary" }}
+    <!-- <div class="relatedPost">
             <a href="{{ .RelPermalink }}" class="relatedLink">
                 <h3>{{ .Title }}</h3>
                 <div class="post summary meta">
@@ -18,7 +19,7 @@
                     {{ .Description }}
                 </div>
             </a>
-    </div>
+    </div> -->
 	{{ end }}
 </div>
 {{ end }}

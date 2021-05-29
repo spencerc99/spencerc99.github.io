@@ -71,6 +71,18 @@ $screenMaxWidths: (
   font-family: "Crimson Text";
 }
 
+@mixin collapsed-post-summary-container() {
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 100%;
+  }
+
+  .postSummaryHeader {
+    width: 100%;
+  }
+}
+
 * {
   font-family: 'Muli';
 
@@ -379,10 +391,15 @@ button.icon {
 .relatedPosts {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem 1.5rem;
+  grid-gap: 2rem 3rem;
 
   @include media(xsmallScreen) {
     grid-template-columns: 1fr;
+  }
+
+  .postSummaryContainer {
+    margin-top: 0;
+    @include collapsed-post-summary-container();
   }
 }
 
@@ -694,23 +711,9 @@ details div {
 .postSummaryContainer {
   display: flex;
   margin-top: 32px;
-  // card-like experience.
-  // padding: 10px;
-  // border-radius: 12px;
-  // border: 1px $color-blueberry solid;
-  // &:hover {
-  //   background: $color-highlight;
-  // }
+  
   @include media(xsmallScreen) {
-    flex-direction: column;
-    align-items: center;
-    img {
-      width: 100%;
-    }
-
-    .postSummaryHeader {
-      width: 100%;
-    }
+    @include collapsed-post-summary-container();
   }
 }
 
@@ -919,7 +922,7 @@ section.footnotes {
     -webkit-line-clamp: 3;
   }
 
-  a {
+  a, span {
     display: flex;
     align-items: center;
   }
@@ -927,6 +930,10 @@ section.footnotes {
   i {
     font-size: 24px;
     color: $color-blueberry;
+  }
+
+  .postSummaryContainer {
+    @include collapsed-post-summary-container();
   }
 }
 

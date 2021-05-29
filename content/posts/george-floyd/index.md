@@ -1,7 +1,7 @@
 ---
 title: "George Floyd"
 description: "Sharing the photos from the protest I attended last week."
-image: 'posts/george-floyd/images/1-20200603-DSC_7875.jpg'
+image: '/posts/george-floyd/images/1-20200603-DSC_7875.jpg'
 date: "2020-06-07"
 resources: 
 - src: "images/*.jpg"

@@ -2,7 +2,7 @@
 title: "You and Them"
 description: "You needed to maintain the image, to carry on the performance, so you looked like you were doing the right things and acted like you were going to the right places..."
 storyType: 'serif'
-image: 'posts/you-and-them/images/library.jpg'
+image: '/posts/you-and-them/images/library.jpg'
 icon: "uil uil-bolt"
 date: "2021-02-17"
 keywords: ['fiction', 'existentialist']

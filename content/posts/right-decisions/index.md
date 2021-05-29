@@ -1,7 +1,7 @@
 ---
 title: 'Making the “Right” Decisions'
 description: 'What happens when a majority of things that were "right" are now wrong?'
-image: 'posts/right-decisions/images/seals.jpg'
+image: '/posts/right-decisions/images/seals.jpg'
 date: "2020-07-27"
 resources: 
 - src: "images/bread/*.jpg"

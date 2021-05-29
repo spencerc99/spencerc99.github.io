@@ -2,7 +2,7 @@
 title: "how I found my snow"
 description: " That was always the point I knew we were in winter, the season of snow and tranquility and of moonless nights and quiet..."
 storyType: 'serif'
-image: 'posts/snow/images/snow.jpg'
+image: '/posts/snow/images/snow.jpg'
 icon: "uil uil-bolt"
 date: "2021-04-30"
 keywords: ['fiction']

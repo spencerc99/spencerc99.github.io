@@ -2,7 +2,7 @@
 title: "Dilution"
 description: "When the real and imaginary planes meet."
 storyType: 'serif'
-image: 'posts/dilution/images/stars.jpeg'
+image: '/posts/dilution/images/stars.jpeg'
 date: "2020-12-06"
 related: ['/posts/a-twinkle', '/posts/right-decisions', '/posts/broken-lines']
 icon: "uil uil-bolt"

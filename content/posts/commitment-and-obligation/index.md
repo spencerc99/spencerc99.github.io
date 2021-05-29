@@ -1,7 +1,7 @@
 ---
 title: "commitment and obligation"
 description: "I was taught that hard work would bring you riches. That effort was the key to success in whatever you did..."
-image: 'posts/commitment-and-obligation/images/memorial_park.png'
+image: '/posts/commitment-and-obligation/images/memorial_park.png'
 date: "2021-05-23"
 keywords: []
 tags: []
