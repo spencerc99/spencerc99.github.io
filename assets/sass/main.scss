@@ -741,8 +741,9 @@ details div {
   margin-bottom: 0px;
 
   i {
-    // font-size: 80%;
     font-size: $smaller-font-size;
+    display: inline-flex;
+    vertical-align: middle;
   }
 }
 
