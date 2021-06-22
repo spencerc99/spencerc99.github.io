@@ -1,6 +1,6 @@
 ---
 title: "100 artifacts"
-description: "an an experiment to write and publish 100 mini-essays by logging my normally private thoughts publicly every day."
+description: "an experiment to write and publish 100 mini-essays by logging my normally private thoughts publicly every day."
 date: "2021-04-09"
 postfilter: ["100posts"]
 ---
@@ -10,4 +10,4 @@ My goal for them is to be a forcing function for me to distill the ideas with so
 
 You can find links to all of them below, where they were originally published on my newsletter.
 
-You can go back to my <a href="/">longer content</a> or to my <a href="https://spencerchang.substack.com">newsletter</a>.
+<a href="/">Back to my longer content</a>
