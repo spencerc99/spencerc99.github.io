@@ -8,6 +8,7 @@ date: "2021-04-30"
 keywords: ['fiction']
 tags: ['creative']
 related: []
+draft: true
 ---
 The first fresh snowfalls usually came around the end of November. You could tell they were coming using the large willows in our quiet neighborhood. The trick was when you saw the vibrancy start to fade from the canopy of leaves. People usually mistake it for when the leaves start to fall, but that isn’t a great sign since they start falling early. Once you got used to it, it was easy to notice the difference. The leaves surged with vivid oranges and yellows and reds at the start of fall, and over the weeks, it was as if the crispy cool air slowly coaxed out the youthful energy those colors contained, fading to a muted autumn and eventually a dull brown. That was always the point I knew we were in winter, the season of snow and tranquility and of moonless nights and quiet.
 
