@@ -15,6 +15,10 @@
     <meta property="og:title" content="{{.Title}}" />
     <meta property="og:description" content="{{ .Description }}" />
     <meta property="og:image" content="{{ .Params.image | absURL }}" />
+    <!-- Don't index draft posts -->
+    {{ if .Params.draft }}
+        <meta name="robots" content="noindex">
+    {{ end }}
     
     <!-- twitter card tags additive with the og: tags -->
     <meta name="twitter:card" content="{{ if .IsHome }}summary{{ else }}summary_large_image{{ end }}">
