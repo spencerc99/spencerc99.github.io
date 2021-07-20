@@ -4,7 +4,7 @@ description: "I was taught that hard work would bring you riches. That effort wa
 image: '/posts/commitment-and-obligation/images/memorial_park.png'
 date: "2021-05-23"
 keywords: []
-tags: []
+tags: ['personal', 'favorite']
 related: ['/posts/gambling']
 ---
 The first time I ran 3 miles was during a typical Houston summer, hot and humid. It was just past one, past the hottest time of day but still above 90, still hot enough to see the light shimmering in the liminal space between the planes where your eyes focused. I started cross country in middle school to follow my brother’s footsteps, and I kept with it because I figured it was a good way to keep myself fit. I was quite possibly the opposite of the picture of health then, so I did my duty by rounding out the back of races and practices. That was okay because we weren’t super competitive—all that mattered was that I kept with it—that I committed to keeping with it. Things changed the summer before I entered a new high school, a place where cross country was a no-nonsense, state-competitive program. I remember my stomach twisting into a million knots, my breath tripping over itself, and the organ stampede threatening to break out as my mom drove me to a summer practice. I didn’t know then that we were running 3 miles. I was content with my slow and steady 1.5, thanks very much. I recall seeing the juniors and seniors pull up. An intense air muddled with an apparent nonchalance hung around them, their sinewy legs simultaneously relaxed and tensed. It was the air of practiced piety to the sport, to the way of life.
