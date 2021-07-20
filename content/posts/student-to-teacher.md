@@ -4,6 +4,7 @@ description: "Stumbling through first principles of education and learning"
 date: "2019-09-26"
 image: "/images/student-to-teacher/classroom.jpeg"
 related: ['/posts/rice-fields']
+tags: ['personal', 'culture']
 ---
 
 {{< figure src="/images/student-to-teacher/classroom.jpeg" caption="Photo by Mwesigwa Joel on Unsplash" class="fullWidth" >}}

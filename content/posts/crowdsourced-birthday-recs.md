@@ -4,6 +4,7 @@ description: 'An experiment in crowd-sourcing birthday recommendations and the f
 date: '2020-05-01'
 external_link: 'https://coda.io/@spencer/friend-powered-recommendations'
 related: []
+tags: ['personal', 'projects']
 ---
 I collected anonymous (or not) birthday recommendations and feedback. It was amazing to hear from so many people, both close friends and acquaintances and their inner thoughts. I'm so grateful to everyone who filled it out!
 

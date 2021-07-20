@@ -9,6 +9,7 @@ resources:
   title: images-title-:counter
 keywords: ['decisions']
 related: ['/posts/rice-fields', '/posts/war-of-intentions', '/posts/student-to-teacher']
+tags: ['personal', 'ideas']
 ---
 
 {{< figure src="images/seals.jpg" caption="A mother and cub flourishing in the remains of a whaling station in Grytviken--an example of something \"right\" becoming wrong. ([for more](https://www.instagram.com/spencerchang.photography/))" class="fullWidth" >}}

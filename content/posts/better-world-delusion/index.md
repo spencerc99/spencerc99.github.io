@@ -12,6 +12,7 @@ resources:
   title: bridge-title-:counter
 keywords: ['decisions', 'existentialist']
 related: []
+tags: ['personal', 'culture']
 ---
 {{< figure src="images/fog.jpg" caption="*a beach along Route 1 covered by the fog (photo credit [spencerchang.photography](https://www.instagram.com/spencerchang.photography/))*" class="fullWidth" >}}
 

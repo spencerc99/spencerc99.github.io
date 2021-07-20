@@ -6,6 +6,7 @@ image: '/images/war-of-intentions/discussion.jpg'
 date: '2020-04-19'
 keywords: ['politics', 'thinking', 'advice', 'society', 'culture', 'world']
 related: ['/posts/stupid-scholars']
+tags: ['culture', 'ideas', 'politics']
 ---
 
 {{< figure src="/images/war-of-intentions/discussion.jpg" class="fullWidth" >}}
