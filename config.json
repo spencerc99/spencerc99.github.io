@@ -42,5 +42,9 @@
                 "url": "https://coda.io/@spencer/decoding-your-mind/live-spencer-monitor-22"
             }
         ]
+    },
+    "taxonomies": {
+
+        "tag": "tags"
     }
 }

@@ -1,37 +1,44 @@
-
 {{ define "header" }}
-<div class="headerContainer">
+<div class="headerContainer home">
   <img class="avatar" src="/assets/spencer_maker_character.png" />
   <h1 id="siteTitle"><span class="wave">✌️</span>I'm Spencer</h1>
   <div class="description">
     <div>
-      Dreaming, wandering, and laughing
-      <ul class="noPadding">
-          <li>
-              Seeking truth in paradoxes, beauty in the everyday, and connection in the unknown. 
-          </li>
-          <li>
-              How do we create a society that empowers creation and facilitates understanding?
-          </li>
-          <li>
-              How might we embed intimacy, playfulness, and creative expression in our browsing experience?
-          </li>
-      </ul>
+      <details>
+        <summary>Dreaming, wandering, and laughing</summary>
+        <div>
+          <ul class="noPadding">
+              <li>
+                  Seeking truth in paradoxes, beauty in the everyday, and connection in the unknown. 
+              </li>
+              <li>
+                  How do we create a society that empowers creation and facilitates understanding?
+              </li>
+              <li>
+                  How might we embed intimacy, playfulness, and creative expression in our browsing experience?
+              </li>
+          </ul>
+        </div>
+      </details>
+      
     </div>
     <div>
       Engineer by study, creator at heart in San Francisco 🌉
     </div>
     <div>
-      Currently working to empower people to collaborate and create @ <a id="coda" href="https://coda.io">Coda</a> (never heard of it? check out my <a href="https://coda.io/@spencer/decoding-your-mind/live-spencer-monitor-22">live monitor</a> for a taste). Previously @
+      I care about how we can give users more agency in the software they use or are used by every day and exploring what a healhy relationship with <a href="https://spencerchang.substack.com/p/the-technology-paradox-mini-31100">technology looks like</a>.
+    </div>
+    <div>
+        Sometimes <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, sometimes <a href="#summaryList">writing</a>, other times taking <a href="https://www.instagram.com/spencerchang.photography/">photos</a>, and often eating. I also enjoy experimenting with <a href="https://twitter.com/spencerc99/status/1421245152698376194?s=2">fashion</a>, dancing, and being in nature.
+    </div>
+     <div>
+      Currently working to empower people to collaborate and create @ <a id="coda" href="https://coda.io">Coda</a>. Previously @
       <a id="airbnb" href="https://airbnb.com">Airbnb</a>,
       <a id="square" href="https://squareup.com">Square</a>,
       <a id="rice" href="http://rice.edu/">Rice🦉</a>
     </div>
     <div>
-        Sometimes <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, sometimes <a href="#">writing</a>, other times taking <a href="https://www.instagram.com/spencerchang.photography/">photos</a>, and often eating.
-    </div>
-    <div>
-        Always looking to learn about different perspectives and jamming with curious people. Say hi via <a href="https://twitter.com/@spencerc99">Twitter</a> or <a href="mailto:spencerc99@gmail.com">email</a>!
+        I'm always looking to learn about different perspectives and jam with curious people. Say hi <span class="wave">👋</span> (<a href="https://twitter.com/@spencerc99">Twitter</a>, <a href="mailto:spencerc99@gmail.com">email</a>)
     </div>
   </div>
   {{ partial "social_media.html" . }}
@@ -42,68 +49,19 @@
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
     {{.Content}}
 </div>
-<div class="summaryList">
+<div class="summaryList" id="summaryList">
   <b>Recent writing</b>
   <div class="writingMeta">
-    <p>🆕 <a href="https://coda.io/@spencer/postal-portals">Postal Portals</a>: letter series with friends to deep-dive into concepts weighing on our minds.</p>
-    <p>🆕 04/11 <a href="{{(.Site.GetPage "/experiments/100posts").RelPermalink}}">Mini-essay experiment</a>: publishing raw, lightly edited pieces semi-daily towards achieving 100 public pieces.</p>
+    <p><span class="postDate post meta">06.04.21</span> | <a href="https://coda.io/@spencer/postal-portals">Postal Portals</a>: a series of letters with friends to deep-dive into concepts weighing on our minds.</p>
+    <p><span class="postDate post meta">04.11.21</span> | <a href="{{(.Site.GetPage "/experiments/100posts").RelPermalink}}">Mini-essay experiment</a> to publish raw, lightly edited pieces semi-daily towards achieving 100 public pieces.</p>
     {{ partial "legend.html" . }}
-  <!-- <p>Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</p> -->
-  <!-- <p><i>Assorted writing below. Ones marked with a <i class="uil uil-bolt"></i> indicate fictional/creative writing. You can also find shorter pieces on my <a href="https://spencerchang.substack.com/">substack</a>.</i></p> -->
-    <details>
-      <summary>
-          <span>Filter by tag</span>
-      </summary>
-      <span>
-        <br/>
-        <!-- TODO: filter tags for ones that have at least one matching -->
-        <!-- TODO: maybe just curate to the top 3 divisions, or ones that match with icons and hide under the dropdown -->
-        {{ $tags := $.Site.Taxonomies.tags.ByCount }}
-        <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
-          All Tags
-        </button>
-        {{ range $tags }}
-          {{ if .Term }}
-          <button xx class="tag-button" id="tag-{{ .Term | replaceRE "[.]" "_" | urlize }}" onclick="htf.checkFilter('{{ .Term | replaceRE "[.]" "_" | urlize }}', 'tag-')">
-            <span>{{.Term | humanize | title }}</span>
-            (<span id="stags-{{ .Term | urlize }}"> -count-</span>/<span id="ctags-{{ .Term | urlize }}"> -count-</span>)
-          </button>
-          {{ end }}
-        {{ end }}
-      </span>
-    </details>
+  <br/>
+    You can find my favorite pieces below, or browse all my <a href="/posts">writing</a>.
   </div>
   <div class="postsList">
-  {{ range where .Site.RegularPages ".Section" "posts" }}
-    <div class="tf-filter-item tf-item"  data-tags="{{ with .Params.tags }}{{ range . }}{{ . | replaceRE "[.]" "_" | urlize }} {{ end }} {{ end }} ">
-      {{ .Render "summary" }} 
-    </div>
+  {{ range where .Site.Taxonomies.tags.favorite "Section" "posts" }}
+    {{ .Render "summary" }} 
   {{ end }}
   </div>
 </div>
-
-<script src="/plugins/filtering/filter.js"></script>
-<script>
-  const htfConfig = {
-    filters: [
-      {
-        name: 'tags',
-        prefix: 'tag-',
-        buttonClass: 'tag-button',
-        allSelector: '#selectAllTags',
-        attrName: 'data-tags',
-        selectedPrefix: 'stags-',
-        countPrefix: 'ctags-'
-      }
-    ],
-    showItemClass: "show-item",
-    filterItemClass: "tf-filter-item",
-    activeButtonClass: "active",
-    counterSelector: "selectedItemCount",
-    populateCount: true,
-    setDisabledButtonClass: "disable-button"
-  } 
-  
-  var htf = new HugoTagsFilter(htfConfig);
-</script>
 {{ end }}

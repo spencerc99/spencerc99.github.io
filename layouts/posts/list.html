@@ -8,12 +8,7 @@
   {{.Content}}
 </div>
 <div class="summaryList">
-  {{ if isset .Params "postfilter" }}
-  {{ range where .Site.RegularPages "Params.tags" "intersect" .Params.postfilter }} 
-    {{ .Render "summary" }} 
-  {{ end }}
-  {{ else }}
-    {{ range .RegularPages }} {{ .Render "summary" }} {{ end }}
-  {{ end }}
+    {{ partial "legend.html" }}
+    {{ partial "posts_filtered_by_tags.html" .Site.RegularPages }}
 </div>
 {{ end }}

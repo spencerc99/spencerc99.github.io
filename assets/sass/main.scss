@@ -3,7 +3,7 @@ $navBar-height: 50px;
 $color-light-grey: #ababab;
 $color-lighter-grey: rgba(112, 128, 144, 0.25);
 $color-lighter-grey-background: rgba(112, 128, 144, 0.1);
-$color-blueberry: #6b7a8f;
+$color-blueberry: rgba(107, 122, 143, 1);
 $color-link: #fea680;
 $color-external-link: #62b3b2;
 $color-highlight: #fef4ad;
@@ -306,6 +306,29 @@ button.icon {
   width: 100%;
 }
 
+.navbarActions {
+  margin-left: auto;
+  display: grid;
+  grid-gap: .5rem;
+  grid-auto-flow: column;
+
+  a {
+    padding: 1px;
+
+    @include media(xsmallScreen) {
+      padding: 1px 4px;
+      background: $color-link;
+      border-radius: 4px;
+    }
+
+    span {
+      @include media(xsmallScreen) {
+        display:none;
+      }
+    }
+  }
+}
+
 #navbar {
   border-bottom: 1px $color-lighter-grey solid;
   background-color: white;
@@ -501,18 +524,24 @@ button.icon {
 
 .headerContainer {
   max-width: 490px;
+  margin: 80px auto 40px auto;
   text-align: center;
-  margin-bottom: 40px;
-  margin: auto;
 
-  .description div {
-    margin-bottom: 10px;
-    text-align: left;
+  &.home {
+    .description div {
+      margin-bottom: 10px;
+      text-align: left;
+    }
+  
+    ul {
+      margin-top: 6px;
+    }
   }
+}
 
-  ul {
-    margin-top: 6px;
-  }
+.listDescription {
+  text-align:left;
+  width: 100%;
 }
 
 @mixin link-highlight() {
@@ -656,6 +685,10 @@ summary {
   position:relative;
   display: inline;
   border-radius: 4px;
+
+  & h3 {
+    display:inline;
+  }
 }
 
 // Hide the standard > marker since not showing on Chrome so using custom icon.
@@ -666,13 +699,30 @@ details > summary {
 details > summary::-webkit-details-marker {
   display: none;
 }
+details > div {
+  // border: 2px solid $color-blueberry;
+  background: $color-light-lavender;
+  box-shadow: 0px 0px 5px #555 inset;
+  margin-top: 0;
+  padding: 1rem;
+  border-radius: 4px;
+
+  & > p:first-child {
+    margin-top: 0px;
+  }
+  & > p:last-child {
+    margin-bottom: 0px;
+  }
+}
 
 // Custom icons for collapsing since the default one doesn't show on
 // Chrome-based browsers when display: inline on for some reason.
 summary:before {
   box-sizing: border-box;
-	content: '\e804';
-  font-family: unicons-solid;
+	// content: '\e804';
+  // font-family: unicons-solid;
+  content: '🔽';
+  margin-right: 3px;
   font-style: normal;
   speak: none;
   font-size: 20px;
@@ -683,11 +733,21 @@ summary:before {
 }
 
 details[open] summary:before {
-	content: '\e80d';
+	// content: '\e80d';
+	content: '🆙';
 }
 
 summary:hover, summary:focus {
 	background: $color-highlight;
+
+  &:before {
+    // TODO: figure out why fails to compile with `wave` mixin not defined. this is copy pasted for now.
+    animation-name: wave-animation;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
 }
 
 details div {
@@ -1116,22 +1176,27 @@ ul.noPadding {
 // from https://jarv.is/notes/css-waving-hand-emoji/
 @keyframes wave-animation {
     0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(-14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(8.0deg) }
-   30% { transform: rotate(-14.0deg) }
-   40% { transform: rotate(4.0deg) }
-   50% { transform: rotate(-10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+   45% { transform: rotate(-14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   85% { transform: rotate(8.0deg) }
+  //  30% { transform: rotate(-14.0deg) }
+  //  40% { transform: rotate(4.0deg) }
+  //  50% { transform: rotate(-10.0deg) }
+  //  60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
+}
+
+@mixin wave($iteration-count: 1) {
+  animation-name: wave-animation;
+  // animation-duration: 2.5s;
+  animation-duration: .5s;
+  animation-iteration-count: $iteration-count;
+  transform-origin: 70% 70%;
+  display: inline-block;
 }
 
 .wave {
   &:hover {
-    animation-name: wave-animation;
-    animation-duration: 2.5s;
-    animation-iteration-count: 1;
-    transform-origin: 70% 70%;
-    display: inline-block;
+    @include wave(2);
   }
 }
 
