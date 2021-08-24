@@ -1,7 +1,7 @@
 ---
 title: "22 - reflection systems"
 date: "2021-06-09"
-tags: ["100posts", "newsletter"]
+tags: ["100posts", "newsletter", "experimentFavorite"]
 external_link: "https://spencerchang.substack.com/p/reflection-systems"
 description: "I wrote an overview of the spaces I make for reflection and my intention around sharing that broadly. All the tools I use have been templatized and are free for you to try out if you’re curious!"
 ---
