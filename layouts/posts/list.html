@@ -4,11 +4,15 @@
 </div>
 {{ end }} {{ define "main" }}
 <div class="listDescription">
+  {{ partial "recent_writing.html"}}
   <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
   {{.Content}}
 </div>
 <div class="summaryList">
     {{ partial "legend.html" }}
-    {{ partial "posts_filtered_by_tags.html" .Site.RegularPages }}
+    {{ $pages := where .Site.RegularPages "Type" "posts" }}
+    {{ $showcasePages := where .Site.RegularPages "Params.show_home" true }}
+    {{ $allPages := sort ($pages | union $showcasePages) "Date" "desc" }}
+    {{ partial "posts_filtered_by_tags.html" $allPages }}
 </div>
 {{ end }}
