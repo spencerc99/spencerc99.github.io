@@ -4,7 +4,7 @@ date: "2021-09-25"
 tags: ["100posts"]
 description: "A hero's journey view on technologists' experience coming to and living in Silicon Valley"
 ---
-Arc of the valley from Rick, basically the hero's journey but in silicon valley ^421b9d
+Arc of the valley from Rick, basically the hero's journey but in silicon valley
 1. Bright eyed on the ideals and optimism
 2. Disillusionment encountered at the dissonance 
 3. Deep disillusionment, cynical about everything
