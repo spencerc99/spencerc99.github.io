@@ -23,7 +23,7 @@
     {{ end }}
   </div>
   <h1 class="title">{{ .Title }}</h1>
-  <h3 class="description">{{ .Description }}</h3>
+  <h3 class="description">{{ .Description | markdownify }}</h3>
   <div>
     <article class="postContent">
       {{ with .Params.external_link }}
