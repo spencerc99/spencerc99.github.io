@@ -1,0 +1,24 @@
+{
+  "name": "hugo-website",
+  "version": "1.0.0",
+  "description": "Hi there! 👋",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencerc99/hugo-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencerc99/hugo-website/issues"
+  },
+  "homepage": "https://github.com/spencerc99/hugo-website#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
