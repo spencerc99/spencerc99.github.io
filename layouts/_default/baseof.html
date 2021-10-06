@@ -89,32 +89,21 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
     <!-- Handle loading react components -->
-    <!-- 利用するリソースを指定する -->
+    <!-- See the following resources:
+    * https://github.com/kaihendry/react-hugo-esbuild/blob/master/layouts/index.html
+    * https://zenn-dev.translate.goog/nikaera/articles/hugo-react-dev?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=nui,sc
+    -->
     {{ with resources.Get "js/App.tsx" }}
-
-    <!-- id が react の div 要素を用意する -->
-    <div id="react"></div>
-
-    <!-- TSX を ESBuild でビルドする際の Hugo のオプションを指定する -->
-    {{ $options := dict "targetPath" "js/app.js" "minify" true "defines" (dict
-    "process.env.NODE_ENV" "\"development\"") }}
-
-
-    <!-- TSX のビルドを Hugo のオプションで指定した内容で実行する -->
-    {{ $js := resources.Get . | js.Build $options }}
-
-    <!-- 一応 SRI を有効化した状態でビルドした JS を読み込む -->
+    {{ $options := dict "defines" (dict "process.env.NODE_ENV" "\"development\"" "process.env.BaseURL" (printf `"%s"` $.Site.BaseURL)) }}
+    {{ $js := . | js.Build $options }}
     {{ $secureJS := $js | resources.Fingerprint "sha512" }}
-    <script src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" ></script>
-
+    <script src="{{ $secureJS.RelPermalink }}" defer integrity="{{ $secureJS.Data.Integrity }}" ></script>
     {{ end }}
-    
 </head>
 
 <body>
     {{ partial "navbar.html" }}
     <div id="content">
-        <div id="react"/>
         {{ block "header" . }}
         {{ end }}
         <!-- Code that all your templates share, like a header -->
