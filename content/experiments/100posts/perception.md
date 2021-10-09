@@ -4,6 +4,7 @@ date: "2021-09-26"
 tags: ["100posts"]
 description: "I explore appearance as a gateway to connection. At first, it's all we know, but eventually, it becomes just the key for unlocking a deeper connection. Deep emotional connection is all around us for the taking; we just have to be willing to dig for it and receive it when it appears."
 show_home: true
+related: []
 ---
 People's perception of you hinges so much based on your outer appearance. If you wear flamboyant clothes, you're "out there." If you're wearing khakis and hiking boots, you really value comfort, and if you're insistent on thin layers in freezing weather, you value fashion over comfort. These are all common stereotypes that people draw from a single glance, and it can take over your entire impression of a stranger. I've been thinking about this recently because I got my ears pierced yesterday and because of that, I feel like not only my friends but the strangers around me, even more so, are perceiving me differently. 
 
@@ -16,3 +17,4 @@ I love that the opportunity for connection and intimacy is all around us. Sonder
 ---
 
 *This is the **58th** installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list [here](https://www.spencerchang.me/experiments/100posts/)*.
+

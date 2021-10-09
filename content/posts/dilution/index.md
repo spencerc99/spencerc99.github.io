@@ -4,7 +4,7 @@ description: "When the real and imaginary planes meet."
 storyType: 'serif'
 image: '/posts/dilution/images/stars.jpeg'
 date: "2020-12-06"
-related: ['/posts/a-twinkle', '/posts/right-decisions', '/posts/broken-lines']
+related: ['/posts/a-twinkle', '/posts/broken-lines', '/posts/right-decisions']
 icon: "uil uil-bolt"
 keywords: ['existentialist']
 tags: ['creative', 'personal']

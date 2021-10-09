@@ -3,6 +3,7 @@ title: "49 - now's focus"
 date: "2021-09-15"
 tags: ["100posts"]
 description: "I'm splitting time between a lot of different projects. There isn't enough time for all of this and the switching cost is taking its toll. I need to learn how to get really good at picking off one piece at a time and making a difference as I can."
+related: []
 ---
 thinking for 100posts that I stop sending everyone an email all the time just send them weekly updates to be less? Good opportunity for me to summarize how I'm feeling too and review my writing. start this week?
 
@@ -15,3 +16,4 @@ concept of abstraction vs. depth in all of these personal snapshots on personal 
 ---
 
 *This is the **49th** installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list [here](https://www.spencerchang.me/experiments/100posts/)*.
+

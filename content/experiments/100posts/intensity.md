@@ -4,6 +4,7 @@ date: "2021-10-02"
 tags: ["100posts"]
 description: "Intensity means that you're living and experiencing more of the life that's passing by around you."
 show_home: false
+related: ['/posts/craft-over-career']
 ---
 I'm starting to learn that I really like people who are intense and don't compromise that intensity when it comes to anything that they do. I think intensity gets a bad rep. When I think about intensity, I think about someone rigid who can't relax or adapt to new situations. Somehow I think we've been conditioned by society to think that these sorts of extreme feelings are bad or undesireable and to limit the amount of time we allow ourselves to feel those. We try to condense to the average so that we fit into the mold given to us. But a free wield of intensity in creative pursuits is incredibly alluring to me. It reminds of the philosophy to make everything you're doing in the moment the [most important thing](/posts/craft-over-career/). If you're choosing to do something, why half-ass it rather than [committing](/posts/craft-over-career/) fully?
 

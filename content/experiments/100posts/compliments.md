@@ -8,6 +8,7 @@ tags: ["100posts"]
 
 description: "Resurfacing an old idea on the power of compliments and a poem on second sky"
 
+related: []
 ---
 
 rising lights shining
@@ -23,3 +24,4 @@ that idea about compliments compliments are free energy i actually wrote about i
 ---
 
 *This is the **53rd** installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list [here](https://www.spencerchang.me/experiments/100posts/)*.
+

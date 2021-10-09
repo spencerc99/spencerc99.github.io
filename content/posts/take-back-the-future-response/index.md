@@ -3,6 +3,7 @@ title: "re: take back the future - the magic is ours"
 date: "2021-10-05"
 tags: ['personal', 'beliefs', 'response']
 description: "a response to [reboot](https://reboothq.substack.com)'s manifesto on techno-optimism"
+related: ['/posts/better-world-delusion', '/posts/technology-paradox']
 ---
 *In response to* *[take back the future](https://reboothq.substack.com/p/manifesto)*
 

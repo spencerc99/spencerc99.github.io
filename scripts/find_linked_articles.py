@@ -5,28 +5,41 @@ import ast
 from sys import stderr
 from typing import (Set,List, IO, AnyStr)
 
-INTERNAL_ARTICLE_REGEX = re.compile('\\(\\/[^)]+')
+INTERNAL_ARTICLE_REGEX = re.compile('\\[[^)]+\\]\\((\\/[^)]+)')
+ABSOLUTE_URL_REGEX = re.compile(
+    '(\\[[^\\])]*\\]\\([^)]*(?:(?:spencerchang\\.me)|(?:localhost:1313))(\\/[^)]+)\\))')
 LINKED_ARTICLES_FIELDNAME = 'related'
 ARTICLE_METADATA_DELIMETER = '---'
-CONTENT_PATH = 'content/posts/'
+CONTENT_PATHS = ['content/posts/', 'content/experiments/100posts/']
 
 def clean_internal_link(link):
     if link[-1] == '/':
         link = link[:-1]
     return link
 
+def is_directory_path(path): 
+    for content_dir in CONTENT_PATHS:
+        if path in content_dir:
+            return True
+    return False
+
 def parse_linked_articles(lines: List[AnyStr]) -> Set[str]:
     articles = set()
     for line in lines:
-        if 'spencerchang.me' in line:
-            print('Absolute link found, convert to relative link', file=stderr)
-        matches = re.findall(INTERNAL_ARTICLE_REGEX, line)
-        for match in matches:
-            linked_post = match[1:]
-            if linked_post == '/posts':
+        absolute_matches = re.findall(ABSOLUTE_URL_REGEX, line)
+        for full_match, relative_match in absolute_matches:
+            # skip the directory matches because they don't point to articles.
+            if is_directory_path(relative_match):
                 continue
-            cleaned_linked_post = clean_internal_link(linked_post)
-            articles.add(cleaned_linked_post)
+            print(f'Absolute link found {full_match}, convert to relative link {relative_match}', file=stderr)
+            articles.add(clean_internal_link(relative_match))
+            
+        relative_matches = re.findall(INTERNAL_ARTICLE_REGEX, line)
+        for match in relative_matches:
+            # skip the directory matches because they don't point to articles.
+            if is_directory_path(match):
+                continue
+            articles.add(clean_internal_link(match))
 
     return articles    
         
@@ -61,10 +74,11 @@ def upsert_related_articles(filename: str):
         f.writelines(lines)
 
 if __name__ == "__main__":
-    for filename in os.listdir(CONTENT_PATH):
-        if '.DS_Store' in filename:
-            continue
-        if os.path.isdir(f'{CONTENT_PATH}{filename}'):
-            filename = f'{filename}/index.md'
-        print(f'Upserting related content for {CONTENT_PATH}{filename}')
-        upsert_related_articles(f'{CONTENT_PATH}{filename}')
+    for content_dir in CONTENT_PATHS: 
+        for filename in os.listdir(content_dir):
+            if '.DS_Store' in filename:
+                continue
+            if os.path.isdir(f'{content_dir}{filename}'):
+                filename = f'{filename}/index.md'
+            print(f'Upserting related content for {content_dir}{filename}')
+            upsert_related_articles(f'{content_dir}{filename}')

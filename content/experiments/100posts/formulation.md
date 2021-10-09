@@ -3,6 +3,7 @@ title: "50 - formulation"
 date: "2021-09-16"
 tags: ["100posts"]
 description: "As a fiction writer, our job is to take the most interesting path, not the one that we feel is right. We are the guide for the reader's experience, not to fulfill our secret dream experience."
+related: []
 ---
 
 I've been really loving George Saunders recently, and I ran into this interview with him and now love him even more because of his perspective:
@@ -14,3 +15,4 @@ I've been really loving George Saunders recently, and I ran into this interview 
 ---
 
 *This is the **50th** installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list [here](https://www.spencerchang.me/experiments/100posts/)*.
+

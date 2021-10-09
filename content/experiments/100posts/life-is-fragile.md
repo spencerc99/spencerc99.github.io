@@ -4,6 +4,7 @@ date: "2021-09-21"
 tags: ["100posts"]
 description: "Life is fragile which means we have to make the most of cherishing the people we love and pursuing the things that give us energy."
 
+related: []
 ---
 Life is fragile is a message from Sex Education (fire tv show btw).
 
@@ -14,3 +15,4 @@ heard this in Sex Education after the class visits an old WWII cemetery / battle
 ---
 
 *This is the **54th** installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list [here](https://www.spencerchang.me/experiments/100posts/)*.
+

@@ -3,6 +3,7 @@ title: "52 - cafe encounter"
 date: "2021-09-19"
 tags: ["100posts"]
 description: "A chance cafe encounter leading to inspiration and reminding me what I looked forward to in moving to San Francisco"
+related: []
 ---
 Talked to people at Stable Cafe today.
 * met betty and anton there and chatted them up
@@ -20,3 +21,4 @@ These are the kinds of people I had hoped to meet in San Francisco when I moved 
 ---
 
 *This is the **52nd** installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list [here](https://www.spencerchang.me/experiments/100posts/)*.
+

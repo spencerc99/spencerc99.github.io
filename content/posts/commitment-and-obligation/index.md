@@ -33,3 +33,4 @@ Effort alone won’t get you to commit to something that you can’t find the en
 
 ---
 This piece evolved out of the **18th** installment in my [experiment](/experiments/100posts/) of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. To get updates, subscribe to my newsletter below.
+

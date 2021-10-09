@@ -8,7 +8,7 @@ resources:
   name: images-:counter
   title: images-title-:counter
 keywords: ['decisions']
-related: ['/posts/rice-fields', '/posts/war-of-intentions', '/posts/student-to-teacher']
+related: ['/posts/war-of-intentions', '/posts/rice-fields', '/posts/student-to-teacher']
 tags: ['personal', 'ideas']
 ---
 

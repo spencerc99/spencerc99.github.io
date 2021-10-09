@@ -4,7 +4,7 @@ description: "Learning from nature, past leaders, and the consequences of humanÂ
 summary: "Explorationâ€”the relinquishing of the old for something new and unknown. Why do we explore? What drives us to leave behind cozy homes, comfortable routines, and familiar lands, foods, and faces to seek out the new and unknown?"
 image: "/images/discovering/patagonia.jpg"
 date: "2020-02-23"
-related: ['/posts/student-to-teacher', '/posts/stupid-scholars', '/posts/rice-fields']
+related: ['/posts/stupid-scholars', '/posts/rice-fields', '/posts/student-to-teacher']
 tags: ['personal']
 ---
 {{< figure src="/images/discovering/patagonia.jpg" class="fullWidth" >}}

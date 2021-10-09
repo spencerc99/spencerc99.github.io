@@ -3,6 +3,7 @@ title: "51 - extraction and flower"
 date: "2021-09-18"
 tags: ["100posts"]
 description: "Taking a gamble by doing the small things to make people happy and exploring how to be mindful of my energy and enjoying the moment."
+related: []
 ---
 at second sky, gave one of my flowers to a random guy who hit on me. Reminded by how our smallest acts can make the biggest difference.
 

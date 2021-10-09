@@ -4,6 +4,7 @@ date: "2021-10-01"
 tags: ["100posts"]
 description: "I never want to tone down my intensity or dilute my flavor for the sake of others."
 show_home: true
+related: ['/posts/gambling', '/posts/commitment-and-obligation', '/experiments/100posts/intensity']
 ---
 
 I was talking with Ray today about how the biggest thing I'm working on right now is acting on instinct, doing before thinking, [trusting](https://spencerchang.substack.com/p/fear-mini-47100) myself to get through whatever path I choose in the moment rather than crafting the perfect response to my external stimuli. There's a part of me deep down that [fears](https://spencerchang.substack.com/p/fear-mini-47100) failure in these situations, and the higher the stakes, the more I feel the pressure. Interpersonal situations are especially effective at generating anxiety and distrust. As a child, I was incredibly neurotic and introverted. I got stomach aches the night before any high stakes performance, whether it be something I was good at (academic tests) or something I was terrible at (cross-country meets). I've come a long way since then of being more stable emotionally as well as having a higher and more solid foundation of trust in myself, but lots of people situations still feel scary, even if it's simply notifying that they gave the wrong order. 

@@ -6,7 +6,7 @@ image: '/images/a-twinkle/firefly.jpg'
 icon: "uil uil-bolt"
 date: "2020-05-03"
 keywords: ['existentialist', 'fiction']
-related: ['/posts/student-to-teacher', '/posts/rice-fields']
+related: ['/posts/rice-fields', '/posts/student-to-teacher']
 tags: ['favorite', 'creative', 'poem']
 ---
 \

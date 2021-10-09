@@ -3,6 +3,7 @@ title: "56 - privilege of dreams"
 date: "2021-09-24"
 tags: ["100posts"]
 description: "Dreams are a privilege to those who have the means. Media showcases this in bleak terms."
+related: []
 ---
 
 From a conversation with a friend:
@@ -14,3 +15,4 @@ Interestingly, the media that most illuminates this that comes to mind is a lot 
 ---
 
 *This is the **56th** installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list [here](https://www.spencerchang.me/experiments/100posts/)*.
+

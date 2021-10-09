@@ -8,7 +8,7 @@ resources:
   name: mirage
   title: mirage-title-:counter
 tags: ['personal', 'cities', 'favorite']
-related: ['/posts/commitment-and-obligation', '/experiments/100posts']
+related: ['/posts/commitment-and-obligation']
 ---
 *This is a collage of several journals (composed at various levels of drunkenness) over the past weekend in Vegas, and my post-trip reflections from immersing myself in that environment.*
 
@@ -47,5 +47,3 @@ I think there’s two ways to interpret this conclusion. One is to accept the he
 ---
 
 This piece evolved out of the **44th** installment in my [experiment](/experiments/100posts/) of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. To get updates, subscribe to my newsletter below.
-
-
