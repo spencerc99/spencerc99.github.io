@@ -1,4 +1,5 @@
 $viewport-width: 650px;
+$large-content-width: 1000px;
 $navBar-height: 50px;
 $color-light-grey: #ababab;
 $color-lighter-grey: rgba(112, 128, 144, 0.25);
@@ -1266,8 +1267,13 @@ button {
   grid-template-columns: auto auto;
   gap: 20px 40px;
   justify-content: center;
+  // compensation for minus viewport-width
+  width: $large-content-width;
+  margin-left: -(($large-content-width - $viewport-width) / 2);
   
   @include media(xsmallScreen, smallScreen, mediumScreen) {
+    width: inherit;
+    margin-left: 0;
     grid-template-columns: auto;
   }
 }
@@ -1301,6 +1307,6 @@ button {
   }
 
   .photoCardPhoto {
-    width: 400px;
+    max-width: 100%;
   }
 }
