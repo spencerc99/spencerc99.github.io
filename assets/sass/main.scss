@@ -19,7 +19,8 @@ $navbar-zindex: 999;
 $color-text-color: #282828;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
-$screenXsmallMin: 320px;
+// This used to be `320px` but makes no sense that smaller than 320px reverts so changing to 0.
+$screenXsmallMin: 0px;
 $screenSmallMin: 481px;
 $screenMediumMin: 768px;
 $screenLargeMin: 1025px;
@@ -66,6 +67,13 @@ $screenMaxWidths: (
   position: relative;
   width: 100vw;
   min-width: $viewport-width;
+}
+
+@mixin meta-content() {
+  color: slategrey;
+  @extend .sans-serif;
+  // font-size: 80%;
+  font-size: $smaller-font-size;
 }
 
 @mixin quote-font() {
@@ -826,10 +834,7 @@ i.uis.uis-star {
 }
 
 .post.meta {
-  color: slategrey;
-  @extend .sans-serif;
-  // font-size: 80%;
-  font-size: $smaller-font-size;
+  @include meta-content();
 }
 
 .postDate {
@@ -1116,6 +1121,10 @@ ul.noPadding {
   display: none;
 }
 
+.pswp img {
+  object-fit: contain;
+}
+
 // Masonry code
 .gallery {
   width: 100%;
@@ -1151,7 +1160,7 @@ ul.noPadding {
 
 .gallery-item {
   /* Masonry bricks or child elements */
-  background-color: #eee;
+  // background-color: #eee;
   display: inline-block;
   margin: 0 0 0.2rem;
   width: auto;
@@ -1246,3 +1255,46 @@ button {
   }
 }
 
+// FITS STYLING
+#fitsContainer {
+  // grid display
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px 40px;
+  justify-content: center;
+  
+  @include media(xsmallScreen, smallScreen, mediumScreen) {
+    grid-template-columns: auto;
+  }
+}
+
+.photoCard {
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid black;
+  
+  p {
+    margin: 8px 0;
+  }
+
+  .photoCardMeta {
+    display: flex;
+    flex-direction: row;
+    @include meta-content();
+  }
+
+  .photoCardIdx {
+    margin-right: auto;
+  }
+
+  // override the `.gallery img` setting
+  img {
+    max-width: none;
+    border-radius: 8px;
+    box-shadow: none;
+  }
+
+  .photoCardPhoto {
+    width: 400px;
+  }
+}

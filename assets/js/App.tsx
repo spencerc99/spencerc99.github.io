@@ -1,6 +1,10 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
+// we dont need this for now
+// import * as React from "react";
+// import * as ReactDOM from "react-dom";
 // import {useEffect, useState} from "react"
+// import * as fitsData from '../../content/fits/fits.json';
+// console.log(fitsData);
+
 // interface Props {
 //   title: string;
 //   imgSrc: string;
@@ -25,6 +29,7 @@ import * as ReactDOM from "react-dom";
 
 // function Fits() {
 //   const [fits, setFits] = useState<undefined | any[]>();
+//   console.log(fitsData)
 //   useEffect(async () => {
 //     const fitsRaw = await fetch("./fits.json")
 //     console.log(fitsRaw);
