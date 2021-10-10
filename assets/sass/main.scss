@@ -559,7 +559,7 @@ button.icon {
 
 
 // external links
-a[href^="http"]:not(.relatedLink):not(.socialMediaLink):not(.anchor) {
+a[href^="http"]:not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.galleryLink) {
   color: $color-external-link;
   text-decoration: none;
   transition: background-color 0.25s ease-in-out;

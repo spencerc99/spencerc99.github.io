@@ -14,7 +14,7 @@
         {{- range (.Page.Resources.Match (printf "%s*" (.Get "folder"))) }}
             {{ $thumbnail := cond ( eq $shouldMakeSquare "true") (.Fill (printf "%sx%s" $resizeSize $resizeSize)) (.Resize $resizeOneDimensionInput) }}
             <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
-            <a href="{{ .Permalink }}" itemprop="contentUrl" data-size="{{ .Width }}x{{ .Height }}" >
+            <a class="galleryLink" href="{{ .Permalink }}" itemprop="contentUrl" data-size="{{ .Width }}x{{ .Height }}" >
                 <img src="{{ $thumbnail.Permalink }}" itemprop="thumbnail" alt="galleryImage" class="galleryImage" />
             </a>
             <figcaption class="galleryImageCaption" itemprop="caption description">
