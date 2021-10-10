@@ -1,6 +1,7 @@
 ---
 title: "Fits"
-subtitle: "I like optimistic dreaming 💭 and deep thinking 🤔. Exploring, learning, and laughing through life. 🔍📚🤭"
+description: "A permanent space for my outfits of the day."
+image: "https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/2021-08-13+%282%29.jpeg"
 postfilter: ["fits"]
 ---
 
