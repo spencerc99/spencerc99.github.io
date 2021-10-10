@@ -13,11 +13,11 @@
                 <span class="photoCardIdx">{{sub (len $fitsData) $index}}</span>
                 <span class="photoCardDate">{{$element.date | dateFormat "01.02.2006"}}</span>
             </div>
-            <p>{{$element.description}}</p>
             <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
-            <!-- TODO: calculate proper size based on item and store inside json, needed for animation -->
-            <a class="galleryLink" href={{$element.imgSrc}} itemprop="contentUrl" data-size="3000x4000"><img class="photoCardPhoto galleryImage" src={{$element.imgSrc}}  itemprop="thumbnail" alt="galleryImage"/></a>
+                <!-- TODO: calculate proper size based on item and store inside json, needed for animation -->
+                <a class="galleryLink" href={{$element.imgSrc}} itemprop="contentUrl" data-size="3000x4000"><img class="photoCardPhoto galleryImage" src={{$element.imgSrc}}  itemprop="thumbnail" alt="galleryImage"/></a>
             </figure>
+            <p>{{$element.description}}</p>
         </div>
-    {{ end }}
+        {{ end }}
 </div>

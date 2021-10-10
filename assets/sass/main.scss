@@ -1278,13 +1278,15 @@ button {
   border: 1px solid black;
   
   p {
-    margin: 8px 0;
+    margin-top: 8px;
+    margin-bottom: 0;
   }
 
   .photoCardMeta {
     display: flex;
     flex-direction: row;
     @include meta-content();
+    margin-bottom: 8px;
   }
 
   .photoCardIdx {
