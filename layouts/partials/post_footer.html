@@ -11,12 +11,6 @@
 </div>
 <!-- TODO: add sharing this article need to pass in article link -->
 <div class="shareCta">
-  <script>
-    function copyLink(text) {
-      navigator.clipboard.writeText(text);
-      return undefined;
-    }
-  </script>
   {{ with .Permalink }}
     <button class="icon" href="" onclick="copyLink({{.}})"><i class="uil uil-link-h" ></i> Copy Link</button>
   {{ end }}

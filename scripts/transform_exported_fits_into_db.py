@@ -13,7 +13,7 @@ def post_function(
     new_object = None
     if not results.exported: 
         return
-    with open(FITS_PATH_NAME, 'r')as f:
+    with open(FITS_PATH_NAME, 'r') as f:
         fit_data = json.load(f)
         fits = fit_data['fits']
         fits_img_srcs = set([fit['imgSrc'] for fit in fits])
@@ -42,6 +42,6 @@ def post_function(
         # write all data, escaped for JSON to an object, separate them by lines in temp place?
         # when all over re-write the db file
         
-    with open(FITS_PATH_NAME, 'w')as f:
+    with open(FITS_PATH_NAME, 'w') as f:
         verbose("writing out to JSON")
         f.write(json.dumps(fit_data, indent = 4))

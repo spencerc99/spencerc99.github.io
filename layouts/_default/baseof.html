@@ -91,6 +91,9 @@
     <!-- lazy load images to prioritize those in view -->
     <script async src="/lazysizes.min.js"></script>
 
+    <!-- javaccript helpers -->
+    <script async src="/helpers.js"></script>
+
     <!-- Handle loading react components -->
     <!-- See the following resources:
     * https://github.com/kaihendry/react-hugo-esbuild/blob/master/layouts/index.html
@@ -120,6 +123,7 @@
         {{ partial "footer.html" . }}
         {{ end }}
     </div>
+    <div id="snackbar"/>
 </body>
 
 </html>
