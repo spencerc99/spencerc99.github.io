@@ -653,12 +653,27 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
   height: 0px;
   padding-bottom: 56.25%;
 
-  *:first-child {
+  *:first-child { 
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+  }
+}
+
+
+.responsiveContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 150%;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -1290,9 +1305,7 @@ button {
   border-radius: 4px;
   padding: 20px;
   border: 1px solid black;
-  // add a reasonable min height so that we avoid insane content reflow issues.
-  min-height: 400px;
-  
+
   p {
     margin-top: 8px;
     margin-bottom: 0;
@@ -1318,7 +1331,11 @@ button {
   }
 
   .photoCardPhoto {
+    // TODO: figure out how to make this responsive, the absolute container not working.
     max-width: 100%;
+    // // add a reasonable min height so that we avoid insane content reflow issues.
+    min-height: 450px;
+    // min-width: 300px;
   }
 }
 
