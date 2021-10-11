@@ -11,7 +11,9 @@
     {{ range $index, $element := sort $fitsData "timestamp" "desc" }}
         {{$fitIndex := string (sub (len $fitsData) $index) }}
         {{$fitPermalink := delimit (slice (printf "%s" $fitsPagePermalink) (printf "#%s" $fitIndex)) "" }}
-        {{$previewImgSrc := replaceRE "\\.([^\\.]+)$" "_preview.$1" $element.imgSrc }}
+        <!-- NOTE: we replace the extension to jpeg since apple photos preview is always jpeg, not -->
+        <!-- whatever the original extension was. -->
+        {{$previewImgSrc := replaceRE "\\.([^\\.]+)$" "_preview.jpeg" $element.imgSrc }}
         <div id="{{$fitIndex}}" class="photoCard">
             <div class="photoCardMeta">
                 <span class="photoCardIdx" onclick="copyLink({{$fitPermalink}})">{{$fitIndex}} <i class="uil uil-link-h" ></i></span>

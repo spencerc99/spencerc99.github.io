@@ -1290,6 +1290,8 @@ button {
   border-radius: 4px;
   padding: 20px;
   border: 1px solid black;
+  // add a reasonable min height so that we avoid insane content reflow issues.
+  min-height: 400px;
   
   p {
     margin-top: 8px;
