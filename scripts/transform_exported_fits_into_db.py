@@ -11,18 +11,28 @@ def post_function(
     # check state file to make sure not already in the json
     fit_data = None
     new_object = None
+    # skip if nothing exported
     if not results.exported: 
         return
+
+    exported_filename = os.path.basename(results.exported[0])
+
+    # osxphotos appends `_preview` by default if it is the preview image that photos uses.
+    # Skip processing if this is a preview file since we will have processed the original image.
+    if '_preview' in exported_filename:
+        verbose(f"skipping processing because it's a preview! {photo.filename}")
+        return 
+        
+    if len(results.exported) > 1:
+        verbose(f"warning: Found multiple files exported for same file! {photo.filename}")
+
+    url_encoded_filename = urllib.parse.quote_plus(exported_filename)
+    s3_bucket_url = f"https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/{url_encoded_filename}"
+    
     with open(FITS_PATH_NAME, 'r') as f:
         fit_data = json.load(f)
         fits = fit_data['fits']
         fits_img_srcs = set([fit['imgSrc'] for fit in fits])
-        if len(results.exported) > 1:
-            verbose(f"warning: Found multiple files exported for same file! {photo.filename}")
-        exported_filename = os.path.basename(results.exported[0])
-
-        url_encoded_filename = urllib.parse.quote_plus(exported_filename)
-        s3_bucket_url = f"https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/{url_encoded_filename}"
 
         if url_encoded_filename in fits_img_srcs:
             verbose(f"Found {url_encoded_filename} inside the file, skipping adding")
