@@ -11,6 +11,8 @@ def post_function(
     # check state file to make sure not already in the json
     fit_data = None
     new_object = None
+    if not results.exported: 
+        return
     with open(FITS_PATH_NAME, 'r')as f:
         fit_data = json.load(f)
         fits = fit_data['fits']

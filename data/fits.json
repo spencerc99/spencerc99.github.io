@@ -1,6 +1,12 @@
 {
     "fits": [
         {
+            "description": "comfy fit for a brisk walk",
+            "imgSrc": "https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/2021-10-10.jpeg",
+            "date": "2021-10-10",
+            "timestamp": 1633917562.223054
+        },
+        {
             "description": "",
             "imgSrc": "https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/2021-08-13+%283%29.jpeg",
             "date": "2021-08-13",
