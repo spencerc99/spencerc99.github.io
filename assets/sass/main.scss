@@ -329,12 +329,19 @@ button.icon {
       padding: 1px 4px;
       background: $color-link;
       border-radius: 4px;
+      &.active {
+        border: 2px solid $color-blueberry;
+      }
     }
 
     span {
       @include media(xsmallScreen) {
         display:none;
       }
+    }
+
+    &.active {
+      border-bottom: 1px solid $color-blueberry;
     }
   }
 }
