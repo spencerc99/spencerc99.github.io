@@ -662,21 +662,6 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
   }
 }
 
-
-.responsiveContainer {
-  position: relative;
-  width: 100%;
-  padding-bottom: 150%;
-
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-  }
-}
-
 .summaryList {
   width: 100%;
 }
@@ -1331,11 +1316,8 @@ button {
   }
 
   .photoCardPhoto {
-    // TODO: figure out how to make this responsive, the absolute container not working.
     max-width: 100%;
-    // // add a reasonable min height so that we avoid insane content reflow issues.
-    min-height: 450px;
-    // min-width: 300px;
+    height: auto;
   }
 }
 
