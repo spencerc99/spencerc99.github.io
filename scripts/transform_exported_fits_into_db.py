@@ -28,30 +28,56 @@ def post_function(
 
     url_encoded_filename = urllib.parse.quote_plus(exported_filename)
     s3_bucket_url = f"https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/{url_encoded_filename}"
+
+    def upsert_photo_properties(obj):
+        obj["description"] = photo.description or ""
+        obj["imgSrc"] = s3_bucket_url
+        obj["date"] = photo.date.strftime("%Y-%m-%d")
+        obj["timestamp"] = photo.date.timestamp()
+        obj["width"] = photo.width
+        obj["height"] = photo.height
     
     with open(FITS_PATH_NAME, 'r') as f:
         fit_data = json.load(f)
         fits = fit_data['fits']
         fits_img_srcs = set([fit['imgSrc'] for fit in fits])
 
-        if url_encoded_filename in fits_img_srcs:
-            verbose(f"Found {url_encoded_filename} inside the file, skipping adding")
-            return
-        
+        if s3_bucket_url in fits_img_srcs:
+            verbose(f"Found {url_encoded_filename} inside existing data, updating")
+            existing_fit = next(fit for fit in fits if fit['imgSrc'] == s3_bucket_url)
+            upsert_photo_properties(existing_fit)
+        else:
+            new_object = {}
+            upsert_photo_properties(new_object)
+            verbose(f"Inserting {url_encoded_filename} with {new_object}")
+            fits.insert(0, new_object)
 
-        new_object = {
-            "description": photo.description or "",
-            "imgSrc": s3_bucket_url,
-            "date": photo.date.strftime("%Y-%m-%d"),
-            "timestamp": photo.date.timestamp()
-        }
-
-        verbose(f"Inserting {url_encoded_filename} with {new_object}")
-        fits.insert(0, new_object)
-
-        # write all data, escaped for JSON to an object, separate them by lines in temp place?
-        # when all over re-write the db file
+        # ensure this updates as looks like its not carrying through updates
+        fit_data['fits'] = fits
         
     with open(FITS_PATH_NAME, 'w') as f:
         verbose("writing out to JSON")
         f.write(json.dumps(fit_data, indent = 4))
+
+# rewrite the file
+# fit_data = None
+# with open(FITS_PATH_NAME, 'r') as f:
+#     fit_data = json.load(f)
+#     fits = fit_data['fits']
+#     print(f'Found {len(fits)} fits')
+#     img_srcs = set([])
+#     new_fits = []
+#     for fit in fits:
+#         if fit['imgSrc'] not in img_srcs:
+#             img_srcs.add(fit['imgSrc'])
+#             new_fits.append(fit)
+#     print(f'New file will consist of {len(new_fits)} fits')
+#     imgs_without_width = [fit for fit in new_fits if 'width' not in fit]
+#     print(len(imgs_without_width))
+#     print([fit['date'] for fit in imgs_without_width])
+#     fits = new_fits
+#     fit_data['fits'] = new_fits
+#     print(len(fit_data['fits']))
+
+# with open(FITS_PATH_NAME, 'w') as f:
+#     f.write(json.dumps(fit_data, indent = 4))
