@@ -1,8 +1,12 @@
 <article class="postSummaryContainer {{ with .Params.storyType }} {{ . }} {{ end }}">
+  {{ $matchingResource := where (.Resources.ByType "image") "RelPermalink" .Params.image }}
   {{ with .Params.image }}
-  <div class="postSummaryImageContainer">
-      <img class="postSummaryImage" src="{{ . }}" />
-  </div>
+    {{- $matchingSiteResource := resources.Get . -}}
+    {{ $firstResource := or (index $matchingResource 0) $matchingSiteResource }}
+    {{ $thumbnail := $firstResource.Resize "400x" }}
+    <div class="postSummaryImageContainer">
+        <img loading="lazy" class="postSummaryImage" src="{{ $thumbnail.RelPermalink }}" />
+    </div>
   {{ end }}
   <div class="postSummaryHeader">
    <div class="post summary meta">
