@@ -2,6 +2,22 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/2021-10-13.jpeg",
+            "date": "2021-10-13",
+            "timestamp": 1634173381.424001,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
+            "imgSrc": "https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/2021-10-12.jpeg",
+            "date": "2021-10-12",
+            "timestamp": 1634087800.23242,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
             "imgSrc": "https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/2021-10-07.jpeg",
             "date": "2021-10-07",
             "timestamp": 1633624239.886932,
