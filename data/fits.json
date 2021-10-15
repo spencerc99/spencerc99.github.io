@@ -2,6 +2,14 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/2021-10-14.jpeg",
+            "date": "2021-10-14",
+            "timestamp": 1634227886.607224,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
             "imgSrc": "https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/2021-10-13.jpeg",
             "date": "2021-10-13",
             "timestamp": 1634173381.424001,
