@@ -24,11 +24,11 @@ echo $restart
 
 # export from osxphotos
 # if restart add --overwrite instead of update and pass arg into post function to clean json file
-osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}" --update --convert-to-jpeg --post-function scripts/transform_exported_fits_into_db.py::post_function --preview --verbose ./fits-export
+osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}/{original_name}" --update --convert-to-jpeg --post-function scripts/transform_exported_fits_into_db.py::post_function --preview --verbose ./fits-export
 # osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}" --overwrite --convert-to-jpeg --post-function scripts/transform_exported_fits_into_db.py::post_function --preview --verbose ./fits-export
 
 # upload to s3
-aws s3 sync ./fits-export/  s3://personal-apple-photos/fits-stream/ --profile=personal-apple-photos --exclude "*" --include "*.jpeg" --include "*.jpg"
+aws s3 sync ./fits-export/  s3://personal-apple-photos/fits-stream/ --profile=personal-apple-photos --exclude "*" --include "*.jpeg" --include "*.jpg" --delete
 
 # do some logging?
 
