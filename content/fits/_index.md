@@ -2,6 +2,7 @@
 title: "Fits"
 description: "A permanent space for my outfits of the day."
 image: "https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/2021-06-27_edited.jpeg"
+date: "2021-10-21"
 postfilter: ["fits"]
 ---
 
