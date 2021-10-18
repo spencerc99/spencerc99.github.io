@@ -27,7 +27,7 @@ def post_function(
         verbose(f"warning: Found multiple files exported for same file! {photo.filename}")
 
     url_encoded_filename = urllib.parse.quote_plus(exported_filename)
-    s3_bucket_url = f"https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/{url_encoded_filename}"
+    s3_bucket_url = f"https://assets.spencerchang.me/fits-stream/{url_encoded_filename}"
 
     def upsert_photo_properties(obj):
         obj["description"] = photo.description or ""
