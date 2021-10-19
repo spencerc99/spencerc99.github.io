@@ -2,7 +2,7 @@
 title: "70 - taking what you want"
 date: "2021-10-16"
 tags: ["100posts"]
-description: ""
+description: "I guess the problem is that most things that you *really* want are controversial—they'll provoke people."
 show_home: false
 ---
 

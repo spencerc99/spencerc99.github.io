@@ -2,11 +2,11 @@
 title: "69 - power acclimation"
 date: "2021-10-14"
 tags: ["100posts"]
-description: ""
+description: "Humans are fickle creatures. We like to stop ourselves from doing things that are good for us, often, paradoxically, in the name of preserving the good and protecting us from the bad."
 show_home: false
 ---
 
-I think people naturally acclimate to the mental state they put thmselves in over and over and the environment they find themselves acting in day-to-day. It seeps in and takes over our default behavior without us realizing it. If you're used to acquiescing in the face of conflict or running in the face of danger, you're probably a push over. If you protect yourself from pain by pushing away all emotions, you've probably internalized that it's better to feel nothing than to experience something bad. And if you're used to getting things the way you want and apologizing for how other people feel rather than admitting your own mistakes, you most likely think that you physically cannot be wrong. 
+I think people naturally acclimate to the mental state they put themselves in over and over and the environment they find themselves acting in day-to-day. It seeps in and takes over our default behavior without us realizing it. If you're used to acquiescing in the face of conflict or running in the face of danger, you're probably a push over. If you protect yourself from pain by pushing away all emotions, you've probably internalized that it's better to feel nothing than to experience something bad. And if you're used to getting things the way you want and apologizing for how other people feel rather than admitting your own mistakes, you most likely think that you physically cannot be wrong. 
 
 I find it fascinating how so many are able to find conventional success despite some of the most destructive traits. It angers me that a lot of those in power have acclimated to being in power, to thinking they're right even when they're in the wrong because they've acclimated to the environment that treats them as the golden customer, who is *always* right. When you internalize this fact, you become unable to see past your own deficiencies—you start living in a world that is tinted by the faults and mistakes of all others. 
 
