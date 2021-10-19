@@ -5,6 +5,7 @@
 
 <head>
     <meta charset="utf-8">
+    <title>{{.Title}}</title>
     <meta name="description"
         content="{{ .Description }}" />
     <meta name="keywords"
@@ -38,10 +39,6 @@
     <meta name="twitter:data2" value="{{ .ReadingTime }} mins🕐" />
     {{ end }}
     <meta name="robots" content="noodp" />
-    <!-- Blocks may include default content. -->
-    <title>{{ block "title" . }}
-        {{ .Site.Title }}
-        {{ end }}</title>
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     <!-- fonts -->
