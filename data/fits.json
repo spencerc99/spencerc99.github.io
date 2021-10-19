@@ -1,6 +1,22 @@
 {
     "fits": [
         {
+            "description": "wait did I just invent this knot lol it\u2019s actually kinda nice",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-17%3AIMG_4618.jpeg",
+            "date": "2021-10-17",
+            "timestamp": 1634510140.37474,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-18%3ACamera+2021-10-18+at+2.37.55+PM.jpeg",
+            "date": "2021-10-18",
+            "timestamp": 1634593077.263566,
+            "width": 3024,
+            "height": 4032
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-07-25%3AIMG_2680.jpeg",
             "date": "2021-07-25",
@@ -601,7 +617,7 @@
             "height": 4032
         },
         {
-            "description": "these straps are not functional at all 🙄",
+            "description": "these straps are not functional at all \ud83d\ude44",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-15%3ACamera+2021-10-15+at+9.12.40+AM.jpeg",
             "date": "2021-10-15",
             "timestamp": 1634314362.328357,
