@@ -1,6 +1,22 @@
 {
     "fits": [
         {
+            "description": "rainy season coming back \ud83d\ude2b",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-19%3ACamera+2021-10-19+at+9.37.47+AM.jpeg",
+            "date": "2021-10-19",
+            "timestamp": 1634661469.242213,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-20%3ACamera+2021-10-20+at+7.52.07+PM.jpeg",
+            "date": "2021-10-20",
+            "timestamp": 1634784729.595032,
+            "width": 3024,
+            "height": 4032
+        },
+        {
             "description": "wait did I just invent this knot lol it\u2019s actually kinda nice",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-17%3AIMG_4618.jpeg",
             "date": "2021-10-17",
