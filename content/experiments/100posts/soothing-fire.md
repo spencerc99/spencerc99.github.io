@@ -1,6 +1,6 @@
 ---
 title: "72 - soothing fire: a raging fire that cools"
-date: "2021-10-21"
+date: "2021-10-20"
 tags: ["100posts"]
 description: "...that perfect balance, between raging like a wildfire towards your dreams and flowing like a gentle wake through every wonderful moment of life. At this paradoxical meeting point, I think you approach living life as fully as you can."
 show_home: true

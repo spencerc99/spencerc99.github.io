@@ -1,6 +1,14 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-21%3AIMG_4649.jpeg",
+            "date": "2021-10-21",
+            "timestamp": 1634875425.971207,
+            "width": 3024,
+            "height": 4032
+        },
+        {
             "description": "rainy season coming back \ud83d\ude2b",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-19%3ACamera+2021-10-19+at+9.37.47+AM.jpeg",
             "date": "2021-10-19",
