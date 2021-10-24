@@ -2,6 +2,22 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-22%3AIMG_4660.jpeg",
+            "date": "2021-10-22",
+            "timestamp": 1634969584.536444,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-23%3ACamera+2021-10-23+at+2.30.25+PM.jpeg",
+            "date": "2021-10-23",
+            "timestamp": 1635024627.557589,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-21%3AIMG_4649.jpeg",
             "date": "2021-10-21",
             "timestamp": 1634875425.971207,
