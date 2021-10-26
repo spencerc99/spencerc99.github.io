@@ -5,7 +5,7 @@ summary: "Exploration—the relinquishing of the old for something new and unkno
 image: "/images/discovering/patagonia.jpg"
 date: "2020-02-23"
 related: ['/posts/stupid-scholars', '/posts/rice-fields', '/posts/student-to-teacher']
-tags: ['personal', 'year-reflection']
+tags: ['personal', 'reflection']
 ---
 {{< figure src="/images/discovering/patagonia.jpg" class="fullWidth" >}}
 

@@ -1,8 +1,9 @@
 ---
 title: "craft over career"
+image: "/posts/craft-over-career/images/mads-mikkelsen.png"
 date: "2021-04-21"
 tags: ['personal', 'beliefs', 'favorite']
-description: "what if we chose to optimize our craft rather than our career? The implication is that everything we do, everything we're doing right now is the most important thing, not just some stepping stone for some \"better\" future."
+description: "what if we chose to optimize craft over career? It means everything we're doing right now is the most important thing, not just a stepping stone towards some \"better\" future."
 related: []
 ---
 

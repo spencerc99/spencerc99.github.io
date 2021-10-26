@@ -14,7 +14,9 @@
         <span>
           <span class="postDate">{{ .Date.Format "01.02.06" }}</span>
           {{ if isset .Params "external_link" }}
-            {{ if in .Params.tags "newsletter" }}
+            {{ if in .Params.tags "100posts" }}
+            // from my <a href="/experiments/100posts">mini-essay experiment</a>
+            {{ else if in .Params.tags "newsletter" }}
             // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
             {{ end }}
           {{ else if isset .Params "internal_link" }}

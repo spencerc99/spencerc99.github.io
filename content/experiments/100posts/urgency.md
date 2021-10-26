@@ -3,7 +3,7 @@ title: "76 - urgency"
 date: "2021-10-25"
 tags: ["100posts", "creative"]
 description: "Urgency is important because it imbues energy"
-show_home: trye
+show_home: true
 ---
 
 publishing an ode to urgency from earlier this year:
