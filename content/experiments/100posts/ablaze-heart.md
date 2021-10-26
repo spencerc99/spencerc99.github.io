@@ -1,7 +1,7 @@
 ---
 title: "71 - ablaze heart"
 date: "2021-10-17"
-tags: ["100posts", "creative", "poem"]
+tags: ["100posts", "creative", "poetry"]
 description: "a poem on setting your heart ablaze"
 show_home: true
 ---

@@ -5,8 +5,8 @@ storyType: 'serif'
 # image: '/posts/the-gaps/images/snow.jpg'
 icon: "uil uil-bolt"
 date: "2021-07-16"
-keywords: ['fiction', 'poem']
-tags: ['creative', 'poem']
+keywords: ['fiction', "poetry"]
+tags: ['creative', "poetry"]
 related: []
 ---
 <pre>

@@ -11,7 +11,7 @@ resources:
   name: moments
   title: moments-title-:counter
 related: ['/posts/george-floyd', '/posts/better-world-delusion', '/posts/discovering', '/posts/crowdsourced-birthday-recs', '/posts/a-twinkle', '/posts/dilution']
-tags: ['personal', 'favorite']
+tags: ['personal', 'favorite', 'year-reflection']
 ---
 A vibration ripples out from my phone. It’s a message from a classmate asking about my rooming plans for next semester with a not-so-subtle suggestion at a better option. I’m nearing the end of my first year in college, and having been successful at my quest to fit in, I’m tempted to change as little as possible to keep the good things going. The proposal to room with someone new (who I knew from the very intimate experience of recognizing their face across the dining hall every once in a while) was both an opportunity and a risk. It *could* be the start of a beautiful new relationship, or it could be the unremarkable beginning to a year of pain and troubles. I remember taking a few days to consider the offer but not having a strong conviction either way. Perhaps it truly was a quintessential “f-it” moment where my instincts momentarily held sway over my body that forked of a new branch in my life. It turned out to be a golden opportunity as that mysterious dining-hall person became one of my closest friends. It *could’ve* turned out poorly, but it ended up being one of the most impactful events to the direction of my life.
 
@@ -83,5 +83,5 @@ This year, I stretched my creative limits by exploring new styles of editing and
 
 {{< gallery folder="moments" caption="*moments of the year*" resizeHeight=true resizeSize=200 centered=true >}}
 
-With gratitude, love, and a flair of recklessness,\
+With gratitude, love, and a flair of recklessness,
 Spencer

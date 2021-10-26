@@ -7,64 +7,64 @@ icon: "uil uil-bolt"
 date: "2020-05-03"
 keywords: ['existentialist', 'fiction']
 related: ['/posts/rice-fields', '/posts/student-to-teacher']
-tags: ['favorite', 'creative', 'poem']
+tags: ['favorite', 'creative', "poetry"]
 ---
-\
-A shaft of moonlight pierces the curtain\
-In my concrete abode, a flare lighting the way out\
-The ephemeral promise draws me\
+
+A shaft of moonlight pierces the curtain
+In my concrete abode, a flare lighting the way out
+The ephemeral promise draws me
 like a firefly I seek my hopes.
 
-The defeaning chorus of cicadas\
-consumes me in the darkness.\
-Out in the fields, the grains cultivated\
-What was promised eclipses the night\
-A permanent night light bathes me\
-as the swarm of stars engulfs me\
-from the infinite black canvas above\
-and the mirror pools below\
-The glow of a mysterious wonder,\
+The defeaning chorus of cicadas
+consumes me in the darkness.
+Out in the fields, the grains cultivated
+What was promised eclipses the night
+A permanent night light bathes me
+as the swarm of stars engulfs me
+from the infinite black canvas above
+and the mirror pools below
+The glow of a mysterious wonder,
 of unattainable hypotheticals, and an ever-burning hope.
 
-A small school in a small town\
-On a small star floating in a small galaxy\
-a mere twinkle of light on the intergalactic Scale.\
-7 billion unique collections of plus balls and minus balls\
-all captured in a single photon\
-all capable of being snuffed out\
+A small school in a small town
+On a small star floating in a small galaxy
+a mere twinkle of light on the intergalactic Scale.
+7 billion unique collections of plus balls and minus balls
+all captured in a single photon
+all capable of being snuffed out
 through a freak encounter of entropic particles.
 
-So what are we?\
-Missionaries of intelligence as we profess,\
-blessing a heretical world full of its absence.\
-Yet the dumb laymen,\
-a grass here, a beetle there, a star out somewhere\
-form quite the coalition in the collective.\
-The most powerful chain reaction system\
-which, try as we might, none have budged,\
+So what are we?
+Missionaries of intelligence as we profess,
+blessing a heretical world full of its absence.
+Yet the dumb laymen,
+a grass here, a beetle there, a star out somewhere
+form quite the coalition in the collective.
+The most powerful chain reaction system
+which, try as we might, none have budged,
 let alone mastered the intricate controls.
 
-Still, stubborn ball pits we are, we fight.\
-We live, we laugh, we cry;\
-we shout, we scorn, we swindle;\
-we worship, we wonder, we wander;\
-we plow, we bow, we push through.\
-For what else do we have, but this?\
-To what end do our toils, our conflicts, our triumphs march?\
-Does the council of stars twinkle with guilty pleasure as we squabble and undermine?\
-Does it chuckle in amusement as we dream and surpass?\
-Are we the interstellar Kardashians,\
+Still, stubborn ball pits we are, we fight.
+We live, we laugh, we cry;
+we shout, we scorn, we swindle;
+we worship, we wonder, we wander;
+we plow, we bow, we push through.
+For what else do we have, but this?
+To what end do our toils, our conflicts, our triumphs march?
+Does the council of stars twinkle with guilty pleasure as we squabble and undermine?
+Does it chuckle in amusement as we dream and surpass?
+Are we the interstellar Kardashians,
 forever doomed to entertain, never to ascertain?
 
-So we live, we laugh we cry;\
-we do all this and then some,\
-for that is our only protest,\
-our only insurrection against that condescending gaze\
-from on high and out far and all-around.\
-We struggle in our journey\
-struggling to reach beyond the twinkle at the end of the tunnel,\
-struggling to see the unseeable,\
-struggling to make sense of the unsensable,\
+So we live, we laugh we cry;
+we do all this and then some,
+for that is our only protest,
+our only insurrection against that condescending gaze
+from on high and out far and all-around.
+We struggle in our journey
+struggling to reach beyond the twinkle at the end of the tunnel,
+struggling to see the unseeable,
+struggling to make sense of the unsensable,
 struggling to stake our claim amongst the unreachable.
 
 <br/>

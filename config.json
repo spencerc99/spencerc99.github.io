@@ -6,7 +6,8 @@
     "markup": {
         "goldmark": {
             "renderer": {
-                "unsafe": true
+                "unsafe": true,
+                "hardWraps": true
             }
         }
     },

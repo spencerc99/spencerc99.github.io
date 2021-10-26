@@ -20,7 +20,7 @@ Let’s sustain the energy of our frustration into a long-term commitment to sup
 **#BlackLivesMatter**.
 
 ### DONATIONS/RESOURCES
-_[compilation of resources](https://linktr.ee/nationalresourceslist)_\
+_[compilation of resources](https://linktr.ee/nationalresourceslist)_
 That link is pretty comprehensive but the donation places I’m most familiar with are:
 - [Equal Justice Initiative](https://eji.org/)
 - [NAACP Legal Defense Fund](https://www.naacpldf.org/)

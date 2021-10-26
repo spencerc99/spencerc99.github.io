@@ -1,9 +1,9 @@
 ---
-title: "73 - pitter-patter"
+title: "73 - pitter patter"
 date: "2021-10-21"
-tags: ["100posts", "poetry"]
-description: ""
-show_home: false
+tags: ["100posts", "poetry", "creative"]
+description: "a couple poems on this rainy SF day."
+show_home: true
 ---
 a couple poems on this rainy SF day.
 ### pitter patter

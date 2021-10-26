@@ -4,7 +4,7 @@ title: "53 - compliments"
 
 date: "2021-09-20"
 
-tags: ["100posts", "poem"]
+tags: ["100posts", "poetry", "creative"]
 
 description: "Resurfacing an old idea on the power of compliments and a poem on second sky"
 
