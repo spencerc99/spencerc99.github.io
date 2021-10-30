@@ -7,6 +7,10 @@ description: "what if we chose to optimize craft over career? It means everythin
 related: []
 ---
 
+*This post was originally published on [my newsletter](https://spencerchang.substack.com/p/craft-over-career).*
+
+---
+
 I came across this tweet today on a life philosophy to follow that really resonated with me.
 
 <figure class="embed">

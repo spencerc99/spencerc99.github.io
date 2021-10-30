@@ -1,6 +1,14 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-26%3ACamera+2021-10-26+at+12.05.30+PM.jpeg",
+            "date": "2021-10-26",
+            "timestamp": 1635275132.128724,
+            "width": 3024,
+            "height": 4032
+        },
+        {
             "description": "grocery \ud83c\udfc3\u200d\u2642\ufe0f ",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-25%3ACamera+2021-10-25+at+12.01.23+PM.jpeg",
             "date": "2021-10-25",
