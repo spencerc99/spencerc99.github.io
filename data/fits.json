@@ -2,6 +2,46 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-29%3AIMG_4758.jpeg",
+            "date": "2021-10-29",
+            "timestamp": 1635558988.223759,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-31%3AIMG_4857.jpeg",
+            "date": "2021-10-31",
+            "timestamp": 1635735093.806658,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-28%3ACamera+2021-10-28+at+2.08.48+PM.jpeg",
+            "date": "2021-10-28",
+            "timestamp": 1635455331.399091,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-27%3ACamera+2021-10-27+at+12.09.15+PM.jpeg",
+            "date": "2021-10-27",
+            "timestamp": 1635361757.951937,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-30%3AIMG_0128.jpeg",
+            "date": "2021-10-30",
+            "timestamp": 1635635404.294,
+            "width": 3024,
+            "height": 4032
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-26%3ACamera+2021-10-26+at+12.05.30+PM.jpeg",
             "date": "2021-10-26",
             "timestamp": 1635275132.128724,
