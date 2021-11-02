@@ -59,7 +59,6 @@
     }
 
     function filterFits() {
-        debugger;
         const showAll = getFilterEl().checked;
         const allFits = Array.from(document.getElementsByClassName("photoCard"));
         const nonFavorites = allFits.filter(ele => !ele.querySelector('.photoCardFave'));
