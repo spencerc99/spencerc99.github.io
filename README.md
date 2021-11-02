@@ -1,3 +1,7 @@
+You can see the final product at https://spencerchang.me
+
+---
+
 Hi there! 👋
 
 I'm Spencer and this is my personal website built in Hugo.
