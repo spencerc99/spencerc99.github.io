@@ -5,7 +5,14 @@
 <!-- TODO: add permalink that is accessible via the number. people send the # to me so that's their "UID" -->
 <!-- TODO: paginate this so it doesn't bombard people with loading -->
 <!-- TODO: add thumbnail URL and also upload to s3 but resized as a thumbnail (400 x 600) and then use thumbnailSrc as the img src -->
-<!-- TODO: add favoriting mechanism, plumb through JSON data and then add filter -->
+
+<div>
+<input id="filterFavorites" class="filterCheckbox" type="checkbox" onchange="filterFits()">
+<label class="form-check-label" for="filterFavorites">
+    Show all
+</label>
+</div>
+<br/>
 
 <div id="fitsContainer" class="gallery">
     {{ range $index, $element := sort $fitsData "timestamp" "desc" }}
@@ -15,11 +22,11 @@
         <!-- whatever the original extension was. -->
         {{$previewImgSrc := replaceRE "\\.([^\\.]+)$" "_preview.jpeg" $element.imgSrc }}
         <div id="{{$fitIndex}}" class="photoCard">
+            {{ if $element.favorite }}
+            <i class="uis uis-star photoCardFave"></i>
+            {{ end }}
             <div class="photoCardMeta">
                 <span class="photoCardIdx" onclick="copyLink({{$fitPermalink}})">{{$fitIndex}} <i class="uil uil-link-h" ></i></span>
-                {{ if $element.favorite }}
-                <i class="uis uis-star"></i>
-                {{ end }}
                 <span class="photoCardDate">{{$element.date | dateFormat "01.02.2006"}}</span>
             </div>
             <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
@@ -35,5 +42,28 @@
             </figure>
             <p>{{$element.description}}</p>
         </div>
-        {{ end }}
+    {{ end }}
 </div>
+<div class="scrollUp"><button onclick="scrollUp('filterFavorites')">Back to top</button></div>
+
+
+<script>
+    // handle filtering by favorites
+    const getFilterEl = () => document.getElementById("filterFavorites");
+    function hide(ele) {
+        ele.style.display = "none";
+    }
+
+    function show(ele) {
+        ele.style.display = "block";
+    }
+
+    function filterFits() {
+        debugger;
+        const showAll = getFilterEl().checked;
+        const allFits = Array.from(document.getElementsByClassName("photoCard"));
+        const nonFavorites = allFits.filter(ele => !ele.querySelector('.photoCardFave'));
+        nonFavorites.forEach(fit => showAll ? show(fit) : hide(fit));
+    }
+    filterFits();
+</script>

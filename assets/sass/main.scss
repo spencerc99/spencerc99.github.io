@@ -1301,6 +1301,7 @@ button {
   border-radius: 4px;
   border: 1px solid black;
   padding: 20px;
+  position: relative;
 
   p {
     margin-top: 8px;
@@ -1315,8 +1316,22 @@ button {
   }
 
   .photoCardIdx {
-    margin-right: auto;
     cursor: pointer;
+  }
+
+  .photoCardDate {
+    margin-left: auto;
+  }
+
+  .photoCardFave {
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 2px;
+    left: 0px;
+
+    &::before {
+      font-size: 150%;
+    }
   }
 
   // override the `.gallery img` setting
@@ -1330,6 +1345,11 @@ button {
     max-width: 100%;
     height: auto;
   }
+}
+
+.scrollUp {
+  margin-top: 20px;
+  text-align: center;
 }
 
 /** SNACKBAR LOGIC **/

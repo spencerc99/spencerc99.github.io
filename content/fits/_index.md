@@ -13,8 +13,7 @@ So, I created an automated process for taking my fit of the day, uploading it to
 I've written about why I'm going to all this effort and why I care about fashion in [denim personality](/posts/denim-personality) and [this piece](https://reallifemag.com/worn-out/) in Real Life Mag gets at why it's important.
 
 
-And without further ado, here are my fits! I share for the feedback and resonance with people, so please [let me know](/#:~:text=Say%20hi%20%F0%9F%91%8B%20(Twitter%2C%20email)) if any of them are particularly appealing or interesting!
+And without further ado, here are my fits! I share for the feedback and resonance with people, so please [let me know](/#:~:text=Say%20hi%20%F0%9F%91%8B%20(Twitter%2C%20email)) if any of them are particularly appealing or interesting! Favorites below by default.
 
-<br/>
 
 {{< fits >}}

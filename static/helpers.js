@@ -22,3 +22,7 @@ function copyLink(text) {
   showLinkCopiedSnackbar();
   return undefined;
 }
+
+function scrollUp(elementId) {
+  document.querySelector(`#${elementId}`)?.scrollIntoView({behavior: "smooth"});
+}
