@@ -17,6 +17,9 @@
         <div id="{{$fitIndex}}" class="photoCard">
             <div class="photoCardMeta">
                 <span class="photoCardIdx" onclick="copyLink({{$fitPermalink}})">{{$fitIndex}} <i class="uil uil-link-h" ></i></span>
+                {{ if $element.favorite }}
+                <i class="uis uis-star"></i>
+                {{ end }}
                 <span class="photoCardDate">{{$element.date | dateFormat "01.02.2006"}}</span>
             </div>
             <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">

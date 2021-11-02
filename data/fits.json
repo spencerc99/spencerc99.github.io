@@ -1,20 +1,31 @@
 {
     "fits": [
         {
+            "description": "sweet booth fit",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-31%3AIMG_4857_edited.jpeg",
+            "date": "2021-10-31",
+            "timestamp": 1635735093.806658,
+            "width": 2725,
+            "height": 3705,
+            "favorite": true
+        },
+        {
+            "description": "a green day w matching tea",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-01%3AIMG_4875.jpeg",
+            "date": "2021-11-01",
+            "timestamp": 1635784697.561901,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-29%3AIMG_4758.jpeg",
             "date": "2021-10-29",
             "timestamp": 1635558988.223759,
             "width": 3024,
-            "height": 4032
-        },
-        {
-            "description": "",
-            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-31%3AIMG_4857.jpeg",
-            "date": "2021-10-31",
-            "timestamp": 1635735093.806658,
-            "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -22,7 +33,8 @@
             "date": "2021-10-28",
             "timestamp": 1635455331.399091,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -30,7 +42,8 @@
             "date": "2021-10-27",
             "timestamp": 1635361757.951937,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -38,7 +51,8 @@
             "date": "2021-10-30",
             "timestamp": 1635635404.294,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -46,7 +60,8 @@
             "date": "2021-10-26",
             "timestamp": 1635275132.128724,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "grocery \ud83c\udfc3\u200d\u2642\ufe0f ",
@@ -54,7 +69,8 @@
             "date": "2021-10-25",
             "timestamp": 1635188485.281342,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -62,7 +78,8 @@
             "date": "2021-10-22",
             "timestamp": 1634969584.536444,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -70,7 +87,8 @@
             "date": "2021-10-23",
             "timestamp": 1635024627.557589,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -78,7 +96,8 @@
             "date": "2021-10-21",
             "timestamp": 1634875425.971207,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "rainy season coming back \ud83d\ude2b",
@@ -86,7 +105,8 @@
             "date": "2021-10-19",
             "timestamp": 1634661469.242213,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -94,7 +114,8 @@
             "date": "2021-10-20",
             "timestamp": 1634784729.595032,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "wait did I just invent this knot lol it\u2019s actually kinda nice",
@@ -102,7 +123,8 @@
             "date": "2021-10-17",
             "timestamp": 1634510140.37474,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -110,7 +132,8 @@
             "date": "2021-10-18",
             "timestamp": 1634593077.263566,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -118,7 +141,8 @@
             "date": "2021-07-25",
             "timestamp": 1627235292.613336,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -126,7 +150,8 @@
             "date": "2021-08-25",
             "timestamp": 1629938139.633623,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -134,7 +159,8 @@
             "date": "2021-06-27",
             "timestamp": 1624826730.688844,
             "width": 2411,
-            "height": 3698
+            "height": 3698,
+            "favorite": false
         },
         {
             "description": "",
@@ -142,7 +168,8 @@
             "date": "2021-08-27",
             "timestamp": 1630087720.361407,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -150,15 +177,17 @@
             "date": "2020-12-24",
             "timestamp": 1608834515.936999,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
-            "description": "i love this shirt, also leather jacket pairing not shown",
+            "description": "I love this shirt, leather jacket pairing not shown",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-16%3ACamera+2021-10-16+at+8.13.11+PM.jpeg",
             "date": "2021-10-16",
             "timestamp": 1634440394.536425,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -166,7 +195,8 @@
             "date": "2021-09-28",
             "timestamp": 1632845866.857926,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -174,7 +204,8 @@
             "date": "2021-07-29",
             "timestamp": 1627606113.127419,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -182,7 +213,8 @@
             "date": "2021-09-15",
             "timestamp": 1631753838.838616,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -190,7 +222,8 @@
             "date": "2021-07-18",
             "timestamp": 1626635777.501173,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -198,7 +231,8 @@
             "date": "2021-05-20",
             "timestamp": 1621566249.554059,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -206,7 +240,8 @@
             "date": "2021-10-03",
             "timestamp": 1633290122.320898,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -214,7 +249,8 @@
             "date": "2021-09-23",
             "timestamp": 1632410554.994055,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -222,7 +258,8 @@
             "date": "2020-10-26",
             "timestamp": 1603742057.090243,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -230,7 +267,8 @@
             "date": "2021-10-13",
             "timestamp": 1634173381.424001,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -238,7 +276,8 @@
             "date": "2021-08-12",
             "timestamp": 1628784661.324519,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -246,7 +285,8 @@
             "date": "2021-09-10",
             "timestamp": 1631330639.075,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -254,7 +294,8 @@
             "date": "2021-09-02",
             "timestamp": 1630609830.882905,
             "width": 4032,
-            "height": 3024
+            "height": 3024,
+            "favorite": false
         },
         {
             "description": "",
@@ -262,7 +303,8 @@
             "date": "2021-09-16",
             "timestamp": 1631841696.691241,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -270,7 +312,8 @@
             "date": "2021-07-22",
             "timestamp": 1626971093.743698,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -278,7 +321,8 @@
             "date": "2021-05-14",
             "timestamp": 1621009891.073923,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -286,7 +330,8 @@
             "date": "2021-05-15",
             "timestamp": 1621119022.756,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -294,7 +339,8 @@
             "date": "2021-09-20",
             "timestamp": 1632152694.583906,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -302,7 +348,8 @@
             "date": "2021-07-03",
             "timestamp": 1625364741.774089,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "comfy fit for a brisk walk",
@@ -310,7 +357,8 @@
             "date": "2021-10-10",
             "timestamp": 1633917562.223054,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -318,7 +366,8 @@
             "date": "2021-07-24",
             "timestamp": 1627164902.766257,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -326,7 +375,8 @@
             "date": "2021-08-18",
             "timestamp": 1629334217.279207,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -334,7 +384,8 @@
             "date": "2021-09-27",
             "timestamp": 1632758765.201133,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -342,7 +393,8 @@
             "date": "2021-08-17",
             "timestamp": 1629216353.099232,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -350,7 +402,8 @@
             "date": "2021-10-14",
             "timestamp": 1634227886.607224,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -358,7 +411,8 @@
             "date": "2021-06-23",
             "timestamp": 1624462757.678839,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -366,7 +420,8 @@
             "date": "2021-09-22",
             "timestamp": 1632327282.6877,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -374,7 +429,8 @@
             "date": "2021-08-05",
             "timestamp": 1628193979.759411,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -382,7 +438,8 @@
             "date": "2021-05-29",
             "timestamp": 1622309400.586638,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -390,7 +447,8 @@
             "date": "2020-11-12",
             "timestamp": 1605240263.102518,
             "width": 2316,
-            "height": 3088
+            "height": 3088,
+            "favorite": false
         },
         {
             "description": "",
@@ -398,7 +456,8 @@
             "date": "2021-07-21",
             "timestamp": 1626932953.287204,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -406,7 +465,8 @@
             "date": "2021-09-29",
             "timestamp": 1632943874.97363,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -414,7 +474,8 @@
             "date": "2021-07-16",
             "timestamp": 1626484987.106893,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -422,7 +483,8 @@
             "date": "2021-08-25",
             "timestamp": 1629938220.890477,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -430,7 +492,8 @@
             "date": "2021-09-01",
             "timestamp": 1630515650.787595,
             "width": 2316,
-            "height": 3088
+            "height": 3088,
+            "favorite": false
         },
         {
             "description": "",
@@ -438,7 +501,8 @@
             "date": "2021-09-25",
             "timestamp": 1632594096.219375,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -446,7 +510,8 @@
             "date": "2021-10-12",
             "timestamp": 1634087800.23242,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -454,7 +519,8 @@
             "date": "2021-08-10",
             "timestamp": 1628643204.905322,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -462,7 +528,8 @@
             "date": "2021-04-27",
             "timestamp": 1619550469.390334,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -470,7 +537,8 @@
             "date": "2021-08-13",
             "timestamp": 1628902173.274863,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -478,7 +546,8 @@
             "date": "2021-07-03",
             "timestamp": 1625364491.510151,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -486,7 +555,8 @@
             "date": "2021-09-09",
             "timestamp": 1631227629.048,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -494,7 +564,8 @@
             "date": "2021-05-06",
             "timestamp": 1620346918.168838,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -502,7 +573,8 @@
             "date": "2021-01-15",
             "timestamp": 1610727795.63412,
             "width": 4032,
-            "height": 3024
+            "height": 3024,
+            "favorite": false
         },
         {
             "description": "",
@@ -510,7 +582,8 @@
             "date": "2021-09-14",
             "timestamp": 1631668978.27246,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -518,7 +591,8 @@
             "date": "2021-08-13",
             "timestamp": 1628903136.542116,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -526,7 +600,8 @@
             "date": "2021-08-15",
             "timestamp": 1629043694.572348,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -534,7 +609,8 @@
             "date": "2021-06-10",
             "timestamp": 1623387157.903858,
             "width": 2154,
-            "height": 3197
+            "height": 3197,
+            "favorite": true
         },
         {
             "description": "",
@@ -542,7 +618,8 @@
             "date": "2021-10-03",
             "timestamp": 1633244966.046541,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -550,7 +627,8 @@
             "date": "2021-09-02",
             "timestamp": 1630619256.712,
             "width": 2268,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -558,7 +636,8 @@
             "date": "2021-10-03",
             "timestamp": 1633245022.815765,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -566,7 +645,8 @@
             "date": "2021-10-06",
             "timestamp": 1633548460.130188,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -574,7 +654,8 @@
             "date": "2021-07-13",
             "timestamp": 1626193352.645441,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -582,7 +663,8 @@
             "date": "2021-04-29",
             "timestamp": 1619710225.817505,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -590,7 +672,8 @@
             "date": "2021-10-07",
             "timestamp": 1633624239.886932,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -598,7 +681,8 @@
             "date": "2021-08-23",
             "timestamp": 1629751698.260159,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -606,7 +690,8 @@
             "date": "2021-08-16",
             "timestamp": 1629176190.586441,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -614,7 +699,8 @@
             "date": "2021-09-08",
             "timestamp": 1631141491.351521,
             "width": 4032,
-            "height": 3024
+            "height": 3024,
+            "favorite": false
         },
         {
             "description": "",
@@ -622,7 +708,8 @@
             "date": "2021-07-20",
             "timestamp": 1626846167.520408,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -630,7 +717,8 @@
             "date": "2021-05-17",
             "timestamp": 1621280718.826972,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -638,7 +726,8 @@
             "date": "2021-04-30",
             "timestamp": 1619844393.235,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -646,7 +735,8 @@
             "date": "2021-09-27",
             "timestamp": 1632792069.862411,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -654,7 +744,8 @@
             "date": "2021-10-09",
             "timestamp": 1633807303.756294,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -662,7 +753,8 @@
             "date": "2021-09-24",
             "timestamp": 1632498939.189528,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -670,7 +762,8 @@
             "date": "2021-09-30",
             "timestamp": 1633017707.477841,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -678,7 +771,8 @@
             "date": "2021-10-04",
             "timestamp": 1633369161.565923,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -686,7 +780,8 @@
             "date": "2021-08-13",
             "timestamp": 1628903176.595486,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -694,7 +789,8 @@
             "date": "2021-08-24",
             "timestamp": 1629855282.460871,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -702,7 +798,8 @@
             "date": "2021-08-03",
             "timestamp": 1628015076.894151,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -710,7 +807,8 @@
             "date": "2021-09-26",
             "timestamp": 1632697494.558774,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "these straps are not functional at all \ud83d\ude44",
@@ -718,7 +816,8 @@
             "date": "2021-10-15",
             "timestamp": 1634314362.328357,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -726,7 +825,8 @@
             "date": "2021-07-07",
             "timestamp": 1625682743.746432,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -734,7 +834,8 @@
             "date": "2021-09-05",
             "timestamp": 1630896683.898815,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -742,7 +843,8 @@
             "date": "2021-08-28",
             "timestamp": 1630184125.240169,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -750,7 +852,8 @@
             "date": "2021-07-30",
             "timestamp": 1627683780.78715,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -758,7 +861,8 @@
             "date": "2021-09-07",
             "timestamp": 1631052909.143576,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -766,7 +870,8 @@
             "date": "2021-07-28",
             "timestamp": 1627517721.732188,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -774,7 +879,8 @@
             "date": "2021-07-23",
             "timestamp": 1627065573.279005,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -782,7 +888,8 @@
             "date": "2021-08-22",
             "timestamp": 1629663100.927271,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -790,7 +897,8 @@
             "date": "2021-07-18",
             "timestamp": 1626648183.484879,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -798,7 +906,8 @@
             "date": "2021-07-27",
             "timestamp": 1627402815.023054,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -806,7 +915,8 @@
             "date": "2021-09-03",
             "timestamp": 1630698712.535,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": true
         },
         {
             "description": "",
@@ -814,7 +924,8 @@
             "date": "2021-09-17",
             "timestamp": 1631894610.296049,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -822,7 +933,8 @@
             "date": "2021-09-19",
             "timestamp": 1632087298.961061,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -830,7 +942,8 @@
             "date": "2021-08-05",
             "timestamp": 1628194025.529062,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -838,7 +951,8 @@
             "date": "2021-09-02",
             "timestamp": 1630613976.366569,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -846,7 +960,8 @@
             "date": "2021-08-29",
             "timestamp": 1630264757.47291,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -854,7 +969,8 @@
             "date": "2021-05-07",
             "timestamp": 1620434832.403164,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -862,7 +978,8 @@
             "date": "2021-09-09",
             "timestamp": 1631214505.145,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -870,7 +987,8 @@
             "date": "2021-08-02",
             "timestamp": 1627923425.453425,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -878,7 +996,8 @@
             "date": "2021-08-13",
             "timestamp": 1628896442.139076,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "a simple fit for dancing",
@@ -886,7 +1005,8 @@
             "date": "2021-10-08",
             "timestamp": 1633744647.084177,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -894,7 +1014,8 @@
             "date": "2021-07-02",
             "timestamp": 1625269606.628892,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "",
@@ -902,7 +1023,8 @@
             "date": "2021-04-25",
             "timestamp": 1619385146.925452,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         },
         {
             "description": "big sweatpants guy",
@@ -910,7 +1032,8 @@
             "date": "2021-10-11",
             "timestamp": 1633979744.443152,
             "width": 3024,
-            "height": 4032
+            "height": 4032,
+            "favorite": false
         }
     ]
 }

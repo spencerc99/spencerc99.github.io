@@ -30,7 +30,7 @@ osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-liv
 read -p "Continue with upload ('y' to confirm)?" choice
 case "$choice" in 
   y|Y ) echo "proceeding with upload";;
-  * ) echo "aborting"; return;
+  * ) echo "aborting"; exit;
 esac
 
 # upload to s3

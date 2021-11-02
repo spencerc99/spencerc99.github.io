@@ -28,23 +28,25 @@ def post_function(
 
     url_encoded_filename = urllib.parse.quote_plus(exported_filename)
     s3_bucket_url = f"https://assets.spencerchang.me/fits-stream/{url_encoded_filename}"
+    photo_timestamp = photo.date.timestamp()
 
     def upsert_photo_properties(obj):
         obj["description"] = photo.description or ""
         obj["imgSrc"] = s3_bucket_url
         obj["date"] = photo.date.strftime("%Y-%m-%d")
-        obj["timestamp"] = photo.date.timestamp()
-        obj["width"] = photo.width
+        obj["timestamp"] = photo_timestamp
+        obj["width"] = photo.width 
         obj["height"] = photo.height
+        obj["favorite"] = photo.favorite
     
     with open(FITS_PATH_NAME, 'r') as f:
         fit_data = json.load(f)
         fits = fit_data['fits']
-        fits_img_srcs = set([fit['imgSrc'] for fit in fits])
+        fit_timestamps = set([fit['timestamp'] for fit in fits])
 
-        if s3_bucket_url in fits_img_srcs:
+        if photo_timestamp in fit_timestamps:
             verbose(f"Found {url_encoded_filename} inside existing data, updating")
-            existing_fit = next(fit for fit in fits if fit['imgSrc'] == s3_bucket_url)
+            existing_fit = next(fit for fit in fits if fit['timestamp'] == photo_timestamp)
             upsert_photo_properties(existing_fit)
         else:
             new_object = {}
