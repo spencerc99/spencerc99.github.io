@@ -7,22 +7,8 @@ subtitle: "I like optimistic dreaming 💭 and deep thinking 🤔. Exploring, le
 
 In the meantime, here are some of my favorites:
 
-<div id="fitsContainer">
 <div class="embedContainer photoEmbed">
-<iframe src="https://www.instagram.com/p/CPYunw4NQf6/embed"class="embed"></iframe>
-</div>
-<div class="embedContainer photoEmbed">
-<iframe src="https://www.instagram.com/p/CI4nyDTAOGO/embed"class="embed"></iframe>
-</div>
-<div class="embedContainer photoEmbed">
-<iframe src="https://www.instagram.com/p/CH6DcmbgS-2/embed"class="embed"></iframe>
-</div>
-<div class="embedContainer photoEmbed">
-<iframe src="https://www.instagram.com/p/CFJRe_ig8xb/embed"class="embed"></iframe>
-</div>
-<div class="embedContainer photoEmbed">
-<iframe src="https://www.instagram.com/p/B2AuscbAkix/embed"class="embed"></iframe>
-</div>
+<iframe class="embed" src="https://lightroom.adobe.com/embed/shares/c012f9d88a5c4d269d988ab3ae3f2257"></iframe>
 </div>
 
-For now, you can view all my photography at my [instagram](https://www.instagram.com/spencerchang.photography/)
+View the [full album](https://adobe.ly/3iu84Gu) or check out all my photography on my [instagram](https://www.instagram.com/spencerchang.photography/).
