@@ -1218,6 +1218,17 @@ ul.noPadding {
   100% { transform: rotate( 0.0deg) }
 }
 
+@keyframes spin-icon-animation {
+  from {
+      transform:rotate(0deg);
+      font-size: 200%;
+  }
+  to {
+      transform:rotate(360deg);
+      font-size: default;
+  }
+}
+
 @mixin wave($iteration-count: 1) {
   animation-name: wave-animation;
   // animation-duration: 2.5s;
@@ -1225,6 +1236,12 @@ ul.noPadding {
   animation-iteration-count: $iteration-count;
   transform-origin: 70% 70%;
   display: inline-block;
+}
+
+@mixin spin-icon($iteration-count: 1) {
+  animation-name: spin-icon-animation;
+  animation-duration: .75s;
+  animation-iteration-count: 1;
 }
 
 .wave {
@@ -1330,8 +1347,24 @@ button {
     left: 0px;
 
     &::before {
+      cursor: pointer;
       font-size: 150%;
     }
+
+    &:hover, &:focus {
+      &::before {
+        @include spin-icon();
+      }
+    }
+
+    &:active {
+      &::before {
+        // resets animation so that it will work on every click (focus).
+        -webkit-animation: none;
+        animation: none;
+      }
+    }
+
   }
 
   // override the `.gallery img` setting
