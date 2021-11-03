@@ -1,5 +1,5 @@
 ---
-title: "80 - impatience"
+title: "78 - impatience"
 date: "2021-11-01"
 tags: ["100posts"]
 description: "I've been struggling uselessly trying to *will* the change into being, where I need to be focusing my energy on doubling down on the rituals that empower me"
