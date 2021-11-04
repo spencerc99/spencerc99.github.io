@@ -1,6 +1,24 @@
 {
     "fits": [
         {
+            "description": "new vibe ",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-03%3ACamera+2021-11-03+at+9.27.34+AM.jpeg",
+            "date": "2021-11-03",
+            "timestamp": 1635956856.550227,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-02%3AIMG_4879.jpeg",
+            "date": "2021-11-02",
+            "timestamp": 1635871436.131999,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "sweet booth fit",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-10-31%3AIMG_4857_edited.jpeg",
             "date": "2021-10-31",
