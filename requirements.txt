@@ -14,8 +14,8 @@ Mako==1.1.5
 MarkupSafe==2.0.1
 more-itertools==8.10.0
 objexplore==1.5.5
-osxmetadata==0.99.33
-osxphotos==0.42.90
+osxmetadata==0.99.36
+osxphotos==0.43.3
 parso==0.8.2
 pathvalidate==2.4.1
 photoscript==0.1.4

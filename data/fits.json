@@ -1,6 +1,42 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-10%3AIMG_5145.jpeg",
+            "date": "2021-11-10",
+            "timestamp": 1636598659.367832,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "la fit pc @alexdu",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-05%3AIMG_4933.jpeg",
+            "date": "2021-11-05",
+            "timestamp": 1636180026.063864,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-09%3AIMG_5114.jpeg",
+            "date": "2021-11-09",
+            "timestamp": 1636477556.574436,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-04%3AIMG_4894.jpeg",
+            "date": "2021-11-04",
+            "timestamp": 1636045916.883466,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "new vibe ",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-03%3ACamera+2021-11-03+at+9.27.34+AM.jpeg",
             "date": "2021-11-03",
