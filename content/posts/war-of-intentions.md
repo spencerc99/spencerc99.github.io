@@ -11,7 +11,7 @@ tags: ['culture', 'ideas', 'politics']
 
 {{< figure src="/images/war-of-intentions/discussion.jpg" class="fullWidth" >}}
 
-<span class="pullquote">I'm for truth, no matter who tells it. I'm for justice, no matter who it is for or against. I'm a human being first and foremost, and as such, I'm for whoever and whatever benefits humanity as a whole. <br/>ー [The Autobiography of Malcom X](https://en.wikipedia.org/wiki/The_Autobiography_of_Malcolm_X)</span>
+{{< pullquote quote="I'm for truth, no matter who tells it. I'm for justice, no matter who it is for or against. I'm a human being first and foremost, and as such, I'm for whoever and whatever benefits humanity as a whole." source="[The Autobiography of Malcom X](https://en.wikipedia.org/wiki/The_Autobiography_of_Malcolm_X)" >}}
 
 The other day, I came across this juicy [thread on Twitter](https://twitter.com/cyantist/status/1233898149153927168) ([2](https://twitter.com/EricaMighetto/status/1234221363734310912)) (yeah, I'm on [twitter](http://twitter.com/@spencerc99) now if you didn't know). Two people, who started with a disagreement about minimum wage, had a back and forth that quickly escalated into personal attacks and a warzone as opinionated scrollersby joined the fray. By the time I arrived, the initial disagreement was buried so deep I had to do some dedicated snooping just to understand how it started and what it was about. It got me thinking: how did this happen? How does a simple disagreement morph into an all out Hunger Games-esque brawl?
 

@@ -13,7 +13,9 @@ $color-dark-blue-grey: rgba(95, 101, 128, 1);
 $color-dark-blue-grey-background: rgba(95, 101, 128, 0.9);
 $color-light-lavender: rgb(250, 248, 254);
 $default-font-size: 18px;
+$paragraph-font-size: 16px;
 // $scaled-font-size: calc(min(max(18px, .75vw), 20px));
+$paragraph-vertical-margin: 18px;
 $scaled-font-size: $default-font-size;
 $default-line-height: 1.6;
 $smaller-font-size: $default-font-size * .8;
@@ -139,12 +141,18 @@ mark {
   background: $color-highlight;
 }
 
+$quote-padding: 12px;
+.pullquoteContainer {
+  // margin: ($paragraph-vertical-margin + $quote-padding / 2) 0;
+}
+
 .pullquote {
+  padding: ($quote-padding / 2) $quote-padding;
+  padding-right: 0px;
   position: relative;
-  margin: 1em;
+  margin: 0 .8em;
   color: $color-dark-blue-grey;
-  font-size: 125%;
-  @include quote-font();
+  font-size: $default-font-size;
 
   &::before {
     content: "“";
@@ -153,21 +161,22 @@ mark {
     right: 100%;
     font-size: 80px;
     line-height: 0;
-    top: 25px;
+    top: 40px;
+    left: -20px;
     color: $color-blueberry;
   }
   
   // background coloring
   &::after {
     content: "";
-    max-width: $viewport-width + 50px;
-    left: -50px;
+    max-width: $viewport-width + 20px;
+    left: -30px;
     width: 100vw;
-    height: 110%;
+    height: 105%;
     background: $color-light-lavender;
     display: block;
     position: absolute;
-    top: -5%;
+    top: -2.5%;
     z-index: -1;
     border-radius: 8px;
     box-shadow: 1px 1px 4px 1px rgba(0,0,0,.1);
@@ -234,7 +243,8 @@ div {
 p {
   font-family: "Muli";
   line-height: $default-line-height;
-  font-size: $scaled-font-size;
+  font-size: $paragraph-font-size;
+  margin: $paragraph-vertical-margin 0;
 
   .mono & {
     font-family: "Cousine", monospace;
@@ -524,8 +534,8 @@ button.icon {
   transition: 0.3s ease-in-out;
 
   &.small {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     margin-left: 5px;
     vertical-align: middle;
   }
@@ -954,6 +964,14 @@ blockquote {
   margin: 0;
   padding-left: 1.4rem;
   position: relative;
+  background: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 0.5em;
+
+  & p {
+    margin: 12px 0;
+  }
 
   &::before {
     content: "";
