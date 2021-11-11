@@ -1,5 +1,5 @@
 ---
-title: "81 - facing-difficulty"
+title: "81 - facing difficulty"
 date: "2021-11-07"
 tags: ["100posts"]
 description: ""
