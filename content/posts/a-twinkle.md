@@ -69,7 +69,7 @@ struggling to stake our claim amongst the unreachable.
 
 <br/>
 
-{{< figure src="/images/a-twinkle/firefly.jpg" caption="Photo by [Kieran White](https://unsplash.com/@kierancwhite?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/twinkle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" >}}
+{{< figure src="/posts/images/a-twinkle/firefly.jpg" caption="Photo by [Kieran White](https://unsplash.com/@kierancwhite?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/twinkle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)" >}}
 
 ---
 

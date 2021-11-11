@@ -127,6 +127,7 @@ body {
   margin-right: 16px;
   background: $color-light-peach;
   overflow-x: none;
+  font-size: $paragraph-font-size;
 }
 
 ::selection {
@@ -228,7 +229,6 @@ img {
 }
 
 div {
-  font-size: $scaled-font-size;
   .serif &,
   &.serif {
     font-family: "Playfair Display";
@@ -327,6 +327,7 @@ button.icon {
 }
 
 .navbarActions {
+  font-size: $scaled-font-size;
   margin-left: auto;
   display: grid;
   grid-gap: .5rem;
@@ -553,6 +554,7 @@ button.icon {
   max-width: 530px;
   margin: 80px auto 24px auto;
   text-align: center;
+  font-size: $scaled-font-size;
 
   &.home {
     .description div {
@@ -804,7 +806,6 @@ details div {
 }
 
 .summaryList {
-  margin-top: 16px;
 }
 
 .writingMeta {
@@ -819,7 +820,7 @@ details div {
 
 .postSummaryContainer {
   display: flex;
-  margin-top: 32px;
+  margin-top: 24px;
   
   @include media(xsmallScreen) {
     @include collapsed-post-summary-container();
@@ -870,7 +871,6 @@ i.uis.uis-star {
 }
 
 .postSummary {
-  margin: 6px 0;
 }
 
 .post.meta {

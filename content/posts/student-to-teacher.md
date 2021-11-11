@@ -7,7 +7,7 @@ related: ['/posts/rice-fields']
 tags: ['personal', 'culture']
 ---
 
-{{< figure src="/images/student-to-teacher/classroom.jpeg" caption="Photo by Mwesigwa Joel on Unsplash" class="fullWidth" >}}
+{{< figure src="/posts/images/student-to-teacher/classroom.jpeg" caption="Photo by Mwesigwa Joel on Unsplash" class="fullWidth" >}}
 
 ”誰是我們的老師啊？(Who are our teachers?)“
 
@@ -21,13 +21,13 @@ Now, one week into Taiwan’s AID Program (that takes foreign young adults of Ta
 
 # Learning to Teach
 
-{{< figure src="/images/student-to-teacher/taiwanclass.jpeg" caption="our first welcome to the school" >}}
+{{< figure src="/posts/images/student-to-teacher/taiwanclass.jpeg" caption="our first welcome to the school" >}}
 
 ## POWER OF PLANNING
 
 During the first week of training in Taipei, we were required to complete a rough outline for each day: the topic, the activities, etc. Of course, the plans were indispensable when it came to fleshing out the details of each class, but because they were made in a hypothetical world, they deviated wildly from the expected length and engagement level when implemented in an actual classroom.
 
-{{< figure src="/images/student-to-teacher/outline.png" caption="an example of the two sides of the spectrum of specificity" >}}
+{{< figure src="/posts/images/student-to-teacher/outline.png" caption="an example of the two sides of the spectrum of specificity" >}}
 
 As you can see from the screenshot, plans are only as useful as they are specific, and the same is true for instructions. The more specific and understood instructions are, the more uniform the outcomes will be. Thus, unclear and unspecific instructions will result in a crap shoot of results—some students will get it “right” (at least in the way you envisioned it) and others will get it “wrong.” Many times while teaching, I would ask a question, looking for a specific answer, and students would answer in a way that was different from what I expected but made sense with a different perspective on the question. Whenever this happened, I always tended to conclude that some students are better and “get it,” while the others need more work. However, dumping responsibility on individual students seemed like a cop out to avoid honestly evaluating my teaching ability and style. I realized that the problem often lies in the *design* of the activity, not with the abilities of students. Rather than continue to draw conclusions about students’ abilities, I started to change my reaction to these situations from making an automatic judgment about student skill to zeroing in on potential issues with the structure of the activity. Were the instructions clear and specific (alternatively, would I understand what to do if I was seeing it for the first time)? Did all the students actually understand what they needed to do and what they were working towards? Are there specific aspects of the activity that are unnecessarily confusing or unintentionally vague?
 
@@ -35,11 +35,11 @@ As you can see from the screenshot, plans are only as useful as they are specifi
 
 One time, we spent hours planning out a game to teach students how to categorize items into corresponding stores. I was excited to see the students play it the next day because I was confident that it was a good combination of fun and learning, but my hopes were crushed when I saw the boredom creep in after just a few minutes. I was about to give in and move onto our next activity when one of my co-teachers, suggested making it more competitive with all teams going at once as opposed to each team sequentially. A simple but clever change made all the difference—the sputtering energy of the room suddenly roared to life. To work so hard on something and fail spectacularly is naturally tough, but it’s important to stay focused on what’s in your control. While planning ahead is important, learning how to be more adaptable and comfortable with plans flying off the rails is critical to ensuring both a positive learning environment and a healthy emotional state.
 
-{{< figure src="/images/student-to-teacher/frustration.gif" caption="the frustration you feel when things don’t go according to plan (ft. Sheldon from [Big Bang Theory](https://en.wikipedia.org/wiki/The_Big_Bang_Theory))" >}}
+{{< figure src="/posts/images/student-to-teacher/frustration.gif" caption="the frustration you feel when things don’t go according to plan (ft. Sheldon from [Big Bang Theory](https://en.wikipedia.org/wiki/The_Big_Bang_Theory))" >}}
 
 ## RUNNING A CLASSROOM 101
 
-{{< figure src="/images/student-to-teacher/taiwanclass2.jpeg" caption="the classroom we taught in" >}}
+{{< figure src="/posts/images/student-to-teacher/taiwanclass2.jpeg" caption="the classroom we taught in" >}}
 
 From an outsider’s perspective, one thing that may be less obvious about teaching is that it involves much more than just presenting a slide deck and preparing activities for the day. **Actively** running the classroom is a herculean task in its own right, and not something a typical liberal arts education prepares you to do. From my experience, “running the classroom” has three main components:
 

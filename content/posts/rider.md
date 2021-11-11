@@ -26,7 +26,7 @@ In a few blinks of his infinite life, there was no trace left of the annoying ne
 
 This story was based on a recent ski trip to Tahoe when we had to drive back to our place through a bit of an unexpected snowstorm. I was struck by the beauty and terror of the falling snow as it overwhelmed our windshields and pushed cars to the shoulders. 
 
-{{< figure src="/images/rider/car.gif" caption="a live photo I took of the car ride" >}}
+{{< figure src="/posts/images/rider/car.gif" caption="a live photo I took of the car ride" >}}
 
 #### This is the 2nd installation in my series of bringing the fantastical into the mundane. I’ve been trying to do something different and exercise a new part of my writing muscles by creating shorter form, more whimsical works.
 #### As always, if you have feedback or thoughts, I would love to chat :)

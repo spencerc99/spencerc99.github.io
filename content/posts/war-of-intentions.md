@@ -9,7 +9,7 @@ related: ['/posts/stupid-scholars']
 tags: ['culture', 'ideas', 'politics']
 ---
 
-{{< figure src="/images/war-of-intentions/discussion.jpg" class="fullWidth" >}}
+{{< figure src="/posts/images/war-of-intentions/discussion.jpg" class="fullWidth" >}}
 
 {{< pullquote quote="I'm for truth, no matter who tells it. I'm for justice, no matter who it is for or against. I'm a human being first and foremost, and as such, I'm for whoever and whatever benefits humanity as a whole." source="[The Autobiography of Malcom X](https://en.wikipedia.org/wiki/The_Autobiography_of_Malcolm_X)" >}}
 
@@ -38,7 +38,7 @@ One take is that our beliefs make up a big part of our identity. Our thoughts an
 
 Once we're attached to our opinions, our rightness is set in stone, and our goal changes from seeking truth to correcting those who think differently than us, those who are wrong. We are [our own hero](https://medium.com/@spencerc99/everyone-is-their-own-hero-361095d43ef3); and as the hero, it's our duty to defeat the evil naysayers for the sake of the rest of the world. Most mainstream entertainment media feeds this to us, particularly while growing up, in some form of this question: Why is it that bad things happen to good people?
 
-{{< figure src="/images/war-of-intentions/wick.png" caption="Keanu Reeves plays John Wick with the character's puppy whose (spoilers) death prompts Wick's justified destruction of the criminal world. (David Lee)" >}}
+{{< figure src="/posts/images/war-of-intentions/wick.png" caption="Keanu Reeves plays John Wick with the character's puppy whose (spoilers) death prompts Wick's justified destruction of the criminal world. (David Lee)" >}}
 
 It's one that has been asked countless ways in endless time periods. It often follows the tragic end for an innocent or sidekick whom we've watched develop. We feel for them because we've seen the world through their eyes, their experiences, and their emotions. Our perspective is their perspective, and as a result, we see them as *good*ーjust like we see *ourselves* as good. We ask to lament the unfairness of life: theyーweーdon't deserve this. We ask to absolve ourselves of accountability and retrospection. We were wronged, it's someone else's fault, and the protagonist (us) is gonna give them hell to pay soon. Name, shame, and blame.
 
@@ -74,7 +74,7 @@ In our current crisis, there's been a recurring theme in the lack of, fabricatio
 
 Take for instance this controversial [Reddit post](https://www.reddit.com/r/pics/comments/fve8wi/police_officer_confronting_two_idiots_having/), titled "**Police Officer confronting two idiots having lunch on a Beach during Quarantine**" (looks like it was deleted now but the photo looked like the one below but with a police officer approaching a couple having a picnic).
 
-{{< figure src="/images/war-of-intentions/police-beach.png" caption="(Hugo Michiels LNP)" >}}
+{{< figure src="/posts/images/war-of-intentions/police-beach.png" caption="(Hugo Michiels LNP)" >}}
 
 This title reeks of virtue signaling: it *names* the people on the beach, it *shames* them by calling them idiots, and it *blames* them for potentially spreading the virus by not quarantining in the name of the virtue of staying at home. So what do you think? Does this couple deserve to be called out? If you don't have a clear-cut answer/opinion, you're not alone. The problem is there are so many things that are dependent on the context that we can't extract from this photo, so the interpretation we take is based on limited info. Seeing everyone dishing out hot takes on what's going on makes it seem like we need to have one too, and the path of least resistance is following the crowd. We need to learn that it's ok to reserve judgment if we can only see parts of the whole and take on the mantle of actually educating ourselves to hold an opinion confidently. Saying this person is defying my notion of virtue and labeling them as evil provides quick and easy validationーwe feel as if we're doing our part as the heroーbut doing so strips away so much of their humanness. In doing so, we take other human beings and compress them down into narrow, tailored interpretations of what they stand for and believe in.
 
@@ -123,7 +123,7 @@ Especially with personalized recommendation systems echoing opinions that we alr
 
 Unfortunately, because emotions are heavily involved in these arguments, there is a lot of variance in what is good or bad even for something that *seems* straightforward. Life [isn't black and white](https://en.wikipedia.org/wiki/False_dilemma), and the hardest problems are especially colorful. And while AI-powered search engines promise simple answers to nuanced questions, it's impossible to come up with an all-encompassing simple answer to these hard questions. We can gather lots of different perspectives to use as *tools* for coming to a better answer, but it's not going to be as easy as saying X is bad and Y is good, even if we are programmed as humans to [categorize things](https://www.psychologicalscience.org/news/releases/research-states-that-prejudice-comes-from-a-basic-human-need-and-way-of-thinking.html) into neat little boxes for efficiency. We need to have the courage to venture into the murky, grey middle area, the no man's land of ideological and thought warzones, to find the scraps of nuance that have been overlooked.
 
-{{< figure src="/images/war-of-intentions/no-mans-land.png" caption="A depiction of No Man's Land; luckily the ideological analog is not as gloomy (Lucien Jonas, 1927, Library of Congress)" >}}
+{{< figure src="/posts/images/war-of-intentions/no-mans-land.png" caption="A depiction of No Man's Land; luckily the ideological analog is not as gloomy (Lucien Jonas, 1927, Library of Congress)" >}}
 
 A pre-requisite to this resolve is having the humility and forethought to deliberately articulate your own assumptions beforehand and actively test them to see if they're up to snuff, [pruning the ones](/posts/stupid-scholars) that don't pass the test. It also means understanding what you are predisposed to believe or categorize in order to supplement counteracting sorts of viewpoints or thinking. Instead of looking for the answer to end all answers, gather specific information within certain contexts and build your arsenal of mental models (the equivalent of tools for your mind) to increase the number of angles you can approach a problem.
 
@@ -133,7 +133,7 @@ If you've participated (or lurked) in any online arguments, you've probably seen
 
 A straw man also relies on assuming we know what the opposing side is thinking and feeling. As we've seen it's easy to let our interpretations run wild and for confirmation bias to subconsciously fill in what we want to see to make things fit nicely onto two sides. The alternative is called the [principle of charity](https://en.wikipedia.org/wiki/Principle_of_charity). It means that we interpret other people's statements in a way that makes their argument strongest instead of weakest. Essentially, it means to give people the benefit of the doubt when we don't have all the information (I've also liked [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon%27s_razor) as a useful catchy companion to overcoming this cognitive bias)
 
-{{< figure src="/images/war-of-intentions/charity.png" caption="a cute example of the principle of charity ([source](https://www.safelyendangered.com/))" >}}
+{{< figure src="/posts/images/war-of-intentions/charity.png" caption="a cute example of the principle of charity ([source](https://www.safelyendangered.com/))" >}}
 
 It's important to be careful about taking this to the extreme (if you ever have me for more than 10 minutes, ask me about how I lost $800 trying to help a stranger). We can be generous in our interpretation, but we need to verify our interpretations before trusting completely. And of course, there are cases where powerful people or organizations abuse their power repeatedly in a way that sometimes requires a more [public and aggressive](https://twitter.com/dhh/status/1244997990382596096) response to create change.
 
@@ -166,7 +166,7 @@ Instead of tearing people down, we need to build people up and harness the power
 
 This also means we need to take catapults to the restricted areas to tear down the ancient barriers that have closed our minds off to ways of thinking different from the circles we frequent. It means listening to and advocating for the innocents that were trapped in these mental prisons when caught in the crossfire of the main argument.
 
-{{< figure src="/images/war-of-intentions/wall.png" caption="fall of the Berlin Wall in Nov. 1989 (Sipa via AP)" >}}
+{{< figure src="/posts/images/war-of-intentions/wall.png" caption="fall of the Berlin Wall in Nov. 1989 (Sipa via AP)" >}}
 
 If we're serious about getting to the bottom of a problem, it's our duty to find the relevant views that we haven't captured, and the only way to do that is through taking bridges to uncharted territory. We have to seek people outside our normal outlets of discussion, that so often become mini echo chambers for our ideology. We should treat omission by ignorance as a crime to force ourselves to make up for the info that we don't have. This also means we have to embrace what Frances Hesselbein, former CEO of the Girl Scouts, phrases as, "you have to carry a big basket to bring something home." It means we have to embrace the belief that we can learn from everyone regardless of accolades and material status symbols. We need to fill our baskets with as much as we can absorb and take them home to reconcile with what we already believe.
 
