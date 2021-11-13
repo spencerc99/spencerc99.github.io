@@ -9,7 +9,7 @@
 <div>
 <input id="filterFavorites" class="filterCheckbox" type="checkbox" onchange="filterFits()">
 <label class="form-check-label" for="filterFavorites">
-    Show all
+    Only show favorites
 </label>
 </div>
 <br/>
@@ -60,7 +60,7 @@
     }
 
     function filterFits() {
-        const showAll = getFilterEl().checked;
+        const showAll = !getFilterEl().checked;
         const allFits = Array.from(document.getElementsByClassName("photoCard"));
         const nonFavorites = allFits.filter(ele => !ele.querySelector('.photoCardFave'));
         nonFavorites.forEach(fit => showAll ? show(fit) : hide(fit));
