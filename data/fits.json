@@ -1,6 +1,51 @@
 {
     "fits": [
         {
+            "description": "simple corduroy ",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-14%3AIMG_5225_edited.jpeg",
+            "date": "2021-11-14",
+            "timestamp": 1636937523.129933,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "trying out the wide pants covering chunky shoes",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-13%3AIMG_5184.jpeg",
+            "date": "2021-11-13",
+            "timestamp": 1636830855.68112,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-11%3AIMG_5152.jpeg",
+            "date": "2021-11-11",
+            "timestamp": 1636672319.200489,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-12%3AIMG_5168.jpeg",
+            "date": "2021-11-12",
+            "timestamp": 1636775698.709202,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-11%3AIMG_5158.jpeg",
+            "date": "2021-11-11",
+            "timestamp": 1636679547.471591,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-10%3AIMG_5145.jpeg",
             "date": "2021-11-10",
