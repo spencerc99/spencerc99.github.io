@@ -2,7 +2,6 @@
 title: "Writing"
 related: []
 ---
-All my public writing is here in some form. I write for emotional resonance, so if something I've written strikes a chord, please send me a note (<a href="https://twitter.com/@spencerc99">Twitter</a> or <a href="mailto:spencerc99@gmail.com">email</a>) 
 <details>
     <summary><i>why do I write?</i></summary>
     <br/>
@@ -13,3 +12,5 @@ All my public writing is here in some form. I write for emotional resonance, so 
     <p>I end up setting aside time every day before I start work to write and explore and sometimes find myself seized with bursts of inspiration that I must empty onto paper in the early morning hours. I rigorously give myself space to write even though I’m primarily a writer of passion because writing is how I think, explore, and dream. It’s my submarine to probe into the depths of my subconscious and excavate those submerged emotions and cravings. It’s my limitless blank canvas, where I can freely shape rules and assumptions as I please to convey a feeling or traverse an experiment. It’s the portal to entirely new worlds and universes, where I can play both god, in manifesting my emotions in the literary flesh, and the background observer, in watching how the characters and systems develop naturally in that artificial environment.</p>
     </div>
 </details>
+
+All my public writing is here in some form. I write for emotional resonance, so if something I've written strikes a chord, please send me a note (<a href="https://twitter.com/@spencerc99">Twitter</a> or <a href="mailto:spencerc99@gmail.com">email</a>) 

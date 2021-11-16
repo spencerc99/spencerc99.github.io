@@ -779,7 +779,9 @@ details > div {
   & > p:first-child {
     margin-top: 0px;
   }
-  & > p:last-child {
+
+  // remove one side of margin since this is in flexbox.
+  & > p {
     margin-bottom: 0px;
   }
 }
