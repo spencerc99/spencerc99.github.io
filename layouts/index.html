@@ -1,10 +1,14 @@
 {{ define "header" }}
 <div class="headerContainer home">
-  <img class="avatar" src="/assets/spencer_maker_character.png" />
-  <h1 id="siteTitle"><button id="emoji" class="rotate" onclick="updateEmoji()"></button>I'm Spencer</h1>
+  <!-- TODO(spencer): insert kaleidescope here? -->
+  <h1 id="siteTitle">
+    hi! i'm spencer
+    <button id="emoji" class="rotate" onclick="updateEmoji()"></button>
+    <div class="clickme">weee</div>
+  </h1>
   <div class="description">
     <div>
-        Creative technologist and stubborn optimist in 🌉
+        Creative technologist, stubborn optimist in 🌉
     </div>
     <!-- <div>
       <details>
@@ -13,7 +17,6 @@
           Seeking truth in paradoxes, beauty in the everyday, and connection in the unknown 🌆
         </div>
       </details>
-      
     </div> -->
     <div>
       <details>
@@ -87,5 +90,6 @@
     {{ .Render "summary" }} 
   {{ end }}
   </div>
+  <div class="scrollUp"><button onclick="scrollUp('summaryList')">Back to top</button></div>
 </div>
 {{ end }}

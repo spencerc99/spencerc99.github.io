@@ -44,13 +44,12 @@
         {{ else }}
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
-      </h3>
-   
+      </h3>   
     <div class="postSummary">
       {{ .Description | markdownify }}
     </div>
   </div>
-  {{ with .Params.image }}
+    {{ with .Params.image }}
     {{- $matchingSiteResource := resources.Get . -}}
     {{ $firstResource := or (index $matchingResource 0) $matchingSiteResource }}
     {{ $thumbnail := $firstResource.Resize "400x" }}
