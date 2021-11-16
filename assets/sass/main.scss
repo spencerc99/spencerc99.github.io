@@ -799,6 +799,7 @@ summary:hover, summary:focus {
 details div {
   display:flex;
   flex-direction: column;
+  font-size: $paragraph-font-size;
 }
 
 .summaryList {
