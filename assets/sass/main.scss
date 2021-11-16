@@ -12,6 +12,7 @@ $color-light-peach: #fffcf7;
 $color-dark-blue-grey: rgba(95, 101, 128, 1);
 $color-dark-blue-grey-background: rgba(95, 101, 128, 0.9);
 $color-light-lavender: rgb(250, 248, 254);
+$color-site-background: $color-light-peach;
 $default-font-size: 18px;
 $paragraph-font-size: 16px;
 // $scaled-font-size: calc(min(max(18px, .75vw), 20px));
@@ -127,7 +128,7 @@ body {
   color: $color-text-color;
   margin-left: 16px;
   margin-right: 16px;
-  background: $color-light-peach;
+  background: $color-site-background;
   overflow-x: none;
   font-size: $paragraph-font-size;
 }
@@ -1258,6 +1259,15 @@ ul.noPadding {
   }
 }
 
+@keyframes rotate-icon-animation {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+
 @mixin wave($iteration-count: 1) {
   animation-name: wave-animation;
   // animation-duration: 2.5s;
@@ -1270,13 +1280,47 @@ ul.noPadding {
 @mixin spin-icon($iteration-count: 1) {
   animation-name: spin-icon-animation;
   animation-duration: .75s;
-  animation-iteration-count: 1;
+  animation-iteration-count: $iteration-count;
+}
+
+@mixin rotate-icon($iteration-count: 1) {
+  animation-name: rotate-icon-animation;
+  animation-duration: .75s;
+  animation-iteration-count: $iteration-count;
 }
 
 .wave {
   &:hover {
     @include wave(2);
   }
+}
+
+.rotate {
+  &:hover, &:focus {
+    @include rotate-icon(1);
+  }
+
+  &:active {
+    // resets animation so that it will work on every click (focus).
+    -webkit-animation: none;
+    animation: none;
+  }
+}
+
+#emoji {
+  pointer-events: cursor;
+  border: 1px solid $color-site-background;
+  border-radius: 50%;
+  font-size:inherit;
+  background: none;
+  border: none;
+  padding: 0px 4px;
+  margin-right:4px;
+  
+  &:hover {
+    background: white;
+    border: 1px solid $color-link;
+  };
 }
 
 .fixed-top {

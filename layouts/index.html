@@ -1,7 +1,7 @@
 {{ define "header" }}
 <div class="headerContainer home">
   <img class="avatar" src="/assets/spencer_maker_character.png" />
-  <h1 id="siteTitle"><span class="wave">✌️</span>I'm Spencer</h1>
+  <h1 id="siteTitle"><button id="emoji" class="rotate" onclick="updateEmoji()"></button>I'm Spencer</h1>
   <div class="description">
     <div>
         Creative technologist and stubborn optimist in 🌉
@@ -53,6 +53,25 @@
   {{ partial "social_media.html" . }}
   <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 </div>
+<script>
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = ['✌️', '😤', '🥸', '👀', '💫', '🍥', '☔️'];
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
 {{ end }} {{ define "main" }}
 <div class="homepage-content">
     <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
