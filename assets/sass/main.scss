@@ -85,10 +85,12 @@ $screenMaxWidths: (
 }
 
 @mixin collapsed-post-summary-container() {
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   img {
     width: 100%;
+    height: auto;
+    max-height: 250px;
   }
 
   .postSummaryHeader {
@@ -729,7 +731,6 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
 
 // Collapsible sections
 summary {
-  font-size: $scaled-font-size;
   line-height: $default-line-height;
   position:relative;
   display: inline;
@@ -823,11 +824,15 @@ details div {
   
   @include media(xsmallScreen) {
     @include collapsed-post-summary-container();
+
+    .postSummaryImageContainer {
+      margin-left: 0;
+    }
   }
 }
 
 .postSummaryImageContainer {
-  margin-right: 24px;
+  margin-left: auto;
 }
 
 .postSummaryImage {
@@ -844,6 +849,7 @@ details div {
   }
   display:flex;
   flex-direction: column;
+  margin-right: 8px;
 }
 
 .postSummaryTitle {

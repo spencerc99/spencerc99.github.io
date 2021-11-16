@@ -1,13 +1,5 @@
 <article class="postSummaryContainer {{ with .Params.storyType }} {{ . }} {{ end }}">
   {{ $matchingResource := where (.Resources.ByType "image") "RelPermalink" .Params.image }}
-  {{ with .Params.image }}
-    {{- $matchingSiteResource := resources.Get . -}}
-    {{ $firstResource := or (index $matchingResource 0) $matchingSiteResource }}
-    {{ $thumbnail := $firstResource.Resize "400x" }}
-    <div class="postSummaryImageContainer">
-        <img loading="lazy" class="lazyload postSummaryImage" data-src="{{ $thumbnail.RelPermalink }}" />
-    </div>
-  {{ end }}
   <div class="postSummaryHeader">
    <div class="post summary meta">
         <!-- TODO: make the date linkable -->
@@ -58,5 +50,13 @@
       {{ .Description | markdownify }}
     </div>
   </div>
+  {{ with .Params.image }}
+    {{- $matchingSiteResource := resources.Get . -}}
+    {{ $firstResource := or (index $matchingResource 0) $matchingSiteResource }}
+    {{ $thumbnail := $firstResource.Resize "400x" }}
+    <div class="postSummaryImageContainer">
+        <img loading="lazy" class="lazyload postSummaryImage" data-src="{{ $thumbnail.RelPermalink }}" />
+    </div>
+  {{ end }}
   <!-- TODO: add tags or something here -->
 </article>
