@@ -4,5 +4,6 @@ description: "reconciling different selves, fiction as a tool for demonstrating 
 date: "2021-01-11"
 tags: ['newsletter']
 external_link: "https://spencerchang.substack.com/p/towards-2021"
+show_home: true
 ---
 
