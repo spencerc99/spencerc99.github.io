@@ -573,7 +573,6 @@ button.icon {
 
 .headerContainer {
   margin: $header-container-margin 0 24px 0;
-  text-align: center;
   font-size: $scaled-font-size;
 
   &.home {
@@ -1348,7 +1347,6 @@ ul.noPadding {
   animation-delay: 1.5s;
   margin-bottom:12px;
   margin-top: 0;
-  text-align: left;
   font-family: "Muli";
   position: relative;
 }
