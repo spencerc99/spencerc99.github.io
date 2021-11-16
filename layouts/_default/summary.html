@@ -1,3 +1,4 @@
+{{ $kind := .Kind }}
 <article class="postSummaryContainer {{ with .Params.storyType }} {{ . }} {{ end }}">
   {{ $matchingResource := where (.Resources.ByType "image") "RelPermalink" .Params.image }}
   <div class="postSummaryHeader">
@@ -5,7 +6,9 @@
         <!-- TODO: make the date linkable -->
         <span>
           <span class="postDate">{{ .Date.Format "01.02.06" }}</span>
-          {{ if isset .Params "external_link" }}
+          {{ if eq $kind "section" }}
+            // {{ len .Pages }} posts
+          {{ else if isset .Params "external_link" }}
             {{ if in .Params.tags "100posts" }}
             // from my <a href="/experiments/100posts">mini-essay experiment</a>
             {{ else if in .Params.tags "newsletter" }}

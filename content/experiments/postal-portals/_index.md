@@ -1,6 +1,6 @@
 ---
-title: "Postal Portals"
-description: "letter series with friends to deep-dive into thoughts on our mind."
+title: "Postal Portals 📫"
+description: "A letter series with friends to snapshot a deep-dive into what's on our minds."
 date: "2021-05-01"
 postfilter: ["postal-portals"]
 ---
@@ -13,3 +13,4 @@ Postal Portals is a new series of letters between myself and friends, intended t
 </a> by Avery
 * <a href="https://spencerchang.substack.com/p/-postal-portals-the-languishing-hole">#2: The Languishing Hole</a> by Spencer
 * <a href="https://nickelthoughts.substack.com/p/languishing-in-new-england">#1: Languishing in New England</a> by Avery
+* See [them all](https://coda.io/@spencer/postal-portals)
