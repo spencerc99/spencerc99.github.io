@@ -1,9 +1,7 @@
 <!-- TODO: if you add side scrolling for links and stuff remove this. -->
 <div class="postFooter">
-  <span>I always love hearing from others, so please <a href="https://twitter.com/spencerc99/">message me</a> if any of my writing resonates or you just want to chat :)</span>
-  <br/>
-  <br/>
-  <span>Submit your email below (or <a href="/index.xml">RSS</a> if you prefer) or follow me on <a href="https://twitter.com/spencerc99/">Twitter</a> for updates
+  <p>I write for emotional resonance, so please message me (<a href="https://twitter.com/@spencerc99">@spencerc99</a> or <a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if anything resonates :)</span>
+  <p>Submit your email below (or <a href="/index.xml">RSS</a> if you prefer) and follow me on <a href="https://twitter.com/spencerc99/">Twitter</a> for updates
   on my writing ✍️, follow me on 
   <a href="https://www.instagram.com/spencerchang.photography/">Instagram</a> to
   see my photos 📸, or see how I'm doing on my
@@ -11,27 +9,29 @@
 </div>
 <!-- TODO: add sharing this article need to pass in article link -->
 <div class="shareCta">
-  {{ with .Permalink }}
-    <button class="icon" href="" onclick="copyLink({{.}})"><i class="uil uil-link-h" ></i> Copy Link</button>
-  {{ end }}
-<div class="twitterCta">
-  <a
-    href="https://twitter.com/share"
-    data-size="large"
-    data-count="none"
-    data-text="{{ .Title }}"
-    class="twitter-share-button"
-    data-lang="en"
-    data-via="spencerc99"
-    ></a
-  >
-  <script
-    src="//platform.twitter.com/widgets.js"
-    type="text/javascript"
-  ></script>
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    {{ with .Permalink }}
+      <button class="icon" href="" onclick="copyLink({{.}})"><i class="uil uil-link-h" ></i> Copy Link</button>
+    {{ end }}
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="{{ .Title }}"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
 </div>
-</div>
-<iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 <!-- TODO: add rss subscribe -->
 {{ partial "related.html" . }}
 <!-- <div class="fullContainer">

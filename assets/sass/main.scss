@@ -88,7 +88,12 @@ $screenMaxWidths: (
 
 @mixin collapsed-post-summary-container() {
   flex-direction: column-reverse;
-  align-items: center;
+  justify-content: flex-end;
+
+  .postSummaryImageContainer {
+    margin-left: 0;
+  }
+
   img {
     width: 100%;
     height: auto;
@@ -299,13 +304,29 @@ code {
 .shareCta {
   display:flex;
   align-items: center;
-  gap: 0 6px;
 
   button {
     margin-bottom: 6px;
     padding: 0;
   }
+
+  .shareActions {
+    margin-left:auto;
+    display:flex;
+    gap: 0 6px;
+  }
+
+  @include media(xsmallScreen, smallScreen) {
+    flex-direction: column;
+    align-items: baseline;
+
+    .shareActions {
+      margin-left:0;
+      margin-top: 12px;
+    }
+  }
 }
+
 
 button.icon {
   display: flex;
@@ -398,11 +419,11 @@ button.icon {
   justify-content: center;
   max-width: $viewport-width;
   margin: 0 auto;
+  padding: 0 10px;
   height: 100%;
 
   @include media(xsmallScreen) {
     font-size: 90%;
-    margin: 0 10px;
   }
 
   a:not(.socialMediaLink) {
@@ -720,10 +741,12 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
 .postFooter {
   font-weight: bold;
   color: $color-light-grey;
-  @extend .mono;
-  // font-size: 80%;
-  font-size: $smaller-font-size;
-  line-height: $default-line-height;
+  & > p {
+    @extend .mono;
+    font-size: $smaller-font-size;
+    line-height: $default-line-height;
+    margin: 12px 0;
+  }
 }
 
 // Collapsible sections
