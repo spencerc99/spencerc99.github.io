@@ -1,6 +1,15 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-15%3AIMG_5227.jpeg",
+            "date": "2021-11-15",
+            "timestamp": 1636995700.982384,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "simple corduroy ",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-14%3AIMG_5225_edited.jpeg",
             "date": "2021-11-14",
