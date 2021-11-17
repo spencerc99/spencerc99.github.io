@@ -106,7 +106,7 @@ $screenMaxWidths: (
 }
 
 * {
-  font-family: 'Muli';
+  // font-family: 'Muli';
 
   .sans-serif &,
   &.sans-serif {
@@ -845,15 +845,28 @@ details div {
 
 .postSummaryContainer {
   display: flex;
-  margin-top: 32px;
+  margin-top: 24px;
   
   @include media(xsmallScreen) {
     @include collapsed-post-summary-container();
 
     .postSummaryImageContainer {
       margin-left: 0;
+      margin-bottom: 16px;
     }
   }
+
+  padding-bottom: 24px;
+  position: relative;
+  &::after {
+    position:absolute;
+    bottom: 0px;
+    content: "";
+    height: 1px;
+    background: $color-lighter-grey;
+    width: 320px;
+  }
+  // border-bottom: 1px solid $color-lighter-grey;
 }
 
 .postSummaryImageContainer {
@@ -869,7 +882,7 @@ details div {
 }
 
 .postSummaryHeader {
-  h3 {
+  h3, h2 {
     margin-top: 2px;
   }
   display:flex;
