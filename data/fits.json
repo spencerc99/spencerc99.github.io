@@ -1,6 +1,15 @@
 {
     "fits": [
         {
+            "description": "whole foods",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-16%3AIMG_5240.jpeg",
+            "date": "2021-11-16",
+            "timestamp": 1637097005.824277,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-15%3AIMG_5227.jpeg",
             "date": "2021-11-15",
