@@ -1440,6 +1440,11 @@ button {
   padding: 20px;
   position: relative;
 
+  &:target {
+    border: 2px solid $color-link;
+    background: white;
+  }
+
   p {
     margin-top: 8px;
     margin-bottom: 0;
