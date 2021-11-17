@@ -355,7 +355,7 @@ button.icon {
   font-size: $scaled-font-size;
   margin-left: auto;
   display: grid;
-  grid-gap: .5rem;
+  grid-gap: .75rem;
   grid-auto-flow: column;
 
   a {
@@ -424,6 +424,10 @@ button.icon {
 
   @include media(xsmallScreen) {
     font-size: 90%;
+
+    .navbarActions {
+      grid-gap: .5rem;
+    }
   }
 
   a:not(.socialMediaLink) {
@@ -557,8 +561,8 @@ button.icon {
   transition: 0.3s ease-in-out;
 
   &.small {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     vertical-align: middle;
   }
 
@@ -1297,6 +1301,12 @@ ul.noPadding {
   100% { transform: skewX(0deg); }  
 }
 
+@keyframes bounce-animation {
+  0% { transform: translateY(0px); }
+  25% { transform: translateY(-5px) rotate(15deg); }
+  50% { transform: translateY(5px) rotate(30deg);}
+}
+
 @mixin wave($iteration-count: 1) {
   animation-name: wave-animation;
   // animation-duration: 2.5s;
@@ -1338,36 +1348,44 @@ ul.noPadding {
 
 .clickme {
   position: absolute;
-  left: 284px;
+  left: 289px;
   font-size: 10px;
   top: -6px;
   transform: rotate(33deg);
 }
 
 #siteTitle {
-  animation: 4s jiggle-animation 4; 
-  animation-delay: 1.5s;
+  animation: 4s jiggle-animation 5;
+  animation-delay: 1s;
   margin-bottom:12px;
   margin-top: 0;
   font-family: "Muli";
   position: relative;
 }
 
+.emojiContainer {
+  display:inline;
+  animation: 1s bounce-animation 1;
+  animation-delay:2s;
+  position: absolute;
+  left: 255px;
+}
+
 #emoji {
-  pointer-events: cursor;
+  cursor: pointer;
   border: 1px solid $color-site-background;
   border-radius: 50%;
   font-size:inherit;
   background: none;
   border: none;
   padding: 0px 4px;
-  position: absolute;
-  left: 250px;
   
   &:hover {
     background: white;
     border: 1px solid $color-link;
   };
+
+  @extend .rotate;
 }
 
 .fixed-top {

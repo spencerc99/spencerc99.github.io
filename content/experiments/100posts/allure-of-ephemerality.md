@@ -8,7 +8,7 @@ show_home: true
 
 I bought my [first NFT](https://opensea.io/assets/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/198000064) yesterday. It was from an art collection called Coquina by the artist Jacob Gold. I'm generally still hesitant towards the whole NFT space because I think there is a lot of hype that is purely driven by the desire to get rich quick, but the [artblocks](artblocks.io) project around generative NFT art feels very close to the original spirit of NFTs, owning a piece of digital art that supports the artist (and a good cause with 25% of this piece's proceeds going to charity).
 
-<nft-card contractAddress="0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270" tokenId="198000064"> </nft-card> <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
+<figure class="fullWidth"><nft-card class="nft-card" contractAddress="0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270" tokenId="198000064"> </nft-card> <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script></figure>
 
 There's something special about getting art from these projects because you are participating in the art's creation the moment you mint each piece. At the moment you commission an item, you and the entropy of the universe are the foundational inputs channeled through the artist's algorithmic structures and creative logic to form a one-of-a-kind piece. 
 
