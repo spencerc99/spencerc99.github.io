@@ -1,6 +1,24 @@
 {
     "fits": [
         {
+            "description": "parents fit",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-18%3AIMG_5271.jpeg",
+            "date": "2021-11-18",
+            "timestamp": 1637296749.314918,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-17%3AIMG_5243.jpeg",
+            "date": "2021-11-17",
+            "timestamp": 1637174506.826488,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "whole foods",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-16%3AIMG_5240.jpeg",
             "date": "2021-11-16",
