@@ -1,5 +1,5 @@
 ---
-title: "86 - scope-of-normality"
+title: "86 - scope of normality"
 date: "2021-11-18"
 tags: ["100posts"]
 description: "Normal is variable, an always-shifting concept in our minds, that binds us together or drives us apart."
