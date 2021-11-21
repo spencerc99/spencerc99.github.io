@@ -1,6 +1,24 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-20%3AIMG_5368.jpeg",
+            "date": "2021-11-20",
+            "timestamp": 1637464426.181055,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-19%3AIMG_5304.jpeg",
+            "date": "2021-11-19",
+            "timestamp": 1637342382.138709,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "parents fit",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-18%3AIMG_5271.jpeg",
             "date": "2021-11-18",
