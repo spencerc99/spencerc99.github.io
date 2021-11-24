@@ -5,6 +5,7 @@ import os
 
 FITS_PATH_NAME = './data/fits.json'
 #TODO: group by day under the same one, turn imgSrc into an array
+#TODO: this needs to handle deleting ones that are removed from album.
 def post_function(
     photo: PhotoInfo, results: ExportResults, verbose: callable, **kwargs
 ):
