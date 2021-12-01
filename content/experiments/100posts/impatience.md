@@ -4,6 +4,7 @@ date: "2021-11-01"
 tags: ["100posts"]
 description: "I've been struggling uselessly trying to *will* the change into being, where I need to be focusing my energy on doubling down on the rituals that empower me"
 show_home: false
+related: ['/posts/take-back-the-future-response', '/experiments/100posts/taking-what-you-want', '/posts/gambling']
 ---
 
 Lately I've been trying to identify why I've been feeling this undercurrent of unease and anxiety the past several months. It's been harder for me to live in the moment and feel relaxed and fully absorbed by whatever I'm working on. I feel the draw of consumption as a distraction and method of coping. I'm discovering that these feelings can be attributed in a large part to impatience.

@@ -4,6 +4,7 @@ date: "2021-10-22"
 tags: ["100posts"]
 description: "you can be a nice guy while not understanding the vibes"
 show_home: false
+related: ['/experiments/100posts/power-acclimation']
 ---
 some notes on a realization on bad vibes today and how the opposite is like infinite energy:
 

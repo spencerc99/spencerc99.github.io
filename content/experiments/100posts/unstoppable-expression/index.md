@@ -7,6 +7,7 @@ show_home: true
 resources: 
 - src: "images/**"
   name: blue-period
+related: []
 ---
 
 The few moments in my life where I've felt unstoppable have been seared into my memory because of how *powerful* I felt in those times. It's the casual air of quiet confidence that I hangs around superheroes or very dedicated craftspeople. I find that the feeling is heavily tied to a skill or craft that you can feel ownership and proficiency in. The confidence is and limitless energy is a natural consequence of the captivation of your whole essence of being. The moment that your body fully gives in to the raw drive to explore this area is when you feel like you can do anything. It's the moment that your internal locus of control expands to infinity, like when you get the star in MarioKart—there's nothing, no one that can stop you from achieving your dreams and realizing your vision.

@@ -4,6 +4,7 @@ date: "2021-10-11"
 tags: ["100posts", "software", "coding"]
 description: "Why fast feedback loops are important and why convention over configuration makes software feel impossible to change to your own needs"
 show_home: true
+related: ['/newsletter/shaping-the-world', '/fits']
 ---
 I had today off too, so I spent the day eating burritos and making some updates to my personal website. I launched my [fits stream](/fits) the other day and started sharing it publicly while making some usability and performance improvements that this new project exposed. Few improvements included adding a permalink + a quick way to copy that link to clipboard since people were referencing their favorites by the #. On the performance side, I added lazy loading for the images and added some responsive image handling so that the content wasn't reflowing every time a new image loaded. I tried to do the same for the preview images for my posts, and that's when I ended up in a hell of trying to do a super simple thing in theory which was impossible to execute on in reality. 
 

@@ -4,6 +4,7 @@ date: "2021-10-25"
 tags: ["100posts", "creative"]
 description: "Urgency is important because it imbues energy"
 show_home: true
+related: []
 ---
 
 publishing an ode to urgency from earlier this year:

@@ -8,6 +8,7 @@ resources:
 - src: "images/ceos/*.png"
   name: ceos
 keywords: ["fashion", "utilitarian", "personality"]
+related: ['/fits']
 ---
 I’ve been getting really into fashion lately. Perhaps my visit to New York was what really kicked it into overdrive for me given the opportunity to get inspiration everywhere you go on the street, but I’ve always been enamored with the idea of fashion and making yourself look good to feel good. As a child, I was bold with my choices. According to my dad who resurfaced an old journal entry recently, I once tried on some shoes in a store and refused to take them off because I was so enamored with them, and my parents ended up having to buy this nice pair of shoes for a 5-year-old (what a difficult child I must have been 😅). I’ve always tended to be reserved in my choice of presentation, sticking to the popular styles and shying away from experimentation with pieces or styles that caught my eye. I’m trying my best now to unlearn that old habit and embrace that playful side of mine. To that end, I’ve been challenging myself to try a new fit every day to explore my style and force myself to try new combinations that are less “safe.”
 

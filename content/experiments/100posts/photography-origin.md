@@ -4,6 +4,7 @@ date: "2021-11-16"
 tags: ["100posts"]
 description: "The origin story of why I like photography."
 show_home: true
+related: ['/photos']
 ---
 
 Today, I was finally getting around to wrapping up some of the editing on photos from my Alaska trip in September, and I wanted to reflect on and share my origin story for getting involved with photography.

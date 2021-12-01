@@ -4,6 +4,7 @@ date: "2021-10-14"
 tags: ["100posts"]
 description: "Humans are fickle creatures. We like to stop ourselves from doing things that are good for us, often, paradoxically, in the name of preserving the good and protecting us from the bad."
 show_home: false
+related: []
 ---
 
 I think people naturally acclimate to the mental state they put themselves in over and over and the environment they find themselves acting in day-to-day. It seeps in and takes over our default behavior without us realizing it. If you're used to acquiescing in the face of conflict or running in the face of danger, you're probably a push over. If you protect yourself from pain by pushing away all emotions, you've probably internalized that it's better to feel nothing than to experience something bad. And if you're used to getting things the way you want and apologizing for how other people feel rather than admitting your own mistakes, you most likely think that you physically cannot be wrong. 

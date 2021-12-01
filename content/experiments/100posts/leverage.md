@@ -4,6 +4,7 @@ date: "2021-10-27"
 tags: ["100posts"]
 description: "prioritizing the tasks that maximize the impact to time/effort input ratio. "
 show_home: false
+related: ['/experiments/100posts/nows-focus']
 ---
 I've been realizing more and more lately how important it is to pay attention to the leverage of actions that you chosoe to spend time on. As I'm finding that I have more ideas to explore and initiatives to push forward and visions to realize [than I have time](/experiments/100posts/nows-focus), I'm figuring out how to prioritize the tasks that maximize the impact to time/effort input ratio. 
 

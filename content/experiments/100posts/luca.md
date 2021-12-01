@@ -4,6 +4,7 @@ date: "2021-10-24"
 tags: ["100posts", "movies"]
 description: "Silencio Bruno means betting on yourself, trusting yourself to do whatever is needed to push you towards a brighter future and a stronger you."
 show_home: false
+related: ['/posts/discovering', '/experiments/100posts/taking-it-all', '/posts/gambling']
 ---
 
 Wow! #75 means I'm 3/4 of the way through this experiment which is crazy to me! I honestly was doubting I'd make it this far when I got in about 30-40 because that in itself felt absurd to me. Now, it almost feels like double nature to try to flesh out an idea from a bullet into a whole mini-essay. Quantity hopefully is begetting quality.

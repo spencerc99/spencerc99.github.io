@@ -4,6 +4,7 @@ date: "2021-10-20"
 tags: ["100posts"]
 description: "...that perfect balance, between raging like a wildfire towards your dreams and flowing like a gentle wake through every wonderful moment of life. At this paradoxical meeting point, I think you approach living life as fully as you can."
 show_home: true
+related: ['/posts/craft-over-career', '/experiments/100posts/simple-things', '/experiments/100posts/singular-purpose', '/experiments/100posts/taking-what-you-want', '/experiments/100posts/intensity']
 ---
 I met up with [jonah](https://jonaherlich.com/) today for dinner since he was visiting the city, and we atlked about what we've been spending time on and the projects we've been working on. Jonah's been spending time working at Bubble as well as deeply exploring the crypto space: investing, developing, and now learning how to audit. One thing I really admire about him is that he goes all in on things. You can tell almost off the bat that there's this inner fire burning in him that compels him to act and contribute and push forward for the things that he cares about.
 

@@ -4,6 +4,7 @@ date: "2021-11-03"
 tags: ["100posts", "poem", "creative"]
 description: "poem on conviction"
 show_home: false
+related: []
 ---
 
 Trust yourself when the weather turns.

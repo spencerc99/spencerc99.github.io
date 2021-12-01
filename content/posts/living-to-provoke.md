@@ -3,6 +3,7 @@ title: "living to provoke"
 date: "2021-11-25"
 description: "I want my projects to push people to think in a different way and challenge them to reconsider reality in a new light. I want to make crazy ideas feel realistic, extreme fictional worlds feel relatable, complex creative environments feel approachable."
 tags: ['personal', 'ideas']
+related: ['/experiments/100posts/beauty', '/posts/right-decisions', '/experiments/100posts/vandalism', '/experiments/100posts/crazy-ideas', '/experiments/100posts/taking-what-you-want', '/posts/technology-paradox', '/experiments/100posts/chasing-stability', '/experiments/100posts/finding-texture']
 ---
 
 The other day, under the cover of dim lights embedded in elegant wooden fixtures, we took impassioned guesses at each other's MBTI's. [Personality types](/experiments/100posts/beauty/) are an interesting way we use to pretend to be in control of the world and knowing of the world's secrets. We bucket each other into divisions of 16 and 9 and 25 and 12, assigning occupations and strengths, disposition and spirit animals. We tend to like hard divides because they give us the illusion of truth. Even when we don't believe in the underlying essence, we like to believe for fun. We choose to charge into the unknown relying on a faulty guide, maintaining a balancing act for our blissful ignorance.

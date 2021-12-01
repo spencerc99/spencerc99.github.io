@@ -4,6 +4,7 @@ date: "2021-11-18"
 tags: ["100posts"]
 description: "Normal is variable, an always-shifting concept in our minds, that binds us together or drives us apart."
 show_home: false
+related: []
 ---
 Today history took a significant step forward with the craziness around constitution DAO bidding on a copy of the constitution at Sotheby's. They didn't end up winning (a classic American tale of a larger community losing to one rich person), but they stretched the limits of what was believed to be possible, and that makes me think despite the possible ~$3 million USD that was and will be burned in gas to send donations (and now receive the refunds of those donations), it will have all been worth it to show the world what communal action can do.
 

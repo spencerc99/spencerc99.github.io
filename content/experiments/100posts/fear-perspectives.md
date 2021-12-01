@@ -4,6 +4,7 @@ date: "2021-11-11"
 tags: ["100posts"]
 description: "I think one of the highest leverage personal growth moments is learning how to overcome fear. And then repeating that over and over and over again, until the process is inscribed into your body."
 show_home: false
+related: ['/experiments/100posts/impatience', '/posts/gambling', '/experiments/100posts/fear', '/experiments/100posts/conviction']
 ---
 
 I came across [this tweet](https://twitter.com/visakanv/status/1458829216913317891?s=21) from [visa](https://twitter.com/visakanv), one of my favorite twitter micro celebrities, asking about riffs on fear. I've already written a lot about fear before, in a [poem about conviction](/experiments/100posts/conviction) and an essay about [just doing it](/experiments/100posts/fear), but it doesn't fail to come up over and over in my daily life. Fear is just so crucial to doing what you want to do. It's the foundational mental blocker underlying all of our doubt and anxiety. 

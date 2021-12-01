@@ -4,7 +4,7 @@ image: "/posts/mid-twenties/images/buenos-aires.jpg"
 date: "2021-04-11"
 tags: ['personal', 'beliefs', 'favorite', 'reflection']
 description: "a reflection on turning 24"
-related: []
+related: ['/posts/right-decisions', '/posts/you-and-them']
 ---
 
 *This post was originally published on [my newsletter](https://spencerchang.substack.com/p/the-mid-twenties). This was also my **1st** installment in my [100 mini-essays experiment](/experiments/100posts)*.

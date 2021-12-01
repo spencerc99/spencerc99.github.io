@@ -4,6 +4,7 @@ date: "2021-10-21"
 tags: ["100posts", "poetry", "creative"]
 description: "a couple poems on this rainy SF day."
 show_home: true
+related: []
 ---
 a couple poems on this rainy SF day.
 ### pitter patter

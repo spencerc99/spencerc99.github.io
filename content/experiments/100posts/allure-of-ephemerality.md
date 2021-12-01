@@ -4,6 +4,7 @@ date: "2021-11-12"
 tags: ["100posts"]
 description: "In the web3 world, where everything is permanent, stored on-chain forever. This chaotic, ephemeral process of creation is especially compelling. It harkens to the instability of the current Internet..."
 show_home: true
+related: []
 ---
 
 I bought my [first NFT](https://opensea.io/assets/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/198000064) yesterday. It was from an art collection called Coquina by the artist Jacob Gold. I'm generally still hesitant towards the whole NFT space because I think there is a lot of hype that is purely driven by the desire to get rich quick, but the [artblocks](artblocks.io) project around generative NFT art feels very close to the original spirit of NFTs, owning a piece of digital art that supports the artist (and a good cause with 25% of this piece's proceeds going to charity).

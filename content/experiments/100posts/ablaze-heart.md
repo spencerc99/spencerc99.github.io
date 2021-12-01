@@ -4,6 +4,7 @@ date: "2021-10-17"
 tags: ["100posts", "creative", "poetry"]
 description: "a poem on setting your heart ablaze"
 show_home: true
+related: []
 ---
 Found some inspiring poetry lately so will be forcing myself to do more in the next couple weeks :)
 

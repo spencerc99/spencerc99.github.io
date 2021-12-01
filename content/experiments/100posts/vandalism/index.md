@@ -4,6 +4,7 @@ date: "2021-11-02"
 tags: ["100posts"]
 description: "Adaptions, translations, exact replicas are all forms of imitation with varying degrees of change. They all bridge a gap: adaptions connect media, translations connect languages, and replicas connect availability."
 show_home: false
+related: []
 ---
 
 {{< figure src="images/vandalism.png" >}}

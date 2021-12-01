@@ -4,6 +4,7 @@ date: "2021-11-07"
 tags: ["100posts"]
 description: ""
 show_home: false
+related: ['/experiments/100posts/impatience']
 ---
 I'm in LA right now for Head in the Clouds, one of the first music festivals where I actually am a big fan of a lot of the artists who are performing. I'm sitting in a coffee shop right now in Pasadena, nursing an espresso tonic with slices of dehydrated citrus. The space is bright and airy, featuring an exhibit showcasing the people and stories behind the homeless. On one wall hangs a couple posters, piercing questions set on white font against a black background. 
 

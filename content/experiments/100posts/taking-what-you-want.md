@@ -4,6 +4,7 @@ date: "2021-10-16"
 tags: ["100posts"]
 description: "I guess the problem is that most things that you *really* want are controversial—they'll provoke people."
 show_home: false
+related: []
 ---
 
 I have a critical flaw (or maybe it's a strength). Despite the influence of substances, there's a certain level of freewheeling behavior that I can't seem to inhabit. It feels foreign, and I guess it is because I've never acted like that before. 

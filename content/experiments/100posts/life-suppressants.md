@@ -4,6 +4,7 @@ date: "2021-11-20"
 tags: ["100posts"]
 description: "this is a reminder to never compromise my ability to be fully present for every moment."
 show_home: false
+related: []
 ---
 
 Last night was a classic tale of drinking too much and regretting the state of my body the next morning. My relationship to substances has changed over the past year to honing in on how it’ll allow me live more fully and refusing to give in to any social pressures if it’ll compromise my ability to enjoy and experience every moment. With any substance, dosage is one of the most important factors to your end experience. Take too much, and the substance forced you to suppress the input coming in. 

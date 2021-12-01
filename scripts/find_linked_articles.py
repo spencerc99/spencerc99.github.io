@@ -45,33 +45,36 @@ def parse_linked_articles(lines: List[AnyStr]) -> Set[str]:
         
 
 def upsert_related_articles(filename: str):
-    with open(filename, 'r+') as f:
-        lines = f.readlines()
-        linked_articles = parse_linked_articles(lines)
-        linked_field_idx = None
-        end_of_metadata_idx = None
+    try: 
+        with open(filename, 'r+') as f:
+            lines = f.readlines()
+            linked_articles = parse_linked_articles(lines)
+            linked_field_idx = None
+            end_of_metadata_idx = None
 
-        for idx, line in enumerate(lines[1:]):
-            if line.startswith(ARTICLE_METADATA_DELIMETER):
-                end_of_metadata_idx = idx + 1
-                break
-            if line.startswith(LINKED_ARTICLES_FIELDNAME + ':'):
-                linked_field_idx = idx + 1
+            for idx, line in enumerate(lines[1:]):
+                if line.startswith(ARTICLE_METADATA_DELIMETER):
+                    end_of_metadata_idx = idx + 1
+                    break
+                if line.startswith(LINKED_ARTICLES_FIELDNAME + ':'):
+                    linked_field_idx = idx + 1
 
-        if linked_field_idx:
-            linked_field_line = lines[linked_field_idx].strip()
-            existing_articles = set(ast.literal_eval(linked_field_line[linked_field_line.index(':')+2:]))
-            all_articles = existing_articles.union(linked_articles)
-            if len(existing_articles) == len(linked_articles):
-                # don't write if not needed
-                return
-            print(f'changing to "{LINKED_ARTICLES_FIELDNAME}: {str(list(all_articles))}" at {linked_field_idx}')
-            lines[linked_field_idx] = f'{LINKED_ARTICLES_FIELDNAME}: {str(list(all_articles))}\n'
-        else:
-            print(f'inserting "{LINKED_ARTICLES_FIELDNAME}: {str(list(linked_articles))}" at {end_of_metadata_idx}')
-            lines.insert(end_of_metadata_idx, f'{LINKED_ARTICLES_FIELDNAME}: {str(list(linked_articles))}\n')
-        f.seek(0)
-        f.writelines(lines)
+            if linked_field_idx:
+                linked_field_line = lines[linked_field_idx].strip()
+                existing_articles = set(ast.literal_eval(linked_field_line[linked_field_line.index(':')+2:]))
+                all_articles = existing_articles.union(linked_articles)
+                if len(existing_articles) == len(linked_articles):
+                    # don't write if not needed
+                    return
+                print(f'changing to "{LINKED_ARTICLES_FIELDNAME}: {str(list(all_articles))}" at {linked_field_idx}')
+                lines[linked_field_idx] = f'{LINKED_ARTICLES_FIELDNAME}: {str(list(all_articles))}\n'
+            else:
+                print(f'inserting "{LINKED_ARTICLES_FIELDNAME}: {str(list(linked_articles))}" at {end_of_metadata_idx}')
+                lines.insert(end_of_metadata_idx, f'{LINKED_ARTICLES_FIELDNAME}: {str(list(linked_articles))}\n')
+            f.seek(0)
+            f.writelines(lines)
+    except:
+        print(f'Failed to update {filename}', file=stderr)
 
 if __name__ == "__main__":
     for content_dir in CONTENT_PATHS: 
