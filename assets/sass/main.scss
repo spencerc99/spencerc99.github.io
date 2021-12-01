@@ -479,6 +479,14 @@ button.icon {
   .postSummaryContainer {
     margin-top: 0;
     @include collapsed-post-summary-container();
+
+    .postSummaryImageContainer {
+      display: none;
+    }
+
+    &::after {
+      height: 0px;
+    }
   }
 }
 

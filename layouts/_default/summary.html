@@ -53,12 +53,14 @@
     </div>
   </div>
     {{ with .Params.image }}
-    {{- $matchingSiteResource := resources.Get . -}}
-    {{ $firstResource := or (index $matchingResource 0) $matchingSiteResource }}
-    {{ $thumbnail := $firstResource.Resize "400x" }}
-    <div class="postSummaryImageContainer">
-        <img loading="lazy" class="lazyload postSummaryImage" data-src="{{ $thumbnail.RelPermalink }}" />
-    </div>
-  {{ end }}
+      {{- $matchingSiteResource := resources.Get . -}}
+      {{ $firstResource := or (index $matchingResource 0) $matchingSiteResource }}
+      {{ with $firstResource }}
+        {{ $thumbnail := .Resize "400x" }}
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="{{ $thumbnail.RelPermalink }}" />
+        </div>
+      {{ end }}
+    {{ end }}
   <!-- TODO: add tags or something here -->
 </article>

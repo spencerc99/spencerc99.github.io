@@ -3,7 +3,7 @@
 {{ range $pageurls }}
 {{ $linkedPages = $linkedPages | append (. | $.Site.GetPage) }}
 {{ end }}
-{{ $related := $linkedPages | union (.Site.RegularPages.Related .) | first 4 }}
+{{ $related :=  union $linkedPages ($.Site.RegularPages.Related .) | first 4 }}
 {{ with $related }}
 <h3>Related Posts</h3>
 <div class="relatedPosts">
