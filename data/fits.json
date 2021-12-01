@@ -1,6 +1,33 @@
 {
     "fits": [
         {
+            "description": "trying to manifest a bucket hat",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-23%3AIMG_5436.jpeg",
+            "date": "2021-11-23",
+            "timestamp": 1637713358.029136,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "no going outside fit",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-30%3AIMG_5835.jpeg",
+            "date": "2021-11-30",
+            "timestamp": 1638329945.10348,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "exploring the visvim exposition store",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-24%3AIMG_5486.jpeg",
+            "date": "2021-11-24",
+            "timestamp": 1637793789.693966,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-27%3AIMG_5768.jpeg",
             "date": "2021-11-27",
@@ -10,7 +37,7 @@
             "favorite": false
         },
         {
-            "description": "",
+            "description": "socks and sandals stan",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-28%3AIMG_5777.jpeg",
             "date": "2021-11-28",
             "timestamp": 1638122725.818,
@@ -28,7 +55,7 @@
             "favorite": true
         },
         {
-            "description": "",
+            "description": "sorry i had 3 different fits today",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-23%3AIMG_5424_edited.jpeg",
             "date": "2021-11-23",
             "timestamp": 1637705551.489543,
@@ -46,7 +73,7 @@
             "favorite": false
         },
         {
-            "description": "",
+            "description": "ft. thrift store coat (did not buy sadly)",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-22%3AIMG_5407_edited.jpeg",
             "date": "2021-11-22",
             "timestamp": 1637625891.363052,
