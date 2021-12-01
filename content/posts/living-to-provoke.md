@@ -1,12 +1,15 @@
 ---
 title: "living to provoke"
 date: "2021-11-25"
+image: '/images/living-to-provoke/personality_buckets.png'
 description: "I want my projects to push people to think in a different way and challenge them to reconsider reality in a new light. I want to make crazy ideas feel realistic, extreme fictional worlds feel relatable, complex creative environments feel approachable."
 tags: ['personal', 'ideas']
 related: ['/experiments/100posts/beauty', '/posts/right-decisions', '/experiments/100posts/vandalism', '/experiments/100posts/crazy-ideas', '/experiments/100posts/taking-what-you-want', '/posts/technology-paradox', '/experiments/100posts/chasing-stability', '/experiments/100posts/finding-texture']
 ---
 
 The other day, under the cover of dim lights embedded in elegant wooden fixtures, we took impassioned guesses at each other's MBTI's. [Personality types](/experiments/100posts/beauty/) are an interesting way we use to pretend to be in control of the world and knowing of the world's secrets. We bucket each other into divisions of 16 and 9 and 25 and 12, assigning occupations and strengths, disposition and spirit animals. We tend to like hard divides because they give us the illusion of truth. Even when we don't believe in the underlying essence, we like to believe for fun. We choose to charge into the unknown relying on a faulty guide, maintaining a balancing act for our blissful ignorance.
+
+{{< figure src="/posts/images/living-to-provoke/personality_buckets.png" caption="an example of said buckets from a [website to test your ](https://www.16personalities.com/personality-types)" >}}
 
 The past year I've been trying to get better at this act of charging headlong into undiscovered territories—relying on incomplete knowledge and uncertain assumptions. I think society designs itself around a [standard path](/posts/right-decisions), and we're taught to follow that path in every institution that we expose ourselves to. This is the get good grades, secure a stable and well-paying job, and start a wholesome family path. Society designs itself around this path: 4-year liberal arts degrees over trade schools, [a nuclear family over extended families](https://annehelen.substack.com/p/what-it-means-to-pandemic-solo#:~:text=the%20nuclear%20family%20has%20become%20the%20primary%20unit%20of%20thinking%20when%20it%20comes%20to%20the%20way%20society%20is%20organized.%20it%20is%20the%20optimized%20path%20towards%20home%20ownership%20and%20financial%20independence%2C%20%E2%80%9Cpreferred%2C%E2%80%9D%20when%20it%20comes%20to%20everything%20from%20adoption%20and%20custody%20to%20hiring%20practices) and neighborhood communities. It's the road of constantly chasing a more perfect life. This sort of life is easier at first because it's known what the right decision is at any given moment, but the problem is that the chase never ends. If you get good grades, you have to get into a good college. If you’re at a good college, then you better aim for a prestigious job. If you’re a successful professional, it’s time to get married and raise a family for the cycle to repeat itself all over again.
 
