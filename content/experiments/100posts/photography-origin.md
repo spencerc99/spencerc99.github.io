@@ -4,6 +4,7 @@ date: "2021-11-16"
 tags: ["100posts"]
 description: "The origin story of why I like photography."
 show_home: true
+emojis: ["📸", "🏠"]
 related: []
 ---
 

@@ -727,7 +727,7 @@ a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.
 
 .postContainer {
   width: 100%;
-  margin-top: $navBar-height;
+  position: relative;
 
   .title {
     margin-bottom: 0;
@@ -1390,6 +1390,11 @@ ul.noPadding {
   animation-delay:2s;
   position: absolute;
   left: 255px;
+
+  &.inline {
+    left: 0px;
+    position: inherit;
+  }
 }
 
 #emoji {

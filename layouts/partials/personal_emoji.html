@@ -1,0 +1,27 @@
+{{ $inline := cond (eq .inline "") "" "inline" }}
+{{ $hideWee := .hideWee | string | default "false" }}
+
+<div class="emojiContainer {{$inline}}"><button id="emoji" onclick="updateEmoji()"></button></div>
+{{ if eq $hideWee "false"}}
+    <div class="clickme">weee</div>
+{{ end }}
+<script>
+  const inputEmojis = {{.emojis}}
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || ['✌️', '😤', '🥸', '👀', '💫', '🍥', '☔️'];
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
