@@ -86,7 +86,7 @@ In a world of fully interoperable software, new apps can quickly have immediate 
 
 # Why personal agency?
 
-In our current digital worlds, we're subjected to software that treats us as subjects to be converted into revenue. Tech companies and hungry apps crave us for our attention rather than our being---our acts rather than our humanity. What if we inverted that power dynamic and gave individuals and communities the power to shape their software as they see fit?
+As we navigate our digital worlds, we're subjected to software that treats us as subjects to be converted into revenue. Tech companies and hungry apps crave us for our attention rather than our being---our acts rather than our humanity. What if we inverted that power dynamic and gave individuals and communities the power to shape their software as they see fit?
 
 Imagine we've achieved a world where all of our software embodies the aspects outlined above. The software we use daily empowers us with the agency to create our own tools, mold our own experiences, and transport our own data. Why does personal agency matter?
 
