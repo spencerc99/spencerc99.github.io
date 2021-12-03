@@ -8,6 +8,7 @@ resources:
   name: mirage
   title: mirage-title-:counter
 tags: ['personal', 'cities', 'favorite']
+emojis: ['🍸', '🎰', '💸']
 related: ['/posts/commitment-and-obligation']
 ---
 *This is a collage of several journals (composed at various levels of drunkenness) over the past weekend in Vegas, and my post-trip reflections from immersing myself in that environment.*

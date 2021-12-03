@@ -5,6 +5,7 @@ date: "2021-07-19"
 tags: ['personal', 'beliefs', 'favorite']
 description: "on my paradoxical relationship with technology"
 related: ['/posts/better-world-delusion']
+emojis: [🧑‍💻, 📱]
 ---
 
 {{< figure src="images/highway.jpeg" caption="*Under 280 in San Francisco during golden hour.*">}}

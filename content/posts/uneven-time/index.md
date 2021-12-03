@@ -6,6 +6,7 @@ tags: ['personal', 'ideas', 'favorite', 'books']
 description: "A world where time is uneven, the image to maintain, and the power of mindsets"
 tags: ['favorite', 'creative']
 related: ['/posts/commitment-and-obligation']
+emojis: [🐟]
 ---
 
 {{< figure src="images/fish.jpg" caption="*an art piece representing the fish of lijiang by [James W Hedges](http://jameswhedges.com/the-fish-of-lijiang/)*" >}}
