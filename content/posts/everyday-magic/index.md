@@ -5,7 +5,7 @@ image: '/posts/everyday-magic/images/takeoff.jpg'
 date: "2021-12-02"
 tags: ['ideas', 'technology', 'favorite']
 emojis: ['🪄', "⚡", "🔮", "✨"]
-related: []
+related: ['/posts/take-back-the-future-response']
 --- 
 
 {{< figure src="images/takeoff.jpg" caption="*Isn't it mindboggling that we created machines that can fly and swim?*" class="fullWidth" >}}
@@ -106,9 +106,12 @@ As technologists, we have the privilege of being able to demystify and change ho
 
 Can we build towards a world where all technology inspires and gives hope and calls us in? Many have sat by while crucial software deprives people of agency. Instead, let's fight for a future where all are wizards, magic is as common as the air we breathe, and it's second nature for people to shape it into something personally meaningful.
 
+Thanks to [Jessica Dai](https://twitter.com/jessicadai_) for the thorough and precise editing, and [Avery Jordan](https://nickelthoughts.substack.com/), [Jamie Wong](http://jamie-wong.com/), and [Ameesh Shah](https://twitter.com/ameeshsh) for giving feedback on early drafts of this article.
+
 ### Related Resources
 -   [Ink and Switch](https://www.inkandswitch.com/) is a research lab that has done a lot of research into how to make technology more compatible with humans, and they have a great podcast called [Metamuse](https://museapp.com/podcast/) with people who work towards more agencyful apps.
 -   My friend [Helena Jaramillo](https://everywwwhere.net/) has a great [poem](https://mmm.page/helena.soft_tech) about what tech can feel like if everyone had more control over its experience.
 -   [Bret Victor](http://worrydream.com/cv/) has done a lot of thinking in this space and is leading [Dynamicland](https://dynamicland.org/) which was mentioned above
--   Molly Mieke is starting [Moth Minds](https://www.mothminds.com/), a company to enable anyone to start their own grants program to catalyze agency for "moths," those who flutter around the edges of the light.
+-   [Molly Mieke](https://www.mollymielke.com/) is starting [Moth Minds](https://www.mothminds.com/), a company to enable anyone to start their own grants program to catalyze agency for "moths," those who flutter around the edges of the light.
 -   [Interdependence](https://www.interdependence.online/about) is a project that led a community effort to rewrite the Declaration for the Independence of Cyberspace to be community-oriented and inclusive, for anyone to sign and fork.
+-   A non-comprehensive list of people whose works I am inspired by in this space: [Andy Matuschak](https://andymatuschak.org/), [Geoffrey Litt](https://www.geoffreylitt.com/), [Linus Lee](https://thesephist.com/), [Weiwei Xu](https://weiwei.place/), [Amelia Wattenberger](https://wattenberger.com/), [May-Li](http://maylikhoe.com/), [Tyler Angert](https://tyler.cafe/), [Jason Yuan](https://jasonyuan.design/), and [Jordan Singer](https://ibuildmyideas.com/).
