@@ -1,5 +1,6 @@
 ---
 title: "Everyday Magic"
+description: "Tech is magical, but it shouldn't be mysterious."
 image: '/posts/everyday-magic/images/takeoff.jpg'
 date: "2021-12-02"
 tags: ['ideas', 'technology', 'favorite']
@@ -8,6 +9,12 @@ related: []
 --- 
 
 {{< figure src="images/takeoff.jpg" caption="*Isn't it mindboggling that we created machines that can fly and swim?*" class="fullWidth" >}}
+
+In October, I [responded](/posts/take-back-the-future-response) to Reboot's manifesto, [“Take Back the Future.”](https://reboothq.substack.com/p/manifesto), which calls upon technologists to pursue and leverage their unique agency in shaping technology, which has an outsized impact on the future of our livelihoods, to advocate for the people who have less agency and push for a brighter, more equal future. Here's a snippet from my response:
+
+> Rather than giving cake to the masses, we must give them the recipe. I demand a future where the magic is ours, the people’s rather than just an elite class of wizards and faceless entities. The software we interact with every day should not only allow, but encourage us us to make it our own: to create our thoughts, art, and experiments rather than merely consume SEO-juiced content; to express our full selves rather than settling for uniform cookie-cutter molds; to play outside the box and in between the lines and beyond the edges of normality rather than being constrained within the rules of the status quo.
+
+In this piece, I explore what it takes to reclaim the magic, and give everyone the power to change the technology that they use. This was also published in [Reboot's newsletter](https://reboothq.substack.com/), which you can [read here](https://reboothq.substack.com/p/-everyday-magic), which includes a small interview at the end.
 
 # The magic of technology
 

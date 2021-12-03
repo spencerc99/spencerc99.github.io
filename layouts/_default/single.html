@@ -11,8 +11,7 @@
     <span class="postDate">{{ .Date.Format "01.02.2006" }}</span>
     <!-- TODO: add other metadata like location and time and song with icons -->
     {{ $hasIcon := or (in .Params.tags "favorite") (isset .Params "icon") }}
-    {{ if $hasIcon}}
-    // 
+    {{ if $hasIcon}} 
     <div class="icons">
       {{ with .Params.icon }} 
         <i class="{{.}}"></i>
