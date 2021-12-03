@@ -62,11 +62,11 @@ For example, [Figma](http://figma.com) provides simple operations around alignin
 
 [Sprout](https://sprout.place) is a new video conferencing tool that provides a space to hang out in and cultivate with your ideas and personality, giving life to a normally soul-sucking experience.
 
-{{< figure src="https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0bfc0d21-913c-49d1-a1c3-11daa05788af_800x339.gif" caption="*In Sprout, you can look up images and drag them into the space to personalize your face time.*" >}}
+{{< figure src="https://codahosted.io/docs/YsYg7d1EIu/blobs/bl-SQz2N_YESp/f009b94f7580fa326d99038805f4570fbc5f2bec53aa3053e3c1e83bbddb3901897e538661825e5297f880d962e410247d3dbd97664260b25caf25fca5f30c493887c20b5fcdf21dca238849e30a52de2dfb38926d6ac5201906ddf400655e006764eee1" caption="*In Sprout, you can look up images and drag them into the space to personalize your face time.*" >}}
 
 [mmm.page](http://mmm.page) is a new website builder that aims to bring back the personality of websites that harkens back to Geocities, providing easy GIFs, colored text blocks, and links that can be drag-and-dropped to create a new piece of digital real estate.
 
-{{< figure src="https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdec60888-f5f9-482b-9988-d9d3efc43b00_1266x1048.gif" caption="*mmm's landing page showcases the quirky ways to make a website.*" >}}
+{{< figure src="https://codahosted.io/docs/YsYg7d1EIu/blobs/bl-9ooJCiVYSO/26512da7933cb61b862f08a8599df95a197505257785dce0266e6c1cf9e2d12d575020d048e768d411e4bca75742578818a27e4011cfb1e5a115035217ad0de7f3f9b7e510ae838a2cee2118bd9d4f98523bb64d09f4874671f51124c79a620be9d53ad4" caption="*mmm's landing page showcases the quirky ways to make a website.*" >}}
 
 These tools empower agency by providing a few basic interactions that fit together and are interesting to combine into new forms. Using these tools doesn't feel like work---they feel like goofing around with friends or exploring a new video game.
 
@@ -74,7 +74,7 @@ These tools empower agency by providing a few basic interactions that fit togeth
 
 At the inception of ideas, harnessing all of the creative momentum is essential to make them reality. Any delay in how actions affect the end output and how much setup a working foundation requires can derail that pure creative desire. Fast feedback loops require being [responsive to updating](https://www.youtube.com/watch?v=ef2jpjTEB5U) on changes and streamlining any complexity secondary to the core creative effort.
 
-{{< figure src="https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F99d7261d-1111-44dd-8746-014ca3188b53_956x234.gif" caption="*An example of highly responsive software from [Up and Down the Ladder of Abstraction](http://worrydream.com/LadderOfAbstraction/)*" >}}
+{{< figure src="https://codahosted.io/docs/YsYg7d1EIu/blobs/bl-L-B72xPyvJ/d6fbfccecc0ed061f5112a5f62e6ceb5af2ff2633baab1f79b351935e3d0f0b8a6c86c5dcf2c8a4c409638f1f6cdcd6f5e1f18206c5d4ed036be1fc27fb760655e3fa761707a74907a70ad595ac5a1c3fb1e395875c9d21c57b80258bb2b31f0302facd2" caption="*An example of highly responsive software from [Up and Down the Ladder of Abstraction](http://worrydream.com/LadderOfAbstraction/)*" >}}
 
 Document tools, like those mentioned above, provide "databases" that update on response without requiring complex syntax or proper database management. "Code-easier" tools like [Glitch](https://glitch.com/) and [Replit](https://replit.com/) hide all the complexities around running a server and serving a web page through a live preview of your code. And No-code tools like [Bubble](https://bubble.io/) aim to give non-technologists the full power of creating an app with visual drag + drop editors.
 
