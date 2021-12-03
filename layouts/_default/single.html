@@ -2,7 +2,7 @@
 <div class="progress-container fixed-top">
   <span class="progress-bar"></span>
 </div>
-<div class="headerContainer"/>
+<div class="headerContainer"></div>
 {{ end }} 
 {{ define "main"}}
 <div class="postContainer {{ with .Params.storyType }} {{ . }} {{ end }}">
@@ -26,12 +26,12 @@
   <h1 class="title">{{ .Title }} {{ partial "personal_emoji.html" (dict "hideWee" "true" "inline" "true" "emojis" .Params.emojis) }}</h1>
   <h3 class="description">{{ .Description | markdownify }}</h3>
   <div>
-    <article class="postContent">
+    <div class="postContent">
       {{ with .Params.external_link }}
       <p>This post was originally published <a href="{{.}}">somewhere else</a>.</p>
       {{ end }}
       {{ .Content }}
-    </article>
+    </div>
   </div>
 </div>
 <footer>

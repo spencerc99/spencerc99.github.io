@@ -26,6 +26,7 @@ $smaller-font-size: $default-font-size * .8;
 $navbar-zindex: 999;
 $color-text-color: #282828;
 $header-container-margin: calc(max(50px, min(10vh, 90px)));
+$full-width-image-shrink-threshold: 1200px;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 // This used to be `320px` but makes no sense that smaller than 320px reverts so changing to 0.
@@ -221,7 +222,7 @@ $quote-padding: 12px;
 
 section.footnotes {
   ol {
-    padding-left: 1rem;
+    // padding-left: 1rem;
   }
 }
 
@@ -278,6 +279,14 @@ p {
   &:not(:last-child) {
     margin-bottom: 0.5rem;
   }
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.4em;
 }
 
 h1,
@@ -467,6 +476,7 @@ button.icon {
 }
 
 .title {
+  font-size: 2.3em;
   font-family: "Raleway";
 }
 
@@ -954,28 +964,39 @@ i.uis.uis-star {
     // make more specific than img tag below.
     &.fullWidth.fullWidth {
       img {
-        @include image-dropshadow();
+        // @include image-dropshadow();
       }
 
       figcaption {
-        // only let the caption expand to 75% of the full viewport width
+        // only let the caption expand to 90% of the full viewport width
         p {
-          margin: 0 12.5vw;
+          margin-left: 5vw;
+          margin-right: 5vw;
         }
       }
 
       // allow image to grow to 3/4 of viewport.
       // at 800 = 600 (viewport width) * 4/3 (inverse of ratio below),
       // revert to normal sizing since it 75% of viewport will be smaller than normal sizing.
-      @media (min-width: 801px) {
-        & {
-          @include extend-width();
-        }
+      // TODO(spencer): this should naturally scale to take the full width and shrink to a min of 75%.
+      @media (min-width: $full-width-image-shrink-threshold + 1) {
+        left: 50%;
+        margin-left: calc(max(-37.5vw, calc(#{$full-width-image-shrink-threshold} / -2)));
+        margin-right:  calc(max(-37.5vw, calc(#{$full-width-image-shrink-threshold} / -2)));
+        max-width: calc(min(75vw, #{$full-width-image-shrink-threshold}));
+        position: relative;
+        right: 50%;
+        width: 100vw;
+        min-width: $viewport-width;
+      }
 
-        // only let the caption expand to 75% of 75% of full viewport width
-        // since we are constraining the image to 75% of viewport above.
-        figcaption p {
-          margin: 0 25vw;
+      @media (max-width: $full-width-image-shrink-threshold) {
+        @include extend-width();
+        figcaption {
+          p {
+            margin-left: 6px;
+            margin-right: 6px;
+          }
         }
       }
     }
@@ -996,6 +1017,7 @@ i.uis.uis-star {
       margin: auto;
       font-style: italic;
       color: $color-light-grey;
+      margin-top: 8px;
     }
 
     p {
