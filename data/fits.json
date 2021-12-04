@@ -1,6 +1,24 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-02%3AIMG_5861.jpeg",
+            "date": "2021-12-02",
+            "timestamp": 1638490496.212382,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-01%3AIMG_5840.jpeg",
+            "date": "2021-12-01",
+            "timestamp": 1638414065.358146,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "trying to manifest a bucket hat",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-23%3AIMG_5436.jpeg",
             "date": "2021-11-23",
@@ -73,7 +91,7 @@
             "favorite": false
         },
         {
-            "description": "ft. thrift store coat (did not buy sadly)",
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-11-22%3AIMG_5407_edited.jpeg",
             "date": "2021-11-22",
             "timestamp": 1637625891.363052,
