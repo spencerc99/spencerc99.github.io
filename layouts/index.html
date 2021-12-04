@@ -66,6 +66,7 @@
   <br/>
   You can find my favorite pieces below, or browse all my <a href="/posts">writing</a>.
   <div class="postsList">
+    <!-- TODO: include the latest 3 -->
   {{ range where .Site.Taxonomies.tags.favorite "Params.internal_link" nil }}
     {{ .Render "summary" }} 
   {{ end }}

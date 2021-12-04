@@ -3,7 +3,7 @@ title: "Everyday Magic"
 description: "Tech is magical, but it shouldn't be mysterious."
 image: '/posts/everyday-magic/images/takeoff.jpg'
 date: "2021-12-02"
-tags: ['ideas', 'technology', 'favorite']
+tags: ['ideas', 'favorite', 'software']
 emojis: ['🪄', "⚡", "🔮", "✨"]
 related: ['/posts/take-back-the-future-response']
 --- 
@@ -72,7 +72,7 @@ These tools empower agency by providing a few basic interactions that fit togeth
 
 ## Fast feedback loops
 
-At the inception of ideas, harnessing all of the creative momentum is essential to make them reality. Any delay in how actions affect the end output and how much setup a working foundation requires can derail that pure creative desire. Fast feedback loops require being [responsive to updating](https://www.youtube.com/watch?v=ef2jpjTEB5U) on changes and streamlining any complexity secondary to the core creative effort.
+At the inception of ideas, harnessing all of the creative momentum is essential to make them reality. Any delay in how actions affect the end output and how much setup a working foundation requires can derail that pure creative desire. [Fast feedback loops](/experiments/100posts/fast-feedback-loops) require being [responsive to updating](https://www.youtube.com/watch?v=ef2jpjTEB5U) on changes and streamlining any complexity secondary to the core creative effort.
 
 {{< figure src="https://codahosted.io/docs/YsYg7d1EIu/blobs/bl-L-B72xPyvJ/d6fbfccecc0ed061f5112a5f62e6ceb5af2ff2633baab1f79b351935e3d0f0b8a6c86c5dcf2c8a4c409638f1f6cdcd6f5e1f18206c5d4ed036be1fc27fb760655e3fa761707a74907a70ad595ac5a1c3fb1e395875c9d21c57b80258bb2b31f0302facd2" caption="*An example of highly responsive software from [Up and Down the Ladder of Abstraction](http://worrydream.com/LadderOfAbstraction/)*" >}}
 

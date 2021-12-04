@@ -2,7 +2,7 @@
 title: "the technology paradox"
 image: '/posts/technology-paradox/images/highway.jpeg'
 date: "2021-07-19"
-tags: ['personal', 'beliefs', 'favorite']
+tags: ['personal', 'beliefs', 'favorite', 'technology', 'software']
 description: "on my paradoxical relationship with technology"
 related: ['/posts/better-world-delusion']
 emojis: [🧑‍💻, 📱]

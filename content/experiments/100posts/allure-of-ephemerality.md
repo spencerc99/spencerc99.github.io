@@ -1,7 +1,7 @@
 ---
 title: "83 - allure of ephemerality"
 date: "2021-11-12"
-tags: ["100posts"]
+tags: ["100posts", "web3", "technology"]
 description: "In the web3 world, where everything is permanent, stored on-chain forever. This chaotic, ephemeral process of creation is especially compelling. It harkens to the instability of the current Internet..."
 show_home: true
 related: []

@@ -867,6 +867,7 @@ details div {
 .postSummaryContainer {
   display: flex;
   margin-top: 24px;
+  // height: 150px;
   
   @include media(xsmallScreen) {
     @include collapsed-post-summary-container();

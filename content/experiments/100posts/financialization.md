@@ -1,7 +1,7 @@
 ---
 title: "84 - financialization"
 date: "2021-11-14"
-tags: ["100posts"]
+tags: ["100posts", "web3", "technology"]
 description: "I crave for an internet-native space where it's okay to just be yourself and let your hair down—where making things that are worthless and inefficient are not only allowed but encouraged rather than squeezed for every penny they'll generate."
 show_home: true
 related: ['/experiments/100posts/allure-of-ephemerality']

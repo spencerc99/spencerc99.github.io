@@ -1,7 +1,7 @@
 ---
 title: "85 - photography origin"
 date: "2021-11-16"
-tags: ["100posts"]
+tags: ["100posts", "creative", "personal"]
 description: "The origin story of why I like photography."
 show_home: true
 emojis: ["📸", "🏠"]
