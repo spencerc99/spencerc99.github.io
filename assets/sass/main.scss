@@ -26,7 +26,6 @@ $smaller-font-size: $default-font-size * .8;
 $navbar-zindex: 999;
 $color-text-color: #282828;
 $header-container-margin: calc(max(50px, min(10vh, 90px)));
-$full-width-image-shrink-threshold: 1200px;
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 // This used to be `320px` but makes no sense that smaller than 320px reverts so changing to 0.
@@ -35,6 +34,8 @@ $screenSmallMin: 481px;
 $screenMediumMin: 768px;
 $screenLargeMin: 1025px;
 $screenXlargeMin: 1281px;
+
+$full-width-image-shrink-threshold: $screenLargeMin - 1;
 
 $screenMinWidths: (
   xsmallScreen: $screenXsmallMin,
@@ -991,15 +992,15 @@ i.uis.uis-star {
         min-width: $viewport-width;
       }
 
-      @media (max-width: $full-width-image-shrink-threshold) {
-        @include extend-width();
-        figcaption {
-          p {
-            margin-left: 6px;
-            margin-right: 6px;
-          }
-        }
-      }
+      // @include media(mediumScreen, largeScreen) {
+      //   @include extend-width();
+      //   figcaption {
+      //     p {
+      //       margin-left: 6px;
+      //       margin-right: 6px;
+      //     }
+      //   }
+      // }
     }
 
     &.embed.embed {
