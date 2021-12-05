@@ -77,7 +77,7 @@ $screenMaxWidths: (
   margin-right: -50vw;
   position: relative;
   width: 100vw;
-  min-width: $viewport-width;
+  min-width: calc(min(#{$viewport-width}, 100vw));
 }
 
 @mixin meta-content() {
@@ -992,15 +992,15 @@ i.uis.uis-star {
         min-width: $viewport-width;
       }
 
-      // @include media(mediumScreen, largeScreen) {
-      //   @include extend-width();
-      //   figcaption {
-      //     p {
-      //       margin-left: 6px;
-      //       margin-right: 6px;
-      //     }
-      //   }
-      // }
+      @media(max-width: $full-width-image-shrink-threshold) {
+        @include extend-width();
+        figcaption {
+          p {
+            margin-left: 6px;
+            margin-right: 6px;
+          }
+        }
+      }
     }
 
     &.embed.embed {
