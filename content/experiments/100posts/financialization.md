@@ -18,6 +18,8 @@ The essential shift from web 2 to web 3 has been characterized as creating the c
 
 I'm curious how we can preserve the shift in power away from companies to extract value from creative works while fostering a fundamentally playful and light environment for experimentation and creation. Some web 3 advocates might argue that the space is already meant to feel inviting in that way: the insider jokes like "gm" and "wagmi" and others that bring all the people closer. I think those help, if given openly and not leveraged as a gatekeeping mechanism to filter out "the initiated." But, they're nowhere close to an environment that by default puts no expectation of a certain way of performing or acting or being valued as we're so pressured to do in everything we do on the web nowadays. I crave for an internet-native space where it's okay to just be yourself and let your hair down—where making things that are worthless and inefficient are not only allowed but encouraged rather than squeezed for every penny they'll generate. I think the most profound and valued concepts and movements emerge from this place of fun; after all, the web just started as a fun passion project for connecting researchers.
 
+This [Twitter thread](https://twitter.com/dazuck/status/1380157939433009159?s=20) was the first example in popular discourse that I came across that talks about this tension between the explicit monetization of everything and the grassroots energy emerging from crypto. The author posits how communities and values-driven development can be answer to fight against purely economic pursuits.
+
 [^1]: see my [recent NFT purchase](/experiments/100posts/allure-of-ephemerality)
 
 ---

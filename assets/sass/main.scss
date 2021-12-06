@@ -277,6 +277,9 @@ p {
 }
 
 * > li {
+  p {
+    margin: 0px 0;
+  }
   &:not(:last-child) {
     margin-bottom: 0.5rem;
   }
