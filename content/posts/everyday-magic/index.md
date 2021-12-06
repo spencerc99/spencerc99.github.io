@@ -14,7 +14,7 @@ In October, I [responded](/posts/take-back-the-future-response) to Reboot's mani
 
 > Rather than giving cake to the masses, we must give them the recipe. I demand a future where the magic is ours, the people’s rather than just an elite class of wizards and faceless entities. The software we interact with every day should not only allow, but encourage us us to make it our own: to create our thoughts, art, and experiments rather than merely consume SEO-juiced content; to express our full selves rather than settling for uniform cookie-cutter molds; to play outside the box and in between the lines and beyond the edges of normality rather than being constrained within the rules of the status quo.
 
-In this piece, I explore what it takes to reclaim the magic, and give everyone the power to change the technology that they use. This was also published in [Reboot's newsletter](https://reboothq.substack.com/), which you can [read here](https://reboothq.substack.com/p/everyday-magic), which includes a small interview at the end.
+In this piece, I explore what it takes to reclaim the magic, and give everyone the power to change the technology that they use. An abridged version was also published in [Reboot's newsletter](https://reboothq.substack.com/p/everyday-magic), which includes a small interview at the end.
 
 # The magic of technology
 
