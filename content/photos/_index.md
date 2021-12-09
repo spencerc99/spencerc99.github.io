@@ -3,7 +3,6 @@ title: "Photos"
 description: "The photos I've taken over the years, and the memories and stories they represent."
 ---
 
-<!-- TODO: why do i take photos? -->
 <details>
     <summary><i>why do I take photos?</i></summary>
     <br/>

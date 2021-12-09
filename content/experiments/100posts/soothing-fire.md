@@ -1,8 +1,8 @@
 ---
 title: "72 - soothing fire: a raging fire that cools"
 date: "2021-10-20"
-tags: ["100posts"]
-description: "...that perfect balance, between raging like a wildfire towards your dreams and flowing like a gentle wake through every wonderful moment of life. At this paradoxical meeting point, I think you approach living life as fully as you can."
+tags: ["100posts", "personal", "life"]
+description: "The goal state is an oxymoron. A feathery intensity, a gentle hurricane, a soothing fire. It means being uncompromising about what you love and fight for, but also embracing playfulness in every moment."
 show_home: true
 related: ['/posts/craft-over-career', '/experiments/100posts/simple-things', '/experiments/100posts/singular-purpose', '/experiments/100posts/taking-what-you-want', '/experiments/100posts/intensity']
 ---
@@ -12,7 +12,7 @@ We talked about our dating lives and the kinds of things we look for in a partne
 
 At the same time, I think you can take this fire too far to the extreme and become exacting on the kinds of people and things that are "worthy" of your time. If you let your ego catch up, you start to think that everyone else has to be at a certain bar to hang out or collaborate with you, that others' need to match your fire exactly in order to pass the litmus test. 
 
-The ideal state is one where you have the fire for what you want to do, but at the same time, the fire has a gentle touch, soothing to those that it touches. The goal state is an oxymoron. A feathery intensity, a gentle hurricane, a soothing fire. It means being uncompromising about what you love, but also not taking life too seriously. I think the people that can create fun in whatever they do (whether it's picking up trash or making a drink or walking in the rain) while pursuing irrationally ambitious ideas strike that perfect balance, between raging like a wildfire towards your dreams and flowing like a gentle wake through every wonderful moment of life. At this paradoxical meeting point, I think you approach living life as fully as you can.
+The ideal state is one where you have the fire for what you want to do, but its touch is gentle. The goal state is an oxymoron. A feathery intensity, a gentle hurricane, a soothing fire. It means being uncompromising about what you love and fight for, but also embracing playfulness in every moment. I think the people that can create fun in whatever they do (whether it's picking up trash or making a drink or walking in the rain, etc.) while pursuing irrationally ambitious ideas strike that perfect balance, between raging like a wildfire towards your dreams and flowing like a gentle wake through every wonderful moment of life. At this paradoxical meeting point, I think you approach living life as fully as you can.
 
 It's a great example of the IQ bell curve. If you go too far in analyzing your far and exacting out the value, you become trapped in the middle, trying to exact the perfect arrangement of peers and activities to realize self-actualization. On the far end, you love what you do and you'll dedicate your life to pushing those passions forward, but you also enjoy life for what it is and enjoy the creation of cool things for the [simple joys](/experiments/100posts/simple-things).
 

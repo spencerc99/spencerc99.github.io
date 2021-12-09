@@ -106,7 +106,7 @@ As technologists, we have the privilege of being able to demystify and change ho
 
 Can we build towards a world where all technology inspires and gives hope and calls us in? Many have sat by while crucial software deprives people of agency. Instead, let's fight for a future where all are wizards, magic is as common as the air we breathe, and it's second nature for people to shape it into something personally meaningful.
 
-Thanks to [Jessica Dai](https://twitter.com/jessicadai_) for the thorough and precise editing, and [Avery Jordan](https://nickelthoughts.substack.com/), [Jamie Wong](http://jamie-wong.com/), and [Ameesh Shah](https://twitter.com/ameeshsh) for giving feedback on early drafts of this article.
+Thanks to [Jessica Dai](https://twitter.com/jessicadai_) for the thorough and precise editing, and [Avery Jordan](https://nickelthoughts.substack.com/), [Jamie Wong](http://jamie-wong.com/), Rex Ledesma, and [Ameesh Shah](https://twitter.com/ameeshsh) for giving feedback on early drafts of this article.
 
 ### Related Resources
 -   [Ink and Switch](https://www.inkandswitch.com/) is a research lab that has done a lot of research into how to make technology more compatible with humans, and they have a great podcast called [Metamuse](https://museapp.com/podcast/) with people who work towards more agencyful apps.

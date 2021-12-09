@@ -7,7 +7,8 @@
 {{ end }}
 <script>
   // TODO: can we support custom svgs and icons?
-  const inputEmojis = {{.emojis}}
+  const defaultEmojis = ['🌱', '👺', '🍥', '☔️', '🌑', '🥑', '🐙'];
+  const inputEmojis = {{.emojis}};
   const shuffleArray = array => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -16,7 +17,7 @@
       array[j] = temp;
     }
   }
-  let emojis = inputEmojis || ['✌️', '😤', '🥸', '👀', '💫', '🍥', '☔️'];
+  let emojis = inputEmojis || defaultEmojis;
   shuffleArray(emojis);
   var idx = 0;
   function updateEmoji() {
