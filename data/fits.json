@@ -1,6 +1,51 @@
 {
     "fits": [
         {
+            "description": "rainy days \u2614\ufe0f ",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-13%3AIMG_6078.jpeg",
+            "date": "2021-12-13",
+            "timestamp": 1639415855.860901,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-11%3AIMG_5972.jpeg",
+            "date": "2021-12-11",
+            "timestamp": 1639265645.865666,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "christmas fit",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-09%3AIMG_5953.jpeg",
+            "date": "2021-12-09",
+            "timestamp": 1639108388.053425,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-08%3AIMG_5932.jpeg",
+            "date": "2021-12-08",
+            "timestamp": 1639019469.120553,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-10%3AIMG_5966.jpeg",
+            "date": "2021-12-10",
+            "timestamp": 1639196892.530883,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-06%3AIMG_5916.jpeg",
             "date": "2021-12-06",
