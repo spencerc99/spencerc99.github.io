@@ -1,9 +1,10 @@
 ---
-title: "100 mini-essays 📝"
+title: "100 mini-essays"
 description: "an experiment to write and publish 100 mini-essays by logging my normally private thoughts publicly every day."
 date: "2021-04-09"
 postfilter: ["100posts"]
 tags: ["100posts"]
+emojis: [📝]
 related: []
 ---
 On April 9, 2021, when I turned 24, I started an experiment to write and publish 100 mini-essays by the end of August by trying to publish something (almost) every day. Mini-essays meaning they concisely demonstrate a single principle and are lightly edited (if at all). 

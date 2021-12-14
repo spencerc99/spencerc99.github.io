@@ -1,6 +1,7 @@
 ---
 title: "Photos"
 description: "The photos I've taken over the years, and the memories and stories they represent."
+emojis: ['📸', 🌄, 🖼️]
 ---
 
 <details>

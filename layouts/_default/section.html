@@ -1,6 +1,6 @@
 {{ define "header" }}
 <div class="headerContainer">
-  <h1>{{.Title}}</h1>
+  <h1>{{.Title}} {{ partial "personal_emoji.html" (dict "hideWee" "true" "inline" "true" "emojis" .Params.emojis) }}</h1>
 </div>
 {{ end }} {{ define "main" }}
 <div class="listDescription">
