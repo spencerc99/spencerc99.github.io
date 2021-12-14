@@ -1,0 +1,22 @@
+<!-- TODO: not really sure diff between this and section.html -->
+<!-- because section seems to cover all the list sections -->
+<!-- It seems like maybe this is used for taxonomy? -->
+{{ define "header" }}
+<div class="headerContainer">
+  <h1>{{.Title}} {{ partial "personal_emoji.html" (dict "hideWee" "true" "inline" "true" "emojis" .Params.emojis) }}</h1>
+</div>
+{{ end }} {{ define "main" }}
+<div class="listDescription">
+  <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+  {{.Content}}
+</div>
+<div class="summaryList">
+  {{ if isset .Params "postfilter" }}
+  {{ range where .Site.RegularPages "Params.tags" "intersect" .Params.postfilter }} 
+    {{ .Render "summary" }} 
+  {{ end }}
+  {{ else }}
+    {{ range .Pages }} {{ .Render "summary" }} {{ end }}
+  {{ end }}
+</div>
+{{ end }}
