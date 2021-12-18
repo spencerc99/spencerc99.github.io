@@ -1,9 +1,10 @@
 ---
-title: "92 - dance"
+title: "93 - dance"
 date: "2021-12-17"
 tags: ["100posts"]
-description: "I think dancing really teaches you to trust your instinct for what's "right" broadly, as in everything I do has value for no reason other than the fact that I chose to do it. It's an exercise in asserting yourself and trusting yourself to do things that you like."
+description: I think dancing really teaches you to trust your instinct for what's "right" broadly, as in everything I do has value for no reason other than the fact that I chose to do it. It's an exercise in asserting yourself and trusting yourself to do things that you like.
 show_home: true
+emojis: ["🕺"]
 ---
 Last weekend I had a big milestone. I danced in a performance for this dance workshop I've been involved with for the past 2.5 months, around 8 practices leading up to a performance. 
 
@@ -18,4 +19,4 @@ I've been reading George Saunders', a writer I really admire, [new newsletter](h
 I want to channel this weirder, authentic, [faster](/experiments/100posts/urgency) energy in my creations. Of course, I still love consuming great works and want to be inspired by my favorite artists and creators, but in the end, my actions and creations should feel like [uncompromising](/experiments/100posts/soothing-fire) expressions of what I think and feel. Like swathes of my being gathered and compressed into tiny kernels, sometimes blown out into whole independent worlds. 
 
 ---
-*This is the **92nd** installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list [here](/experiments/100posts/)*.
+*This is the **93rd** installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list [here](/experiments/100posts/)*.
