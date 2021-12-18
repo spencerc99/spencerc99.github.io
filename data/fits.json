@@ -1,6 +1,33 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-14%3AIMG_6107.jpeg",
+            "date": "2021-12-14",
+            "timestamp": 1639554359.442464,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "love my mom's fit",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-17%3AIMG_9960_edited.jpeg",
+            "date": "2021-12-17",
+            "timestamp": 1639802329.034,
+            "width": 2268,
+            "height": 4032,
+            "favorite": false
+        },
+        {
+            "description": "lookin like obi wan",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-14%3AIMG_6088.jpeg",
+            "date": "2021-12-14",
+            "timestamp": 1639528839.907711,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "rainy days \u2614\ufe0f ",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-13%3AIMG_6078.jpeg",
             "date": "2021-12-13",
