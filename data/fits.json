@@ -1,6 +1,24 @@
 {
     "fits": [
         {
+            "description": "ok i love this shirt",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-18%3AIMG_6137_edited.jpeg",
+            "date": "2021-12-18",
+            "timestamp": 1639869445.539621,
+            "width": 2511,
+            "height": 3348,
+            "favorite": false
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-19%3AIMG_0105_edited.jpeg",
+            "date": "2021-12-19",
+            "timestamp": 1639951772.764,
+            "width": 2788,
+            "height": 3717,
+            "favorite": false
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-14%3AIMG_6107.jpeg",
             "date": "2021-12-14",
