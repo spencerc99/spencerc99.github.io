@@ -630,9 +630,19 @@ button.icon {
   border-radius: 4px;
 }
 
+$internal-link-selectors: '
+  a[href^="https://spencerchang.me"],
+  a[href^="https://www.spencerchang.me"],
+  a[href^="http://spencerchang.me"],
+  a[href^="http://www.spencerchang.me"],
+  a[href^="spencerchang.me"],
+  a[href^="www.spencerchang.me"],
+  a[href^="/"],
+  a[href^="#"]
+';
 
 // external links
-a[href^="http"]:not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.galleryLink) {
+a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.galleryLink) {
   color: $color-external-link;
   text-decoration: none;
   transition: background-color 0.25s ease-in-out;
@@ -643,13 +653,15 @@ a[href^="http"]:not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.galler
 }
 
 // internal links
-a:not([href^="http"]):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.avatarLink) {
-  color: $color-link;
-  text-decoration: none;
-  transition: background-color 0.25s ease-in-out;
-
-  &:hover {
-    @include link-highlight();
+#{$internal-link-selectors} {
+  &:not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.avatarLink) {
+    color: $color-link;
+    text-decoration: none;
+    transition: background-color 0.25s ease-in-out;
+  
+    &:hover {
+      @include link-highlight();
+    }
   }
 }
 
