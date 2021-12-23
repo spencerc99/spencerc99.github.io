@@ -1,6 +1,15 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-21%3AIMG_6284.jpeg",
+            "date": "2021-12-21",
+            "timestamp": 1640128672.402247,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false
+        },
+        {
             "description": "ok i love this shirt",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-18%3AIMG_6137_edited.jpeg",
             "date": "2021-12-18",
