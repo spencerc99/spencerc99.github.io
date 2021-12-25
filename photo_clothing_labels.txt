@@ -1,0 +1,19 @@
+Footwear
+Suit
+Clothing
+Sports Equipment
+Goggles
+Lifejacket
+Sneaker
+Jacket
+Boot
+Shoes
+Scarf
+Beanie
+Hat
+Gas Mask
+Eyeglasses
+Jeans
+Sunglasses
+Headgear
+Necktie
