@@ -964,6 +964,12 @@ i.uis.uis-star {
 }
 
 .postContent {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
   figure {
     margin-left: 0;
     margin-right: 0;

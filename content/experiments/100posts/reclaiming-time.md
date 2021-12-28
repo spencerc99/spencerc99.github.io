@@ -3,7 +3,7 @@ title: "96 - relcaiming time"
 date: "2021-12-26"
 tags: ["100posts", "time"]
 description: "What if anyone could reclaim control of time for themselves? What does a world look like where we challenge Time for control but that power is free for anyone to seize rather than only the wealthy and powerful?"
-show_home: false
+show_home: true
 ---
 I've been thinking a lot about the concept of time lately, prodded by Jacky's recent thoughts, and have been exploring how we can reclaim our perception and experience of time rather than feeling controlled by it.
 
