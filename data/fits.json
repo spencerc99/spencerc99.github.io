@@ -1,6 +1,62 @@
 {
     "fits": [
         {
+            "description": "thx for chain mom",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-26%3AIMG_6377_edited.jpeg",
+            "date": "2021-12-26",
+            "timestamp": 1640572942.25539,
+            "width": 2481,
+            "height": 3307,
+            "favorite": false,
+            "place": "Houston, Texas, United States",
+            "city": "Houston",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Recreation",
+                "Furniture",
+                "Door",
+                "People",
+                "Clothing"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Trip",
+                "Travel"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "ty to my parents\u2019 closer and my middle school self for today\u2019s fit",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-25%3AIMG_6364.jpeg",
+            "date": "2021-12-25",
+            "timestamp": 1640483819.108619,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "Houston, Texas, United States",
+            "city": "Houston",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Door",
+                "Jeans",
+                "Furniture",
+                "Clothing",
+                "People",
+                "Adult"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Travel",
+                "Celebration",
+                "Holiday",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-24%3AIMG_6328.jpeg",
             "date": "2021-12-24",
@@ -74,12 +130,12 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "People",
-                "Adult",
-                "Clothing",
-                "Jacket",
+                "Elevator",
                 "Door",
-                "Elevator"
+                "Jacket",
+                "Clothing",
+                "People",
+                "Adult"
             ],
             "season": "Winter",
             "activities": [
@@ -110,17 +166,17 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Jacket",
-                "Adult",
                 "Cloudy",
-                "Sky",
-                "Jeans",
-                "Clothing",
-                "People",
                 "Cityscape",
+                "Adult",
+                "People",
+                "Jacket",
+                "Clothing",
+                "Jeans",
+                "Skyscraper",
+                "Sky",
                 "Outdoor",
-                "Building",
-                "Skyscraper"
+                "Building"
             ],
             "season": "Winter",
             "activities": [
@@ -708,9 +764,9 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "People",
                 "Adult",
-                "Clothing",
-                "People"
+                "Clothing"
             ],
             "season": "Fall",
             "activities": [
@@ -875,8 +931,8 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Adult",
-                "People"
+                "People",
+                "Adult"
             ],
             "season": "Fall",
             "activities": "",
