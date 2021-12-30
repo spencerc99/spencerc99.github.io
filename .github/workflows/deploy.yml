@@ -35,13 +35,9 @@ jobs:
     - name: Hugo setup
       uses: peaceiris/actions-hugo@v2.4.13
 
-    - name: Build website and commit changes
-      run: ./scripts/build-and-commit-changes.sh
-
-    - name: Go to public directory
-      run: cd public
+    # - name: Build website and commit changes
+    #   run: ./scripts/build-and-commit-changes.sh
 
     - name: Push changes to website
-      uses: ad-m/github-push-action@v0.6.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      uses: actions/checkout@v2
+      run: ./deploy.sh
