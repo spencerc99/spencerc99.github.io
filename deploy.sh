@@ -6,12 +6,12 @@ set -e
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Pull any other remote changes
-if [ -d "public" ] 
-then
-	cd public
-	git pull
-	cd ..	
-fi
+# if [ -d "public" ] 
+# then
+cd public
+git pull
+cd ..	
+# fi
 
 # Build the project.
 hugo --minify
