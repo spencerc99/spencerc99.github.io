@@ -40,7 +40,6 @@ jobs:
         cd public
         git config --local user.name "Spencer Chang"
         git config --local user.email "spencerc99@gmail.com"
+        git config --local --unset-all "http.https://github.com/.extraheader"
         cd ..
         ./deploy.sh
-      with:
-        repo-token: ${{ secrets.GITHUBTOKEN }}
