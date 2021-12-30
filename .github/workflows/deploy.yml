@@ -21,8 +21,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        submodules: 'true'
-
+        submodules: true
 
     # - name: Make public directory
     #   run: mkdir public
