@@ -19,7 +19,19 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
-      
-    - name: Deploy to Github Pages
+      uses: actions/checkout@v2
+      with:
+        submodules: 'true'
+
+
+    # - name: Make public directory
+    #   run: mkdir public
+
+    # - name: Add Github Pages Repo
+    #   uses: actions/checkout@v2
+    #   with:
+    #     repository: spencerc99/spencerchang.me
+    #     path: './public'
+
+    - name: Build website and deploy to Github Pages
       run: ./deploy.sh

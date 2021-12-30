@@ -10,7 +10,7 @@ if [ -d "public" ]
 then
 	cd public
 	git pull
-	cd ..
+	cd ..	
 fi
 
 # Build the project.
