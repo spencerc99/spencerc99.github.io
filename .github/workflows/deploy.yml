@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Deploy to Github Pages
+name: Deploy website to github pages repo
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -42,3 +42,5 @@ jobs:
         git config --local user.email "spencerc99@gmail.com"
         cd ..
         ./deploy.sh
+      with:
+        repo-token: ${{ secrets.GITHUBTOKEN }}
