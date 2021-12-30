@@ -23,9 +23,6 @@ jobs:
       with:
         submodules: recursive
 
-    - name: ls
-      run: ls 
-
     # - name: Make public directory
     #   run: mkdir public
 
