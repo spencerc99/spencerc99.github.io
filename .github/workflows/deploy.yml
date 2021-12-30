@@ -18,6 +18,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Runs a single command using the runners shell
+    - name: Checkout
+      uses: actions/checkout@v1
+      
     - name: Deploy to Github Pages
       run: ./deploy.sh
