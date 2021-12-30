@@ -35,10 +35,10 @@ jobs:
     - name: Hugo setup
       uses: peaceiris/actions-hugo@v2.4.13
 
-    - name: Config git credentials
-      run: |
-          git config user.name spencerc99
-          git config user.email spencerc99@gmail.com
-
     - name: Push changes to website
-      run: ./deploy.sh
+      run: |
+        cd public
+        git config --local user.name "Spencer Chang"
+        git config --local user.email "spencerc99@gmail.com"
+        cd ..
+        ./deploy.sh
