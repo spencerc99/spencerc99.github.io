@@ -4,6 +4,7 @@ date: "2021-12-13"
 tags: ["100posts", poetry, web3]
 description: 'If poems are just "things made" that exist for their own sake and meaning, then these amulets are meaning lighthouses in a space of so much context collapse and narrative war.'
 show_home: true
+related: ['/experiments/100posts/future-of-tools', '/posts/everyday-magic']
 ---
 
 I've been experimenting with [Amulets](https://text.bargains/amulet/), [Robin Sloan](https://www.robinsloan.com/)'s[^1] NFT project, recently. The basic idea of the project is that anyone can find "amulets" and then optionally choose to mint them (with an additional operation required to make it "public" and a unenforceable requirement that a link to a carbon offset is also provided). These amulets are "poems" that satisfy a specific constraint, that they are under 64 bytes and the SHA-256 hex hash of the poem has four or more 8s in a row. 

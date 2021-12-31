@@ -5,6 +5,7 @@ tags: ["100posts"]
 description: I think dancing really teaches you to trust your instinct for what's "right" broadly, as in everything I do has value for no reason other than the fact that I chose to do it. It's an exercise in asserting yourself and trusting yourself to do things that you like.
 show_home: true
 emojis: ["🕺"]
+related: ['/experiments/100posts/urgency', '/experiments/100posts/soothing-fire', '/experiments/100posts/dancing-through-life']
 ---
 Last weekend I had a big milestone. I danced in a performance for this dance workshop I've been involved with for the past 2.5 months, around 8 practices leading up to a performance. 
 

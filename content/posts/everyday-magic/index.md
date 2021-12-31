@@ -5,7 +5,7 @@ image: '/posts/everyday-magic/images/takeoff.jpg'
 date: "2021-12-02"
 tags: ['ideas', 'favorite', 'software']
 emojis: ['🪄', "⚡", "🔮", "✨"]
-related: ['/posts/take-back-the-future-response']
+related: ['/posts/take-back-the-future-response', '/experiments/100posts/fast-feedback-loops']
 --- 
 
 {{< figure src="images/takeoff.jpg" caption="*Isn't it mindboggling that we created machines that can fly and swim?*" class="fullWidth" >}}

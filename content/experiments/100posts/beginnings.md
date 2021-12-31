@@ -7,6 +7,7 @@ icon: "uil uil-bolt"
 description: "Exploring the concept of beginnings through a creative medium"
 emojis: [🔰, 🌱]
 show_home: true
+related: ['/posts/gambling']
 ---
 
 Beginnings are always a mixed bag of feelings. Beginnings are a start, but also an end. A start to a new journey to mark the end of another journey, whether it be the conclusion of a foregone chapter or merely the end of the absence of this new journey. Beginnings can engender dread, anxiety, or excitement: the breath before the exam clock starts ticking, the overthrow of land's dynasty by gravity as one takes the leap, the hum of energy crescendoing to a peak to jumpstart a night to remember. Beginnings are the reunion of an old friend, the acquaintance with a former lover, the resurgence of an ancient rival. Beginnings are pesky sauces flinging themselves to immortalized freedom on the back of expensive clothes. They are the arrival of a carefully marketed bright orange product designed for the aforementioned ones' doom. 

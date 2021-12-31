@@ -5,6 +5,7 @@ tags: ["100posts", "software", "data"]
 description: "However, Wrapped is just another neatly packaged corporate product designed to convince us to stay within our walled data moats by gift-wrapping what is ours in the first place."
 show_home: false
 emojis: [🎵]
+related: []
 ---
 
 It's that time of year when holiday songs invade every gap of your awareness, overly ambitious resolutions are made, far too much home food is consumed, and, of course, you and your friends size each other up with your [Spotify Wrapped](https://www.spotify.com/us/wrapped/). Our capitalist ideals have already dug themselves deep into the roots of our holiday traditions, in the compulsive gift giving and millions of click-bait Christmas gift listicles that collectively surface for a month and then fade away into the nethers of the Internet. And recently, they've found themselves packaged up in the shape of fun cultural traditions, like the viral Spotify Wrapped. 

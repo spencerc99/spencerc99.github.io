@@ -4,6 +4,7 @@ date: "2021-12-29"
 tags: ["100posts", "personal", "favorite"]
 description: "Quiet confidence is when you're able to naturally take your time, take up proper space, and be unapologetically yourself without putting down anyone else or manufacturing dependence."
 show_home: true
+related: ['/experiments/100posts/reclaiming-time', '/experiments/100posts/glorious-purpose']
 ---
 
 I watched [this video](https://youtu.be/VRJzvJ5XPQI) today after showing up on my Youtube feed and started thinking about how to exude confidence with every ounce of your being. To me, confidence has always felt like a foreign attribute and skill that I need to actively work on. I naturally caveat and hurry through and self-deprecate to serve an artificial to avoid imposing and be looked upon favorable as "what a humble guy." It means I've had to learn to force myself to be confident, even aiming to be arrogant or selfish in order to actually stand up for myself and assert my ground.

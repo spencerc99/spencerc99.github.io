@@ -4,6 +4,7 @@ date: "2021-12-05"
 tags: ["100posts", software, technology, web3]
 description: "What is the future of the tools we use every day, and will web3 push them to become more community-led and empowering or will it force unnecessary structure and unwelcome incentives into a relatively \"innocent\" space?"
 show_home: true
+related: ['/experiments/100posts/financialization', '/posts/everyday-magic', '/experiments/100posts/resolved-problems', '/experiments/100posts/allure-of-ephemerality', '/experiments/100posts/scope-of-normality']
 ---
 
 I've been digging in deeper to the web3 world lately, and it's been a fascinating rabbit hole. It's interesting to me that the web3 space and the tools for thoughts space both share so much in terms of the underlying principles of [how technology should be](/posts/everyday-magic) (interoperable, malleable, composable, and more)[^1], yet there is almost no overlap in the Venn diagram between the two worlds in terms of the people involved. From my Twitter feed, which encapsulates both worlds, the limited discourse I've seen involve prominent figures in the thoughts space highlighting their skepticism and decrying web3 for its environmental impacts and speculative tulip craze. 

@@ -4,6 +4,7 @@ date: "2021-12-21"
 tags: ["100posts", "personality"]
 description: "In that sense, my personality and energy feels like it has liquidity, trading in maker coins for neighbor marks and adventurer badges. They naturally arbitrage and find the best deal, shifting to the demands of the surrounding environment that make certain currencies an unbeatable deal. "
 show_home: false
+related: ['/posts/uneven-time', '/experiments/100posts/beauty']
 ---
 
 I've been realizing the over the past couple weeks that not everyone is a maker. It's easy for me to forget because it's the persona I identify most strongly with (see my ["creative personality type" of an artist](/experiments/100posts/beauty)). I confront the truth again every time I hear what others spend their free time on and contrast this with what my natural desire is to do with my free time. I've written before about people's [relationship to time](/posts/uneven-time), and now, I'm thinking about how people fill that time very differently that point to their priorities and natural dispositions. 

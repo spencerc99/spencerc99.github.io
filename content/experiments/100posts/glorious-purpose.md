@@ -4,6 +4,7 @@ date: "2021-12-27"
 tags: ["100posts"]
 description: "I'm a strong believer that we create our own meaning—something can be meaningful for no other reason than the fact that we believe it so. In that sense, I think all of us have a glorious purpose in creating the change and meaning that we want to see in the world."
 show_home: true
+related: ['/experiments/100posts/privilege-of-dreams', '/posts/everyday-magic']
 ---
 I just finished watching Loki, one of the latest MCU television shows spearheaded by Disney. Some very light spoilers below, but it's a great watch that pulled me into a compelling world and a story that hits on a lot of pressing philosophical problems we face. 
 

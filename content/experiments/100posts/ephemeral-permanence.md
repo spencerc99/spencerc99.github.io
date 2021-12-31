@@ -4,6 +4,7 @@ date: "2021-12-23"
 tags: ["100posts", "software", "data"]
 description: 'What if every object you created digitally was "owned" by you and stored permanently in a space private to you regardless of what the platform you created it on does with it?'
 show_home: false
+related: ['/experiments/100posts/personal-panopticon', '/experiments/100posts/low-pressure-contexts', '/experiments/100posts/allure-of-ephemerality', '/experiments/100posts/future-of-tools']
 ---
 I was talking to Sahil today about [low pressure contexts](/experiments/100posts/low-pressure-contexts), and we stumbled across an interesting point around how the ephemeral nature of things makes it feel low pressure and safe, but we also want to be able to leverage our technology for storing and retrieving data about every conversation we've had. *How might we get the best of both: the safety of ephemeral thoughts and conversations and moments and the convenience of permanent records and written transcripts and preserved memories?*
 
