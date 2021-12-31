@@ -5,7 +5,7 @@ tags: ["100posts", "creative"]
 storyType: 'serif'
 icon: "uil uil-bolt"
 description: "Exploring the concept of beginnings through a creative medium"
-emojis: [🔰, 🌱]
+emojis: [⏳, 🌱]
 show_home: true
 related: ['/posts/gambling']
 ---
