@@ -42,4 +42,11 @@ jobs:
         git config --local user.email "spencerc99@gmail.com"
         git config --local --unset-all "http.https://github.com/.extraheader"
         cd ..
-        ./deploy.sh
+        ./scripts/build-and-commit-changes.sh
+        cd public
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUBTOKEN }}
+        repository: spencerc99/spencerchang.me
