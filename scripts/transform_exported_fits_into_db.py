@@ -47,10 +47,10 @@ def post_function(
         if type(obj["country"]) == list:
             obj["country"] = obj["country"][0]
         obj["peopleCount"] = len(photo.persons) or 1
-        obj["labels"] = photo.labels or []
+        obj["labels"] = sorted(photo.labels) or []
         obj["season"] = photo.search_info.season or "" if photo.search_info else ""
-        obj["activities"] = photo.search_info.activities or "" if photo.search_info else ""
-        obj["venue_types"] = photo.search_info.venue_types or "" if photo.search_info else ""
+        obj["activities"] = sorted(photo.search_info.activities) or "" if photo.search_info else ""
+        obj["venue_types"] =sorted( photo.search_info.venue_types) or "" if photo.search_info else ""
     
     with open(FITS_PATH_NAME, 'r') as f:
         fit_data = json.load(f)
