@@ -1,7 +1,7 @@
 ---
 title: "100 - creations are intimacy portals"
 date: "2021-12-31"
-image: https://cdn.mos.cms.futurecdn.net/BRST9nrsdC4Ly3LetnsktD.jpg
+image: "https://cdn.mos.cms.futurecdn.net/BRST9nrsdC4Ly3LetnsktD.jpg"
 tags: ["100posts", "favorite", "personal"]
 description: "The final artifact in my [100 mini-essays experiment](/experiments/100posts) exploring the intimacy of creations and the value of sharing your mind with the world."
 emojis: [🌀, 🌌]

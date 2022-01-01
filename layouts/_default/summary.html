@@ -59,12 +59,17 @@
     </div>
   </div>
     {{ with .Params.image }}
+      {{ $savedImageParam := . }}
       {{- $matchingSiteResource := resources.Get . -}}
       {{ $firstResource := or (index $matchingResource 0) $matchingSiteResource }}
       {{ with $firstResource }}
         {{ $thumbnail := .Resize "400x" }}
         <div class="postSummaryImageContainer">
             <img loading="lazy" class="lazyload postSummaryImage" data-src="{{ $thumbnail.RelPermalink }}" />
+        </div>
+      {{ else}}
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="{{ $savedImageParam }}" />
         </div>
       {{ end }}
     {{ end }}
