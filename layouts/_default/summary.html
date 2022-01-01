@@ -20,6 +20,12 @@
             {{ end }}
           {{else}}
               // {{ .WordCount }} words
+          {{ end }}
+          {{ with .Params.external_link }}
+          {{ else }}
+            {{ if in .Params.tags "100posts" }}
+              // from my <a href="/experiments/100posts">mini-essay experiment</a>
+            {{ end }}
           {{ end }}        
           {{ $hasIcon := or (in .Params.tags "favorite") (isset .Params "icon") }}
           {{ if $hasIcon}}
