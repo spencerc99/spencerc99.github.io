@@ -9,7 +9,7 @@ related: ['/experiments/100posts/reclaiming-time', '/experiments/100posts/glorio
 
 I watched [this video](https://youtu.be/VRJzvJ5XPQI) today after showing up on my Youtube feed and started thinking about how to exude confidence with every ounce of your being. To me, confidence has always felt like a foreign attribute and skill that I need to actively work on. I naturally caveat and hurry through and self-deprecate to serve an artificial to avoid imposing and be looked upon favorable as "what a humble guy." It means I've had to learn to force myself to be confident, even aiming to be arrogant or selfish in order to actually stand up for myself and assert my ground.
 
-{{ youtube VRJzvJ5XPQI }}
+{{< youtube VRJzvJ5XPQI >}}
 
 Some people are naturally very convinced in their abilities, sometimes overly so. I think we always fall somewhere along a spectrum between undervaluing a skill or overvaluing it, and it requires a high level of self-awareness and cultural awareness to match perception to reality. I've grown to adopt quiet confidence as the term to refer to naturally being able to exude competence and conjure respect with grace. Those who overvalue themselves compared to reality rely on theatrics and have to bluster their way through, while those who undervalue themselves are too meek to take up the space they deserve. 
 
