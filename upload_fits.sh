@@ -25,7 +25,8 @@ echo $restart
 
 # export from osxphotos
 # if restart add --overwrite instead of update and pass arg into post function to clean json file
-osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}:{original_name}" --update --only-new --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function --preview ./fits-export
+# --only-new seems to exclude preview??
+osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}:{original_name}" --update --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function --preview ./fits-export
 
 # just re-export everything
 # osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}:{original_name}"  --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function --preview ./fits-export

@@ -1,4 +1,4 @@
-<!-- NOTE: make sure to update the other summary.html-->
+<!-- NOTE: literally the same as summary.html but doesn't mention the mini-essay link out... not sure better way to do this -->
 {{ $kind := .Kind }}
 <article class="postSummaryContainer {{ with .Params.storyType }} {{ . }} {{ end }}">
   {{ $matchingResource := where (.Resources.ByType "image") "RelPermalink" .Params.image }}
@@ -10,9 +10,7 @@
           {{ if eq $kind "section" }}
             // {{ len .Pages }} posts
           {{ else if isset .Params "external_link" }}
-            {{ if in .Params.tags "100posts" }}
-            // from my <a href="/experiments/100posts">mini-essay experiment</a>
-            {{ else if in .Params.tags "newsletter" }}
+            {{ if in .Params.tags "newsletter" }}
             // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
             {{ end }}
           {{ else if isset .Params "internal_link" }}
@@ -21,13 +19,7 @@
             {{ end }}
           {{else}}
               // {{ .WordCount }} words
-          {{ end }}
-          {{ with .Params.external_link }}
-          {{ else }}
-            {{ if in .Params.tags "100posts" }}
-              // from my <a href="/experiments/100posts">mini-essay experiment</a>
-            {{ end }}
-          {{ end }}        
+          {{ end }}   
           {{ $hasIcon := or (in .Params.tags "favorite") (isset .Params "icon") }}
           {{ if $hasIcon}}
           // 

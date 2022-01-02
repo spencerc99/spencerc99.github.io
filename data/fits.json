@@ -1,6 +1,74 @@
 {
     "fits": [
         {
+            "description": "dance performance outfit",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-11%3AIMG_5969.jpeg",
+            "date": "2021-12-11",
+            "timestamp": 1639249632.427273,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "nike day",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-31%3AIMG_6433.jpeg",
+            "date": "2021-12-31",
+            "timestamp": 1641006802.260167,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "happy new year!!! \ud83e\udd42 tried to do an avant-garde take on a blazer/black tie dress",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-31%3AIMG_6444.jpeg",
+            "date": "2021-12-31",
+            "timestamp": 1641017896.480148,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Necktie",
+                "People",
+                "Suit",
+                "Window"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-12-30%3AIMG_6421.jpeg",
             "date": "2021-12-30",
@@ -30,21 +98,21 @@
             "timestamp": 1640730732.924474,
             "width": 2711,
             "height": 3615,
-            "favorite": false,
+            "favorite": true,
             "place": "Houston, Texas, United States",
             "city": "Houston",
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Adult",
                 "Clothing",
                 "Door",
-                "People",
-                "Adult"
+                "People"
             ],
             "season": "Winter",
             "activities": [
-                "Trip",
-                "Travel"
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -111,17 +179,17 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Furniture",
-                "Door",
-                "Recreation",
+                "Adult",
                 "Clothing",
+                "Door",
+                "Furniture",
                 "People",
-                "Adult"
+                "Recreation"
             ],
             "season": "Winter",
             "activities": [
-                "Trip",
-                "Travel"
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -228,27 +296,27 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Adult",
+                "Clothing",
+                "Door",
                 "Elevator",
                 "Jacket",
-                "People",
-                "Adult",
-                "Door",
-                "Clothing"
+                "People"
             ],
             "season": "Winter",
             "activities": [
+                "Dining",
                 "Dinner",
                 "Travel",
-                "Dining",
                 "Trip"
             ],
             "venue_types": [
-                "Food & Grocery",
                 "Bar",
-                "Nightlife",
-                "Wine Bar",
+                "Beer Bar",
                 "Cafe & Coffee Shop",
-                "Beer Bar"
+                "Food & Grocery",
+                "Nightlife",
+                "Wine Bar"
             ]
         },
         {
@@ -264,22 +332,22 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Cloudy",
-                "Sky",
-                "Jacket",
-                "Cityscape",
-                "People",
                 "Adult",
-                "Skyscraper",
+                "Building",
+                "Cityscape",
                 "Clothing",
+                "Cloudy",
+                "Jacket",
                 "Jeans",
                 "Outdoor",
-                "Building"
+                "People",
+                "Sky",
+                "Skyscraper"
             ],
             "season": "Winter",
             "activities": [
-                "Trip",
-                "Travel"
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -318,15 +386,15 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Adult",
                 "Clothing",
                 "Jacket",
-                "Adult",
                 "People"
             ],
             "season": "Winter",
             "activities": [
-                "Trip",
-                "Travel"
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -572,9 +640,9 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "People",
                 "Adult",
                 "Clothing",
+                "People",
                 "Plant"
             ],
             "season": "Winter",
@@ -709,19 +777,19 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Table",
-                "Sofa",
-                "Furniture",
-                "Plant",
-                "Decorative Plant",
                 "Adult",
+                "Decorative Plant",
+                "Door",
+                "Furniture",
                 "People",
-                "Door"
+                "Plant",
+                "Sofa",
+                "Table"
             ],
             "season": "Fall",
             "activities": [
-                "Trip",
-                "Travel"
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -808,14 +876,14 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Recreation",
+                "Adult",
                 "People",
-                "Adult"
+                "Recreation"
             ],
             "season": "Fall",
             "activities": [
-                "Trip",
-                "Travel"
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -832,14 +900,14 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Adult",
                 "Clothing",
-                "People",
-                "Adult"
+                "People"
             ],
             "season": "Fall",
             "activities": [
-                "Trip",
-                "Travel"
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -1274,11 +1342,11 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Suit",
+                "Adult",
+                "Clothing",
                 "Outdoor",
                 "People",
-                "Adult",
-                "Clothing"
+                "Suit"
             ],
             "season": "Fall",
             "activities": [
@@ -1367,12 +1435,12 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "Recreation",
-                "People",
                 "Adult",
                 "Camera",
+                "Foliage",
+                "People",
                 "Plant",
-                "Foliage"
+                "Recreation"
             ],
             "season": "Fall",
             "activities": "",
@@ -1556,13 +1624,13 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "Jacket",
                 "Adult",
-                "People",
                 "Boot",
+                "Clothing",
                 "Footwear",
-                "Shoes",
-                "Clothing"
+                "Jacket",
+                "People",
+                "Shoes"
             ],
             "season": "Fall",
             "activities": "",
@@ -1647,12 +1715,12 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "Recreation",
-                "Plant",
-                "People",
                 "Adult",
+                "Clothing",
                 "Jeans",
-                "Clothing"
+                "People",
+                "Plant",
+                "Recreation"
             ],
             "season": "Summer",
             "activities": "",
@@ -1672,13 +1740,13 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
-                "People",
-                "Clothing"
+                "Clothing",
+                "People"
             ],
             "season": "Summer",
             "activities": [
-                "Trip",
-                "Travel"
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -1695,12 +1763,12 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "Foliage",
-                "Plant",
+                "Adult",
                 "Clothing",
+                "Foliage",
                 "Jeans",
                 "People",
-                "Adult"
+                "Plant"
             ],
             "season": "Summer",
             "activities": "",
@@ -1786,9 +1854,9 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Adult",
                 "Foliage",
                 "People",
-                "Adult",
                 "Plant"
             ],
             "season": "Summer",
@@ -1809,10 +1877,10 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
-                "Jacket",
-                "People",
                 "Clothing",
-                "Jeans"
+                "Jacket",
+                "Jeans",
+                "People"
             ],
             "season": "Fall",
             "activities": "",
@@ -1895,10 +1963,10 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
-                "Plant",
+                "Clothing",
                 "Decorative Plant",
                 "People",
-                "Clothing"
+                "Plant"
             ],
             "season": "Fall",
             "activities": "",
@@ -2010,15 +2078,15 @@
             "country": "United States",
             "peopleCount": 2,
             "labels": [
-                "People",
                 "Adult",
+                "Camera",
                 "Outdoor",
-                "Camera"
+                "People"
             ],
             "season": "Fall",
             "activities": [
-                "Trip",
-                "Travel"
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -2096,7 +2164,7 @@
         },
         {
             "description": "",
-            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-05-15%3AIMG_1628.jpeg",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-05-15%3AIMG_1628.JPG",
             "date": "2021-05-15",
             "timestamp": 1621119022.756,
             "width": 3024,
@@ -2107,9 +2175,9 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Adult",
                 "Clothing",
-                "People",
-                "Adult"
+                "People"
             ],
             "season": "Spring",
             "activities": "",
@@ -2128,9 +2196,9 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "Plant",
+                "Adult",
                 "People",
-                "Adult"
+                "Plant"
             ],
             "season": "Fall",
             "activities": "",
@@ -2194,10 +2262,10 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Plant",
+                "Adult",
                 "Clothing",
                 "People",
-                "Adult"
+                "Plant"
             ],
             "season": "Summer",
             "activities": "",
@@ -2284,12 +2352,12 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "Recreation",
-                "Plant",
+                "Adult",
                 "Clothing",
                 "Jeans",
-                "Adult",
-                "People"
+                "People",
+                "Plant",
+                "Recreation"
             ],
             "season": "Fall",
             "activities": "",
@@ -2570,9 +2638,9 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "People",
                 "Adult",
-                "Clothing"
+                "Clothing",
+                "People"
             ],
             "season": "Fall",
             "activities": "",
@@ -2716,9 +2784,9 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Adult",
                 "Clothing",
-                "People",
-                "Adult"
+                "People"
             ],
             "season": "Spring",
             "activities": "",
@@ -2787,11 +2855,11 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "Plant",
-                "Clothing",
-                "People",
                 "Adult",
-                "Furniture"
+                "Clothing",
+                "Furniture",
+                "People",
+                "Plant"
             ],
             "season": "Summer",
             "activities": "",
@@ -2833,10 +2901,10 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Adult",
                 "Clothing",
                 "Jacket",
-                "People",
-                "Adult"
+                "People"
             ],
             "season": "Summer",
             "activities": "",
@@ -2936,12 +3004,12 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "Recreation",
-                "Jeans",
-                "Plant",
-                "People",
                 "Adult",
-                "Clothing"
+                "Clothing",
+                "Jeans",
+                "People",
+                "Plant",
+                "Recreation"
             ],
             "season": "Fall",
             "activities": "",
@@ -3142,7 +3210,7 @@
         },
         {
             "description": "",
-            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-04-30%3AIMG_1480.jpeg",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-04-30%3AIMG_1480.JPG",
             "date": "2021-04-30",
             "timestamp": 1619844393.235,
             "width": 3024,
@@ -3153,18 +3221,18 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Jeans",
-                "Sneaker",
-                "Celebration",
-                "People",
                 "Adult",
-                "Shoes",
                 "Boot",
-                "Tree",
+                "Celebration",
                 "Christmas Tree",
                 "Clothing",
                 "Footwear",
-                "Plant"
+                "Jeans",
+                "People",
+                "Plant",
+                "Shoes",
+                "Sneaker",
+                "Tree"
             ],
             "season": "Spring",
             "activities": "",
@@ -3226,10 +3294,10 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
+                "Adult",
                 "Clothing",
-                "Plant",
                 "People",
-                "Adult"
+                "Plant"
             ],
             "season": "Fall",
             "activities": "",
@@ -3337,8 +3405,8 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
-                "People",
-                "Clothing"
+                "Clothing",
+                "People"
             ],
             "season": "Summer",
             "activities": "",
@@ -3476,8 +3544,8 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "Clothing",
                 "Adult",
+                "Clothing",
                 "People"
             ],
             "season": "Summer",
@@ -3551,8 +3619,8 @@
             "labels": [
                 "Adult",
                 "Clothing",
-                "Recreation",
-                "People"
+                "People",
+                "Recreation"
             ],
             "season": "Summer",
             "activities": "",
@@ -3711,11 +3779,11 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "Plant",
                 "Adult",
-                "People",
                 "Clothing",
-                "Jeans"
+                "Jeans",
+                "People",
+                "Plant"
             ],
             "season": "Fall",
             "activities": "",
