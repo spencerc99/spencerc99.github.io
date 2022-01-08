@@ -1,5 +1,6 @@
 ---
-title: "63 - radical migrations"
+title: "radical migrations"
+number: 63
 date: "2021-10-05"
 tags: ["100posts"]
 description: "Make radical demands of how we can change society from how it is now, rather than running away to start fresh or focusing on marginal improvements."

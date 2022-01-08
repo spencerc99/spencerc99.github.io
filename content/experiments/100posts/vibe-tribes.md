@@ -1,5 +1,6 @@
 ---
-title: "2 - vibe tribes and finding psychological oxygen"
+title: "vibe tribes and finding psychological oxygen"
+number: 2
 date: "2021-04-12"
 tags: ["100posts", "newsletter"]
 external_link: "https://spencerchang.substack.com/p/vibe-tribes"

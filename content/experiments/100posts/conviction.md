@@ -1,5 +1,6 @@
 ---
-title: "80 - conviction"
+title: "conviction"
+number: 80
 date: "2021-11-03"
 tags: ["100posts", "poem", "creative"]
 description: "poem on conviction"

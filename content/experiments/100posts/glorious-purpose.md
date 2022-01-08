@@ -1,5 +1,6 @@
 ---
-title: "97 - glorious purpose"
+title: "glorious purpose"
+number: 97
 date: "2021-12-27"
 tags: ["100posts"]
 description: "I'm a strong believer that we create our own meaning—something can be meaningful for no other reason than the fact that we believe it so. In that sense, I think all of us have a glorious purpose in creating the change and meaning that we want to see in the world."

@@ -1,5 +1,6 @@
 ---
-title: "19 - the silo culture"
+title: "the silo culture"
+number: 19
 date: "2021-06-03"
 tags: ["100posts", "newsletter", "favorite"]
 external_link: "https://spencerchang.substack.com/p/the-solo-culture"

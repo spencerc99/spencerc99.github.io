@@ -1,5 +1,6 @@
 ---
-title: "69 - power acclimation"
+title: "power acclimation"
+number: 69
 date: "2021-10-14"
 tags: ["100posts"]
 description: "Humans are fickle creatures. We like to stop ourselves from doing things that are good for us, often, paradoxically, in the name of preserving the good and protecting us from the bad."

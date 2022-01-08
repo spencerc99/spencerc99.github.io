@@ -1,5 +1,6 @@
 ---
-title: "58 - perception"
+title: "perception"
+number: 58
 date: "2021-09-26"
 tags: ["100posts"]
 description: "I explore appearance as a gateway to connection. At first, it's all we know, but eventually, it becomes just the key for unlocking a deeper connection. Deep emotional connection is all around us for the taking; we just have to be willing to dig for it and receive it when it appears."

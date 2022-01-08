@@ -1,12 +1,13 @@
 ---
-title: "100 - creations are intimacy portals"
+title: "creations are intimacy portals"
+number: 100
 date: "2021-12-31"
 image: "https://cdn.mos.cms.futurecdn.net/BRST9nrsdC4Ly3LetnsktD.jpg"
 tags: ["100posts", "favorite", "personal"]
 description: "The final artifact in my [100 mini-essays experiment](/experiments/100posts) exploring the intimacy of creations and the value of sharing your mind with the world."
 emojis: [🌀, 🌌]
 show_home: true
-related: ['/experiments/100posts/dance', '/experiments/100posts/beginnings', '/experiments/100posts/finding-texture', '/experiments/postal-portals', '/experiments/100posts/crazy-ideas', '/experiments/100posts/soothing-fire', '/experiments/100posts/energy-liquidity', '/experiments/100posts/fear', '/experiments/100posts/cafe-encounter', '/experiments/100posts/urgency', '/posts/mid-twenties', '/experiments/100posts/perception']
+related: ['/posts/gambling', '/experiments/100posts/energy-liquidity', '/experiments/100posts/urgency', '/experiments/postal-portals', '/experiments/100posts/beginnings', '/experiments/100posts/crazy-ideas', '/experiments/100posts/perception', '/posts/mid-twenties', '/experiments/100posts/fear', '/experiments/100posts/cafe-encounter', '/experiments/100posts/soothing-fire', '/experiments/100posts/dance', '/experiments/100posts/finding-texture']
 ---
 
 {{< figure src="https://cdn.mos.cms.futurecdn.net/BRST9nrsdC4Ly3LetnsktD.jpg" class="fullWidth" caption="[gravity portals](https://www.livescience.com/gravity-portals-solve-dark-matter-gamma-ray-mystery.html) are cool and what I imagine these as." >}}

@@ -1,5 +1,6 @@
 ---
-title: "50 - formulation"
+title: "formulation"
+number: 50
 date: "2021-09-16"
 tags: ["100posts"]
 description: "As a fiction writer, our job is to take the most interesting path, not the one that we feel is right. We are the guide for the reader's experience, not to fulfill our secret dream experience."

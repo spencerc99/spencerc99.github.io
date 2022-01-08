@@ -1,5 +1,6 @@
 ---
-title: "34 - denim personality"
+title: "denim personality"
+number: 34
 date: "2021-08-03"
 tags: ["100posts", "newsletter", "favorite"]
 internal_link: "/posts/denim-personality"

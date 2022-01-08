@@ -1,5 +1,6 @@
 ---
-title: "57 - arc of the valley"
+title: "arc of the valley"
+number: 57
 date: "2021-09-25"
 tags: ["100posts"]
 description: "A hero's journey view on technologists' experience coming to and living in Silicon Valley"

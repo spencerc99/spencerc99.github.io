@@ -1,5 +1,6 @@
 ---
-title: "94 - energy liquidity"
+title: "energy liquidity"
+number: 94
 date: "2021-12-21"
 tags: ["100posts", "personality"]
 description: "In that sense, my personality and energy feels like it has liquidity, trading in maker coins for neighbor marks and adventurer badges. They naturally arbitrage and find the best deal, shifting to the demands of the surrounding environment that make certain currencies an unbeatable deal. "

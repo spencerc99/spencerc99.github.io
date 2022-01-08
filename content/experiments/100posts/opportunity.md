@@ -1,5 +1,6 @@
 ---
-title: "61 - opportunity"
+title: "opportunity"
+number: 61
 date: "2021-10-01"
 tags: ["100posts"]
 description: "I never want to tone down my intensity or dilute my flavor for the sake of others."

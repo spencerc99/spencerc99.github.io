@@ -1,5 +1,6 @@
 ---
-title: "72 - soothing fire: a raging fire that cools"
+title: "soothing fire: a raging fire that cools"
+number: 72
 date: "2021-10-20"
 tags: ["100posts", "personal", "life"]
 description: "The goal state is an oxymoron. A feathery intensity, a gentle hurricane, a soothing fire. It means being uncompromising about what you love and fight for, but also embracing playfulness in every moment."

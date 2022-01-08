@@ -1,5 +1,6 @@
 ---
-title: "64 - crazy ideas"
+title: "crazy ideas"
+number: 64
 date: "2021-10-07"
 tags: ["100posts", "ideas", "crazy"]
 description: "The truly society-changing, ground-shaking, future-making ideas always start as crazy ideas."

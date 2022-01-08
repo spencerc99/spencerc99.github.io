@@ -1,5 +1,6 @@
 ---
-title: "91 - amulets"
+title: "amulets"
+number: 91
 date: "2021-12-13"
 tags: ["100posts", poetry, web3]
 description: 'If poems are just "things made" that exist for their own sake and meaning, then these amulets are meaning lighthouses in a space of so much context collapse and narrative war.'

@@ -1,5 +1,6 @@
 ---
-title: "68 - manifesting"
+title: "manifesting"
+number: 68
 date: "2021-10-13"
 tags: ["100posts"]
 description: "Manifesting whatever belief or identity you want in yourself means having full control of your mind, body, and whole being."

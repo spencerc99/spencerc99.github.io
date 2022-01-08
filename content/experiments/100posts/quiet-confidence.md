@@ -1,5 +1,6 @@
 ---
-title: "98 - quiet confidence"
+title: "quiet confidence"
+number: 98
 date: "2021-12-29"
 tags: ["100posts", "personal", "favorite"]
 description: "Quiet confidence is when you're able to naturally take your time, take up proper space, and be unapologetically yourself without putting down anyone else or manufacturing dependence."

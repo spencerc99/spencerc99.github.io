@@ -1,5 +1,6 @@
 ---
-title: "47 - fear"
+title: "fear"
+number: 47
 date: "2021-09-13"
 tags: ["100posts", "newsletter"]
 external_link: "https://spencerchang.substack.com/p/fear-mini-47100"

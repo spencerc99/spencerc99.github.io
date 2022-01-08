@@ -1,5 +1,6 @@
 ---
-title: "65 - simple things"
+title: "simple things"
+number: 65
 date: "2021-10-08"
 tags: ["100posts"]
 description: "an ode to the simple things"

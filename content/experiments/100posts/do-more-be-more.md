@@ -1,5 +1,6 @@
 ---
-title: "26 - do more, be more"
+title: "do more, be more"
+number: 26
 date: "2021-06-21"
 tags: ["100posts", "newsletter", "cities"]
 external_link: "https://spencerchang.substack.com/p/do-more-be-more-mini-26100"

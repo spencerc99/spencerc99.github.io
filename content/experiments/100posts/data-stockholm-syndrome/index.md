@@ -1,5 +1,6 @@
 ---
-title: "92 - data stockholm syndrome"
+title: "data stockholm syndrome"
+number: 92
 date: "2021-12-14"
 tags: ["100posts", "software", "data"]
 description: "However, Wrapped is just another neatly packaged corporate product designed to convince us to stay within our walled data moats by gift-wrapping what is ours in the first place."

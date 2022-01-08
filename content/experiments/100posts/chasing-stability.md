@@ -1,5 +1,6 @@
 ---
-title: "32 - chasing stability"
+title: "chasing stability"
+number: 32
 date: "2021-07-21"
 tags: ["100posts", "newsletter"]
 external_link: "https://spencerchang.substack.com/p/chasing-stability"

@@ -38,13 +38,13 @@
         <!-- src: https://harrycresswell.com/articles/hugo-external-articles/ -->
         <!-- If external link exists in post matter -->
         {{ if isset .Params "external_link" }}
-            <a href="{{ .Params.external_link }}" target="_blank">{{ .Title }}</a> <i class='uil uil-external-link-alt'></i>
+            <a href="{{ .Params.external_link }}" target="_blank">{{.Params.number}} - {{ .Title }}</a> <i class='uil uil-external-link-alt'></i>
             <!-- Else if internal link, link to that -->
         {{ else if isset .Params "internal_link" }}
-            <a href="{{ .Params.internal_link }}">{{ .Title }}</a>        
+            <a href="{{ .Params.internal_link }}">{{.Params.number}} - {{ .Title }}</a>        
           <!-- Else show internal post page -->
         {{ else }}
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}">{{.Params.number}} - {{ .Title }}</a>
         {{ end }}
       </h2>   
     <div class="postSummary">

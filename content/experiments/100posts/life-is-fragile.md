@@ -1,5 +1,6 @@
 ---
-title: "54 - life is fragile"
+title: "life is fragile"
+number: 54
 date: "2021-09-21"
 tags: ["100posts"]
 description: "Life is fragile which means we have to make the most of cherishing the people we love and pursuing the things that give us energy."

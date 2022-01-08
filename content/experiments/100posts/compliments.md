@@ -1,6 +1,7 @@
 ---
 
-title: "53 - compliments"
+title: "compliments"
+number: 53
 
 date: "2021-09-20"
 

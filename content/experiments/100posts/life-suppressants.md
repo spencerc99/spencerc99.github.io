@@ -1,5 +1,6 @@
 ---
-title: "87 - life suppressants"
+title: "life suppressants"
+number: 87
 date: "2021-11-20"
 tags: ["100posts"]
 description: "this is a reminder to never compromise my ability to be fully present for every moment."

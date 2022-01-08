@@ -1,5 +1,6 @@
 ---
-title: "74 - bad vibes"
+title: "bad vibes"
+number: 74
 date: "2021-10-22"
 tags: ["100posts"]
 description: "you can be a nice guy while not understanding the vibes"

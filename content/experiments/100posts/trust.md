@@ -1,5 +1,6 @@
 ---
-title: "23 - trust"
+title: "trust"
+number: 23
 date: "2021-06-15"
 tags: ["100posts", "newsletter"]
 external_link: "https://spencerchang.substack.com/p/trust"

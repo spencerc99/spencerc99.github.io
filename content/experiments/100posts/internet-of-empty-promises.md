@@ -1,5 +1,6 @@
 ---
-title: "60 - internet of empty promises"
+title: "internet of empty promises"
+number: 60
 date: "2021-09-29"
 tags: ["100posts", "internet", "software"]
 description: "Link rot kills our digital history"

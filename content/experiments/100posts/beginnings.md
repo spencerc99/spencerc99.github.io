@@ -1,5 +1,6 @@
 ---
-title: "99 - beginnings"
+title: "beginnings"
+number: 99
 date: "2021-12-30"
 tags: ["100posts", "creative"]
 storyType: 'serif'

@@ -1,5 +1,6 @@
 ---
-title: "85 - photography origin"
+title: "photography origin"
+number: 85
 date: "2021-11-16"
 tags: ["100posts", "creative", "personal"]
 description: "The origin story of why I like photography."

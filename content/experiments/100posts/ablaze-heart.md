@@ -1,5 +1,6 @@
 ---
-title: "71 - ablaze heart"
+title: "ablaze heart"
+number: 71
 date: "2021-10-17"
 tags: ["100posts", "creative", "poetry"]
 description: "a poem on setting your heart ablaze"

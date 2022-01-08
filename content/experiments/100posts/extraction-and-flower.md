@@ -1,5 +1,6 @@
 ---
-title: "51 - extraction and flower"
+title: "extraction and flower"
+number: 51
 date: "2021-09-18"
 tags: ["100posts"]
 description: "Taking a gamble by doing the small things to make people happy and exploring how to be mindful of my energy and enjoying the moment."

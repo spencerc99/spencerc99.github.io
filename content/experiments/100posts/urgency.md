@@ -1,5 +1,6 @@
 ---
-title: "76 - urgency"
+title: "urgency"
+number: 76
 date: "2021-10-25"
 tags: ["100posts", "creative"]
 description: "Urgency is important because it imbues energy"

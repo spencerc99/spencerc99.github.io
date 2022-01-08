@@ -1,5 +1,6 @@
 ---
-title: "66 - unstoppable expression"
+title: "unstoppable expression"
+number: 66
 date: "2021-10-10"
 tags: ["100posts"]
 description: "...like when you get the star in MarioKart—there's nothing, no one that can stop you from achieving your dreams and realizing your vision."

@@ -1,5 +1,6 @@
 ---
-title: "75 - luca"
+title: "luca"
+number: 75
 date: "2021-10-24"
 tags: ["100posts", "movies"]
 description: "Silencio Bruno means betting on yourself, trusting yourself to do whatever is needed to push you towards a brighter future and a stronger you."

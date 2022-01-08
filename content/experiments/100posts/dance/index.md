@@ -1,5 +1,6 @@
 ---
-title: "93 - dance"
+title: "dance"
+number: 93
 date: "2021-12-17"
 tags: ["100posts"]
 description: I think dancing really teaches you to trust your instinct for what's "right" broadly, as in everything I do has value for no reason other than the fact that I chose to do it. It's an exercise in asserting yourself and trusting yourself to do things that you like.

@@ -1,5 +1,6 @@
 ---
-title: "70 - taking what you want"
+title: "taking what you want"
+number: 70
 date: "2021-10-16"
 tags: ["100posts"]
 description: "I guess the problem is that most things that you *really* want are controversial—they'll provoke people."

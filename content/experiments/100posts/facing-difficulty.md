@@ -1,5 +1,6 @@
 ---
-title: "81 - facing difficulty"
+title: "facing difficulty"
+number: 81
 date: "2021-11-07"
 tags: ["100posts"]
 description: ""

@@ -1,5 +1,6 @@
 ---
-title: "82 - fear perspectives"
+title: "fear perspectives"
+number: 82
 date: "2021-11-11"
 tags: ["100posts"]
 description: "I think one of the highest leverage personal growth moments is learning how to overcome fear. And then repeating that over and over and over again, until the process is inscribed into your body."

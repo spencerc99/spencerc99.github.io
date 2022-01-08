@@ -1,5 +1,6 @@
 ---
-title: "62 - intensity"
+title: "intensity"
+number: 62
 date: "2021-10-02"
 tags: ["100posts"]
 description: "Intensity means that you're living and experiencing more of the life that's passing by around you."

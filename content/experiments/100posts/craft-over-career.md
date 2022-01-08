@@ -1,5 +1,6 @@
 ---
-title: "8 - craft over career"
+title: "craft over career"
+number: 8
 date: "2021-04-21"
 tags: ["100posts", "newsletter", "favorite"]
 internal_link: "/posts/craft-over-career"

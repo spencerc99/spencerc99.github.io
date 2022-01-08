@@ -1,5 +1,6 @@
 ---
-title: "49 - now's focus"
+title: "now's focus"
+number: 49
 date: "2021-09-15"
 tags: ["100posts"]
 description: "I'm splitting time between a lot of different projects. There isn't enough time for all of this and the switching cost is taking its toll. I need to learn how to get really good at picking off one piece at a time and making a difference as I can."

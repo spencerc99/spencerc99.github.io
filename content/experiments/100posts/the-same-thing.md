@@ -1,5 +1,6 @@
 ---
-title: "33 - the same thing"
+title: "the same thing"
+number: 33
 date: "2021-07-27"
 tags: ["100posts", "newsletter"]
 external_link: "https://spencerchang.substack.com/p/the-same-thing-mini-33100"

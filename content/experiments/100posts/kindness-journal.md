@@ -1,5 +1,6 @@
 ---
-title: "43 - kindness journal"
+title: "kindness journal"
+number: 43
 date: "2021-08-24"
 tags: ["100posts", "newsletter", "favorite"]
 external_link: "https://spencerchang.substack.com/p/kindness-journal-mini-43100"

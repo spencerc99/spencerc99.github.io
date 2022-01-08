@@ -1,5 +1,6 @@
 ---
-title: "67 - fast feedback loops and perils of convention"
+title: "fast feedback loops and perils of convention"
+number: 67
 date: "2021-10-11"
 tags: ["100posts", "software", "coding"]
 description: "Why fast feedback loops are important and why convention over configuration makes software feel impossible to change to your own needs"

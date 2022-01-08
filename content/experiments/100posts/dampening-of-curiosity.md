@@ -1,5 +1,6 @@
 ---
-title: "10 - dampening of curiosity"
+title: "dampening of curiosity"
+number: 10
 date: "2021-04-25"
 tags: ["100posts", "newsletter"]
 external_link: "https://spencerchang.substack.com/p/dampening-of-curiosity"

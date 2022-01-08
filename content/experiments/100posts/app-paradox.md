@@ -1,5 +1,6 @@
 ---
-title: "59 - app paradox"
+title: "app paradox"
+number: 59
 date: "2021-09-28"
 tags: ["100posts"]
 description: "Social apps have misaligned incentives with what is best for individuals and communities"

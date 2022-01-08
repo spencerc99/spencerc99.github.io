@@ -1,5 +1,6 @@
 ---
-title: "77 - leverage"
+title: "leverage"
+number: 77
 date: "2021-10-27"
 tags: ["100posts"]
 description: "prioritizing the tasks that maximize the impact to time/effort input ratio. "

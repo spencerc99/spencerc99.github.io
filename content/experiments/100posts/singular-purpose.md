@@ -1,5 +1,6 @@
 ---
-title: "48 - singular purpose"
+title: "singular purpose"
+number: 48
 date: "2021-09-14"
 tags: ["100posts"]
 description: "I want the courage to manifest more of what I truly want. Feeling lost and committing to finding a foundation in my instinct and trusting myself to get through whatever I jump in."

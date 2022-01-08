@@ -1,5 +1,6 @@
 ---
-title: "56 - privilege of dreams"
+title: "privilege of dreams"
+number: 56
 date: "2021-09-24"
 tags: ["100posts"]
 description: "Dreams are a privilege to those who have the means. Media showcases this in bleak terms."

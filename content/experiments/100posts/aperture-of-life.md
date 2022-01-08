@@ -1,5 +1,6 @@
 ---
-title: "21 - aperture of life"
+title: "aperture of life"
+number: 21
 date: "2021-06-07"
 tags: ["100posts", "newsletter"]
 external_link: "https://spencerchang.substack.com/p/aperture-of-life"

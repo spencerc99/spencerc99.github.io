@@ -1,5 +1,6 @@
 ---
-title: "95 - ephemeral permanence: an exploration of the future of digital data"
+title: "ephemeral permanence: an exploration of the future of digital data"
+number: 95
 date: "2021-12-23"
 tags: ["100posts", "software", "data"]
 description: 'What if every object you created digitally was "owned" by you and stored permanently in a space private to you regardless of what the platform you created it on does with it?'

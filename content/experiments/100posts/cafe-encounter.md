@@ -1,5 +1,6 @@
 ---
-title: "52 - cafe encounter"
+title: "cafe encounter"
+number: 52
 date: "2021-09-19"
 tags: ["100posts"]
 description: "A chance cafe encounter leading to inspiration and reminding me what I looked forward to in moving to San Francisco"

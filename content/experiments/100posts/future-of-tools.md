@@ -1,5 +1,6 @@
 ---
-title: "90 - future of tools"
+title: "future of tools"
+number: 90
 date: "2021-12-05"
 tags: ["100posts", software, technology, web3]
 description: "What is the future of the tools we use every day, and will web3 push them to become more community-led and empowering or will it force unnecessary structure and unwelcome incentives into a relatively \"innocent\" space?"

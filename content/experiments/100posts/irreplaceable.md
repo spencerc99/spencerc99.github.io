@@ -1,6 +1,7 @@
 ---
 
-title: "55 - irreplaceable"
+title: "irreplaceable"
+number: 55
 
 date: "2021-09-22"
 

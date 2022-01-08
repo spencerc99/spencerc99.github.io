@@ -1,5 +1,6 @@
 ---
-title: "31 - the technology paradox"
+title: "the technology paradox"
+number: 31
 date: "2021-07-19"
 tags: ["100posts"]
 internal_link: "/posts/technology-paradox"

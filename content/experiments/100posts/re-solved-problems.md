@@ -1,5 +1,6 @@
 ---
-title: "45 - re-solved problems"
+title: "re-solved problems"
+number: 45
 date: "2021-08-26"
 tags: ["100posts", "newsletter"]
 external_link: "https://spencerchang.substack.com/p/re-solved-problems-mini-45100"
