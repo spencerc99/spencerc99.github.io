@@ -13,6 +13,7 @@ $color-dark-blue-grey: rgba(95, 101, 128, 1);
 $color-dark-blue-grey-background: rgba(95, 101, 128, 0.9);
 $color-light-lavender: rgb(250, 248, 254);
 $color-site-background: $color-light-peach;
+$color-background-teal: #f4fdff87;
 $color-site-background-dark: rgb(35, 28, 10);
 $color-text-dark: rgb(227, 223, 226);
 $color-quote-background-dark: rgb(24, 26, 27);
@@ -647,6 +648,10 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
   text-decoration: none;
   transition: background-color 0.25s ease-in-out;
 
+  .postContent &, .listDescription & {
+    text-decoration: underline 2.5px;
+  }
+
   &:hover {
     @include link-highlight();
   }
@@ -657,7 +662,12 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
   &:not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.avatarLink) {
     color: $color-link;
     text-decoration: none;
+    text-decoration: none;
     transition: background-color 0.25s ease-in-out;
+
+    .postContent &, .listDescription & {
+      text-decoration: underline 2.5px;
+    }
   
     &:hover {
       @include link-highlight();

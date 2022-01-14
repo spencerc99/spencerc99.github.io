@@ -2,6 +2,31 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-13%3AIMG_6679.jpeg",
+            "date": "2022-01-13",
+            "timestamp": 1642104074.86165,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Footwear",
+                "People",
+                "Plant",
+                "Shoes",
+                "Sneaker"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-12%3AIMG_6673.jpeg",
             "date": "2022-01-12",
             "timestamp": 1642011392.010337,
