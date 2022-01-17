@@ -8,7 +8,7 @@ resources:
   name: gallery
 tags: ['personal', 'favorite', 'reflection']
 emojis: [🌱, 🤲, 🌻, 🌌]
-related: ['/posts/commitment-and-obligation', '/experiments/100posts/dance', '/posts/take-back-the-future-response', '/experiments/100posts/quiet-confidence', '/fits', '/posts/everyday-magic', '/experiments/100posts/perception']
+related: ['/experiments/100posts/creations-are-intimacy-portals', '/experiments/100posts/taking-what-you-want', '/posts/gambling', '/experiments/100posts/privilege-of-dreams', '/experiments/100posts/urgency', '/posts/take-back-the-future-response', '/photos', '/experiments/100posts/provocateur', '/experiments/100posts/dance', '/experiments/100posts/perception', '/posts/commitment-and-obligation', '/experiments/100posts/impatience', '/experiments/100posts/quiet-confidence', '/posts/broken-lines', '/fits', '/experiments/100posts/kindness-journal', '/experiments/100posts/reclaiming-time', '/posts/everyday-magic']
 ---
 
 {{< gallery folder="gallery" caption="In Alaska, life flourishes both on land and in the sea because of mutualistic relationships (lichen + fungi + barnacles) from my [photos](https://www.spencerchang.me/photos/)." fullWidth=true centered=true resizeSize="445" shouldMakeSquare="true" >}}
