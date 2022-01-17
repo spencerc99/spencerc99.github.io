@@ -11,7 +11,7 @@ emojis: [🌱, 🤲, 🌻, 🌌]
 related: ['/posts/commitment-and-obligation', '/experiments/100posts/dance', '/posts/take-back-the-future-response', '/experiments/100posts/quiet-confidence', '/fits', '/posts/everyday-magic', '/experiments/100posts/perception']
 ---
 
-{{< gallery folder="gallery" caption="In Alaska, life flourishes both on land and in the sea because of mutualistic relationships (lichen + fungi + barnacles) from my [photos](https://www.spencerchang.me/photos/)." fullWidth=true centered=true >}}
+{{< gallery folder="gallery" caption="In Alaska, life flourishes both on land and in the sea because of mutualistic relationships (lichen + fungi + barnacles) from my [photos](https://www.spencerchang.me/photos/)." fullWidth=true centered=true resizeSize="445" shouldMakeSquare="true" >}}
 
 This post is a space for my annual reflection, where I look back at the theme I chose last year and set an intention for a theme for the new year. Last year, I took on the theme of [gambling](https://www.spencerchang.me/posts/gambling/).
 

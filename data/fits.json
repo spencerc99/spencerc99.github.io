@@ -1,6 +1,50 @@
 {
     "fits": [
         {
+            "description": "nature walk fit",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-16%3AIMG_6731.jpeg",
+            "date": "2022-01-16",
+            "timestamp": 1642365537.609488,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Plant",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-15%3AIMG_6701.jpeg",
+            "date": "2022-01-15",
+            "timestamp": 1642293319.236391,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Furniture",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-14%3AIMG_6695.jpeg",
             "date": "2022-01-14",
