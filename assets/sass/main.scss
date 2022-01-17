@@ -649,7 +649,7 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
   transition: background-color 0.25s ease-in-out;
 
   .postContent &, .listDescription & {
-    text-decoration: underline 2.5px;
+    text-decoration: underline 2px;
   }
 
   &:hover {
@@ -666,7 +666,7 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
     transition: background-color 0.25s ease-in-out;
 
     .postContent &, .listDescription & {
-      text-decoration: underline 2.5px;
+      text-decoration: underline 2px;
     }
   
     &:hover {
