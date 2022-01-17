@@ -2,7 +2,7 @@
 title: "Mutualistic Flourishing: 2021 to 2022"
 description: "🎰 2021 | 🤲 2022."
 image: '/posts/mutualism/images/gallery/3-barnacles.jpg'
-date: "2022-01-12"
+date: "2022-01-16"
 resources: 
 - src: "images/gallery/*"
   name: gallery
