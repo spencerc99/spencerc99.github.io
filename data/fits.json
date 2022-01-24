@@ -2,6 +2,90 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-23%3AIMG_6822.jpeg",
+            "date": "2022-01-23",
+            "timestamp": 1642960658.183942,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-21%3AIMG_6806.jpeg",
+            "date": "2022-01-21",
+            "timestamp": 1642818466.935388,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-19%3AIMG_6786.jpeg",
+            "date": "2022-01-19",
+            "timestamp": 1642615770.337354,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-20%3AIMG_6793.jpeg",
+            "date": "2022-01-20",
+            "timestamp": 1642703339.015455,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-18%3AIMG_6770.jpeg",
             "date": "2022-01-18",
             "timestamp": 1642527444.635135,
@@ -105,7 +189,12 @@
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jacket",
+                "People"
+            ],
             "season": "Winter",
             "activities": "",
             "venue_types": ""
@@ -166,7 +255,7 @@
             "timestamp": 1641924856.742039,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1152,13 +1241,7 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": [
-                "Bar",
-                "Event Services",
-                "Night Club",
-                "Nightlife",
-                "Venue & Event Space"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -3096,7 +3179,7 @@
             "timestamp": 1610727795.63412,
             "width": 4032,
             "height": 3024,
-            "favorite": true,
+            "favorite": false,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -3957,14 +4040,7 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": [
-                "Asian Fusion Cuisine",
-                "British Cuisine",
-                "Burger Restaurant",
-                "Gastropub",
-                "New American Cuisine",
-                "Restaurant"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
