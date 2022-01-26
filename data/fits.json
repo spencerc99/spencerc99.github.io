@@ -2,6 +2,28 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-25%3AIMG_6871.jpeg",
+            "date": "2022-01-25",
+            "timestamp": 1643132065.729141,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jacket",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-23%3AIMG_6822.jpeg",
             "date": "2022-01-23",
             "timestamp": 1642960658.183942,
