@@ -1,7 +1,7 @@
 ---
 title: "living to provoke"
 date: "2021-11-25"
-image: '/images/living-to-provoke/personality_buckets.png'
+image: '/posts/images/living-to-provoke/personality_buckets.png'
 description: "I want my projects to push people to think in a different way and challenge them to reconsider reality in a new light. I want to make crazy ideas feel realistic, extreme fictional worlds feel relatable, complex creative environments feel approachable."
 tags: ['personal', 'ideas']
 related: ['/experiments/100posts/beauty', '/posts/right-decisions', '/experiments/100posts/vandalism', '/experiments/100posts/crazy-ideas', '/experiments/100posts/taking-what-you-want', '/posts/technology-paradox', '/experiments/100posts/chasing-stability', '/experiments/100posts/finding-texture']
