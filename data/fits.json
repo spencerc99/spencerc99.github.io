@@ -2,6 +2,67 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-01%3AIMG_6950.jpeg",
+            "date": "2022-02-01",
+            "timestamp": 1643734626.719199,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Camera",
+                "Clothing",
+                "People",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-29%3AIMG_6932.jpeg",
+            "date": "2022-01-29",
+            "timestamp": 1643501538.148594,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-31%3AIMG_6946.jpeg",
+            "date": "2022-01-31",
+            "timestamp": 1643679549.169178,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-28%3AIMG_6897.jpeg",
             "date": "2022-01-28",
             "timestamp": 1643401222.401873,
@@ -1369,14 +1430,14 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "People",
                 "Adult",
-                "Clothing"
+                "Clothing",
+                "People"
             ],
             "season": "Fall",
             "activities": [
-                "Trip",
-                "Travel"
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
