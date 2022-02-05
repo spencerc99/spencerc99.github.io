@@ -1,6 +1,95 @@
 {
     "fits": [
         {
+            "description": "discovered i could crop this \ud83d\ude4f",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-04%3AIMG_7020.jpeg",
+            "date": "2022-02-04",
+            "timestamp": 1644037456.595659,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Winter",
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant"
+            ]
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-03%3AIMG_6971.jpeg",
+            "date": "2022-02-03",
+            "timestamp": 1643941621.973946,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-02%3AIMG_6959.jpeg",
+            "date": "2022-02-02",
+            "timestamp": 1643822002.611161,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-02%3AIMG_6967_edited.jpeg",
+            "date": "2022-02-02",
+            "timestamp": 1643854358.6896,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-01%3AIMG_6950.jpeg",
             "date": "2022-02-01",
