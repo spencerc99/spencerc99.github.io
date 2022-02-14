@@ -2,7 +2,7 @@
 title: "conviction"
 number: 80
 date: "2021-11-03"
-tags: ["100posts", "poem", "creative"]
+tags: ["100posts", "poetry", "creative"]
 description: "poem on conviction"
 show_home: false
 related: []
