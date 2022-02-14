@@ -1,6 +1,60 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-11%3AIMG_7108.jpeg",
+            "date": "2022-02-11",
+            "timestamp": 1644592646.126385,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Beloeil, Quebec, Canada",
+            "city": "Beloeil",
+            "country": "Canada",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Door",
+                "Furniture",
+                "People",
+                "Recreation",
+                "Table",
+                "Tableware",
+                "Utensil"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-08%3AIMG_7066.jpeg",
+            "date": "2022-02-08",
+            "timestamp": 1644302665.21121,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Bel\u0153il, Quebec, Canada, Rivi\u00e8re Richelieu",
+            "city": "Bel\u0153il",
+            "country": "Canada",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Door",
+                "People",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
             "description": "discovered i could crop this \ud83d\ude4f",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-04%3AIMG_7020.jpeg",
             "date": "2022-02-04",

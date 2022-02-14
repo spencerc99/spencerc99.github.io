@@ -1197,6 +1197,44 @@ section.footnotes {
   color: #f46a54;
 }
 
+#verses {
+  color: rgb(7, 121, 7);
+  font-style: italic;
+  font-size: 110%;
+  font-family: 'EB Garamond';
+}
+
+#pluriverse {
+  text-align: center;
+  background: linear-gradient(
+      90deg,
+      #0000 33%,
+      rgba(255, 255, 255, 0.5) 50%,
+      #0000 66%
+    )
+    rgb(198, 142, 255);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  
+  animation: shine 2s linear infinite;
+  
+  &:not(:hover) {
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  a {
+    color: rgb(198, 142, 255) !important;
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
 #airbnb {
   color: #fd5c63;
 }
