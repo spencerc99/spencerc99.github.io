@@ -1,3 +1,7 @@
+# Spencer's Digital Garden Home
+
+This is v3 of my website.
+
 You can see the final product at https://spencerchang.me
 
 ---
