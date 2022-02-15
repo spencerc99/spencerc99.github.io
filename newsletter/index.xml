@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newsletters on Spencer Chang</title>
+    <link>https://www.spencerchang.me/newsletter/</link>
+    <description>Recent content in Newsletters on Spencer Chang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.spencerchang.me/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>beautiful internet</title>
+      <link>https://www.spencerchang.me/newsletter/beautiful-internet/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/newsletter/beautiful-internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>towards 2021</title>
+      <link>https://www.spencerchang.me/newsletter/towards-2021/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/newsletter/towards-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diluted stars, islands, civic tech, and 🍜</title>
+      <link>https://www.spencerchang.me/newsletter/diluted-stars-islands-civic-tech/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/newsletter/diluted-stars-islands-civic-tech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

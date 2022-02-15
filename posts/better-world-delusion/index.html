@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>Making the World a Better Place: A Valley of Smoke and Mirrors</title>
+    <meta name="description"
+        content="A critical re-evaluation of the tenets of Silicon Valley and an exploration of society and identity." />
+    <meta name="keywords"
+        content="decisions, existentialist" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/posts/better-world-delusion/" />
+    <meta property="og:title" content="Making the World a Better Place: A Valley of Smoke and Mirrors" />
+    <meta property="og:description" content="A critical re-evaluation of the tenets of Silicon Valley and an exploration of society and identity." />
+    <meta property="og:image" content="https://www.spencerchang.me/posts/better-world-delusion/images/fog.jpg" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="Making the World a Better Place: A Valley of Smoke and Mirrors" />
+    <meta name="twitter:description" value="A critical re-evaluation of the tenets of Silicon Valley and an exploration of society and identity." />
+    <meta name="twitter:image" content="https://www.spencerchang.me/posts/better-world-delusion/images/fog.jpg" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/posts/better-world-delusion/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='September 26, 2020' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="12 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+         
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
+<div class="headerContainer"></div>
+
+        
+        <div class="mainContainer">
+            
+<div class="postContainer ">
+  <div class="post meta">
+    
+    <span class="postDate">09.26.2020</span>
+    
+    
+     
+    <div class="icons">
+      
+       
+        <i class="uis uis-star"></i>
+      
+    </div>
+    
+  </div>
+  <h1 class="title">Making the World a Better Place: A Valley of Smoke and Mirrors 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis =  null ;
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+  <h3 class="description">A critical re-evaluation of the tenets of Silicon Valley and an exploration of society and identity.</h3>
+  <div>
+    <div class="postContent">
+      
+      
+      <figure class="fullWidth"><img src="images/fog.jpg"
+         alt="a beach along Route 1 covered by the fog (photo credit spencerchang.photography)"/><figcaption>
+            <p><em>a beach along Route 1 covered by the fog (photo credit <a href="https://www.instagram.com/spencerchang.photography/">spencerchang.photography</a>)</em></p>
+        </figcaption>
+</figure>
+
+
+
+<div class="pullquoteContainer">
+    <p class="pullquote">
+        To communicate an identity requires some degree of self-delusion. A performer, in order to be convincing, must conceal “the discreditable facts that he has had to learn about the performance; in everyday terms, there will be things he knows, or has known, that he will not be able to tell himself.”
+        
+        <br/>
+        ー <a href="https://www.goodreads.com/book/show/43130415-trick-mirror">Trick Mirror: Reflections on Self-Delusion</a> by Jia Tolentino summarizing <a href="http://web.pdx.edu/~tothm/theory/Presentation%20of%20Self.htm">Erving Goffman</a>
+        
+    </p>
+</div>
+
+
+<p>In second grade, we did an assignment on our dream jobs. I said I wanted to be a Ninja, a phantom of the nightーswooping in with deathly effective skills and the supernatural restraint to be a perfect arbiter of justice. I wanted to be a hero, someone who used their bestowed powers for the good of the world. When probed for a more real alternative (as if being a ninja isn’t a real career&hellip;), I offered up “investor” because people who were successful seemed to have lots of money, and it seemed like that was the proper goal of the real world.</p>
+<p>I imagine the assignment was originally brainstormed as a great way to combine practicing advanced vocabulary with something creative and ~crafty~. I never imagined I’d come to view it as just another method to enforce the status quo of society, let alone use it as a trigger to come to terms with the things that I couldn’t tell myself.</p>
+<p>At some point in my late adolescence, the desire to be successful in the real world melded with my desire to be a hero. Perhaps I was inspired by the underdogs in Silicon Valley I had heard ofーthe glossy stories of starting with nothing but wits and grit to bring something completely new into the world, something to make the world a <em>better place.</em> These dorky boys had taken on the <em>real world</em> with their idealistic visions and youthful shenanigans, and the craziest part was that they seemed to be winning. Why couldn’t I do the same? With every inch of my body, I wanted to be in the room where it was happening. I felt a splintering of my perceived reality: half of my perception morphing into an imaginary world where I gazed down at the city skyline from a skyscraper, savoring the forces for good I’d engendered; the other half stagnating in the black and white dullness of real life, where stacks of homework and the insurmountable problems of pubescent adolescence awaited me.</p>
+<p>This desire only intensified as I grew older and the possibility of actually following in the footsteps of my idols increasingly solidified. It became so palpable in college that friends made fun of me for being a Bay Area native (a particularly incensed jab because I grew up In Houston, the very town we studied in). While I bristled every time the joke was recycled into use, deep down, a small part of me took guilty pleasure in the comparison, at my convincing transformation.</p>
+<p>On my flight to San Francisco for my first tech internship, I felt close to bursting with the slurry of performance anxiety and fermented excitement over entering the stage I’d admired from afar for so long. This was my chance to prove my worthーas one of the underdogs, worthy to be chosen in the fight of disruption against the traditional elites. With my heart full of optimism, I immersed myself in the new cultural environment that awaited me outside the plane: the confusing amalgam of tech bros hustling for LinkedIn connections at every social event, the new-age food consumer obsession over supernaturally natural goods, and a modern city situated in a picture-perfect microcosm of the world’s natural beauty, with hazy tree-dotted hills cascading in the distance and a glistening, turquoise bay forming a shield against the ugly reality of the outside world.</p>
+
+
+
+
+
+
+
+<div class="galleryContainer centered fullWidth">
+    <div class="galleryContentContainer">
+    
+    <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/posts/better-world-delusion/images/bridge/bridge1.jpg" itemprop="contentUrl" data-size="1365x2048" >
+                <img src="https://www.spencerchang.me/posts/better-world-delusion/images/bridge/bridge1_hu631c711767cd33896c68f253e8d9d2a8_1179448_0x480_resize_q75_box.jpg" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                    
+                        
+                        
+                        Taken on 03.21.2020
+                        
+                    
+                    
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/posts/better-world-delusion/images/bridge/bridge2.jpg" itemprop="contentUrl" data-size="3600x2880" >
+                <img src="https://www.spencerchang.me/posts/better-world-delusion/images/bridge/bridge2_hu31a2c7480e3da2742b9c22fd334a3a35_11429841_0x480_resize_q75_box.jpg" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                    
+                        
+                        
+                    
+                    
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+    </div>
+    
+    <div class="galleryCaption"><em>Where else can you find all these nice bridges? (photo credit</em> <a href="https://www.instagram.com/spencerchang.photography/"><em>spencerchang.photography</em></a><em>)</em></div>
+    
+    </div>
+</div>
+
+<p>As I settled in, I followed all the rules to <em>get in</em> to this heaven-on-earth where my dreams could be realized in a socially acceptable manner: I beefed up my LinkedIn and prepared questions for the executive Q&amp;As, I drank my cold-pressed juice smoothies, fresh daily from the smoothie bar on the <del>10th</del> 9th floor<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, I thrived in the lushness of the manicured nature just a short drive away. It was all part of my master plan to adapt myself to the clever, carefree, and mission-driven attitude that my idols projected, the same attitude that was now the gold standard for all in the Valley.</p>
+<p>I felt myself improving—felt myself getting better at the game. Doors were opening, and the squishy imaginary reality I strove towards was feeling more solid by the second. I was making progress towards my dream, so why did I feel a marked lack of satisfaction?</p>
+<p>I didn’t have the answers then, just a stubborn resolution to put it off for the sake of continual progress. I chalked it up to my body adjusting to the new <em>normal</em>, acclimating itself to what success meant in my new environment. But my blissful and admittedly willful ignorance didn’t last long. Like an airy and perfect-day dream snatched away by the harsh mistress of reality, my palace of impassioned dreams came tumbling down.</p>
+<p>Perhaps it was the continual exposure of the dissonance between what was portrayed and what was reality in Silicon Valley that slowly filled in the holes for meーand looking back now, it’s crazy how long it took me. One day I met a friend for coffee at the manicured walkways of Salesforce Park, an elevated park situated above the dirty streets of SoMa, with its exotic plants (”home to 13 unique ecosystems”!) and felt viscerally reminded of the movie <a href="https://en.wikipedia.org/wiki/Elysium_(film)">Elysium</a>, a typical dystopian story of how the rich have a dedicated utopia in space while the poor suffer on the grounds. Its website states that it is “for the benefit and enjoyment of all,” yet the park features a security team patrolling the grounds to keep undesirables away and the typical gentrified-style of architecture starring modern-looking seating that just happens to be incredibly uncomfortable should you try to sleep there. The juxtaposition of a contemporary, “progressive” park (free music performances, a bar stand, and a book exchange area for kids!) with the shockingly backwards state of San Francisco streets, starring encampments, needles, and feces was so cognitively dissonant that I found myself in a hysterical half-laugh to cope with the absurdity of it all.</p>
+
+
+
+
+
+
+
+<div class="galleryContainer centered ">
+    <div class="galleryContentContainer">
+    
+    <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/posts/better-world-delusion/images/salesforce/1salesforcepark.png" itemprop="contentUrl" data-size="623x872" >
+                <img src="https://www.spencerchang.me/posts/better-world-delusion/images/salesforce/1salesforcepark_hu662ca356275ab86a5f76cbf7dd415166_1286602_0x400_resize_box_3.png" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/posts/better-world-delusion/images/salesforce/mission.png" itemprop="contentUrl" data-size="655x873" >
+                <img src="https://www.spencerchang.me/posts/better-world-delusion/images/salesforce/mission_hu2bd3259d0acbe3aa9ba84e3132aa9e25_814685_0x400_resize_box_3.png" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+    </div>
+    
+    <div class="galleryCaption"><em>I visited these places exactly 1 day apart (left photo from this</em> <a href="https://www.newyorker.com/news/letter-from-silicon-valley/the-floating-utopia-of-salesforce-park"><em>New Yorker piece</em></a> <em>on Salesforce Park and right from my iPhone somewhere in the Mission District on my walk home)</em></div>
+    
+    </div>
+</div>
+
+<p>I realized my understanding of the world was colored by the delusional, rose-colored glasses that are a prerequisite to progressing in this strange society (unsurprisingly, you have to be a bit delusional to live in the city). I thought the community was authentic, and in many ways, it was: I saw many people just like me, with the same bright-eyed optimism to make a permanent positive impact on the world. But the foundations and structural components of the community were also the same sorts of inequality found in the hierarchies of traditional elites: being well-connected, well-resourced, and looking like someone who takes charge were all important factors in how well you fit into this “new” society. On one hand, the bright-eyed optimism and defiant disregard of the status quo feels good and necessary in a world that feels so broken and harmful to so much of us. But the reality that is experienced is something fundamentally different from this theoretical picture in the minds eyeーit seems to be more about the appearance of doing good while actually progressing for the same sake as the messed up world it’s presuming to replace. What can we do to go towards a more authentic version of that world? Can we re-align society on actually making the world a better place?</p>
+<p>Maybe I shouldn’t have been surprised to discover this hard truth. Perhaps any sort of system that has its incentives rigged towards disproportionately benefiting the well-off and promoting the endless pursuit of profit ends up this way in a ruthless arms race for absolute domination. Or, perhaps the fundamentally broken parts of society will be felt anywhere in the world, even supposed utopias. Either way, I felt betrayed because of the false promise it sold, of a world that was the opposite, a shiny testament to an alternative, human-centered approach to life.</p>
+<p>I felt simultaneously lucid-eyed and confused, desperate to find an excuse to return to my bliss of reveling against the cave wall, like someone who had finally realized they were the butt of a long-standing joke. The truth had freed me from false pretenses, but it had also shattered my convenient, simple understanding of the world, and it was left to me to piece together the broken aftermathーto decipher the complex fragments and create a whole that was nuanced and sufficient.</p>
+<p>I had deluded myself into equating the internal desire to make the world a better place with the external desire to <em>be seen</em> as the kind of person that makes the world a better place, and it wasn’t clear how to separate the two. The former represented a pure instantiation of my optimismーa defiant hope to make a dent on improving our futuresーwhile the latter represented a malformed version of that, which manifested in the two-faced society I found in Silicon Valley. Which aspect was more representative of the desire that I felt? Looking back at when I answered “ninja” all those years ago, I can’t tell whether my childhood innocence sought one more than the other. At the same time, I had conflated the identity of the kind of person that betters the world with this place and those that idealized it. Somewhere in my singular drive to <em>do</em> good and <em>be</em> a good person, the heroes I modeled myself after had contorted from the purely noble, larger-than-life mythical figures of folklore and superhero films to the naturally flawed, smaller-than-storied titans of the tech world. It was a slow, unremarkable slip into vastly different territoryーone that fed off my optimism and gave me empty promises and disillusioned dreams in return.</p>
+<figure><img src="images/naruto.png"
+         alt="maybe this guy was what inspired the whole “ninja” thing (from Naruto Shippuden)"/><figcaption>
+            <p><em>maybe this guy was what inspired the whole “ninja” thing (from</em> <a href="https://en.wikipedia.org/wiki/Naruto"><em>Naruto Shippuden</em></a><em>)</em></p>
+        </figcaption>
+</figure>
+
+<p>In the shattering of my truth, the bedrock of my insatiable drive to progress, I realized that I didn’t need to change myself in order to realize my dream of doing something for the world. I hadn’t realized that I could define my own terms for success and achieving my dream, instead of tracing the well-worn path of a few pioneers. There was still a fundamental dissonance in the pure want to do good and the self-interest inherent in wanting to be that kind of person. Was this the driver of what turned those idealistic geeks into hardened executives fighting tooth and nail to defend their hard-won territory, that turned “bringing people together” to covering the tracks of facilitated manipulation campaigns? Is this internal conflict dooming me to a similar fate should I ever have the fortune (or misfortune?) to be in a similar situation?</p>
+<p>So where does this leave my story and motivations? My identity and purpose are constantly changing as the world and my community shapes, breaks, and reforms me, so maybe it isn’t <em>so</em> alarming that there’s so many unfilled blanks. An identity is a funny thingーyou transition from innocently chasing whatever instinctually appeals to you, society’s judgements be damned, to conforming like a chameleon to those very judgments from your peers and role models, to writing a blog post questioning what the point of something, as confining as an notarized statement of who you <em>are,</em> even is. While my relationship with SF had fermented, maturing into something more real and sustainable, my idealistic optimism has, strangely enough, only intensified. You would think that after giving so much of it to a place that gave me many more problems in return, my optimism would have hardened or at least faded. Perhaps it was coming to the understanding that optimism is closest thing we have to a boundless energyーa substance that costs nothing to be produced and has only the potential to multiply when released into the world. In the face of so much that was disheartening, perhaps my optimism was the one thing that felt <em>real</em> and especially necessary to move towards the idealistic vision I had harbored. Despite and even because of the rude awakening, I still truly want to make the world a better place. I want to truly bring people together to collaborate, inspire, and understand each other, to get <em>proximate</em> to each other, the act of getting closer to people and understanding their experiences, hopes, and fears<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. I want to shift the standards that society promotes from striving towards pieces of paper, fancy titles, and endless progress to fighting for solidarity, purpose, and equity. All these desires and more coalesce in the unrelenting hope to actually make a dent in some piece of this (and hopefully inspire some more amazing people to join me along the way) is burning as bright as ever regardless of whether it happens in a city of surface greatness and swept-under troubles or the hand-me-down desk where I toiled all those hours while dreaming of a better future.</p>
+
+
+<div class="pullquoteContainer">
+    <p class="pullquote">
+        “A wave is born from deep conditions of the ocean,” she said. “A person is born from deep conditions of the world. A person pokes up from the world and rolls along like a wave, until it is time to sink down again. Up, down. Person, wave.”
+        
+        <br/>
+        ー <a href="https://www.goodreads.com/book/show/15811545-a-tale-for-the-time-being">A Tale for the Time Being</a> by Ruth Ozeki
+        
+    </p>
+</div>
+
+
+<hr>
+<p>Thanks to <a href="http://jamie-wong.com/">Jamie Wong</a>, <a href="https://scholar.google.com/citations?hl=en&amp;user=x_GpAaAAAAAJ">Ameesh Shah</a>, <a href="https://medium.com/@andeeliao">Andee Liao</a>, <a href="http://nikhilthota.com">Nikhil Thota</a>, <a href="https://medium.com/@averyjordan1">Avery Jordan</a>, and <a href="https://lucyblogs.wordpress.com/">Lucy Lai</a> for their thoughts and comments! </br><br>
+inspired by this <a href="https://twitter.com/noampomsky/status/1296519596942401536">piece on SF</a> by <a href="https://twitter.com/noampomsky">Ava</a>.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>One of the best perks of working at Square. I&rsquo;ve also been informed by Sal, my former coworker and fellow Rice alum, that my memory has failed me on the correct floor number.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p><a href="https://www.youtube.com/watch?v=1RyAwZIHo4Y">Brian Stevenson</a> at the Equal Justice Initiative champions this term as one of the main solutions for addressing racial inequity in American society by getting “proximate” with the marginalized, excluded, and poor.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+  </div>
+</div>
+<footer>
+    <hr/>
+    
+<div class="postFooter">
+  <p>I write for emotional resonance and thought provoking, so please <a href="https://twitter.com/@spencerc99">message me</a> (<a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if you have thoughts :)</span>
+  <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
+</div>
+
+<div class="shareCta">
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    
+      <button class="icon" href="" onclick="copyLink(&#34;https://www.spencerchang.me/posts/better-world-delusion/&#34;)"><i class="uil uil-link-h" ></i> Copy Link</button>
+    
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="Making the World a Better Place: A Valley of Smoke and Mirrors"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<h3>Related Posts</h3>
+<div class="relatedPosts">
+    
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.06.19</span>
+          
+              // 1937 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/rice-fields/">Rice Fields and Murky Identities</a>
+        
+      </h2>   
+    <div class="postSummary">
+      How an American-born Chinese navigated teaching and living in Taiwan
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/rice-fields/rice-field_hud2fb4e80983b8f3ab68c5fc4317da8ff_1433880_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">07.27.20</span>
+          
+              // 2123 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/right-decisions/">Making the “Right” Decisions</a>
+        
+      </h2>   
+    <div class="postSummary">
+      What happens when a majority of things that were &ldquo;right&rdquo; are now wrong?
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/right-decisions/images/seals_hu5dc8f6762a8f75b74ad7daa954a111f7_1831488_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer  serif ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">05.03.20</span>
+          
+              // 556 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+               
+                  <i class="uil uil-bolt"></i>
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/a-twinkle/">a twinkle</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Recounting a visceral experience. On light, humans, and meaning.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/a-twinkle/firefly_hu253ae9e601d80809e409d7e9d5b077b9_655432_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">06.07.20</span>
+          
+              // 462 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/george-floyd/">George Floyd</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Sharing the photos from the protest I attended last week.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/george-floyd/images/1-20200603-DSC_7875_huad796b6a26a5f0b8b2bc291e479ceb8b_1164107_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+</div>
+
+
+
+<br/>
+<div><i>back to my <a href="/">favorites</a> or <a href="/posts">all my writing</a>.</i></div>
+<script src="/plugins/permalink/permalink.js"></script>
+
+</footer>
+<script>
+  
+  function scrollProgressBar() {
+    var getMax = function () {
+      return $(document).height() - $(window).height();
+    };
+
+    var getValue = function () {
+      return $(window).scrollTop();
+    };
+
+    var progressBar = $(".progress-bar"),
+      max = getMax(),
+      value,
+      width;
+
+    var getWidth = function () {
+      
+      value = getValue();
+      width = (value / max) * 100;
+      width = width + "%";
+      return width;
+    };
+
+    var setWidth = function () {
+      progressBar.css({ width: getWidth() });
+    };
+
+    $(document).on("scroll", setWidth);
+    $(window).on("resize", function () {
+      
+      max = getMax();
+      setWidth();
+    });
+  }
+  $(document).ready(function () {
+    scrollProgressBar();
+  });
+</script>
+
+
+        </div>
+        
+        
+        
+        
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  
+  <div class="pswp__bg"></div>
+  
+  <div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+      <div class="pswp__preloader__icn">
+        <div class="pswp__preloader__cut">
+        <div class="pswp__preloader__donut"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+  </div>
+  <link rel="stylesheet" href="/plugins/photoswipe/photoswipe.css">
+  <link rel="stylesheet" href="/plugins/photoswipe/default-skin/default-skin.css">
+
+  <script src="/plugins/photoswipe/photoswipe.min.js"></script>
+  <script src="/plugins/photoswipe/photoswipe-ui-default.min.js"></script>
+  <script src="/plugins/photoswipe/initphotoswipe.js"></script>
+  <script>initPhotoSwipeFromDOM('.gallery');</script>
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>

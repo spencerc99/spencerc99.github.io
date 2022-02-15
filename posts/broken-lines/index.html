@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>Broken Lines</title>
+    <meta name="description"
+        content="When the progress of things is broken by catastrophe" />
+    <meta name="keywords"
+        content="coronavirus, world, society, culture" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/posts/broken-lines/" />
+    <meta property="og:title" content="Broken Lines" />
+    <meta property="og:description" content="When the progress of things is broken by catastrophe" />
+    <meta property="og:image" content="https://www.spencerchang.me/images/broken-lines/logs.jpg" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="Broken Lines" />
+    <meta name="twitter:description" value="When the progress of things is broken by catastrophe" />
+    <meta name="twitter:image" content="https://www.spencerchang.me/images/broken-lines/logs.jpg" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/posts/broken-lines/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='May 20, 2020' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="8 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+         
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
+<div class="headerContainer"></div>
+
+        
+        <div class="mainContainer">
+            
+<div class="postContainer ">
+  <div class="post meta">
+    
+    <span class="postDate">05.20.2020</span>
+    
+    
+    
+  </div>
+  <h1 class="title">Broken Lines 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis =  null ;
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+  <h3 class="description">When the progress of things is broken by catastrophe</h3>
+  <div>
+    <div class="postContent">
+      
+      
+      <figure class="fullWidth"><img src="/posts/images/broken-lines/logs.jpg"
+         alt="a stack of logs on a Napa trip (for more photos)"/><figcaption>
+            <p>a stack of logs on a Napa trip (<a href="https://www.instagram.com/spencerchang.photography/">for more photos</a>)</p>
+        </figcaption>
+</figure>
+
+
+
+<div class="pullquoteContainer">
+    <p class="pullquote">
+        But in a life of activity, one free from dramatic rupture, where the progress of things is unbroken by catastrophe, where the skin of our thoughts is regularly touched by new impressions, discoveries and influences, our maturation comes to follow a gradient that creates the illusion of a seamless line. With Uncle Hmad, the young man he was at the point of his arrest and the man he has become seemed to exist in parallel, destined never to meet and yet resonating against one another like two discordant musical notes.
+        
+        <br/>
+        ー <a href="https://www.goodreads.com/book/show/28007895-the-return">The Return</a>
+        
+    </p>
+</div>
+
+
+<p><a href="https://en.wikipedia.org/wiki/Hisham_Matar">Hisham Matar</a>, the American-Libyan author, writes the above when describing his Uncle Hmad&rsquo;s transformation when he was locked away in prison for 21 years. And while we won&rsquo;t be stuck indoors for 21 years (I <em>really</em> hope), our life of activity, over the past couple months, has experienced a quite dramatic rupture: the progress of things has been disrupted by catastrophe, and the skin of our thoughts is touched less and less by new impressions and influences.</p>
+<p>I&rsquo;m not equating our experiences in quarantine to that of being unlawfully locked away in a prison, let alone one that deprives you of basic human rights, but we&rsquo;re experiencing a break in our seemingly seamless line of progression. This kind of sudden, vast restriction on movement and living, in general, feels like a giant whiplash to those affected. So much of the experiences and behaviors that we&rsquo;ve taken for granted in the past are now discouraged, cancelled, or even outlawed. The most dissonant part of the experience is the fact that the threat, and reason for the change, is practically invisible. We&rsquo;re not experiencing the common tropes that would precede a comparably big loss of the normal way of lifeーthe flesh-eating zombies and brain-sucking aliens, the ash-filled radioactive remnants, nor the all-destroying category 10, thunder-flood, tornado-quake (filled with <a href="https://en.wikipedia.org/wiki/Sharknado">sharks</a> or not). Even the tropes that come close to describing this kind of doomsday scenario showcase a violent end to a majority of the world. The threat we&rsquo;re experiencing doesn&rsquo;t come close to these portrayals because, well, it&rsquo;s still real life. We still have to pay our taxes, go to work or finish class, and form contrived opinions on the hottest trashy <a href="https://en.wikipedia.org/wiki/Too_Hot_to_Handle_(TV_series)">TV series</a>. We have a significant population of the world falling ill and dying, but the dead are not lining the streets. In fact, for most, the sun is still shining, bright as ever, and in a lot of places, the environment actually looks significantly <a href="https://www.nationalgeographic.com/science/2020/04/pollution-made-the-pandemic-worse-but-lockdowns-clean-the-sky/"><em>better than before</em></a>. There isn&rsquo;t a clear enemy that we can shoot, kill, or otherwise subdue like our revered heroes. Our threat is less obvious. It&rsquo;s like a shadowy veneer that has settled over the world, and either you see one glimpse at the monsters hiding beneath<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and begin to see shadows at every corner or you believe life should be going on as normal.</p>
+<figure><img src="/posts/images/broken-lines/unemployment.png"
+         alt="U.S. unemployment rate over time now forming almost a straight line upwards (source)"/><figcaption>
+            <p>U.S. unemployment rate over time now forming almost a straight line upwards (<a href="https://tradingeconomics.com/united-states/unemployment-rate">source</a>)</p>
+        </figcaption>
+</figure>
+
+<p>The change was also sudden. One week it was the final peak of ski season, and crowds were itching to take advantage of the last few blissful runs before the benevolent powder spirits stopped coming. The next it was learning of <a href="https://www.latimes.com/world-nation/story/2020-03-20/some-of-mexicos-wealthiest-residents-went-to-colorado-to-ski-they-brought-home-coronavirus">skigoers bringing COVID-19 back to their country</a> and watching parts of our normal life close in succession. Estimates for the return of normalcy began as a couple weeks and have continued to rise since, ranging up to several years now.</p>
+<p>Because of both the speed and apparent lack of severity, this is one of the few world events in any lifetime that has forked our very existence as we know it. Never before have I been able to see my parallel-universe self so clearly as now. I can see our lives progressing in parallel and peek into the sights and experiences that they are living, even now as I write. It plays like a distant flashback, the grainy resolution providing just enough fidelity to let me fill in the details with my available imagination. It&rsquo;s scary how real the surroundings feel, my mind readily supplying even the smallest of details in this alternate life.</p>
+<p>As yet another day of staring at my computer screen starts, I can see non-COVID-19 Spencer (NC Spence for short) trying to interpret the mess of lines and curves that depict the available trails to hike for the day in <a href="https://en.wikipedia.org/wiki/Vatnaj%C3%B6kull_National_Park">Vatnajökull National Park</a> in the reflection. I shake it off and get back to work. Later, I&rsquo;m washing up my lunch dishes and transferring them to the dishwasher to dry. I&rsquo;m suddenly overcome by vertigo as I see my actions mirroring that of NC Spenceーthe dishes have transformed into the thermos of instant coffee and his trusty Nikon DSLR while the dishwasher is the olive Osprey daypack (purchased just for this trip after hours pouring over Amazon reviews and trip guides). The wail of a siren, a new addition to the regularly scheduled programming, blaring through the empty neighborhood disperses the illusion and I finish packing. At night, by the dim glow of my bedside lamp, I&rsquo;m preparing my mind for sleep by reading a chapter before climbing into bed. The flickering light forms a steady heartbeat, and all of a sudden I hear from another room the rising ambient laughter and chatter of a busy restaurant. My room has transformed into the heart of an English tavern. The source of the light is a wide hearth fighting back the fleeting remnants of biting cold from spring, and I hear my friend&rsquo;s call rising above the clamor to request a round of pints. A cry from the street below jolts me from my haze and the eloquent sentences, describing a mythical world where your enemies and internal horrors are tangible entities that you can actually fight, fade back into existence. I shut the book and clamber under my sheets, resigned to start the process all over again tomorrow.</p>
+<figure><img src="/posts/images/broken-lines/spencer-parallels.png"
+         alt="Ok I have to admit I haven’t actually made dalgona coffee (but how can I pass up the meme)"/><figcaption>
+            <p>Ok I have to admit I haven’t actually made dalgona coffee (but how can I pass up the meme)</p>
+        </figcaption>
+</figure>
+
+<p>From the residual worry of being productive or the insatiable restlessness that taints every joy to the threatening of livelihoods, or even the unimaginable loss of a steady voice, we&rsquo;re going through <em>a lot</em> as a society. Regardless of the severity of our individual situations, we&rsquo;re all experiencing an extreme form of cognitive dissonance right now. Our mind can&rsquo;t <em>actually</em> believe that a lot of our basic assumptions are no longer a given. Even as we read the endless scroll of slightly different articles, dressing up various forms of &ldquo;we&rsquo;re <em>pretty</em> fucked,&rdquo; as we hear about loved ones and loved ones of those close to us who have been affected, as we acclimate to our new realities of an indefinite pairing of personal and work spaces or of a daily struggle to find something new, some part of us refuses to accept our new normal. Part of us wants to believe it&rsquo;s all a prolonged nightmareーthat there will come an event bad enough to shock us awake and back to a life where all of our given pleasures can once again be experienced. This same part of us is what keeps alive this vision of our parallel selves. It has barricaded off part of our minds and hearts and commandeered them for the purposes of sustaining this better copy.</p>
+<p>And while it can be a guilty pleasure to peek into this parallel world every once in a while, it&rsquo;s dangerous. Peek in enough and the line between this world and the next starts to blur and break. We need to acknowledge that the other worlds aren&rsquo;t the one we live in because every moment we spend in them is a moment we aren&rsquo;t living in ours. This isn&rsquo;t a dream that we&rsquo;re going to wake up from where all of the embarrassing stuff that happened is reversed. It&rsquo;s human nature to think about what <em>could&rsquo;ve</em> been had things gone differently, and we can&rsquo;t help but feel as if we&rsquo;ve been cheated, out of a long-awaited reunion, a proper graduation, or the actualization of a lifelong dream. But it&rsquo;s important, even more so in times of crisis, to focus on our given path in order to start seriously considering what the new normal for the world is going to look like. These kinds of events leave a bigger footprint than we imagine. The world that emerges from the aftermath will be a drastically different one from that of before the pandemic. They will both exist in parallel, yet they are destined to never meet, only to grate against each other like two discordant musical notes.</p>
+<p>The illusion of the seamless line has been broken irrevocably. Who we are from this point forward is very different from who we would&rsquo;ve been. How divergent the two paths end up being in the journey and the destination remains to be seen. The only question that&rsquo;s left for us to answer is: Where will our new line lead?</p>
+<hr>
+<p>If you couldn&rsquo;t tell from the article, I&rsquo;ve been experiencing a huge range of emotions during quarantine, and it has been hard to regulate emotions as well as I normally do. If you have stories you&rsquo;d like to share whether they reflect the same or different experiences, I would love to hear them!</p>
+<p>Thanks to <a href="https://scholar.google.com/citations?hl=en&amp;user=x_GpAaAAAAAJ">Ameesh Shah</a>, <a href="https://medium.com/@averyjordan1">Avery Jordan</a>, <a href="http://jamie-wong.com/">Jamie Wong</a>, <a href="https://shiwolfblog.wordpress.com/">Lilly Shi</a>, <a href="https://medium.com/@andeeliao">Andee Liao</a>, and <a href="https://nikhilthota.com/">Nikhil Thota</a> for reading and giving feedback!</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Say the fact that millions upon millions of  <a href="https://www.washingtonpost.com/business/2020/05/14/unemployment-jobless-claims-coronavirus/">Americans are without work</a>  or that despite spending the most, our healthcare system is  <a href="https://www.ft.com/content/3bbb4f7c-890e-11ea-a01c-a28a3e3fbd33">unprepared in the most vulnerable spots</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+  </div>
+</div>
+<footer>
+    <hr/>
+    
+<div class="postFooter">
+  <p>I write for emotional resonance and thought provoking, so please <a href="https://twitter.com/@spencerc99">message me</a> (<a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if you have thoughts :)</span>
+  <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
+</div>
+
+<div class="shareCta">
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    
+      <button class="icon" href="" onclick="copyLink(&#34;https://www.spencerchang.me/posts/broken-lines/&#34;)"><i class="uil uil-link-h" ></i> Copy Link</button>
+    
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="Broken Lines"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<h3>Related Posts</h3>
+<div class="relatedPosts">
+    
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">04.19.20</span>
+          
+              // 5660 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/war-of-intentions/">The War of Intentions and Beliefs</a>
+        
+      </h2>   
+    <div class="postSummary">
+      What happens when good intentions are lost, everyone wants to be a hero, and the fight against evil spills over into innocents.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/war-of-intentions/discussion_hu5770d2b7064fe6e813a1aaa8fa62916c_491149_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.06.19</span>
+          
+              // 1937 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/rice-fields/">Rice Fields and Murky Identities</a>
+        
+      </h2>   
+    <div class="postSummary">
+      How an American-born Chinese navigated teaching and living in Taiwan
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/rice-fields/rice-field_hud2fb4e80983b8f3ab68c5fc4317da8ff_1433880_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.26.19</span>
+          
+              // 2048 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/student-to-teacher/">From Student to Teacher</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Stumbling through first principles of education and learning
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/student-to-teacher/classroom_hu668e161d33e271bb5fd572f7147be3dc_1728601_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+</div>
+
+
+
+<br/>
+<div><i>back to my <a href="/">favorites</a> or <a href="/posts">all my writing</a>.</i></div>
+<script src="/plugins/permalink/permalink.js"></script>
+
+</footer>
+<script>
+  
+  function scrollProgressBar() {
+    var getMax = function () {
+      return $(document).height() - $(window).height();
+    };
+
+    var getValue = function () {
+      return $(window).scrollTop();
+    };
+
+    var progressBar = $(".progress-bar"),
+      max = getMax(),
+      value,
+      width;
+
+    var getWidth = function () {
+      
+      value = getValue();
+      width = (value / max) * 100;
+      width = width + "%";
+      return width;
+    };
+
+    var setWidth = function () {
+      progressBar.css({ width: getWidth() });
+    };
+
+    $(document).on("scroll", setWidth);
+    $(window).on("resize", function () {
+      
+      max = getMax();
+      setWidth();
+    });
+  }
+  $(document).ready(function () {
+    scrollProgressBar();
+  });
+</script>
+
+
+        </div>
+        
+        
+        
+        
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>

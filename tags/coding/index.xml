@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coding on Spencer Chang</title>
+    <link>https://www.spencerchang.me/tags/coding/</link>
+    <description>Recent content in coding on Spencer Chang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.spencerchang.me/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fast feedback loops and perils of convention</title>
+      <link>https://www.spencerchang.me/experiments/100posts/fast-feedback-loops/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/fast-feedback-loops/</guid>
+      <description>I had today off too, so I spent the day eating burritos and making some updates to my personal website. I launched my fits stream the other day and started sharing it publicly while making some usability and performance improvements that this new project exposed. Few improvements included adding a permalink + a quick way to copy that link to clipboard since people were referencing their favorites by the #. On the performance side, I added lazy loading for the images and added some responsive image handling so that the content wasn&amp;rsquo;t reflowing every time a new image loaded.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>arc of the valley</title>
+    <meta name="description"
+        content="A hero&#39;s journey view on technologists&#39; experience coming to and living in Silicon Valley" />
+    <meta name="keywords"
+        content="" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/experiments/100posts/arc-of-the-valley/" />
+    <meta property="og:title" content="arc of the valley" />
+    <meta property="og:description" content="A hero&#39;s journey view on technologists&#39; experience coming to and living in Silicon Valley" />
+    <meta property="og:image" content="https://www.spencerchang.me" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="arc of the valley" />
+    <meta name="twitter:description" value="A hero&#39;s journey view on technologists&#39; experience coming to and living in Silicon Valley" />
+    <meta name="twitter:image" content="https://www.spencerchang.me" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/experiments/100posts/arc-of-the-valley/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='September 25, 2021' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="1 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+         
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
+<div class="headerContainer"></div>
+
+        
+        <div class="mainContainer">
+            
+<div class="postContainer ">
+  <div class="post meta">
+    
+    <span class="postDate">09.25.2021</span>
+    
+    
+    
+  </div>
+  <h1 class="title">arc of the valley 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis =  null ;
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+  <h3 class="description">A hero&rsquo;s journey view on technologists' experience coming to and living in Silicon Valley</h3>
+  <div>
+    <div class="postContent">
+      
+      
+      <p>Arc of the valley from Rick, basically the hero&rsquo;s journey but in silicon valley</p>
+<ol>
+<li>Bright eyed on the ideals and optimism</li>
+<li>Disillusionment encountered at the dissonance</li>
+<li>Deep disillusionment, cynical about everything</li>
+<li>Matured state of making a difference where you can in your realm of control. Leaving the playground better than you found it</li>
+</ol>
+<p>The true cynicism comes from dealing with nasty people and artificial problems and finding out that a lot of the promises made around social good are empty. The one redeeming factor is the amazing people you get to work with. That&rsquo;s the magic that you can find and seek out.</p>
+<hr>
+<p><em>This is the <strong>57th</strong> installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list <a href="https://www.spencerchang.me/experiments/100posts/">here</a></em>.</p>
+
+    </div>
+  </div>
+</div>
+<footer>
+    <hr/>
+    
+<div class="postFooter">
+  <p>I write for emotional resonance and thought provoking, so please <a href="https://twitter.com/@spencerc99">message me</a> (<a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if you have thoughts :)</span>
+  <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
+</div>
+
+<div class="shareCta">
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    
+      <button class="icon" href="" onclick="copyLink(&#34;https://www.spencerchang.me/experiments/100posts/arc-of-the-valley/&#34;)"><i class="uil uil-link-h" ></i> Copy Link</button>
+    
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="arc of the valley"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<h3>Related Posts</h3>
+<div class="relatedPosts">
+    
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.24.21</span>
+          
+              // 291 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/privilege-of-dreams/">56 - privilege of dreams</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Dreams are a privilege to those who have the means. Media showcases this in bleak terms.
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.22.21</span>
+          
+              // 231 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/irreplaceable/">55 - irreplaceable</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Being irreplaceable can be either the defining marker in bringing something good out of something bad, or it can be an excuse for shirking change and avoiding confronting the future.
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.21.21</span>
+          
+              // 135 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/life-is-fragile/">54 - life is fragile</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Life is fragile which means we have to make the most of cherishing the people we love and pursuing the things that give us energy.
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.20.21</span>
+          
+              // 82 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/compliments/">53 - compliments</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Resurfacing an old idea on the power of compliments and a poem on second sky
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+</div>
+
+
+
+<br/>
+<div><i>back to my <a href="/">favorites</a> or <a href="/posts">all my writing</a>.</i></div>
+<script src="/plugins/permalink/permalink.js"></script>
+
+</footer>
+<script>
+  
+  function scrollProgressBar() {
+    var getMax = function () {
+      return $(document).height() - $(window).height();
+    };
+
+    var getValue = function () {
+      return $(window).scrollTop();
+    };
+
+    var progressBar = $(".progress-bar"),
+      max = getMax(),
+      value,
+      width;
+
+    var getWidth = function () {
+      
+      value = getValue();
+      width = (value / max) * 100;
+      width = width + "%";
+      return width;
+    };
+
+    var setWidth = function () {
+      progressBar.css({ width: getWidth() });
+    };
+
+    $(document).on("scroll", setWidth);
+    $(window).on("resize", function () {
+      
+      max = getMax();
+      setWidth();
+    });
+  }
+  $(document).ready(function () {
+    scrollProgressBar();
+  });
+</script>
+
+
+        </div>
+        
+        
+        
+        
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>

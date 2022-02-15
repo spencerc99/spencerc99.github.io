@@ -1,8 +1,0 @@
-<div class="socialMediaContainer">
-    {{ range .Site.Params.social }}
-    <a class="socialMediaLink" href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}" {{ end }}
-        {{ if .target }}target="{{ .target }}" {{ end }} {{ if .type }}type="{{ .type }}" {{ end }}>
-        <i class='uil {{ .class }}'></i>
-    </a>
-    {{ end }}
-</div>

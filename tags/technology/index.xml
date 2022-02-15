@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Spencer Chang</title>
+    <link>https://www.spencerchang.me/tags/technology/</link>
+    <description>Recent content in technology on Spencer Chang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.spencerchang.me/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>future of tools</title>
+      <link>https://www.spencerchang.me/experiments/100posts/future-of-tools/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/future-of-tools/</guid>
+      <description>I&amp;rsquo;ve been digging in deeper to the web3 world lately, and it&amp;rsquo;s been a fascinating rabbit hole. It&amp;rsquo;s interesting to me that the web3 space and the tools for thoughts space both share so much in terms of the underlying principles of how technology should be (interoperable, malleable, composable, and more)1, yet there is almost no overlap in the Venn diagram between the two worlds in terms of the people involved.</description>
+    </item>
+    
+    <item>
+      <title>scope of normality</title>
+      <link>https://www.spencerchang.me/experiments/100posts/scope-of-normality/</link>
+      <pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/scope-of-normality/</guid>
+      <description>Today history took a significant step forward with the craziness around constitution DAO bidding on a copy of the constitution at Sotheby&amp;rsquo;s. They didn&amp;rsquo;t end up winning (a classic American tale of a larger community losing to one rich person), but they stretched the limits of what was believed to be possible, and that makes me think despite the possible ~$3 million USD that was and will be burned in gas to send donations (and now receive the refunds of those donations), it will have all been worth it to show the world what communal action can do.</description>
+    </item>
+    
+    <item>
+      <title>financialization</title>
+      <link>https://www.spencerchang.me/experiments/100posts/financialization/</link>
+      <pubDate>Sun, 14 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/financialization/</guid>
+      <description>One of my main hesitations and uncertainties about the future that crypto imagines is the fact that the fundamental building block has a market-based monetary value. This offers a lot of niceities, advocates would argue, like an &amp;ldquo;efficient&amp;rdquo; market and a real stake that users have to offer to show their commitment. However, because the fundamental unit is, despite all the framing as a commodity, a financial instrument that is tradeable and fluctuates in value, we see all the dynamics baggage that these instruments carry with them.</description>
+    </item>
+    
+    <item>
+      <title>allure of ephemerality</title>
+      <link>https://www.spencerchang.me/experiments/100posts/allure-of-ephemerality/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/allure-of-ephemerality/</guid>
+      <description>I bought my first NFT yesterday. It was from an art collection called Coquina by the artist Jacob Gold. I&amp;rsquo;m generally still hesitant towards the whole NFT space because I think there is a lot of hype that is purely driven by the desire to get rich quick, but the artblocks project around generative NFT art feels very close to the original spirit of NFTs, owning a piece of digital art that supports the artist (and a good cause with 25% of this piece&amp;rsquo;s proceeds going to charity).</description>
+    </item>
+    
+    <item>
+      <title>the technology paradox</title>
+      <link>https://www.spencerchang.me/posts/technology-paradox/</link>
+      <pubDate>Mon, 19 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/posts/technology-paradox/</guid>
+      <description>Under 280 in San Francisco during golden hour.
+  Yesterday, I made the trek down to Palo Alto for Alex&amp;rsquo;s birthday and had a great time in the afternoon barbecuing, laughing, and enjoying the South Bay summer. I was realizing it was the first time in the Bay where I&amp;rsquo;ve attended a large gathering that wasn&amp;rsquo;t predominantly people in the tech industry. Alex is a graduate student in physics at Stanford, so the party was full of PhD candidates and high school friends who&amp;rsquo;ve covered a spread across the different fields.</description>
+    </item>
+    
+    <item>
+      <title>shaping the world</title>
+      <link>https://www.spencerchang.me/experiments/100posts/shaping-the-world/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/shaping-the-world/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

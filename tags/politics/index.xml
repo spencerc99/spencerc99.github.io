@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>politics on Spencer Chang</title>
+    <link>https://www.spencerchang.me/tags/politics/</link>
+    <description>Recent content in politics on Spencer Chang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.spencerchang.me/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The War of Intentions and Beliefs</title>
+      <link>https://www.spencerchang.me/posts/war-of-intentions/</link>
+      <pubDate>Sun, 19 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/posts/war-of-intentions/</guid>
+      <description>What happens when good intentions are lost, everyone wants to be a hero, and the fight against evil spills over into innocents.</description>
+    </item>
+    
+  </channel>
+</rss>

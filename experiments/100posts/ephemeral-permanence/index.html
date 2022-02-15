@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>ephemeral permanence: an exploration of the future of digital data</title>
+    <meta name="description"
+        content="What if every object you created digitally was &#34;owned&#34; by you and stored permanently in a space private to you regardless of what the platform you created it on does with it?" />
+    <meta name="keywords"
+        content="" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/experiments/100posts/ephemeral-permanence/" />
+    <meta property="og:title" content="ephemeral permanence: an exploration of the future of digital data" />
+    <meta property="og:description" content="What if every object you created digitally was &#34;owned&#34; by you and stored permanently in a space private to you regardless of what the platform you created it on does with it?" />
+    <meta property="og:image" content="https://www.spencerchang.me" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="ephemeral permanence: an exploration of the future of digital data" />
+    <meta name="twitter:description" value="What if every object you created digitally was &#34;owned&#34; by you and stored permanently in a space private to you regardless of what the platform you created it on does with it?" />
+    <meta name="twitter:image" content="https://www.spencerchang.me" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/experiments/100posts/ephemeral-permanence/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='December 23, 2021' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="5 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+         
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
+<div class="headerContainer"></div>
+
+        
+        <div class="mainContainer">
+            
+<div class="postContainer ">
+  <div class="post meta">
+    
+    <span class="postDate">12.23.2021</span>
+    
+    
+    
+  </div>
+  <h1 class="title">ephemeral permanence: an exploration of the future of digital data 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis =  null ;
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+  <h3 class="description">What if every object you created digitally was &ldquo;owned&rdquo; by you and stored permanently in a space private to you regardless of what the platform you created it on does with it?</h3>
+  <div>
+    <div class="postContent">
+      
+      
+      <p>I was talking to Sahil today about <a href="/experiments/100posts/low-pressure-contexts">low pressure contexts</a>, and we stumbled across an interesting point around how the ephemeral nature of things makes it feel low pressure and safe, but we also want to be able to leverage our technology for storing and retrieving data about every conversation we&rsquo;ve had. <em>How might we get the best of both: the safety of ephemeral thoughts and conversations and moments and the convenience of permanent records and written transcripts and preserved memories?</em></p>
+<p>One of the things that was so appealing when Snapchat first came out was that it felt safe to do things that were weird or silly or dumb or scandalous <strong>because things were fated to disappear.</strong> Snapchat became so popular as a medium for connection because it engaged with our most natural side: our real selves. While it did offer filters and other means for curating your &ldquo;perfect external image,&rdquo; the <a href="/experiments/100posts/allure-of-ephemerality">ephemerality</a> gave everyone a free hall pass. It was a lot easier (at least compared to other social apps) to let your hair down and put less pressure on what was <em>worth</em> posting. In other words, temporary posts made the bar for sharing much lower, which let users act more like their normal unfiltered selves they are around friends in the physical world.</p>
+<p>However, the temporary nature wasn&rsquo;t without downsides. It meant that any serious conversation could be lost in an instant. Imagine trying to hold an argument or serious relationship discussion over ephemeral text or images. Permanence has its place for providing a history. The problem with storing history at a base level is that it all depends on how you <em>use</em> the data for how it is judged to be. Using your own data to remember a previous conversation or capture a moment feels empowering and even essential to any sort of digital social app; however, having that data be made public or broadcasted beyond your initial audience feels like a major breach of trust.</p>
+<p>What would it look like to offer the safety of ephemerality but still give the original author or participant access to their ephemeral objects in a separate archive?</p>
+<p>possible directions and existing examples:</p>
+<ul>
+<li>recording in-person conversations</li>
+<li>associations with your account for digital posts fade over time like a faded t-shirt</li>
+<li>notes are public via link by default, but &ldquo;secured&rdquo; by obscurity (people can&rsquo;t find the link unless you give it out)</li>
+<li>all content is ephemeral by default, and author has the power of granular sharing</li>
+</ul>
+<p><strong>What if every object you created digitally was &ldquo;owned&rdquo; by you and stored permanently in a space private to you regardless of what the platform you created it on does with it?</strong> It&rsquo;s a world where everyone had their own <a href="/experiments/100posts/personal-panopticon">personal panopticon</a>, a personal surveillance machine.</p>
+<p>In a world where everyone had this capability, everyone would own the data that they create in any digital context and each object has a permanent record which the creator can ultimately control access to.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> It&rsquo;s giving every digital object access control mechanisms as a base element and sharing access to an object is like granting someone else access to that piece of data in their own panopticon. Maybe there are default permissions set for new creations in different contexts. For example, text messages that I send would be owned by me and access permissions automatically propagated to anyone else in that conversation as well. While snaps sent on the platform, Snapchat, might only be temporary, any snaps we create and send would be automatically syndicated into our panopticon, available for us to browse and peruse later. If we take this concept to the extreme, platforms might be forced to avoid storing any personal data by default, to ensure ephemerality. We own our own data and give companies access to select portions when needed (or all of it if we trust them).</p>
+<p>In this world, things can be ephemeral by default, but all of the content we produce is automatically always available to us. Plus, there are mechanisms to attribute and share content with the whole squad. Would you feel safe knowing that the digital objects you create are permanently stored but only by you?</p>
+<p>Is this the <a href="/experiments/100posts/future-of-tools">future of web 3</a>? A digital world in which all the artifacts we create are justifiably owned by us, as authors of our own digital universes, and free for us to share and manipulate as we please? Everything we create on digital platforms are automatically digital tokens owned by us. <strong>The atomic unit of the web becomes content and media, and we gain a fundamental action of sharing and managing access to these blocks of media.</strong></p>
+<p>Some worries might be that this takes away from the actual safety that ephemerality provides by even giving the doorway to permanence for a lot of things. Taking a skeptical lens, you might say that people would naturally start behaving differently, more formal and curated rather than their raw authentic selves because of the possibility for permanence. I&rsquo;m not sure, but I know we won&rsquo;t find out unless we try&hellip;</p>
+<hr>
+<p><em>This is the <strong>95th</strong> installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list <a href="/experiments/100posts/">here</a></em>.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Literally the day after I wrote this piece I found <a href="https://solidproject.org/">Solid</a>, which is a protocol for decentralized storage that seems meant to do exactly this? Users store data in Pods, which are decentralized storage units and are then able to grant different access controls to different applications and users (i.e. give permission to my bank to read my phone number from here). Need to explore more, but the philosophy is definitely aligned.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+  </div>
+</div>
+<footer>
+    <hr/>
+    
+<div class="postFooter">
+  <p>I write for emotional resonance and thought provoking, so please <a href="https://twitter.com/@spencerc99">message me</a> (<a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if you have thoughts :)</span>
+  <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
+</div>
+
+<div class="shareCta">
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    
+      <button class="icon" href="" onclick="copyLink(&#34;https://www.spencerchang.me/experiments/100posts/ephemeral-permanence/&#34;)"><i class="uil uil-link-h" ></i> Copy Link</button>
+    
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="ephemeral permanence: an exploration of the future of digital data"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Related Posts</h3>
+<div class="relatedPosts">
+    
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.17.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/personal-panopticon-mini-37100" target="_blank">37 - personal panopticon</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">04.19.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/zoom-fatigue-and-low-pressure-contexts" target="_blank">7 - zoom fatigue and low pressure contexts</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">11.12.21</span>
+          
+              // 374 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/allure-of-ephemerality/">83 - allure of ephemerality</a>
+        
+      </h2>   
+    <div class="postSummary">
+      In the web3 world, where everything is permanent, stored on-chain forever. This chaotic, ephemeral process of creation is especially compelling. It harkens to the instability of the current Internet&hellip;
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.05.21</span>
+          
+              // 973 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/future-of-tools/">90 - future of tools</a>
+        
+      </h2>   
+    <div class="postSummary">
+      What is the future of the tools we use every day, and will web3 push them to become more community-led and empowering or will it force unnecessary structure and unwelcome incentives into a relatively &ldquo;innocent&rdquo; space?
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+</div>
+
+
+
+<br/>
+<div><i>back to my <a href="/">favorites</a> or <a href="/posts">all my writing</a>.</i></div>
+<script src="/plugins/permalink/permalink.js"></script>
+
+</footer>
+<script>
+  
+  function scrollProgressBar() {
+    var getMax = function () {
+      return $(document).height() - $(window).height();
+    };
+
+    var getValue = function () {
+      return $(window).scrollTop();
+    };
+
+    var progressBar = $(".progress-bar"),
+      max = getMax(),
+      value,
+      width;
+
+    var getWidth = function () {
+      
+      value = getValue();
+      width = (value / max) * 100;
+      width = width + "%";
+      return width;
+    };
+
+    var setWidth = function () {
+      progressBar.css({ width: getWidth() });
+    };
+
+    $(document).on("scroll", setWidth);
+    $(window).on("resize", function () {
+      
+      max = getMax();
+      setWidth();
+    });
+  }
+  $(document).ready(function () {
+    scrollProgressBar();
+  });
+</script>
+
+
+        </div>
+        
+        
+        
+        
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>

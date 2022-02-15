@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>leverage</title>
+    <meta name="description"
+        content="prioritizing the tasks that maximize the impact to time/effort input ratio. " />
+    <meta name="keywords"
+        content="" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/experiments/100posts/leverage/" />
+    <meta property="og:title" content="leverage" />
+    <meta property="og:description" content="prioritizing the tasks that maximize the impact to time/effort input ratio. " />
+    <meta property="og:image" content="https://www.spencerchang.me" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="leverage" />
+    <meta name="twitter:description" value="prioritizing the tasks that maximize the impact to time/effort input ratio. " />
+    <meta name="twitter:image" content="https://www.spencerchang.me" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/experiments/100posts/leverage/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='October 27, 2021' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="2 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+         
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
+<div class="headerContainer"></div>
+
+        
+        <div class="mainContainer">
+            
+<div class="postContainer ">
+  <div class="post meta">
+    
+    <span class="postDate">10.27.2021</span>
+    
+    
+    
+  </div>
+  <h1 class="title">leverage 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis =  null ;
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+  <h3 class="description">prioritizing the tasks that maximize the impact to time/effort input ratio.</h3>
+  <div>
+    <div class="postContent">
+      
+      
+      <p>I&rsquo;ve been realizing more and more lately how important it is to pay attention to the leverage of actions that you chosoe to spend time on. As I&rsquo;m finding that I have more ideas to explore and initiatives to push forward and visions to realize <a href="/experiments/100posts/nows-focus">than I have time</a>, I&rsquo;m figuring out how to prioritize the tasks that maximize the impact to time/effort input ratio.</p>
+<p>A big step forward was becoming comfortable with handing projects off and trusting others to take them on. I have this OCD-like gripe around handing off things that I know exactly how it should be done, and this week has been a good reset and test for training my ability to successfully onboard others and explore other higher leverage ways for me to contribute. I haven&rsquo;t been coding too much in the past few days for work because there&rsquo;s a product writeuyp, design review, and future-looking efforts that have felt more pressing to me. Before I worried that because my core competency and &ldquo;job title&rdquo; is engineering, it wouldn&rsquo;t make sense if I wasn&rsquo;t actually contributing to execution (whether coding or designing a new project, etc.), and I&rsquo;m slowly becoming more comfortable with trusting my gut for where my time is best spent to push the team forward.</p>
+<p>I&rsquo;m curious to explore how to more quickly judge projects and ideas for their potential impact and alignment with my core values and how to quickly identify the  highest leverage items and how many of those are needed for demonstrating the core of the idea before reaching diminishing returns of time invested.</p>
+<p>For now, I&rsquo;m listening intently to my natural sense of fun and play. I&rsquo;m choosing to optimize where I&rsquo;ll have fun and naturally have boundless energy to direct my time, with a little nudge towards what feels to be higher leverage (I think I naturally tend to think those are more fun too given that they are underinvested areas).</p>
+<hr>
+<p><em>This is the <strong>77th</strong> installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list <a href="/experiments/100posts/">here</a></em>.</p>
+
+    </div>
+  </div>
+</div>
+<footer>
+    <hr/>
+    
+<div class="postFooter">
+  <p>I write for emotional resonance and thought provoking, so please <a href="https://twitter.com/@spencerc99">message me</a> (<a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if you have thoughts :)</span>
+  <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
+</div>
+
+<div class="shareCta">
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    
+      <button class="icon" href="" onclick="copyLink(&#34;https://www.spencerchang.me/experiments/100posts/leverage/&#34;)"><i class="uil uil-link-h" ></i> Copy Link</button>
+    
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="leverage"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<h3>Related Posts</h3>
+<div class="relatedPosts">
+    
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.15.21</span>
+          
+              // 422 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/nows-focus/">49 - now&#39;s focus</a>
+        
+      </h2>   
+    <div class="postSummary">
+      I&rsquo;m splitting time between a lot of different projects. There isn&rsquo;t enough time for all of this and the switching cost is taking its toll. I need to learn how to get really good at picking off one piece at a time and making a difference as I can.
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.25.21</span>
+          
+              // 334 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/urgency/">76 - urgency</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Urgency is important because it imbues energy
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.24.21</span>
+          
+              // 463 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/luca/">75 - luca</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Silencio Bruno means betting on yourself, trusting yourself to do whatever is needed to push you towards a brighter future and a stronger you.
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.22.21</span>
+          
+              // 251 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/bad-vibes/">74 - bad vibes</a>
+        
+      </h2>   
+    <div class="postSummary">
+      you can be a nice guy while not understanding the vibes
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+</div>
+
+
+
+<br/>
+<div><i>back to my <a href="/">favorites</a> or <a href="/posts">all my writing</a>.</i></div>
+<script src="/plugins/permalink/permalink.js"></script>
+
+</footer>
+<script>
+  
+  function scrollProgressBar() {
+    var getMax = function () {
+      return $(document).height() - $(window).height();
+    };
+
+    var getValue = function () {
+      return $(window).scrollTop();
+    };
+
+    var progressBar = $(".progress-bar"),
+      max = getMax(),
+      value,
+      width;
+
+    var getWidth = function () {
+      
+      value = getValue();
+      width = (value / max) * 100;
+      width = width + "%";
+      return width;
+    };
+
+    var setWidth = function () {
+      progressBar.css({ width: getWidth() });
+    };
+
+    $(document).on("scroll", setWidth);
+    $(window).on("resize", function () {
+      
+      max = getMax();
+      setWidth();
+    });
+  }
+  $(document).ready(function () {
+    scrollProgressBar();
+  });
+</script>
+
+
+        </div>
+        
+        
+        
+        
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>opportunity</title>
+    <meta name="description"
+        content="I never want to tone down my intensity or dilute my flavor for the sake of others." />
+    <meta name="keywords"
+        content="" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/experiments/100posts/opportunity/" />
+    <meta property="og:title" content="opportunity" />
+    <meta property="og:description" content="I never want to tone down my intensity or dilute my flavor for the sake of others." />
+    <meta property="og:image" content="https://www.spencerchang.me" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="opportunity" />
+    <meta name="twitter:description" value="I never want to tone down my intensity or dilute my flavor for the sake of others." />
+    <meta name="twitter:image" content="https://www.spencerchang.me" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/experiments/100posts/opportunity/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='October 1, 2021' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="4 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+         
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
+<div class="headerContainer"></div>
+
+        
+        <div class="mainContainer">
+            
+<div class="postContainer ">
+  <div class="post meta">
+    
+    <span class="postDate">10.01.2021</span>
+    
+    
+    
+  </div>
+  <h1 class="title">opportunity 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis =  null ;
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+  <h3 class="description">I never want to tone down my intensity or dilute my flavor for the sake of others.</h3>
+  <div>
+    <div class="postContent">
+      
+      
+      <p>I was talking with Ray today about how the biggest thing I&rsquo;m working on right now is acting on instinct, doing before thinking, <a href="https://spencerchang.substack.com/p/fear-mini-47100">trusting</a> myself to get through whatever path I choose in the moment rather than crafting the perfect response to my external stimuli. There&rsquo;s a part of me deep down that <a href="https://spencerchang.substack.com/p/fear-mini-47100">fears</a> failure in these situations, and the higher the stakes, the more I feel the pressure. Interpersonal situations are especially effective at generating anxiety and distrust. As a child, I was incredibly neurotic and introverted. I got stomach aches the night before any high stakes performance, whether it be something I was good at (academic tests) or something I was terrible at (cross-country meets). I&rsquo;ve come a long way since then of being more stable emotionally as well as having a higher and more solid foundation of trust in myself, but lots of people situations still feel scary, even if it&rsquo;s simply notifying that they gave the wrong order.</p>
+<p>I think there&rsquo;s an Asian familial pressure to suck things up, to make do with whatever you have. That philosophy gets internalized as &ldquo;you should never complain&rdquo; or &ldquo;you should act in-line with the the status quo,&rdquo; which ends up stifling your true authentic expression of yourself. My life feels like a journey towards unlearning that instinctual protection mechanism, to allow my authentic self to face the world. A mantra that has stuck with me for a while is to be provocative. I&rsquo;ve lived a lot of my life trying to make everyone &ldquo;like&rdquo; me, and by like I mean <em>not dislike</em> me. That game is one averages, of normalizing yourself to the most palatable common denominator. It&rsquo;s like when Asian dishes get toned down in spice level until they&rsquo;re bland. I was striving to be a bland dan dan noodle, when it&rsquo;s <em>so much</em> better to be full of flavor, even if it alienates some people. It&rsquo;s natural to have people you vibe with and people you don&rsquo;t, and I&rsquo;ve been forcing myself to be more <a href="https://spencerchang.substack.com/p/finding-texture">textured</a>, more weird, more shameless in my presentation of myself.</p>
+<p>I want to eliminate that layer of translation most people have between their inner thoughts and feelins and the person who they present externally. We&rsquo;re constantly doing so much work to compensate and pretend to be someone that&rsquo;s different from who we are, while toning down so much of what makes us great. I never want to tone down <a href="https://spencerchang.substack.com/p/dauntlessness-mini-24100">my intensity</a> or dilute my flavor for the sake of others.</p>
+<p>Ray gave a good idea for how I can force myself to act, especially in those high-stakes situations where that thought simmers in my head for a long time before I actually do it. I&rsquo;m going to institute a 10-second countdown where I consider whether it&rsquo;s something I actually want and if so, do it. It sounds so simple, but there&rsquo;s some sort of gap between what my mind says &ldquo;I want&rdquo; and what my body <em>feels</em> is right to do. I think my body is just so used to inaction that its natural state is to protest against taking aciton when it doesn&rsquo;t have to. It&rsquo;s a nice addition I&rsquo;m hoping to augment my <a href="/posts/gambling/">gambling</a> <a href="/posts/commitment-and-obligation/">commitment</a>.</p>
+<p>Another intentional thing I want to do is be more free with my compliments. It&rsquo;s something I&rsquo;ve already noticed coming up as a good opportunity for practicing this action-oriented true expression, where I&rsquo;ll think of something nice of someone and need to force myself to actually express it to them. I&rsquo;ve <a href="https://spencerchang.substack.com/p/kindness-journal-mini-43100">written that</a> &ldquo;compliments are one of the few things that are infinite energy machines,&rdquo; and I&rsquo;ve been exploring more ways to scale that producer of happiness. It&rsquo;s also a good intersection with my challenge because the more attractive the person, the higher the pressure I feel on actually taking action.</p>
+<h2 id="i-explore-this-more-in-the-next-essayexperiments100postsintensity-for-this-experiment">I explore this more in the <a href="/experiments/100posts/intensity">next essay</a> for this experiment.</h2>
+<p><em>This is the <strong>61st</strong> installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list <a href="/experiments/100posts/">here</a></em>.</p>
+
+    </div>
+  </div>
+</div>
+<footer>
+    <hr/>
+    
+<div class="postFooter">
+  <p>I write for emotional resonance and thought provoking, so please <a href="https://twitter.com/@spencerc99">message me</a> (<a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if you have thoughts :)</span>
+  <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
+</div>
+
+<div class="shareCta">
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    
+      <button class="icon" href="" onclick="copyLink(&#34;https://www.spencerchang.me/experiments/100posts/opportunity/&#34;)"><i class="uil uil-link-h" ></i> Copy Link</button>
+    
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="opportunity"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Related Posts</h3>
+<div class="relatedPosts">
+    
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">01.01.21</span>
+          
+              // 2390 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/gambling/">Gambling on Dreams</a>
+        
+      </h2>   
+    <div class="postSummary">
+      ✌️2020 | 👋2021.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/gambling/images/apocalypse_huef52fdcfb95ecc822aa52cec8adcfd6a_1240735_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">05.23.21</span>
+          
+              // 1639 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/commitment-and-obligation/">commitment and obligation</a>
+        
+      </h2>   
+    <div class="postSummary">
+      I was taught that hard work would bring you riches. That effort was the key to success in whatever you did&hellip;
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/commitment-and-obligation/images/memorial_park_huff766f4cb466061ee1a9b11bc12815ce_9108462_400x0_resize_box_3.png" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.02.21</span>
+          
+              // 446 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/intensity/">62 - intensity</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Intensity means that you&rsquo;re living and experiencing more of the life that&rsquo;s passing by around you.
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.29.21</span>
+          
+              // 98 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/internet-of-empty-promises/">60 - internet of empty promises</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Link rot kills our digital history
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+</div>
+
+
+
+<br/>
+<div><i>back to my <a href="/">favorites</a> or <a href="/posts">all my writing</a>.</i></div>
+<script src="/plugins/permalink/permalink.js"></script>
+
+</footer>
+<script>
+  
+  function scrollProgressBar() {
+    var getMax = function () {
+      return $(document).height() - $(window).height();
+    };
+
+    var getValue = function () {
+      return $(window).scrollTop();
+    };
+
+    var progressBar = $(".progress-bar"),
+      max = getMax(),
+      value,
+      width;
+
+    var getWidth = function () {
+      
+      value = getValue();
+      width = (value / max) * 100;
+      width = width + "%";
+      return width;
+    };
+
+    var setWidth = function () {
+      progressBar.css({ width: getWidth() });
+    };
+
+    $(document).on("scroll", setWidth);
+    $(window).on("resize", function () {
+      
+      max = getMax();
+      setWidth();
+    });
+  }
+  $(document).ready(function () {
+    scrollProgressBar();
+  });
+</script>
+
+
+        </div>
+        
+        
+        
+        
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>

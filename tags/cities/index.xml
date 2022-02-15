@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cities on Spencer Chang</title>
+    <link>https://www.spencerchang.me/tags/cities/</link>
+    <description>Recent content in cities on Spencer Chang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.spencerchang.me/tags/cities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Liminal Illusions</title>
+      <link>https://www.spencerchang.me/posts/liminal-illusions/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/posts/liminal-illusions/</guid>
+      <description>This is a collage of several journals (composed at various levels of drunkenness) over the past weekend in Vegas, and my post-trip reflections from immersing myself in that environment.
+Liminality is defined as the quality of transition between one destination and the next. It’s a state of being that feels unnatural because it’s meant to be temporary. Liminal states and places are defined only by their beginning and end—they have no meaning in absence of their composite destinations.</description>
+    </item>
+    
+    <item>
+      <title>do more, be more</title>
+      <link>https://www.spencerchang.me/experiments/100posts/do-more-be-more/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/do-more-be-more/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

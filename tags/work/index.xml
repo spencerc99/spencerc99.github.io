@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>work on Spencer Chang</title>
+    <link>https://www.spencerchang.me/tags/work/</link>
+    <description>Recent content in work on Spencer Chang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.spencerchang.me/tags/work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rituals at Scale: How we remixed templates</title>
+      <link>https://www.spencerchang.me/posts/rituals-remixing/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/posts/rituals-remixing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

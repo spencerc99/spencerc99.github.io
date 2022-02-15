@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>poetry on Spencer Chang</title>
+    <link>https://www.spencerchang.me/tags/poetry/</link>
+    <description>Recent content in poetry on Spencer Chang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.spencerchang.me/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>boundless shapeshifters</title>
+      <link>https://www.spencerchang.me/posts/boundless-shapeshifters/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/posts/boundless-shapeshifters/</guid>
+      <description>54 Views by Tsherin Sherpa
+   - spencer chang
+  const poem = ` * Texts * Melodies * clear notes * clear notes, interdependent chords * clear notes, interdependent chords, harmonic tones * for * words * communes of * letters * curving letters * curving, elegant letters * curving, elegant, giving letters * are * boundless shapeshifters, * boundless shapeshifters (technicolor chameleons), * boundless shapeshifters (technicolor chameleons, expanding universes), * boundless shapeshifters (technicolor chameleons, expanding universes, vibrant dancers), * zealous freedom fighters, * zealous freedom fighters, champions of liberty, * zealous freedom fighters, champions of liberty, harbingers of divinity * sacred * sacred (laden with gravitas) * sacred (laden with gravitas, revered by followers) * sacred (laden with gravitas, revered by followers, imparts visceral feeling) * holders of space * holders of space and keepers of time * holders of space and keepers of time and protectors of life`; const node = createTelescopicTextFromBulletedList(poem); const container = document.</description>
+    </item>
+    
+    <item>
+      <title>amulets</title>
+      <link>https://www.spencerchang.me/experiments/100posts/amulets/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/amulets/</guid>
+      <description>I&amp;rsquo;ve been experimenting with Amulets, Robin Sloan&amp;rsquo;s1 NFT project, recently. The basic idea of the project is that anyone can find &amp;ldquo;amulets&amp;rdquo; and then optionally choose to mint them (with an additional operation required to make it &amp;ldquo;public&amp;rdquo; and a unenforceable requirement that a link to a carbon offset is also provided). These amulets are &amp;ldquo;poems&amp;rdquo; that satisfy a specific constraint, that they are under 64 bytes and the SHA-256 hex hash of the poem has four or more 8s in a row.</description>
+    </item>
+    
+    <item>
+      <title>two toned</title>
+      <link>https://www.spencerchang.me/experiments/100posts/two-toned/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/two-toned/</guid>
+      <description>Dissonance,
+uninhibited heights
+cooled by night
+Whispers
+urgently pressed
+to reconcile minds
+Outbursts
+Melodic giggles
+chasing timeless moments
+Silences
+Tension dripping
+Pillows smothered down
+Two-toned
+Tense light
+tale of life.
+ This is the 88th installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list here.</description>
+    </item>
+    
+    <item>
+      <title>conviction</title>
+      <link>https://www.spencerchang.me/experiments/100posts/conviction/</link>
+      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/conviction/</guid>
+      <description>Trust yourself when the weather turns.
+Press forward even as cloudy omens loom.
+Have conviction especially as the arrows eclipse the sky.
+When Danger approaches,
+Wrap yourself in Conviction to
+Ward away the evil.
+Impish whispers urge quitting.
+Steel your heart with your cowardice—
+Fear: perfect for hardening resolve.
+ This is the 80th installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces.</description>
+    </item>
+    
+    <item>
+      <title>pitter patter</title>
+      <link>https://www.spencerchang.me/experiments/100posts/pitter-patter/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/pitter-patter/</guid>
+      <description>a couple poems on this rainy SF day.
+pitter patter pitter patter
+the droplets race
+pitter patter
+the ground laced
+pitter patter
+the humans hide
+pitter patter
+as the oceans stride
+nothing to see tingling fingers,
+pinching innards
+disconnect feelings
+and entangle urges
+trying to run
+begets walking;
+trying to sing
+begets croaking
+willing to be
+leaves nothing to see.
+ This is the 73rd installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces.</description>
+    </item>
+    
+    <item>
+      <title>ablaze heart</title>
+      <link>https://www.spencerchang.me/experiments/100posts/ablaze-heart/</link>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/ablaze-heart/</guid>
+      <description>Found some inspiring poetry lately so will be forcing myself to do more in the next couple weeks :)
+&amp;ldquo;One&amp;rsquo;s true character shows
+when the storm comes knocking,
+when they&amp;rsquo;re pressed to a wall,
+or caught by a trap.
+When plans fall through
+and dangers come to rest,
+the act falls away,
+the heart&amp;rsquo;s all that&amp;rsquo;s left.
+We long for heroes
+in our life of normals.
+We yearn for the extraordinary</description>
+    </item>
+    
+    <item>
+      <title>compliments</title>
+      <link>https://www.spencerchang.me/experiments/100posts/compliments/</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/compliments/</guid>
+      <description>rising lights shining
+bright. reaching out beyond the
+high, of second sky
+that idea about compliments compliments are free energy i actually wrote about in a previous entry on kindness journals, which is wild because it means this experiment is proving its use by giving me a trail of my mental exploration.
+ This is the 53rd installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces.</description>
+    </item>
+    
+    <item>
+      <title>pitiful rage</title>
+      <link>https://www.spencerchang.me/experiments/100posts/pitiful-rage/</link>
+      <pubDate>Sat, 28 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/pitiful-rage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>weary faces</title>
+      <link>https://www.spencerchang.me/experiments/100posts/weary-faces/</link>
+      <pubDate>Thu, 19 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/experiments/100posts/weary-faces/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>the gaps</title>
+      <link>https://www.spencerchang.me/posts/the-gaps/</link>
+      <pubDate>Fri, 16 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/posts/the-gaps/</guid>
+      <description>thumping beats, reverberating ground a ritualized welcome or a dreadful threat to the entrants strangers and substances a perfect match for forgotten nights and regrettable fights the empty spaces of life those gaps in the space between the lived and the unlivable between the vocalized and the omitted water surges from within to fill those that make us ache with the rhythm of that fateful beat, that make us rage with the hot fury of those substances’ burn I reach out for the spaces yet they reach away an infinite chase, head after tail a still, pristine lake above a single drop triggers the climax below These gaps exist to be reached Yes, we live for reaching but oh!</description>
+    </item>
+    
+    <item>
+      <title>a twinkle</title>
+      <link>https://www.spencerchang.me/posts/a-twinkle/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.spencerchang.me/posts/a-twinkle/</guid>
+      <description>A shaft of moonlight pierces the curtain
+In my concrete abode, a flare lighting the way out
+The ephemeral promise draws me
+like a firefly I seek my hopes.
+The defeaning chorus of cicadas
+consumes me in the darkness.
+Out in the fields, the grains cultivated
+What was promised eclipses the night
+A permanent night light bathes me
+as the swarm of stars engulfs me
+from the infinite black canvas above</description>
+    </item>
+    
+  </channel>
+</rss>

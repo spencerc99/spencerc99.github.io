@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>Making the “Right” Decisions</title>
+    <meta name="description"
+        content="What happens when a majority of things that were &#34;right&#34; are now wrong?" />
+    <meta name="keywords"
+        content="decisions" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/posts/right-decisions/" />
+    <meta property="og:title" content="Making the “Right” Decisions" />
+    <meta property="og:description" content="What happens when a majority of things that were &#34;right&#34; are now wrong?" />
+    <meta property="og:image" content="https://www.spencerchang.me/posts/right-decisions/images/seals.jpg" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="Making the “Right” Decisions" />
+    <meta name="twitter:description" value="What happens when a majority of things that were &#34;right&#34; are now wrong?" />
+    <meta name="twitter:image" content="https://www.spencerchang.me/posts/right-decisions/images/seals.jpg" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/posts/right-decisions/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='July 27, 2020' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="10 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+         
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
+<div class="headerContainer"></div>
+
+        
+        <div class="mainContainer">
+            
+<div class="postContainer ">
+  <div class="post meta">
+    
+    <span class="postDate">07.27.2020</span>
+    
+    
+    
+  </div>
+  <h1 class="title">Making the “Right” Decisions 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis =  null ;
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+  <h3 class="description">What happens when a majority of things that were &ldquo;right&rdquo; are now wrong?</h3>
+  <div>
+    <div class="postContent">
+      
+      
+      <figure class="fullWidth"><img src="images/seals.jpg"
+         alt="A mother and cub flourishing in the remains of a whaling station in Grytviken&amp;ndash;an example of something &amp;ldquo;right&amp;rdquo; becoming wrong. (for more)"/><figcaption>
+            <p>A mother and cub flourishing in the remains of a whaling station in Grytviken&ndash;an example of something &ldquo;right&rdquo; becoming wrong. (<a href="https://www.instagram.com/spencerchang.photography/">for more</a>)</p>
+        </figcaption>
+</figure>
+
+<p>Growing up, I strove to do all the “right” things. I was told that doing well in school was good, so I studied, toiled, and recited for good grades. I was told that being polite and obedient was proper, so I sucked up my protests and did what was demanded of me without question. I was told that success was defined by your title, so I let go of my fantastical stories about toast-loving aliens and impassioned roleplaying of cardboard-swinging heroes to make way for “respected” career paths like memorizing <em>the mitochondria is the powerhouse of the cell</em>. For each case, it wasn’t one or a group of people explicitly confronting me that engrained this in my mind (although there was definitely quite a bit of that too); sometimes that voice even came from withinーrepeating what I thought was more right than what I believed myself. Instead, it was the result of growing up in a cultural environment built around these specific values: an environment where the explicit rules for these values were implicitly established in the actions and attitudes of everyone around me. All through life these invisible rules bind us to stay on track for a set of hidden scores that define how successfully we stack up in the leaderboard of life. Everything we do depends on this framework of what is right, formed by our <a href="https://www.wineverygame.com/words/milieu.html">milieus</a>. Even the language I’m using for this paragraph is affectedーto the point that I have to liberally quote unquote words when their meaning can vary widely depending on the context.</p>
+<p>When I reached college, I found myself surrounded by so many people with dedicated passions, from bioengineering to the intricacies of hip hop dance. I realized that good grades didn’t matter if I didn’t enjoy what I was doing, so I changed my course in search of a similar passion that I could dedicate myself to. This kind of event represents a rare watershed moment in the definition of our engrained rules, governing what is “right.” As we grow up, these sorts of watershed moments pop up periodically, like a rare changing of the tide, pushing in an updated set of those invisible rules and washing away the outdated inscriptions. In this particular case, the “get good grades” rule was subsumed by the “follow your passion” rule, and that resulted in a radical change in my actual decision-making across the spectrumーwhich classes I took and how much time I spent on classwork, who I hung out with, and what I pursued in my free time. In forcing a very different perspective through which to view life, these periodic moments of shifting truth are natural and healthy, resulting in a multi-faceted and ever-evolving idea of what is desirable.</p>
+<p>These shifts derived from our milieus are changing. When I moved to an entirely new environmentーthe wild and magical and confusing jungle that is university lifeーall my tried and true heuristics for making the right decision on autopilot become inapplicable. I was like an animal interrupted by a person in the wild, wary of alarming behavior and waiting for some kind of signal to understand intentions before committing to a course of action<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. These rules that we carry with us are directly formed by what everyone around us says and does. We pick up little signals about what the “right” way of doing things is from those that have memorized the accepted ritualsーthose incumbent inhabitants who live and breathe the new, <em>right</em> ways, regardless of how they came inーfor the sake of blending in. Everyone’s instinct to adapt their rules to their new environment varies in how intensely and quickly it changes their behavior, but we can’t help but pick up unconscious behavior cues from the actions we experience in and out. Pretty soon, those cheesy college cheers are passionate battle cries, the maddeningly unintuitive slang for buildings on campus are the ultimate navigation tools, and maybe that quirky roommate with the strangest habits becomes your best friend. The new becomes the expected, while the tide ever changes.</p>
+<p>We’re experiencing an unprecedented event in the tide. A natural disaster broke the natural cadence. In the new year, there was a tsunami cresting the horizon even if we couldn’t see it. It wasn’t the natural push and pull of the tide that we had gotten used to. When COVID-19 made landfall for the world in the spring, it was too late to prepare for the disaster. Our learned trust of the tide left us vulnerable, and the aftermath was devastating to our ruleset. All of a sudden, most of our rules that governed what was <em>right</em> were called into question. To make things worse, there wasn’t even an agreed-upon set of new rules to adapt to because they were being made up as we went.</p>
+<blockquote>
+<p>In our current crisis, there’s been a recurring theme in the lack of, fabrication of, and revision of information, even among reputable news sources. Should we <a href="https://www.theatlantic.com/health/archive/2020/04/coronavirus-pandemic-airborne-go-outside-masks/609235/">wear masks</a>? Should we <a href="https://www.cnn.com/travel/article/hiking-beach-coronavirus/index.html">go hike</a>? Should we <a href="https://www.click2houston.com/news/local/2020/02/24/heres-how-you-can-show-your-support-for-chinatown-and-get-a-free-beer/">go out to eat</a> to support local restaurants? Is the <a href="https://www.nytimes.com/2020/03/07/world/asia/china-coronavirus-cost.html">cure worse than the disease</a>? The “right answers” to these questions have changed a lot over the past month, and &hellip; there’s still a lot of open questions that make the answers murkier.<br>
+ー <a href="/posts/war-of-intentions/">The War of Intentions and Beliefs</a></p>
+</blockquote>
+<p>Even disregarding how to deal with the virus itself, there’s a severe dearth in clarity <em>everywhere</em>. A lot of society shifted from a daily grind of red lights and honking horns to a purely work from home environment; from treasuring unscheduled breaks to enjoy Netflix to grasping for something, anything <em>new</em> to sink time into <a href="https://www.vox.com/the-highlight/2020/5/19/21221008/how-to-bake-bread-pandemic-yeast-flour-baking-ken-forkish-claire-saffitz">just to feel something</a>; and from looking forward to the final year of college to wondering whether full tuition for a remote degree is even worth it. These kinds of shifts won’t evaporate anytime soon, and people’s rules have done a 180 to accommodate options that would’ve sounded crazy a few months ago: uprooting away from the black hole of money that is San Francisco to a charming mountain-side destination in Idaho, mass purchasing of computer parts, ukuleles, and sourdough starters from Amazon, and taking time off from school to try new shit.</p>
+
+
+
+
+
+
+
+<div class="galleryContainer centered fullWidth">
+    <div class="galleryContentContainer">
+    
+    <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/posts/right-decisions/images/bread/bread-1.jpg" itemprop="contentUrl" data-size="3024x3200" >
+                <img src="https://www.spencerchang.me/posts/right-decisions/images/bread/bread-1_hu08bc2fecd6e81621bb9c1d7b7b27c2a1_3193845_320x0_resize_q75_box.jpg" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                    
+                        
+                        
+                        Taken on 05.16.2020
+                        
+                    
+                    
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/posts/right-decisions/images/bread/bread-2.jpg" itemprop="contentUrl" data-size="4032x3024" >
+                <img src="https://www.spencerchang.me/posts/right-decisions/images/bread/bread-2_huc3535e48c461f1217c87051b2caf0531_2156086_320x0_resize_q75_box.jpg" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                    
+                        
+                        
+                        Taken on 05.25.2020
+                        
+                    
+                    
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+    </div>
+    
+    <div class="galleryCaption"><em>why yes, I also dabbled in doughy creations</em></div>
+    
+    </div>
+</div>
+
+<p>In this intense fracturing of what is “right” in our lives, we’ve lost the guard rails which have sheltered us from the terrifying precipice we teeter above all our lives. Suddenly, it’s like we’re standing above one of those spotless glasses in a very tall skyscraper, wondering just how secure the glass <em>really</em> is. We’re consumed by a wave of fears and <em>what-ifs</em> that have been conveniently hidden from us this entire time. In this kind of environment, it’s not surprising that many have had existential-like crises during this rapid changing of everyday and expected life, everything from questioning the necessity of haircuts to the meaning of life. Things that were normally far outside the realm of possibility have become very tangible and practical options, while choices that were <em>right</em> in the past are now wrong on all kinds of new criteria. For some, this means considering what constitutes a fulfilling career; for others, this means evaluating what is valued in a friendship or community. For yet others, this means reconsidering their <a href="https://www.nytimes.com/2020/05/16/world/asia/coronavirus-japan-household-work.html">role in a family</a>. For me, it means I spent an entire afternoon convinced that spending a year starting over in Taiwan was the only path forward<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Tolstoy discovered this sensation, a sudden awareness of the precipice we hang over, in a dream after he had grappled with the meaning of his existence, progressing from individual pursuits to submitting to an <em>unknowable</em> ultimate truth before settling on seeking the point where things are <em>incomprehensible</em> to human intellect by their very nature.</p>
+<blockquote>
+<p>And I began to look around and first of all to look down in the direction which my body was hanging and whiter I felt I must soon fall&hellip;. I was not only at a height comparable to the height of the highest towers or mountains, but at a height such as I could never have imagined&hellip;. To look thither was terrible&hellip;. But not to look was still worse, for I thought of what would happen to me directly I fell from the last support.<br>
+ー <a href="https://www.goodreads.com/book/show/26244.A_Confession">A Confession</a> by Leo Tolstoy</p>
+</blockquote>
+<p>When it seems like no one <em>really</em> knows what’s going on, the <em>rules</em> we’ve always relied on are no longer legitimate nor clear. We’re left with nothing concrete to lean on besides ourselves. Our existence and being is the one thing that feels <em>solid.</em> Something that can’t be taken away from us regardless of what’s happening in the world or how drastically society shifts. We’re left to rely on our own inner conviction about what is <em>right</em> for us to think, value, and do. And while we want to look away and pretend like nothing has changed, a little feeling continues to gnaw inside, occasionally chirping <em>lookie here!.</em> It’s liberating because it’s something we’ve never had the freedom to experience. Yet, it’s simultaneously terrifying because it’s something we’ve never had the misfortune to experience<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. Freedom is a double edged sword. We aren’t held by strict, external notions of what is right anymore, but we’re also subject to questioning formerly no-brainer decisions. What do we do with the power and responsibility that we’ve never had the opportunity to practice using properly?</p>
+<p>The only thing we really can do is form our own concept of what is right. When the overarching <em>Meaning</em> ascribed to things by our institutions and society is gone or, at least, significantly less legitimate, we’re left to make our own <em>meaning</em> out of our lives<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. The endless possibilities are overwhelming, but a small, tight-knit community can form a communal set of rules that aligns with personal values more so than the Rules that we’ve always reluctantly lived by ever did.</p>
+<p>What happens when, in the midst of making up our own rules for what is <em>right</em> and what is not, we come into conflict with other people’s concepts of what is right, both when they are flat out contradictory and when they don’t go far enough? How do we productively reconcile the splintering of values from a largely cohesive unit into millions of niche thought communities? Has this fracturing of societal <em>Rules</em> been trending upwards even before COVID-19? These set of questions help frame what I intend to explore next.</p>
+<p>And with that, I’ve reached my new rule of not going beyond a 10 min reading time for most of my articles because even my dad admitted to not being able to concentrate long enough to get through my recent <a href="/posts/war-of-intentions/">27 min beast</a> 😅. If the final set of questions interest you (or if you feel obliged to do so by the transactional nature of the Internet milieu), follow me on your preferred channel (or sign up for my <a href="https://spencerchang.substack.com/p/coming-soon?r=2037y&amp;utm_campaign=post&amp;utm_medium=web&amp;utm_source=copy">new newsletter</a>!), and as always, if you have thoughts, especially pieces of substance that you disagree with, my ears are open.</p>
+<p>Thanks to <a href="https://scholar.google.com/citations?hl=en&amp;user=x_GpAaAAAAAJ">Ameesh Shah</a>, <a href="https://lucyblogs.wordpress.com/">Lucy Lai</a>, and <a href="http://nikhilthota.com">Nikhil Thota</a> for their reading, comments, and questions!</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Obviously, my experience in this is one side of the extreme due to being more introverted and having a tendency to want to be accepted socially. The other extreme is going in guns blazing with one’s current personality, but even then, based on the new cultural context, certain rules or heuristics will be invalidated over time if others don’t reinforce or even actively oppose them.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Okay maybe “starting over” is a bit extreme of a characterization, but I did end up deciding that I want to make the investment in living abroad (probably in Taiwan) for a year even if it comes to the detriment of the “right” choices of advancing my career. Even in the short few weeks I spent <a href="/posts/student-to-teacher">teaching English</a> in Taiwan a year ago, I discovered an <a href="/posts/rice-fields/">indescribable feeling of homeliness</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>See the <a href="https://www.ted.com/talks/barry_schwartz_the_paradox_of_choice?language=en">paradox of choice</a> and imagine yourself trying to choose a brand of toothpaste or desk lamp in your local pharmacy or on Amazon. It’s excessively anxiety-inducing.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>This thinking draws a lot upon the philosophy of <a href="https://www.youtube.com/watch?v=MBRqu0YOH14&amp;vl=en">optimistic nihilism</a> (which I largely subscribe to) that accepts <em>nihilism</em> but reframes it as an opportunity to find meaning out of what we experience as meaningful as opposed to what other people tell us to find meaning in. I would say that’s also around where Tolstoy is left off at at the end of <em>A Confession</em> in being hopeful for searching for true meaning, while tempering expectations about what can be understood.&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+  </div>
+</div>
+<footer>
+    <hr/>
+    
+<div class="postFooter">
+  <p>I write for emotional resonance and thought provoking, so please <a href="https://twitter.com/@spencerc99">message me</a> (<a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if you have thoughts :)</span>
+  <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
+</div>
+
+<div class="shareCta">
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    
+      <button class="icon" href="" onclick="copyLink(&#34;https://www.spencerchang.me/posts/right-decisions/&#34;)"><i class="uil uil-link-h" ></i> Copy Link</button>
+    
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="Making the “Right” Decisions"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>Related Posts</h3>
+<div class="relatedPosts">
+    
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">04.19.20</span>
+          
+              // 5660 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/war-of-intentions/">The War of Intentions and Beliefs</a>
+        
+      </h2>   
+    <div class="postSummary">
+      What happens when good intentions are lost, everyone wants to be a hero, and the fight against evil spills over into innocents.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/war-of-intentions/discussion_hu5770d2b7064fe6e813a1aaa8fa62916c_491149_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.06.19</span>
+          
+              // 1937 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/rice-fields/">Rice Fields and Murky Identities</a>
+        
+      </h2>   
+    <div class="postSummary">
+      How an American-born Chinese navigated teaching and living in Taiwan
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/rice-fields/rice-field_hud2fb4e80983b8f3ab68c5fc4317da8ff_1433880_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.26.19</span>
+          
+              // 2048 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/student-to-teacher/">From Student to Teacher</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Stumbling through first principles of education and learning
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/student-to-teacher/classroom_hu668e161d33e271bb5fd572f7147be3dc_1728601_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">06.07.20</span>
+          
+              // 462 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/george-floyd/">George Floyd</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Sharing the photos from the protest I attended last week.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/george-floyd/images/1-20200603-DSC_7875_huad796b6a26a5f0b8b2bc291e479ceb8b_1164107_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+</div>
+
+
+
+<br/>
+<div><i>back to my <a href="/">favorites</a> or <a href="/posts">all my writing</a>.</i></div>
+<script src="/plugins/permalink/permalink.js"></script>
+
+</footer>
+<script>
+  
+  function scrollProgressBar() {
+    var getMax = function () {
+      return $(document).height() - $(window).height();
+    };
+
+    var getValue = function () {
+      return $(window).scrollTop();
+    };
+
+    var progressBar = $(".progress-bar"),
+      max = getMax(),
+      value,
+      width;
+
+    var getWidth = function () {
+      
+      value = getValue();
+      width = (value / max) * 100;
+      width = width + "%";
+      return width;
+    };
+
+    var setWidth = function () {
+      progressBar.css({ width: getWidth() });
+    };
+
+    $(document).on("scroll", setWidth);
+    $(window).on("resize", function () {
+      
+      max = getMax();
+      setWidth();
+    });
+  }
+  $(document).ready(function () {
+    scrollProgressBar();
+  });
+</script>
+
+
+        </div>
+        
+        
+        
+        
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  
+  <div class="pswp__bg"></div>
+  
+  <div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+      <div class="pswp__preloader__icn">
+        <div class="pswp__preloader__cut">
+        <div class="pswp__preloader__donut"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+  </div>
+  <link rel="stylesheet" href="/plugins/photoswipe/photoswipe.css">
+  <link rel="stylesheet" href="/plugins/photoswipe/default-skin/default-skin.css">
+
+  <script src="/plugins/photoswipe/photoswipe.min.js"></script>
+  <script src="/plugins/photoswipe/photoswipe-ui-default.min.js"></script>
+  <script src="/plugins/photoswipe/initphotoswipe.js"></script>
+  <script>initPhotoSwipeFromDOM('.gallery');</script>
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>

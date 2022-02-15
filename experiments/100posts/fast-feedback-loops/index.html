@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>fast feedback loops and perils of convention</title>
+    <meta name="description"
+        content="Why fast feedback loops are important and why convention over configuration makes software feel impossible to change to your own needs" />
+    <meta name="keywords"
+        content="" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/experiments/100posts/fast-feedback-loops/" />
+    <meta property="og:title" content="fast feedback loops and perils of convention" />
+    <meta property="og:description" content="Why fast feedback loops are important and why convention over configuration makes software feel impossible to change to your own needs" />
+    <meta property="og:image" content="https://www.spencerchang.me" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="fast feedback loops and perils of convention" />
+    <meta name="twitter:description" value="Why fast feedback loops are important and why convention over configuration makes software feel impossible to change to your own needs" />
+    <meta name="twitter:image" content="https://www.spencerchang.me" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/experiments/100posts/fast-feedback-loops/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='October 11, 2021' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="4 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+         
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
+<div class="headerContainer"></div>
+
+        
+        <div class="mainContainer">
+            
+<div class="postContainer ">
+  <div class="post meta">
+    
+    <span class="postDate">10.11.2021</span>
+    
+    
+    
+  </div>
+  <h1 class="title">fast feedback loops and perils of convention 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis =  null ;
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+  <h3 class="description">Why fast feedback loops are important and why convention over configuration makes software feel impossible to change to your own needs</h3>
+  <div>
+    <div class="postContent">
+      
+      
+      <p>I had today off too, so I spent the day eating burritos and making some updates to my personal website. I launched my <a href="/fits">fits stream</a> the other day and started sharing it publicly while making some usability and performance improvements that this new project exposed. Few improvements included adding a permalink + a quick way to copy that link to clipboard since people were referencing their favorites by the #. On the performance side, I added lazy loading for the images and added some responsive image handling so that the content wasn&rsquo;t reflowing every time a new image loaded. I tried to do the same for the preview images for my posts, and that&rsquo;s when I ended up in a hell of trying to do a super simple thing in theory which was impossible to execute on in reality.</p>
+<p>I was growing increasingly frustrated with Hugo (the static site generator I use for my website) because there was something I knew was possible and had found many examples of doing so, but I wasn&rsquo;t able to reproduce it properly. It&rsquo;s the most frustrating feeling when you see it working in another place but not when applied to your scenario, and the piece that made me <a href="/newsletter/shaping-the-world">feel powerless</a> was that the feedback loop was pretty broken.</p>
+<p>They have hot-reloading of the site on changes, which in theory, is meant to provide an instant feedback loop. This means that every time you change something in your code, it tries to rebuild the site and reflect it live. Unfortunately, the hinge that sabotages this loop is that any small programming error will block the entire page from compiling with an often unparseable error message. The result is a chaotic trial-and-error, shotgun deubgging, print-every-variable-and-assumption free-for-all. Also because Hugo interpolates things inside HTML, there&rsquo;s no good way to comment out offending blocks as you&rsquo;re debugging. What I end up having to do is deleting the entire line and CMD+Z-ing my way back to the original thing I tried. Eventually, after several increasingly infuriating encounters with blocks of red, I&rsquo;m able to find and correct the incorrect assumption I was making and make progress, but by that point, all my creative energy and motivation has been sapped out of me. The issue is that the process is not fun, and the journey is 85% of the creative process of executing on an idea.</p>
+<p>The added piece of the frustration is that operating Hugo is a bit like operating a black box. There&rsquo;s a lot of things that feel like magic, and there&rsquo;s no good way to peek under the covers because it&rsquo;s all written in Go, a language that is very far from the ones you are operating in for working in the browser. Like magic, when things don&rsquo;t go the way you expect them to, it feels out of your control to fix. <em>I&rsquo;m not a magician</em>, you think to yourself. <em>Better call in the expert</em>. Except—when it&rsquo;s your code, there&rsquo;s no external expert to rely on. The last time I experienced something like this was with Ruby on Rails, which loves to preach this philosophy of <a href="https://en.wikipedia.org/wiki/Convention_over_configuration">convention over configuration</a>. Essentially, it means that things should <em>just work</em> as you <em>expect</em> them to, and only when you want them to work differently from the norm, do you need to specify the deviation. For starting up a complex app, it makes things easy when you work off of templates because so much works from so little, but when you want to customize it to your own use case, regardless how small of a change it <em>feels</em> like it should be, it becomes an impossible task because of all the layers of assumptions that are hidden from you in the name of <em>convention</em>. I&rsquo;m a strong believer in personal, <a href="https://malleable.systems/">malleable software</a>, software that feels like you can hold it in your hands and change it to fit your needs in this very moment, rather than a dinosaur that needs to account for the test of time.</p>
+<hr>
+<p><em>This is the <strong>67th</strong> installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list <a href="/experiments/100posts/">here</a></em>.</p>
+
+    </div>
+  </div>
+</div>
+<footer>
+    <hr/>
+    
+<div class="postFooter">
+  <p>I write for emotional resonance and thought provoking, so please <a href="https://twitter.com/@spencerc99">message me</a> (<a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if you have thoughts :)</span>
+  <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
+</div>
+
+<div class="shareCta">
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    
+      <button class="icon" href="" onclick="copyLink(&#34;https://www.spencerchang.me/experiments/100posts/fast-feedback-loops/&#34;)"><i class="uil uil-link-h" ></i> Copy Link</button>
+    
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="fast feedback loops and perils of convention"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<h3>Related Posts</h3>
+<div class="relatedPosts">
+    
+        
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.12.21</span>
+          
+            // 0 posts
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/fits/">Fits</a>
+        
+      </h2>   
+    <div class="postSummary">
+      A permanent space for my outfits of the day.
+    </div>
+  </div>
+    
+      
+      
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="https://personal-apple-photos.s3.us-west-2.amazonaws.com/fits-stream/2021-06-27_edited.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.29.21</span>
+          
+              // 98 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/internet-of-empty-promises/">60 - internet of empty promises</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Link rot kills our digital history
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.17.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/personal-panopticon-mini-37100" target="_blank">37 - personal panopticon</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+</div>
+
+
+
+<br/>
+<div><i>back to my <a href="/">favorites</a> or <a href="/posts">all my writing</a>.</i></div>
+<script src="/plugins/permalink/permalink.js"></script>
+
+</footer>
+<script>
+  
+  function scrollProgressBar() {
+    var getMax = function () {
+      return $(document).height() - $(window).height();
+    };
+
+    var getValue = function () {
+      return $(window).scrollTop();
+    };
+
+    var progressBar = $(".progress-bar"),
+      max = getMax(),
+      value,
+      width;
+
+    var getWidth = function () {
+      
+      value = getValue();
+      width = (value / max) * 100;
+      width = width + "%";
+      return width;
+    };
+
+    var setWidth = function () {
+      progressBar.css({ width: getWidth() });
+    };
+
+    $(document).on("scroll", setWidth);
+    $(window).on("resize", function () {
+      
+      max = getMax();
+      setWidth();
+    });
+  }
+  $(document).ready(function () {
+    scrollProgressBar();
+  });
+</script>
+
+
+        </div>
+        
+        
+        
+        
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>

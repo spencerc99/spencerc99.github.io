@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>unstoppable expression</title>
+    <meta name="description"
+        content="...like when you get the star in MarioKart—there&#39;s nothing, no one that can stop you from achieving your dreams and realizing your vision." />
+    <meta name="keywords"
+        content="" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/" />
+    <meta property="og:title" content="unstoppable expression" />
+    <meta property="og:description" content="...like when you get the star in MarioKart—there&#39;s nothing, no one that can stop you from achieving your dreams and realizing your vision." />
+    <meta property="og:image" content="https://www.spencerchang.me" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="unstoppable expression" />
+    <meta name="twitter:description" value="...like when you get the star in MarioKart—there&#39;s nothing, no one that can stop you from achieving your dreams and realizing your vision." />
+    <meta name="twitter:image" content="https://www.spencerchang.me" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='October 10, 2021' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="3 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+         
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
+<div class="headerContainer"></div>
+
+        
+        <div class="mainContainer">
+            
+<div class="postContainer ">
+  <div class="post meta">
+    
+    <span class="postDate">10.10.2021</span>
+    
+    
+    
+  </div>
+  <h1 class="title">unstoppable expression 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis =  null ;
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+  <h3 class="description">&hellip;like when you get the star in MarioKart—there&rsquo;s nothing, no one that can stop you from achieving your dreams and realizing your vision.</h3>
+  <div>
+    <div class="postContent">
+      
+      
+      <p>The few moments in my life where I&rsquo;ve felt unstoppable have been seared into my memory because of how <em>powerful</em> I felt in those times. It&rsquo;s the casual air of quiet confidence that I hangs around superheroes or very dedicated craftspeople. I find that the feeling is heavily tied to a skill or craft that you can feel ownership and proficiency in. The confidence is and limitless energy is a natural consequence of the captivation of your whole essence of being. The moment that your body fully gives in to the raw drive to explore this area is when you feel like you can do anything. It&rsquo;s the moment that your internal locus of control expands to infinity, like when you get the star in MarioKart—there&rsquo;s nothing, no one that can stop you from achieving your dreams and realizing your vision.</p>
+<p>I watched the first episode of Blue Period an anime airing this season about a high school student who discovers art as his passion. This student undergoes an existential crisis where he must resolve his inner conflict with being responsible to his duties as well as his internal definition about what he&rsquo;s allowed to like doing (notably art is not while drinking and watching a sports game is) and induling his newfound passion towards creating art. There&rsquo;s one moment that is incredibly relatable in the episode where he notes how beautiful Shibuya is under the morning light to his friend, and his friend responds by poking fun at him, not connecting to the same emotion. Later, he draws this scene and is moved to tears when his friends actually make the connection with his painting to their early morning exploring the streets of Shibuya after a night of heavy drinking.</p>
+<p>I imagine that every creative experiences this journey towards becoming comfortable and confident in expressing their passion without restraint and becoming hooked onto that moment of resonance, when a piece of your mind made real is the basis of deep connection with others, especially those close to you. Yaguchi describes that moment as the first time he had a &ldquo;real&rdquo; talk with his friends (I&rsquo;m sure there&rsquo;s some lost in the translation to English subtitles here). It&rsquo;s <em>realer</em> than the normal conversation you have in the sense that connecting with someone&rsquo;s creation is an intensely intimate process. It takes out the middleman of language that we usually rely on to get to know someone, and you&rsquo;re able to understand someone through an unspoken language. For me, creating is as much about the chaotic frenzy of manifesting something imagined into reality as it is about that magical moment of resonance, when someone else relates to your creation. I&rsquo;m addicted to that indescribable feeling of intimacy, where someone can speak about your work as part of themselves. It&rsquo;s both incredibly gratifying and almost unbelievable that a true, pure part of yourself becomes a piece of someone else through the medium of your creations. That&rsquo;s how I view my relationship to creating: it&rsquo;s as much about discovering how to express myself more authentically and freely as it is creating gateways for others to visit a room of my core being.</p>
+
+
+
+
+
+
+
+<div class="galleryContainer centered fullWidth">
+    <div class="galleryContentContainer">
+    
+    <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/images/blue-period/blue-period-1.png" itemprop="contentUrl" data-size="1996x1636" >
+                <img src="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/images/blue-period/blue-period-1_huf8776c33eb8eb737a2a76a9a58256321_3379199_320x0_resize_box_3.png" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/images/blue-period/blue-period-2.png" itemprop="contentUrl" data-size="2018x1512" >
+                <img src="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/images/blue-period/blue-period-2_hu22d5c67a32cac91329634352c983c828_2149160_320x0_resize_box_3.png" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/images/blue-period/blue-period-3.png" itemprop="contentUrl" data-size="1858x1568" >
+                <img src="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/images/blue-period/blue-period-3_hu1d90e87e5243222a8ec62e9134d236e7_1658781_320x0_resize_box_3.png" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/images/blue-period/blue-period-4.png" itemprop="contentUrl" data-size="2090x1682" >
+                <img src="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/images/blue-period/blue-period-4_hub01d5c7c84033df42ab6443bf62da409_1915088_320x0_resize_box_3.png" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+            
+            <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
+            <a class="galleryLink" href="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/images/blue-period/blue-period-5.png" itemprop="contentUrl" data-size="1668x1574" >
+                <img src="https://www.spencerchang.me/experiments/100posts/unstoppable-expression/images/blue-period/blue-period-5_huaadf3f360cf46ff01cc8c6e093da5367_1612798_320x0_resize_box_3.png" itemprop="thumbnail" alt="galleryImage" class="galleryImage"
+                loading="lazy" />
+            </a>
+            <figcaption class="galleryImageCaption" itemprop="caption description">
+                
+                
+                <span itemprop="copyrightHolder"></span>
+            </figcaption>
+            </figure> 
+        
+    </div>
+    
+    </div>
+</div>
+
+<hr>
+<p><em>This is the <strong>66th</strong> installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list <a href="/experiments/100posts/">here</a></em>.</p>
+
+    </div>
+  </div>
+</div>
+<footer>
+    <hr/>
+    
+<div class="postFooter">
+  <p>I write for emotional resonance and thought provoking, so please <a href="https://twitter.com/@spencerc99">message me</a> (<a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if you have thoughts :)</span>
+  <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
+</div>
+
+<div class="shareCta">
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    
+      <button class="icon" href="" onclick="copyLink(&#34;https://www.spencerchang.me/experiments/100posts/unstoppable-expression/&#34;)"><i class="uil uil-link-h" ></i> Copy Link</button>
+    
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="unstoppable expression"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<h3>Related Posts</h3>
+<div class="relatedPosts">
+    
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.08.21</span>
+          
+              // 417 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/simple-things/">65 - simple things</a>
+        
+      </h2>   
+    <div class="postSummary">
+      an ode to the simple things
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.07.21</span>
+          
+              // 512 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/crazy-ideas/">64 - crazy ideas</a>
+        
+      </h2>   
+    <div class="postSummary">
+      The truly society-changing, ground-shaking, future-making ideas always start as crazy ideas.
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.05.21</span>
+          
+              // 365 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/radical-migrations/">63 - radical migrations</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Make radical demands of how we can change society from how it is now, rather than running away to start fresh or focusing on marginal improvements.
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.02.21</span>
+          
+              // 446 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/intensity/">62 - intensity</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Intensity means that you&rsquo;re living and experiencing more of the life that&rsquo;s passing by around you.
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+</div>
+
+
+
+<br/>
+<div><i>back to my <a href="/">favorites</a> or <a href="/posts">all my writing</a>.</i></div>
+<script src="/plugins/permalink/permalink.js"></script>
+
+</footer>
+<script>
+  
+  function scrollProgressBar() {
+    var getMax = function () {
+      return $(document).height() - $(window).height();
+    };
+
+    var getValue = function () {
+      return $(window).scrollTop();
+    };
+
+    var progressBar = $(".progress-bar"),
+      max = getMax(),
+      value,
+      width;
+
+    var getWidth = function () {
+      
+      value = getValue();
+      width = (value / max) * 100;
+      width = width + "%";
+      return width;
+    };
+
+    var setWidth = function () {
+      progressBar.css({ width: getWidth() });
+    };
+
+    $(document).on("scroll", setWidth);
+    $(window).on("resize", function () {
+      
+      max = getMax();
+      setWidth();
+    });
+  }
+  $(document).ready(function () {
+    scrollProgressBar();
+  });
+</script>
+
+
+        </div>
+        
+        
+        
+        
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  
+  <div class="pswp__bg"></div>
+  
+  <div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+      <div class="pswp__preloader__icn">
+        <div class="pswp__preloader__cut">
+        <div class="pswp__preloader__donut"></div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+  </div>
+  <link rel="stylesheet" href="/plugins/photoswipe/photoswipe.css">
+  <link rel="stylesheet" href="/plugins/photoswipe/default-skin/default-skin.css">
+
+  <script src="/plugins/photoswipe/photoswipe.min.js"></script>
+  <script src="/plugins/photoswipe/photoswipe-ui-default.min.js"></script>
+  <script src="/plugins/photoswipe/initphotoswipe.js"></script>
+  <script>initPhotoSwipeFromDOM('.gallery');</script>
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>

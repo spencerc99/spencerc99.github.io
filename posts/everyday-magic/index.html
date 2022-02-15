@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>Everyday Magic</title>
+    <meta name="description"
+        content="Tech is magical, but it shouldn&#39;t be mysterious." />
+    <meta name="keywords"
+        content="" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/posts/everyday-magic/" />
+    <meta property="og:title" content="Everyday Magic" />
+    <meta property="og:description" content="Tech is magical, but it shouldn&#39;t be mysterious." />
+    <meta property="og:image" content="https://www.spencerchang.me/posts/everyday-magic/images/takeoff.jpg" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="Everyday Magic" />
+    <meta name="twitter:description" value="Tech is magical, but it shouldn&#39;t be mysterious." />
+    <meta name="twitter:image" content="https://www.spencerchang.me/posts/everyday-magic/images/takeoff.jpg" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/posts/everyday-magic/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='December 2, 2021' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="11 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+         
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
+<div class="headerContainer"></div>
+
+        
+        <div class="mainContainer">
+            
+<div class="postContainer ">
+  <div class="post meta">
+    
+    <span class="postDate">12.02.2021</span>
+    
+    
+     
+    <div class="icons">
+      
+       
+        <i class="uis uis-star"></i>
+      
+    </div>
+    
+  </div>
+  <h1 class="title">Everyday Magic 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis = ["🪄","⚡","🔮","✨"];
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+  <h3 class="description">Tech is magical, but it shouldn&rsquo;t be mysterious.</h3>
+  <div>
+    <div class="postContent">
+      
+      
+      <figure class="fullWidth"><img src="images/takeoff.jpg"
+         alt="Isn&amp;rsquo;t it mindboggling that we created machines that can fly and swim?"/><figcaption>
+            <p><em>Isn&rsquo;t it mindboggling that we created machines that can fly and swim?</em></p>
+        </figcaption>
+</figure>
+
+<p>In October, I <a href="/posts/take-back-the-future-response">responded</a> to Reboot&rsquo;s manifesto, <a href="https://reboothq.substack.com/p/manifesto">“Take Back the Future.”</a>, which calls upon technologists to pursue and leverage their unique agency in shaping technology, which has an outsized impact on the future of our livelihoods, to advocate for the people who have less agency and push for a brighter, more equal future. Here&rsquo;s a snippet from my response:</p>
+<blockquote>
+<p>Rather than giving cake to the masses, we must give them the recipe. I demand a future where the magic is ours, the people’s rather than just an elite class of wizards and faceless entities. The software we interact with every day should not only allow, but encourage us us to make it our own: to create our thoughts, art, and experiments rather than merely consume SEO-juiced content; to express our full selves rather than settling for uniform cookie-cutter molds; to play outside the box and in between the lines and beyond the edges of normality rather than being constrained within the rules of the status quo.</p>
+</blockquote>
+<p>In this piece, I explore what it takes to reclaim the magic, and give everyone the power to change the technology that they use. An abridged version was also published in <a href="https://reboothq.substack.com/p/everyday-magic">Reboot&rsquo;s newsletter</a>, which includes a small interview at the end.</p>
+<h1 id="the-magic-of-technology">The magic of technology</h1>
+<p>When humans first discovered fire, they thought it was a gift from the gods; only now do we understand the underlying processes that produce it. Fire was so universally useful then that people didn&rsquo;t care how it worked or where it came from. It was easier to think of it as magic and focus on using its powers to achieve your desires rather than question its mechanics.</p>
+<p>Computers, software, and the Internet are the same. Built on complex foundations, they are phenomena that only an elite set of <a href="https://slate.com/technology/2014/01/programmer-privilege-as-an-asian-male-computer-science-major-everyone-gave-me-the-benefit-of-the-doubt.html">privileged individuals</a> have the ability to <a href="https://spencerchang.substack.com/p/shaping-the-world">shape</a>. For the rest, they have no choice but to take technology for granted, leveraging it for practical value. As long as technology is magical but inaccessible, there will be a power split between technologists and non-technologists&mdash;a divide between those with agency and those without.</p>
+<p>Agency, the freedom that arises from the ability to exert influence over something commonly thought of as uncontrollable, isn&rsquo;t limited to what people commonly think of as &ldquo;software development.&rdquo; Making a budgeting spreadsheet in Excel, combining browser extensions to make the web more readable, and even creating a <a href="https://dlygf.tumblr.com/post/16664028656/pixel-art-on-a-ti-86-by-jyri-tuulos-this-may-be">fun art piece</a> on your TI-86 are all like creating and designing an app, software tailored to your specific needs. Though these moments are rare among our daily software, many non-technologists have tasted this freedom, and once one gets a taste, they start to <em>expect</em> it in every piece of technology.</p>
+<p>Many tools and movements, like the <a href="https://uspirg.org/feature/usp/right-repair">right to repair</a>, the <a href="https://www.venable.com/-/media/files/publications/2020/09/data-ownership-paper-final.pdf">right to own your data</a>, and <a href="https://webflow.com/no-code">no-code movement</a>, advocate for more user agency in technology, promoting the belief that technology should be viewed as something commonplace, like a household object, rather than personalized ads and experiences from companies. For example, <a href="https://www.gwern.net/docs/technology/2004-03-30-shirky-situatedsoftware.html">Situated Software</a>, software that is &ldquo;personal from its inception,&rdquo; and <a href="https://www.inkandswitch.com/end-user-programming/">end-user programming</a>, paint visions of software tailored to people&rsquo;s specific personal needs by those who know those needs best (ourselves), so that anyone can seize the magic and change the technology they rely on.</p>
+<p>How can software help break down this divide of power and give everyone the ability to wield magic?</p>
+<h1 id="good-software-democratizes-agency">Good software democratizes agency</h1>
+<p>To create good software, the kind that empowers users to take control, we can leverage malleable systems, playful environments, fast feedback loops, and data interoperability.</p>
+<h2 id="malleable-systems">Malleable systems</h2>
+<p>Instead of cookie-cutter UI and limited data retrieval, <a href="https://malleable.systems/">malleable systems</a> empower individuals to tinker with and mold their software into the shape that&rsquo;s perfect for them.</p>
+<p>For example, <a href="http://coda.io">Coda</a> provides access to the power of a database, leveraging the familiar feel of a  &ldquo;document&rdquo; to introduce building blocks that grow to power an entire app. What starts as a bulleted list can become a meeting agenda with an interactive poll which can transform into a customized marketing landing page that captures sign up information. The same document can flex to fit the evolving needs of its makers, who have full creative control.</p>
+<figure><img src="https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5118559-3dd3-457b-ac57-635b343eba28_1600x1066.gif"
+         alt="Coda gives you the ability to start with a doc for taking notes and develop an entire tailored application around it."/><figcaption>
+            <p><em><a href="http://coda.io">Coda</a> gives you the ability to start with a doc for taking notes and develop an entire <a href="https://www.youtube.com/watch?v=oLYZv68M3Kg">tailored application</a> around it.</em></p>
+        </figcaption>
+</figure>
+
+<figure class="fullWidth"><img src="https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F81e49ca6-d931-421b-8e1c-e89f8f601ff7_1600x373.png"
+         alt="Notion gives the ability to create custom flexible views of your data, resulting in many themed personal dashboards. Airtable gives you the power of databases in a spreadsheet-like interface. Muse gives you a digital corkboard for organizing, annotating, and sketching ideas."/><figcaption>
+            <p><em><a href="http://notion.so">Notion</a> gives the ability to create custom flexible views of your data, resulting in many themed personal dashboards. <a href="http://airtable.com">Airtable</a> gives you the power of databases in a spreadsheet-like interface. <a href="https://museapp.com/">Muse</a> gives you a digital corkboard for organizing, annotating, and sketching ideas.</em></p>
+        </figcaption>
+</figure>
+
+<p>Rather than designing specific flows for one-off use cases, these tools focus on providing building blocks&mdash;software Legos&mdash;which can be combined together into a custom masterpiece. Rather than forcing users into rigid flows designed by someone else, these tools flip the power dynamic by giving individuals the power to <a href="https://hbr.org/2019/01/what-will-software-look-like-once-anyone-can-create-it">craft their own software</a> at a more approachable entry than writing code. These tools are only the start of how far technology can go in enabling agency in every moment, and I&rsquo;m excited to see how this space dramatically expands the set of people who can shape technology in the long term.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h2 id="playful-environments">Playful environments</h2>
+<p>In most agency-rich tools, the learning curve for understanding the fundamental concepts needed for making something of one&rsquo;s own can be steep. It&rsquo;s important to make the learning fun rather than excruciating: a new game rather than assigned homework.</p>
+<p>Some of my favorite examples of playful software solve boring utilitarian needs by embedding fun into the core experience, rewarding experimentation and learning through doing.</p>
+<p>For example, <a href="http://figma.com">Figma</a> provides simple operations around aligning shapes and vectors, and as a result, you see people creating everything from digital art pieces to tic tac toe.</p>
+<figure class="embed">
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Keeping up with the game theme.<a href="https://twitter.com/figmadesign?ref_src=twsrc%5Etfw">@figmadesign</a> <a href="https://twitter.com/hashtag/Interactivecomponents?src=hash&amp;ref_src=twsrc%5Etfw">#Interactivecomponents</a> <br><br>👉 <a href="https://t.co/SgclPZ6PGP">https://t.co/SgclPZ6PGP</a> <a href="https://t.co/CxpOuR3sPD">pic.twitter.com/CxpOuR3sPD</a></p>&mdash; Pedro Carlop (@Pedro_CarLop) <a href="https://twitter.com/Pedro_CarLop/status/1365850040376455168?ref_src=twsrc%5Etfw">February 28, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <figcaption><p><em>See the full <a href="https://twitter.com/rogie/status/1366506054608056320">thread of projects</a></em></p></figcaption>
+</figure>
+<p><a href="https://sprout.place">Sprout</a> is a new video conferencing tool that provides a space to hang out in and cultivate with your ideas and personality, giving life to a normally soul-sucking experience.</p>
+<figure><img src="https://codahosted.io/docs/YsYg7d1EIu/blobs/bl-SQz2N_YESp/f009b94f7580fa326d99038805f4570fbc5f2bec53aa3053e3c1e83bbddb3901897e538661825e5297f880d962e410247d3dbd97664260b25caf25fca5f30c493887c20b5fcdf21dca238849e30a52de2dfb38926d6ac5201906ddf400655e006764eee1"
+         alt="In Sprout, you can look up images and drag them into the space to personalize your face time."/><figcaption>
+            <p><em>In Sprout, you can look up images and drag them into the space to personalize your face time.</em></p>
+        </figcaption>
+</figure>
+
+<p><a href="http://mmm.page">mmm.page</a> is a new website builder that aims to bring back the personality of websites that harkens back to Geocities, providing easy GIFs, colored text blocks, and links that can be drag-and-dropped to create a new piece of digital real estate.</p>
+<figure><img src="https://codahosted.io/docs/YsYg7d1EIu/blobs/bl-9ooJCiVYSO/26512da7933cb61b862f08a8599df95a197505257785dce0266e6c1cf9e2d12d575020d048e768d411e4bca75742578818a27e4011cfb1e5a115035217ad0de7f3f9b7e510ae838a2cee2118bd9d4f98523bb64d09f4874671f51124c79a620be9d53ad4"
+         alt="mmm&amp;rsquo;s landing page showcases the quirky ways to make a website."/><figcaption>
+            <p><em>mmm&rsquo;s landing page showcases the quirky ways to make a website.</em></p>
+        </figcaption>
+</figure>
+
+<p>These tools empower agency by providing a few basic interactions that fit together and are interesting to combine into new forms. Using these tools doesn&rsquo;t feel like work&mdash;they feel like goofing around with friends or exploring a new video game.</p>
+<h2 id="fast-feedback-loops">Fast feedback loops</h2>
+<p>At the inception of ideas, harnessing all of the creative momentum is essential to make them reality. Any delay in how actions affect the end output and how much setup a working foundation requires can derail that pure creative desire. <a href="/experiments/100posts/fast-feedback-loops">Fast feedback loops</a> require being <a href="https://www.youtube.com/watch?v=ef2jpjTEB5U">responsive to updating</a> on changes and streamlining any complexity secondary to the core creative effort.</p>
+<figure><img src="https://codahosted.io/docs/YsYg7d1EIu/blobs/bl-L-B72xPyvJ/d6fbfccecc0ed061f5112a5f62e6ceb5af2ff2633baab1f79b351935e3d0f0b8a6c86c5dcf2c8a4c409638f1f6cdcd6f5e1f18206c5d4ed036be1fc27fb760655e3fa761707a74907a70ad595ac5a1c3fb1e395875c9d21c57b80258bb2b31f0302facd2"
+         alt="An example of highly responsive software from Up and Down the Ladder of Abstraction"/><figcaption>
+            <p><em>An example of highly responsive software from <a href="http://worrydream.com/LadderOfAbstraction/">Up and Down the Ladder of Abstraction</a></em></p>
+        </figcaption>
+</figure>
+
+<p>Document tools, like those mentioned above, provide &ldquo;databases&rdquo; that update on response without requiring complex syntax or proper database management. &ldquo;Code-easier&rdquo; tools like <a href="https://glitch.com/">Glitch</a> and <a href="https://replit.com/">Replit</a> hide all the complexities around running a server and serving a web page through a live preview of your code. And No-code tools like <a href="https://bubble.io/">Bubble</a> aim to give non-technologists the full power of creating an app with visual drag + drop editors.</p>
+<h2 id="interoperability">Interoperability</h2>
+<p>Interoperability refers to the ability to transfer data between apps seamlessly. Practically, this means having easy and comprehensive flows for importing and exporting data into and out of other apps. A fully interoperable world requires the implementation of common data standards for apps or open data models, but the question remains of how we might transition between most current data, held in proprietary, company-guarded data moats, to a more open, community-driven world. <a href="http://craft.do">Craft</a> built their data model on top of common standards and works to ensure the <a href="https://www.craft.do/s/5EYqvXdOUIrNu5">exported data is as useful as possible</a> in other app contexts. <a href="https://www.inkandswitch.com/">Ink and Switch</a>, a research lab exploring how computers can aid humans, has advocated for <a href="https://www.inkandswitch.com/local-first/">local-first software</a> to ensure individual ownership of data outside of centralized company servers.</p>
+<p>In a world of fully interoperable software, new apps can quickly have immediate value because individuals can bring data in from existing apps. This immediate access eliminates the moat that incumbent software has over new creations&mdash;multiplying the effectiveness of individual agency by giving full control over produced data.</p>
+<h1 id="why-personal-agency">Why personal agency?</h1>
+<p>As we navigate our digital worlds, we&rsquo;re subjected to software that treats us as subjects to be converted into revenue. Tech companies and hungry apps crave us for our attention rather than our being&mdash;our acts rather than our humanity. What if we inverted that power dynamic and gave individuals and communities the power to shape their software as they see fit?</p>
+<p>Imagine we&rsquo;ve achieved a world where all of our software embodies the aspects outlined above. The software we use daily empowers us with the agency to create our own tools, mold our own experiences, and transport our own data. Why does personal agency matter?</p>
+<p>In the context of software, agency comes down to whether someone feels <em>in control</em> and <em>powerful</em> when they&rsquo;re using a piece of software, rather than coerced and scared. It&rsquo;s the difference between wanting to continue exploring rather than dreading continued use.</p>
+<p>Agency shifts the balance of power&mdash;from software engineer-fueled corporations and startups to everyday communities and neighbors. In the ideal world, individuals will not only have the power to reject agency-deficient and agency-depriving environments, like those with <a href="https://medium.com/thrive-global/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3">dark design patterns</a>, misaligned profit models, and pyramid scheme-esque incentives; they will also be responsible for using that power towards a future they want to see. </p>
+<p>Still, even with agencyful tools, we might still be relying on companies, often profit-driven and outside of our control. All the startups in the examples I gave above have made incredible innovative strides in giving agency to users, but the evil corporations of today were once innocent too. Ideally, these tools should be structurally accountable to the broader community while maintaining the momentum of innovation.</p>
+<p>How we get there is another essay entirely. Perhaps the tools of the future are all <a href="https://nadiaeghbal.com/oss/">open-source</a>, collectively maintained, and led by trusted full-time individuals, such that anyone has the freedom to fork their own version while the broader community can collectively decide future directions. Many successful projects for important tooling like <a href="https://www.python.org/community/">languages</a> and <a href="https://en.wikipedia.org/wiki/History_of_Linux">infrastructure</a> already follow this model; can we adapt those for the tools we use every day? </p>
+<h1 id="towards-everyday-magic">Towards everyday magic</h1>
+<p>As software powers more of how we think, love, and live, it becomes increasingly crucial to empower individuals with agency in the technology they rely upon every day.</p>
+<p>As technologists, we have the privilege of being able to demystify and change how this magic operates and manifests itself. Our responsibility to our communities is to share this power with the end-users of our creations, shifting power from faceless companies to passionate humans. The magic is in our hands, and we must set it free.</p>
+<p>Can we build towards a world where all technology inspires and gives hope and calls us in? Many have sat by while crucial software deprives people of agency. Instead, let&rsquo;s fight for a future where all are wizards, magic is as common as the air we breathe, and it&rsquo;s second nature for people to shape it into something personally meaningful.</p>
+<p>Thanks to <a href="https://twitter.com/jessicadai_">Jessica Dai</a> for the thorough and precise editing, and <a href="https://nickelthoughts.substack.com/">Avery Jordan</a>, <a href="http://jamie-wong.com/">Jamie Wong</a>, Rex Ledesma, and <a href="https://twitter.com/ameeshsh">Ameesh Shah</a> for giving feedback on early drafts of this article.</p>
+<h3 id="related-resources">Related Resources</h3>
+<ul>
+<li><a href="https://www.inkandswitch.com/">Ink and Switch</a> is a research lab that has done a lot of research into how to make technology more compatible with humans, and they have a great podcast called <a href="https://museapp.com/podcast/">Metamuse</a> with people who work towards more agencyful apps.</li>
+<li>My friend <a href="https://everywwwhere.net/">Helena Jaramillo</a> has a great <a href="https://mmm.page/helena.soft_tech">poem</a> about what tech can feel like if everyone had more control over its experience.</li>
+<li><a href="http://worrydream.com/cv/">Bret Victor</a> has done a lot of thinking in this space and is leading <a href="https://dynamicland.org/">Dynamicland</a> which was mentioned above</li>
+<li><a href="https://www.mollymielke.com/">Molly Mieke</a> is starting <a href="https://www.mothminds.com/">Moth Minds</a>, a company to enable anyone to start their own grants program to catalyze agency for &ldquo;moths,&rdquo; those who flutter around the edges of the light.</li>
+<li><a href="https://www.interdependence.online/about">Interdependence</a> is a project that led a community effort to rewrite the Declaration for the Independence of Cyberspace to be community-oriented and inclusive, for anyone to sign and fork.</li>
+<li>A non-comprehensive list of people whose works I am inspired by in this space: <a href="https://andymatuschak.org/">Andy Matuschak</a>, <a href="https://www.geoffreylitt.com/">Geoffrey Litt</a>, <a href="https://thesephist.com/">Linus Lee</a>, <a href="https://weiwei.place/">Weiwei Xu</a>, <a href="https://wattenberger.com/">Amelia Wattenberger</a>, <a href="http://maylikhoe.com/">May-Li</a>, <a href="https://tyler.cafe/">Tyler Angert</a>, <a href="https://jasonyuan.design/">Jason Yuan</a>, and <a href="https://ibuildmyideas.com/">Jordan Singer</a>.</li>
+</ul>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://dynamicland.org/">Dynamicland</a> is a non-profit research project working towards a 100-year vision around making everyday computing a reality by making a computing operating system that anyone can change using their physical space.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+  </div>
+</div>
+<footer>
+    <hr/>
+    
+<div class="postFooter">
+  <p>I write for emotional resonance and thought provoking, so please <a href="https://twitter.com/@spencerc99">message me</a> (<a href="mailto:spencerc99@gmail.com">spencerc99@gmail.com</a>) if you have thoughts :)</span>
+  <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
+</div>
+
+<div class="shareCta">
+  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  <div class="shareActions">
+    
+      <button class="icon" href="" onclick="copyLink(&#34;https://www.spencerchang.me/posts/everyday-magic/&#34;)"><i class="uil uil-link-h" ></i> Copy Link</button>
+    
+    <div class="twitterCta">
+      <a
+        href="https://twitter.com/share"
+        data-size="large"
+        data-count="none"
+        data-text="Everyday Magic"
+        class="twitter-share-button"
+        data-lang="en"
+        data-via="spencerc99"
+        ></a
+      >
+      <script
+        src="//platform.twitter.com/widgets.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<h3>Related Posts</h3>
+<div class="relatedPosts">
+    
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.05.21</span>
+          
+              // 1222 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/take-back-the-future-response/">re: take back the future - the magic is ours</a>
+        
+      </h2>   
+    <div class="postSummary">
+      a response to <a href="https://reboothq.substack.com">reboot</a>&rsquo;s manifesto on techno-optimism
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.11.21</span>
+          
+              // 699 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/fast-feedback-loops/">67 - fast feedback loops and perils of convention</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Why fast feedback loops are important and why convention over configuration makes software feel impossible to change to your own needs
+    </div>
+  </div>
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">07.19.21</span>
+          
+              // 920 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/technology-paradox/">the technology paradox</a>
+        
+      </h2>   
+    <div class="postSummary">
+      on my paradoxical relationship with technology
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/technology-paradox/images/highway_hud3b3bc5c397a30a0169d6e6adb21484d_80785_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">05.13.21</span>
+          
+            
+          
+          
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://coda.io/@spencer/rituals-at-scale-how-we-remixed-templates" target="_blank">Rituals at Scale: How we remixed templates</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      The details behind Coda&rsquo;s custom templates system.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/rituals-remixing/images/rituals-remixing_hu994033bde3c5007a2901b392f8d8f085_4918444_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    
+	
+</div>
+
+
+
+<br/>
+<div><i>back to my <a href="/">favorites</a> or <a href="/posts">all my writing</a>.</i></div>
+<script src="/plugins/permalink/permalink.js"></script>
+
+</footer>
+<script>
+  
+  function scrollProgressBar() {
+    var getMax = function () {
+      return $(document).height() - $(window).height();
+    };
+
+    var getValue = function () {
+      return $(window).scrollTop();
+    };
+
+    var progressBar = $(".progress-bar"),
+      max = getMax(),
+      value,
+      width;
+
+    var getWidth = function () {
+      
+      value = getValue();
+      width = (value / max) * 100;
+      width = width + "%";
+      return width;
+    };
+
+    var setWidth = function () {
+      progressBar.css({ width: getWidth() });
+    };
+
+    $(document).on("scroll", setWidth);
+    $(window).on("resize", function () {
+      
+      max = getMax();
+      setWidth();
+    });
+  }
+  $(document).ready(function () {
+    scrollProgressBar();
+  });
+</script>
+
+
+        </div>
+        
+        
+        
+        
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>

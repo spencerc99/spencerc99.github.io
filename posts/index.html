@@ -1,0 +1,3557 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+
+<head>
+    <meta charset="utf-8">
+    <title>Writing</title>
+    <meta name="description"
+        content="All of my writing, including personal essays, short story fiction, poems, and critical pieces on technology and culture." />
+    <meta name="keywords"
+        content="" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.spencerchang.me/posts/" />
+    <meta property="og:title" content="Writing" />
+    <meta property="og:description" content="All of my writing, including personal essays, short story fiction, poems, and critical pieces on technology and culture." />
+    <meta property="og:image" content="https://www.spencerchang.me" />
+    
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" value="https://www.spencerchang.me" />
+    <meta name="twitter:title" value="Writing" />
+    <meta name="twitter:description" value="All of my writing, including personal essays, short story fiction, poems, and critical pieces on technology and culture." />
+    <meta name="twitter:image" content="https://www.spencerchang.me" />
+    <meta name="twitter:url" value="https://www.spencerchang.me/posts/" />
+    
+    <meta name="twitter:label1" value="Posted on" />
+    <meta name="twitter:data1" value='February 12, 2022' />
+    <meta name="twitter:label2" value="Reading time" />
+    <meta name="twitter:data2" value="2 mins🕐" />
+    
+    <meta name="robots" content="noodp" />
+    
+    <link rel="stylesheet" href="https://www.spencerchang.me/sass/main.min.eac7988b59c653704f85540769cb8b1a0943ad25a17ed5164d3c2c2549c77622.css">
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/solid.css">
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-159413154-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    
+    <link rel="alternate" type="application/rss+xml" href="https://www.spencerchang.me/posts/index.xml" title="Spencer Chang" />
+    
+    
+    
+    <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-159413154-1', 'auto');
+
+        
+        ga('require', 'outboundLinkTracker');
+        ga('require', 'mediaQueryTracker');
+        ga('require', 'impressionTracker');
+        ga('require', 'maxScrollTracker');
+        ga('require', 'pageVisibilityTracker');
+
+        ga('send', 'pageview');
+    </script>
+    <script async src="/autotrack.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    
+    <script async src="/lazysizes.min.js"></script>
+
+    
+    <script async src="/helpers.js"></script>
+
+    
+    <script src="https://unpkg.com/telescopic-text/lib/index.js"></script>
+    <link
+        href="https://unpkg.com/telescopic-text/lib/index.css"
+        rel="stylesheet"
+    />
+</head>
+
+<body>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      
+
+       const navActions = document.querySelector(".navbarActions").children
+    for (const nav of navActions) {
+        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+            nav.className = 'active'
+        } else {
+            nav.className = '';
+        }
+    }
+  });
+</script>
+
+
+
+
+<nav id="navbar">
+  <div class="navbarContainer">
+        <a href="/" class="avatarLink"
+            ><img class="avatar small" src="/assets/companion-in-a-box-final.png"
+        /></a>
+        <a href="/" class="navbarLink"><h2></h2></a>
+    
+    <div class="navbarActions">
+    <a href="/posts"><span>writing</span> <b>📝</b></a>
+    <a href="/photos"><span>photos</span> <b>📸</b></a>
+    
+    
+    <a href="/fits"><span>fits</span> <b>🧢</b></a>
+    <a href="/projects"><span>projects</span> <b>⚒️</b></a>
+</div>
+
+  </div>
+  <script>
+    
+    var navbarElem = document.getElementById("navbar");
+    var navClasses = navbarElem.classList;
+    var navbarHeight = navbarElem.clientHeight;
+
+    function downAction() {
+      navClasses.remove("open");
+      navClasses.add("collapse");
+    }
+
+    function upAction() {
+      navClasses.remove("collapse");
+      navClasses.add("open");
+    }
+
+    
+    var scrollTop = function() {
+      return window.scrollY;
+    };
+
+    
+    var scrollState = 0;
+
+    
+    var scrollDetect = function(down, up) {
+      
+      var currentScroll = scrollTop();
+      if (currentScroll > scrollState && currentScroll > navbarHeight / 3) {
+        down();
+      } else if (currentScroll < scrollState) {
+        up();
+      }
+      
+      scrollState = scrollTop();
+    };
+    window.addEventListener("scroll", function() {
+      scrollDetect(downAction, upAction);
+    });
+  </script>
+</nav>
+
+    <div id="content">
+        
+<div class="headerContainer">
+  <h1>Writing 
+
+
+<div class="emojiContainer inline"><button id="emoji" onclick="updateEmoji()"></button></div>
+
+<script>
+  
+  const defaultEmojis = ['🌱', '👺', '🌑', '🥑', '🐙', '🌌'];
+  const inputEmojis = ["✍️","📝","📇"];
+  const shuffleArray = array => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+  }
+  let emojis = inputEmojis || defaultEmojis;
+  shuffleArray(emojis);
+  var idx = 0;
+  function updateEmoji() {
+    let randomEmoji = emojis[idx];
+    document.getElementById('emoji').innerHTML = randomEmoji;
+    idx = (idx + 1) % emojis.length;
+  }
+  updateEmoji();
+</script>
+</h1>
+</div>
+
+        
+        <div class="mainContainer">
+            
+<div class="listDescription">
+  <h4 style="margin-bottom:8px;">writing projects</h4>
+  <div class="writingMeta">
+    <p><span class="postDate post meta">06.04.21</span> | <a href="/experiments/postal-portals">Postal Portals</a>: a series of letters with friends to deep-dive into concepts weighing on our minds.</p>
+    <p><span class="postDate post meta">04.11.21</span> | <a href="/experiments/100posts/">Mini-essay experiment</a> to publish raw, lightly edited pieces semi-daily towards achieving 100 public pieces.</p>
+  </div>
+
+  
+  <details>
+    <summary><i>why do I write?</i></summary>
+    <br/>
+    <div>
+    <p>
+    I first caught the writing bug in third grade when I wrote a story about a wizard on a space adventure, but I treated the bug as an infection--a distraction from the “professional” classes that I needed to pursue the STEM career my parents desired for me. Math and science were to come before magical incantations and ethical dilemmas. In college, I found the freedom to explore my writing alongside my academic obligations of computer science and calculus and accounting and started a blog to share my inner thoughts with the world. Since then, I’ve continued to write on my blog (which has transformed into this website) in both reflective posts, argumentative essays, and short flash-like fiction and maintain a personal <a href="https://spencerchang.substack.com/">newsletter</a> where I share thoughts and updates and personal essays.
+    </p>
+    <p>I end up setting aside time every day before I start work to write and explore and sometimes find myself seized with bursts of inspiration that I must empty onto paper in the early morning hours. I rigorously give myself space to write even though I’m primarily a writer of passion because writing is how I think, explore, and dream. It’s my submarine to probe into the depths of my subconscious and excavate those submerged emotions and cravings. It’s my limitless blank canvas, where I can freely shape rules and assumptions as I please to convey a feeling or traverse an experiment. It’s the portal to entirely new worlds and universes, where I can play both god, in manifesting my emotions in the literary flesh, and the background observer, in watching how the characters and systems develop naturally in that artificial environment.</p>
+    </div>
+</details>
+<p>All my public writing is here in some form. I write for emotional resonance, so if something I&rsquo;ve written strikes a chord, please send me a note (<a href="https://twitter.com/@spencerc99">Twitter</a> or <a href="mailto:spencerc99@gmail.com">email</a>)</p>
+
+</div>
+<div class="summaryList">
+    <details>
+    <summary>
+        <span>Icon legend</span>
+    </summary>
+    <div>
+        <span><i class="uil uil-bolt"></i> - fictional / creative</span>
+        <span><i class="uis uis-star"></i> - favorites</span>
+    </div>
+</details>
+
+    
+    
+    
+    <details>
+  <summary>
+      <span>Filter by tag</span>
+  </summary>
+  <div>
+  <span>
+    
+    
+    
+    <button xx class="" id="selectAllTags" onclick="htf.showAll('tags')">
+      All Tags
+    </button>
+    
+      
+      <button xx class="tag-button" id="tag-100posts" onclick="htf.checkFilter('100posts', 'tag-')">
+        <span>100posts</span>
+        (<span id="stags-100posts"> -count-</span>/<span id="ctags-100posts"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-newsletter" onclick="htf.checkFilter('newsletter', 'tag-')">
+        <span>Newsletter</span>
+        (<span id="stags-newsletter"> -count-</span>/<span id="ctags-newsletter"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-favorite" onclick="htf.checkFilter('favorite', 'tag-')">
+        <span>Favorite</span>
+        (<span id="stags-favorite"> -count-</span>/<span id="ctags-favorite"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-personal" onclick="htf.checkFilter('personal', 'tag-')">
+        <span>Personal</span>
+        (<span id="stags-personal"> -count-</span>/<span id="ctags-personal"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-creative" onclick="htf.checkFilter('creative', 'tag-')">
+        <span>Creative</span>
+        (<span id="stags-creative"> -count-</span>/<span id="ctags-creative"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-poetry" onclick="htf.checkFilter('poetry', 'tag-')">
+        <span>Poetry</span>
+        (<span id="stags-poetry"> -count-</span>/<span id="ctags-poetry"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-software" onclick="htf.checkFilter('software', 'tag-')">
+        <span>Software</span>
+        (<span id="stags-software"> -count-</span>/<span id="ctags-software"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-culture" onclick="htf.checkFilter('culture', 'tag-')">
+        <span>Culture</span>
+        (<span id="stags-culture"> -count-</span>/<span id="ctags-culture"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-ideas" onclick="htf.checkFilter('ideas', 'tag-')">
+        <span>Ideas</span>
+        (<span id="stags-ideas"> -count-</span>/<span id="ctags-ideas"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-technology" onclick="htf.checkFilter('technology', 'tag-')">
+        <span>Technology</span>
+        (<span id="stags-technology"> -count-</span>/<span id="ctags-technology"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-beliefs" onclick="htf.checkFilter('beliefs', 'tag-')">
+        <span>Beliefs</span>
+        (<span id="stags-beliefs"> -count-</span>/<span id="ctags-beliefs"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-projects" onclick="htf.checkFilter('projects', 'tag-')">
+        <span>Projects</span>
+        (<span id="stags-projects"> -count-</span>/<span id="ctags-projects"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-reflection" onclick="htf.checkFilter('reflection', 'tag-')">
+        <span>Reflection</span>
+        (<span id="stags-reflection"> -count-</span>/<span id="ctags-reflection"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-web3" onclick="htf.checkFilter('web3', 'tag-')">
+        <span>Web3</span>
+        (<span id="stags-web3"> -count-</span>/<span id="ctags-web3"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-cities" onclick="htf.checkFilter('cities', 'tag-')">
+        <span>Cities</span>
+        (<span id="stags-cities"> -count-</span>/<span id="ctags-cities"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-data" onclick="htf.checkFilter('data', 'tag-')">
+        <span>Data</span>
+        (<span id="stags-data"> -count-</span>/<span id="ctags-data"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-internet" onclick="htf.checkFilter('internet', 'tag-')">
+        <span>Internet</span>
+        (<span id="stags-internet"> -count-</span>/<span id="ctags-internet"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-short-story" onclick="htf.checkFilter('short-story', 'tag-')">
+        <span>Short Story</span>
+        (<span id="stags-short-story"> -count-</span>/<span id="ctags-short-story"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-coding" onclick="htf.checkFilter('coding', 'tag-')">
+        <span>Coding</span>
+        (<span id="stags-coding"> -count-</span>/<span id="ctags-coding"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-crazy" onclick="htf.checkFilter('crazy', 'tag-')">
+        <span>Crazy</span>
+        (<span id="stags-crazy"> -count-</span>/<span id="ctags-crazy"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-fashion" onclick="htf.checkFilter('fashion', 'tag-')">
+        <span>Fashion</span>
+        (<span id="stags-fashion"> -count-</span>/<span id="ctags-fashion"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-haiku" onclick="htf.checkFilter('haiku', 'tag-')">
+        <span>Haiku</span>
+        (<span id="stags-haiku"> -count-</span>/<span id="ctags-haiku"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-life" onclick="htf.checkFilter('life', 'tag-')">
+        <span>Life</span>
+        (<span id="stags-life"> -count-</span>/<span id="ctags-life"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-movies" onclick="htf.checkFilter('movies', 'tag-')">
+        <span>Movies</span>
+        (<span id="stags-movies"> -count-</span>/<span id="ctags-movies"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-personality" onclick="htf.checkFilter('personality', 'tag-')">
+        <span>Personality</span>
+        (<span id="stags-personality"> -count-</span>/<span id="ctags-personality"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-politics" onclick="htf.checkFilter('politics', 'tag-')">
+        <span>Politics</span>
+        (<span id="stags-politics"> -count-</span>/<span id="ctags-politics"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-response" onclick="htf.checkFilter('response', 'tag-')">
+        <span>Response</span>
+        (<span id="stags-response"> -count-</span>/<span id="ctags-response"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-time" onclick="htf.checkFilter('time', 'tag-')">
+        <span>Time</span>
+        (<span id="stags-time"> -count-</span>/<span id="ctags-time"> -count-</span>)
+      </button>
+      
+    
+      
+      <button xx class="tag-button" id="tag-work" onclick="htf.checkFilter('work', 'tag-')">
+        <span>Work</span>
+        (<span id="stags-work"> -count-</span>/<span id="ctags-work"> -count-</span>)
+      </button>
+      
+    
+</span>
+</div>
+</details>
+
+    <div class="tf-filter-item tf-item"  data-tags="poetry creative   ">
+        
+
+<article class="postSummaryContainer  serif ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">02.12.22</span>
+          
+              // 158 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+               
+                  <i class="uil uil-bolt"></i>
+              
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/boundless-shapeshifters/">boundless shapeshifters</a>
+        
+      </h2>   
+    <div class="postSummary">
+      
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/boundless-shapeshifters/images/54-views_hub2f28703b61f0844550808f4145af9de_2407588_400x0_resize_box_3.png" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="newsletter   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">01.30.22</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+          
+          
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/beautiful-internet" target="_blank">beautiful internet</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      the internet and web that we really want—a collective, pluralistic, intimate, and beautiful one.
+    </div>
+  </div>
+    
+      
+      
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/newsletter/images/tsherin-sherpa-untitled.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal favorite reflection   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">01.16.22</span>
+          
+              // 2177 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/mutualism/">Mutualistic Flourishing: 2021 to 2022</a>
+        
+      </h2>   
+    <div class="postSummary">
+      🎰 2021 | 🤲 2022. My 2021 reflection and theme of mutualism for 2022.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/mutualism/images/gallery/3-barnacles_hu12d0dd9de7dcf9d9387449ab40a530c1_1984628_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts favorite personal   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.31.21</span>
+          
+              // 845 words
+             
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/creations-are-intimacy-portals/">100 - creations are intimacy portals</a>
+        
+      </h2>   
+    <div class="postSummary">
+      The final artifact in my <a href="/experiments/100posts">100 mini-essays experiment</a> exploring the intimacy of creations and the value of sharing your mind with the world.
+    </div>
+  </div>
+    
+      
+      
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="https://cdn.mos.cms.futurecdn.net/BRST9nrsdC4Ly3LetnsktD.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts creative   ">
+        
+
+<article class="postSummaryContainer  serif ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.30.21</span>
+          
+              // 466 words
+             
+          
+          
+          // 
+            <div class="icons">
+               
+                  <i class="uil uil-bolt"></i>
+              
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/beginnings/">99 - beginnings</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Exploring the concept of beginnings through a creative medium
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts personal favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.29.21</span>
+          
+              // 472 words
+             
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/quiet-confidence/">98 - quiet confidence</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Quiet confidence is when you&rsquo;re able to naturally take your time, take up proper space, and be unapologetically yourself without putting down anyone else or manufacturing dependence.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.27.21</span>
+          
+              // 549 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/glorious-purpose/">97 - glorious purpose</a>
+        
+      </h2>   
+    <div class="postSummary">
+      I&rsquo;m a strong believer that we create our own meaning—something can be meaningful for no other reason than the fact that we believe it so. In that sense, I think all of us have a glorious purpose in creating the change and meaning that we want to see in the world.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts time   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.26.21</span>
+          
+              // 815 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/reclaiming-time/">96 - reclaiming time</a>
+        
+      </h2>   
+    <div class="postSummary">
+      What if anyone could reclaim control of time for themselves? What does a world look like where we challenge Time for control but that power is free for anyone to seize rather than only the wealthy and powerful?
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.17.21</span>
+          
+              // 383 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/dance/">93 - dance</a>
+        
+      </h2>   
+    <div class="postSummary">
+      I think dancing really teaches you to trust your instinct for what&rsquo;s &ldquo;right&rdquo; broadly, as in everything I do has value for no reason other than the fact that I chose to do it. It&rsquo;s an exercise in asserting yourself and trusting yourself to do things that you like.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts poetry web3   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.13.21</span>
+          
+              // 664 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/amulets/">91 - amulets</a>
+        
+      </h2>   
+    <div class="postSummary">
+      If poems are just &ldquo;things made&rdquo; that exist for their own sake and meaning, then these amulets are meaning lighthouses in a space of so much context collapse and narrative war.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts software technology web3   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.05.21</span>
+          
+              // 973 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/future-of-tools/">90 - future of tools</a>
+        
+      </h2>   
+    <div class="postSummary">
+      What is the future of the tools we use every day, and will web3 push them to become more community-led and empowering or will it force unnecessary structure and unwelcome incentives into a relatively &ldquo;innocent&rdquo; space?
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="ideas favorite software   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.02.21</span>
+          
+              // 2171 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/everyday-magic/">Everyday Magic</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Tech is magical, but it shouldn&rsquo;t be mysterious.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/everyday-magic/images/takeoff_huea16795a457235cd1e7e0f95ad90054a_1641905_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal ideas   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">11.25.21</span>
+          
+              // 844 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/living-to-provoke/">living to provoke</a>
+        
+      </h2>   
+    <div class="postSummary">
+      I want my projects to push people to think in a different way and challenge them to reconsider reality in a new light. I want to make crazy ideas feel realistic, extreme fictional worlds feel relatable, complex creative environments feel approachable.
+    </div>
+  </div>
+    
+      
+      
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/images/living-to-provoke/personality_buckets.png" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts web3 technology   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">11.18.21</span>
+          
+              // 496 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/scope-of-normality/">86 - scope of normality</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Normal is variable, an always-shifting concept in our minds, that binds us together or drives us apart.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts creative personal   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">11.16.21</span>
+          
+              // 621 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/photography-origin/">85 - photography origin</a>
+        
+      </h2>   
+    <div class="postSummary">
+      The origin story of why I like photography.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts web3 technology   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">11.14.21</span>
+          
+              // 747 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/financialization/">84 - financialization</a>
+        
+      </h2>   
+    <div class="postSummary">
+      I crave for an internet-native space where it&rsquo;s okay to just be yourself and let your hair down—where making things that are worthless and inefficient are not only allowed but encouraged rather than squeezed for every penny they&rsquo;ll generate.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts web3 technology   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">11.12.21</span>
+          
+              // 374 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/allure-of-ephemerality/">83 - allure of ephemerality</a>
+        
+      </h2>   
+    <div class="postSummary">
+      In the web3 world, where everything is permanent, stored on-chain forever. This chaotic, ephemeral process of creation is especially compelling. It harkens to the instability of the current Internet&hellip;
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts creative   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.25.21</span>
+          
+              // 334 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/urgency/">76 - urgency</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Urgency is important because it imbues energy
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts poetry creative   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.21.21</span>
+          
+              // 90 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/pitter-patter/">73 - pitter patter</a>
+        
+      </h2>   
+    <div class="postSummary">
+      a couple poems on this rainy SF day.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts personal life   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.20.21</span>
+          
+              // 616 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/soothing-fire/">72 - soothing fire: a raging fire that cools</a>
+        
+      </h2>   
+    <div class="postSummary">
+      The goal state is an oxymoron. A feathery intensity, a gentle hurricane, a soothing fire. It means being uncompromising about what you love and fight for, but also embracing playfulness in every moment.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts creative poetry   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.17.21</span>
+          
+              // 184 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/ablaze-heart/">71 - ablaze heart</a>
+        
+      </h2>   
+    <div class="postSummary">
+      a poem on setting your heart ablaze
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts software coding   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.11.21</span>
+          
+              // 699 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/fast-feedback-loops/">67 - fast feedback loops and perils of convention</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Why fast feedback loops are important and why convention over configuration makes software feel impossible to change to your own needs
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.10.21</span>
+          
+              // 558 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/unstoppable-expression/">66 - unstoppable expression</a>
+        
+      </h2>   
+    <div class="postSummary">
+      &hellip;like when you get the star in MarioKart—there&rsquo;s nothing, no one that can stop you from achieving your dreams and realizing your vision.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal beliefs response favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.05.21</span>
+          
+              // 1222 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/take-back-the-future-response/">re: take back the future - the magic is ours</a>
+        
+      </h2>   
+    <div class="postSummary">
+      a response to <a href="https://reboothq.substack.com">reboot</a>&rsquo;s manifesto on techno-optimism
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.01.21</span>
+          
+              // 678 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/opportunity/">61 - opportunity</a>
+        
+      </h2>   
+    <div class="postSummary">
+      I never want to tone down my intensity or dilute my flavor for the sake of others.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.26.21</span>
+          
+              // 564 words
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/experiments/100posts/perception/">58 - perception</a>
+        
+      </h2>   
+    <div class="postSummary">
+      I explore appearance as a gateway to connection. At first, it&rsquo;s all we know, but eventually, it becomes just the key for unlocking a deeper connection. Deep emotional connection is all around us for the taking; we just have to be willing to dig for it and receive it when it appears.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.13.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/fear-mini-47100" target="_blank">47 - fear</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      Fear told me there was a hard script for me to follow, that deviating from the script meant certain failure, a sure way to give up everything I had built thus far.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter creative poetry   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.28.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/pitiful-rage-mini-46100" target="_blank">46 - pitiful rage</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      a poem about a sad encounter
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.26.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/re-solved-problems-mini-45100" target="_blank">45 - re-solved problems</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      How did we end up in a place where some of the smartest people in our society are stuck re-solving the same hard problems and re-implementing the same solutions we’ve seen before?
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal cities favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.25.21</span>
+          
+              // 1573 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/liminal-illusions/">Liminal Illusions</a>
+        
+      </h2>   
+    <div class="postSummary">
+      exploring the liminality of vegas and how it exposes the absurdity of our day-to-day
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/liminal-illusions/images/margarita_hu92decf418872c11413285555b62e0bac_958709_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.24.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/kindness-journal-mini-43100" target="_blank">43 - kindness journal</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      Compliments are one of the few things that are infinite energy machines. It’s free to think of and give, and each one generates so much equivalent energy in happiness.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter internet   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.19.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/digital-capitalism-mini-38100" target="_blank">38 - digital capitalism</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter poetry haiku creative   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.19.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/weary-faces-39100-mini-" target="_blank">39 - weary faces</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      a plane haiku
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter software   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.17.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/personal-panopticon-mini-37100" target="_blank">37 - personal panopticon</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.16.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/empty-mind-mini-36100?justPublished=true" target="_blank">36 - empty mind</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal beliefs favorite fashion   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">08.03.21</span>
+          
+              // 798 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/denim-personality/">denim personality</a>
+        
+      </h2>   
+    <div class="postSummary">
+      an exploration of how fashion becomes a part of your personality, why it came to matter so much to me, and rejecting the “uniform”
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/denim-personality/images/baby-spencer_hu4a7b98e1e034f018e96c703434aa11f4_4084488_400x0_resize_box_3.png" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">07.21.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/chasing-stability" target="_blank">32 - chasing stability</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      It’s a fable of chasing after what we can’t reach, of putting our real life on hold to live out someone else’s idea of a life, of deferring to society’s pressures and whims rather than seizing each day, every single fleeting moment for ourselves to enjoy.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal beliefs favorite technology software   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">07.19.21</span>
+          
+              // 920 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/technology-paradox/">the technology paradox</a>
+        
+      </h2>   
+    <div class="postSummary">
+      on my paradoxical relationship with technology
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/technology-paradox/images/highway_hud3b3bc5c397a30a0169d6e6adb21484d_80785_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="creative poetry   ">
+        
+
+<article class="postSummaryContainer  serif ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">07.16.21</span>
+          
+              // 136 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+               
+                  <i class="uil uil-bolt"></i>
+              
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/the-gaps/">the gaps</a>
+        
+      </h2>   
+    <div class="postSummary">
+      A late-night poem
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="favorite creative   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">07.12.21</span>
+          
+              // 1325 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/uneven-time/">uneven time</a>
+        
+      </h2>   
+    <div class="postSummary">
+      A world where time is uneven, the image to maintain, and the power of mindsets
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/uneven-time/images/fish_hu97af98a8fa8b87dcf4858f929b85f53c_57629_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">07.02.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/a-drop-of-color" target="_blank">28 - a drop of color</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      a cap to my time in New York. On post-travel sadness and what places leave you with. plus a couple fun bonuses like a riff on a song and a haiku.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter cities   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">06.21.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/do-more-be-more-mini-26100" target="_blank">26 - do more, be more</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      a reflection on what New York asks of you and how that environment shapes the default shaping of a person
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">06.09.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/reflection-systems" target="_blank">22 - reflection systems</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      I wrote an overview of the spaces I make for reflection and my intention around sharing that broadly. All the tools I use have been templatized and are free for you to try out if you’re curious!
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">06.03.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/the-solo-culture" target="_blank">19 - the silo culture</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      “Because we don’t interact with other groups, we don’t understand their struggles, needs, and hopes. We only think about us and our tribe when we go to the voting booth, when we launch products, and when we write policy.”
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">05.23.21</span>
+          
+              // 1639 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/commitment-and-obligation/">commitment and obligation</a>
+        
+      </h2>   
+    <div class="postSummary">
+      I was taught that hard work would bring you riches. That effort was the key to success in whatever you did&hellip;
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/commitment-and-obligation/images/memorial_park_huff766f4cb466061ee1a9b11bc12815ce_9108462_400x0_resize_box_3.png" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="projects software work favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">05.13.21</span>
+          
+            
+          
+          
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://coda.io/@spencer/rituals-at-scale-how-we-remixed-templates" target="_blank">Rituals at Scale: How we remixed templates</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      The details behind Coda&rsquo;s custom templates system.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/rituals-remixing/images/rituals-remixing_hu994033bde3c5007a2901b392f8d8f085_4918444_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">04.25.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/dampening-of-curiosity" target="_blank">10 - dampening of curiosity</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      I never want to feel so comfortable that I feel scared to leave. I want to teeter in that grey, liminal space between the edge of my comfort and the known boundary of the unknown, a place of greater risk but also greater reward&hellip;
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal beliefs favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">04.21.21</span>
+          
+              // 921 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/craft-over-career/">craft over career</a>
+        
+      </h2>   
+    <div class="postSummary">
+      what if we chose to optimize craft over career? It means everything we&rsquo;re doing right now is the most important thing, not just a stepping stone towards some &ldquo;better&rdquo; future.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/craft-over-career/images/mads-mikkelsen_hu783b99b72ccfbd8cde0b2b5b080ae90c_457162_400x0_resize_box_3.png" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter favorite technology software   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">04.18.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/shaping-the-world" target="_blank">6 - shaping the world</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      how do we shape the world before us, especially when the tools and systems we expect to work fail?
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="100posts newsletter   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">04.12.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+             
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/vibe-tribes" target="_blank">2 - vibe tribes and finding psychological oxygen</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      This is what a vibe tribe is for, a space that fosters psychological oxygen by default. A community where you can be yourself and feel encouraged rather than pressured to create and express yourself authentically.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal beliefs favorite reflection   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">04.11.21</span>
+          
+              // 1656 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/mid-twenties/">the mid-twenties</a>
+        
+      </h2>   
+    <div class="postSummary">
+      a reflection on turning 24
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/mid-twenties/images/buenos-aires_hub8be65e9f6d9084fd0367631e691c5bc_3318555_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="newsletter   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">01.11.21</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+          
+          
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/towards-2021" target="_blank">towards 2021</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      reconciling different selves, fiction as a tool for demonstrating principles, and the evolution of the passion economy
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal favorite reflection   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">01.01.21</span>
+          
+              // 2390 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/gambling/">Gambling on Dreams</a>
+        
+      </h2>   
+    <div class="postSummary">
+      ✌️2020 | 👋2021.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/gambling/images/apocalypse_huef52fdcfb95ecc822aa52cec8adcfd6a_1240735_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="newsletter   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.08.20</span>
+          
+            
+            // from my <a href="https://spencerchang.substack.com">newsletter <i class="uil uil-mailbox"></i></a></i>
+            
+          
+          
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://spencerchang.substack.com/p/diluted-stars-islands-civic-tech" target="_blank">diluted stars, islands, civic tech, and 🍜</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="creative personal   ">
+        
+
+<article class="postSummaryContainer  serif ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.06.20</span>
+          
+              // 1636 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+               
+                  <i class="uil uil-bolt"></i>
+              
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/dilution/">Dilution</a>
+        
+      </h2>   
+    <div class="postSummary">
+      When the real and imaginary planes meet.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/dilution/images/stars_hu71ce08dfa265fb51297b53b987b376e2_1736047_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal culture favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.26.20</span>
+          
+              // 2386 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/better-world-delusion/">Making the World a Better Place: A Valley of Smoke and Mirrors</a>
+        
+      </h2>   
+    <div class="postSummary">
+      A critical re-evaluation of the tenets of Silicon Valley and an exploration of society and identity.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/better-world-delusion/images/fog_hub062491829fb5c48a36876fcc0f768c5_674229_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal ideas   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">07.27.20</span>
+          
+              // 2123 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/right-decisions/">Making the “Right” Decisions</a>
+        
+      </h2>   
+    <div class="postSummary">
+      What happens when a majority of things that were &ldquo;right&rdquo; are now wrong?
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/right-decisions/images/seals_hu5dc8f6762a8f75b74ad7daa954a111f7_1831488_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal culture   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">06.07.20</span>
+          
+              // 462 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/george-floyd/">George Floyd</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Sharing the photos from the protest I attended last week.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/posts/george-floyd/images/1-20200603-DSC_7875_huad796b6a26a5f0b8b2bc291e479ceb8b_1164107_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="culture ideas   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">05.20.20</span>
+          
+              // 1612 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/broken-lines/">Broken Lines</a>
+        
+      </h2>   
+    <div class="postSummary">
+      When the progress of things is broken by catastrophe
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/broken-lines/logs_huc9599e1feae9dbde853466253c5fd4d9_5094729_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="favorite creative poetry   ">
+        
+
+<article class="postSummaryContainer  serif ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">05.03.20</span>
+          
+              // 556 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+               
+                  <i class="uil uil-bolt"></i>
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/a-twinkle/">a twinkle</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Recounting a visceral experience. On light, humans, and meaning.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/a-twinkle/firefly_hu253ae9e601d80809e409d7e9d5b077b9_655432_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal projects   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">05.01.20</span>
+          
+            
+          
+          
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://coda.io/@spencer/friend-powered-recommendations" target="_blank">Crowdsourced Birthday Recommendations</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      An experiment in crowd-sourcing birthday recommendations and the fruits of it.
+    </div>
+  </div>
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="culture ideas politics   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">04.19.20</span>
+          
+              // 5660 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/war-of-intentions/">The War of Intentions and Beliefs</a>
+        
+      </h2>   
+    <div class="postSummary">
+      What happens when good intentions are lost, everyone wants to be a hero, and the fight against evil spills over into innocents.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/war-of-intentions/discussion_hu5770d2b7064fe6e813a1aaa8fa62916c_491149_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal projects favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">02.24.20</span>
+          
+            
+          
+          
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://coda.io/@spencer/decoding-your-mind" target="_blank">Decoding your Mind</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      Sharing my method to data-empowered journaling and self-reflection
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/decoding-your-mind/puzzle_pieces_hu06c753c075d3ad5728e6bcd25ae802c8_171072_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal reflection   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">02.23.20</span>
+          
+              // 1735 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/discovering/">Discovering a New Year</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Learning from nature, past leaders, and the consequences of human toils
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/discovering/patagonia_hu282207e5d083a7a390cdd38523d229d8_1637650_400x0_resize_q75_box.jpg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="projects   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">01.22.20</span>
+          
+            
+          
+          
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://blog.coda.io/opening-the-lid-on-the-workspace-black-box-c2efc6d1de0e" target="_blank">Opening the Lid on the Workspace Black Box</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      Providing transparency into how your team is using Coda and the power to act on it.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/opening-the-lid/workspace_black_box_hu8d1366c0abc5ae64b48ce790b202103b_427192_400x0_resize_box_3.png" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="creative short-story   ">
+        
+
+<article class="postSummaryContainer  serif ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">12.18.19</span>
+          
+              // 679 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+               
+                  <i class="uil uil-bolt"></i>
+              
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/rider/">The Rider</a>
+        
+      </h2>   
+    <div class="postSummary">
+      A match in the dark.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/rider/match_hu5aa52b9ea93af7a729877d5797b8a1fc_397145_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="creative short-story   ">
+        
+
+<article class="postSummaryContainer  serif ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">11.19.19</span>
+          
+              // 389 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+               
+                  <i class="uil uil-bolt"></i>
+              
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/sublime-arts/">Sublime Arts</a>
+        
+      </h2>   
+    <div class="postSummary">
+      A discovery in the night.
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/sublime-arts/lights_hu9ede1490a228353355654b7d99d702b5_1200961_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="favorite personal culture   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">10.06.19</span>
+          
+              // 1937 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/rice-fields/">Rice Fields and Murky Identities</a>
+        
+      </h2>   
+    <div class="postSummary">
+      How an American-born Chinese navigated teaching and living in Taiwan
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/rice-fields/rice-field_hud2fb4e80983b8f3ab68c5fc4317da8ff_1433880_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal culture   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.26.19</span>
+          
+              // 2048 words
+          
+          
+            
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/student-to-teacher/">From Student to Teacher</a>
+        
+      </h2>   
+    <div class="postSummary">
+      Stumbling through first principles of education and learning
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/student-to-teacher/classroom_hu668e161d33e271bb5fd572f7147be3dc_1728601_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="personal reflection favorite   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">06.02.19</span>
+          
+              // 2584 words
+          
+          
+            
+                  
+          
+          
+          // 
+            <div class="icons">
+              
+               
+                  <i class="uis uis-star"></i>
+              
+            </div>
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="/posts/stupid-scholars/">Stupid Scholars, the Power of Hands, and Free Lunches: Riding Through 4 Years of University</a>
+        
+      </h2>   
+    <div class="postSummary">
+      A reflection on my university journey
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/stupid-scholars/rollercoaster_huf5fb6f9f6738cf34789601302c0cf51a_1062935_400x0_resize_q75_box.jpeg" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+    <div class="tf-filter-item tf-item"  data-tags="projects   ">
+        
+
+<article class="postSummaryContainer ">
+  
+  <div class="postSummaryHeader">
+   <div class="post summary meta">
+        
+        <span>
+          <span class="postDate">09.04.18</span>
+          
+            
+          
+          
+                  
+          
+          
+        </span>
+      </div>
+    <h2 class="postSummaryTitle">
+        
+        
+        
+            <a href="https://medium.com/airbnb-engineering/scaling-knowledge-access-and-retrieval-at-airbnb-665b6ba21e95" target="_blank">Scaling Knowledge Access and Retrieval at Airbnb</a> <i class='uil uil-external-link-alt'></i>
+            
+        
+      </h2>   
+    <div class="postSummary">
+      Introducing our Knowledge Graph for encoding relationships and surfacing relevant information
+    </div>
+  </div>
+    
+      
+      
+        
+        <div class="postSummaryImageContainer">
+            <img loading="lazy" class="lazyload postSummaryImage" data-src="/images/knowledge-graph/airbnb_knowledge_graph_hu719bd56350cb677471fbfc174801d4f2_143613_400x0_resize_box_3.png" />
+        </div>
+      
+    
+  
+</article>
+
+    </div> 
+
+
+<script src="/plugins/filtering/filter.js"></script>
+<script>
+  const htfConfig = {
+    filters: [
+      {
+        name: 'tags',
+        prefix: 'tag-',
+        buttonClass: 'tag-button',
+        allSelector: '#selectAllTags',
+        attrName: 'data-tags',
+        selectedPrefix: 'stags-',
+        countPrefix: 'ctags-'
+      }
+    ],
+    showItemClass: "show-item",
+    filterItemClass: "tf-filter-item",
+    activeButtonClass: "active",
+    counterSelector: "selectedItemCount",
+    populateCount: true,
+    setDisabledButtonClass: "disable-button"
+  } 
+  
+  var htf = new HugoTagsFilter(htfConfig);
+</script>
+
+</div>
+
+        </div>
+        
+        
+        
+        
+        
+    </div>
+    <div id="snackbar"/>
+</body>
+
+</html>
