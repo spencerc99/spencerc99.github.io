@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Photos on Spencer Chang</title>
-    <link>https://www.spencerchang.me/photos/</link>
-    <description>Recent content in Photos on Spencer Chang</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://www.spencerchang.me/photos/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Photos on Spencer Chang</title><link>https://www.spencerchang.me/photos/</link><description>Recent content in Photos on Spencer Chang</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://www.spencerchang.me/photos/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
