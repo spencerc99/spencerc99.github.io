@@ -23,7 +23,7 @@
     {{ end }}
     
     <!-- twitter card tags additive with the og: tags -->
-    <meta name="twitter:card" content="{{ if .IsHome }}summary{{ else }}summary_large_image{{ end }}">
+    <meta name="twitter:card" content="{{ if (or .IsHome (not .Params.image)) }}summary{{ else }}summary_large_image{{ end }}">
     <meta name="twitter:domain" value="{{ .Site.BaseURL }}" />
     <meta name="twitter:title" value="{{.Title}}" />
     <meta name="twitter:description" value="{{ .Description }}" />
