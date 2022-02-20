@@ -31,7 +31,7 @@ Welcome-
 to..
 
 The [End](/experiments/100posts/).
-<span style="font-size:60%;">*or is it?*</span>
+<span style="font-size:60%;">*or <a href="/experiments/100posts/creations-are-intimacy-portals">is it</a>?*</span>
 
 ---
 *This is the **99th** installment in my experiment of publishing raw, lightly edited mini-essays every day towards achieving 100 public pieces. Check out the rationale and the full list [here](/experiments/100posts/)*.
