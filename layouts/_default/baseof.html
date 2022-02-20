@@ -15,7 +15,8 @@
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:title" content="{{.Title}}" />
     <meta property="og:description" content="{{ .Description }}" />
-    <meta property="og:image" content="{{ with .Params.image }}{{ . | absURL }}{{ else }} /assets/companion-in-a-box-final.png {{ end }}" />
+    {{ $defaultThumbnail := "/assets/companion-in-a-box-final.png" | absURL }}
+    <meta property="og:image" content="{{ with .Params.image }}{{ . | absURL }}{{ else }}{{$defaultThumbnail}}{{ end }}" />
     <!-- Don't index draft posts -->
     {{ if .Params.draft }}
         <meta name="robots" content="noindex">
@@ -26,7 +27,7 @@
     <meta name="twitter:domain" value="{{ .Site.BaseURL }}" />
     <meta name="twitter:title" value="{{.Title}}" />
     <meta name="twitter:description" value="{{ .Description }}" />
-    <meta name="twitter:image" content="{{ with .Params.image }}{{ . | absURL }}{{ else }} /assets/companion-in-a-box-final.png {{ end }}" />
+    <meta name="twitter:image" content="{{ with .Params.image }}{{ . | absURL }}{{ else }}{{$defaultThumbnail}}{{ end }}" />
     <meta name="twitter:url" value="{{ .Permalink }}" />
     {{ if .IsHome }}
     <!-- twitter card tags additive with the og: tags -->
