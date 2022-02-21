@@ -2,6 +2,53 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-19%3AIMG_7387.jpeg",
+            "date": "2022-02-19",
+            "timestamp": 1645308583.549053,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Montreal Airport Transborder Area, Montreal Island, Dorval, Quebec, Canada",
+            "city": "Dorval",
+            "country": "Canada",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Headgear",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-20%3AIMG_7451.jpeg",
+            "date": "2022-02-20",
+            "timestamp": 1645401907.684905,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People",
+                "Plant",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-16%3AIMG_7246.jpeg",
             "date": "2022-02-16",
             "timestamp": 1645042195.614698,
@@ -36,20 +83,33 @@
         },
         {
             "description": "",
-            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-16%3AIMG_7220.jpeg",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-16%3AIMG_7220_edited.jpeg",
             "date": "2022-02-16",
             "timestamp": 1645027108.803289,
-            "width": 3024,
-            "height": 4032,
-            "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "width": 2037,
+            "height": 2714,
+            "favorite": true,
+            "place": "Montreal Island, Montr\u00e9al, Quebec, Canada",
+            "city": "Montr\u00e9al",
+            "country": "Canada",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Clothing",
+                "People"
+            ],
             "season": "Winter",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Mexican Cuisine",
+                "New Canadian Cuisine",
+                "Restaurant",
+                "Tex-Mex Cuisine"
+            ]
         },
         {
             "description": "",
