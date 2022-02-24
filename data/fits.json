@@ -1,6 +1,66 @@
 {
     "fits": [
         {
+            "description": "took some old jeans from middle school me",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-23%3AIMG_7475.jpeg",
+            "date": "2022-02-23",
+            "timestamp": 1645635768.386656,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-21%3AIMG_7469.jpeg",
+            "date": "2022-02-21",
+            "timestamp": 1645506043.728369,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-21%3AIMG_7464.jpeg",
+            "date": "2022-02-21",
+            "timestamp": 1645480178.759943,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-19%3AIMG_7387.jpeg",
             "date": "2022-02-19",
@@ -94,6 +154,7 @@
             "country": "Canada",
             "peopleCount": 1,
             "labels": [
+                "Adult",
                 "Clothing",
                 "People"
             ],
