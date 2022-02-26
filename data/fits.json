@@ -1,13 +1,13 @@
 {
     "fits": [
         {
-            "description": "",
+            "description": "clashing textures inspired by kels ",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-25%3AIMG_7497.jpeg",
             "date": "2022-02-25",
             "timestamp": 1645819923.315895,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
