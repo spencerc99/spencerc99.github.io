@@ -1,13 +1,52 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-25%3AIMG_7497.jpeg",
+            "date": "2022-02-25",
+            "timestamp": 1645819923.315895,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "adding some texture/edge to the sweatpants/hoodie fit",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-24%3AIMG_7490_edited.jpeg",
+            "date": "2022-02-24",
+            "timestamp": 1645722461.871779,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jacket",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
             "description": "took some old jeans from middle school me",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-23%3AIMG_7475.jpeg",
             "date": "2022-02-23",
             "timestamp": 1645635768.386656,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -29,12 +68,17 @@
             "timestamp": 1645506043.728369,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Recreation"
+            ],
             "season": "Winter",
             "activities": "",
             "venue_types": ""
@@ -108,21 +152,36 @@
             "venue_types": ""
         },
         {
-            "description": "",
+            "description": "this thrift find!! so fun texture",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-16%3AIMG_7246.jpeg",
             "date": "2022-02-16",
             "timestamp": 1645042195.614698,
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "Montreal Island, Montr\u00e9al, Quebec, Canada",
+            "city": "Montr\u00e9al",
+            "country": "Canada",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jacket",
+                "People"
+            ],
             "season": "Winter",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Mexican Cuisine",
+                "New Canadian Cuisine",
+                "Restaurant",
+                "Tex-Mex Cuisine"
+            ]
         },
         {
             "description": "",
@@ -132,14 +191,29 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "Montreal Island, Montr\u00e9al, Quebec, Canada",
+            "city": "Montr\u00e9al",
+            "country": "Canada",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Door",
+                "Elevator",
+                "People"
+            ],
             "season": "Winter",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Mexican Cuisine",
+                "New Canadian Cuisine",
+                "Restaurant",
+                "Tex-Mex Cuisine"
+            ]
         },
         {
             "description": "",
@@ -180,14 +254,28 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "Montreal Island, Montr\u00e9al, Quebec, Canada",
+            "city": "Montr\u00e9al",
+            "country": "Canada",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
             "season": "Winter",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Mexican Cuisine",
+                "New Canadian Cuisine",
+                "Restaurant",
+                "Tex-Mex Cuisine"
+            ]
         },
         {
             "description": "",
@@ -196,18 +284,34 @@
             "timestamp": 1645050932.626914,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "favorite": true,
+            "place": "Montreal Island, Montr\u00e9al, Quebec, Canada",
+            "city": "Montr\u00e9al",
+            "country": "Canada",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Container",
+                "People",
+                "Suit"
+            ],
             "season": "Winter",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Mexican Cuisine",
+                "New Canadian Cuisine",
+                "Restaurant",
+                "Tex-Mex Cuisine"
+            ]
         },
         {
-            "description": "",
+            "description": "cropping my hoodie and my beanie",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-16%3AIMG_7307.jpeg",
             "date": "2022-02-16",
             "timestamp": 1645066480.285009,
@@ -225,10 +329,17 @@
             ],
             "season": "Winter",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Mexican Cuisine",
+                "New Canadian Cuisine",
+                "Restaurant",
+                "Tex-Mex Cuisine"
+            ]
         },
         {
             "description": "",
@@ -238,31 +349,61 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "Montreal Island, Montr\u00e9al, Quebec, Canada",
+            "city": "Montr\u00e9al",
+            "country": "Canada",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "People"
+            ],
             "season": "Winter",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Mexican Cuisine",
+                "New Canadian Cuisine",
+                "Restaurant",
+                "Tex-Mex Cuisine"
+            ]
         },
         {
-            "description": "",
+            "description": "really like this blazer / hoodie combo",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-16%3AIMG_7243.jpeg",
             "date": "2022-02-16",
             "timestamp": 1645040170.757349,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "favorite": true,
+            "place": "Montreal Island, Montr\u00e9al, Quebec, Canada",
+            "city": "Montr\u00e9al",
+            "country": "Canada",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Eyeglasses",
+                "Jacket",
+                "Optical Equipment",
+                "People"
+            ],
             "season": "Winter",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Mexican Cuisine",
+                "New Canadian Cuisine",
+                "Restaurant",
+                "Tex-Mex Cuisine"
+            ]
         },
         {
             "description": "",
@@ -330,18 +471,14 @@
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
-            "season": "Winter",
-            "activities": [
-                "Dining",
-                "Dinner"
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
             ],
-            "venue_types": [
-                "Food & Grocery",
-                "Food Truck",
-                "Mexican Cuisine",
-                "Restaurant"
-            ]
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
         },
         {
             "description": "",
@@ -431,13 +568,13 @@
             "venue_types": ""
         },
         {
-            "description": "",
+            "description": "fancy sunset formal fit",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-29%3AIMG_6932.jpeg",
             "date": "2022-01-29",
             "timestamp": 1643501538.148594,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -452,18 +589,23 @@
             "venue_types": ""
         },
         {
-            "description": "",
+            "description": "omw to dance",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-01-31%3AIMG_6946.jpeg",
             "date": "2022-01-31",
             "timestamp": 1643679549.169178,
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
             "season": "Winter",
             "activities": "",
             "venue_types": ""
@@ -582,7 +724,7 @@
             "timestamp": 1642615770.337354,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -647,7 +789,7 @@
             "timestamp": 1642457694.123561,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1774,7 +1916,13 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Bar",
+                "Event Services",
+                "Night Club",
+                "Nightlife",
+                "Venue & Event Space"
+            ]
         },
         {
             "description": "",
@@ -4573,7 +4721,14 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Asian Fusion Cuisine",
+                "British Cuisine",
+                "Burger Restaurant",
+                "Gastropub",
+                "New American Cuisine",
+                "Restaurant"
+            ]
         },
         {
             "description": "",
