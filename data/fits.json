@@ -1,6 +1,49 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-27%3AIMG_7527.jpeg",
+            "date": "2022-02-27",
+            "timestamp": 1645989296.34168,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "1st covid positive fit. yes i\u2019m going to dress up to stay in the house. covid will not win!!!",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-26%3AIMG_7523_edited.jpeg",
+            "date": "2022-02-26",
+            "timestamp": 1645935996.045201,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Camera",
+                "Clothing",
+                "People",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
             "description": "clashing textures inspired by kels ",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-25%3AIMG_7497.jpeg",
             "date": "2022-02-25",
@@ -12,7 +55,12 @@
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Recreation"
+            ],
             "season": "Winter",
             "activities": "",
             "venue_types": ""
@@ -144,8 +192,7 @@
             "labels": [
                 "Adult",
                 "People",
-                "Plant",
-                "Recreation"
+                "Plant"
             ],
             "season": "Winter",
             "activities": "",
@@ -162,7 +209,7 @@
             "place": "Montreal Island, Montr\u00e9al, Quebec, Canada",
             "city": "Montr\u00e9al",
             "country": "Canada",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Adult",
                 "Clothing",
@@ -194,7 +241,7 @@
             "place": "Montreal Island, Montr\u00e9al, Quebec, Canada",
             "city": "Montr\u00e9al",
             "country": "Canada",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Adult",
                 "Door",
@@ -257,7 +304,7 @@
             "place": "Montreal Island, Montr\u00e9al, Quebec, Canada",
             "city": "Montr\u00e9al",
             "country": "Canada",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Adult",
                 "Clothing",
@@ -292,7 +339,6 @@
             "labels": [
                 "Adult",
                 "Clothing",
-                "Container",
                 "People",
                 "Suit"
             ],
@@ -423,9 +469,7 @@
                 "Furniture",
                 "People",
                 "Recreation",
-                "Table",
-                "Tableware",
-                "Utensil"
+                "Table"
             ],
             "season": "Winter",
             "activities": [
@@ -454,6 +498,8 @@
             ],
             "season": "Winter",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -604,7 +650,8 @@
                 "Adult",
                 "Clothing",
                 "Jeans",
-                "People"
+                "People",
+                "Plant"
             ],
             "season": "Winter",
             "activities": "",
@@ -846,7 +893,8 @@
             "labels": [
                 "Adult",
                 "Furniture",
-                "People"
+                "People",
+                "Recreation"
             ],
             "season": "Winter",
             "activities": "",
@@ -1235,9 +1283,9 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
+                "Camera",
                 "Clothing",
                 "Door",
-                "Furniture",
                 "People",
                 "Recreation"
             ],
@@ -1270,8 +1318,6 @@
             ],
             "season": "Winter",
             "activities": [
-                "Celebration",
-                "Holiday",
                 "Travel",
                 "Trip"
             ],
@@ -1320,7 +1366,6 @@
                 "Adult",
                 "Blue Sky",
                 "Clothing",
-                "Jacket",
                 "Ocean",
                 "Outdoor",
                 "People",
@@ -1354,7 +1399,6 @@
                 "Adult",
                 "Clothing",
                 "Door",
-                "Elevator",
                 "Jacket",
                 "People"
             ],
@@ -1439,7 +1483,7 @@
             "place": "Houston, Texas, United States",
             "city": "Houston",
             "country": "United States",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Adult",
                 "Clothing",
@@ -1468,6 +1512,7 @@
             "labels": [
                 "Adult",
                 "Clothing",
+                "Decorative Plant",
                 "Foliage",
                 "People",
                 "Plant"
@@ -1491,7 +1536,8 @@
             "labels": [
                 "Adult",
                 "Clothing",
-                "People"
+                "People",
+                "Recreation"
             ],
             "season": "Winter",
             "activities": "",
@@ -1553,7 +1599,7 @@
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
-            "peopleCount": 2,
+            "peopleCount": 5,
             "labels": [
                 "Adult",
                 "Clothing",
@@ -1627,6 +1673,7 @@
                 "Adult",
                 "Clothing",
                 "Decorative Plant",
+                "Jacket",
                 "People",
                 "Plant",
                 "Recreation"
@@ -1805,7 +1852,7 @@
             "place": "Los Angeles, California, United States",
             "city": "Los Angeles",
             "country": "United States",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Adult",
                 "Clothing",
@@ -1843,6 +1890,8 @@
             ],
             "season": "Fall",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -1877,6 +1926,8 @@
             "activities": [
                 "Activity",
                 "Beach Activity",
+                "Dining",
+                "Lunch",
                 "Travel",
                 "Trip"
             ],
@@ -1896,7 +1947,6 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
-                "Bench",
                 "Blue Sky",
                 "Clothing",
                 "Furniture",
@@ -1918,9 +1968,12 @@
             ],
             "venue_types": [
                 "Bar",
+                "Cocktail Bar",
                 "Event Services",
                 "Night Club",
                 "Nightlife",
+                "Restaurant",
+                "Sandwich Shop",
                 "Venue & Event Space"
             ]
         },
@@ -1935,7 +1988,7 @@
             "place": "Los Angeles, California, United States",
             "city": "Los Angeles",
             "country": "United States",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Adult",
                 "People",
@@ -1963,7 +2016,10 @@
             "labels": [
                 "Adult",
                 "Clothing",
-                "People"
+                "Interior Room",
+                "Machine",
+                "People",
+                "Vehicle"
             ],
             "season": "Fall",
             "activities": [
@@ -2133,7 +2189,8 @@
                 "Adult",
                 "Clothing",
                 "Jacket",
-                "People"
+                "People",
+                "Plant"
             ],
             "season": "Fall",
             "activities": "",
@@ -2262,7 +2319,6 @@
             "labels": [
                 "Adult",
                 "Clothing",
-                "Jacket",
                 "People",
                 "Plant"
             ],
@@ -2411,8 +2467,10 @@
             ],
             "season": "Fall",
             "activities": [
+                "Celebration",
                 "Dining",
-                "Dinner"
+                "Dinner",
+                "Holiday"
             ],
             "venue_types": ""
         },
@@ -2497,7 +2555,6 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
-                "Camera",
                 "Foliage",
                 "People",
                 "Plant",
@@ -2523,7 +2580,6 @@
                 "Adult",
                 "Clothing",
                 "Furniture",
-                "Interior Room",
                 "Jeans",
                 "People",
                 "Sofa"
@@ -2619,6 +2675,7 @@
             "labels": [
                 "Adult",
                 "Clothing",
+                "Jacket",
                 "People"
             ],
             "season": "Fall",
@@ -2640,7 +2697,6 @@
             "labels": [
                 "Adult",
                 "Decorative Plant",
-                "Door",
                 "People",
                 "Plant",
                 "Recreation"
@@ -2757,6 +2813,7 @@
                 "Adult",
                 "Clothing",
                 "People",
+                "Plant",
                 "Recreation"
             ],
             "season": "Summer",
@@ -2798,7 +2855,7 @@
             "place": "Manhattan, New York, North Hudson, United States",
             "city": "New York",
             "country": "United States",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Adult",
                 "Clothing",
@@ -2853,10 +2910,7 @@
                 "People"
             ],
             "season": "Winter",
-            "activities": [
-                "Celebration",
-                "Holiday"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -2895,7 +2949,6 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
-                "Clothing",
                 "People"
             ],
             "season": "Fall",
@@ -2917,6 +2970,7 @@
             "labels": [
                 "Adult",
                 "Foliage",
+                "Furniture",
                 "People",
                 "Plant"
             ],
@@ -2983,7 +3037,6 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
-                "Clothing",
                 "People"
             ],
             "season": "Spring",
@@ -3001,7 +3054,7 @@
             "place": "",
             "city": "",
             "country": "",
-            "peopleCount": 2,
+            "peopleCount": 1,
             "labels": [
                 "Adult",
                 "People"
@@ -3072,7 +3125,10 @@
                 "Recreation"
             ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
             "venue_types": ""
         },
         {
@@ -3121,6 +3177,8 @@
             ],
             "season": "Fall",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -3192,6 +3250,7 @@
                 "Clothing",
                 "Jeans",
                 "People",
+                "Plant",
                 "Recreation"
             ],
             "season": "Summer",
@@ -3258,6 +3317,7 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
+                "Decorative Plant",
                 "People",
                 "Plant"
             ],
@@ -3325,6 +3385,7 @@
             "labels": [
                 "Adult",
                 "Clothing",
+                "Jeans",
                 "People",
                 "Plant"
             ],
@@ -3415,6 +3476,7 @@
             "labels": [
                 "Adult",
                 "Clothing",
+                "Foliage",
                 "Jeans",
                 "People",
                 "Plant",
@@ -3439,7 +3501,6 @@
             "labels": [
                 "Adult",
                 "Clothing",
-                "Door",
                 "Jeans",
                 "People"
             ],
@@ -3558,6 +3619,7 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
+                "Clothing",
                 "People",
                 "Plant"
             ],
@@ -3603,7 +3665,6 @@
             "labels": [
                 "Adult",
                 "Clothing",
-                "Machine",
                 "People"
             ],
             "season": "Summer",
@@ -3654,7 +3715,6 @@
                 "Optical Equipment",
                 "Outdoor",
                 "People",
-                "Recreation",
                 "Sky"
             ],
             "season": "Fall",
@@ -3701,7 +3761,8 @@
             "labels": [
                 "Adult",
                 "Clothing",
-                "People"
+                "People",
+                "Plant"
             ],
             "season": "Fall",
             "activities": "",
@@ -3892,6 +3953,7 @@
                 "Adult",
                 "Boot",
                 "Clothing",
+                "Foliage",
                 "Footwear",
                 "Jacket",
                 "People",
@@ -3918,7 +3980,7 @@
             "labels": [
                 "Adult",
                 "Clothing",
-                "Furniture",
+                "Decorative Plant",
                 "People",
                 "Plant"
             ],
@@ -3985,7 +4047,8 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
-                "People"
+                "People",
+                "Plant"
             ],
             "season": "Fall",
             "activities": "",
@@ -4010,7 +4073,6 @@
                 "Jacket",
                 "Lake",
                 "Land",
-                "Lifejacket",
                 "Necktie",
                 "Outdoor",
                 "People",
@@ -4217,6 +4279,8 @@
             ],
             "season": "Fall",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -4334,7 +4398,6 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
-                "Foliage",
                 "People",
                 "Plant"
             ],
@@ -4445,6 +4508,7 @@
             "peopleCount": 1,
             "labels": [
                 "Adult",
+                "Foliage",
                 "People",
                 "Plant"
             ],
@@ -4488,7 +4552,8 @@
             "labels": [
                 "Adult",
                 "Clothing",
-                "People"
+                "People",
+                "Plant"
             ],
             "season": "Fall",
             "activities": "",
@@ -4624,18 +4689,17 @@
             "place": "Homer, Ninilchik, United States",
             "city": "Homer",
             "country": "United States",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Adult",
-                "Boot",
                 "Clothing",
-                "Footwear",
                 "Furniture",
-                "People",
-                "Shoes"
+                "People"
             ],
             "season": "Fall",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -4656,6 +4720,7 @@
             "labels": [
                 "Adult",
                 "Clothing",
+                "Foliage",
                 "Jacket",
                 "Jeans",
                 "People",
@@ -4681,6 +4746,7 @@
                 "Adult",
                 "Clothing",
                 "People",
+                "Plant",
                 "Recreation"
             ],
             "season": "Summer",
@@ -4721,14 +4787,7 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": [
-                "Asian Fusion Cuisine",
-                "British Cuisine",
-                "Burger Restaurant",
-                "Gastropub",
-                "New American Cuisine",
-                "Restaurant"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -4804,8 +4863,6 @@
             ],
             "season": "Fall",
             "activities": [
-                "Activity",
-                "Hiking",
                 "Travel",
                 "Trip"
             ],
@@ -4827,8 +4884,7 @@
                 "Adult",
                 "Clothing",
                 "People",
-                "Plant",
-                "Recreation"
+                "Plant"
             ],
             "season": "Fall",
             "activities": "",
@@ -5103,6 +5159,7 @@
             "labels": [
                 "Adult",
                 "Clothing",
+                "Decorative Plant",
                 "Furniture",
                 "People",
                 "Plant",

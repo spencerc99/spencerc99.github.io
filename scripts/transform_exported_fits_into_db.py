@@ -1,9 +1,13 @@
 import urllib.parse
+import click
 from osxphotos import PhotoInfo, ExportResults
 import json
 import os
+from append_fit_tweet import post_fit_to_twitter
 
 FITS_PATH_NAME = './data/fits.json'
+# Manually change this if you don't want to post to twitter.
+SHOULD_POST_TO_TWITTER = True
 #TODO: group by day under the same one, turn imgSrc into an array
 #TODO: this needs to handle deleting ones that are removed from album.
 def post_function(
@@ -30,6 +34,7 @@ def post_function(
     url_encoded_filename = urllib.parse.quote_plus(exported_filename)
     s3_bucket_url = f"https://assets.spencerchang.me/fits-stream/{url_encoded_filename}"
     photo_timestamp = photo.date.timestamp()
+    inserted_new_fit = False
 
     def upsert_photo_properties(obj):
         obj["description"] = photo.description or ""
@@ -66,6 +71,7 @@ def post_function(
             upsert_photo_properties(new_object)
             verbose(f"Inserting {url_encoded_filename} with {new_object}")
             fits.insert(0, new_object)
+            inserted_new_fit = True
 
         # ensure this updates as looks like its not carrying through updates
         fit_data['fits'] = fits
@@ -73,6 +79,11 @@ def post_function(
     with open(FITS_PATH_NAME, 'w') as f:
         verbose("writing out to JSON")
         f.write(json.dumps(fit_data, indent = 4))
+
+    if SHOULD_POST_TO_TWITTER and inserted_new_fit and click.confirm(f'Post new fit ({photo_date}) to twitter?'):
+        photo_date = photo.date.strftime("%Y-%m-%d")
+        verbose(f"Posting new fit ({photo_date}) to twitter")
+        post_fit_to_twitter(photo.path, photo_date, description=photo.description)
 
 # rewrite the file
 # fit_data = None
