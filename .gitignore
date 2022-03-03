@@ -4,3 +4,4 @@ fits-export/
 fits-export-2/
 local-data/
 .env
+**/__pycache__/
