@@ -35,11 +35,12 @@ def post_function(
     s3_bucket_url = f"https://assets.spencerchang.me/fits-stream/{url_encoded_filename}"
     photo_timestamp = photo.date.timestamp()
     inserted_new_fit = False
+    photo_date = photo.date.strftime("%Y-%m-%d")
 
     def upsert_photo_properties(obj):
         obj["description"] = photo.description or ""
         obj["imgSrc"] = s3_bucket_url
-        obj["date"] = photo.date.strftime("%Y-%m-%d")
+        obj["date"] = photo_date
         obj["timestamp"] = photo_timestamp
         obj["width"] = photo.width 
         obj["height"] = photo.height
@@ -81,9 +82,8 @@ def post_function(
         f.write(json.dumps(fit_data, indent = 4))
 
     if SHOULD_POST_TO_TWITTER and inserted_new_fit and click.confirm(f'Post new fit ({photo_date}) to twitter?'):
-        photo_date = photo.date.strftime("%Y-%m-%d")
         verbose(f"Posting new fit ({photo_date}) to twitter")
-        post_fit_to_twitter(photo.path, photo_date, description=photo.description)
+        post_fit_to_twitter(results.exported[0], photo_date, description=photo.description)
 
 # rewrite the file
 # fit_data = None

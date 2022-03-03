@@ -15,17 +15,6 @@ consumer_secret = os.environ.get("CONSUMER_SECRET")
 access_token = os.environ.get("ACCESS_TOKEN")
 access_token_secret = os.environ.get("ACCESS_TOKEN_SECRET")
 
-SAVED_LAST_TWEET_ID = None
-LAST_FIT_NUM = None
-with open('./local-data/last_fit.json', 'r') as f:
-    last_fit_data = json.load(f)
-    SAVED_LAST_TWEET_ID = last_fit_data['last_tweet_id']
-    LAST_FIT_NUM = int(last_fit_data['last_fit_num']) + 1
-
-if SAVED_LAST_TWEET_ID is None:
-    print("No tweet id found")
-    exit(1)
-
 auth = tweepy.OAuth1UserHandler(
     consumer_key, consumer_secret, access_token, access_token_secret
 )
@@ -41,14 +30,22 @@ api = tweepy.API(auth)
 
 # Make sure to reauthorize your app / regenerate your access token and secret 
 # after setting the Write permission
-def post_fit_to_twitter(fit_path, date_str, description="", last_tweet_id=SAVED_LAST_TWEET_ID, fit_num=LAST_FIT_NUM, verbose=False) -> str:
+def post_fit_to_twitter(fit_path, date_str, description="", last_tweet_id=None, fit_num=None, verbose=False) -> str:
+    if not last_tweet_id or not fit_num:
+        with open('./local-data/last_fit.json', 'r') as f:
+            last_fit_data = json.load(f)
+            last_tweet_id = last_tweet_id or last_fit_data['last_tweet_id']
+            fit_num = fit_num or int(last_fit_data['last_fit_num']) + 1
+
     if not fit_num:
-        raise Exception("No fit number provided")
+        raise Exception("No fit number provided or found")
     if not last_tweet_id:
-        raise Exception("No last tweet id provided")
+        raise Exception("No last tweet id provided or found")
+        
+    print("Using file path {}".format(fit_path))
     fit_pic = api.media_upload(fit_path)
     website_url = "https://spencerchang.me/fits/#{}".format(fit_num)
-    tweet_body = f"fit {fit_num} ◉ {date_str}\n\n{description}\n\n{website_url}"
+    tweet_body = f"fit {fit_num} ◉ {date_str or ''}\n\n{description or ''}\n\n{website_url}"
     if verbose:
         print("Preparing to post tweet in reply to {} with media id {}".format(last_tweet_id, fit_pic.media_id))
         print(tweet_body)

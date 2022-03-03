@@ -1,6 +1,57 @@
 {
     "fits": [
         {
+            "description": "stripes day",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-02%3AIMG_7578.jpeg",
+            "date": "2022-03-02",
+            "timestamp": 1646266331.696457,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-28%3AIMG_7544.jpeg",
+            "date": "2022-02-28",
+            "timestamp": 1646067681.786775,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "nothing fancy td ",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-01%3AIMG_7560.jpeg",
+            "date": "2022-03-01",
+            "timestamp": 1646187292.038107,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-02-27%3AIMG_7527.jpeg",
             "date": "2022-02-27",
@@ -498,8 +549,6 @@
             ],
             "season": "Winter",
             "activities": [
-                "Dining",
-                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -1024,10 +1073,8 @@
             ],
             "season": "Winter",
             "activities": [
-                "Activity",
                 "Travel",
-                "Trip",
-                "Winter Sport"
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -1924,10 +1971,6 @@
             ],
             "season": "Fall",
             "activities": [
-                "Activity",
-                "Beach Activity",
-                "Dining",
-                "Lunch",
                 "Travel",
                 "Trip"
             ],
