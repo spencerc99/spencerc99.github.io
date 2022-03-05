@@ -5,7 +5,7 @@
 {{ end }} 
 {{ define "main" }}
 <div class="listDescription">
-  {{ partial "recent_writing.html"}}
+  {{ partial "writing_projects.html" .}}
   <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
   {{.Content}}
 </div>

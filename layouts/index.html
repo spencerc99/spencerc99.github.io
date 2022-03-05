@@ -65,15 +65,23 @@
     {{.Content}}
 </div>
 <div class="summaryList" id="summaryList">
-  {{ partial "recent_writing.html"}}
-  {{ partial "legend.html" . }}
+  {{ partial "writing_projects.html" .}}
+  <!-- {{ partial "legend.html" . }} -->
   <br/>
-  You can find my favorite pieces below, or browse all my <a href="/posts">writing</a>.
-  <div class="postsList">
-    <!-- TODO: include the latest 3 -->
-  {{ range where .Site.Taxonomies.tags.favorite "Params.internal_link" nil }}
+  Some recents and my all-time favorites are below, or browse all my <a href="/posts">writing</a>.
+  <h3>Latest</h3>
+  {{ $recentPosts := .Site.RegularPages }}
+  {{ range first 3 $recentPosts }}
     {{ .Render "summary" }} 
   {{ end }}
+  <h3>Favorites</h3>
+  <div class="postsList">
+    {{ $favorites := where .Site.Taxonomies.tags.favorite "Params.internal_link" nil }}
+    <!-- TODO: this comlement doesn't quite work. I hate HUGO -->
+    {{ $faveCands := $favorites | complement $recentPosts }}
+    {{ range $faveCands  }}
+      {{ .Render "summary" }} 
+    {{ end }}
   </div>
   <div class="scrollUp"><button onclick="scrollUp('summaryList')">Back to top</button></div>
 </div>

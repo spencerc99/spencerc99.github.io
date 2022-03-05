@@ -1,5 +1,6 @@
 ---
 title: "boundless shapeshifters"
+description: A shapeshifting poem.
 date: "2022-02-12"
 tags: ["poetry", "creative"]
 icon: "uil uil-bolt"
@@ -15,6 +16,9 @@ related: []
     <div id="boundless-shapeshifters"></div>
     <p class="signoff">- spencer chang</p>
 </div>
+
+---
+You might be wondering... What is this? This is a telescopic poem, a form of software poetics that I'm fascinated with. I'm excited about the [potential of shapeshifting text](https://twitter.com/spencerc99/status/1493435055225643015?s=20&t=vwAEdDf4rtBtArHNUOcjPg) that software offers us. Test out and make your own on the [test bed](https://poems.verses.xyz/test) or read more about it in my [newsletter issue](https://spencerchang.substack.com/p/despair-and-hope).
 
 <script>
       const poem = `
