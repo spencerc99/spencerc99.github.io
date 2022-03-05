@@ -1,6 +1,49 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-03%3AIMG_7591_edited.jpeg",
+            "date": "2022-03-03",
+            "timestamp": 1646359956.129093,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jacket",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "stripes rd 2",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-03%3AIMG_7587.jpeg",
+            "date": "2022-03-03",
+            "timestamp": 1646337740.388231,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
             "description": "stripes day",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-02%3AIMG_7578.jpeg",
             "date": "2022-03-02",
