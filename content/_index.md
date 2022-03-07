@@ -35,7 +35,7 @@ Creative technologist, stubborn optimist in <span style="font-size: 125%;">🌉<
 I like <a href="#summaryList">writing</a>, taking <a href="/photos">photos</a>, <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, and eating (and sharing). I also enjoy experimenting with <a href="/fits">fashion</a>, dancing, and being in nature.
 
 
-I spent my days building tools for tinkers at <a id="coda" href="https://coda.io">Coda</a>. I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and now work on the <a href="https://coda.io/packsbeta">Packs platform</a> so that anyone can extend Coda's capabilities. I also explore soulful, speculative software poetics with <a href="https://verses.xyz" id="verses">verses</a> and recently co-stewarded the creation of <b  id="pluriverse"><a href="https://pluriverse.world">pluriverse.world</a></b>.
+I spend my days building tools for tinkers at <a id="coda" href="https://coda.io">Coda</a>. I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and now work on the <a href="https://coda.io/packsbeta">Packs platform</a> so that anyone can extend Coda's capabilities. I also explore soulful, speculative software poetics with <a href="https://verses.xyz" id="verses">verses</a> and recently co-stewarded the creation of <b  id="pluriverse"><a href="https://pluriverse.world">pluriverse.world</a></b>.
 
 <p>
     <details>
