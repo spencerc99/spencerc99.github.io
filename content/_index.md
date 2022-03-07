@@ -51,6 +51,4 @@ I spent my days building tools for tinkers at <a id="coda" href="https://coda.io
     </details>
 </p>
 
-While you're here, stay a little :) Check out my <a href="/posts">writing</a>, <a href="/fits">fits</a>, or <a href="/photos">photos</a>.
-
-I love hearing from people :) give me a <span class="wave">👋</span> using your preferred medium below.
+While you're in my corner of the web, stay a little ☕️ check out my collections of <a href="/posts">writing</a>, <a href="/fits">fits</a>, or <a href="/photos">photos</a> and let me know what you think
