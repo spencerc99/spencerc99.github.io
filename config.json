@@ -12,36 +12,43 @@
         }
     },
     "params": {
-        "social": [{
-                "name": "Instagram",
-                "imgSrc": "/assets/instagram.svg",
-                "class": "uil-instagram",
-                "url": "https://www.instagram.com/spencerchang.photography/"
-            },
-            {
-                "name": "Twitter",
-                "imgSrc": "/assets/twitter.svg",
-                "class": "uil-twitter",
-                "url": "https://twitter.com/spencerc99/"
-            },
-            {
-                "name": "Github",
-                "imgSrc": "/assets/github.svg",
-                "class": "uil-github",
-                "url": "https://github.com/spencerc99/"
-            },
-            {
-                "name": "Newsletter",
-                "imgSrc": "/assets/newsletter.svg",
-                "class": "uil-mailbox",
-                "url": "https://spencerchang.substack.com/"
-            },
-            {
-                "name": "Live Monitor",
-                "imgSrc": "/assets/monitor.svg",
-                "class": "uil-monitor-heart-rate",
-                "url": "https://coda.io/@spencer/decoding-your-mind/live-spencer-monitor-22"
-            }
+        "social": [
+          {
+            "name": "Twitter",
+            "imgSrc": "/assets/twitter.svg",
+            "class": "uil-twitter",
+            "url": "https://twitter.com/spencerc99/"
+          },
+          {
+            "name": "Email",
+            "class": "uil-at",
+            "url": "mailto:spencerc99@gmail.com"
+          },
+          {
+            "name": "Newsletter",
+            "imgSrc": "/assets/newsletter.svg",
+            "class": "uil-mailbox",
+            "url": "https://spencerchang.substack.com/"
+          },
+          {
+            "name": "Github",
+            "imgSrc": "/assets/github.svg",
+            "class": "uil-github",
+            "url": "https://github.com/spencerc99/"
+          },
+          {
+            "name": "Instagram",
+            "imgSrc": "/assets/instagram.svg",
+            "class": "uil-instagram",
+            "url": "https://www.instagram.com/spencerchang.photography/"
+          },
+
+          {
+            "name": "Live Monitor",
+            "imgSrc": "/assets/monitor.svg",
+            "class": "uil-monitor-heart-rate",
+            "url": "https://coda.io/@spencer/decoding-your-mind/live-spencer-monitor-22"
+          }
         ]
     },
     "taxonomies": {

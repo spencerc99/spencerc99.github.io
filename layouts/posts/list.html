@@ -5,15 +5,25 @@
 {{ end }} 
 {{ define "main" }}
 <div class="listDescription">
-  {{ partial "writing_projects.html" .}}
-  <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+  <div>{{ partial "writing_projects.html" .}}
+    </div>
   {{.Content}}
 </div>
-<div class="summaryList">
-    {{ partial "legend.html" }}
-    {{ $pages := where .Site.RegularPages "Type" "posts" }}
-    {{ $showcasePages := where .Site.RegularPages "Params.show_home" true }}
-    {{ $allPages := sort ($pages | union $showcasePages) "Date" "desc" }}
-    {{ partial "posts_filtered_by_tags.html" $allPages }}
+<div class="summaryList" id="summaryList">
+    <!-- {{ partial "legend.html" }} -->
+  {{ $pages := where .Site.RegularPages "Type" "posts" }}
+  {{ $showcasePages := where .Site.RegularPages "Params.show_home" true }}
+  {{ $allPages := sort ($pages | union $showcasePages) "Date" "desc" }}
+  <h2>a few favorites</h3>
+  <div class="postsList">
+    {{ $favorites := where .Site.Taxonomies.tags.favorite "Params.internal_link" nil }}
+    <!-- TODO: this comlement doesn't quite work. I hate HUGO -->
+    {{ $faveCands := $favorites }}
+    {{ range first 5 $faveCands  }}
+      {{ .Render "summary" }} 
+    {{ end }}
+  </div>
+  <h2 id="recentWriting">all recent writing</h3>
+  {{ partial "posts_filtered_by_tags.html" $allPages }}
 </div>
 {{ end }}

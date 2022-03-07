@@ -607,6 +607,11 @@ button.icon {
   margin: $header-container-margin 0 24px 0;
   font-size: $scaled-font-size;
 
+  p {
+    font-size: $scaled-font-size;
+    margin: 12px 0;
+  }
+
   &.home {
     .description div {
       margin-bottom: 12px;
@@ -625,6 +630,11 @@ button.icon {
 
   *:first-child {
     margin-top: 0;
+  }
+
+  div {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
   }
 }
 
@@ -664,7 +674,6 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
   &:not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.avatarLink) {
     color: $color-link;
     text-decoration: none;
-    text-decoration: none;
     transition: background-color 0.25s ease-in-out;
 
     .postContent &, .listDescription & {
@@ -699,27 +708,31 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
   }
 }
 
+.socialMediaLink {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.25s ease-in-out;
+
+  &:hover {
+    color: $color-link;
+  }
+}
+
 .socialMediaContainer {
   display: flex;
   margin: 10px 0;
-
-  a {
-    display: flex;
-    align-items: center;
-    color: inherit;
-    font-size: 32px;
-    transition: color 0.25s ease-in-out;
-
-    &:hover {
-      color: $color-link;
-    }
-  }
 
   img {
     width: 32px;
     height: 32px;
     padding: 5px;
     // filter: grayscale(90%);
+  }
+
+  .socialMediaLink { 
+    display: flex;
+    align-items: center;
+    font-size: 32px;
   }
 
   i {
@@ -801,14 +814,13 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
   }
 }
 
-// Collapsible sections
 summary {
   line-height: $default-line-height;
   position:relative;
   display: inline;
   border-radius: 4px;
 
-  & h3 {
+  & h1,h2,h3,h4,h5 {
     display:inline;
   }
 }

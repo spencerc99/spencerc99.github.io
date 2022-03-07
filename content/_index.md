@@ -3,3 +3,54 @@ title: "Spencer Chang | creative technologist, story crafter, optimist"
 description: "Spencer is a creative technologist and stubborn optimist in San Francisco. He creates playful and intimate software and crafts stories through words and lenses."
 image: "/assets/companion-in-a-box-final.png"
 ---
+
+Creative technologist, stubborn optimist in <span style="font-size: 125%;">🌉</span>
+
+<p>
+    <details>
+        <summary>Dreaming, wandering, laughing, and thinking about...</summary>
+        <div>
+            <ul class="noPadding">
+            <li>
+                <b>creative agency</b> <br/> how we can give users more <a href="/posts/take-back-the-future-response">agency</a> in the software they use or are used by every day and what does a healthy relationship with <a href="/posts/technology-paradox">technology look like</a>?
+            </li>
+            <li>
+                <b><a href="https://mmm.page/helena.soft_tech">soft tech</a></b> <br/> how do we create software that encourages tinkering and authentic expression, where making crazy connections is necessary rather than a nuisance?
+            </li>
+            <li>
+                <b>people over systems</b> <br/> what sort of systems do we need to create a society that cares about enabling every person to live with the <a href="/experiments/100posts/privilege-of-dreams">privilege to pursue their dreams</a> and create something that they can truly own?
+            </li>
+            <li>
+                <b>authentic <a href="/experiments/100posts/unstoppable-expression">expression</a></b> <br/> how do we create environments that provide a <a href="/experiments/100posts/low-pressure-contexts">low-pressure context</a> for people to fail and learn and scale that <a href="/experiments/100posts/trust">trust</a> beyond small local communities?
+            </li>
+            <li>
+                <b>living fully</b> <br/> how do we live more fully and <a href="/experiments/100posts/intensity">intensely</a> and learn to trust ourselves to <a href="/experiments/100posts/opportunity">express ourselves</a> without caveats?
+            </li>
+            </ul>
+        </div>
+    </details>
+</p>
+
+
+I like <a href="#summaryList">writing</a>, taking <a href="/photos">photos</a>, <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, and eating (and sharing). I also enjoy experimenting with <a href="/fits">fashion</a>, dancing, and being in nature.
+
+
+I spent my days building tools for tinkers at <a id="coda" href="https://coda.io">Coda</a>. I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and now work on the <a href="https://coda.io/packsbeta">Packs platform</a> so that anyone can extend Coda's capabilities. I also explore soulful, speculative software poetics with <a href="https://verses.xyz" id="verses">verses</a> and recently co-stewarded the creation of <b  id="pluriverse"><a href="https://pluriverse.world">pluriverse.world</a></b>.
+
+<p>
+    <details>
+    <summary>I'm proud of...</summary>
+    <div>
+        <ul class="noPadding">
+        <li>My <a href="/fits">Fits Stream</a>, an auto-stream of my daily outfits.</li>
+        <li><a href="https://pluriverse.world">Towards a Digital Pluriverse</a>: An interactive, participatory essay proposing the "pluriverse" as a new banner for the community to rally around for how we look at imagining a "new web." It is co-created with visitors and readers of the site.</li>
+        <li><a href="/experiments/100posts">100 mini-essays</a>: A collection of 100 posts I've written in 2021, comprising personal essays, poems, short stories, and more.</li>
+        <li><a href="/posts/everyday-magic">Everyday Magic</a> essay for <a href="https://reboothq.substack.com/">reboot</a></li> on the magic of the technology and why we need to and how we make it accessible to everyone.
+        </ul>
+    </div>
+    </details>
+</p>
+
+While you're here, stay a little :) Check out my <a href="/posts">writing</a>, <a href="/fits">fits</a>, or <a href="/photos">photos</a>.
+
+I love hearing from people :) give me a <span class="wave">👋</span> using your preferred medium below.

@@ -6,6 +6,7 @@ date: "2021-12-02"
 tags: ['ideas', 'favorite', 'software']
 emojis: ['🪄', "⚡", "🔮", "✨"]
 related: ['/posts/take-back-the-future-response', '/experiments/100posts/fast-feedback-loops']
+weight: 998
 --- 
 
 {{< figure src="images/takeoff.jpg" caption="*Isn't it mindboggling that we created machines that can fly and swim?*" class="fullWidth" >}}

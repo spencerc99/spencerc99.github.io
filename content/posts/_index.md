@@ -5,7 +5,7 @@ emojis: ['✍️', 📝, 📇]
 related: []
 ---
 <details>
-    <summary><i>why do I write?</i></summary>
+    <summary> why do I write?</summary>
     <br/>
     <div>
     <p>
@@ -15,4 +15,4 @@ related: []
     </div>
 </details>
 
-All my public writing is here in some form. I write for emotional resonance, so if something I've written strikes a chord, please send me a note (<a href="https://twitter.com/@spencerc99">Twitter</a> or <a href="mailto:spencerc99@gmail.com">email</a>) 
+All my public writing is here in some form. I write for emotional resonance, so if something I've written strikes a chord, please send me a note (<a class="socialMediaLink" href="https://twitter.com/@spencerc99" ><i class='uil uil-twitter'></i></a> or <a class="socialMediaLink" href="mailto:spencerc99@gmail.com" ><i class='uil uil-at'></i></a>)
