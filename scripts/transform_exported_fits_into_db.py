@@ -81,7 +81,7 @@ def post_function(
         verbose("writing out to JSON")
         f.write(json.dumps(fit_data, indent = 4))
 
-    if SHOULD_POST_TO_TWITTER and inserted_new_fit and click.confirm(f'Post new fit ({photo_date}) to twitter?'):
+    if SHOULD_POST_TO_TWITTER and inserted_new_fit and click.confirm(f'\nPost new fit ({photo_date}) to twitter?'):
         verbose(f"Posting new fit ({photo_date}) to twitter")
         post_fit_to_twitter(results.exported[0], photo_date, description=photo.description)
 
