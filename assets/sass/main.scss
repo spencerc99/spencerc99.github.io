@@ -6,6 +6,8 @@ $color-lighter-grey: rgba(112, 128, 144, 0.25);
 $color-lighter-grey-background: rgba(112, 128, 144, 0.1);
 $color-blueberry: rgba(107, 122, 143, 1);
 $color-blueberry-lighter: rgba(107, 122, 143, .7);
+$color-sea-green: #e5f7e1;
+$color-sea-green-darker: #d3e2cf;
 $color-link: #fea680;
 $color-external-link: #62b3b2;
 $color-highlight: #fef4ad;
@@ -1715,11 +1717,17 @@ button {
   to {bottom: 0; opacity: 0;}
 }
 
-
-#telescope .details {
-  background-color: $color-blueberry;
+/* For telescopic text styling */
+:root:root {
+  // --telescope-highlight: #{$color-sea-green};
+  // --telescope-highlight-hover: #{$color-sea-green-darker};
+  --telescope-text-color: #{$color-text-color};
 }
 
-#telescope .details.close:hover {
-  background-color: $color-blueberry-lighter;
-}
+// #telescope .details {
+//   background-color: $color-blueberry;
+// }
+
+// #telescope .details.close:hover {
+//   background-color: $color-blueberry-lighter;
+// }

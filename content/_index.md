@@ -34,8 +34,28 @@ Creative technologist, stubborn optimist in <span style="font-size: 125%;">🌉<
 
 I like <a href="#summaryList">writing</a>, taking <a href="/photos">photos</a>, <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, and eating (and sharing). I also enjoy experimenting with <a href="/fits">fashion</a>, dancing, and being in nature.
 
+<p id="expandingWork">
 
-I spend my days building tools for tinkers at <a id="coda" href="https://coda.io">Coda</a>. I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and now work on the <a href="https://coda.io/packsbeta">Packs platform</a> so that anyone can extend Coda's capabilities. I also explore soulful, speculative software poetics with <a href="https://verses.xyz" id="verses">verses</a> and recently co-stewarded the creation of <b  id="pluriverse"><a href="https://pluriverse.world">pluriverse.world</a></b>.
+</p>
+
+<script>
+const workDescription =`
+* I spend my days building
+* tools for tinkers at <a id="coda" href="https://coda.io">Coda</a>,
+  * tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and now work on the <a href="https://coda.io/packsbeta">Packs platform</a>),
+    * tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and now work on <a href="https://coda.io/packsbeta">Packs platform</a> so that anyone can extend Coda's capabilities, maintaining an <a href="https://github.com/coda/packs-sdk">open-source SDK</a>),
+* conjuring 
+* soulful speculations of new futures at <a href="https://verses.xyz" id="verses">verses</a>, 
+  * soulful speculations of new futures at <a href="https://verses.xyz" id="verses">verses</a> (I recently co-stewarded the creation of <b  id="pluriverse"><a href="https://pluriverse.world">pluriverse.world</a></b>),
+* and exploring poetry, through writing, art, and
+* software.
+  * software (like this <a href="https://github.com/jackyzha0/telescopic-text">expanding text</a> and <a href="">shapeshifting poem</a>).
+    * software (like this <a href="">expanding text</a> and <a href="/posts/boundless-shapeshifters">shapeshifting poem</a> or my <a href="/fits">fits stream</a>).
+`;
+const node = createTelescopicTextFromBulletedList(workDescription, {textMode: TextMode.Html});
+const container = document.getElementById("expandingWork")
+container.appendChild(node)
+</script>
 
 <p>
     <details>
