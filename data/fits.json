@@ -2,6 +2,30 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-06%3AIMG_7696.jpeg",
+            "date": "2022-03-06",
+            "timestamp": 1646618235.762902,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jacket",
+                "Jeans",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-04%3AIMG_7646.jpeg",
             "date": "2022-03-04",
             "timestamp": 1646424586.572259,

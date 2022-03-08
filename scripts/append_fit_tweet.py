@@ -31,6 +31,7 @@ api = tweepy.API(auth)
 # Make sure to reauthorize your app / regenerate your access token and secret 
 # after setting the Write permission
 def post_fit_to_twitter(fit_path, date_str, description="", last_tweet_id=None, fit_num=None, verbose=False) -> str:
+    # TODO: this is sometimes wrong, should just derive the fit num from fits.json like below even if inefficient.
     if not last_tweet_id or not fit_num:
         with open('./local-data/last_fit.json', 'r') as f:
             last_fit_data = json.load(f)
