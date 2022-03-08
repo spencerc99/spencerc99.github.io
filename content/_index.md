@@ -31,8 +31,11 @@ Creative technologist, stubborn optimist in <span style="font-size: 125%;">🌉<
     </details>
 </p>
 
-
 I like <a href="#summaryList">writing</a>, taking <a href="/photos">photos</a>, <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, and eating (and sharing). I also enjoy experimenting with <a href="/fits">fashion</a>, dancing, and being in nature.
+
+<!-- <p id="expandingLikes">
+
+</p> -->
 
 <p id="expandingWork">
 
@@ -52,9 +55,21 @@ const workDescription =`
   * software (like this <a href="https://github.com/jackyzha0/telescopic-text">expanding text</a> and <a href="">shapeshifting poem</a>).
     * software (like this <a href="">expanding text</a> and <a href="/posts/boundless-shapeshifters">shapeshifting poem</a> or my <a href="/fits">fits stream</a>).
 `;
-const node = createTelescopicTextFromBulletedList(workDescription, {textMode: TextMode.Html});
+let node = createTelescopicTextFromBulletedList(workDescription, {textMode: TextMode.Html});
 const container = document.getElementById("expandingWork")
-container.appendChild(node)
+container.appendChild(node);
+// uncomment when fix goes in
+// const likesDescription = `
+// * I like <a href="#summaryList">writing</a>, <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, and 
+// * eating. 
+//   * eating (and sharing to try more things!).
+// * I also enjoy experimenting with <a href="/fits">fashion</a>, dancing, taking <a href="/photos">photos</a>, and being 
+// * in nature.
+//   * in nature (or just generally exploring this beautiful world).
+// `;
+// const likesNode = createTelescopicTextFromBulletedList(likesDescription, {textMode: TextMode.Html});
+// const likesContainer = document.getElementById("expandingLikes")
+// likesContainer.appendChild(likesNode);
 </script>
 
 <p>
