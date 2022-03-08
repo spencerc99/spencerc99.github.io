@@ -45,7 +45,7 @@
             "venue_types": ""
         },
         {
-            "description": "",
+            "description": "i feel powerful in these pants",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-05%3AIMG_7652.jpeg",
             "date": "2022-03-05",
             "timestamp": 1646532377.935735,
@@ -115,11 +115,18 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Eyeglasses",
+                "Optical Equipment",
+                "People",
+                "Plant"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -132,11 +139,15 @@
             "width": 3024,
             "height": 4032,
             "favorite": true,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "People",
+                "Recreation"
+            ],
             "season": "Winter",
             "activities": "",
             "venue_types": ""
@@ -149,11 +160,14 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -1180,8 +1194,10 @@
             ],
             "season": "Winter",
             "activities": [
+                "Activity",
                 "Travel",
-                "Trip"
+                "Trip",
+                "Winter Sport"
             ],
             "venue_types": ""
         },
@@ -2078,6 +2094,10 @@
             ],
             "season": "Fall",
             "activities": [
+                "Activity",
+                "Beach Activity",
+                "Dining",
+                "Lunch",
                 "Travel",
                 "Trip"
             ],
