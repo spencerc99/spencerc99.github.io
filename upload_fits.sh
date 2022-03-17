@@ -28,10 +28,10 @@ echo $restart
 # --only-new seems to exclude preview??
 # --ignore-signature handles photos that have been exported and then updated
 # --force-update
-# osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}:{original_name}" --force-update --ignore-signature --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function --preview ./fits-export
+osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}:{original_name}" --force-update --ignore-signature --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function --preview ./fits-export
 
 # normal --update
-osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}:{original_name}" --update --ignore-signature --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function --preview ./fits-export
+# osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}:{original_name}" --update --ignore-signature --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function --preview ./fits-export
 
 # just re-export everything
 # osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}:{original_name}"  --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function --preview ./fits-export

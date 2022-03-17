@@ -7,7 +7,8 @@ from append_fit_tweet import post_fit_to_twitter
 
 FITS_PATH_NAME = './data/fits.json'
 # Manually change this if you don't want to post to twitter.
-SHOULD_POST_TO_TWITTER = True
+# TODO: make this post to a bot account.
+SHOULD_POST_TO_TWITTER = False
 #TODO: group by day under the same one, turn imgSrc into an array
 #TODO: this needs to handle deleting ones that are removed from album.
 def post_function(
@@ -24,6 +25,7 @@ def post_function(
 
     # osxphotos appends `_preview` by default if it is the preview image that photos uses.
     # Skip processing if this is a preview file since we will have processed the original image.
+    # TODO: should just manually make a preview
     if '_preview' in exported_filename:
         verbose(f"skipping processing because it's a preview! {photo.filename}")
         return 
