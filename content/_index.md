@@ -31,15 +31,9 @@ Creative technologist, stubborn optimist in <span style="font-size: 125%;">🌉<
     </details>
 </p>
 
-I like <a href="#summaryList">writing</a>, taking <a href="/photos">photos</a>, <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, and eating (and sharing). I also enjoy experimenting with <a href="/fits">fashion</a>, dancing, and being in nature.
+<p id="expandingLikes"></p>
 
-<!-- <p id="expandingLikes">
-
-</p> -->
-
-<p id="expandingWork">
-
-</p>
+<p id="expandingWork"></p>
 
 <script>
 const workDescription =`
@@ -58,18 +52,17 @@ const workDescription =`
 let node = createTelescopicTextFromBulletedList(workDescription, {textMode: TextMode.Html});
 const container = document.getElementById("expandingWork")
 container.appendChild(node);
-// uncomment when fix goes in
-// const likesDescription = `
-// * I like <a href="#summaryList">writing</a>, <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, and 
-// * eating. 
-//   * eating (and sharing to try more things!).
-// * I also enjoy experimenting with <a href="/fits">fashion</a>, dancing, taking <a href="/photos">photos</a>, and being 
-// * in nature.
-//   * in nature (or just generally exploring this beautiful world).
-// `;
-// const likesNode = createTelescopicTextFromBulletedList(likesDescription, {textMode: TextMode.Html});
-// const likesContainer = document.getElementById("expandingLikes")
-// likesContainer.appendChild(likesNode);
+const likesDescription = `
+* I like <a href="#summaryList">writing</a>, <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, and 
+* eating. 
+  * eating (and sharing to try more things!).
+* I also enjoy experimenting with <a href="/fits">fashion</a>, dancing, taking <a href="/photos">photos</a>, and being 
+* in nature.
+  * in nature (or just generally exploring this beautiful world).
+`;
+const likesNode = createTelescopicTextFromBulletedList(likesDescription, {textMode: TextMode.Html});
+const likesContainer = document.getElementById("expandingLikes")
+likesContainer.appendChild(likesNode);
 </script>
 
 <p>
