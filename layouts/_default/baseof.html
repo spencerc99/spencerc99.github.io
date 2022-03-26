@@ -89,7 +89,7 @@
     <!-- lazy load images to prioritize those in view -->
     <script async src="/lazysizes.min.js"></script>
 
-    <!-- javaccript helpers -->
+    <!-- javascript helpers -->
     <script async src="/helpers.js"></script>
 
     <!-- telescopic text -->
@@ -102,6 +102,10 @@
 
 <body>
     {{ partial "navbar.html" }}
+    <!-- cursor chat -->
+    <div id="cursor-chat-layer">
+        <input type="text" id="cursor-chat-box">
+    </div>
     <div id="content">
         {{ block "header" . }}
         {{ end }}
@@ -117,6 +121,7 @@
         {{ end }}
     </div>
     <div id="snackbar"/>
+    <script src="https://unpkg.com/cursor-chat"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/cursor-chat/dist/style.css"/>
 </body>
-
 </html>
