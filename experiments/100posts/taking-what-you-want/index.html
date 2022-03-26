@@ -54,6 +54,9 @@
 </div>
 <script>var navbarElem=document.getElementById("navbar"),navClasses=navbarElem.classList,navbarHeight=navbarElem.clientHeight,scrollTop,scrollState,scrollDetect;function downAction(){navClasses.remove("open"),navClasses.add("collapse")}function upAction(){navClasses.remove("collapse"),navClasses.add("open")}scrollTop=function(){return window.scrollY},scrollState=0,scrollDetect=function(b,c){var a=scrollTop();a>scrollState&&a>navbarHeight/3?b():a<scrollState&&c(),scrollState=scrollTop()},window.addEventListener("scroll",function(){scrollDetect(downAction,upAction)})</script>
 </nav>
+<div id=cursor-chat-layer>
+<input type=text id=cursor-chat-box>
+</div>
 <div id=content>
 <div class="progress-container fixed-top">
 <span class=progress-bar></span>
@@ -177,5 +180,7 @@ Why fast feedback loops are important and why convention over configuration make
 </div>
 </div>
 <div id=snackbar>
+<script src=https://unpkg.com/cursor-chat></script>
+<link rel=stylesheet type=text/css href=https://unpkg.com/cursor-chat/dist/style.css>
 </body>
 </html>
