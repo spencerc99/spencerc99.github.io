@@ -56,7 +56,8 @@ let node = createTelescopicTextFromBulletedList(workDescription, {textMode: Text
 const container = document.getElementById("expandingWork")
 container.appendChild(node);
 const likesDescription = `
-* I like writing,
+* I like 
+* writing,
   * <a href="/writing">writing</a> (personal essays, software essays, and poetry),
     * <a href="/writing">writing</a> (personal essays—like my <a href="/experiments/100posts">100 mini-essays project</a>, software essays, and poetry),
 * reading,
