@@ -57,6 +57,10 @@
       </h2>   
     <div class="postSummary">
       {{ .Description | markdownify }}
+          {{ if .Params.external_link_syndication}}
+          <br/><br/>
+          {{.Params.external_link_syndication | markdownify}}
+          {{end}}
     </div>
   </div>
     {{ with .Params.image }}

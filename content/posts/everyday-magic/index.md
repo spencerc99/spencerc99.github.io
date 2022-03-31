@@ -6,6 +6,7 @@ date: "2021-12-02"
 tags: ['ideas', 'favorite', 'software']
 emojis: ['🪄', "⚡", "🔮", "✨"]
 related: ['/posts/take-back-the-future-response', '/experiments/100posts/fast-feedback-loops']
+external_link_syndication: originally written for [reboot](https://reboothq.substack.com/p/everyday-magic).
 weight: 998
 --- 
 

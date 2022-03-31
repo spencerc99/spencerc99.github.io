@@ -46,6 +46,9 @@ const workDescription =`
   * soulful speculations of new futures at <a href="https://verses.xyz" id="verses">verses</a> (I recently co-stewarded the creation of <b  id="pluriverse"><a href="https://pluriverse.world">pluriverse.world</a></b>),
 * and exploring poetry, through writing, art, and
 * software.
+  * open
+    * open, playful
+      * open, playful, and empowering
   * software (like this <a href="https://github.com/jackyzha0/telescopic-text">expanding text</a> and <a href="">shapeshifting poem</a>).
     * software (like this <a href="">expanding text</a> and <a href="/posts/boundless-shapeshifters">shapeshifting poem</a> or my <a href="/fits">fits stream</a>).
 `;
@@ -53,10 +56,18 @@ let node = createTelescopicTextFromBulletedList(workDescription, {textMode: Text
 const container = document.getElementById("expandingWork")
 container.appendChild(node);
 const likesDescription = `
-* I like <a href="#summaryList">writing</a>, <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a>, and 
+* I like writing,
+  * <a href="/writing">writing</a> (personal essays, software essays, and poetry),
+    * <a href="/writing">writing</a> (personal essays—like my <a href="/experiments/100posts">100 mini-essays project</a>, software essays, and poetry),
+* reading,
+  * <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a> (spec fic, short fiction, and convivial software thoughts),
+* and 
 * eating. 
   * eating (and sharing to try more things!).
-* I also enjoy experimenting with <a href="/fits">fashion</a>, dancing, taking <a href="/photos">photos</a>, and being 
+* I also enjoy experimenting with <a href="/fits">fashion</a>, 
+* dancing,
+  * dancing (both in my room, around the kitchen and I <a href="https://coda.io/@spencer/spencer-wrapped-2021/activity-13#_luL9E">guess live</a>),
+* <a href="/photos">capturing moments</a>, and being 
 * in nature.
   * in nature (or just generally exploring this beautiful world).
 `;
@@ -78,5 +89,3 @@ likesContainer.appendChild(likesNode);
     </div>
     </details>
 </p>
-
-While you're in my corner of the web, stay a little ☕️ check out my collections of <a href="/posts">writing</a>, <a href="/fits">fits</a>, or <a href="/photos">photos</a> and let me know what you think
