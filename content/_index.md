@@ -55,6 +55,7 @@ const workDescription =`
 let node = createTelescopicTextFromBulletedList(workDescription, {textMode: TextMode.Html});
 const container = document.getElementById("expandingWork")
 container.appendChild(node);
+// TODO: can you add hover tooltips with images and previews?
 const likesDescription = `
 * I like 
 * writing,
@@ -82,10 +83,10 @@ likesContainer.appendChild(likesNode);
     <summary>I'm proud of...</summary>
     <div>
         <ul class="noPadding">
-        <li>My <a href="/fits">Fits Stream</a>, an auto-stream of my daily outfits.</li>
         <li><a href="https://pluriverse.world">Towards a Digital Pluriverse</a>: An interactive, participatory essay proposing the "pluriverse" as a new banner for the community to rally around for how we look at imagining a "new web." It is co-created with visitors and readers of the site.</li>
         <li><a href="/experiments/100posts">100 mini-essays</a>: A collection of 100 posts I've written in 2021, comprising personal essays, poems, short stories, and more.</li>
         <li><a href="/posts/everyday-magic">Everyday Magic</a> essay for <a href="https://reboothq.substack.com/">reboot</a> on the magic of the technology and why we need to and how we make it accessible to everyone.</li>
+        <li>My <a href="/fits">Fits Stream</a>, an auto-stream of my daily outfits.</li>
         </ul>
     </div>
     </details>
