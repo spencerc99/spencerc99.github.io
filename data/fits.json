@@ -2,6 +2,399 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-20%3AIMG_8342.jpeg",
+            "date": "2022-03-20",
+            "timestamp": 1647790759.590057,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Bed",
+                "Bedding",
+                "Bedroom",
+                "Cabinet",
+                "Door",
+                "Furniture",
+                "Housewares",
+                "Interior Room",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-23%3AIMG_8462.jpeg",
+            "date": "2022-03-23",
+            "timestamp": 1648045694.851131,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Automobile",
+                "Car",
+                "Clothing",
+                "Land",
+                "Machine",
+                "Outdoor",
+                "People",
+                "Vehicle"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-29%3AIMG_8647.jpeg",
+            "date": "2022-03-29",
+            "timestamp": 1648580903.33277,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-19%3AIMG_8235.jpeg",
+            "date": "2022-03-19",
+            "timestamp": 1647706630.998508,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Bed",
+                "Bedroom",
+                "Cabinet",
+                "Door",
+                "Furniture",
+                "Housewares",
+                "Interior Room",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-30%3AIMG_8659.jpeg",
+            "date": "2022-03-30",
+            "timestamp": 1648655173.40868,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-20%3AIMG_8329.jpeg",
+            "date": "2022-03-20",
+            "timestamp": 1647751987.972284,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "New York, North Hudson, United States",
+            "city": "New York",
+            "country": "United States",
+            "peopleCount": 3,
+            "labels": [
+                "Adult",
+                "Automobile",
+                "Car",
+                "Clothing",
+                "Land",
+                "Machine",
+                "Outdoor",
+                "People",
+                "Road",
+                "Vehicle"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-18%3AIMG_8194.jpeg",
+            "date": "2022-03-18",
+            "timestamp": 1647624127.748762,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Bed",
+                "Bedding",
+                "Door",
+                "Furniture",
+                "Housewares",
+                "Interior Room",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-23%3AIMG_8465.jpeg",
+            "date": "2022-03-23",
+            "timestamp": 1648048737.383544,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-26%3AIMG_8610_edited.jpeg",
+            "date": "2022-03-26",
+            "timestamp": 1648344892.0,
+            "width": 1170,
+            "height": 2083,
+            "favorite": true,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Boot",
+                "Clothing",
+                "Footwear",
+                "People",
+                "Shoes",
+                "Sneaker"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-26%3AIMG_8577.jpeg",
+            "date": "2022-03-26",
+            "timestamp": 1648319252.276239,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "New York, North Hudson, United States",
+            "city": "New York",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Furniture",
+                "Jacket",
+                "People",
+                "Table"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-24%3AIMG_8526.jpeg",
+            "date": "2022-03-24",
+            "timestamp": 1648159533.353233,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "New York, North Hudson, United States",
+            "city": "New York",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-27%3AIMG_8618.jpeg",
+            "date": "2022-03-27",
+            "timestamp": 1648404530.388838,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Automobile",
+                "Car",
+                "Clothing",
+                "Land",
+                "Machine",
+                "Outdoor",
+                "People",
+                "Vehicle"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-28%3AIMG_8639.jpeg",
+            "date": "2022-03-28",
+            "timestamp": 1648492571.642176,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-21%3AIMG_8427.jpeg",
+            "date": "2022-03-21",
+            "timestamp": 1647908496.739031,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Bed",
+                "Bedding",
+                "Cabinet",
+                "Clothing",
+                "Container",
+                "Door",
+                "Furniture",
+                "Housewares",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-17%3AIMG_8138.jpeg",
+            "date": "2022-03-17",
+            "timestamp": 1647527358.363063,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "New York, North Hudson, United States",
+            "city": "New York",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Door",
+                "Jacket",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-12%3AIMG_7899.jpeg",
             "date": "2022-03-12",
             "timestamp": 1647140360.258252,
@@ -47,10 +440,27 @@
             "city": "New York",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Child",
+                "Clothing",
+                "Interior Room",
+                "Jacket",
+                "People"
+            ],
             "season": "Spring",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Lunch",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Indian Cuisine",
+                "Japanese Cuisine",
+                "Noodle Restaurant",
+                "Restaurant",
+                "Udon Restaurant"
+            ]
         },
         {
             "description": "",
@@ -87,13 +497,29 @@
             "city": "New York",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Interior Room",
+                "Jeans",
+                "People"
+            ],
             "season": "Spring",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Bar",
+                "Caf\u00e9",
+                "Cocktail Bar",
+                "Latin American Cuisine",
+                "Nightlife",
+                "Peruvian Cuisine",
+                "Restaurant"
+            ]
         },
         {
             "description": "",
@@ -131,13 +557,21 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "New York, North Hudson, United States",
+            "city": "New York",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Interior Room",
+                "People"
+            ],
             "season": "Spring",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -208,7 +642,12 @@
             "city": "Houston",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Container",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -929,6 +1368,8 @@
             ],
             "season": "Winter",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
