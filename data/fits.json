@@ -2,6 +2,40 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-01%3AIMG_8704.jpeg",
+            "date": "2022-04-01",
+            "timestamp": 1648828027.656554,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "patterns and checkered pants",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-31%3AIMG_8681.jpeg",
+            "date": "2022-03-31",
+            "timestamp": 1648757216.77372,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-20%3AIMG_8342.jpeg",
             "date": "2022-03-20",
             "timestamp": 1647790759.590057,
@@ -71,7 +105,12 @@
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Plant"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -107,7 +146,7 @@
             "venue_types": ""
         },
         {
-            "description": "",
+            "description": "idk if i like this silhouette it\u2019s too much of the same ",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-30%3AIMG_8659.jpeg",
             "date": "2022-03-30",
             "timestamp": 1648655173.40868,
@@ -118,7 +157,12 @@
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -317,7 +361,7 @@
             "venue_types": ""
         },
         {
-            "description": "",
+            "description": "i look like a cloud lol",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-03-28%3AIMG_8639.jpeg",
             "date": "2022-03-28",
             "timestamp": 1648492571.642176,
@@ -5657,7 +5701,14 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Asian Fusion Cuisine",
+                "British Cuisine",
+                "Burger Restaurant",
+                "Gastropub",
+                "New American Cuisine",
+                "Restaurant"
+            ]
         },
         {
             "description": "",
