@@ -2,17 +2,84 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-04%3AIMG_8793.jpeg",
+            "date": "2022-04-04",
+            "timestamp": 1649088717.491153,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "summer days ",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-03%3AIMG_8789.jpeg",
+            "date": "2022-04-03",
+            "timestamp": 1649025534.841686,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-02%3AIMG_8728.jpeg",
+            "date": "2022-04-02",
+            "timestamp": 1648921106.452873,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-01%3AIMG_8704.jpeg",
             "date": "2022-04-01",
             "timestamp": 1648828027.656554,
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -29,7 +96,12 @@
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Furniture",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -2127,10 +2199,7 @@
                 "People"
             ],
             "season": "Winter",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -2177,10 +2246,7 @@
                 "Recreation"
             ],
             "season": "Winter",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -2204,10 +2270,7 @@
                 "Recreation"
             ],
             "season": "Winter",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -2231,10 +2294,7 @@
                 "People"
             ],
             "season": "Winter",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -2291,9 +2351,7 @@
             "season": "Winter",
             "activities": [
                 "Activity",
-                "Beach Activity",
-                "Travel",
-                "Trip"
+                "Beach Activity"
             ],
             "venue_types": ""
         },
@@ -2319,9 +2377,7 @@
             "season": "Winter",
             "activities": [
                 "Dining",
-                "Dinner",
-                "Travel",
-                "Trip"
+                "Dinner"
             ],
             "venue_types": [
                 "Bar",
@@ -2358,10 +2414,7 @@
                 "Skyscraper"
             ],
             "season": "Winter",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -2405,10 +2458,7 @@
                 "People"
             ],
             "season": "Winter",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -5701,14 +5751,7 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": [
-                "Asian Fusion Cuisine",
-                "British Cuisine",
-                "Burger Restaurant",
-                "Gastropub",
-                "New American Cuisine",
-                "Restaurant"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
