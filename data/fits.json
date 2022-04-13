@@ -2,6 +2,23 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-12%3AIMG_9015.jpeg",
+            "date": "2022-04-12",
+            "timestamp": 1649791569.642546,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-09%3AIMG_8930.jpeg",
             "date": "2022-04-09",
             "timestamp": 1649492596.039053,
