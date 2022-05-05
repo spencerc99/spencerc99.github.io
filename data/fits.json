@@ -2,6 +2,245 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-19%3AIMG_9296.jpeg",
+            "date": "2022-04-19",
+            "timestamp": 1650376046.560759,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Amsterdam, North Holland, Netherlands",
+            "city": "Amsterdam",
+            "country": "Netherlands",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Chair",
+                "Furniture",
+                "Interior Room",
+                "Lamp",
+                "Light",
+                "Living Room",
+                "People",
+                "Pillow",
+                "Sofa",
+                "Table",
+                "Tool"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-21%3AIMG_9417.JPG",
+            "date": "2022-04-21",
+            "timestamp": 1650554681.095545,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Decorative Plant",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "airport fit",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-17%3AIMG_9135.jpeg",
+            "date": "2022-04-17",
+            "timestamp": 1650227206.892415,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-15%3AIMG_9071.jpeg",
+            "date": "2022-04-15",
+            "timestamp": 1650056945.119528,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-20%3AIMG_9337.jpeg",
+            "date": "2022-04-20",
+            "timestamp": 1650434319.146874,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Amsterdam, North Holland, Netherlands",
+            "city": "Amsterdam",
+            "country": "Netherlands",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Cabinet",
+                "Clothing",
+                "Furniture",
+                "Interior Room",
+                "People",
+                "Sofa"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Gastropub",
+                "Restaurant"
+            ]
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-04%3AIMG_9922.jpeg",
+            "date": "2022-05-04",
+            "timestamp": 1651689153.731661,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-02%3AIMG_9897.jpeg",
+            "date": "2022-05-02",
+            "timestamp": 1651558169.405979,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-03%3AIMG_9909.jpeg",
+            "date": "2022-05-03",
+            "timestamp": 1651634701.416253,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Furniture",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-01%3AIMG_9833.jpeg",
+            "date": "2022-05-01",
+            "timestamp": 1651418661.408035,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Recreation"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-30%3A67304404015__CBBFF5C3-43B4-40E2-8D2F-A768AC0238E8.jpeg",
+            "date": "2022-04-30",
+            "timestamp": 1651351240.114,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-28%3AIMG_9619.jpeg",
             "date": "2022-04-28",
             "timestamp": 1651172806.84918,
@@ -29,11 +268,16 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Plant"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -136,7 +380,10 @@
                 "People"
             ],
             "season": "Spring",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -147,16 +394,19 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "D Gates, Schiphol, North Holland, Netherlands",
+            "city": "Schiphol",
+            "country": "Netherlands",
             "peopleCount": 1,
             "labels": [
                 "Adult",
                 "People"
             ],
             "season": "Spring",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -193,11 +443,16 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jacket",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -210,11 +465,15 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -227,11 +486,16 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -284,11 +548,18 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Footwear",
+                "People",
+                "Shoes",
+                "Sneaker"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -342,7 +613,7 @@
             "venue_types": ""
         },
         {
-            "description": "",
+            "description": "enjoying our one warm day",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-04-07%3AIMG_8859.jpeg",
             "date": "2022-04-07",
             "timestamp": 1649348670.308722,
@@ -485,7 +756,7 @@
             "timestamp": 1649088717.491153,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -507,7 +778,7 @@
             "timestamp": 1649025534.841686,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -527,7 +798,7 @@
             "timestamp": 1648921106.452873,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -772,10 +1043,16 @@
             ],
             "season": "Spring",
             "activities": [
+                "Entertainment",
+                "Performance",
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Bar",
+                "Beer Bar",
+                "Nightlife"
+            ]
         },
         {
             "description": "",
@@ -784,7 +1061,7 @@
             "timestamp": 1648048737.383544,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
             "city": "Brooklyn",
             "country": "United States",
@@ -917,7 +1194,7 @@
             "timestamp": 1648492571.642176,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1385,7 +1662,7 @@
             "timestamp": 1646337740.388231,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -2796,10 +3073,7 @@
                 "Recreation"
             ],
             "season": "Winter",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -4293,8 +4567,8 @@
             "timestamp": 1624826730.688844,
             "width": 2411,
             "height": 3698,
-            "favorite": false,
-            "place": "Manhattan, New York, North Hudson, United States",
+            "favorite": true,
+            "place": "New York, North Hudson, United States",
             "city": "New York",
             "country": "United States",
             "peopleCount": 2,
