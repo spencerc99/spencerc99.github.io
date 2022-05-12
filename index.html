@@ -20,7 +20,7 @@
 <meta name=twitter:label1 value=Currently>
 <meta name=twitter:data1 value="Engineering in San Francisco 🌉⛰">
 <meta name=robots content="noodp">
-<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.f09c3a8a0d7b6a633a143051e8c04d89970289e1e12ee57c9bf0dff128d04eb7.css>
+<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.0ee0c5bbcac052f9414c0a50ce622d56bc07fa49c615963deef402ad8a284e97.css>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel=stylesheet>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/line.css>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/solid.css>
@@ -38,6 +38,7 @@
 <script async src=/helpers.js></script>
 <script src=https://unpkg.com/telescopic-text/lib/index.js></script>
 <link href=https://unpkg.com/telescopic-text/lib/index.css rel=stylesheet>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin=anonymous referrerpolicy=no-referrer></script>
 </head>
 <body>
 <script>document.addEventListener("DOMContentLoaded",function(b){const a=document.querySelector(".navbarActions").children;for(const b of a)window.location.href.indexOf(b.attributes.href.value)>-1?b.className='active':b.className=''})</script>
@@ -163,7 +164,13 @@ hi! i'm spencer
 </div>
 <div class=mainContainer>
 <div class=summaryList>
-<h2>a few favorite pieces</h3>
+<div class="writing hidden">
+<div class=sectionHeader>
+<h2>some favorite creations</h2>
+<div class=arrows>
+<button class=link onclick=navBackward()><i class="uis uis-arrow-circle-left" alt=←></i></button><button class=link onclick=navForward()><i class="uis uis-arrow-circle-right" alt=→></i></button>
+</div>
+</div>
 <div class=postsList>
 <article class=postSummaryContainer>
 <div class=postSummaryHeader>
@@ -186,10 +193,203 @@ Tech is magical, but it shouldn&rsquo;t be mysterious.
 originally written for <a href=https://reboothq.substack.com/p/everyday-magic>reboot</a>.
 </div>
 </div>
-<div class=postSummaryImageContainer>
-<img loading=lazy class="lazyload postSummaryImage" data-src=/posts/everyday-magic/images/takeoff_huea16795a457235cd1e7e0f95ad90054a_1641905_400x0_resize_q75_box.jpg>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>12.31.21</span>
+// 845 words
+// from my <a href=/experiments/100posts>mini-essay experiment</a>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=/experiments/100posts/creations-are-intimacy-portals/>creations are intimacy portals</a>
+</h2>
+<div class=postSummary>
+The final artifact in my <a href=/experiments/100posts>100 mini-essays experiment</a> exploring the intimacy of creations and the value of sharing your mind with the world.
+</div>
 </div>
 </article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>03.15.22</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://github.com/jackyzha0/telescopic-text/ target=_blank>Transforming Text</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+an open-source library for creating transforming text.<br><br>Created in collaboration with Jacky.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>02.15.22</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://pluriverse.world/ target=_blank>Towards a Digital Pluriverse</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+An interactive, participatory essay proposing the “pluriverse” as a new banner for the community to rally around for how we look at imagining a “new web.” It is co-created with visitors and readers of the site.<br><br>Created in collaboration with <a href=https://verses.xyz/>Verses</a>.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>10.12.21</span>
+// 1099 words
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=/fits>Fits Stream</a>
+</h2>
+<div class=postSummary>
+A stream of my daily outfits.
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="projects hidden">
+<div class=sectionHeader>
+<h2>some favorite projects</h2>
+<div class=arrows>
+<button class=link onclick=navBackward()><i class="uis uis-arrow-circle-left" alt=←></i></button><button class=link onclick=navForward()><i class="uis uis-arrow-circle-right" alt=→></i></button>
+</div>
+</div>
+<div class=postsList>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>02.20.22</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://coda.io/packs/twitter-10029/ target=_blank>Twitter Pack</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+A Twitter pack for Coda which gives you the ability to manipulate data from Twitter the way you want and find the things that you remember without messing with a complicated API.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>01.01.22</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://coda.io/@spencer/decoding-your-mind target=_blank>Spencer Wrapped 2021</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+My personal take on Spotify Wrapped
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>05.13.21</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://coda.io/@spencer/rituals-at-scale-how-we-remixed-templates target=_blank>Rituals at Scale: How we remixed templates</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+The details behind Coda&rsquo;s custom templates system.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>02.24.20</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://coda.io/@spencer/decoding-your-mind target=_blank>Decoding your Mind</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+Sharing my method to data-empowered journaling and self-reflection
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>03.15.22</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://github.com/jackyzha0/telescopic-text/ target=_blank>Transforming Text</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+an open-source library for creating transforming text.<br><br>Created in collaboration with Jacky.
+</div>
+</div>
+</article>
+<br>
+Check out <a href=/projects>all my projects</a>.
+</div>
+</div>
+<div class="projects hidden">
+<div class=sectionHeader>
+<h2>some favorite writing</h2>
+<div class=arrows>
+<button class=link onclick=navBackward()><i class="uis uis-arrow-circle-left" alt=←></i></button><button class=link onclick=navForward()><i class="uis uis-arrow-circle-right" alt=→></i></button>
+</div>
+</div>
+<div class=postsList>
 <article class=postSummaryContainer>
 <div class=postSummaryHeader>
 <div class="post summary meta">
@@ -208,32 +408,6 @@ originally written for <a href=https://reboothq.substack.com/p/everyday-magic>re
 <div class=postSummary>
 🎰 2021 | 🤲 2022. My 2021 reflection and theme of mutualism for 2022.
 </div>
-</div>
-<div class=postSummaryImageContainer>
-<img loading=lazy class="lazyload postSummaryImage" data-src=/posts/mutualism/images/gallery/3-barnacles_hu12d0dd9de7dcf9d9387449ab40a530c1_1984628_400x0_resize_q75_box.jpg>
-</div>
-</article>
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>12.31.21</span>
-// 845 words
-//
-<div class=icons>
-<i class="uis uis-star"></i>
-</div>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=/experiments/100posts/creations-are-intimacy-portals/>100 - creations are intimacy portals</a>
-</h2>
-<div class=postSummary>
-The final artifact in my <a href=/experiments/100posts>100 mini-essays experiment</a> exploring the intimacy of creations and the value of sharing your mind with the world.
-</div>
-</div>
-<div class=postSummaryImageContainer>
-<img loading=lazy class="lazyload postSummaryImage" data-src=https://cdn.mos.cms.futurecdn.net/BRST9nrsdC4Ly3LetnsktD.jpg>
 </div>
 </article>
 <article class=postSummaryContainer>
@@ -254,9 +428,6 @@ The final artifact in my <a href=/experiments/100posts>100 mini-essays experimen
 <div class=postSummary>
 a reflection on turning 24
 </div>
-</div>
-<div class=postSummaryImageContainer>
-<img loading=lazy class="lazyload postSummaryImage" data-src=/posts/mid-twenties/images/buenos-aires_hub8be65e9f6d9084fd0367631e691c5bc_3318555_400x0_resize_q75_box.jpg>
 </div>
 </article>
 <article class="postSummaryContainer serif">
@@ -279,14 +450,146 @@ a reflection on turning 24
 Recounting a visceral experience. On light, humans, and meaning.
 </div>
 </div>
-<div class=postSummaryImageContainer>
-<img loading=lazy class="lazyload postSummaryImage" data-src=/images/a-twinkle/firefly_hu253ae9e601d80809e409d7e9d5b077b9_655432_400x0_resize_q75_box.jpg>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>04.09.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/quarter-life-commitment target=_blank>quarter life commitment</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+And I&rsquo;ll fight to breathe deeply everyday, again, again, again.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>12.29.21</span>
+// 472 words
+// from my <a href=/experiments/100posts>mini-essay experiment</a>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=/experiments/100posts/quiet-confidence/>quiet confidence</a>
+</h2>
+<div class=postSummary>
+Quiet confidence is when you&rsquo;re able to naturally take your time, take up proper space, and be unapologetically yourself without putting down anyone else or manufacturing dependence.
+</div>
 </div>
 </article>
 <br>
 Check out <a href=/posts>all my writing</a>.
 </div>
 </div>
+<div class="recentReleases hidden">
+<div class=sectionHeader>
+<h2>some recent releases</h3>
+<div class=arrows>
+<button class=link onclick=navBackward()><i class="uis uis-arrow-circle-left" alt=←></i></button><button class=link onclick=navForward()><i class="uis uis-arrow-circle-right" alt=→></i></button>
+</div>
+</div>
+<div class=postsList>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>05.05.22</span>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://www.spencerchang.me/pacman-poem/ target=_blank>8-bite</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+Pacman reimagined as an interactive poetry game. A simplified version was published in <a href=https://taper.badquar.to/8>taper 8</a>, an issue of a computational poetry journal.<br><br>Created in collaboration with Kelsey.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>05.02.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/glacial-illusions target=_blank>glacial illusions</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+growing up as a chameleon and learning to wield shapeshifting for my own ends
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>04.15.22</span>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://poems.verses.xyz/ target=_blank>Verses Verses</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+A collection of transforming verses from the verses community and an interactive lab to make your own.<br><br>Created in collaboration with <a href=https://verses.xyz/>Verses</a>.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>04.09.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/quarter-life-commitment target=_blank>quarter life commitment</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+And I&rsquo;ll fight to breathe deeply everyday, again, again, again.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>04.07.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/being-open-to-magic target=_blank>being open to magic</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+Leave yourself open to the magic of the world.
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+<script>let summaryIdx=0;const listElement=document.querySelector('.summaryList'),items=listElement.children,total=items.length,hammer=new Hammer(listElement,{recognizers:[[Hammer.Swipe,{direction:Hammer.DIRECTION_ALL}]]});hammer.on("swipeleft",()=>{navForward()}),hammer.on("swiperight",()=>{navBackward()});const navForward=()=>{hideEleAtIdx(),summaryIdx=(summaryIdx+1)%total,renderEleAtIdx()},navBackward=()=>{hideEleAtIdx(),summaryIdx=summaryIdx===0?total-1:(summaryIdx-1)%total,renderEleAtIdx()},hideEleAtIdx=()=>{items[summaryIdx].classList.add('hidden')},renderEleAtIdx=()=>{items[summaryIdx].classList.remove('hidden')};renderEleAtIdx(summaryIdx)</script>
 </div>
 </div>
 <div id=snackbar>

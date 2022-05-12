@@ -21,7 +21,7 @@
 <meta name=twitter:label2 value="Reading time">
 <meta name=twitter:data2 value="1 mins🕐">
 <meta name=robots content="noodp">
-<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.f09c3a8a0d7b6a633a143051e8c04d89970289e1e12ee57c9bf0dff128d04eb7.css>
+<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.0ee0c5bbcac052f9414c0a50ce622d56bc07fa49c615963deef402ad8a284e97.css>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel=stylesheet>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/line.css>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/solid.css>
@@ -39,6 +39,7 @@
 <script async src=/helpers.js></script>
 <script src=https://unpkg.com/telescopic-text/lib/index.js></script>
 <link href=https://unpkg.com/telescopic-text/lib/index.css rel=stylesheet>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin=anonymous referrerpolicy=no-referrer></script>
 </head>
 <body>
 <script>document.addEventListener("DOMContentLoaded",function(b){const a=document.querySelector(".navbarActions").children;for(const b of a)window.location.href.indexOf(b.attributes.href.value)>-1?b.className='active':b.className=''})</script>
@@ -62,22 +63,110 @@
 <div class=headerContainer>
 <h1>Projects
 <div class="emojiContainer inline"><button id=emoji onclick=updateEmoji()></button></div>
-<script>const defaultEmojis=['🌱','👺','🌑','🥑','🐙','🌌'],inputEmojis=["⚒️","👨‍💻","🏗️"],shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
+<script>const defaultEmojis=['🌱','👺','🌑','🥑','🐙','🌌'],inputEmojis=["🎨","🥘","🪄","🪡"],shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
 </h1>
 </div>
 <div class=mainContainer>
 <div class=listDescription>
-<p>Here&rsquo;s some of my writing on the projects I&rsquo;ve worked on.</p>
-<p>Some things I haven&rsquo;t yet written about but am proud of are:</p>
-<ul>
-<li><a href=https://pluriverse.world>Towards a Digital Pluriverse</a>: An interactive, participatory essay proposing the &ldquo;pluriverse&rdquo; as a new banner for the community to rally around for how we look at imagining a &ldquo;new web.&rdquo; It is co-created with visitors and readers of the site.</li>
-<li>My <a href=/fits>Fits Stream</a>, an auto-stream of my daily outfits.</li>
-<li>an open-source library for <a href=github.com/jackyzha0/telescopic-text/>transforming text</a></li>
-<li>the <a href=https://coda.io/packs/twitter-10029>Twitter Pack for Coda</a></li>
-<li>this website!</li>
-</ul>
+<p>I like to create software that is beautiful, poetic, playful, and empowering. These are some of the things I&rsquo;ve created and tinkered on towards that end. I want software creation to feel more like <a href=https://www.robinsloan.com/notes/home-cooked-app/>home-cooking</a>. I want to taste software, to pass ingredients and side dishes as we pair, to make lil apps with our hodgepodge of leftovers&mldr; I&rsquo;m hoping my work will forward a world that looks like that.</p>
 </div>
 <div class=summaryList>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>05.05.22</span>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://www.spencerchang.me/pacman-poem/ target=_blank>8-bite</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+Pacman reimagined as an interactive poetry game. A simplified version was published in <a href=https://taper.badquar.to/8>taper 8</a>, an issue of a computational poetry journal.<br><br>Created in collaboration with Kelsey.
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src=https://spencerchang.me/pacman-poem/banner.png>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>04.15.22</span>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://poems.verses.xyz/ target=_blank>Verses Verses</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+A collection of transforming verses from the verses community and an interactive lab to make your own.<br><br>Created in collaboration with <a href=https://verses.xyz/>Verses</a>.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>03.15.22</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://github.com/jackyzha0/telescopic-text/ target=_blank>Transforming Text</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+an open-source library for creating transforming text.<br><br>Created in collaboration with Jacky.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>02.20.22</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://coda.io/packs/twitter-10029/ target=_blank>Twitter Pack</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+A Twitter pack for Coda which gives you the ability to manipulate data from Twitter the way you want and find the things that you remember without messing with a complicated API.
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src=https://codahosted.io/packs/10029/unversioned/assets/COVER/98e07a9363f1216cde8b61607bfa8c41d5e93b27358dbe98972ad32961d52538d6cd75312ce1269b2d624112d21e9ce4367f1c07d578082dc90130ec7310b1faa6a2aa257b2c642d7177506d924ad741f64c41bc8471259780e9263ef20b92748f2d4011>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>02.15.22</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://pluriverse.world/ target=_blank>Towards a Digital Pluriverse</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+An interactive, participatory essay proposing the “pluriverse” as a new banner for the community to rally around for how we look at imagining a “new web.” It is co-created with visitors and readers of the site.<br><br>Created in collaboration with <a href=https://verses.xyz/>Verses</a>.
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src=https://pluriverse.world/pluriverse-banner.jpg>
+</div>
+</article>
 <article class=postSummaryContainer>
 <div class=postSummaryHeader>
 <div class="post summary meta">
@@ -98,6 +187,29 @@ My personal take on Spotify Wrapped
 </div>
 <div class=postSummaryImageContainer>
 <img loading=lazy class="lazyload postSummaryImage" data-src=/images/wrapped-cover_huab7bf185fa8fba0ad8a02297d78a692d_458727_400x0_resize_box_3.png>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>10.12.21</span>
+// 1099 words
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=/fits>Fits Stream</a>
+</h2>
+<div class=postSummary>
+A stream of my daily outfits.
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src=https://assets.spencerchang.me/fits-stream/2022-04-05%3AIMG_0605_edited.jpeg>
 </div>
 </article>
 <article class=postSummaryContainer>
