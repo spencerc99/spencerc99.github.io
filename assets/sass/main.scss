@@ -789,6 +789,7 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
   .sectionHeader {
     display: flex;
     align-items: center;
+    border-bottom: 5px dashed $color-blueberry;
 
     .arrows {
       margin-left: auto;

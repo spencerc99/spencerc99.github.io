@@ -17,7 +17,7 @@
 <div class="summaryList">
   <div class="writing hidden">
     <div class="sectionHeader">
-      <h2>a few favorites</h2>
+      <h2>some favorite creations</h2>
         <div class="arrows">
           <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
         </div>
@@ -32,7 +32,7 @@
   </div>
   <div class="projects hidden">
     <div class="sectionHeader">
-      <h2>projects</h2>
+      <h2>some favorite projects</h2>
         <div class="arrows">
           <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
         </div>
@@ -42,8 +42,9 @@
       {{ $project := slice "projects" }}
       {{ $favorites := where .Site.RegularPages "Params.tags" "intersect" $favorite }}
       {{ $projects := where .Site.RegularPages "Params.tags" "intersect" $project }}
-      {{ $faveProjects := intersect $favorites $projects  }}
-      {{ range first 5 $faveProjects  }}
+      {{ $faveProjects := intersect $favorites $projects | complement $highlights }}
+      {{ $intersectedProjects := intersect $favorites $projects | intersect $highlights }}
+      {{ range first 5 ($faveProjects | append $intersectedProjects) }}
         {{ .Render "compact_summary" }} 
       {{ end }}
       <br/>
@@ -52,15 +53,16 @@
   </div>
   <div class="projects hidden">
     <div class="sectionHeader">
-      <h2>writing</h2>
+      <h2>some favorite writing</h2>
         <div class="arrows">
           <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
         </div>
     </div>
       <div class="postsList">
       {{ $favorite := slice "favorite" }}
-      {{ $favorites := where .Site.RegularPages "Params.tags" "intersect" $favorite }}
-      {{ range first 5 $favorites  }}
+      {{ $favorites := (where .Site.RegularPages "Params.tags" "intersect" $favorite) | complement $highlights $projects }}
+      {{ $intersectedWriting := $favorites | intersect $highlights }}
+      {{ range first 5 ($favorites | append $intersectedWriting)  }}
         {{ .Render "compact_summary" }} 
       {{ end }}
       <br/>
@@ -69,7 +71,7 @@
   </div>
   <div class="recentReleases hidden">
     <div class="sectionHeader">
-      <h2>recent releases</h3>
+      <h2>some recent releases</h3>
         <div class="arrows">
           <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
         </div>
@@ -84,8 +86,20 @@
 </div>
 <script>
   let summaryIdx = 0;
-  const items = document.querySelector('.summaryList').children;
+  const listElement = document.querySelector('.summaryList')
+  const items = listElement.children;
   const total = items.length;
+
+  const hammer = new Hammer(listElement, {
+    recognizers: [[Hammer.Swipe, { direction: Hammer.DIRECTION_ALL }]],
+  });
+
+  hammer.on("swipeleft", () => {
+    navForward();
+  });
+  hammer.on("swiperight", () => {
+    navBackward();
+  });
 
   const navForward = () => {
     hideEleAtIdx();
