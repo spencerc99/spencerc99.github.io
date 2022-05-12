@@ -15,17 +15,96 @@
 {{ define "main" }}
 <!-- TODO: replace this with kaleidoscope or feral.earth stuff -->
 <div class="summaryList">
-  <h2>a few favorite pieces</h3>
-  <div class="postsList">
-    {{ $favorites := where .Site.Taxonomies.tags.favorite "Params.internal_link" nil }}
-    <!-- TODO: this comlement doesn't quite work. I hate HUGO -->
-    {{ $faveCands := $favorites }}
-    {{ range first 5 $faveCands  }}
-      {{ .Render "summary" }} 
-    {{ end }}
-
-    <br/>
-    Check out <a href="/posts">all my writing</a>.
+  <div class="writing hidden">
+    <div class="sectionHeader">
+      <h2>a few favorites</h2>
+        <div class="arrows">
+          <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
+        </div>
+    </div>
+    <div class="postsList">
+      {{ $highlights := where .Site.RegularPages "Params.featured" true }}
+      <!-- TODO: this comlement doesn't quite work. I hate HUGO -->
+      {{ range first 5 $highlights  }}
+        {{ .Render "compact_summary" }} 
+      {{ end }}
+    </div>
+  </div>
+  <div class="projects hidden">
+    <div class="sectionHeader">
+      <h2>projects</h2>
+        <div class="arrows">
+          <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
+        </div>
+    </div>
+      <div class="postsList">
+      {{ $favorite := slice "favorite" }}
+      {{ $project := slice "projects" }}
+      {{ $favorites := where .Site.RegularPages "Params.tags" "intersect" $favorite }}
+      {{ $projects := where .Site.RegularPages "Params.tags" "intersect" $project }}
+      {{ $faveProjects := intersect $favorites $projects  }}
+      {{ range first 5 $faveProjects  }}
+        {{ .Render "compact_summary" }} 
+      {{ end }}
+      <br/>
+      Check out <a href="/projects">all my projects</a>.
+    </div>
+  </div>
+  <div class="projects hidden">
+    <div class="sectionHeader">
+      <h2>writing</h2>
+        <div class="arrows">
+          <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
+        </div>
+    </div>
+      <div class="postsList">
+      {{ $favorite := slice "favorite" }}
+      {{ $favorites := where .Site.RegularPages "Params.tags" "intersect" $favorite }}
+      {{ range first 5 $favorites  }}
+        {{ .Render "compact_summary" }} 
+      {{ end }}
+      <br/>
+      Check out <a href="/posts">all my writing</a>.
+    </div>
+  </div>
+  <div class="recentReleases hidden">
+    <div class="sectionHeader">
+      <h2>recent releases</h3>
+        <div class="arrows">
+          <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
+        </div>
+    </div>
+    <div class="postsList">
+      {{ $recentCands := .Site.RegularPages.ByDate.Reverse }}
+      {{ range first 5 $recentCands  }}
+        {{ .Render "compact_summary" }} 
+      {{ end }}
+    </div>
   </div>
 </div>
+<script>
+  let summaryIdx = 0;
+  const items = document.querySelector('.summaryList').children;
+  const total = items.length;
+
+  const navForward = () => {
+    hideEleAtIdx();
+    summaryIdx = (summaryIdx + 1) % total;
+    renderEleAtIdx();
+  };
+  const navBackward = () => {
+    hideEleAtIdx();
+    summaryIdx = summaryIdx === 0 ? total - 1 : (summaryIdx - 1) % total;
+    renderEleAtIdx();
+  };
+
+  const hideEleAtIdx = () => {
+    items[summaryIdx].classList.add('hidden');
+  }
+  const renderEleAtIdx = () => {
+    items[summaryIdx].classList.remove('hidden');
+  }
+
+  renderEleAtIdx(summaryIdx);
+</script>
 {{ end }}

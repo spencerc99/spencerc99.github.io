@@ -779,6 +779,25 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
 
 .summaryList {
   width: 100%;
+
+  div {
+    &.hidden {
+      display:none;
+    }
+  }
+
+  .sectionHeader {
+    display: flex;
+    align-items: center;
+
+    .arrows {
+      margin-left: auto;
+      
+      button {
+        font-size: 200%;
+      }
+    }
+  }
 }
 
 .postContainer {
@@ -931,6 +950,12 @@ details div {
     width: 320px;
   }
   // border-bottom: 1px solid $color-lighter-grey;
+
+  .postSummary { 
+    p {
+      margin:0;
+    }
+  }
 }
 
 .postSummaryImageContainer {
@@ -1566,8 +1591,27 @@ button {
   border:1px solid $color-text-color;
   padding: 2px 8px;
 
+  &.link {
+    border: none;
+    padding: 0;
+    background: none;
+  }
+
   &.active {
     background-color: $color-link;
+  }
+
+  &:active, &:hover {
+    transition: ease-in-out .3s;
+    cursor: pointer;
+
+    &:not(.link) {
+      background-color: $color-link;
+    }
+
+    &.link {
+      color: $color-link;
+    }
   }
 
   &.disable-button {

@@ -8,6 +8,7 @@ emojis: ['🪄', "⚡", "🔮", "✨"]
 related: ['/posts/take-back-the-future-response', '/experiments/100posts/fast-feedback-loops']
 external_link_syndication: originally written for [reboot](https://reboothq.substack.com/p/everyday-magic).
 weight: 998
+featured: true
 --- 
 
 {{< figure src="images/takeoff.jpg" caption="*Isn't it mindboggling that we created machines that can fly and swim?*" class="fullWidth" >}}

@@ -9,6 +9,7 @@ emojis: [🌀, 🌌]
 show_home: true
 related: ['/posts/gambling', '/experiments/100posts/energy-liquidity', '/experiments/100posts/urgency', '/experiments/postal-portals', '/experiments/100posts/beginnings', '/experiments/100posts/crazy-ideas', '/experiments/100posts/perception', '/posts/mid-twenties', '/experiments/100posts/fear', '/experiments/100posts/cafe-encounter', '/experiments/100posts/soothing-fire', '/experiments/100posts/dance', '/experiments/100posts/finding-texture']
 weight: 999
+featured: true
 ---
 
 {{< figure src="https://cdn.mos.cms.futurecdn.net/BRST9nrsdC4Ly3LetnsktD.jpg" class="fullWidth" caption="[gravity portals](https://www.livescience.com/gravity-portals-solve-dark-matter-gamma-ray-mystery.html) are cool and what I imagine these as." >}}
