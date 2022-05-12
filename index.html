@@ -589,7 +589,7 @@ Leave yourself open to the magic of the world.
 </div>
 </div>
 </div>
-<script>let summaryIdx=0;const listElement=document.querySelector('.summaryList'),items=listElement.children,total=items.length,hammer=new Hammer(listElement,{recognizers:[[Hammer.Swipe,{direction:Hammer.DIRECTION_ALL}]]});hammer.on("swipeleft",()=>{navForward()}),hammer.on("swiperight",()=>{navBackward()});const navForward=()=>{hideEleAtIdx(),summaryIdx=(summaryIdx+1)%total,renderEleAtIdx()},navBackward=()=>{hideEleAtIdx(),summaryIdx=summaryIdx===0?total-1:(summaryIdx-1)%total,renderEleAtIdx()},hideEleAtIdx=()=>{items[summaryIdx].classList.add('hidden')},renderEleAtIdx=()=>{items[summaryIdx].classList.remove('hidden')};renderEleAtIdx(summaryIdx)</script>
+<script>let summaryIdx=0;const listElement=document.querySelector('.summaryList'),items=listElement.children,total=items.length,hammer=new Hammer(listElement,{recognizers:[[Hammer.Swipe,{direction:Hammer.DIRECTION_HORIZONTAL}]]});hammer.on("swipeleft",()=>{navForward()}),hammer.on("swiperight",()=>{navBackward()});const navForward=()=>{hideEleAtIdx(),summaryIdx=(summaryIdx+1)%total,renderEleAtIdx()},navBackward=()=>{hideEleAtIdx(),summaryIdx=summaryIdx===0?total-1:(summaryIdx-1)%total,renderEleAtIdx()},hideEleAtIdx=()=>{items[summaryIdx].classList.add('hidden')},renderEleAtIdx=()=>{items[summaryIdx].classList.remove('hidden')};renderEleAtIdx(summaryIdx)</script>
 </div>
 </div>
 <div id=snackbar>
