@@ -91,7 +91,7 @@
   const total = items.length;
 
   const hammer = new Hammer(listElement, {
-    recognizers: [[Hammer.Swipe, { direction: Hammer.DIRECTION_ALL }]],
+    recognizers: [[Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]],
   });
 
   hammer.on("swipeleft", () => {
