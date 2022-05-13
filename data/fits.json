@@ -1,6 +1,121 @@
 {
     "fits": [
         {
+            "description": "kakashi accompanying me to dance",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-09%3AIMG_0081_edited.jpeg",
+            "date": "2022-05-09",
+            "timestamp": 1652147348.007651,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Boot",
+                "Clothing",
+                "Footwear",
+                "Jeans",
+                "People",
+                "Shoes"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-12%3AIMG_0100.jpeg",
+            "date": "2022-05-12",
+            "timestamp": 1652374021.076888,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-07%3AIMG_0051.jpeg",
+            "date": "2022-05-07",
+            "timestamp": 1651982599.119432,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 2,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jacket",
+                "Jeans",
+                "Outdoor",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-08%3AIMG_0059.jpeg",
+            "date": "2022-05-08",
+            "timestamp": 1652029087.006175,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-11%3AIMG_0092.jpeg",
+            "date": "2022-05-11",
+            "timestamp": 1652295430.075671,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
             "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-05%3AIMG_0014.jpeg",
             "date": "2022-05-05",
