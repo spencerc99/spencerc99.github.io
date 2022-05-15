@@ -1,6 +1,40 @@
 {
     "fits": [
         {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-13%3AIMG_0160.jpeg",
+            "date": "2022-05-13",
+            "timestamp": 1652495806.174534,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-14%3AIMG_0178.jpeg",
+            "date": "2022-05-14",
+            "timestamp": 1652563090.24896,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
             "description": "kakashi accompanying me to dance",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-05-09%3AIMG_0081_edited.jpeg",
             "date": "2022-05-09",
