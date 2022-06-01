@@ -90,16 +90,18 @@
   const items = listElement.children;
   const total = items.length;
 
-  const hammer = new Hammer(listElement, {
-    recognizers: [[Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]],
-  });
+  if ("ontouchstart" in document.documentElement) {
+    const hammer = new Hammer(listElement, {
+      recognizers: [[Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]],
+    });
 
-  hammer.on("swipeleft", () => {
-    navForward();
-  });
-  hammer.on("swiperight", () => {
-    navBackward();
-  });
+    hammer.on("swipeleft", () => {
+      navForward();
+    });
+    hammer.on("swiperight", () => {
+      navBackward();
+    });
+  }
 
   const navForward = () => {
     hideEleAtIdx();
