@@ -258,7 +258,7 @@ An interactive, participatory essay proposing the “pluriverse” as a new bann
 <div class="post summary meta">
 <span>
 <span class=postDate>10.12.21</span>
-// 1140 words
+// 1152 words
 //
 <div class=icons>
 <i class="uis uis-star"></i>
@@ -589,7 +589,7 @@ Leave yourself open to the magic of the world.
 </div>
 </div>
 </div>
-<script>let summaryIdx=0;const listElement=document.querySelector('.summaryList'),items=listElement.children,total=items.length,hammer=new Hammer(listElement,{recognizers:[[Hammer.Swipe,{direction:Hammer.DIRECTION_HORIZONTAL}]]});hammer.on("swipeleft",()=>{navForward()}),hammer.on("swiperight",()=>{navBackward()});const navForward=()=>{hideEleAtIdx(),summaryIdx=(summaryIdx+1)%total,renderEleAtIdx()},navBackward=()=>{hideEleAtIdx(),summaryIdx=summaryIdx===0?total-1:(summaryIdx-1)%total,renderEleAtIdx()},hideEleAtIdx=()=>{items[summaryIdx].classList.add('hidden')},renderEleAtIdx=()=>{items[summaryIdx].classList.remove('hidden')};renderEleAtIdx(summaryIdx)</script>
+<script>let summaryIdx=0;const listElement=document.querySelector('.summaryList'),items=listElement.children,total=items.length;if("ontouchstart"in document.documentElement){const a=new Hammer(listElement,{recognizers:[[Hammer.Swipe,{direction:Hammer.DIRECTION_HORIZONTAL}]]});a.on("swipeleft",()=>{navForward()}),a.on("swiperight",()=>{navBackward()})}const navForward=()=>{hideEleAtIdx(),summaryIdx=(summaryIdx+1)%total,renderEleAtIdx()},navBackward=()=>{hideEleAtIdx(),summaryIdx=summaryIdx===0?total-1:(summaryIdx-1)%total,renderEleAtIdx()},hideEleAtIdx=()=>{items[summaryIdx].classList.add('hidden')},renderEleAtIdx=()=>{items[summaryIdx].classList.remove('hidden')};renderEleAtIdx(summaryIdx)</script>
 </div>
 </div>
 <div id=snackbar>
