@@ -2,6 +2,69 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-18%3AIMG_1027.jpeg",
+            "date": "2022-06-18",
+            "timestamp": 1655599976.214724,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Furniture",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-16%3AIMG_0982.jpeg",
+            "date": "2022-06-16",
+            "timestamp": 1655437903.157443,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-15%3AIMG_0970.jpeg",
+            "date": "2022-06-15",
+            "timestamp": 1655320685.867805,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-09%3AIMG_0833.jpeg",
             "date": "2022-06-09",
             "timestamp": 1654795194.159093,
@@ -123,12 +186,15 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
-            "season": "",
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Summer",
             "activities": "",
             "venue_types": ""
         },
@@ -338,11 +404,14 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -398,11 +467,14 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -457,9 +529,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Adult",
@@ -500,11 +572,16 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -517,9 +594,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Adult",
@@ -539,11 +616,16 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Furniture",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -579,11 +661,15 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -596,11 +682,15 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -635,9 +725,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Adult",
@@ -661,7 +751,14 @@
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Boot",
+                "Clothing",
+                "Footwear",
+                "People",
+                "Shoes"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -678,7 +775,15 @@
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Chair",
+                "Clothing",
+                "Furniture",
+                "People",
+                "Plant",
+                "Swivel Chair"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -753,7 +858,17 @@
                 "Dining",
                 "Dinner"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Bar",
+                "Cocktail Bar",
+                "Dessert Shop",
+                "Food & Grocery",
+                "Halal",
+                "Middle Eastern Cuisine",
+                "Nightlife",
+                "Restaurant",
+                "Street Vendor"
+            ]
         },
         {
             "description": "",
@@ -954,7 +1069,7 @@
             "timestamp": 1650056945.119528,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -995,10 +1110,7 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": [
-                "Gastropub",
-                "Restaurant"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -1007,12 +1119,18 @@
             "timestamp": 1651689153.731661,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "favorite": true,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People",
+                "Plant",
+                "Recreation"
+            ],
             "season": "Spring",
             "activities": "",
             "venue_types": ""
@@ -1069,7 +1187,7 @@
             "timestamp": 1651418661.408035,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1091,7 +1209,7 @@
             "timestamp": 1651351240.114,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "",
             "city": "",
             "country": "",
@@ -1103,8 +1221,15 @@
                 "Plant"
             ],
             "season": "Spring",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Entertainment",
+                "Museum"
+            ],
+            "venue_types": [
+                "Art Museum",
+                "Arts",
+                "Museum"
+            ]
         },
         {
             "description": "",
@@ -1438,7 +1563,7 @@
             "timestamp": 1649443581.846427,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1459,7 +1584,7 @@
             "timestamp": 1649029958.403745,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1486,7 +1611,7 @@
             "timestamp": 1649348670.308722,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1530,7 +1655,7 @@
             "timestamp": 1649287694.815748,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -4509,8 +4634,6 @@
             "activities": [
                 "Activity",
                 "Beach Activity",
-                "Dining",
-                "Lunch",
                 "Travel",
                 "Trip"
             ],
@@ -7370,7 +7493,14 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Asian Fusion Cuisine",
+                "British Cuisine",
+                "Burger Restaurant",
+                "Gastropub",
+                "New American Cuisine",
+                "Restaurant"
+            ]
         },
         {
             "description": "",
