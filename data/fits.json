@@ -2,6 +2,96 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-21%3AIMG_1120.jpeg",
+            "date": "2022-06-21",
+            "timestamp": 1655829135.882352,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Chair",
+                "Furniture",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-19%3AIMG_2983.JPG",
+            "date": "2022-06-19",
+            "timestamp": 1655674226.783,
+            "width": 1536,
+            "height": 2049,
+            "favorite": true,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Agriculture",
+                "Blue Sky",
+                "Clothing",
+                "Cloudy",
+                "Container",
+                "Grass",
+                "Land",
+                "Optical Equipment",
+                "Outdoor",
+                "People",
+                "Sky",
+                "Sunglasses"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-20%3AIMG_1106.jpeg",
+            "date": "2022-06-20",
+            "timestamp": 1655763274.309588,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-22%3AIMG_1149.jpeg",
+            "date": "2022-06-22",
+            "timestamp": 1655946886.353478,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-18%3AIMG_1027.jpeg",
             "date": "2022-06-18",
             "timestamp": 1655599976.214724,
@@ -185,7 +275,7 @@
             "timestamp": 1655348476.140578,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -7493,14 +7583,7 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": [
-                "Asian Fusion Cuisine",
-                "British Cuisine",
-                "Burger Restaurant",
-                "Gastropub",
-                "New American Cuisine",
-                "Restaurant"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
