@@ -5,6 +5,6 @@ image: https://spencerchang.me/pacman-poem/banner.png
 date: "2022-05-05"
 external_link: https://www.spencerchang.me/pacman-poem/
 related: []
-tags: ['projects', 'software']
+tags: ['projects', 'software', 'favorite']
 # featured: true
 ---

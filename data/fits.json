@@ -2,6 +2,30 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-23%3AIMG_1181.jpeg",
+            "date": "2022-06-23",
+            "timestamp": 1656008810.497855,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jeans",
+                "Optical Equipment",
+                "People",
+                "Sunglasses"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-21%3AIMG_1120.jpeg",
             "date": "2022-06-21",
             "timestamp": 1655829135.882352,
@@ -81,11 +105,15 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
             "season": "Summer",
             "activities": "",
             "venue_types": ""
@@ -139,7 +167,7 @@
             "timestamp": 1655320685.867805,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
