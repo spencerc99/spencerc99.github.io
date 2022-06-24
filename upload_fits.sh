@@ -46,7 +46,7 @@ case "$choice" in
 esac
 
 # upload to s3
-aws s3 sync ./fits-export/  s3://personal-apple-photos/fits-stream/ --profile=personal-apple-photos --exclude "*" --include "*.jpeg" --include "*.jpg" --delete
+aws s3 sync ./fits-export/  s3://personal-apple-photos/fits-stream/ --profile=personal-apple-photos --exclude "*" --include "*.jpeg" --include "*.jpg" --include "*.JPG" --include "*.JPEG" --delete
 
 # do some logging?
 
