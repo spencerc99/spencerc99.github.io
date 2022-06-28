@@ -2,6 +2,54 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-24%3AIMG_1200.jpeg",
+            "date": "2022-06-24",
+            "timestamp": 1656129693.268156,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-25%3AIMG_1229.jpeg",
+            "date": "2022-06-25",
+            "timestamp": 1656212808.155617,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Footwear",
+                "Land",
+                "Outdoor",
+                "Path",
+                "People",
+                "Shoes",
+                "Sidewalk",
+                "Sneaker"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-23%3AIMG_1181.jpeg",
             "date": "2022-06-23",
             "timestamp": 1656008810.497855,
@@ -7611,7 +7659,14 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Asian Fusion Cuisine",
+                "British Cuisine",
+                "Burger Restaurant",
+                "Gastropub",
+                "New American Cuisine",
+                "Restaurant"
+            ]
         },
         {
             "description": "",
