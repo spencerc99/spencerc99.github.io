@@ -2,6 +2,255 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-05%3AIMG_1604.jpeg",
+            "date": "2022-07-05",
+            "timestamp": 1657032392.648684,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Door",
+                "Footwear",
+                "Optical Equipment",
+                "People",
+                "Shoes",
+                "Sneaker",
+                "Sunglasses"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-03%3AIMG_1539.jpeg",
+            "date": "2022-07-03",
+            "timestamp": 1656889590.265007,
+            "width": 2316,
+            "height": 3088,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Decorative Plant",
+                "Outdoor",
+                "People",
+                "Plant"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-02%3AIMG_1423.jpeg",
+            "date": "2022-07-02",
+            "timestamp": 1656797810.17557,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Cabinet",
+                "Furniture",
+                "People",
+                "Plant",
+                "Table"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Concert",
+                "Dining",
+                "Dinner",
+                "Entertainment",
+                "Festival",
+                "Performance",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Arts",
+                "Event Services",
+                "Music Venue",
+                "Night Club",
+                "Nightlife",
+                "Venue & Event Space"
+            ]
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-04%3AIMG_1602.jpeg",
+            "date": "2022-07-04",
+            "timestamp": 1656992509.921767,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Chair",
+                "Furniture",
+                "People",
+                "Swivel Chair"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Celebration",
+                "Holiday",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-06%3AIMG_1616.jpeg",
+            "date": "2022-07-06",
+            "timestamp": 1657121627.612247,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-01%3AIMG_1389.jpeg",
+            "date": "2022-07-01",
+            "timestamp": 1656682858.063069,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Bed",
+                "Clothing",
+                "Furniture",
+                "Housewares",
+                "Interior Room",
+                "Jeans",
+                "People",
+                "Recreation"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-28%3AIMG_1315.jpeg",
+            "date": "2022-06-28",
+            "timestamp": 1656422487.122143,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-29%3AIMG_1346.jpeg",
+            "date": "2022-06-29",
+            "timestamp": 1656542989.663224,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Cardboard Box",
+                "Clothing",
+                "Container",
+                "Furniture",
+                "Machine",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-27%3AIMG_1288.jpeg",
+            "date": "2022-06-27",
+            "timestamp": 1656338903.131467,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Bed",
+                "Furniture",
+                "Housewares",
+                "People",
+                "Recreation"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-06-24%3AIMG_1200.jpeg",
             "date": "2022-06-24",
             "timestamp": 1656129693.268156,
@@ -1024,17 +1273,7 @@
                 "Dining",
                 "Dinner"
             ],
-            "venue_types": [
-                "Bar",
-                "Cocktail Bar",
-                "Dessert Shop",
-                "Food & Grocery",
-                "Halal",
-                "Middle Eastern Cuisine",
-                "Nightlife",
-                "Restaurant",
-                "Street Vendor"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -7659,14 +7898,7 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": [
-                "Asian Fusion Cuisine",
-                "British Cuisine",
-                "Burger Restaurant",
-                "Gastropub",
-                "New American Cuisine",
-                "Restaurant"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
