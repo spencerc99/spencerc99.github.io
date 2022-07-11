@@ -2,6 +2,95 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-10%3AIMG_1726.jpeg",
+            "date": "2022-07-10",
+            "timestamp": 1657430282.979905,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Door",
+                "Machine",
+                "People",
+                "Vehicle"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-09%3AIMG_1712.jpeg",
+            "date": "2022-07-09",
+            "timestamp": 1657419182.205518,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 3,
+            "labels": [
+                "Adult",
+                "Interior Room",
+                "Light",
+                "Nightclub",
+                "People",
+                "Recreation",
+                "Spotlight"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Entertainment",
+                "Performance",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Bar",
+                "Cocktail Bar",
+                "Latin American Cuisine",
+                "Mexican Cuisine",
+                "Nightlife",
+                "Restaurant"
+            ]
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-07%3AIMG_1639_edited.jpeg",
+            "date": "2022-07-07",
+            "timestamp": 1657232092.197404,
+            "width": 2723,
+            "height": 3630,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Bench",
+                "Furniture",
+                "Grass",
+                "Land",
+                "Outdoor",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-05%3AIMG_1604.jpeg",
             "date": "2022-07-05",
             "timestamp": 1657032392.648684,
@@ -136,9 +225,22 @@
             "city": "Brooklyn",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Adult",
+                "Appliance",
+                "Clothing",
+                "Footwear",
+                "Furniture",
+                "Machine",
+                "People",
+                "Refrigerator",
+                "Shoes"
+            ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -1273,7 +1375,17 @@
                 "Dining",
                 "Dinner"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Bar",
+                "Cocktail Bar",
+                "Dessert Shop",
+                "Food & Grocery",
+                "Halal",
+                "Middle Eastern Cuisine",
+                "Nightlife",
+                "Restaurant",
+                "Street Vendor"
+            ]
         },
         {
             "description": "",
@@ -7898,7 +8010,14 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Asian Fusion Cuisine",
+                "British Cuisine",
+                "Burger Restaurant",
+                "Gastropub",
+                "New American Cuisine",
+                "Restaurant"
+            ]
         },
         {
             "description": "",
