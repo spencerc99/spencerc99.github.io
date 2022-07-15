@@ -2,6 +2,45 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-10%3AIMG_1744.jpeg",
+            "date": "2022-07-10",
+            "timestamp": 1657478114.370881,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Interior Room",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-12%3AIMG_1822.jpeg",
+            "date": "2022-07-12",
+            "timestamp": 1657681144.944682,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-10%3AIMG_1726.jpeg",
             "date": "2022-07-10",
             "timestamp": 1657430282.979905,
@@ -21,45 +60,11 @@
                 "Vehicle"
             ],
             "season": "Summer",
-            "activities": "",
-            "venue_types": ""
-        },
-        {
-            "description": "",
-            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-09%3AIMG_1712.jpeg",
-            "date": "2022-07-09",
-            "timestamp": 1657419182.205518,
-            "width": 3024,
-            "height": 4032,
-            "favorite": false,
-            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
-            "city": "Brooklyn",
-            "country": "United States",
-            "peopleCount": 3,
-            "labels": [
-                "Adult",
-                "Interior Room",
-                "Light",
-                "Nightclub",
-                "People",
-                "Recreation",
-                "Spotlight"
-            ],
-            "season": "Summer",
             "activities": [
-                "Entertainment",
-                "Performance",
                 "Travel",
                 "Trip"
             ],
-            "venue_types": [
-                "Bar",
-                "Cocktail Bar",
-                "Latin American Cuisine",
-                "Mexican Cuisine",
-                "Nightlife",
-                "Restaurant"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",

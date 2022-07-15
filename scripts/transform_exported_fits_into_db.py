@@ -4,7 +4,9 @@ from osxphotos import PhotoInfo, ExportResults
 import json
 import os
 from append_fit_tweet import post_fit_to_twitter
+from PIL import Image, ImageOps
 
+FITS_EXPORT_PATH_NAME = './fits-export/'
 FITS_PATH_NAME = './data/fits.json'
 # Manually change this if you don't want to post to twitter.
 # TODO: make this post to a bot account.
@@ -14,21 +16,33 @@ SHOULD_POST_TO_TWITTER = False
 def post_function(
     photo: PhotoInfo, results: ExportResults, verbose: callable, **kwargs
 ):
-    # check state file to make sure not already in the json
-    fit_data = None
-    new_object = None
+    fits_export_list = os.listdir(FITS_EXPORT_PATH_NAME)
+    # noext_filename, ext = os.path.splitext(photo.original_filename)
+    # export_filename = f"{str(photo.date).split()[0]}:{noext_filename}"
+    # if '{}_preview.jpeg'.format(export_filename) not in fits_export_list and '{}_edited_preview.jpeg'.format(export_filename) not in fits_export_list:
+    #     print('\n{}_preview not found in {}, creating new preview'.format(export_filename, FITS_EXPORT_PATH_NAME))
+    #     image = Image.open(FITS_EXPORT_PATH_NAME + export_filename + '.jpeg')
+    #     fixed_image = ImageOps.exif_transpose(image)
+    #     fixed_image.thumbnail((1600,1600), Image.LANCZOS)
+    #     fixed_image.save(f'{FITS_EXPORT_PATH_NAME}{export_filename}_preview.jpeg')
+
     # skip if nothing exported
     if not results.exported: 
         return
 
     exported_filename = os.path.basename(results.exported[0])
 
-    # osxphotos appends `_preview` by default if it is the preview image that photos uses.
-    # Skip processing if this is a preview file since we will have processed the original image.
-    # TODO: should just manually make a preview
-    if '_preview' in exported_filename:
-        verbose(f"skipping processing because it's a preview! {photo.filename}")
-        return 
+    noext_filename, ext = os.path.splitext(exported_filename)
+    if '{}_preview.jpeg'.format(noext_filename) not in fits_export_list:
+        print('\n{}_preview not found in {}, creating new preview'.format(noext_filename, FITS_EXPORT_PATH_NAME))
+        image = Image.open(FITS_EXPORT_PATH_NAME + exported_filename)
+        fixed_image = ImageOps.exif_transpose(image)
+        fixed_image.thumbnail((1600,1600), Image.LANCZOS)
+        fixed_image.save(f'{FITS_EXPORT_PATH_NAME}{noext_filename}_preview.jpeg')
+
+    # check state file to make sure not already in the json
+    fit_data = None
+    new_object = None
         
     if len(results.exported) > 1:
         verbose(f"warning: Found multiple files exported for same file! {photo.filename}")
