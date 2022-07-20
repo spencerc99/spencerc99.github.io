@@ -28,7 +28,7 @@ echo $restart
 # --only-new seems to exclude preview??
 # --ignore-signature handles photos that have been exported and then updated
 # --force-update, this will handle updated metadata
-osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}:{original_name}" --force-update --ignore-signature --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function ./fits-export
+osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --only-new --filename "{created.date}:{original_name}" --force-update --ignore-signature --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function ./fits-export
 
 # normal --update, this caches "last exported" so might miss some if out of order?
 # osxphotos export --download-missing --album fits\ 🧢 --use-photokit --skip-live --skip-original-if-edited --filename "{created.date}:{original_name}" --update --ignore-signature --convert-to-jpeg --post-function ./scripts/transform_exported_fits_into_db.py::post_function ./fits-export
