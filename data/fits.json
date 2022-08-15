@@ -2,6 +2,232 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-25%3AIMG_2175.jpeg",
+            "date": "2022-07-25",
+            "timestamp": 1658801163.628851,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Eastern Pkwy\u2013Brooklyn Museum, Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Fence",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-28%3AIMG_2224.jpeg",
+            "date": "2022-07-28",
+            "timestamp": 1659049997.022069,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-26%3AIMG_2182_edited.jpeg",
+            "date": "2022-07-26",
+            "timestamp": 1658852210.0,
+            "width": 1029,
+            "height": 1443,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Door",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-20%3AIMG_2055.jpeg",
+            "date": "2022-07-20",
+            "timestamp": 1658333251.778891,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-23%3AIMG_2122.jpeg",
+            "date": "2022-07-23",
+            "timestamp": 1658614197.921213,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Furniture",
+                "People",
+                "Plant"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Fast Food",
+                "Japanese Cuisine",
+                "Peruvian Cuisine",
+                "Restaurant",
+                "Sushi Restaurant"
+            ]
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-23%3AIMG_2115_edited.jpeg",
+            "date": "2022-07-23",
+            "timestamp": 1658587198.0,
+            "width": 1014,
+            "height": 1741,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Door",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-24%3AIMG_2139_edited.jpeg",
+            "date": "2022-07-24",
+            "timestamp": 1658698405.0,
+            "width": 1103,
+            "height": 1934,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Door",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-21%3AIMG_2073.jpeg",
+            "date": "2022-07-21",
+            "timestamp": 1658439796.683897,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Door",
+                "Furniture",
+                "Glove",
+                "Glove Other",
+                "Interior Room",
+                "Machine",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-23%3AIMG_2117_edited.jpeg",
+            "date": "2022-07-23",
+            "timestamp": 1658588126.0,
+            "width": 1170,
+            "height": 1741,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Door",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-07-17%3AIMG_1928.jpeg",
             "date": "2022-07-17",
             "timestamp": 1658075594.0,
