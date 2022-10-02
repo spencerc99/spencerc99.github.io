@@ -49,9 +49,10 @@
 <a href=/ class=navbarLink><h2></h2></a>
 <div class=navbarActions>
 <a href=/posts><span>writing</span> <b>📝</b></a>
+<a href=/projects><span>projects</span> <b>⚒️</b></a>
 <a href=/fits><span>fits</span> <b>🧢</b></a>
 <a href=/photos><span>photos</span> <b>📸</b></a>
-<a href=/projects><span>projects</span> <b>⚒️</b></a>
+<a href=https://window.spencerchang.me><span>windows</span> <b>🪟</b></a>
 </div>
 </div>
 <script>var navbarElem=document.getElementById("navbar"),navClasses=navbarElem.classList,navbarHeight=navbarElem.clientHeight,scrollTop,scrollState,scrollDetect;function downAction(){navClasses.remove("open"),navClasses.add("collapse")}function upAction(){navClasses.remove("collapse"),navClasses.add("open")}scrollTop=function(){return window.scrollY},scrollState=0,scrollDetect=function(b,c){var a=scrollTop();a>scrollState&&a>navbarHeight/3?b():a<scrollState&&c(),scrollState=scrollTop()},window.addEventListener("scroll",function(){scrollDetect(downAction,upAction)})</script>
@@ -115,13 +116,13 @@ All Tags
 <span>Personal</span>
 (<span id=stags-personal> -count-</span>/<span id=ctags-personal> -count-</span>)
 </button>
-<button xx class=tag-button id=tag-creative onclick="htf.checkFilter('creative','tag-')">
-<span>Creative</span>
-(<span id=stags-creative> -count-</span>/<span id=ctags-creative> -count-</span>)
-</button>
 <button xx class=tag-button id=tag-software onclick="htf.checkFilter('software','tag-')">
 <span>Software</span>
 (<span id=stags-software> -count-</span>/<span id=ctags-software> -count-</span>)
+</button>
+<button xx class=tag-button id=tag-creative onclick="htf.checkFilter('creative','tag-')">
+<span>Creative</span>
+(<span id=stags-creative> -count-</span>/<span id=ctags-creative> -count-</span>)
 </button>
 <button xx class=tag-button id=tag-projects onclick="htf.checkFilter('projects','tag-')">
 <span>Projects</span>
@@ -284,30 +285,6 @@ some software poetic project updates
 </div>
 </article>
 </div>
-<div class="tf-filter-item tf-item" data-tags="projects software favorite   ">
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>05.05.22</span>
-//
-<div class=icons>
-<i class="uis uis-star"></i>
-</div>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=https://www.spencerchang.me/pacman-poem/ target=_blank>8-bite</a> <i class="uil uil-external-link-alt"></i>
-</h2>
-<div class=postSummary>
-Pacman reimagined as an interactive poetry game. A simplified version was published in <a href=https://taper.badquar.to/8>taper 8</a>, an issue of a computational poetry journal.<br><br>Created in collaboration with Kelsey.
-</div>
-</div>
-<div class=postSummaryImageContainer>
-<img loading=lazy class="lazyload postSummaryImage" data-src=https://spencerchang.me/pacman-poem/banner.png>
-</div>
-</article>
-</div>
 <div class="tf-filter-item tf-item" data-tags="newsletter   ">
 <article class=postSummaryContainer>
 <div class=postSummaryHeader>
@@ -326,23 +303,6 @@ growing up as a chameleon and learning to wield shapeshifting for my own ends
 </div>
 <div class=postSummaryImageContainer>
 <img loading=lazy class="lazyload postSummaryImage" data-src=https://cdn.substack.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F72205cc3-9a6e-4120-96b2-a88491066aa9_769x1024.jpeg>
-</div>
-</article>
-</div>
-<div class="tf-filter-item tf-item" data-tags="projects software   ">
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>04.15.22</span>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=https://poems.verses.xyz/ target=_blank>Verses Verses</a> <i class="uil uil-external-link-alt"></i>
-</h2>
-<div class=postSummary>
-A collection of transforming verses from the verses community and an interactive lab to make your own.<br><br>Created in collaboration with <a href=https://verses.xyz/>Verses</a>.
-</div>
 </div>
 </article>
 </div>
@@ -413,27 +373,6 @@ You have to carve out an identity that is simultaneously unique and marketable t
 </div>
 </article>
 </div>
-<div class="tf-filter-item tf-item" data-tags="projects software favorite   ">
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>03.15.22</span>
-//
-<div class=icons>
-<i class="uis uis-star"></i>
-</div>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=https://github.com/jackyzha0/telescopic-text/ target=_blank>Transforming Text</a> <i class="uil uil-external-link-alt"></i>
-</h2>
-<div class=postSummary>
-an open-source library for creating transforming text.<br><br>Created in collaboration with Jacky.
-</div>
-</div>
-</article>
-</div>
 <div class="tf-filter-item tf-item" data-tags="newsletter   ">
 <article class=postSummaryContainer>
 <div class=postSummaryHeader>
@@ -452,54 +391,6 @@ and updates on the digital pluriverse, packs, poems (software and analog)
 </div>
 <div class=postSummaryImageContainer>
 <img loading=lazy class="lazyload postSummaryImage" data-src=/newsletter/images/pluriverse-banner.jpg>
-</div>
-</article>
-</div>
-<div class="tf-filter-item tf-item" data-tags="projects software favorite coda   ">
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>02.20.22</span>
-//
-<div class=icons>
-<i class="uis uis-star"></i>
-</div>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=https://coda.io/packs/twitter-10029/ target=_blank>Twitter Pack</a> <i class="uil uil-external-link-alt"></i>
-</h2>
-<div class=postSummary>
-A Twitter pack for Coda which gives you the ability to manipulate data from Twitter the way you want and find the things that you remember without messing with a complicated API.
-</div>
-</div>
-<div class=postSummaryImageContainer>
-<img loading=lazy class="lazyload postSummaryImage" data-src=https://codahosted.io/packs/10029/unversioned/assets/COVER/98e07a9363f1216cde8b61607bfa8c41d5e93b27358dbe98972ad32961d52538d6cd75312ce1269b2d624112d21e9ce4367f1c07d578082dc90130ec7310b1faa6a2aa257b2c642d7177506d924ad741f64c41bc8471259780e9263ef20b92748f2d4011>
-</div>
-</article>
-</div>
-<div class="tf-filter-item tf-item" data-tags="projects software favorite   ">
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>02.15.22</span>
-//
-<div class=icons>
-<i class="uis uis-star"></i>
-</div>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=https://pluriverse.world/ target=_blank>Towards a Digital Pluriverse</a> <i class="uil uil-external-link-alt"></i>
-</h2>
-<div class=postSummary>
-An interactive, participatory essay proposing the “pluriverse” as a new banner for the community to rally around for how we look at imagining a “new web.” It is co-created with visitors and readers of the site.<br><br>Created in collaboration with <a href=https://verses.xyz/>Verses</a>.
-</div>
-</div>
-<div class=postSummaryImageContainer>
-<img loading=lazy class="lazyload postSummaryImage" data-src=https://pluriverse.world/pluriverse-banner.jpg>
 </div>
 </article>
 </div>
@@ -955,7 +846,7 @@ a poem on setting your heart ablaze
 <div class="post summary meta">
 <span>
 <span class=postDate>10.12.21</span>
-// 1367 words
+// 1375 words
 //
 <div class=icons>
 <i class="uis uis-star"></i>
