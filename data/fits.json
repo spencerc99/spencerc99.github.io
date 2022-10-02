@@ -2,6 +2,90 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-09-28%3AIMG_4334.jpeg",
+            "date": "2022-09-28",
+            "timestamp": 1664391431.816,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People",
+                "Window"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-09-30%3AIMG_4391.jpeg",
+            "date": "2022-09-30",
+            "timestamp": 1664566729.899,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Furniture",
+                "People",
+                "Table"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-09-28%3AIMG_4342.jpeg",
+            "date": "2022-09-28",
+            "timestamp": 1664413469.457,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Furniture",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-09-29%3AIMG_4350.jpeg",
+            "date": "2022-09-29",
+            "timestamp": 1664468523.939,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-09-26%3AIMG_4313.jpeg",
             "date": "2022-09-26",
             "timestamp": 1664235511.341,
