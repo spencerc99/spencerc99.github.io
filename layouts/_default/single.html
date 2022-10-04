@@ -9,7 +9,7 @@
   <div class="post meta">
     <!-- TODO: make the date linkable -->
     {{ with .Date }}
-      <span class="postDate">{{ .Date.Format "01.02.2006" }}</span>
+      <span class="postDate">{{ .Format "01.02.2006" }}</span>
     {{ end }}
     <!-- TODO: add other metadata like location and time and song with icons -->
     {{ $hasIcon := or (in .Params.tags "favorite") (isset .Params "icon") }}
