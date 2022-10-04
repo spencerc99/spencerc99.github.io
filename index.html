@@ -20,7 +20,7 @@
 <meta name=twitter:label1 value=Currently>
 <meta name=twitter:data1 value="Engineering in San Francisco 🌉⛰">
 <meta name=robots content="noodp">
-<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.0ee0c5bbcac052f9414c0a50ce622d56bc07fa49c615963deef402ad8a284e97.css>
+<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.16503c3b7b9786bdd6011ac4328c843dfbe400816d9b0e6086c50b63943c44c4.css>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel=stylesheet>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/line.css>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/solid.css>
@@ -51,7 +51,7 @@
 <a href=/projects><span>projects</span> <b>⚒️</b></a>
 <a href=/fits><span>fits</span> <b>🧢</b></a>
 <a href=/photos><span>photos</span> <b>📸</b></a>
-<a href=https://window.spencerchang.me><span>windows</span> <b>🪟</b></a>
+<a href=/window><span>window</span> <b>🪟</b></a>
 </div>
 </div>
 <script>var navbarElem=document.getElementById("navbar"),navClasses=navbarElem.classList,navbarHeight=navbarElem.clientHeight,scrollTop,scrollState,scrollDetect;function downAction(){navClasses.remove("open"),navClasses.add("collapse")}function upAction(){navClasses.remove("collapse"),navClasses.add("open")}scrollTop=function(){return window.scrollY},scrollState=0,scrollDetect=function(b,c){var a=scrollTop();a>scrollState&&a>navbarHeight/3?b():a<scrollState&&c(),scrollState=scrollTop()},window.addEventListener("scroll",function(){scrollDetect(downAction,upAction)})</script>
@@ -165,13 +165,180 @@ hi! i'm spencer
 </div>
 <div class=mainContainer>
 <div class=summaryList>
-<div class="writing hidden">
-<div class=sectionHeader>
-<h2>some favorite creations</h2>
-<div class=arrows>
-<button class=link onclick=navBackward()><i class="uis uis-arrow-circle-left" alt=←></i></button><button class=link onclick=navForward()><i class="uis uis-arrow-circle-right" alt=→></i></button>
+<div class=tabs>
+<button onclick=setTab(0)><h3>recent</h3></button>
+<button onclick=setTab(1)><h3>faves</h3></button>
+<button onclick=setTab(2)><h3>projects</h3></button>
+<button onclick=setTab(3)><h3>writing</h3></button>
+</div>
+<div class=tabContent>
+<div class="recentReleases hidden">
+<div class=postsList>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>10.01.22</span>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=/window target=_blank>wall of windows</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+a set of live-updating windows that show slices of my life in real time.
 </div>
 </div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>09.17.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/give-fiercely-spend-freely target=_blank>give fiercely, spend freely</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+“Purity does not lie in separation from but in deeper penetration into the universe” — Teilhard de Chardin. I just read The Writing Life by Anne Dillard (thanks to Jacky for the rec), which ends with this quote. The book is a wonderful&mldr;
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>09.01.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/finding-ground target=_blank>finding ground</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+I’ve been going nonstop lately. This is unusual for me because I like to take things slowly, revel in the space between moments. I’ve noticed that I increasingly feel rushed. Time feels like grains of sand slipping between my fingers, as&mldr;
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>08.24.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/realizations-and-transformative-moments target=_blank>realizations & transformative moments</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+These past couple of months have been fruitful for realizations. They were simple—most likely things my subconscious has always known but never accepted. Here’s a list for reminding myself of the truths that matter. One. For a long time, I&mldr;
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>08.15.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/making-hard-things-easy target=_blank>making hard things easy</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+When I feel overwhelmed, my usual coping mechanism is to retreat into my personal routines, practices where I feel invisible, where I can meld into the world around me, feel as if I&rsquo;m a part of the all-powerful universe rather than my so&mldr;
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>08.05.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/punctuated-by-wonder target=_blank>punctuated by wonder</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+Last night, M asked me about rose, thorn, bud about my time in New York this time around as it comes to an end. My natural expectation for a rose is something big, meaningful, big announcement and showers of confetti, so it was&mldr;
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>07.11.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/loose-fear target=_blank>loose fear</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+Becoming unhinged. Or processing my desire to be immune to fear. Or an anthology of my worries, Plus some life updates
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>06.28.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/a-meditation-on-adventure target=_blank>a meditation on adventure</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+I barely slept last night. The unofficial fireworks (I presume in celebration of Pride) and loudspeaker music (an occasional phenomenon) from the streets didn&rsquo;t help. But what really kept me up was the energy brewing in my navel. The fire&mldr;
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>06.21.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/in-search-of-awe target=_blank>in search of awe</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>06.02.22</span>
+// 1450 words
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=/posts/narcissism/>the foil of narcissism</a>
+</h2>
+<div class=postSummary>
+Can narcissism be a tool for self-expression?
+</div>
+</div>
+</article>
+</div>
+</div>
+<div class="faves hidden">
 <div class=postsList>
 <article class=postSummaryContainer>
 <div class=postSummaryHeader>
@@ -259,7 +426,7 @@ An interactive, participatory essay proposing the “pluriverse” as a new bann
 <div class="post summary meta">
 <span>
 <span class=postDate>10.12.21</span>
-// 1375 words
+// 1377 words
 //
 <div class=icons>
 <i class="uis uis-star"></i>
@@ -276,13 +443,7 @@ A stream of my daily outfits.
 </article>
 </div>
 </div>
-<div class="projects hidden">
-<div class=sectionHeader>
-<h2>some favorite projects</h2>
-<div class=arrows>
-<button class=link onclick=navBackward()><i class="uis uis-arrow-circle-left" alt=←></i></button><button class=link onclick=navForward()><i class="uis uis-arrow-circle-right" alt=→></i></button>
-</div>
-</div>
+<div class="writing hidden">
 <div class=postsList>
 <article class=postSummaryContainer>
 <div class=postSummaryHeader>
@@ -384,19 +545,13 @@ Check out <a href=/projects>all my projects</a>.
 </div>
 </div>
 <div class="projects hidden">
-<div class=sectionHeader>
-<h2>some favorite writing</h2>
-<div class=arrows>
-<button class=link onclick=navBackward()><i class="uis uis-arrow-circle-left" alt=←></i></button><button class=link onclick=navForward()><i class="uis uis-arrow-circle-right" alt=→></i></button>
-</div>
-</div>
 <div class=postsList>
 <article class=postSummaryContainer>
 <div class=postSummaryHeader>
 <div class="post summary meta">
 <span>
-<span class=postDate>01.16.22</span>
-// 2177 words
+<span class=postDate>07.11.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
 //
 <div class=icons>
 <i class="uis uis-star"></i>
@@ -404,10 +559,30 @@ Check out <a href=/projects>all my projects</a>.
 </span>
 </div>
 <h2 class=postSummaryTitle>
-<a href=/posts/mutualism/>Mutualistic Flourishing: 2021 to 2022</a>
+<a href=https://spencerchang.substack.com/p/loose-fear target=_blank>loose fear</a> <i class="uil uil-external-link-alt"></i>
 </h2>
 <div class=postSummary>
-🎰 2021 | 🤲 2022. My 2021 reflection and theme of mutualism for 2022.
+Becoming unhinged. Or processing my desire to be immune to fear. Or an anthology of my worries, Plus some life updates
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>04.09.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/quarter-life-commitment target=_blank>quarter life commitment</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+And I&rsquo;ll fight to breathe deeply everyday, again, again, again.
 </div>
 </div>
 </article>
@@ -431,33 +606,12 @@ a reflection on turning 24
 </div>
 </div>
 </article>
-<article class="postSummaryContainer serif">
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>05.03.20</span>
-// 556 words
-//
-<div class=icons>
-<i class="uil uil-bolt"></i>
-<i class="uis uis-star"></i>
-</div>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=/posts/a-twinkle/>a twinkle</a>
-</h2>
-<div class=postSummary>
-Recounting a visceral experience. On light, humans, and meaning.
-</div>
-</div>
-</article>
 <article class=postSummaryContainer>
 <div class=postSummaryHeader>
 <div class="post summary meta">
 <span>
-<span class=postDate>04.09.22</span>
-// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+<span class=postDate>01.16.22</span>
+// 2177 words
 //
 <div class=icons>
 <i class="uis uis-star"></i>
@@ -465,10 +619,10 @@ Recounting a visceral experience. On light, humans, and meaning.
 </span>
 </div>
 <h2 class=postSummaryTitle>
-<a href=https://spencerchang.substack.com/p/quarter-life-commitment target=_blank>quarter life commitment</a> <i class="uil uil-external-link-alt"></i>
+<a href=/posts/mutualism/>Mutualistic Flourishing: 2021 to 2022</a>
 </h2>
 <div class=postSummary>
-And I&rsquo;ll fight to breathe deeply everyday, again, again, again.
+🎰 2021 | 🤲 2022. My 2021 reflection and theme of mutualism for 2022.
 </div>
 </div>
 </article>
@@ -497,99 +651,9 @@ Quiet confidence is when you&rsquo;re able to naturally take your time, take up 
 Check out <a href=/posts>all my writing</a>.
 </div>
 </div>
-<div class="recentReleases hidden">
-<div class=sectionHeader>
-<h2>some recent releases</h3>
-<div class=arrows>
-<button class=link onclick=navBackward()><i class="uis uis-arrow-circle-left" alt=←></i></button><button class=link onclick=navForward()><i class="uis uis-arrow-circle-right" alt=→></i></button>
 </div>
 </div>
-<div class=postsList>
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>10.01.22</span>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=https://window.spencerchang.me target=_blank>wall of windows</a> <i class="uil uil-external-link-alt"></i>
-</h2>
-<div class=postSummary>
-a set of live-updating windows that show slices of my life in real time.
-</div>
-</div>
-</article>
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>06.21.22</span>
-// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=https://spencerchang.substack.com/p/in-search-of-awe target=_blank>in search of awe</a> <i class="uil uil-external-link-alt"></i>
-</h2>
-<div class=postSummary>
-</div>
-</div>
-</article>
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>06.02.22</span>
-// 1450 words
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=/posts/narcissism/>the foil of narcissism</a>
-</h2>
-<div class=postSummary>
-Can narcissism be a tool for self-expression?
-</div>
-</div>
-</article>
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>05.22.22</span>
-// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=https://spencerchang.substack.com/p/software-poetics target=_blank>software poetics</a> <i class="uil uil-external-link-alt"></i>
-</h2>
-<div class=postSummary>
-some software poetic project updates
-</div>
-</div>
-</article>
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>05.05.22</span>
-//
-<div class=icons>
-<i class="uis uis-star"></i>
-</div>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=https://www.spencerchang.me/pacman-poem/ target=_blank>8-bite</a> <i class="uil uil-external-link-alt"></i>
-</h2>
-<div class=postSummary>
-Pacman reimagined as an interactive poetry game. A simplified version was published in <a href=https://taper.badquar.to/8>taper 8</a>, an issue of a computational poetry journal.<br><br>Created in collaboration with Kelsey.
-</div>
-</div>
-</article>
-</div>
-</div>
-</div>
-<script>let summaryIdx=0;const listElement=document.querySelector('.summaryList'),items=listElement.children,total=items.length;if("ontouchstart"in document.documentElement){const a=new Hammer(listElement,{recognizers:[[Hammer.Swipe,{direction:Hammer.DIRECTION_HORIZONTAL}]]});a.on("swipeleft",()=>{navForward()}),a.on("swiperight",()=>{navBackward()})}const navForward=()=>{hideEleAtIdx(),summaryIdx=(summaryIdx+1)%total,renderEleAtIdx()},navBackward=()=>{hideEleAtIdx(),summaryIdx=summaryIdx===0?total-1:(summaryIdx-1)%total,renderEleAtIdx()},hideEleAtIdx=()=>{items[summaryIdx].classList.add('hidden')},renderEleAtIdx=()=>{items[summaryIdx].classList.remove('hidden')};renderEleAtIdx(summaryIdx)</script>
+<script>let summaryIdx=0;const listElement=document.querySelector('.tabContent'),items=listElement.children,tabs=document.querySelector('.tabs').children,total=items.length;if("ontouchstart"in document.documentElement){const a=new Hammer(listElement,{recognizers:[[Hammer.Swipe,{direction:Hammer.DIRECTION_HORIZONTAL}]]});a.on("swipeleft",()=>{navForward()}),a.on("swiperight",()=>{navBackward()})}const navForward=()=>{hideEleAtIdx(),summaryIdx=(summaryIdx+1)%total,renderEleAtIdx()},navBackward=()=>{hideEleAtIdx(),summaryIdx=summaryIdx===0?total-1:(summaryIdx-1)%total,renderEleAtIdx()},hideEleAtIdx=()=>{items[summaryIdx].classList.add('hidden'),tabs[summaryIdx].classList.remove('active')},renderEleAtIdx=()=>{items[summaryIdx].classList.remove('hidden'),tabs[summaryIdx].classList.add('active')},setTab=a=>{hideEleAtIdx(summaryIdx),summaryIdx=a,renderEleAtIdx(summaryIdx)};renderEleAtIdx(summaryIdx)</script>
 </div>
 </div>
 <div id=snackbar>
