@@ -12,7 +12,5 @@ draft: true
 # Website
 why did i make this website? why is it so important? why did i make this website? why is it so important? why did i make this website? why is it so important?
 
-
-
 # Inspiration
 list website inspiration

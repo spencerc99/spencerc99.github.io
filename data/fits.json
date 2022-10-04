@@ -2,6 +2,30 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-02%3AIMG_4513.jpeg",
+            "date": "2022-10-02",
+            "timestamp": 1664758014.237,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Chair",
+                "Clothing",
+                "Furniture",
+                "People",
+                "Swivel Chair"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-09-28%3AIMG_4334.jpeg",
             "date": "2022-09-28",
             "timestamp": 1664391431.816,
