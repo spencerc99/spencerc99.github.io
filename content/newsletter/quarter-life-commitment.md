@@ -6,4 +6,5 @@ image: "https://cdn.substack.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,f
 tags: ['newsletter', 'favorite']
 external_link: "https://spencerchang.substack.com/p/quarter-life-commitment"
 show_home: true
+weight: 1000
 ---

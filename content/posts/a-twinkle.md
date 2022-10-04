@@ -8,7 +8,6 @@ date: "2020-05-03"
 keywords: ['existentialist', 'fiction']
 related: ['/posts/rice-fields', '/posts/student-to-teacher']
 tags: ['favorite', 'creative', "poetry"]
-weight: 1000
 ---
 
 A shaft of moonlight pierces the curtain

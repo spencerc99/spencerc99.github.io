@@ -15,79 +15,64 @@
 {{ define "main" }}
 <!-- TODO: replace this with kaleidoscope or feral.earth stuff -->
 <div class="summaryList">
-  <div class="writing hidden">
-    <div class="sectionHeader">
-      <h2>some favorite creations</h2>
-        <div class="arrows">
-          <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
-        </div>
-    </div>
-    <div class="postsList">
-      {{ $highlights := where .Site.RegularPages "Params.featured" true }}
-      <!-- TODO: this comlement doesn't quite work. I hate HUGO -->
-      {{ range first 5 $highlights  }}
-        {{ .Render "compact_summary" }} 
-      {{ end }}
-    </div>
+  <!-- TODO: make this a tab -->
+  <div class="tabs">
+    <button onclick="setTab(0)"><h3>recent</h3></button>
+    <button onclick="setTab(1)"><h3>faves</h3></button>
+    <button onclick="setTab(2)"><h3>projects</h3></button>
+    <button onclick="setTab(3)"><h3>writing</h3></button>
   </div>
-  <div class="projects hidden">
-    <div class="sectionHeader">
-      <h2>some favorite projects</h2>
-        <div class="arrows">
-          <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
-        </div>
-    </div>
+  <div class="tabContent">
+
+    <div class="recentReleases hidden">
       <div class="postsList">
-      {{ $favorite := slice "favorite" }}
-      {{ $project := slice "projects" }}
-      {{ $favorites := where .Site.RegularPages "Params.tags" "intersect" $favorite }}
-      {{ $projects := where .Site.RegularPages "Params.tags" "intersect" $project }}
-      {{ $faveProjects := intersect $favorites $projects | complement $highlights }}
-      {{ $intersectedProjects := intersect $favorites $projects | intersect $highlights }}
-      {{ range first 5 ($faveProjects | append $intersectedProjects) }}
-        {{ .Render "compact_summary" }} 
-      {{ end }}
-      <br/>
-      Check out <a href="/projects">all my projects</a>.
+        {{ $recentCands := .Site.RegularPages.ByDate.Reverse }}
+        {{ range first 10 $recentCands  }}
+          {{ .Render "compact_summary" }} 
+        {{ end }}
+      </div>
     </div>
-  </div>
-  <div class="projects hidden">
-    <div class="sectionHeader">
-      <h2>some favorite writing</h2>
-        <div class="arrows">
-          <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
-        </div>
-    </div>
+    <div class="faves hidden">
       <div class="postsList">
-      {{ $favorite := slice "favorite" }}
-      {{ $favorites := (where .Site.RegularPages "Params.tags" "intersect" $favorite) | complement $highlights $projects }}
-      {{ $intersectedWriting := $favorites | intersect $highlights }}
-      {{ range first 5 ($favorites | append $intersectedWriting)  }}
-        {{ .Render "compact_summary" }} 
-      {{ end }}
-      <br/>
-      Check out <a href="/posts">all my writing</a>.
+        {{ $highlights := where .Site.RegularPages "Params.featured" true }}
+        <!-- TODO: this comlement doesn't quite work. I hate HUGO -->
+        {{ range first 5 $highlights  }}
+          {{ .Render "compact_summary" }} 
+        {{ end }}
+      </div>
     </div>
-  </div>
-  <div class="recentReleases hidden">
-    <div class="sectionHeader">
-      <h2>some recent releases</h3>
-        <div class="arrows">
-          <button class="link" onclick="navBackward()"><i class="uis uis-arrow-circle-left" alt="←"></i></button><button class="link" onclick="navForward()"><i class="uis uis-arrow-circle-right" alt="→"></i></button>
-        </div>
+    <div class="writing hidden">
+        <div class="postsList">
+        {{ $favorite := slice "favorite" }}        {{ $project := slice "projects" }}
+        {{ $favorites := where .Site.RegularPages "Params.tags" "intersect" $favorite }}
+        {{ $projects := where .Site.RegularPages "Params.tags" "intersect" $project }}
+        {{ $faveProjects := intersect $favorites $projects | complement $highlights }}
+        {{ $intersectedProjects := intersect $favorites $projects | intersect $highlights }}
+        {{ range first 5 ($faveProjects | append $intersectedProjects) }}
+          {{ .Render "compact_summary" }} 
+        {{ end }}
+        <br/>
+        Check out <a href="/projects">all my projects</a>.
+      </div>
     </div>
-    <div class="postsList">
-      {{ $recentCands := .Site.RegularPages.ByDate.Reverse }}
-      {{ range first 5 $recentCands  }}
-        {{ .Render "compact_summary" }} 
-      {{ end }}
+    <div class="projects hidden">
+        <div class="postsList">
+        {{ $favorite := slice "favorite" }}
+        {{ $favorites := (where .Site.RegularPages "Params.tags" "intersect" $favorite) | complement $highlights $projects }}
+        {{ $intersectedWriting := $favorites | intersect $highlights }}        {{ range first 5 ($favorites | append $intersectedWriting)  }}
+          {{ .Render "compact_summary" }} 
+        {{ end }}
+        <br/>
+        Check out <a href="/posts">all my writing</a>.
+      </div>
     </div>
   </div>
 </div>
 <script>
   let summaryIdx = 0;
-  const listElement = document.querySelector('.summaryList')
+  const listElement = document.querySelector('.tabContent')
   const items = listElement.children;
+  const tabs = document.querySelector('.tabs').children;
   const total = items.length;
 
   if ("ontouchstart" in document.documentElement) {
@@ -116,9 +101,17 @@
 
   const hideEleAtIdx = () => {
     items[summaryIdx].classList.add('hidden');
+    tabs[summaryIdx].classList.remove('active');
   }
   const renderEleAtIdx = () => {
     items[summaryIdx].classList.remove('hidden');
+    tabs[summaryIdx].classList.add('active');
+  }
+
+  const setTab = (idx) => {
+    hideEleAtIdx(summaryIdx);
+    summaryIdx = idx;
+    renderEleAtIdx(summaryIdx);
   }
 
   renderEleAtIdx(summaryIdx);

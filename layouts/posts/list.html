@@ -12,8 +12,14 @@
 <div class="summaryList" id="summaryList">
     <!-- {{ partial "legend.html" }} -->
   {{ $pages := where .Site.RegularPages "Type" "posts" }}
+  {{ $newsletter := slice "newsletter" }}
+  {{ $newsletterPages := where .Site.RegularPages "Params.tags" "intersect" $newsletter }}
+  {{ $pages = $pages | union $newsletterPages }}
+  {{ $project := slice "projects" }}
   {{ $showcasePages := where .Site.RegularPages "Params.show_home" true }}
-  {{ $allPages := sort ($pages | union $showcasePages) "Date" "desc" }}
+  {{ $projects := where .Site.RegularPages "Params.tags" "intersect" $project }}
+  {{ $allPages := sort (($pages | union $showcasePages) | complement $projects) "Date" "desc" }}
+
   <!-- <h2>a few favorites</h3> -->
   <!-- <div class="postsList"> -->
     <!-- {{ $favorites := where .Site.Taxonomies.tags.favorite "Params.internal_link" nil }} -->
