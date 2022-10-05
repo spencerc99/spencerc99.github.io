@@ -2,6 +2,45 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-09-30%3AIMG_4430.jpeg",
+            "date": "2022-09-30",
+            "timestamp": 1664593089.704,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Eyeglasses",
+                "Optical Equipment",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-04%3AIMG_4546.jpeg",
+            "date": "2022-10-04",
+            "timestamp": 1664929769.572,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-02%3AIMG_4513.jpeg",
             "date": "2022-10-02",
             "timestamp": 1664758014.237,
@@ -184,7 +223,7 @@
             "timestamp": 1664053999.249,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "Oakland, California, United States",
             "city": "Oakland",
             "country": "United States",
@@ -409,7 +448,7 @@
             "timestamp": 1663805013.324,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "",
             "city": "",
             "country": "",
@@ -1142,10 +1181,7 @@
                 "People"
             ],
             "season": "Summer",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -1217,10 +1253,7 @@
                 "People"
             ],
             "season": "Summer",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
