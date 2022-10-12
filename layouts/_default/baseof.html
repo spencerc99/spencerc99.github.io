@@ -104,8 +104,9 @@
 </head>
 
 <body>
-    {{ partial "navbar.html" }}
+    {{ partial "navbar.html" . }}
     <div id="background"></div>
+
     <!-- cursor chat -->
     <div id="cursor-chat-layer">
         <input type="text" id="cursor-chat-box">

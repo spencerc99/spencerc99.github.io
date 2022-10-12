@@ -39,6 +39,100 @@ $color-text-color-white: rgb(222, 219, 214);
 $color-text-accent-dark: rgb(152, 143, 129);
 $header-container-margin: calc(max(50px, min(10vh, 90px)));
 
+@keyframes roll-and-move-animation {
+  25% {
+    transform: translateX(100%) rotate(180deg);
+  }
+  50% {
+    transform: translateX(200%) rotate(360deg);
+  }
+  67% {
+    transform: translateX(300%) rotate(540deg);
+  }
+  85% {
+    transform: translateX(400%) rotate(720deg);
+  }
+  100% {
+    transform: translateX(0%) rotate(0deg);
+  }
+}
+
+// from https://jarv.is/notes/css-waving-hand-emoji/
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   45% { transform: rotate(-14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   85% { transform: rotate(8.0deg) }
+  //  30% { transform: rotate(-14.0deg) }
+  //  40% { transform: rotate(4.0deg) }
+  //  50% { transform: rotate(-10.0deg) }
+  //  60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+@keyframes spin-icon-animation {
+  from {
+      transform:rotate(0deg);
+      font-size: 200%;
+  }
+  to {
+      transform:rotate(360deg);
+      font-size: default;
+  }
+}
+
+@keyframes rotate-icon-animation {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+
+@keyframes jiggle-animation {
+  0% { transform: skewX(-15deg); }
+  2.5% { transform: skewX(15deg); }
+  5% { transform: skewX(-15deg); }
+  7.5% { transform: skewX(15deg); }
+  10% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+@keyframes bounce-animation {
+  0% { transform: translateY(0px); }
+  25% { transform: translateY(-5px) rotate(15deg); }
+  50% { transform: translateY(5px) rotate(30deg);}
+}
+
+@mixin wave($iteration-count: 1) {
+  animation-name: wave-animation;
+  // animation-duration: 2.5s;
+  animation-duration: .5s;
+  animation-iteration-count: $iteration-count;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@mixin spin-icon($iteration-count: 1) {
+  animation-name: spin-icon-animation;
+  animation-duration: .75s;
+  animation-iteration-count: $iteration-count;
+}
+
+@mixin rotate-icon($iteration-count: 1) {
+  animation-name: rotate-icon-animation;
+  animation-duration: .5s;
+  animation-iteration-count: $iteration-count;
+}
+
+
+@mixin roll-and-move($iteration-count: 1) {
+  animation-name: roll-and-move-animation;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: $iteration-count;
+}
+
 :root {
   color-scheme: light dark;
   color: #{$color-text-color};
@@ -576,6 +670,18 @@ button.icon {
   margin-bottom: 40px;
 }
 
+.avatarLink {
+  &:hover {
+    .avatar {
+      @include roll-and-move();
+    }
+  }
+
+  display:flex;
+  flex-grow: 1;
+  margin-right: 4px;
+}
+
 .avatar {
   border-radius: 50%;
   border: 1px black solid;
@@ -667,7 +773,7 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
 
 // internal links
 #{$internal-link-selectors} {
-  &:not(.socialMediaLink):not(.anchor):not(.avatarLink) {
+  &:not(.socialMediaLink):not(.anchor) {
     color: $color-link;
     text-decoration: none;
     transition: background-color 0.25s ease-in-out;
@@ -1422,74 +1528,6 @@ ul.noPadding {
   height: 100%;
   background: transparent;
   width: 100%;
-}
-
-// from https://jarv.is/notes/css-waving-hand-emoji/
-@keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   45% { transform: rotate(-14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   85% { transform: rotate(8.0deg) }
-  //  30% { transform: rotate(-14.0deg) }
-  //  40% { transform: rotate(4.0deg) }
-  //  50% { transform: rotate(-10.0deg) }
-  //  60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
-}
-
-@keyframes spin-icon-animation {
-  from {
-      transform:rotate(0deg);
-      font-size: 200%;
-  }
-  to {
-      transform:rotate(360deg);
-      font-size: default;
-  }
-}
-
-@keyframes rotate-icon-animation {
-  from {
-      transform:rotate(0deg);
-  }
-  to {
-      transform:rotate(360deg);
-  }
-}
-
-@keyframes jiggle-animation {
-  0% { transform: skewX(-15deg); }
-  2.5% { transform: skewX(15deg); }
-  5% { transform: skewX(-15deg); }
-  7.5% { transform: skewX(15deg); }
-  10% { transform: skewX(0deg); }
-  100% { transform: skewX(0deg); }  
-}
-
-@keyframes bounce-animation {
-  0% { transform: translateY(0px); }
-  25% { transform: translateY(-5px) rotate(15deg); }
-  50% { transform: translateY(5px) rotate(30deg);}
-}
-
-@mixin wave($iteration-count: 1) {
-  animation-name: wave-animation;
-  // animation-duration: 2.5s;
-  animation-duration: .5s;
-  animation-iteration-count: $iteration-count;
-  transform-origin: 70% 70%;
-  display: inline-block;
-}
-
-@mixin spin-icon($iteration-count: 1) {
-  animation-name: spin-icon-animation;
-  animation-duration: .75s;
-  animation-iteration-count: $iteration-count;
-}
-
-@mixin rotate-icon($iteration-count: 1) {
-  animation-name: rotate-icon-animation;
-  animation-duration: .5s;
-  animation-iteration-count: $iteration-count;
 }
 
 .wave {
