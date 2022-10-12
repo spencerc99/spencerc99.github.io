@@ -11,13 +11,19 @@ $color-sea-green-darker: #d3e2cf;
 $color-link: #fea680;
 $color-external-link: #62b3b2;
 $color-highlight: #fef4ad;
+$color-highlight-dark: #665a02;
 $color-light-peach: #fffcf7;
+$color-light-peach-translucent: rgba(255,252,247, .5);
 $color-dark-blue-grey: rgba(95, 101, 128, 1);
 $color-dark-blue-grey-background: rgba(95, 101, 128, 0.9);
 $color-light-lavender: rgb(250, 248, 254);
+$color-dark-lavender: rgb(57, 56, 60);
 $color-site-background: $color-light-peach;
-$color-background-teal: #f4fdff87;
+$color-site-background-translucent: $color-light-peach-translucent;
 $color-site-background-dark: rgb(35, 28, 10);
+$color-site-background-dark-translucent: rgba(35, 28, 10, .7);
+$color-background-teal: #f4fdff87;
+$color-background-teal-dark: #353c3d87;
 $color-text-dark: rgb(227, 223, 226);
 $color-quote-background-dark: rgb(24, 26, 27);
 $default-font-size: 18px;
@@ -29,7 +35,72 @@ $default-line-height: 1.6;
 $smaller-font-size: $default-font-size * .8;
 $navbar-zindex: 999;
 $color-text-color: #282828;
+$color-text-color-white: rgb(222, 219, 214);
+$color-text-accent-dark: rgb(152, 143, 129);
 $header-container-margin: calc(max(50px, min(10vh, 90px)));
+
+:root {
+  color-scheme: light dark;
+  color: #{$color-text-color};
+
+  --color-neutral-background: white;
+  --color-text-highlight: #{$color-highlight};
+  --color-background-lavender: #{$color-light-lavender};
+  --color-background-teal: #{$color-background-teal};
+  --color-text-accent: #{$color-blueberry};
+  --color-text-color: #{$color-text-color};
+  --telescope-text-color: #{$color-text-color};
+  --color-neutral-background-translucent: #{$color-site-background-translucent};
+
+  /* For telescopic text styling */
+  // --telescope-highlight: #{$color-sea-green};
+  // --telescope-highlight-hover: #{$color-sea-green-darker};
+
+  // #telescope .details {
+  //   background-color: $color-blueberry;
+  // }
+
+  // #telescope .details.close:hover {
+  //   background-color: $color-blueberry-lighter;
+  // }
+
+  .sans-serif &,
+  &.sans-serif {
+    font-family: "Muli";
+  }
+  
+  .serif &,
+  &.serif {
+    font-family: "Playfair Display";
+  }
+
+  .mono &,
+  &.mono {
+    font-family: "Cousine", monospace;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:root {
+    color: $color-text-color-white;
+    --telescope-text-color: #{$color-text-color-white};
+    --color-neutral-background: #{$color-quote-background-dark};
+    --color-text-highlight: #{$color-highlight-dark};
+    --color-background-lavender: #{$color-dark-lavender};
+    --color-background-teal: #{$color-background-teal-dark};
+    --color-text-accent: #{$color-text-accent-dark};
+    --color-text-color: #{$color-text-color-white};
+    --color-neutral-background-translucent: #{$color-site-background-dark-translucent};
+  }
+
+  #background#background {
+    background-color: $color-site-background-dark;
+  }
+  #navbar#navbar {
+    background-color: $color-site-background-dark;
+  }
+
+}
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 // This used to be `320px` but makes no sense that smaller than 320px reverts so changing to 0.
@@ -85,7 +156,7 @@ $screenMaxWidths: (
 }
 
 @mixin meta-content() {
-  color: slategrey;
+  color: var(--color-text-accent);
   @extend .sans-serif;
   // font-size: 80%;
   font-size: $smaller-font-size;
@@ -114,25 +185,6 @@ $screenMaxWidths: (
   }
 }
 
-* {
-  // font-family: 'Muli';
-
-  .sans-serif &,
-  &.sans-serif {
-    font-family: "Muli";
-  }
-  
-  .serif &,
-  &.serif {
-    font-family: "Playfair Display";
-  }
-
-  .mono &,
-  &.mono {
-    font-family: "Cousine", monospace;
-  }
-}
-
 body {
   font-family: "Muli";
   display: flex;
@@ -140,24 +192,34 @@ body {
   align-items: center;
   max-width: 100%;
   overflow-x: hidden;
-  color: $color-text-color;
   margin-left: 16px;
   margin-right: 16px;
-  background: $color-site-background;
   overflow-x: none;
   font-size: $paragraph-font-size;
+  background-color: transparent;
+}
+
+#background {
+  background-color: $color-site-background;
+  background-image: url(/assets/lichen-blue.svg);
+  background-size: 250px;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  opacity: .13;
 }
 
 ::selection {
-  background: $color-highlight; /* WebKit/Blink Browsers */
+  background: var(--color-text-highlight); /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-  background: $color-highlight; /* Gecko Browsers */
+  background: var(--color-text-highlight); /* Gecko Browsers */
 }
 
 mark {
-  background: $color-highlight;
+  background: var(--color-text-highlight);
 }
 
 $quote-padding: 12px;
@@ -182,7 +244,7 @@ $quote-padding: 12px;
     line-height: 0;
     top: 40px;
     left: -20px;
-    color: $color-blueberry;
+    color: var(--color-text-accent);
   }
   
   // background coloring
@@ -192,7 +254,7 @@ $quote-padding: 12px;
     left: -30px;
     width: 100vw;
     height: 105%;
-    background: $color-light-lavender;
+    background: var(--color-background-lavender);
     display: block;
     position: absolute;
     top: -2.5%;
@@ -202,34 +264,28 @@ $quote-padding: 12px;
   }
 }
 
-.calloutBlock {
-  background-color: #eaf5f0;
-  padding: 1em 2em;
-  border: 1px solid #52afbb;
-  border-radius: 8px;
+// .calloutBlock {
+//   background-color: #eaf5f0;
+//   padding: 1em 2em;
+//   border: 1px solid #52afbb;
+//   border-radius: 8px;
 
-  span {
-    position: relative;
-    line-height: 1.4;
+//   span {
+//     position: relative;
+//     line-height: 1.4;
 
-    &::before {
-      content: "❓";
-      font-family: "Muli";
-      position: absolute;
-      right: 100%;
-      font-size: 120%;
-      line-height: 0;
-      top: 10px;
-      margin-right: 6px;
-    }
-  }
-}
-
-section.footnotes {
-  ol {
-    // padding-left: 1rem;
-  }
-}
+//     &::before {
+//       content: "❓";
+//       font-family: "Muli";
+//       position: absolute;
+//       right: 100%;
+//       font-size: 120%;
+//       line-height: 0;
+//       top: 10px;
+//       margin-right: 6px;
+//     }
+//   }
+// }
 
 img {
   -webkit-user-drag: none;
@@ -318,7 +374,6 @@ h6 {
 pre,
 code {
   font-family: "Cousine", "Menlo", "Courier", monospace;
-  color: #4f4f4f;
 }
 
 .shareCta {
@@ -361,7 +416,7 @@ button.icon {
     font-size: 20px;
   }
   &:hover {
-    color: $color-link
+    color: $color-link;
   }
 }
 
@@ -404,7 +459,7 @@ button.icon {
 
 #navbar {
   border-bottom: 1px $color-lighter-grey solid;
-  background-color: white;
+  background-color: $color-site-background;
   position: fixed;
   left: 0;
   top: 0;
@@ -451,7 +506,7 @@ button.icon {
   }
 
   a:not(.socialMediaLink) {
-    color: $color-blueberry !important;
+    color: var(--color-text-accent) !important;
   }
 
   h2 {
@@ -511,66 +566,6 @@ button.icon {
   }
 }
 
-.relatedPost {
-  display: flex;
-  flex-direction: column;
-  // padding: 10px;
-  // border: 1px black solid;
-  // border-radius: 6px;
-  // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-  //   0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  transition: background-color 0.2s;
-  max-height: 155px;
-  position: relative;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  overflow: hidden;
-
-  & h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: $color-link;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
-  // source: https://github.com/IanLunn/Hover/blob/master/css/hover.css
-  &:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 100%;
-    bottom: 0;
-    background: $color-blueberry;
-    height: 4px;
-    -webkit-transition-property: right;
-    transition-property: right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-  }
-
-  &:hover {
-    // background-color: $color-highlight;
-    &:before {
-      right: 0;
-    }
-  }
-}
-
-.relatedLink.relatedLink {
-  color: inherit;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: none;
-  }
-}
-
 .mainContainer {
   margin: 0 20px;
   display: flex;
@@ -601,7 +596,6 @@ button.icon {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     content: url(/assets/spencer_real_person.png)
-    // content: url(/assets/shadow-self-portrait-cropped.jpg)
   }
 }
 
@@ -641,7 +635,7 @@ button.icon {
 }
 
 @mixin link-highlight() {
-  background-color: $color-highlight;
+  background-color: var(--color-text-highlight);
   border-radius: 4px;
 }
 
@@ -657,7 +651,7 @@ $internal-link-selectors: '
 ';
 
 // external links
-a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.galleryLink) {
+a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galleryLink) {
   color: $color-external-link;
   text-decoration: none;
   transition: background-color 0.25s ease-in-out;
@@ -673,7 +667,7 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
 
 // internal links
 #{$internal-link-selectors} {
-  &:not(.relatedLink):not(.socialMediaLink):not(.anchor):not(.avatarLink) {
+  &:not(.socialMediaLink):not(.anchor):not(.avatarLink) {
     color: $color-link;
     text-decoration: none;
     transition: background-color 0.25s ease-in-out;
@@ -787,7 +781,7 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
   }
 
   .tabs {
-    border-bottom: 5px dashed $color-blueberry;
+    border-bottom: 5px dashed var(--color-text-accent);
     padding-bottom: 8px;
 
     button {
@@ -808,14 +802,14 @@ a:not(#{$internal-link-selectors}):not(.relatedLink):not(.socialMediaLink):not(.
       }
 
       &.active {
-        background: $color-background-teal;
+        background: var(--color-background-teal);
         box-shadow: inset 0.3px 0.5px 1.6px #132d40fa;
       }
 
       h3 {
         margin-top: 0;
         margin-bottom: 4px;
-        color: $color-blueberry !important;
+        color: var(--color-text-accent) !important;
         font-weight: 600;
       }
     }
@@ -878,8 +872,7 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 details > div {
-  // border: 2px solid $color-blueberry;
-  background: $color-light-lavender;
+  background: var(--color-background-lavender);
   box-shadow: 0px 0px 5px #555 inset;
   margin-top: 0;
   padding: 1rem;
@@ -917,7 +910,7 @@ details[open] summary:before {
 }
 
 summary:hover, summary:focus {
-	background: $color-highlight;
+	background: var(--color-text-highlight);
 
   &:before {
     // TODO: figure out why fails to compile with `wave` mixin not defined. this is copy pasted for now.
@@ -935,14 +928,7 @@ details div {
   font-size: $paragraph-font-size;
 }
 
-.summaryList {
-}
-
 .writingMeta {
-  * { 
-    // font-size: 80%;
-    // font-size: $smaller-font-size !important;
-  }
   p {
     margin: 4px 0;
   }
@@ -951,7 +937,6 @@ details div {
 .postSummaryContainer {
   display: flex;
   margin-top: 24px;
-  // height: 150px;
   
   @include media(xsmallScreen) {
     @include collapsed-post-summary-container();
@@ -972,7 +957,6 @@ details div {
     background: $color-lighter-grey;
     width: 320px;
   }
-  // border-bottom: 1px solid $color-lighter-grey;
 
   .postSummary { 
     p {
@@ -1060,10 +1044,6 @@ i.uis.uis-star {
 
     // make more specific than img tag below.
     &.fullWidth.fullWidth {
-      img {
-        // @include image-dropshadow();
-      }
-
       figcaption {
         // only let the caption expand to 90% of the full viewport width
         p {
@@ -1137,7 +1117,7 @@ blockquote {
   margin: 0;
   padding-left: 1.4rem;
   position: relative;
-  background: white;
+  background: var(--color-neutral-background);
   padding-top: 1px;
   padding-bottom: 1px;
   padding-right: 0.5em;
@@ -1250,6 +1230,7 @@ section.footnotes {
   color: #52afbb;
   /* sea green */
   color: #246e86;
+  color: #309cc1;
   /* midnight blue */
   color: #0f4761;
   /* tan */
@@ -1422,7 +1403,6 @@ ul.noPadding {
 
 .gallery-item {
   /* Masonry bricks or child elements */
-  // background-color: #eee;
   display: inline-block;
   margin: 0 0 0.2rem;
   width: auto;
@@ -1570,7 +1550,7 @@ ul.noPadding {
   padding: 0px 4px;
   
   &:hover {
-    background: white;
+    background: var(--color-neutral-background);
     border: 1px solid $color-link;
   };
 
@@ -1610,8 +1590,8 @@ button {
   border-radius: 16px;
   font-family: "Muli";
   font-size: $default-font-size * .9;
-  background: $color-light-lavender;
-  border:1px solid $color-text-color;
+  background: var(--color-background-lavender);
+  border:1px solid var(--color-text-color);
   padding: 2px 8px;
 
   &.link {
@@ -1662,13 +1642,14 @@ button {
 
 .photoCard {
   border-radius: 4px;
-  border: 1px solid black;
+  border: 1px solid var(--color-text-color);
   padding: 20px;
   position: relative;
+  background: var(--color-neutral-background-translucent);
 
   &:target {
     border: 2px solid $color-link;
-    background: white;
+    background: var(--color-background-teal);
   }
 
   p {
@@ -1783,22 +1764,6 @@ button {
   from {bottom: 30px; opacity: 1;}
   to {bottom: 0; opacity: 0;}
 }
-
-/* For telescopic text styling */
-:root:root {
-  // --telescope-highlight: #{$color-sea-green};
-  // --telescope-highlight-hover: #{$color-sea-green-darker};
-  --telescope-text-color: #{$color-text-color};
-}
-
-// #telescope .details {
-//   background-color: $color-blueberry;
-// }
-
-// #telescope .details.close:hover {
-//   background-color: $color-blueberry-lighter;
-// }
-
 
 .aboutContent {
   display:grid;

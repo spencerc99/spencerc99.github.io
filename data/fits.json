@@ -2,6 +2,93 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-05%3AIMG_4558.jpeg",
+            "date": "2022-10-05",
+            "timestamp": 1665017231.242,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Pacific Renaissance Plaza, Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People",
+                "Window"
+            ],
+            "season": "Fall",
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-07%3AIMG_4597.jpeg",
+            "date": "2022-10-07",
+            "timestamp": 1665185625.484,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Furniture",
+                "People",
+                "Window"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-09%3AIMG_4665.jpeg",
+            "date": "2022-10-09",
+            "timestamp": 1665342580.409,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-06%3AIMG_4581.jpeg",
+            "date": "2022-10-06",
+            "timestamp": 1665104001.4,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Pacific Renaissance Plaza, Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Machine",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-09-30%3AIMG_4430.jpeg",
             "date": "2022-09-30",
             "timestamp": 1664593089.704,
