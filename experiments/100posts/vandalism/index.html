@@ -21,7 +21,7 @@
 <meta name=twitter:label2 value="Reading time">
 <meta name=twitter:data2 value="1 mins🕐">
 <meta name=robots content="noodp">
-<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.589687170cbcdd7e32a765f40bbeceb4a8daafdf59598d79b13ac80c8f6d4d24.css>
+<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.3af63fdaa34f8a57ed008cea6012b18ef39f92319ba6c1bfbf1963a809fc05bc.css>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel=stylesheet>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/line.css>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/solid.css>
@@ -49,10 +49,13 @@
 <div class=navbarActions>
 <a href=/posts><span>writing</span> <b>📝</b></a>
 <a href=/projects><span>projects</span> <b>⚒️</b></a>
-<a href=/fits><span>fits</span> <b>🧢</b></a>
-<a href=/photos><span>photos</span> <b>📸</b></a>
-<a href=/window><span>window</span> <b>🪟</b></a>
+<a href=/fits><b>🧢</b></a>
+<a href=/photos><b>📸</b></a>
+<a href=/window><b>🪟</b></a>
+<div class=divider></div>
+<button id=darkModeToggle onclick=toggleDarkMode() class=link><b></b></button>
 </div>
+<script>function setDarkMode(a){document.documentElement.classList.toggle("dark-mode",a),document.querySelector("#darkModeToggle").children[0].innerHTML=a?"☀️":"🌑"}function toggleDarkMode(){setDarkMode(!document.documentElement.classList.contains("dark-mode"))}const useDark=window.matchMedia("(prefers-color-scheme: dark)");useDark.addListener(a=>setDarkMode(a.matches)),setDarkMode(useDark.matches)</script>
 </div>
 <script>var navbarElem=document.getElementById("navbar"),navClasses=navbarElem.classList,navbarHeight=navbarElem.clientHeight,scrollTop,scrollState,scrollDetect;function downAction(){navClasses.remove("open"),navClasses.add("collapse")}function upAction(){navClasses.remove("collapse"),navClasses.add("open")}scrollTop=function(){return window.scrollY},scrollState=0,scrollDetect=function(b,c){var a=scrollTop();a>scrollState&&a>navbarHeight/3?b():a<scrollState&&c(),scrollState=scrollTop()},window.addEventListener("scroll",function(){scrollDetect(downAction,upAction)})</script>
 </nav>
