@@ -2,6 +2,30 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-11%3AIMG_4704.jpeg",
+            "date": "2022-10-11",
+            "timestamp": 1665507296.804,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Pacific Renaissance Plaza, Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Appliance",
+                "Electric Fan",
+                "Furniture",
+                "Machine",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-05%3AIMG_4558.jpeg",
             "date": "2022-10-05",
             "timestamp": 1665017231.242,
