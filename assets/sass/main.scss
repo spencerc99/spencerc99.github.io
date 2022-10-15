@@ -38,6 +38,10 @@ $color-text-color: #282828;
 $color-text-color-white: rgb(222, 219, 214);
 $color-text-accent-dark: rgb(152, 143, 129);
 $header-container-margin: calc(max(50px, min(10vh, 90px)));
+$color-telescopic-background-dark: rgba(196, 119, 2, .3);
+$color-telescopic-background-dark-hover: rgba(196, 119, 2, 1);
+$color-box-shadow:#132d40fa;
+$color-box-shadow-dark: #e3f3fffa;
 
 @keyframes roll-and-move-animation {
   25% {
@@ -147,10 +151,9 @@ $header-container-margin: calc(max(50px, min(10vh, 90px)));
   --telescope-text-color: #{$color-text-color};
   --color-neutral-background-translucent: #{$color-site-background-translucent};
   transition:color .2s ease-in-out;
+  --color-box-shadow: #{$color-box-shadow};
 
   /* For telescopic text styling */
-  // --telescope-highlight: #{$color-sea-green};
-  // --telescope-highlight-hover: #{$color-sea-green-darker};
 
   // #telescope .details {
   //   background-color: $color-blueberry;
@@ -186,6 +189,9 @@ $header-container-margin: calc(max(50px, min(10vh, 90px)));
     --color-text-accent: #{$color-text-accent-dark};
     --color-text-color: #{$color-text-color-white};
     --color-neutral-background-translucent: #{$color-site-background-dark-translucent};
+    --telescope-highlight: #{$color-telescopic-background-dark};
+    --telescope-highlight-hover: #{$color-telescopic-background-dark-hover};
+    --color-box-shadow: #{$color-box-shadow-dark};
 
     #background#background {
       background-color: $color-site-background-dark;
@@ -916,7 +922,7 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
 
       &.active {
         background: var(--color-background-teal);
-        box-shadow: inset 0.3px 0.5px 1.6px #132d40fa;
+        box-shadow: inset 0.3px 0.5px 1.6px var(--color-box-shadow);
       }
 
       h3 {
