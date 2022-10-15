@@ -135,6 +135,7 @@ $header-container-margin: calc(max(50px, min(10vh, 90px)));
 
 :root {
   color-scheme: light dark;
+  background: white;
   color: #{$color-text-color};
 
   --color-neutral-background: white;
@@ -145,6 +146,7 @@ $header-container-margin: calc(max(50px, min(10vh, 90px)));
   --color-text-color: #{$color-text-color};
   --telescope-text-color: #{$color-text-color};
   --color-neutral-background-translucent: #{$color-site-background-translucent};
+  transition:color .2s ease-in-out;
 
   /* For telescopic text styling */
   // --telescope-highlight: #{$color-sea-green};
@@ -172,10 +174,9 @@ $header-container-margin: calc(max(50px, min(10vh, 90px)));
   &.mono {
     font-family: "Cousine", monospace;
   }
-}
 
-@media (prefers-color-scheme: dark) {
-  :root:root {
+  &.dark-mode {
+    background: #3b3b3b;
     color: $color-text-color-white;
     --telescope-text-color: #{$color-text-color-white};
     --color-neutral-background: #{$color-quote-background-dark};
@@ -185,15 +186,14 @@ $header-container-margin: calc(max(50px, min(10vh, 90px)));
     --color-text-accent: #{$color-text-accent-dark};
     --color-text-color: #{$color-text-color-white};
     --color-neutral-background-translucent: #{$color-site-background-dark-translucent};
-  }
 
-  #background#background {
-    background-color: $color-site-background-dark;
+    #background#background {
+      background-color: $color-site-background-dark;
+    }
+    #navbar#navbar {
+      background-color: $color-site-background-dark;
+    }
   }
-  #navbar#navbar {
-    background-color: $color-site-background-dark;
-  }
-
 }
 
 // source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
@@ -468,6 +468,13 @@ h6 {
 pre,
 code {
   font-family: "Cousine", "Menlo", "Courier", monospace;
+}
+
+.divider {
+  width: 3px;
+  height: 70%;
+  background-color: var(--color-text-color);
+  margin: auto 0;
 }
 
 .shareCta {
@@ -1636,6 +1643,10 @@ button {
     border: none;
     padding: 0;
     background: none;
+
+    &:hover {
+      @include link-highlight();
+    }
   }
 
   &.active {

@@ -2,7 +2,25 @@
     <a href="/posts"><span>writing</span> <b>📝</b></a>
     <!-- <a href="/books"><span>books</span> <b>📚</b></a> -->
     <a href="/projects"><span>projects</span> <b>⚒️</b></a>
-    <a href="/fits"><span>fits</span> <b>🧢</b></a>
-    <a href="/photos"><span>photos</span> <b>📸</b></a>
-    <a href="/window"><span>window</span> <b>🪟</b></a>
+    <a href="/fits"><b>🧢</b></a>
+    <a href="/photos"><b>📸</b></a>
+    <a href="/window"><b>🪟</b></a>
+    <div class="divider"></div>
+    <button id="darkModeToggle" onclick="toggleDarkMode()" class="link"><b></b></button>
 </div>
+
+<script>
+    function setDarkMode(state) {
+        document.documentElement.classList.toggle("dark-mode", state);
+        document.querySelector("#darkModeToggle").children[0].innerHTML = state ? "☀️" : "🌑";
+    }
+
+    function toggleDarkMode() {
+        setDarkMode(!document.documentElement.classList.contains("dark-mode"));
+    }
+    
+    const useDark = window.matchMedia("(prefers-color-scheme: dark)");
+    useDark.addListener((evt) => setDarkMode(evt.matches));
+    setDarkMode(useDark.matches);
+
+</script>
