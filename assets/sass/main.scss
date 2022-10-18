@@ -189,7 +189,9 @@ $color-box-shadow-dark: #e3f3fffa;
   }
 
   &.dark-mode {
-    background: transparent;
+    // This is the default chrome background color in dark mode.
+    // Need to explicitly set it to handle swapping to dark mode when the system setting is light mode.
+    background: #121212;
     color: $color-text-color-white;
     --telescope-text-color: #{$color-text-color-white};
     --color-neutral-background: #{$color-quote-background-dark};
@@ -306,7 +308,7 @@ body {
   margin-right: 16px;
   overflow-x: none;
   font-size: $paragraph-font-size;
-  background-color: transparent;
+  // background-color: transparent;
 }
 
 #background {
