@@ -189,7 +189,7 @@ $color-box-shadow-dark: #e3f3fffa;
   }
 
   &.dark-mode {
-    background: #3b3b3b;
+    background: transparent;
     color: $color-text-color-white;
     --telescope-text-color: #{$color-text-color-white};
     --color-neutral-background: #{$color-quote-background-dark};
