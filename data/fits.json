@@ -2,6 +2,29 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-19%3AIMG_4877.jpeg",
+            "date": "2022-10-19",
+            "timestamp": 1666217366.338,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Furniture",
+                "People",
+                "Table",
+                "Window"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-15%3AIMG_4791.jpeg",
             "date": "2022-10-15",
             "timestamp": 1665891357.907,
