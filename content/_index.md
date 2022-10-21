@@ -59,8 +59,9 @@ container.appendChild(node);
 const likesDescription = `
 * I like 
 * writing,
-  * <a href="/writing">writing</a> (personal essays, software essays, and poetry),
-    * <a href="/writing">writing</a> (personal essays—like my <a href="/experiments/100posts">100 mini-essays project</a>, software essays, and poetry),
+  * <a href="/writing">writing</a> (<a href="https://spencerchang.substack.com/">personal essays</a>, software essays, and poetry),
+    * <a href="/writing">writing</a> (personal essays—like my <a href="/experim
+    * ents/100posts">100 mini-essays project</a>, software essays, and poetry),
 * reading,
   * <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a> (spec fic, short fiction, and convivial software thoughts),
 * and 

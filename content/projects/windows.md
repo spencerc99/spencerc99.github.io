@@ -5,5 +5,5 @@ image: '/projects/images/wall-of-windows.png'
 date: "2022-10-01"
 external_link: "/window"
 related: []
-tags: ['projects', 'software']
+tags: ['projects', 'software', 'favorite']
 ---

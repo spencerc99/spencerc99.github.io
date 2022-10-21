@@ -5,6 +5,6 @@ description: "A collection of transforming verses from the verses community and 
 date: "2022-04-15"
 external_link: "https://poems.verses.xyz/"
 related: []
-tags: ['projects', 'software']
+tags: ['projects', 'software', 'favorite']
 # featured: true
 ---

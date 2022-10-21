@@ -2,6 +2,136 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-15%3AIMG_4791.jpeg",
+            "date": "2022-10-15",
+            "timestamp": 1665891357.907,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-17%3AIMG_4848.jpeg",
+            "date": "2022-10-17",
+            "timestamp": 1666052535.161,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Footwear",
+                "People",
+                "Shoes",
+                "Sneaker"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-14%3AIMG_4764_edited.jpeg",
+            "date": "2022-10-14",
+            "timestamp": 1665803840.391,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Furniture",
+                "People",
+                "Table"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-15%3AIMG_4780.jpeg",
+            "date": "2022-10-15",
+            "timestamp": 1665869225.963,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Pacific Renaissance Plaza, Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-13%3AIMG_4746.jpeg",
+            "date": "2022-10-13",
+            "timestamp": 1665704306.247,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-18%3AIMG_4858.jpeg",
+            "date": "2022-10-18",
+            "timestamp": 1666114179.555,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Pacific Renaissance Plaza, Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-11%3AIMG_4704.jpeg",
             "date": "2022-10-11",
             "timestamp": 1665507296.804,

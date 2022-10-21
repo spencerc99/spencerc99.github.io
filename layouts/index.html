@@ -26,6 +26,7 @@
 
     <div class="recentReleases hidden">
       <div class="postsList">
+        <div style="margin-top: 8px;"><i class="meta">subscribe <a href="https://spencerchang.substack.com/subscribe">above</a> to get updates on my releases</i></div>
         {{ $recentCands := .Site.RegularPages.ByDate.Reverse }}
         {{ range first 10 $recentCands  }}
           {{ .Render "compact_summary" }} 

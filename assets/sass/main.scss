@@ -1145,10 +1145,11 @@ i.uis.uis-star {
   color: gold;
 }
 
-.postSummary {
+.post.meta {
+  @include meta-content();
 }
 
-.post.meta {
+.meta {
   @include meta-content();
 }
 
