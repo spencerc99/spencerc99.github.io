@@ -17,8 +17,6 @@
   });
 </script>
 
-{{ $stream := $.Site.Data.stream.stream }}
-
 <!-- src: https://blog.christopherianmurphy.com/2017/05/expand-collapse-navbar/ -->
 <nav id="navbar">
   <div class="navbarContainer">
@@ -28,11 +26,6 @@
       /></a>
     {{ partial "navbar_actions.html" . }}
   </div>
-  <!-- <marquee>
-    {{ range $index, $element := $stream }}
-      <div>{{$element.is}} <a href="{{$element.link}}">{{$element.thing}}</a></div>
-    {{ end }}
-  </marquee> -->
 
   <script>
     // Store navbar classes

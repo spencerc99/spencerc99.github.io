@@ -52,7 +52,11 @@
         ]
     },
     "taxonomies": {
-
         "tag": "tags"
+    },
+    "caches": {
+      "getjson": {
+         "maxAge": 0
+      }
     }
 }

@@ -1857,3 +1857,48 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+/**
+ * thanks to maya man and rachel he for website marquee inspiration :)
+ */
+.marquee {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  z-index: 99999999;
+  background: var(--color-neutral-background);
+  padding: 8px 0;
+
+  @extend .mono;
+}
+
+.marquee span {
+  display: inline-block;
+  will-change: transform;
+  animation: marquee 55s linear infinite;
+}
+
+.marquee span:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  // 0% {
+  //     transform: translate(-50%, 0);
+  // }
+
+  // 100% {
+  //     transform: translate(-63%, 0);
+  // }
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}

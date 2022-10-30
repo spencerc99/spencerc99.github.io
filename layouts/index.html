@@ -69,6 +69,18 @@
     </div>
   </div>
 </div>
+{{ $stream := getJSON "https://status.spencerchang.me/api/me" }}
+<div class="marquee">
+  <span>
+  {{ range $index, $element := $stream }}
+    [{{ lang.FormatNumberCustom 0 $element.birthdayEpoch "- ." }}]  {{ $element.displayHTML | safeHTML}} •  
+  {{ end }}
+  {{ range $index, $element := $stream }}
+    [{{ lang.FormatNumberCustom 0 $element.birthdayEpoch "- ." }}]  {{ $element.displayHTML | safeHTML}} •  
+  {{ end }}
+</span>
+</div>
+
 <script>
   let summaryIdx = 0;
   const listElement = document.querySelector('.tabContent')
