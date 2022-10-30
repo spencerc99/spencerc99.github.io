@@ -69,14 +69,22 @@
     </div>
   </div>
 </div>
+
+<!-- window embeds -->
+<!-- TODO: need to fix scroll hijacking and the perf -->
+<!-- <div class="window" style="left: 1%; top:23%;"><iframe src="https://spencerchang.me/window#sky"></iframe></div>
+<div class="window" style="right: 2%; top:23%;"><iframe src="https://spencerchang.me/window#selfie"></iframe></div>
+<div class="window" style="left: 2.5%; top:73%;"><iframe src="https://spencerchang.me/window#vignette"></iframe></div> -->
+
+<!-- activity stream marquee -->
 {{ $stream := getJSON "https://status.spencerchang.me/api/me" }}
 <div class="marquee">
   <span>
   {{ range $index, $element := $stream }}
-    [{{ lang.FormatNumberCustom 0 $element.birthdayEpoch "- ." }}]  {{ $element.displayHTML | safeHTML}} •  
+    [{{ lang.FormatNumberCustom 0 $element.birthdayEpoch "- ." }}] {{ $element.displayHTML | safeHTML}} •  
   {{ end }}
   {{ range $index, $element := $stream }}
-    [{{ lang.FormatNumberCustom 0 $element.birthdayEpoch "- ." }}]  {{ $element.displayHTML | safeHTML}} •  
+    [{{ lang.FormatNumberCustom 0 $element.birthdayEpoch "- ." }}] {{ $element.displayHTML | safeHTML}} •  
   {{ end }}
 </span>
 </div>

@@ -1899,6 +1899,26 @@ button {
     transform: translate(0, 0);
   }
   100% {
-    transform: translate(-50%, 0);
+    transform: translate(-30%, 0);
+  }
+}
+
+.window {
+  position: absolute;
+  // max-width: 400px;
+  width: 400px;
+  height: 400px;
+  pointer-events: none;
+  @include image-dropshadow();
+
+
+  @media only screen and (max-width: 1600px) {
+    display: none;
+  }
+
+  iframe {
+    height: 100%;
+    width: 100%;
+    border: 2px solid var(--color-text-color);
   }
 }
