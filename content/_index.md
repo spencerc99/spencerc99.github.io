@@ -4,7 +4,7 @@ description: "Spencer is a creative technologist and stubborn optimist in San Fr
 image: "/assets/companion-in-a-box-final.png"
 ---
 
-<i>creative technologist, poet engineer, stubborn optimist</i>
+<i>creative technologist, poet developer, playful researcher</i>
 
 <p>
     <details>
