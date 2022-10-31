@@ -79,7 +79,7 @@
 <!-- activity stream marquee -->
 {{ $stream := getJSON "https://status.spencerchang.me/api/me" }}
 <div class="marquee">
-  <span>
+  <span class="marqueeContent">
   {{ range $index, $element := $stream }}
     [<span class="date"><span class="timestamp">{{ time.Format "01.02|15:09" $element.date }}</span><span class="epoch">{{ lang.FormatNumberCustom 0 $element.birthdayEpoch "- ." }}</span></span>] {{ $element.displayHTML | safeHTML}} •  
   {{ end }}

@@ -1881,7 +1881,7 @@ button {
   }
 }
 
-.marquee > span {
+.marquee > .marqueeContent {
   display: inline-block;
   will-change: transform;
   animation: marquee 55s linear infinite;
@@ -1900,10 +1900,12 @@ button {
     .timestamp {
       display:none;
     }
+
+    cursor: zoom-in;
   }
 }
 
-.marquee span:hover {
+.marquee .marqueeContent:hover {
   animation-play-state: paused;
 }
 
