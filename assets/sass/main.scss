@@ -1877,7 +1877,7 @@ button {
   @extend .mono;
 
   @include media(xsmallScreen, smallScreen) {
-    font-size: $smaller-font-size;
+    font-size: $smaller-font-size !important;
   }
 }
 
