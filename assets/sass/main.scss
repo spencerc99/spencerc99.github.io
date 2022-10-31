@@ -1875,12 +1875,32 @@ button {
   padding: 8px 0;
 
   @extend .mono;
+
+  @include media(xsmallScreen, smallScreen) {
+    font-size: $smaller-font-size;
+  }
 }
 
-.marquee span {
+.marquee > span {
   display: inline-block;
   will-change: transform;
   animation: marquee 55s linear infinite;
+
+  .date {
+    &:hover {
+      .timestamp {
+        display: none;
+      }
+
+      .epoch {
+        display: inherit;
+      }
+    }
+
+    .epoch {
+      display:none;
+    }
+  }
 }
 
 .marquee span:hover {

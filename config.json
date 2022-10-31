@@ -58,5 +58,6 @@
       "getjson": {
          "maxAge": 0
       }
-    }
+    },
+    "timeZone": "America/Los_Angeles"
 }
