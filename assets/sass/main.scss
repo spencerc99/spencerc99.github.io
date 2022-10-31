@@ -1888,16 +1888,16 @@ button {
 
   .date {
     &:hover {
-      .timestamp {
+      .epoch {
         display: none;
       }
 
-      .epoch {
+      .timestamp {
         display: inherit;
       }
     }
 
-    .epoch {
+    .timestamp {
       display:none;
     }
   }
