@@ -1,10 +1,9 @@
 ---
-title: "Spencer Chang | creative technologist, story crafter, optimist"
-description: "Spencer is a creative technologist and stubborn optimist in San Francisco. He creates playful and intimate software and crafts stories through words and lenses."
-image: "/assets/companion-in-a-box-final.png"
+title: "Spencer Chang | creative technologist, developer of poetics, dream researcher"
+description: "Spencer is a creative technologist, developer of poetics, and dream researcher in San Francisco. He creates playful and intimate software and words to imagine alternative futures of computing."
 ---
 
-<i>creative technologist, poet developer, playful researcher</i>
+<i>creative technologist, developer of poetics, dream researcher</i>
 
 <p>
     <details>
