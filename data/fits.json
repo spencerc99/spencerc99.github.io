@@ -2,6 +2,97 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-31%3AIMG_5186.jpeg",
+            "date": "2022-10-31",
+            "timestamp": 1667264166.474,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Footwear",
+                "Jeans",
+                "People",
+                "Recreation",
+                "Shoes",
+                "Sneaker"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-29%3AIMG_5156.jpeg",
+            "date": "2022-10-29",
+            "timestamp": 1667084851.527,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-28%3AIMG_5125.jpeg",
+            "date": "2022-10-28",
+            "timestamp": 1666972049.179,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Cabinet",
+                "Clothing",
+                "Furniture",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-30%3AIMG_5165.jpeg",
+            "date": "2022-10-30",
+            "timestamp": 1667171167.162,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Furniture",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-10-21%3AIMG_4936.jpeg",
             "date": "2022-10-21",
             "timestamp": 1666406816.594,
