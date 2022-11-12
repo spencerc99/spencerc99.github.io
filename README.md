@@ -24,18 +24,7 @@ I have a [Fits Stream](https://spencerchang.me/fits) that auto-uploads my outfit
 I also use this simple [Siri Shortcut]( https://www.icloud.com/shortcuts/004c7a9f6c73469783dd44613c453486) that I get reminded of at noon everyday to select a recent photo to add to my "fits" album that `osxphotos` extracts from.
 
 # Design 
-I'm inspired by several websites and people for this site. A non-exhaustive list below:
-* [jamie wong](http://jamie-wong.com/)
-* [jon borchevsky](https://jon.bo/)
-* [chia](https://ifyouknewmewouldyoulove.me/about)
-* [jacky zhao](https://jzhao.xyz/)
-* [nikhil thota](https://www.nikhilthota.com/)
-* [https://andymatuschak.org/](https://andymatuschak.org/)
-* https://lynnandtonic.com/
-* https://julian.digital/
-* [https://www.gwern.net/](https://www.gwern.net/)
-* https://katharinejiang.com/ 
-* http://nateparrott.com/ 
+I'm inspired by several websites and people for this site. A non-exhaustive list in my [are.na channel](https://www.are.na/spencer-chang/textured-websites)
 
 # Analytics
 This site is set up with Google Analytics using the Hugo GA shortcode. I also augmented this with (this repo)[https://github.com/googleanalytics/autotrack] which adds additional GA tracking.
