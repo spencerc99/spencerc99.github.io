@@ -764,7 +764,7 @@ button.icon {
     margin-top: 0;
   }
 
-  div {
+  & > div {
     margin-top: .5rem;
     margin-bottom: .5rem;
   }
@@ -1699,24 +1699,24 @@ button {
 #fitsContainer {
   // grid display
   display: grid;
-  grid-template-columns: auto auto;
-  gap: 20px 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
   justify-content: center;
   // compensation for minus viewport-width
   width: $large-content-width;
   margin-left: -(($large-content-width - $viewport-width) / 2);
-  
+
   @include media(xsmallScreen, smallScreen, mediumScreen) {
-    width: inherit;
+    grid-template-columns: 1fr 1fr;
     margin-left: 0;
-    grid-template-columns: auto;
+    width: inherit;
   }
 }
 
 .photoCard {
   border-radius: 4px;
   border: 1px solid var(--color-text-color);
-  padding: 20px;
+  padding: 12px;
   position: relative;
   background: var(--color-neutral-background-translucent);
 
