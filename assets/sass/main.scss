@@ -1747,9 +1747,10 @@ button {
 
   .photoCardFave {
     position: absolute;
-    transform: rotate(-30deg);
-    top: 2px;
-    left: 0px;
+    transform: rotate(-38deg);
+    top: -8px;
+    left: -8px;
+    text-shadow: 0 0px 30px var(--color-box-shadow);
 
     &::before {
       cursor: pointer;
