@@ -6,4 +6,5 @@ date: "2022-06-15"
 external_link: "https://tiny-inter.net/"
 related: []
 tags: ['projects', 'software', 'favorite']
+featured: true
 ---
