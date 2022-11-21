@@ -1099,6 +1099,11 @@ details div {
       margin:0;
     }
   }
+
+  .postTags {
+    margin-top: 8px;
+    @include meta-content();
+  }
 }
 
 .postSummaryImageContainer {

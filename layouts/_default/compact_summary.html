@@ -62,6 +62,12 @@
           {{.Params.external_link_syndication | markdownify}}
           {{end}}
     </div>
+    <div class="postTags">
+      {{ range $index, $tag := .Params.tags }}
+        <span>
+          #{{$tag}}
+        </span>
+      {{ end }}
+    </div>
   </div>
-  <!-- TODO: add tags or something here -->
 </article>
