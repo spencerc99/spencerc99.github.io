@@ -26,7 +26,9 @@
     <button onclick="setTab(3)"><h3>writing</h3></button>
   </div>
   <div class="tabContent">
-
+    {{ $project := slice "projects" }}
+    {{ $projects := where .Site.RegularPages "Params.tags" "intersect" $project }}
+    {{ $writing := .Site.RegularPages | complement $projects }}
     <div class="recentReleases hidden">
       <div class="postsList">
         <div style="margin-top: 8px;"><i class="meta">subscribe <a href="https://spencerchang.substack.com/subscribe">above</a> to get updates on my releases</i></div>
@@ -34,6 +36,8 @@
         {{ range first 10 $recentCands  }}
           {{ .Render "compact_summary" }} 
         {{ end }}
+        <!-- TODO: add "check out my feed link to feed of everything" -->
+        Check out <a href="/projects">all {{ len $projects}} creations</a> or <a href="/posts">all {{ len $writing}} posts</a>.
       </div>
     </div>
     <div class="faves hidden">
@@ -43,31 +47,33 @@
         {{ range first 5 $highlights  }}
           {{ .Render "compact_summary" }} 
         {{ end }}
+        <!-- TODO: add "check out my feed link to feed of everything" -->
+        Check out <a href="/projects">all {{ len $projects}} creations</a> or <a href="/posts">all {{ len $writing}} posts</a>.
       </div>
     </div>
-    <div class="writing hidden">
+    <div class="projects hidden">
         <div class="postsList">
-        {{ $favorite := slice "favorite" }}        {{ $project := slice "projects" }}
+        {{ $favorite := slice "favorite" }}
         {{ $favorites := where .Site.RegularPages "Params.tags" "intersect" $favorite }}
-        {{ $projects := where .Site.RegularPages "Params.tags" "intersect" $project }}
         {{ $faveProjects := intersect $favorites $projects | complement $highlights }}
         {{ $intersectedProjects := intersect $favorites $projects | intersect $highlights }}
         {{ range first 5 ($faveProjects | append $intersectedProjects) }}
           {{ .Render "compact_summary" }} 
         {{ end }}
         <br/>
-        Check out <a href="/projects">all my creations</a>.
+        Check out <a href="/projects">all {{ len $projects}} creations</a>.
       </div>
     </div>
-    <div class="projects hidden">
+    <div class="writing hidden">
         <div class="postsList">
         {{ $favorite := slice "favorite" }}
         {{ $favorites := (where .Site.RegularPages "Params.tags" "intersect" $favorite) | complement $highlights $projects }}
-        {{ $intersectedWriting := $favorites | intersect $highlights }}        {{ range first 5 ($favorites | append $intersectedWriting)  }}
+        {{ $intersectedWriting := $favorites | intersect $highlights }}        
+        {{ range first 5 ($favorites | append $intersectedWriting)  }}
           {{ .Render "compact_summary" }} 
         {{ end }}
         <br/>
-        Check out <a href="/posts">all my writing</a>.
+        Check out <a href="/posts">all {{ len $writing}} posts</a>.
       </div>
     </div>
   </div>
