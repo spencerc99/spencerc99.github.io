@@ -2,6 +2,53 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-11-21%3AIMG_5772.jpeg",
+            "date": "2022-11-21",
+            "timestamp": 1669081431.684,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Cabinet",
+                "Clothing",
+                "Furniture",
+                "Jacket",
+                "People",
+                "Scarf"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-11-22%3AIMG_5791.jpeg",
+            "date": "2022-11-22",
+            "timestamp": 1669153782.705,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-11-19%3AIMG_5682.jpeg",
             "date": "2022-11-19",
             "timestamp": 1668878718.284,

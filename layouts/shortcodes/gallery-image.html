@@ -13,7 +13,7 @@ print {{ .Name }}
 {{ $thumbnail := cond ( eq $shouldMakeSquare "true") (.Fill (printf "%sx%s" $resizeSize $resizeSize)) (.Resize $resizeOneDimensionInput) }}
 <figure itemscope itemtype="http://schema.org/ImageObject" class="image gallery-item">
 <a class="galleryLink" href="{{ .Permalink }}" itemprop="contentUrl" data-size="{{ .Width }}x{{ .Height }}" >
-    <img src="{{ $thumbnail.Permalink }}" itemprop="thumbnail" alt="galleryImage" class="galleryImage" loading="lazy" />
+    <img src="{{ $thumbnail.Permalink }}" itemprop="thumbnail" alt="loading image..." class="galleryImage" loading="lazy" />
 </a>
 <figcaption class="galleryImageCaption" itemprop="caption description">
     {{ if in "jpeg tiff" .MediaType.SubType }}
