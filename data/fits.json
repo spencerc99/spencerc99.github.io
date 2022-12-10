@@ -2,6 +2,26 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-12-08%3AIMG_6203.jpeg",
+            "date": "2022-12-08",
+            "timestamp": 1670541610.009,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Adult",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-12-02%3AIMG_6003.jpeg",
             "date": "2022-12-02",
             "timestamp": 1670032508.691,
