@@ -20,11 +20,6 @@
             "url": "https://twitter.com/spencerc99/"
           },
           {
-            "name": "Email",
-            "class": "uil-at",
-            "url": "mailto:spencerc99@gmail.com"
-          },
-          {
             "name": "Newsletter",
             "imgSrc": "/assets/newsletter.svg",
             "class": "uil-mailbox",
@@ -40,14 +35,7 @@
             "name": "Instagram",
             "imgSrc": "/assets/instagram.svg",
             "class": "uil-instagram",
-            "url": "https://www.instagram.com/spencerchang.photography/"
-          },
-
-          {
-            "name": "Live Monitor",
-            "imgSrc": "/assets/monitor.svg",
-            "class": "uil-monitor-heart-rate",
-            "url": "https://coda.io/@spencer/decoding-your-mind/live-spencer-monitor-22"
+            "url": "https://www.instagram.com/canttakethesuspence/"
           }
         ]
     },

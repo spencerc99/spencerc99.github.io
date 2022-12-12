@@ -41,6 +41,9 @@ const workDescription =`
 * conjuring 
 * soulful speculations of new futures at <a href="https://verses.xyz" id="verses">verses</a>, 
   * soulful speculations of new futures at <a href="https://verses.xyz" id="verses">verses</a> (I recently co-stewarded the creation of <b  id="pluriverse"><a href="https://pluriverse.world">pluriverse.world</a></b>),
+* exploring what a new internet of <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a> looks like
+  * exploring what a new internet of <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>, one where <a href="https://open.substack.com/pub/spencerchang/p/ti-01-our-internet">we can make homes</a>, looks like
+    * exploring what a new internet of <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>, one where <a href="https://open.substack.com/pub/spencerchang/p/ti-01-our-internet">we can make homes</a> and relate to others in ways that cultivate a communal space, looks like
 * and exploring poetry, through writing, art, and
 * software.
   * open
