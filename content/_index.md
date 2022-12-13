@@ -98,5 +98,5 @@ likesContainer.appendChild(likesNode);
 </p>
 
 <!-- TODO: make an art page -->
-Open to collaborations and chatting around <a href="https://coda.io/@spencer/tiny-internets/public-presentations-39">digital media art</a>, <a href="http://localhost:1313/experiments/100posts/future-of-tools/">speculative infrastructure</a>, and alternative <a href="https://tiny-inter.net/">internets</a>. 
+Open to collaborations and chatting around <a href="https://coda.io/@spencer/tiny-internets/public-presentations-39">digital media art</a>, <a href="/experiments/100posts/future-of-tools/">speculative infrastructure</a>, and alternative <a href="https://tiny-inter.net/">internets</a>. 
 📧 spencerc99@gmail.com | <a href="https://twitter.com/spencerc99">@spencerc99</a>
