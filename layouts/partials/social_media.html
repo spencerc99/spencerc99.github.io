@@ -2,7 +2,12 @@
     {{ range .Site.Params.social }}
     <a class="socialMediaLink" href="{{ .url }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}" {{ end }}
         {{ if .target }}target="{{ .target }}" {{ end }} {{ if .type }}type="{{ .type }}" {{ end }}>
+        {{ if .class}}
         <i class='uil {{ .class }}'></i>
+        {{ else }}
+        {{ .svg | safeHTML }}
+        <!-- <img src='{{ .imgSrc }}'></i> -->
+        {{ end }}
     </a>
     {{ end }}
 </div>
