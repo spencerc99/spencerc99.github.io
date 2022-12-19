@@ -878,7 +878,6 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
 
 .socialMediaContainer {
   display: flex;
-  margin: 10px 0;
 
   img {
     width: 32px;
@@ -1481,6 +1480,7 @@ ul.noPadding {
   height: 75px;
   padding-top: 15px;
   display: flex;
+  margin-top: 18px;
 }
 
 .galleryContainer {
@@ -1993,7 +1993,12 @@ button {
   .stamp {
     margin-top: 5.3px;
     margin-left: 6px;
-}
+  }
+
+  margin-bottom: 0;
+  * {
+    margin-bottom: 0;
+  }
 
   .signatureContent {
     display:grid;
@@ -2004,6 +2009,11 @@ button {
     .serif {
       text-align: right;
     }
+  }
+  float:right;
+
+  @include media(smallScreen) {
+    float:none;
   }
 }
 
