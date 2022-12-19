@@ -20,7 +20,7 @@
 <meta name=twitter:label1 value=Currently>
 <meta name=twitter:data1 value="Engineering in San Francisco 🌉⛰">
 <meta name=robots content="noodp">
-<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.3495721b3a1f162c4c52aa675439403f5450afd7f1772b2fa53108217afbf145.css>
+<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.5d511ce299c5b4cb2cf52cd8a9995440b32a4dd9218296ef3a6f7d21dc0238b3.css>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel=stylesheet>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/line.css>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/solid.css>
@@ -72,7 +72,7 @@ hi! i'm spencer
 <script>const defaultEmojis=['🌱','👺','🌑','🥑','🐙','🌌'],inputEmojis=null,shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
 </h1>
 <div class=description>
-<i>creative technologist, developer of poetics, dream researcher</i>
+<p><i>creative technologist, developer of poetics, dream researcher</i><br>last in <a href=/window>Houston, TX, US 🌔</a></p>
 <p>
 <details>
 <summary>Dreaming, wandering, laughing, and thinking about...</summary>
@@ -97,8 +97,8 @@ hi! i'm spencer
 </div>
 </details>
 </p>
-<p id=expandingLikes></p>
 <p id=expandingWork></p>
+<p id=expandingLikes></p>
 <script>const workDescription=`
 * I spend my days building
 * tools for tinkers at <a id="coda" href="https://coda.io">Coda</a>,
@@ -117,27 +117,10 @@ hi! i'm spencer
       * open, playful, and empowering
   * software (like this <a href="https://github.com/jackyzha0/telescopic-text">expanding text</a> and <a href="">shapeshifting poem</a>).
     * software (like this <a href="">expanding text</a> and <a href="/posts/boundless-shapeshifters">shapeshifting poem</a> or my <a href="/fits">fits stream</a>).
-`;let node=createTelescopicTextFromBulletedList(workDescription,{textMode:TextMode.Html});const container=document.getElementById("expandingWork");container.appendChild(node);const likesDescription=`
-* I like 
-* writing,
-  * <a href="/writing">writing</a> (<a href="https://spencerchang.substack.com/">personal essays</a>, software essays, and poetry),
-    * <a href="/writing">writing</a> (personal essays—like my <a href="/experim
-    * ents/100posts">100 mini-essays project</a>, software essays, and poetry),
-* reading,
-  * <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a> (spec fic, short fiction, and convivial software thoughts),
-* and 
-* eating. 
-  * eating (and sharing to try more things!).
-* I also enjoy experimenting with <a href="/fits">fashion</a>, 
-* dancing,
-  * dancing (both in my room, around the kitchen and I <a href="https://coda.io/@spencer/spencer-wrapped-2021/activity-13#_luL9E">guess live</a>),
-* <a href="/photos">capturing moments</a>, and being 
-* in nature.
-  * in nature (or just generally exploring this beautiful world).
-`,likesNode=createTelescopicTextFromBulletedList(likesDescription,{textMode:TextMode.Html}),likesContainer=document.getElementById("expandingLikes");likesContainer.appendChild(likesNode)</script>
+`;let node=createTelescopicTextFromBulletedList(workDescription,{textMode:TextMode.Html});const container=document.getElementById("expandingWork");container.appendChild(node);let likes=[['writing'],['reading'],['eating'],['dressing up'],['dancing'],['paying attention'],['wondering'],['wandering'],['daydreaming'],['capturing moments'],['being in nature'],['loving people'],['sipping water'],['loving life'],['cracking my joints'],['watermelon on a hot day'],['recognizing constellations'],['the city skyline at night'],['uncontrollable crying'],['creating magic'],['experimenting'],['speculative infrastructure'],['computational poetry'],['creative technology'],['agencyful computation'],['alternative futures'],['playful tools'],['evocative writing'],['imaginative fiction'],['wonder'],['tools for wonder'],['everyday beauty'],['accessible magic'],['cybernetic ecology'],['pluriversality']];const enjoyPrompt=`<a href="https://coda.io/form/spencers-enjoy-list_dGFsXoodVB1">what do you think I'll like?</a>`;likes=likes.sort(()=>Math.random()-.5),likes.splice(4,0,[enjoyPrompt]);let likeExpandedIdx=0;function createLikeNode(b){const a=document.createElement("span");return a.innerHTML=`${b}`,likeExpandedIdx<likes.length-1&&(a.innerHTML+=', '),a}const likesNode=document.createElement("div");likesNode.id='telescope';const onMoreNode=document.createElement("span");onMoreNode.innerHTML='...',onMoreNode.addEventListener('click',onClickMore);const likesContainer=document.getElementById("expandingLikes");likesContainer.appendChild(likesNode),likesNode.appendChild(document.createTextNode('A non-exhaustive list of the things I enjoy:')),likesNode.appendChild(document.createElement("br")),likesNode.appendChild(onMoreNode),onMoreNode.classList.add("details"),onMoreNode.classList.add("close");function onClickMore(){const a=createLikeNode(likes[likeExpandedIdx]);if(likesNode.insertBefore(a,onMoreNode),likeExpandedIdx++,likeExpandedIdx===likes.length){onMoreNode.remove();return}}onClickMore()</script>
 <p>
 <details>
-<summary>I'm proud of...</summary>
+<summary>some things I'm proud of...</summary>
 <div>
 <ul class=noPadding>
 <li><a href=https://coda.io/packs>Packs Ecosystem</a>: A platform and ecosystem for extending the functionality of Coda by
@@ -154,10 +137,13 @@ connecting to external services and taking action on data. Makes Coda better ach
 </p>
 <p>Open to collaborations and chatting around <a href=https://coda.io/@spencer/tiny-internets/public-presentations-39>digital media art</a>, <a href=/experiments/100posts/future-of-tools/>speculative infrastructure</a>, and alternative <a href=https://tiny-inter.net/>internets</a>.<br>
 📧 <a href=mailto:spencerc99@gmail.com>spencerc99@gmail.com</a> | <a href=https://twitter.com/spencerc99>@spencerc99</a></p>
+</p>
 </div>
 <div class=socialMediaContainer>
 <a class=socialMediaLink href=https://twitter.com/spencerc99/ aria-label=Twitter>
 <i class="uil uil-twitter"></i>
+</a>
+<a class=socialMediaLink href=https://www.are.na/spencer-chang/ aria-label=Arena><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150.38 88.986"><path d="M148.93 62.356l-20.847-16.384c-1.276-1-1.276-2.642.0-3.645l20.848-16.38c1.28-1.002 1.815-2.695 1.19-3.76-.626-1.062-2.374-1.44-3.88-.84l-24.79 9.874c-1.507.606-2.927-.22-3.153-1.83L114.57 2.926C114.34 1.317 113.13.0 111.877.0c-1.247.0-2.456 1.317-2.68 2.925l-3.73 26.467c-.228 1.61-1.646 2.434-3.155 1.83l-24.38-9.71c-1.512-.602-3.975-.602-5.483.0l-24.384 9.71c-1.508.604-2.928-.22-3.154-1.83L41.186 2.925C40.956 1.317 39.748.0 38.5.0c-1.252.0-2.463 1.317-2.688 2.925l-3.73 26.467c-.226 1.61-1.645 2.434-3.153 1.83L4.14 21.35c-1.507-.603-3.252-.223-3.878.838-.625 1.066-.092 2.76 1.184 3.76l20.85 16.38c1.277 1.003 1.277 2.645.0 3.646L1.446 62.356C.166 63.358-.364 65.152.26 66.34c.627 1.19 2.372 1.668 3.877 1.064l24.567-9.866c1.51-.603 2.914.218 3.125 1.828l3.544 26.696c.214 1.607 1.618 2.923 3.12 2.923 1.5.0 2.905-1.315 3.12-2.923l3.55-26.696c.21-1.61 1.62-2.43 3.122-1.828l24.164 9.698c1.506.606 3.97.606 5.477.0l24.16-9.698c1.504-.603 2.91.218 3.125 1.828l3.55 26.696c.212 1.607 1.617 2.923 3.115 2.923 1.502.0 2.907-1.315 3.12-2.923l3.55-26.696c.216-1.61 1.62-2.43 3.124-1.828l24.57 9.866c1.5.604 3.25.125 3.876-1.063.627-1.186.094-2.98-1.185-3.982zM95.89 46.18 77.53 60.315c-1.285.99-3.393.99-4.674.0L54.49 46.18c-1.284-.99-1.294-2.62-.02-3.625l18.4-14.493c1.274-1.005 3.363-1.005 4.638.0l18.4 14.493c1.277 1.004 1.267 2.634-.02 3.626z"/></svg>
 </a>
 <a class=socialMediaLink href=https://spencerchang.substack.com/ aria-label=Newsletter>
 <i class="uil uil-mailbox"></i>
@@ -183,6 +169,30 @@ connecting to external services and taking action on data. Makes Coda better ach
 <div class="recentReleases hidden">
 <div class=postsList>
 <div style=margin-top:8px><i class=meta>subscribe <a href=https://spencerchang.substack.com/subscribe>above</a> to get updates on my releases</i></div>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>12.11.22</span>
+// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://spencerchang.substack.com/p/ti-01-our-internet target=_blank>[TI-01] our internet</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+tiny internets dispatch 01 - &ldquo;I want a new internet, one that feels like ours.&rdquo;
+</div>
+<div class=postTags>
+<span>
+#newsletter
+</span>
+<span>
+#software
+</span>
+</div>
+</div>
+</article>
 <article class=postSummaryContainer>
 <div class=postSummaryHeader>
 <div class="post summary meta">
@@ -221,6 +231,9 @@ the mundane treasures that bear witness to our lives
 <div class=postTags>
 <span>
 #newsletter
+</span>
+<span>
+#creative
 </span>
 </div>
 </div>
@@ -382,28 +395,7 @@ If you grabbed me by the nape and started rolling me up, the way one folds a col
 </div>
 </div>
 </article>
-<article class=postSummaryContainer>
-<div class=postSummaryHeader>
-<div class="post summary meta">
-<span>
-<span class=postDate>10.10.22</span>
-// from my <a href=https://spencerchang.substack.com>newsletter <i class="uil uil-mailbox"></i></a></i>
-</span>
-</div>
-<h2 class=postSummaryTitle>
-<a href=https://spencerchang.substack.com/p/reminders-when-worrying-about-whats target=_blank>reminders when worrying about whats next</a> <i class="uil uil-external-link-alt"></i>
-</h2>
-<div class=postSummary>
-I hate the mindset I’m stuck in right now: always thinking about the next thing, worrying about what’s to come, comparing plans and evaluating paths like an open-world build-your-own-adventure game where you can only compare plans, never&mldr;
-</div>
-<div class=postTags>
-<span>
-#newsletter
-</span>
-</div>
-</div>
-</article>
-Check out <a href=/projects>all 19 creations</a> or <a href=/posts>all 154 posts</a>.
+Check out <a href=/projects>all 19 creations</a> or <a href=/posts>all 155 posts</a>.
 </div>
 </div>
 <div class="faves hidden">
@@ -563,7 +555,7 @@ An interactive, participatory essay proposing the “pluriverse” as a new bann
 </div>
 </div>
 </article>
-Check out <a href=/projects>all 19 creations</a> or <a href=/posts>all 154 posts</a>.
+Check out <a href=/projects>all 19 creations</a> or <a href=/posts>all 155 posts</a>.
 </div>
 </div>
 <div class="projects hidden">
@@ -884,7 +876,7 @@ Quiet confidence is when you&rsquo;re able to naturally take your time, take up 
 </div>
 </article>
 <br>
-Check out <a href=/posts>all 154 posts</a>.
+Check out <a href=/posts>all 155 posts</a>.
 </div>
 </div>
 </div>
@@ -892,17 +884,17 @@ Check out <a href=/posts>all 154 posts</a>.
 <div class=marquee>
 <span class=marqueeContent>
 [<span class=date><span class=timestamp>12.11|17:09</span><span class=epoch>810165886</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/ti-01-our-internet>[TI-01] our internet</a> •
-[<span class=date><span class=timestamp>12.12|07:09</span><span class=epoch>810216687</span></span>] 🎧 <a href=https://open.spotify.com/track/0edtKj1oW6rJ9f4wRtLPPH>Traingazing</a> •
+[<span class=date><span class=timestamp>12.19|00:09</span><span class=epoch>810794531</span></span>] 🎧 <a href=https://open.spotify.com/track/3Zx6xw9NbPnHXvjhjkc9Sn>These Are Soulful Days</a> •
 [<span class=date><span class=timestamp>10.30|07:09</span><span class=epoch>806502420</span></span>] 📿 “I start every day with two empty hands” •
-[<span class=date><span class=timestamp>12.10|00:09</span><span class=epoch>810018402</span></span>] 🔨 <a href=https://github.com/spencerc99/spencerc99.github.io>spencerc99.github.io</a> •
+[<span class=date><span class=timestamp>11.08|22:09</span><span class=epoch>807332179</span></span>] 🔨 <a href=https://github.com/spencerc99/window>window</a> •
 [<span class=date><span class=timestamp>10.13|05:09</span><span class=epoch>805029828</span></span>] 📖 <a href=https://goodreads.com/book/show/49449926-the-carrier-bag-theory-of-fiction>The Carrier Bag Theory of Fiction</a> •
-[<span class=date><span class=timestamp>12.10|00:09</span><span class=epoch>810019219</span></span>] 🏃‍♂️ <a href=https://www.strava.com/activities/8229705610>lakeside nights: 3.3km</a> •
+[<span class=date><span class=timestamp>12.17|16:09</span><span class=epoch>810681421</span></span>] 🏃‍♂️ <a href=https://www.strava.com/activities/8259872462>taichi, sax, and garden detour: 4.1km</a> •
 [<span class=date><span class=timestamp>12.11|17:09</span><span class=epoch>810165886</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/ti-01-our-internet>[TI-01] our internet</a> •
-[<span class=date><span class=timestamp>12.12|07:09</span><span class=epoch>810216687</span></span>] 🎧 <a href=https://open.spotify.com/track/0edtKj1oW6rJ9f4wRtLPPH>Traingazing</a> •
+[<span class=date><span class=timestamp>12.19|00:09</span><span class=epoch>810794531</span></span>] 🎧 <a href=https://open.spotify.com/track/3Zx6xw9NbPnHXvjhjkc9Sn>These Are Soulful Days</a> •
 [<span class=date><span class=timestamp>10.30|07:09</span><span class=epoch>806502420</span></span>] 📿 “I start every day with two empty hands” •
-[<span class=date><span class=timestamp>12.10|00:09</span><span class=epoch>810018402</span></span>] 🔨 <a href=https://github.com/spencerc99/spencerc99.github.io>spencerc99.github.io</a> •
+[<span class=date><span class=timestamp>11.08|22:09</span><span class=epoch>807332179</span></span>] 🔨 <a href=https://github.com/spencerc99/window>window</a> •
 [<span class=date><span class=timestamp>10.13|05:09</span><span class=epoch>805029828</span></span>] 📖 <a href=https://goodreads.com/book/show/49449926-the-carrier-bag-theory-of-fiction>The Carrier Bag Theory of Fiction</a> •
-[<span class=date><span class=timestamp>12.10|00:09</span><span class=epoch>810019219</span></span>] 🏃‍♂️ <a href=https://www.strava.com/activities/8229705610>lakeside nights: 3.3km</a> •
+[<span class=date><span class=timestamp>12.17|16:09</span><span class=epoch>810681421</span></span>] 🏃‍♂️ <a href=https://www.strava.com/activities/8259872462>taichi, sax, and garden detour: 4.1km</a> •
 </span>
 </div>
 <script>let summaryIdx=0;const listElement=document.querySelector('.tabContent'),items=listElement.children,tabs=document.querySelector('.tabs').children,total=items.length;if("ontouchstart"in document.documentElement){const a=new Hammer(listElement,{recognizers:[[Hammer.Swipe,{direction:Hammer.DIRECTION_HORIZONTAL}]]});a.on("swipeleft",()=>{navForward()}),a.on("swiperight",()=>{navBackward()})}const navForward=()=>{hideEleAtIdx(),summaryIdx=(summaryIdx+1)%total,renderEleAtIdx()},navBackward=()=>{hideEleAtIdx(),summaryIdx=summaryIdx===0?total-1:(summaryIdx-1)%total,renderEleAtIdx()},hideEleAtIdx=()=>{items[summaryIdx].classList.add('hidden'),tabs[summaryIdx].classList.remove('active')},renderEleAtIdx=()=>{items[summaryIdx].classList.remove('hidden'),tabs[summaryIdx].classList.add('active')},setTab=a=>{hideEleAtIdx(summaryIdx),summaryIdx=a,renderEleAtIdx(summaryIdx)};renderEleAtIdx(summaryIdx)</script>
