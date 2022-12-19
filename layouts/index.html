@@ -6,13 +6,12 @@
     {{ partial "personal_emoji.html" }}
   </h1>
   <div class="description">
-    <i>creative technologist, developer of poetics, dream researcher</i>
-    <!-- $stream := getJSON "https://status.spencerchang.me/api/me" }} -->
-    <!-- <span>Currently in   </span> -->
-    {{.Content}}
+    {{ $location := getJSON "https://status.spencerchang.me/api/metadata" }}
+    <p><i>creative technologist, developer of poetics, dream researcher</i><br/>last in <a href="/window">{{ $location.location }}</a></p>
+    {{.Content}}</p>
   </div>
   {{ partial "social_media.html" . }}
-  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  {{ partial "email_embed.html" . }}
 </div>
 {{ end }} 
 {{ define "main" }}

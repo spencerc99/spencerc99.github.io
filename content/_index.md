@@ -28,9 +28,10 @@ description: "Spencer is a creative technologist, developer of poetics, and drea
     </details>
 </p>
 
+<p id="expandingWork"></p>
+
 <p id="expandingLikes"></p>
 
-<p id="expandingWork"></p>
 
 <script>
 const workDescription =`
@@ -56,32 +57,109 @@ let node = createTelescopicTextFromBulletedList(workDescription, {textMode: Text
 const container = document.getElementById("expandingWork")
 container.appendChild(node);
 // TODO: can you add hover tooltips with images and previews?
-const likesDescription = `
-* I like 
-* writing,
-  * <a href="/writing">writing</a> (<a href="https://spencerchang.substack.com/">personal essays</a>, software essays, and poetry),
-    * <a href="/writing">writing</a> (personal essays—like my <a href="/experim
-    * ents/100posts">100 mini-essays project</a>, software essays, and poetry),
-* reading,
-  * <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a> (spec fic, short fiction, and convivial software thoughts),
-* and 
-* eating. 
-  * eating (and sharing to try more things!).
-* I also enjoy experimenting with <a href="/fits">fashion</a>, 
-* dancing,
-  * dancing (both in my room, around the kitchen and I <a href="https://coda.io/@spencer/spencer-wrapped-2021/activity-13#_luL9E">guess live</a>),
-* <a href="/photos">capturing moments</a>, and being 
-* in nature.
-  * in nature (or just generally exploring this beautiful world).
-`;
-const likesNode = createTelescopicTextFromBulletedList(likesDescription, {textMode: TextMode.Html});
+// const likesDescription = `
+// * I enjoy 
+// * writing,
+//   * <a href="/posts">writing</a> (<a href="https://spencerchang.substack.com/">personal essays</a>, software visions, poetry, and a mix of all of the above),
+//     * <a href="/posts">writing</a> (<a href="https://spencerchang.substack.com/">personal essays</a>, software visions, poetry. check out my <a href="/experiments/100posts">100 posts</a> experiment, my <a href="/posts/boundless-shapeshifters">shapeshifting poem</a> or my <a href="https://spencerchang.substack.com/p/ti-01-our-internet">internet manifesto</a>),
+// * reading,
+//   * <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a> (spec fic, short fiction, and convivial software thoughts),
+// * and 
+// * eating. 
+//   * eating (and sharing to try more things!).
+// * I also enjoy experimenting with <a href="/fits">fashion</a>, 
+// * dancing,
+//   * dancing (both in my room, around the kitchen, and in quiet corners of public spaces),
+// * <a href="/photos">capturing moments</a>, and being 
+// * in nature.
+//   * in nature (or just generally exploring this beautiful world).
+// `;
+// TODO: support descriptors for each in the list, and have a way to "ellipsis" to add a new of the top level one
+// 'in my room', 'snuggled in quiet corners', 'in public parks'
+let likes = [
+  ['writing'],
+  ['reading'],
+  ['eating'],
+  ['dressing up'],
+  ['dancing'],      
+  ['paying attention'],      
+  ['wondering'],      
+  ['wandering'],      
+  ['daydreaming'],      
+  ['capturing moments'],
+  ['being in nature'],
+  ['loving people'],
+  ['sipping water'],
+  ['loving life'],
+  ['cracking my joints'],
+  ['watermelon on a hot day'],
+  ['recognizing constellations'],
+  ['the city skyline at night'],
+  ['uncontrollable crying'],
+  ['creating magic'],
+  ['experimenting'],
+  ['speculative infrastructure'],
+  ['computational poetry'],
+  ['creative technology'],
+  ['agencyful computation'],
+  ['alternative futures'],
+  ['playful tools'],
+  ['evocative writing'],
+  ['imaginative fiction'],
+  ['wonder'],
+  ['tools for wonder'],
+  ['everyday beauty'],
+  ['accessible magic'],
+  ['cybernetic ecology'],
+  ['pluriversality'],
+]
+const enjoyPrompt = `<a href="https://coda.io/form/spencers-enjoy-list_dGFsXoodVB1">what do you think I'll like?</a>`;
+// randomize likes
+likes = likes.sort(() => Math.random() - 0.5);
+likes.splice(4, 0, [enjoyPrompt]);
+let likeExpandedIdx = 0;
+
+function createLikeNode(like) {
+  const likeNode = document.createElement("span");
+  likeNode.innerHTML = `${like}`;
+  if (likeExpandedIdx < likes.length - 1) {
+    likeNode.innerHTML += ', ';
+  }
+  return likeNode;
+}
+// const likesNode = createTelescopicTextFromBulletedList(likesDescription, {textMode: TextMode.Html});
+// const likesContainer = document.getElementById("expandingLikes")
+// likesContainer.appendChild(likesNode);
+const likesNode = document.createElement("div");
+likesNode.id = 'telescope';
+const onMoreNode = document.createElement("span");
+onMoreNode.innerHTML = '...';
+onMoreNode.addEventListener('click', onClickMore);
 const likesContainer = document.getElementById("expandingLikes")
 likesContainer.appendChild(likesNode);
+likesNode.appendChild(document.createTextNode('A non-exhaustive list of the things I enjoy:'))
+likesNode.appendChild(document.createElement("br"))
+likesNode.appendChild(onMoreNode);
+onMoreNode.classList.add("details");
+onMoreNode.classList.add("close");
+
+
+function onClickMore() {
+  const likeNode = createLikeNode(likes[likeExpandedIdx]);
+  likesNode.insertBefore(likeNode, onMoreNode);
+  likeExpandedIdx++;
+  if (likeExpandedIdx === likes.length) {
+    onMoreNode.remove();
+    return;
+  }
+}
+onClickMore();
+
 </script>
 
 <p>
     <details>
-    <summary>I'm proud of...</summary>
+    <summary>some things I'm proud of...</summary>
     <div>
         <ul class="noPadding">
         <li><a href="https://coda.io/packs">Packs Ecosystem</a>: A platform and ecosystem for extending the functionality of Coda by 

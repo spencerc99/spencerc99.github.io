@@ -850,6 +850,10 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
   text-decoration: none;
   transition: color 0.25s ease-in-out;
 
+  svg {
+    fill: var(--color-text-color);
+  }
+
   &:hover {
     color: $color-link;
 
@@ -857,6 +861,18 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
       fill: $color-link;
       transition: fill 0.25s ease-in-out;
     }
+  }
+}
+
+#expandingLikes#expandingLikes#expandingLikes#expandingLikes {
+  ul {
+    display: block !important;
+    list-style: disc outside !important;
+  }
+  li {
+    display: list-item !important;
+    list-style: disc outside !important;
+    background-color: inherit;
   }
 }
 
