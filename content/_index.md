@@ -177,4 +177,8 @@ onClickMore();
 
 <!-- TODO: make an art page -->
 Open to collaborations and chatting around <a href="https://coda.io/@spencer/tiny-internets/public-presentations-39">digital media art</a>, <a href="/experiments/100posts/future-of-tools/">speculative infrastructure</a>, and alternative <a href="https://tiny-inter.net/">internets</a>. 
-spencerc99@gmail.com
+<div id="signature"><div class="signatureContent">
+<div class="serif">Spencer 張正 Chang<br/>spencerc99@gmail.com</div>
+<img class="stamp" src="/assets/name-stamp.svg"/>
+</div>
+</div>

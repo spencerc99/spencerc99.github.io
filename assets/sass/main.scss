@@ -1988,3 +1988,30 @@ button {
     border: 2px solid var(--color-text-color);
   }
 }
+
+#signature#signature {
+  .stamp {
+    margin-top: 5.3px;
+    margin-left: 6px;
+}
+
+  .signatureContent {
+    display:grid;
+    grid-template-columns: auto auto;
+    width:fit-content;
+    margin-left: auto;
+
+    .serif {
+      text-align: right;
+    }
+  }
+}
+
+.stamp {
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
+  @include image-dropshadow();
+  // border: .5px solid var(--color-text-accent);
+  border-radius: 2px;
+}
