@@ -37,7 +37,7 @@ def post_function(
         print('\n{}_preview not found in {}, creating new preview'.format(noext_filename, FITS_EXPORT_PATH_NAME))
         image = Image.open(FITS_EXPORT_PATH_NAME + exported_filename)
         fixed_image = ImageOps.exif_transpose(image)
-        fixed_image.thumbnail((1600,1600), Image.LANCZOS)
+        fixed_image.thumbnail((2000,2000), Image.LANCZOS,reducing_gap=7.0)
         fixed_image.save(f'{FITS_EXPORT_PATH_NAME}{noext_filename}_preview.jpeg')
 
     # check state file to make sure not already in the json
