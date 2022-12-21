@@ -1642,6 +1642,7 @@ ul.noPadding {
 }
 
 .rotate-stamp {
+  animation-delay: .2s;
   @include rotate-stamp();
   
   &:active {
