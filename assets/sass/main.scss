@@ -118,6 +118,23 @@ $color-box-shadow-dark: #e3f3fffa;
   50% { transform: translateY(5px) rotate(30deg);}
 }
 
+@keyframes rotate-stamp-animation {
+
+  0% { transform: rotate(0deg); filter: drop-shadow(0px 0px 12px #406dff); }
+  90% { transform: rotate(360deg); filter: drop-shadow(0px 0px 12px #406dff); }
+  92% { transform: translate(1.5px, 0px) rotate(6deg); }
+  94% { transform: translate(1.5px, 0px) rotate(3deg); }
+  96% { transform: translate(.5px, 0px) rotate(-1deg); }
+  97% { transform: translate(.5px, 0px) rotate(0deg); }
+  100% { transform: translate(0px, 0px) rotate(1deg); }
+  // 96% { transform: translate(-1px, 2px) rotate(-1deg); }
+  // 97% { transform: translate(-3px, 1px) rotate(0deg); }
+  // 98% { transform: translate(3px, 1px) rotate(-1deg); }
+  // 99% { transform: translate(-1px, -1px) rotate(1deg); }
+  // 99.5% { transform: translate(1px, 2px) rotate(0deg); }
+  // 100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 @mixin wave($iteration-count: 1) {
   animation-name: wave-animation;
   // animation-duration: 2.5s;
@@ -139,6 +156,11 @@ $color-box-shadow-dark: #e3f3fffa;
   animation-iteration-count: $iteration-count;
 }
 
+@mixin rotate-stamp() {
+  animation-name: rotate-stamp-animation;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
 
 @mixin roll-and-move($iteration-count: 1) {
   animation-name: roll-and-move-animation;
@@ -1619,6 +1641,16 @@ ul.noPadding {
   }
 }
 
+.rotate-stamp {
+  @include rotate-stamp();
+  
+  &:active {
+    // resets animation so that it will work on every click (focus).
+    -webkit-animation: none;
+    animation: none;
+  }
+}
+
 .clickme {
   position: absolute;
   left: 289px;
@@ -1965,7 +1997,7 @@ button {
     transform: translate(0, 0);
   }
   100% {
-    transform: translate(-30%, 0);
+    transform: translate(-50%, 0);
   }
 }
 
@@ -1989,10 +2021,27 @@ button {
   }
 }
 
+// inspiration: https://www.youtube.com/watch?v=yRfG-l_HRoE
+#stamp {
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
+  @include image-dropshadow();
+  // border: .5px solid var(--color-text-accent);
+  border-radius: 2px;
+  cursor: url(/assets/fire-cursor.cur), crosshair;
+  transition: filter 0.2s ease-in-out;
+  @extend .rotate-stamp;
+
+  &:hover {
+    filter: drop-shadow(0px 0px 12px #406dff);
+  }
+}
+
 #signature#signature {
   .stamp {
     margin-top: 5.3px;
-    margin-left: 6px;
+    margin-left: 10px;
   }
 
   * {
@@ -2014,13 +2063,4 @@ button {
   @include media(smallScreen) {
     float:none;
   }
-}
-
-.stamp {
-  width: 40px;
-  height: 40px;
-  vertical-align: bottom;
-  @include image-dropshadow();
-  // border: .5px solid var(--color-text-accent);
-  border-radius: 2px;
 }
