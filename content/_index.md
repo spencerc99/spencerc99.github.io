@@ -1,5 +1,5 @@
 ---
-title: "ꜱᴘᴇɴᴄᴇʀ ᴄʜᴀɴɢ (っ◔◡◔)っ"
+title: "𝚜𝚙𝚎𝚗𝚌𝚎𝚛𝚌𝚑𝚊𝚗𝚐.𝚖𝚎 𝚒𝚜 𝚠𝚊𝚗𝚍𝚎𝚛𝚒𝚗𝚐"
 description: "Spencer is a creative technologist, developer of poetics, and dream researcher in San Francisco. He creates playful and intimate software and words to imagine alternative futures of computing."
 # (っ◔◡◔)っ ♥ spencer chang ♥
 ---
@@ -106,12 +106,49 @@ let likes = [
   ['playful tools'],
   ['evocative writing'],
   ['imaginative fiction'],
-  ['wonder'],
   ['tools for wonder'],
   ['everyday beauty'],
   ['accessible magic'],
   ['cybernetic ecology'],
   ['pluriversality'],
+  ['rain drops rolling down the side of a window'],
+  ["a large scarf that covers your face when it's cold outside"],
+  ['warm pockets'],
+  ['tender hugs'],
+  ['lingering tastes'],
+  ['warm lighting'],
+  ['fantasizing being a blade of grass in a Hayao Miyazaki film'],
+  ['stardust and shoreless seeds'],
+  ['unexpected light'],
+  ['unexpected mediums'],
+  ['folk practices'],
+  ['daily rituals'],
+  ['dreaming'],
+  ["art that doesn't take itself too seriously"],
+  ["creating things"],
+  ["making new stuff from old stuff"],
+  ["laughing with friends"],
+  ["sharing food"],
+  ["hole-in-the-walls"],
+  ["complimenting people on their outfits"],
+  ["getting complimented on their outfit"],
+  ["receiving a reply on their newsletter"],
+  ["receiving an email from a visitor to their site"],
+  ["a full water bottle"],
+  ["sufficiently chapsticked lips"],
+  ["worn books"],
+  ["marginalia"],
+  ["soulful things"],
+  ["people who look at the world"],
+  ["walking aimlessly"],
+  ["running under 6 miles in nice weather"],
+  ["taking care of things"],
+  ["cultivating life"],
+  ["naming"],
+  ["sitting with the unknown"],
+  ["laying under the stars"],
+  ["watching meteor showers"],
+  ["making things up and committing to the bit"],
 ]
 const enjoyPrompt = `<a href="https://coda.io/form/spencers-enjoy-list_dGFsXoodVB1">what do you think I'll like?</a>`;
 // randomize likes
@@ -121,10 +158,14 @@ let likeExpandedIdx = 0;
 
 function createLikeNode(like) {
   const likeNode = document.createElement("span");
+  likeNode.classList.add('likeItem')
   likeNode.innerHTML = `${like}`;
   if (likeExpandedIdx < likes.length - 1) {
     likeNode.innerHTML += ', ';
-  }
+  } 
+  if (likeExpandedIdx === likes.length - 2) {
+    likeNode.innerHTML += 'and ';
+  } 
   return likeNode;
 }
 // const likesNode = createTelescopicTextFromBulletedList(likesDescription, {textMode: TextMode.Html});
@@ -132,9 +173,13 @@ function createLikeNode(like) {
 // likesContainer.appendChild(likesNode);
 const likesNode = document.createElement("div");
 likesNode.id = 'telescope';
-const onMoreNode = document.createElement("span");
-onMoreNode.innerHTML = '...';
+const onMoreNode = document.createElement("div");
+onMoreNode.style = "display: inline-block;"
+onMoreNode.setAttribute('role', 'button')
+onMoreNode.setAttribute('tabindex', '0')
+onMoreNode.innerHTML = 'and...';
 onMoreNode.addEventListener('click', onClickMore);
+onMoreNode.addEventListener('keydown', onKeyDown);
 const likesContainer = document.getElementById("expandingLikes")
 likesContainer.appendChild(likesNode);
 likesNode.appendChild(document.createTextNode('A non-exhaustive list of the things I enjoy:'))
@@ -143,6 +188,13 @@ likesNode.appendChild(onMoreNode);
 onMoreNode.classList.add("details");
 onMoreNode.classList.add("close");
 
+
+function onKeyDown(e) {
+  if (event.key === 'Enter' || event.key === ' ') {
+    onClickMore();
+    e.preventDefault();
+  }
+}
 
 function onClickMore() {
   const likeNode = createLikeNode(likes[likeExpandedIdx]);
