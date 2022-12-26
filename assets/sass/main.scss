@@ -1321,6 +1321,10 @@ blockquote {
     margin: 12px 0;
   }
 
+  p {
+    margin: 0;
+  }
+
   &::before {
     content: "";
     position: absolute;
