@@ -1,7 +1,8 @@
 {{ $source := .Get "source" }}
+{{ $class := .Get "class" }}
 {{ with .Get "quote" }}
 <div class="pullquoteContainer">
-    <p class="pullquote">
+    <p class="pullquote {{$class}}">
         {{ . | markdownify}}
         {{ with $source }}
         <br/>

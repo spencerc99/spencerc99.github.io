@@ -366,11 +366,14 @@ $quote-padding: 12px;
   padding: ($quote-padding / 2) $quote-padding;
   padding-right: 0px;
   position: relative;
-  margin: 0 .8em;
-  color: $color-dark-blue-grey;
+  margin: .8em .8em;
   font-size: $default-font-size;
 
-  &::before {
+  &.callout {
+    padding-left: 0px;
+  }
+
+  &:not(.callout)::before {
     content: "“";
     font-family: "Muli";
     position: absolute;
@@ -385,8 +388,8 @@ $quote-padding: 12px;
   // background coloring
   &::after {
     content: "";
-    max-width: $viewport-width + 20px;
-    left: -30px;
+    max-width: $viewport-width + 10px;
+    left: -25px;
     width: 100vw;
     height: 105%;
     background: var(--color-background-lavender);

@@ -12,6 +12,8 @@ tags: [software]
 
 ---
 
+{{< pullquote quote="This post is part of a letter series with Jacky and other internet friends for [(we)bsite](we-b.site),  a gathering place for dreams of internet futures from its inhabitants. This is my first articulation for the kind of internet I imagine and hope for. Find more letters and share your own with us." class="callout" >}}
+
 Every day, we break a new record for how many people own personal computing devices and rely on software to enrich and empower their lives, yet those systems are increasingly **outside our control and break in ways we can't understand**.
 
 Despite all the ways we've seen computing used to democratize power and resist legacy institutional control, from [coordinating](https://www.technologyreview.com/2020/06/06/1002546/google-docs-social-media-resistance/) [distributed protests](https://techcrunch.com/2022/11/28/despite-ban-twitter-downloads-surge-in-china-amid-covid-protests/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAACO-nuJLsp2pv-dtMYsbR4Hz4gVRIDwX9prwv07sWLWAOVZRgzZ0OezvJQ7Bp1aO83avzxgNq7qMTVTB4jjh0FfII96V416dESLIRxhgdUW-qaHJJS7bYgSvXhShKwc1PXD85Zfadhx4B4dnQUTUazE1qPzFfLSo2lis6agZldra) to holding [institutions accountable](https://www.cnet.com/news/politics/twitter-is-transforming-modern-protest-its-vital-that-we-use-it-right/) [to the public](https://slate.com/news-and-politics/2020/06/george-floyd-public-spreadsheet-police-violence-videos.html), we have to confront the parallel reality of our diminishing insight and control over these very platforms we we depend on. Our reliance on these invisible hands and unanimous systems grows stronger by the day, and we've already seen the flip side of how those platforms can be leveraged for bad actors, from coordinated manipulation ([election manipulation](https://www.rappler.com/nation/148007-propaganda-war-weaponizing-internet/)) to deceit ([COVID misinformation](https://www.npr.org/sections/coronavirus-live-updates/2020/05/20/859814085/researchers-nearly-half-of-accounts-tweeting-about-coronavirus-are-likely-bots)).
@@ -76,4 +78,4 @@ How could we change our digital experiences to be more inherently communal, to i
 Let's question and then seek to answer, together. The new internets are ours to dream and to make.
 
 ---
-Jacky and I are cu;tivating <a href="we-b.site">(we)bsite</a>, a gathering place for internet dreams from its inhabitants. Please join us in this collective imagination for what a people-first internet should look like!
+This post is part of a letter series with Jacky and other internet friends for <a href="we-b.site">(we)bsite</a>,  a gathering place for dreams of internet futures from its inhabitants. This is my first articulation for the kind of internet I imagine and hope for. Find more letters and share your own with us. Please join us in this collective imagination for what a people-first internet should look like!*
