@@ -2,6 +2,87 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-12-22%3AIMG_6613.jpeg",
+            "date": "2022-12-22",
+            "timestamp": 1671767406.803,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Houston, Texas, United States",
+            "city": "Houston",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "Jacket",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-12-23%3AIMG_6629.jpeg",
+            "date": "2022-12-23",
+            "timestamp": 1671834420.05,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Houston, Texas, United States",
+            "city": "Houston",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Beanie",
+                "Clothing",
+                "Door",
+                "Hat",
+                "Headgear",
+                "Jacket",
+                "People",
+                "Scarf"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-12-20%3AIMG_6545.jpeg",
+            "date": "2022-12-20",
+            "timestamp": 1671594853.987,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Houston, Texas, United States",
+            "city": "Houston",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Door",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-12-19%3AIMG_6517.jpeg",
             "date": "2022-12-19",
             "timestamp": 1671482478.619,
