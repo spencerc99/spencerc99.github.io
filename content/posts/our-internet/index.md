@@ -75,4 +75,5 @@ How could we change our digital experiences to be more inherently communal, to i
 
 Let's question and then seek to answer, together. The new internets are ours to dream and to make.
 
-I'll be doing weekly lab dispatches on my <a href="https://spencerchang.substack.com/p/ti-01-our-internet">substack</a>, so subscribe for updates.
+---
+Jacky and I are cu;tivating <a href="we-b.site">(we)bsite</a>, a gathering place for internet dreams from its inhabitants. Please join us in this collective imagination for what a people-first internet should look like!
