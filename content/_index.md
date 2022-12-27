@@ -1,6 +1,6 @@
 ---
 title: "𝚜𝚙𝚎𝚗𝚌𝚎𝚛𝚌𝚑𝚊𝚗𝚐.𝚖𝚎 𝚒𝚜 𝚠𝚊𝚗𝚍𝚎𝚛𝚒𝚗𝚐"
-description: "Spencer is a creative technologist, developer of poetics, and dream researcher in San Francisco. He creates playful and intimate software and words to imagine alternative futures of computing."
+description: "Spencer is a creative technologist, world maker, and dream researcher in San Francisco. He creates playful and intimate software and words to imagine alternative futures of computing."
 # (っ◔◡◔)っ ♥ spencer chang ♥
 ---
 <p>
@@ -17,9 +17,9 @@ description: "Spencer is a creative technologist, developer of poetics, and drea
             <li>
                 <b>people over systems</b> <br/> what sort of systems do we need to create a society that cares about enabling every person to live with the <a href="/experiments/100posts/privilege-of-dreams">privilege to pursue their dreams</a> and create something that they can truly own?
             </li>
-            <li>
+            <!-- <li>
                 <b>authentic <a href="/experiments/100posts/unstoppable-expression">expression</a></b> <br/> how do we create environments that provide a <a href="/experiments/100posts/low-pressure-contexts">low-pressure context</a> for people to fail and learn and scale that <a href="/experiments/100posts/trust">trust</a> beyond small local communities?
-            </li>
+            </li> -->
             <li>
                 <b>living fully</b> <br/> how do we live more fully and <a href="/experiments/100posts/intensity">intensely</a> and learn to trust ourselves to <a href="/experiments/100posts/opportunity">express ourselves</a> without caveats?
             </li>
@@ -42,38 +42,22 @@ const workDescription =`
 * conjuring 
 * soulful speculations of new futures at <a href="https://verses.xyz" id="verses">verses</a>, 
   * soulful speculations of new futures at <a href="https://verses.xyz" id="verses">verses</a> (I recently co-stewarded the creation of <b  id="pluriverse"><a href="https://pluriverse.world">pluriverse.world</a></b>),
-* exploring what a new internet of <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a> looks like
-  * exploring what a new internet of <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>, one where <a href="https://open.substack.com/pub/spencerchang/p/ti-01-our-internet">we can make homes</a>, looks like
-    * exploring what a new internet of <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>, one where <a href="https://open.substack.com/pub/spencerchang/p/ti-01-our-internet">we can make homes</a> and relate to others in ways that cultivate a communal space, looks like
+* exploring what a world of <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>,
+  * exploring what a world of <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>, one where <a href="/posts/our-internet">we can make homes</a>,
+    * exploring what a world of <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>, one where <a href="/posts/our-internet">we can make homes</a> and relate to others in ways that cultivate a communal space,
 * and exploring poetry, through writing, art, and
 * software.
-  * open
-    * open, playful
-      * open, playful, and empowering
-  * software (like this <a href="https://github.com/jackyzha0/telescopic-text">expanding text</a> and <a href="">shapeshifting poem</a>).
-    * software (like this <a href="">expanding text</a> and <a href="/posts/boundless-shapeshifters">shapeshifting poem</a> or my <a href="/fits">fits stream</a>).
+  * playful
+    * playful, open
+      * playful, open, and empowering
+  * software (like this <a href="poems.verses.xyz">expanding poems library</a> and <a href="/pacman-poem">pacman poem</a>).
+    * software (like this <a href="poems.verses.xyz">expanding poems library</a> and <a href="/pacman-poem">pacman poem</a> or my <a href="/window">wall of windows</a>).
+      * software (like this <a href="poems.verses.xyz">expanding poems library</a> and <a href="/pacman-poem">pacman poem</a> or my <a href="/window">wall of windows</a> or this <a href="https://coda.io/@spencer/tiny-internets/our-internet-map-51">participatory art exhibit</a>).
 `;
 let node = createTelescopicTextFromBulletedList(workDescription, {textMode: TextMode.Html});
 const container = document.getElementById("expandingWork")
 container.appendChild(node);
 // TODO: can you add hover tooltips with images and previews?
-// const likesDescription = `
-// * I enjoy 
-// * writing,
-//   * <a href="/posts">writing</a> (<a href="https://spencerchang.substack.com/">personal essays</a>, software visions, poetry, and a mix of all of the above),
-//     * <a href="/posts">writing</a> (<a href="https://spencerchang.substack.com/">personal essays</a>, software visions, poetry. check out my <a href="/experiments/100posts">100 posts</a> experiment, my <a href="/posts/boundless-shapeshifters">shapeshifting poem</a> or my <a href="https://spencerchang.substack.com/p/ti-01-our-internet">internet manifesto</a>),
-// * reading,
-//   * <a href="https://www.goodreads.com/user/show/93224420-spencer-chang">reading</a> (spec fic, short fiction, and convivial software thoughts),
-// * and 
-// * eating. 
-//   * eating (and sharing to try more things!).
-// * I also enjoy experimenting with <a href="/fits">fashion</a>, 
-// * dancing,
-//   * dancing (both in my room, around the kitchen, and in quiet corners of public spaces),
-// * <a href="/photos">capturing moments</a>, and being 
-// * in nature.
-//   * in nature (or just generally exploring this beautiful world).
-// `;
 // TODO: support descriptors for each in the list, and have a way to "ellipsis" to add a new of the top level one
 // 'in my room', 'snuggled in quiet corners', 'in public parks'
 let likes = [
