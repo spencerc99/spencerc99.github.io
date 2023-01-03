@@ -980,11 +980,11 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
   width: 100%;
   max-width: $viewport-width;
 
-  // &.expand {
+  &.expand {
     @include biggerThanViewport(40px) {
       max-width: none;
     }
-  // }
+  }
 
   div {
     &.hidden {
