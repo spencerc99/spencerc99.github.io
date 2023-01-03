@@ -259,6 +259,7 @@ $screenMaxWidths: (
   smallScreen: $screenMediumMin - 1,
   mediumScreen: $screenLargeMin - 1,
   largeScreen: $screenXlargeMin - 1,
+  xlargeScreen: 1000000px,
 );
 
 // sources
@@ -270,6 +271,12 @@ $screenMaxWidths: (
     @media only screen and (min-width: map-get($screenMinWidths, $key)) and (max-width: map-get($screenMaxWidths, $key)) {
       @content;
     }
+  }
+}
+
+@mixin biggerThanViewport($extraPadding: 0) {
+  @media only screen and (min-width: ($viewport-width + $extraPadding)) {
+    @content;
   }
 }
 
@@ -566,9 +573,13 @@ button.icon {
 }
 
 #content {
-  max-width: $viewport-width;
   min-width: 300px;
-  width: 100%;
+}
+
+.textContent.textContent.textContent {
+  max-width: $viewport-width;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .navbarActions {
@@ -762,6 +773,7 @@ button.icon {
 }
 
 .headerContainer {
+  @extend .textContent;
   margin: $header-container-margin 0 24px 0;
   font-size: $scaled-font-size;
 
@@ -783,6 +795,7 @@ button.icon {
 }
 
 .listDescription {
+  @extend .textContent;
   text-align:left;
   width: 100%;
 
@@ -965,16 +978,28 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
 
 .summaryList {
   width: 100%;
+  max-width: $viewport-width;
+
+  // &.expand {
+    @include biggerThanViewport(40px) {
+      max-width: none;
+    }
+  // }
 
   div {
     &.hidden {
       display:none;
+
+      @include biggerThanViewport(40px) {
+        display: inherit;
+      }
     }
   }
 
   .tabs {
     border-bottom: 5px dashed var(--color-text-accent);
     padding-bottom: 8px;
+    display: flex;
 
     button {
       border: none;
@@ -984,6 +1009,11 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
       margin: 0 4px;
       border-radius: 4px;
 
+      @include biggerThanViewport(80px) {
+        max-width: 400px;
+        width: 100%; 
+      }
+
       &:first-child {
         margin-left: 0;
         padding-left: 2px;
@@ -991,6 +1021,12 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
 
       &:hover {
         @include link-highlight();
+      }
+
+
+      @include biggerThanViewport(80px) {
+        background: var(--color-background-teal);
+        box-shadow: inset 0.3px 0.5px 1.6px var(--color-box-shadow);
       }
 
       &.active {
@@ -1007,6 +1043,17 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
     }
   }
 
+  .tabContent {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+
+    div {
+      @include biggerThanViewport(80px) {
+        max-width: 400px;
+      }
+    }
+  }
 }
 
 .postContainer {
@@ -1147,7 +1194,7 @@ details div {
     content: "";
     height: 1px;
     background: $color-lighter-grey;
-    width: 320px;
+    width: calc(min(100%, 320px));
   }
 
   .postSummary { 

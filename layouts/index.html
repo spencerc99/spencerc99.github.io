@@ -1,5 +1,5 @@
 {{ define "header" }}
-<div class="headerContainer home">
+<div class="headerContainer home textContent">
   <!-- TODO(spencer): insert kaleidescope here? -->
   <h1 id="siteTitle">
     hi! i'm spencer
@@ -235,13 +235,12 @@
 {{ end }} 
 {{ define "main" }}
 <!-- TODO: replace this with kaleidoscope or feral.earth stuff -->
-<div class="summaryList">
+<div class="summaryList expand">
   <!-- TODO: make this a tab -->
   <div class="tabs">
     <button onclick="setTab(0)"><h3>recent</h3></button>
-    <button onclick="setTab(1)"><h3>faves</h3></button>
-    <button onclick="setTab(2)"><h3>creations</h3></button>
-    <button onclick="setTab(3)"><h3>writing</h3></button>
+    <button onclick="setTab(1)"><h3>creations</h3></button>
+    <button onclick="setTab(2)"><h3>writing</h3></button>
   </div>
   <div class="tabContent">
     {{ $project := slice "projects" }}
@@ -249,20 +248,8 @@
     {{ $writing := .Site.RegularPages | complement $projects }}
     <div class="recentReleases hidden">
       <div class="postsList">
-        <div style="margin-top: 8px;"><i class="meta">subscribe <a href="https://spencerchang.substack.com/subscribe">above</a> to get updates on my releases</i></div>
         {{ $recentCands := .Site.RegularPages.ByDate.Reverse }}
         {{ range first 10 $recentCands  }}
-          {{ .Render "compact_summary" }} 
-        {{ end }}
-        <!-- TODO: add "check out my feed link to feed of everything" -->
-        Check out <a href="/projects">all {{ len $projects}} creations</a> or <a href="/posts">all {{ len $writing}} posts</a>.
-      </div>
-    </div>
-    <div class="faves hidden">
-      <div class="postsList">
-        {{ $highlights := where .Site.RegularPages "Params.featured" true }}
-        <!-- TODO: this comlement doesn't quite work. I hate HUGO -->
-        {{ range first 5 $highlights  }}
           {{ .Render "compact_summary" }} 
         {{ end }}
         <!-- TODO: add "check out my feed link to feed of everything" -->
@@ -273,9 +260,9 @@
         <div class="postsList">
         {{ $favorite := slice "favorite" }}
         {{ $favorites := where .Site.RegularPages "Params.tags" "intersect" $favorite }}
-        {{ $faveProjects := intersect $favorites $projects | complement $highlights }}
-        {{ $intersectedProjects := intersect $favorites $projects | intersect $highlights }}
-        {{ range first 5 ($faveProjects | append $intersectedProjects) }}
+        {{ $faveProjects := intersect $favorites $projects }}
+        {{ $intersectedProjects := intersect $favorites $projects }}
+        {{ range first 7 ($faveProjects | append $intersectedProjects) }}
           {{ .Render "compact_summary" }} 
         {{ end }}
         <br/>
@@ -285,9 +272,9 @@
     <div class="writing hidden">
         <div class="postsList">
         {{ $favorite := slice "favorite" }}
-        {{ $favorites := (where .Site.RegularPages "Params.tags" "intersect" $favorite) | complement $highlights $projects }}
-        {{ $intersectedWriting := $favorites | intersect $highlights }}        
-        {{ range first 5 ($favorites | append $intersectedWriting)  }}
+        {{ $favorites := (where .Site.RegularPages "Params.tags" "intersect" $favorite) | complement $projects }}
+        {{ $intersectedWriting := $favorites}}        
+        {{ range first 7 ($favorites | append $intersectedWriting)  }}
           {{ .Render "compact_summary" }} 
         {{ end }}
         <br/>

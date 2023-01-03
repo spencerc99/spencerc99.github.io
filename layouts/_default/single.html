@@ -2,10 +2,10 @@
 <div class="progress-container fixed-top">
   <span class="progress-bar"></span>
 </div>
-<div class="headerContainer"></div>
+<div class="headerContainer textContent"></div>
 {{ end }} 
 {{ define "main"}}
-<div class="postContainer {{ with .Params.storyType }} {{ . }} {{ end }}">
+<div class="postContainer textContent {{ with .Params.storyType }} {{ . }} {{ end }}">
   <div class="post meta">
     <!-- TODO: make the date linkable -->
     {{ with .Date }}
@@ -38,7 +38,7 @@
     </div>
   </div>
 </div>
-<footer>
+<footer class="textContent">
     <hr/>
     {{ partial "post_footer.html" . }}
 </footer>

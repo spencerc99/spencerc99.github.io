@@ -1,9 +1,9 @@
 {{ define "header" }}
-<div class="headerContainer">
+<div class="headerContainer textContent">
   <h1>{{.Title}} {{ partial "personal_emoji.html" (dict "hideWee" "true" "inline" "true" "emojis" .Params.emojis) }}</h1>
 </div>
 {{ end }} {{ define "main" }}
-<div class="listDescription">
+<div class="listDescription textContent">
   <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
   {{.Content}}
 </div>
