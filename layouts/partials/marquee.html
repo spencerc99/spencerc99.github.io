@@ -1,6 +1,6 @@
 <!-- activity stream marquee -->
 {{ $stream := getJSON "https://status.spencerchang.me/api/me" }}
-<div class="marquee">
+<div class="marquee" title="this is a set of live attributes from what I consume and make streamed to this little status bar. The numbers represent Spencer epoch time, a play on UNIX epoch.">
   <span class="marqueeContent">
   {{ range $index, $element := $stream }}
     [<span class="date"><span class="timestamp">{{ time.Format "01.02|15:09" $element.date }}</span><span class="epoch">{{ lang.FormatNumberCustom 0 $element.birthdayEpoch "- ." }}</span></span>] {{ $element.displayHTML | safeHTML}} •  

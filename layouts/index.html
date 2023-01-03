@@ -1,7 +1,7 @@
 {{ define "header" }}
 <div class="headerContainer home textContent">
   <!-- TODO(spencer): insert kaleidescope here? -->
-  <h1 id="siteTitle">
+  <h1 id="siteTitle" title="hi! hover around other parts of the site and you might find other hidden treasures.">
     hi! i'm spencer
     {{ partial "personal_emoji.html" }}
   </h1>
@@ -167,7 +167,7 @@
     onMoreNode.style = "display: inline-block;"
     onMoreNode.setAttribute('role', 'button')
     onMoreNode.setAttribute('tabindex', '0')
-    onMoreNode.setAttribute('title', 'hello!')
+    onMoreNode.setAttribute('title', 'click me to see more! try tabbing to me and using enter or space to go even faster!')
     onMoreNode.innerHTML = 'and...';
     onMoreNode.addEventListener('click', onClickMore);
     onMoreNode.addEventListener('keydown', onKeyDown);
@@ -225,7 +225,7 @@
     <div id="signature"><div class="signatureContent">
       <!-- TODO: hover over for photo in lil modal? -->
       <div class="serif">Spencer 張正 Chang<br/>spencerc99@gmail.com</div>
-      <img id="stamp" class="stamp" src="/assets/name-stamp.svg"/>
+      <img id="stamp" class="stamp" src="/assets/name-stamp.svg" title="this is my name stamp. my chinese name is 張正, 正 being my given name. 正 has many meanings: just, right, 5 if marking tallies on a food ordering sheet, proper, main, positive (for numbers). this animation was made on winter solstice and inspired by the scene from avatar the last airbender where aang opens the door to visit avatar roku during the winter solstice."/>
       {{ partial "social_media.html" . }}
       </div>
     </div>
