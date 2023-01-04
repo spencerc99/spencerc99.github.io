@@ -976,12 +976,13 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
   }
 }
 
+$expandThresholdPadding: 80px;
 .summaryList {
   width: 100%;
   max-width: $viewport-width;
 
   &.expand {
-    @include biggerThanViewport(40px) {
+    @include biggerThanViewport($expandThresholdPadding) {
       max-width: none;
     }
   }
@@ -990,7 +991,7 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
     &.hidden {
       display:none;
 
-      @include biggerThanViewport(40px) {
+      @include biggerThanViewport($expandThresholdPadding) {
         display: inherit;
       }
     }
@@ -1009,7 +1010,7 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
       margin: 0 4px;
       border-radius: 4px;
 
-      @include biggerThanViewport(80px) {
+      @include biggerThanViewport($expandThresholdPadding) {
         max-width: 400px;
         width: 100%; 
       }
@@ -1024,7 +1025,7 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
       }
 
 
-      @include biggerThanViewport(80px) {
+      @include biggerThanViewport($expandThresholdPadding) {
         background: var(--color-background-teal);
         box-shadow: inset 0.3px 0.5px 1.6px var(--color-box-shadow);
       }
