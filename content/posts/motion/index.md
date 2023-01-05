@@ -1,10 +1,10 @@
 ---
 title: "motion, rhythm, growing cycles: 2022 to 2023"
 description: "reflecting on 2022 🤲 and looking towards 2023 🌀."
-image: '/posts/motion/images/gallery/3-barnacles.jpg'
+image: '/posts/motion/images/cover.png'
 date: "2023-01-04"
 resources: 
-- src: "images/*"
+- src: "images/gallery/*"
   name: gallery
 tags: ['personal', 'reflection']
 emojis: [👣, 🌊, 🍃, 📿, 🐢,🌀]
@@ -73,6 +73,8 @@ A dance is always determined from balance between its participants. Push and pul
 
 I promise to move with the gravity of my hopes, dance with the will of worlds, harmonize with life's song.
 
+{{< gallery folder="gallery" caption="Some scenes from the year that have made me pause and resume moving slower" fullWidth=true centered=true >}}
+
 #### reminders to stay true to myself this year
 
 -   go outside, take walks, breath in fresh air
@@ -83,4 +85,4 @@ I promise to move with the gravity of my hopes, dance with the will of worlds, h
 -   preserve and renew
 -   play play play
 
-{{< gallery folder="gallery" caption="Some scenes from the year that have made me pause and resume moving slower" fullWidth=true centered=true >}}
+{{< figure src="images/out-in-2023.jpg" caption="couldn't resist trying out this trend" >}}
