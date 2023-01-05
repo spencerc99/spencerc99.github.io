@@ -1330,7 +1330,7 @@ i.uis.uis-star {
       align-items: center;
     }
 
-    img:not(.galleryImage) {
+    img:not(.galleryImage), video {
       max-width: 100%;
       display: flex;
       margin: auto;

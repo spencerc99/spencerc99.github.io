@@ -42,7 +42,14 @@ Sandwiched between two days of gloomy clouds and uncharacteristic rain was a bri
 
 I'm looking out the window of a home that is not my home, peering over an adopted city, cozied up in a borrowed blanket. Can you tell? I've been unsettled lately. Everything around me, the ground I stand on shifts beneath me. I am a leaf in water, wishing to grow limbs to chart my path. I am the foam in the waves. I am the miscellaneous debris in those tiny urban whirlwinds. We are all constantly moving, our cells vibrating. We move towards that which moves us.
 
-{{< vimeo 786470113 >}}
+<figure style="width: 40%;">
+    <video controls>
+        <source src="videos/urban-leaves-whirlwind-vortices.mp4"/>
+    </video>
+    <figcaption>
+        an urban whirlwind of leaves
+    </figcaption>
+</figure>
 
 The underlying theme is 1) I want a lot of things and 2) I'm bad at making choices. Instead, I stubbornly attempt to manifest everything in order to not have to give up anything. My natural need to be in control of things and my future has been a constant source of stress and feeling overwhelmed. I'd like to be able to let go of control, to [embrace finding magic](https://spencerchang.substack.com/p/in-search-of-awe) wherever I find myself. I want to build a home in myself, so that home is always with me.
 
