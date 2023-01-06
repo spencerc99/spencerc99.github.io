@@ -1,6 +1,6 @@
 ---
-title: "perpetual motion: 2022 to 2023"
-description: "reflecting on 2022 🤲 and looking towards rhythm and growing cycles 2023 🌀."
+title: "motion, rhythm, gardening cycles"
+description: "reflecting on 2022 🤲 and looking towards 2023 🌀."
 image: '/posts/motion/images/cover.png'
 date: "2023-01-04"
 resources: 

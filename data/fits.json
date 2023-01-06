@@ -2,6 +2,27 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-01-03%3AIMG_6956_edited.jpeg",
+            "date": "2023-01-03",
+            "timestamp": 1672768652.424,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Pacific Renaissance Plaza, Oakland, California, United States",
+            "city": "Oakland",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Cord",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2022-12-26%3AIMG_6771.jpeg",
             "date": "2022-12-26",
             "timestamp": 1672104277.745,
