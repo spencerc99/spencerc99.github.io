@@ -1,6 +1,6 @@
 ---
-title: "motion, rhythm, growing cycles: 2022 to 2023"
-description: "reflecting on 2022 🤲 and looking towards 2023 🌀."
+title: "perpetual motion: 2022 to 2023"
+description: "reflecting on 2022 🤲 and looking towards rhythm and growing cycles 2023 🌀."
 image: '/posts/motion/images/cover.png'
 date: "2023-01-04"
 resources: 
@@ -55,7 +55,7 @@ The underlying theme is 1) I want a lot of things and 2) I'm bad at making choic
 
 I know that [surrendering myself to surprises](https://spencerchang.substack.com/p/surrendering) has given way to  things that feel the most right in my life. I know that the secret to improvisation is letting go of your body and mind, letting your instinct and soul reign. And I know that I don't have to rush through life or always push towards an end goal of having control. I know I operate [best slowly](https://www.spencerchang.me/posts/uneven-time/), as if I have all the time in the world, that focusing on having fun and appreciating every little beauty in this world is actually how I am my most creative and "productive."
 
-In 2023, I want to focus on constantly moving, but without the rush implied by constantly advancing. I want surrender my armor, trust my instincts for bringing me through the world. I want to make perpetual motion. Nurture rituals that fulfill me, ground me, bring me into community. Cultivate traditions and practices.
+My theme for 2023 is **motion**. I want to focus on consistently moving, but without the rush implied by constantly advancing. I want surrender my armor, trust my instincts for bringing me through the world. I want to make perpetual motion. Nurture rituals that fulfill me, ground me, bring me into community. Cultivate traditions and practices.
 
 I'll grow my own rhythms, set my own pace, operate under the conditions and principles that ring the most true to me. I'll walk. Steadily. Consistently.
 
