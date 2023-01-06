@@ -362,6 +362,7 @@ body {
 
 mark {
   background: var(--color-text-highlight);
+  color: inherit;
 }
 
 $quote-padding: 12px;
