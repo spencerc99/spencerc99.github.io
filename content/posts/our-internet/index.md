@@ -78,4 +78,4 @@ How could we change our digital experiences to be more inherently communal, to i
 Let's question and then seek to answer, together. The new internets are ours to dream and to make.
 
 ---
-This post is part of a letter series with Jacky and other internet friends for <a href="we-b.site">(we)bsite</a>,  a gathering place for dreams of internet futures from its inhabitants. This is my first articulation for the kind of internet I imagine and hope for. Find more letters and share your own with us. Please join us in this collective imagination for what a people-first internet should look like!*
+*This post is part of a letter series with Jacky and other internet friends for <a href="we-b.site">(we)bsite</a>,  a gathering place for dreams of internet futures from its inhabitants. This is my first articulation for the kind of internet I imagine and hope for. Find more letters and share your own with us. Please join us in this collective imagination for what a people-first internet should look like!*

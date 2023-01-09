@@ -20,15 +20,6 @@
   {{ $projects := where .Site.RegularPages "Params.tags" "intersect" $project }}
   {{ $allPages := sort (($pages | union $showcasePages) | complement $projects) "Date" "desc" }}
 
-  <!-- <h2>a few favorites</h3> -->
-  <!-- <div class="postsList"> -->
-    <!-- {{ $favorites := where .Site.Taxonomies.tags.favorite "Params.internal_link" nil }} -->
-    <!-- TODO: this comlement doesn't quite work. I hate HUGO -->
-    <!-- {{ $faveCands := $favorites }} -->
-    <!-- {{ range first 5 $faveCands  }} -->
-      <!-- {{ .Render "summary" }}  -->
-    <!-- {{ end }} -->
-  <!-- </div> -->
   <h2 id="recentWriting">all recent writing</h3>
   {{ partial "posts_filtered_by_tags.html" $allPages }}
 </div>
