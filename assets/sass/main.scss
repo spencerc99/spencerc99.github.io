@@ -37,7 +37,7 @@ $navbar-zindex: 999;
 $color-text-color: #282828;
 $color-text-color-white: rgb(222, 219, 214);
 $color-text-accent-dark: rgb(152, 143, 129);
-$header-container-margin: calc(max(50px, min(10vh, 90px)));
+$header-container-margin: calc(max(#{$navBar-height}, min(10vh, 70px)));
 $color-telescopic-background-dark: rgba(196, 119, 2, .3);
 $color-telescopic-background-dark-hover: rgba(196, 119, 2, 1);
 $color-box-shadow:#132d40fa;
@@ -285,15 +285,17 @@ $screenMaxWidths: (
     0 0px 36px -18px rgba(0, 0, 0, 0.22);
 }
 
-// source: https://gomakethings.com/how-to-break-an-image-out-of-its-parent-container-with-css/
 @mixin extend-width() {
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  position: relative;
-  width: 100vw;
-  min-width: calc(min(#{$viewport-width}, 100vw));
+  // Old code for making it span the entire screen
+  // source: https://gomakethings.com/how-to-break-an-image-out-of-its-parent-container-with-css/
+  // left: 50%;
+  // right: 50%;
+  // margin-left: -50vw;
+  // margin-right: -50vw;
+  // position: relative;
+  // width: 100vw;
+  // min-width: calc(min(#{$viewport-width}, 100vw));
+  // width: 800px;
 }
 
 @mixin meta-content() {
@@ -771,6 +773,10 @@ button.icon {
   @extend .textContent;
   margin: $header-container-margin 0 24px 0;
   font-size: $scaled-font-size;
+
+  &.postHeader {
+    margin: $navBar-height 0 24px 0;
+  }
 
   p {
     font-size: $scaled-font-size;
@@ -1285,7 +1291,8 @@ i.uis.uis-star {
     margin-left: 0;
     margin-right: 0;
 
-    &:not(.fullWidth):not(.gallery-item) {
+    // &:not(.fullWidth)
+    &:not(.gallery-item) {
       display: table;
       margin: auto;
 
@@ -1297,38 +1304,38 @@ i.uis.uis-star {
 
     // make more specific than img tag below.
     &.fullWidth.fullWidth {
-      figcaption {
-        // only let the caption expand to 90% of the full viewport width
-        p {
-          margin-left: 5vw;
-          margin-right: 5vw;
-        }
-      }
+      // figcaption {
+      //   // only let the caption expand to 90% of the full viewport width
+      //   p {
+      //     margin-left: 5vw;
+      //     margin-right: 5vw;
+      //   }
+      // }
 
-      // allow image to grow to 3/4 of viewport.
-      // at 800 = 600 (viewport width) * 4/3 (inverse of ratio below),
-      // revert to normal sizing since it 75% of viewport will be smaller than normal sizing.
-      // TODO(spencer): this should naturally scale to take the full width and shrink to a min of 75%.
-      @media (min-width: $full-width-image-shrink-threshold + 1) {
-        left: 50%;
-        margin-left: calc(max(-37.5vw, calc(#{$full-width-image-shrink-threshold} / -2)));
-        margin-right:  calc(max(-37.5vw, calc(#{$full-width-image-shrink-threshold} / -2)));
-        max-width: calc(min(75vw, #{$full-width-image-shrink-threshold}));
-        position: relative;
-        right: 50%;
-        width: 100vw;
-        min-width: $viewport-width;
-      }
+      // // allow image to grow to 3/4 of viewport.
+      // // at 800 = 600 (viewport width) * 4/3 (inverse of ratio below),
+      // // revert to normal sizing since it 75% of viewport will be smaller than normal sizing.
+      // // TODO(spencer): this should naturally scale to take the full width and shrink to a min of 75%.
+      // @media (min-width: $full-width-image-shrink-threshold + 1) {
+      //   left: 50%;
+      //   margin-left: calc(max(-37.5vw, calc(#{$full-width-image-shrink-threshold} / -2)));
+      //   margin-right:  calc(max(-37.5vw, calc(#{$full-width-image-shrink-threshold} / -2)));
+      //   max-width: calc(min(75vw, #{$full-width-image-shrink-threshold}));
+      //   position: relative;
+      //   right: 50%;
+      //   width: 100vw;
+      //   min-width: $viewport-width;
+      // }
 
-      @media(max-width: $full-width-image-shrink-threshold) {
-        @include extend-width();
-        figcaption {
-          p {
-            margin-left: 6px;
-            margin-right: 6px;
-          }
-        }
-      }
+      // @media(max-width: $full-width-image-shrink-threshold) {
+      //   @include extend-width();
+      //   figcaption {
+      //     p {
+      //       margin-left: 6px;
+      //       margin-right: 6px;
+      //     }
+      //   }
+      // }
     }
 
     &.embed.embed {
@@ -1589,7 +1596,8 @@ ul.noPadding {
       display: flex;
       justify-content: center;
       flex-direction: row;
-      flex-wrap: wrap;
+      // NOTE: turning this off while we have it all contained in the same container
+      // flex-wrap: wrap;
 
       figure {
         display: flex;
