@@ -38,9 +38,6 @@ And now I add my voice to this budding chorus in hopes of convincing *everyone*
 
 * * * * *
 
-{{< figure src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9efbccc0-38b3-43fb-a973-764daf2e5d03_2185x1878.png" caption="*from [tiny-inter.net](https://tiny-inter.net/)*" >}}
-
-
 **I want a world of [tiny internets](https://tiny-inter.net/).**
 
 This summer, I started working on this research inquiry, prototyping exploration, and budding internet collective that seeks to answer the question:
