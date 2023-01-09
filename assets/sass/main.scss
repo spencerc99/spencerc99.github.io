@@ -381,6 +381,10 @@ $quote-padding: 12px;
   margin: .8em .8em;
   font-size: $default-font-size;
 
+  @include media(xsmallScreen, smallScreen) {
+    margin: 0;
+  }
+
   &.callout {
     padding-left: 0px;
   }
@@ -567,8 +571,11 @@ button.icon {
 
 .textContent.textContent.textContent {
   max-width: $viewport-width;
-  margin-left: auto !important;
-  margin-right: auto !important;
+
+  @include media(mediumScreen, largeScreen, xlargeScreen) {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 
 .navbarActions {
@@ -1051,9 +1058,9 @@ $expandThresholdPadding: 80px;
   position: relative;
   padding: 1em 1.5em 0em 1.5em;
   background: var(--color-neutral-background);
-  box-shadow: 1px 1px 4px 1px rgba(0,0,0,.1);
-  // generated from broider
-  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAK9JREFUOE+9VEkOgCAQk/d68uoDvHryvZoxKSlrioBcIDDTKZ3Frft5L4OXA+h1bO+5dzd+AZBdGKjtCIAzPlN7ByHPlBWAI+5Yotob7D3TEiMGVoIZgUDT+NtK/nIyJclRgHI2nOSE6VdQli/QtAeQtU+yHydDCRQ3UFKnXKutgMU6HcpUYaXYZOtUcSzZQNt/6pQ7RGFd7agpvT9lSvGwHjZPeyc+/P3kVxLSYvMAqAsvlMmv9W0AAAAASUVORK5CYII=") #{7} /  #{7px} / 0 round;
+  //  box-shadow: 1px 1px 4px 1px rgba(0,0,0,.1);
+    // generated from broider
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAK9JREFUOE+9VEkOgCAQk/d68uoDvHryvZoxKSlrioBcIDDTKZ3Frft5L4OXA+h1bO+5dzd+AZBdGKjtCIAzPlN7ByHPlBWAI+5Yotob7D3TEiMGVoIZgUDT+NtK/nIyJclRgHI2nOSE6VdQli/QtAeQtU+yHydDCRQ3UFKnXKutgMU6HcpUYaXYZOtUcSzZQNt/6pQ7RGFd7agpvT9lSvGwHjZPeyc+/P3kVxLSYvMAqAsvlMmv9W0AAAAASUVORK5CYII=") #{7} /  #{7px} / 0 round;
     border-width:  7px;
     border-style:  solid;
 
@@ -1074,6 +1081,10 @@ $expandThresholdPadding: 80px;
   // narrow margin on the first descendant if there's not a full width image
   article > *:not(figure):not(img):first-child {
     margin-top: 6px;
+  }
+
+  @include media(xsmallScreen, smallScreen) {
+    padding: 1em 0.5em 0em 0.5em;
   }
 }
 
