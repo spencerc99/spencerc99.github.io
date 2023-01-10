@@ -13,7 +13,7 @@ $color-external-link: #62b3b2;
 $color-highlight: #fef4ad;
 $color-highlight-dark: #665a02;
 $color-light-peach: #fffcf7;
-$color-light-peach-translucent: rgba(255,252,247, .5);
+$color-light-peach-translucent: rgba(255,252,247, .4);
 $color-dark-blue-grey: rgba(95, 101, 128, 1);
 $color-dark-blue-grey-background: rgba(95, 101, 128, 0.9);
 $color-light-lavender: rgb(250, 248, 254);
@@ -21,7 +21,7 @@ $color-dark-lavender: rgb(57, 56, 60);
 $color-site-background: $color-light-peach;
 $color-site-background-translucent: $color-light-peach-translucent;
 $color-site-background-dark: rgb(28, 22, 8);
-$color-site-background-dark-translucent: rgba(35, 28, 10, .7);
+$color-site-background-dark-translucent: rgba(35, 28, 10, .6);
 $color-background-teal: #f4fdff87;
 $color-background-teal-dark: #353c3d87;
 $color-text-dark: rgb(227, 223, 226);
@@ -571,7 +571,7 @@ button.icon {
 }
 
 .textContent.textContent.textContent {
-  max-width: $viewport-width;
+  max-width: calc(min(#{$viewport-width}, 100vw));
 
   @include media(mediumScreen, largeScreen, xlargeScreen) {
     margin-left: auto !important;
@@ -1059,14 +1059,15 @@ $expandThresholdPadding: 80px;
 }
 
 .postContainer {
+  $border-size: 7px;
   width: 100%;
   position: relative;
   padding: 1em 1.5em 0em 1.5em;
   background: var(--color-neutral-background-translucent);
   box-shadow: 1px 1px 4px 1px rgba(0,0,0,.1);
   // generated from broider
-  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAK9JREFUOE+9VEkOgCAQk/d68uoDvHryvZoxKSlrioBcIDDTKZ3Frft5L4OXA+h1bO+5dzd+AZBdGKjtCIAzPlN7ByHPlBWAI+5Yotob7D3TEiMGVoIZgUDT+NtK/nIyJclRgHI2nOSE6VdQli/QtAeQtU+yHydDCRQ3UFKnXKutgMU6HcpUYaXYZOtUcSzZQNt/6pQ7RGFd7agpvT9lSvGwHjZPeyc+/P3kVxLSYvMAqAsvlMmv9W0AAAAASUVORK5CYII=") #{7} /  #{7px} / 0 round;
-  border-width:  7px;
+  border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAK9JREFUOE+9VEkOgCAQk/d68uoDvHryvZoxKSlrioBcIDDTKZ3Frft5L4OXA+h1bO+5dzd+AZBdGKjtCIAzPlN7ByHPlBWAI+5Yotob7D3TEiMGVoIZgUDT+NtK/nIyJclRgHI2nOSE6VdQli/QtAeQtU+yHydDCRQ3UFKnXKutgMU6HcpUYaXYZOtUcSzZQNt/6pQ7RGFd7agpvT9lSvGwHjZPeyc+/P3kVxLSYvMAqAsvlMmv9W0AAAAASUVORK5CYII=") #{7} /  #{$border-size} / 0 round;
+  border-width:  $border-size;
   border-style:  solid;
   overflow-x: hidden;
 
@@ -1091,6 +1092,8 @@ $expandThresholdPadding: 80px;
 
   @include media(xsmallScreen, smallScreen) {
     padding: 1em 0.5em 0em 0.5em;
+    // This handles huge embeds and takes into account the padding above and the border above
+    max-width: calc(100vw - 1em - #{$border-size} * 2) !important;
   }
 }
 
@@ -1342,6 +1345,7 @@ i.uis.uis-star {
       display: flex;
       flex-direction: column;
       align-items: center;
+      max-width: 100%;
     }
 
     img:not(.galleryImage), video {
