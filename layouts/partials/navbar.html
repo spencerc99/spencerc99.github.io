@@ -1,19 +1,26 @@
 <!-- Handle showing active navbar -->
 <script>
     document.addEventListener("DOMContentLoaded", function(event) {
-      /* 
-        - Code to execute when only the HTML document is loaded.
-        - This doesn't wait for stylesheets, 
-          images, and subframes to finish loading. 
-      */
-       const navActions = document.querySelector(".navbarActions").children
-    for (const nav of navActions) {
-        if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
-            nav.className = 'active'
-        } else {
-            nav.className = '';
-        }
+    /* 
+      - Code to execute when only the HTML document is loaded.
+      - This doesn't wait for stylesheets, 
+        images, and subframes to finish loading. 
+    */
+   if (!document.querySelector('.navbarActions')) {
+    return;
+   }
+  const navActions = document.querySelector(".navbarActions").children
+  for (const nav of navActions) {
+    if (!nav.attributes['href']) {
+      continue;
     }
+    
+    if (window.location.href.indexOf(nav.attributes['href'].value) > -1) {
+        nav.className = 'active'
+    } else {
+        nav.className = '';
+    }
+  }
   });
 </script>
 
