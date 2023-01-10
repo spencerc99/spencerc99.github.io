@@ -42,7 +42,7 @@
 <script src=https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin=anonymous referrerpolicy=no-referrer></script>
 </head>
 <body>
-<script>document.addEventListener("DOMContentLoaded",function(b){const a=document.querySelector(".navbarActions").children;for(const b of a)window.location.href.indexOf(b.attributes.href.value)>-1?b.className='active':b.className=''})</script>
+<script>document.addEventListener("DOMContentLoaded",function(b){if(!document.querySelector('.navbarActions'))return;const a=document.querySelector(".navbarActions").children;for(const b of a){if(!b.attributes.href)continue;window.location.href.indexOf(b.attributes.href.value)>-1?b.className='active':b.className=''}})</script>
 <nav id=navbar>
 <div class=navbarContainer>
 <a href=/ class=avatarLink>
