@@ -1,8 +1,8 @@
 ---
 title: "learning to move on"
 date: "2023-01-23"
-draft: true
 hidden: true
+draft: true
 storyType: mono
 ---
 
