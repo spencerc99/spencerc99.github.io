@@ -17,7 +17,7 @@
     {{ $defaultThumbnail := "/assets/companion-in-a-box-final.png" | absURL }}
     <meta property="og:image" content="{{ with .Params.image }}{{ . | absURL }}{{ else }}{{$defaultThumbnail}}{{ end }}" />
     <!-- Don't index draft posts -->
-    {{ if .Params.draft }}
+    {{ if or .Params.draft .Params.hidden }}
         <meta name="robots" content="noindex">
     {{ end }}
     
