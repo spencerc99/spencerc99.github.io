@@ -4,6 +4,7 @@ date: "2023-01-23"
 hidden: true
 draft: true
 storyType: mono
+emojis: [🌪️]
 ---
 
 dear reader,
