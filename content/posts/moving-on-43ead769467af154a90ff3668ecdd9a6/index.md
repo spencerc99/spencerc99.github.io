@@ -1,5 +1,5 @@
 ---
-title: "learning to move on"
+title: "moving on"
 date: "2023-01-23"
 hidden: true
 draft: true
@@ -9,7 +9,7 @@ emojis: [🌪️]
 
 dear reader,
 
-if you’re receiving this it means that i wanted to share some news with you because i trust you to hold space for it the way i would want it to be held and received. this is not edited and very raw, so forgive any hanging thoughts or otherwise. please don't share the link without permission. 
+if you’re receiving this it means that i wanted to share some recent personal news with you because i trust you to hold space for it the way i would wish if we were in person together. this is not edited and very raw, so forgive any hanging thoughts or otherwise, and please don't share the link without permission! 
 
 last wednesday I was laid off from coda as the company cut 19% of employees. Just writing those words makes me feel guilty and shameful. To my friends who know this experience personally, I am sorry for not understanding when you shared the news. To others who have had the fortune not to experience this, I don't ever wish this upon you. 
 
@@ -62,3 +62,6 @@ I want to write pieces that act as instruction manuals for my past self, looking
 I want to make software a medium for communal world-building, meaning-making, and beauty-sharing.
 
 I'm making myself a lot more open in this period of exploration, hoping to keep solid chunks of time for talking to people and being exposed to new ideas and life forces. I am happy to catch up and conspire together :)
+
+with a returning abundance of love,
+spencer
