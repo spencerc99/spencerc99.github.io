@@ -76,7 +76,7 @@
 </div>
 <h1 class=title>learning to move on
 <div class="emojiContainer inline"><button id=emoji onclick=updateEmoji()></button></div>
-<script>const defaultEmojis=['🎋','🍂','🌑','🪸','🌀'],inputEmojis=null,shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
+<script>const defaultEmojis=['🎋','🍂','🌑','🪸','🌀'],inputEmojis=["🌪️"],shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
 </h1>
 <h3 class=description></h3>
 <div>
