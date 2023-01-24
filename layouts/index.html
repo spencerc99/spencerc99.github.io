@@ -227,6 +227,7 @@ onClickMore();
     <div class="recentReleases hidden">
       <div class="postsList">
         {{ $recentCands := .Site.RegularPages.ByDate.Reverse }}
+        {{ $recentCands = where $recentCands "Draft" "==" false }}
         {{ range first 10 $recentCands  }}
           {{ .Render "compact_summary" }} 
         {{ end }}
@@ -251,6 +252,7 @@ onClickMore();
         <div class="postsList">
         {{ $favorite := slice "favorite" }}
         {{ $favorites := (where .Site.RegularPages "Params.tags" "intersect" $favorite) | complement $projects }}
+        {{ $favorites = where $favorites "Draft" "==" false }}
         {{ $intersectedWriting := $favorites}}        
         {{ range first 7 ($favorites | append $intersectedWriting)  }}
           {{ .Render "compact_summary" }} 

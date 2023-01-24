@@ -12,6 +12,7 @@
 <div class="summaryList" id="summaryList">
     <!-- {{ partial "legend.html" }} -->
   {{ $pages := where .Site.RegularPages "Type" "posts" }}
+  {{ $pages = where $pages "Draft" "==" false }}
   {{ $newsletter := slice "newsletter" }}
   {{ $newsletterPages := where .Site.RegularPages "Params.tags" "intersect" $newsletter }}
   {{ $pages = $pages | union $newsletterPages }}
