@@ -72,7 +72,7 @@ hi! i'm spencer
 <script>const defaultEmojis=['🎋','🍂','🌑','🪸','🌀'],inputEmojis=null,shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
 </h1>
 <div class=description>
-<p><i>creative technologist, developer of poetics, dream researcher</i><br>last in <a href=/window>Oakland, CA, US 🌔</a></p>
+<p><i>creative technologist, developer of poetics, dream researcher</i><br>last in <a href=/window>Oakland, CA, US ☀️</a></p>
 <p>
 <details>
 <summary>Dreaming, wandering, laughing, and thinking about...</summary>
@@ -846,17 +846,17 @@ Check out <a href=/posts>all 162 posts</a>.
 <div class=marquee title="this is a set of live attributes from what I consume and make streamed to this little status bar. The numbers represent Spencer epoch time, a play on UNIX epoch.">
 <span class=marqueeContent>
 [<span class=date><span class=timestamp>01.16|21:09</span><span class=epoch>813291295</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/boring-lives>boring lives</a> •
-[<span class=date><span class=timestamp>01.24|00:09</span><span class=epoch>813906773</span></span>] 🎧 <a href=https://open.spotify.com/track/1iNhNmEwrd2TP4XrV7pQBI>星座になれたら</a> •
+[<span class=date><span class=timestamp>01.31|02:09</span><span class=epoch>814517112</span></span>] 🎧 <a href=https://open.spotify.com/track/1tCMbFn0uTiIqBqIdZ0cES>What's On Ur Mind</a> •
 [<span class=date><span class=timestamp>10.30|07:09</span><span class=epoch>806502420</span></span>] 📿 “I start every day with two empty hands” •
-[<span class=date><span class=timestamp>01.11|01:09</span><span class=epoch>812786915</span></span>] 🔨 <a href=https://github.com/spencerc99/spencer-net-shots>spencer-net-shots</a> •
+[<span class=date><span class=timestamp>01.31|01:09</span><span class=epoch>814512909</span></span>] 🔨 <a href=https://github.com/spencerc99/persistent-peer>persistent-peer</a> •
 [<span class=date><span class=timestamp>10.13|05:09</span><span class=epoch>805029828</span></span>] 📖 <a href=https://goodreads.com/book/show/53531343-everything-she-touched>Everything She Touched: Life of Ruth Asawa</a> •
-[<span class=date><span class=timestamp>01.17|00:09</span><span class=epoch>813302792</span></span>] 🏃‍♂️ <a href=https://www.strava.com/activities/>the sun is alive!: 3.8km</a> •
+[<span class=date><span class=timestamp>01.26|01:09</span><span class=epoch>814082375</span></span>] 🏃‍♂️ <a href=https://www.strava.com/activities/>feeling good, feeling free: 4.4km</a> •
 [<span class=date><span class=timestamp>01.16|21:09</span><span class=epoch>813291295</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/boring-lives>boring lives</a> •
-[<span class=date><span class=timestamp>01.24|00:09</span><span class=epoch>813906773</span></span>] 🎧 <a href=https://open.spotify.com/track/1iNhNmEwrd2TP4XrV7pQBI>星座になれたら</a> •
+[<span class=date><span class=timestamp>01.31|02:09</span><span class=epoch>814517112</span></span>] 🎧 <a href=https://open.spotify.com/track/1tCMbFn0uTiIqBqIdZ0cES>What's On Ur Mind</a> •
 [<span class=date><span class=timestamp>10.30|07:09</span><span class=epoch>806502420</span></span>] 📿 “I start every day with two empty hands” •
-[<span class=date><span class=timestamp>01.11|01:09</span><span class=epoch>812786915</span></span>] 🔨 <a href=https://github.com/spencerc99/spencer-net-shots>spencer-net-shots</a> •
+[<span class=date><span class=timestamp>01.31|01:09</span><span class=epoch>814512909</span></span>] 🔨 <a href=https://github.com/spencerc99/persistent-peer>persistent-peer</a> •
 [<span class=date><span class=timestamp>10.13|05:09</span><span class=epoch>805029828</span></span>] 📖 <a href=https://goodreads.com/book/show/53531343-everything-she-touched>Everything She Touched: Life of Ruth Asawa</a> •
-[<span class=date><span class=timestamp>01.17|00:09</span><span class=epoch>813302792</span></span>] 🏃‍♂️ <a href=https://www.strava.com/activities/>the sun is alive!: 3.8km</a> •
+[<span class=date><span class=timestamp>01.26|01:09</span><span class=epoch>814082375</span></span>] 🏃‍♂️ <a href=https://www.strava.com/activities/>feeling good, feeling free: 4.4km</a> •
 </span>
 </div>
 <script>let summaryIdx=0;const listElement=document.querySelector('.tabContent'),items=listElement.children,tabs=document.querySelector('.tabs').children,total=items.length;if("ontouchstart"in document.documentElement){const a=new Hammer(listElement,{recognizers:[[Hammer.Swipe,{direction:Hammer.DIRECTION_HORIZONTAL}]]});a.on("swipeleft",()=>{navForward()}),a.on("swiperight",()=>{navBackward()})}const navForward=()=>{hideEleAtIdx(),summaryIdx=(summaryIdx+1)%total,renderEleAtIdx()},navBackward=()=>{hideEleAtIdx(),summaryIdx=summaryIdx===0?total-1:(summaryIdx-1)%total,renderEleAtIdx()},hideEleAtIdx=()=>{items[summaryIdx].classList.add('hidden'),tabs[summaryIdx].classList.remove('active')},renderEleAtIdx=()=>{items[summaryIdx].classList.remove('hidden'),tabs[summaryIdx].classList.add('active')},setTab=a=>{hideEleAtIdx(summaryIdx),summaryIdx=a,renderEleAtIdx(summaryIdx)};renderEleAtIdx(summaryIdx)</script>
