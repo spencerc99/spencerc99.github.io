@@ -2,7 +2,7 @@
 
 title: "creative seeing"
 
-description: ""how do you get to be so creative anyway?""
+description: '"how do you get to be so creative anyway?"'
 
 date: "2023-02-02"
 
