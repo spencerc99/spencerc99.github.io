@@ -72,7 +72,7 @@ hi! i'm spencer
 <script>const defaultEmojis=['🎋','🍂','🌑','🪸','🌀'],inputEmojis=null,shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
 </h1>
 <div class=description>
-<p><i>creative technologist, developer of poetics, dream researcher</i><br>last in <a href=/window>San Francisco, CA, US ☁️</a></p>
+<p><i>creative technologist, developer of poetics, dream researcher</i><br>last in <a href=/window>San Francisco, CA, US ☀️</a></p>
 <p>
 <details>
 <summary>Dreaming, wandering, laughing, and thinking about...</summary>
@@ -97,8 +97,8 @@ hi! i'm spencer
 <p id=expandingWork></p>
 <script>const workDescription=`
 - I spend my days
-- <a href="https://spencerchang.substack.com/p/towards-flight">imagining futures</a> of computing rooted in communal agency,
-  - <a href="https://spencerchang.substack.com/p/towards-flight">imagining futures</a> of computing rooted in communal agency—
+- imagining communal <a href="https://spencerchang.substack.com/p/towards-flight">futures of computing</a>,
+  - imagining communal <a href="https://spencerchang.substack.com/p/towards-flight">futures of computing</a>
   - the kind with new ways for <a href="https://spencerchang.substack.com/p/ti-01-our-internet">making space</a> on the internet, 
     - the kind with new ways for <a href="https://spencerchang.substack.com/p/ti-01-our-internet">making space</a> and relating to each other on the internet,
   - and community-owned, <a href="https://twitter.com/spencerc99/status/1619086724231208961?s=20">small-scale</a> infrastructure.
@@ -113,10 +113,11 @@ hi! i'm spencer
     - playful, open
       - playful, open, and empowering
   - software (like this <a href="poems.verses.xyz">expanding poems library</a> and <a href="/pacman-poem">pacman poem</a>).
+- Some other explorations that don't quite fit into these boxes include baristaing, <a href="https://twitter.com/MatthewWSiu/status/1623910442921000961?s=20">site-specific digital media installations</a>, and wearable ritual makers.
 - Before, I crafted
-- tools for tinkers at <a id="coda" href="https://coda.io">Coda</a>,
-  - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and helped extend the <a href="https://coda.io/packs">Packs platform</a>),
-    - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and helped extend the <a href="https://coda.io/packs">Packs platform</a> so that anyone can extend Coda's capabilities, maintaining an <a href="https://github.com/coda/packs-sdk">open-source SDK</a>),
+- tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> for several years.
+  - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> for several years (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and helped extend the <a href="https://coda.io/packs">Packs platform</a>).
+    - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> for several years (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and helped extend the <a href="https://coda.io/packs">Packs platform</a> so that anyone can extend Coda's capabilities, maintaining an <a href="https://github.com/coda/packs-sdk">open-source SDK</a>).
 `;let node=createTelescopicTextFromBulletedList(workDescription,{textMode:TextMode.Html});const container=document.getElementById("expandingWork");container.appendChild(node)</script>
 <p id=expandingLikes></p>
 <script>let likes=[['writing'],['reading'],['eating'],['dressing up'],['dancing'],['paying attention'],['wondering'],['wandering'],['daydreaming'],['capturing moments'],['being in nature'],['loving people'],['sipping water'],['loving life'],['cracking my joints'],['watermelon on a hot day'],['recognizing constellations'],['the city skyline at night'],['uncontrollable crying'],['creating magic'],['experimenting'],['speculative infrastructure'],['computational poetry'],['creative technology'],['agencyful computation'],['alternative futures'],['playful tools'],['evocative writing'],['imaginative fiction'],['tools for wonder'],['everyday beauty'],['accessible magic'],['cybernetic ecology'],['pluriversality'],['rain drops rolling down the side of a window'],["a large scarf that covers your face when it's cold outside"],['warm pockets'],['tender hugs'],['lingering tastes'],['warm lighting'],['fantasizing being a blade of grass in a Hayao Miyazaki film'],['stardust and shoreless seeds'],['unexpected light'],['unexpected mediums'],['folk practices'],['daily rituals'],['dreaming'],["art that doesn't take itself too seriously"],["creating things"],["making new stuff from old stuff"],["laughing with friends"],["sharing food"],["hole-in-the-walls"],["complimenting people on their outfits"],["getting complimented on my outfit"],["receiving a reply on my newsletter"],["receiving an email from a visitor to my site"],["a full water bottle"],["sufficiently chapsticked lips"],["worn books"],["marginalia"],["soulful things"],["people who look at the world"],["walking aimlessly"],["running under 6 miles in nice weather"],["taking care of things"],["cultivating life"],["naming"],["sitting with the unknown"],["laying under the stars"],["watching meteor showers"],["making things up and committing to the bit"]];const enjoyPrompt=`<a href="https://coda.io/form/spencers-enjoy-list_dGFsXoodVB1">what do you think I'll like?</a>`;likes=likes.sort(()=>Math.random()-.5),likes.splice(4,0,[enjoyPrompt]);let likeExpandedIdx=0;function createLikeNode(b){const a=document.createElement("span");return a.classList.add('likeItem'),a.innerHTML=`${b}`,likeExpandedIdx<likes.length-1&&(a.innerHTML+=', '),likeExpandedIdx===likes.length-2&&(a.innerHTML+='and '),a}const likesNode=document.createElement("div");likesNode.id='telescope';const onMoreNode=document.createElement("div");onMoreNode.style="display: inline-block;",onMoreNode.setAttribute('role','button'),onMoreNode.setAttribute('tabindex','0'),onMoreNode.setAttribute('title','click me to see more! try tabbing to me and using enter or space to go even faster!'),onMoreNode.innerHTML='and...',onMoreNode.addEventListener('click',onClickMore),onMoreNode.addEventListener('keydown',onKeyDown);const likesContainer=document.getElementById("expandingLikes");likesContainer.appendChild(likesNode),likesNode.appendChild(document.createTextNode('A non-exhaustive list of the things I enjoy:')),likesNode.appendChild(document.createElement("br")),likesNode.appendChild(onMoreNode),onMoreNode.classList.add("details"),onMoreNode.classList.add("close");function onKeyDown(a){(event.key==='Enter'||event.key===' ')&&(onClickMore(),a.preventDefault())}function onClickMore(){const a=createLikeNode(likes[likeExpandedIdx]);if(likesNode.insertBefore(a,onMoreNode),likeExpandedIdx++,likeExpandedIdx===likes.length){onMoreNode.remove();return}}onClickMore()</script>
@@ -843,16 +844,16 @@ Check out <a href=/posts>all 164 posts</a>.
 </div>
 <div class=marquee title="this is a set of live attributes from what I consume and make streamed to this little status bar. The numbers represent Spencer epoch time, a play on UNIX epoch.">
 <span class=marqueeContent>
-[<span class=date><span class=timestamp>02.02|18:09</span><span class=epoch>814749543</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/creative-seeing>creative seeing</a> •
-[<span class=date><span class=timestamp>02.10|08:09</span><span class=epoch>815404570</span></span>] 🎧 <a href=https://open.spotify.com/track/5lylxsh8w7J21NuGhLruUL>Haar over Hamnavoe - Bill Ryder-Jones Rework</a> •
+[<span class=date><span class=timestamp>02.10|18:09</span><span class=epoch>815439194</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/towards-flight>towards flight: a new chapter</a> •
+[<span class=date><span class=timestamp>02.14|23:09</span><span class=epoch>815803084</span></span>] 🎧 <a href=https://open.spotify.com/track/78Sw5GDo6AlGwTwanjXbGh>Here With Me</a> •
 [<span class=date><span class=timestamp>10.30|07:09</span><span class=epoch>806502420</span></span>] 📿 “I start every day with two empty hands” •
-[<span class=date><span class=timestamp>01.07|16:09</span><span class=epoch>812496354</span></span>] 🔨 <a href=https://github.com/spencerc99/spencerc99.github.io>spencerc99.github.io</a> •
+[<span class=date><span class=timestamp>01.31|20:09</span><span class=epoch>814582695</span></span>] 🔨 <a href=https://github.com/spencerc99/spencer-net-shots>spencer-net-shots</a> •
 [<span class=date><span class=timestamp>10.13|05:09</span><span class=epoch>805029828</span></span>] 📖 <a href=https://goodreads.com/book/show/53531343-everything-she-touched>Everything She Touched: Life of Ruth Asawa</a> •
 [<span class=date><span class=timestamp>02.08|17:09</span><span class=epoch>815261906</span></span>] 🚲 <a href=https://www.strava.com/activities/>arsicault WAS CLOSED: 9.2km</a> •
-[<span class=date><span class=timestamp>02.02|18:09</span><span class=epoch>814749543</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/creative-seeing>creative seeing</a> •
-[<span class=date><span class=timestamp>02.10|08:09</span><span class=epoch>815404570</span></span>] 🎧 <a href=https://open.spotify.com/track/5lylxsh8w7J21NuGhLruUL>Haar over Hamnavoe - Bill Ryder-Jones Rework</a> •
+[<span class=date><span class=timestamp>02.10|18:09</span><span class=epoch>815439194</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/towards-flight>towards flight: a new chapter</a> •
+[<span class=date><span class=timestamp>02.14|23:09</span><span class=epoch>815803084</span></span>] 🎧 <a href=https://open.spotify.com/track/78Sw5GDo6AlGwTwanjXbGh>Here With Me</a> •
 [<span class=date><span class=timestamp>10.30|07:09</span><span class=epoch>806502420</span></span>] 📿 “I start every day with two empty hands” •
-[<span class=date><span class=timestamp>01.07|16:09</span><span class=epoch>812496354</span></span>] 🔨 <a href=https://github.com/spencerc99/spencerc99.github.io>spencerc99.github.io</a> •
+[<span class=date><span class=timestamp>01.31|20:09</span><span class=epoch>814582695</span></span>] 🔨 <a href=https://github.com/spencerc99/spencer-net-shots>spencer-net-shots</a> •
 [<span class=date><span class=timestamp>10.13|05:09</span><span class=epoch>805029828</span></span>] 📖 <a href=https://goodreads.com/book/show/53531343-everything-she-touched>Everything She Touched: Life of Ruth Asawa</a> •
 [<span class=date><span class=timestamp>02.08|17:09</span><span class=epoch>815261906</span></span>] 🚲 <a href=https://www.strava.com/activities/>arsicault WAS CLOSED: 9.2km</a> •
 </span>
