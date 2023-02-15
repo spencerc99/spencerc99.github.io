@@ -7,8 +7,8 @@ description: "Spencer is a creative technologist, researcher, artist, and world 
 <script>
 const workDescription =`
 - I spend my days
-- <a href="https://spencerchang.substack.com/p/towards-flight">imagining futures</a> of computing rooted in communal agency,
-  - <a href="https://spencerchang.substack.com/p/towards-flight">imagining futures</a> of computing rooted in communal agency—
+- imagining communal <a href="https://spencerchang.substack.com/p/towards-flight">futures of computing</a>,
+  - imagining communal <a href="https://spencerchang.substack.com/p/towards-flight">futures of computing</a>
   - the kind with new ways for <a href="https://spencerchang.substack.com/p/ti-01-our-internet">making space</a> on the internet, 
     - the kind with new ways for <a href="https://spencerchang.substack.com/p/ti-01-our-internet">making space</a> and relating to each other on the internet,
   - and community-owned, <a href="https://twitter.com/spencerc99/status/1619086724231208961?s=20">small-scale</a> infrastructure.
@@ -23,10 +23,11 @@ const workDescription =`
     - playful, open
       - playful, open, and empowering
   - software (like this <a href="poems.verses.xyz">expanding poems library</a> and <a href="/pacman-poem">pacman poem</a>).
+- Some other explorations that don't quite fit into these boxes include baristaing, <a href="https://twitter.com/MatthewWSiu/status/1623910442921000961?s=20">site-specific digital media installations</a>, and wearable ritual makers.
 - Before, I crafted
-- tools for tinkers at <a id="coda" href="https://coda.io">Coda</a>,
-  - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and helped extend the <a href="https://coda.io/packs">Packs platform</a>),
-    - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and helped extend the <a href="https://coda.io/packs">Packs platform</a> so that anyone can extend Coda's capabilities, maintaining an <a href="https://github.com/coda/packs-sdk">open-source SDK</a>),
+- tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> for several years.
+  - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> for several years (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and helped extend the <a href="https://coda.io/packs">Packs platform</a>).
+    - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> for several years (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and helped extend the <a href="https://coda.io/packs">Packs platform</a> so that anyone can extend Coda's capabilities, maintaining an <a href="https://github.com/coda/packs-sdk">open-source SDK</a>).
 `;
 let node = createTelescopicTextFromBulletedList(workDescription, {textMode: TextMode.Html});
 const container = document.getElementById("expandingWork")
