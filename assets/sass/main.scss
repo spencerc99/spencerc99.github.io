@@ -344,14 +344,15 @@ body {
 
 #background {
   background-color: $color-site-background;
-  background-image: url(/assets/lichen-blue.svg);
-  background-size: 250px;
+  background-image: url(/assets/lichen-blue-small.svg);
+  background-size: 300px;
   width: 100vw;
   height: 100vh;
   position: fixed;
   z-index: -1;
-  opacity: .13;
+  opacity: 0.25;
   pointer-events: none;
+  background-repeat: repeat;
 }
 
 ::selection {
