@@ -124,7 +124,7 @@ let likes = [
 const enjoyPrompt = `<a href="https://coda.io/form/spencers-enjoy-list_dGFsXoodVB1">what do you think I'll like?</a>`;
 // randomize likes
 likes = likes.sort(() => Math.random() - 0.5);
-likes.splice(4, 0, [enjoyPrompt]);
+likes.splice(12, 0, [enjoyPrompt]);
 let likeExpandedIdx = 0;
 
 function createLikeNode(like) {
