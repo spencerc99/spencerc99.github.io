@@ -11,5 +11,5 @@ image: "https://substackcdn.com/image/fetch/w_1200,h_600,c_limit,f_jpg,q_auto:go
 tags: [newsletter]
 
 external_link: "https://spencerchang.substack.com/p/towards-flight"
-
+weight: 5
 ---
