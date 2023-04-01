@@ -3,7 +3,7 @@ import click
 from osxphotos import PhotoInfo, ExportResults
 import json
 import os
-from append_fit_tweet import post_fit_to_twitter
+# from append_fit_tweet import post_fit_to_twitter
 from PIL import Image, ImageOps
 
 FITS_EXPORT_PATH_NAME = './fits-export/'
@@ -97,9 +97,9 @@ def post_function(
         verbose("writing out to JSON")
         f.write(json.dumps(fit_data, indent = 4))
 
-    if SHOULD_POST_TO_TWITTER and inserted_new_fit and click.confirm(f'\nPost new fit ({photo_date}) to twitter?'):
-        verbose(f"Posting new fit ({photo_date}) to twitter")
-        post_fit_to_twitter(results.exported[0], photo_date, description=photo.description)
+    # if SHOULD_POST_TO_TWITTER and inserted_new_fit and click.confirm(f'\nPost new fit ({photo_date}) to twitter?'):
+    #     verbose(f"Posting new fit ({photo_date}) to twitter")
+    #     post_fit_to_twitter(results.exported[0], photo_date, description=photo.description)
 
 # rewrite the file
 # fit_data = None
