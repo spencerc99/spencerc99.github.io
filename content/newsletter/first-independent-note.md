@@ -13,3 +13,5 @@ tags: [newsletter]
 external_link: "https://spencerchang.substack.com/p/ti-02-first-independent-note"
 
 ---
+
+
