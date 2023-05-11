@@ -2,6 +2,588 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-24%3AIMG_2247.jpeg",
+            "date": "2023-04-24",
+            "timestamp": 1682296995.357,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Shibuya, Tokyo, Japan",
+            "city": "Shibuya",
+            "country": "Japan",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-25%3AIMG_2504.jpeg",
+            "date": "2023-04-25",
+            "timestamp": 1682413264.42,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Suginami, Tokyo, Japan",
+            "city": "Suginami",
+            "country": "Japan",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Consumer Electronics",
+                "Door",
+                "Jeans",
+                "Machine",
+                "People",
+                "Recreation"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Dining",
+                "Lunch",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Caf\u00e9",
+                "Family Restaurant",
+                "Japanese Cuisine",
+                "Restaurant"
+            ]
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-23%3AIMG_2187.jpeg",
+            "date": "2023-04-23",
+            "timestamp": 1682225563.083,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Shibuya, Tokyo, Japan",
+            "city": "Shibuya",
+            "country": "Japan",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Footwear",
+                "Interior Room",
+                "People",
+                "Shoes"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-30%3AIMG_3067.jpeg",
+            "date": "2023-04-30",
+            "timestamp": 1682831861.215,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Fushimi, Kyoto, Kyoto, Japan",
+            "city": "Fushimi, Kyoto",
+            "country": "Japan",
+            "peopleCount": 1,
+            "labels": [
+                "Bathroom",
+                "Bathroom Faucet",
+                "Interior Room",
+                "People",
+                "Washbasin"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-05-02%3AIMG_3304.jpeg",
+            "date": "2023-05-02",
+            "timestamp": 1683049541.155,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco International Airport, South San Francisco, California, United States",
+            "city": "South San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "Elevator",
+                "Jacket",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-17%3AIMG_1540.jpeg",
+            "date": "2023-04-17",
+            "timestamp": 1681719946.163,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Wanhua District, Taiwan",
+            "city": "Wanhua District",
+            "country": "Taiwan",
+            "peopleCount": 1,
+            "labels": [
+                "Automobile",
+                "Blue Sky",
+                "Building",
+                "Car",
+                "Clothing",
+                "Jeans",
+                "Land",
+                "Machine",
+                "Outdoor",
+                "Path",
+                "People",
+                "Road",
+                "Sidewalk",
+                "Sky",
+                "Vehicle"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-05-05%3AIMG_3354.jpeg",
+            "date": "2023-05-05",
+            "timestamp": 1683313912.413,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Art",
+                "Baseball Hat",
+                "Bed",
+                "Bedding",
+                "Bedroom",
+                "Boot",
+                "Closet",
+                "Clothing",
+                "Footwear",
+                "Furniture",
+                "Hat",
+                "Headgear",
+                "Housewares",
+                "Interior Room",
+                "People",
+                "Shoes"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-26%3AIMG_2613.jpeg",
+            "date": "2023-04-26",
+            "timestamp": 1682506848.295,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Shinjuku, Tokyo, Japan",
+            "city": "Shinjuku",
+            "country": "Japan",
+            "peopleCount": 2,
+            "labels": [
+                "Baseball Hat",
+                "Clothing",
+                "Footwear",
+                "Hat",
+                "Headgear",
+                "Interior Room",
+                "Jacket",
+                "People",
+                "Shoes"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-27%3AIMG_2635.jpeg",
+            "date": "2023-04-27",
+            "timestamp": 1682558281.188,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "Shibuya, Tokyo, Japan",
+            "city": "Shibuya",
+            "country": "Japan",
+            "peopleCount": 1,
+            "labels": [
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-24%3AIMG_2329.jpeg",
+            "date": "2023-04-24",
+            "timestamp": 1682343437.831,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Shibuya, Tokyo, Japan",
+            "city": "Shibuya",
+            "country": "Japan",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Footwear",
+                "People",
+                "Shoes"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-16%3AIMG_1466.jpeg",
+            "date": "2023-04-16",
+            "timestamp": 1681659294.624,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Shilin Night Market, Shihlin District, Taiwan",
+            "city": "Shihlin District",
+            "country": "Taiwan",
+            "peopleCount": 1,
+            "labels": [
+                "Baseball Hat",
+                "Clothing",
+                "Hat",
+                "Headgear",
+                "Interior Room",
+                "Interior Shop",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-24%3AIMG_2279.jpeg",
+            "date": "2023-04-24",
+            "timestamp": 1682319406.033,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Shibuya, Tokyo, Japan",
+            "city": "Shibuya",
+            "country": "Japan",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-16%3AIMG_1458.jpeg",
+            "date": "2023-04-16",
+            "timestamp": 1681658836.153,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Shilin Night Market, Shihlin District, Taiwan",
+            "city": "Shihlin District",
+            "country": "Taiwan",
+            "peopleCount": 1,
+            "labels": [
+                "Alley",
+                "Bag",
+                "Building",
+                "Container",
+                "Land",
+                "Luggage",
+                "Outdoor",
+                "Path",
+                "People",
+                "Road Safety Equipment",
+                "Sidewalk"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-12%3AIMG_0838.jpeg",
+            "date": "2023-04-12",
+            "timestamp": 1681289053.388,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Taipei Fine Arts Museum, Jhongshan District, Taiwan",
+            "city": "Jhongshan District",
+            "country": "Taiwan",
+            "peopleCount": 1,
+            "labels": [
+                "Baseball Hat",
+                "Clothing",
+                "Door",
+                "Footwear",
+                "Hat",
+                "Headgear",
+                "People",
+                "Shoes",
+                "Sneaker"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-05-06%3AIMG_3387.jpeg",
+            "date": "2023-05-06",
+            "timestamp": 1683413324.312,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Art",
+                "Closet",
+                "Clothing",
+                "Footwear",
+                "Furniture",
+                "Interior Room",
+                "Jeans",
+                "People",
+                "Shoes",
+                "Sneaker"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": [
+                "Bookstore",
+                "Media Service",
+                "Shopping"
+            ]
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-09%3AIMG_0392.jpeg",
+            "date": "2023-04-09",
+            "timestamp": 1680984279.54,
+            "width": 3024,
+            "height": 4032,
+            "favorite": true,
+            "place": "Daan District, Taiwan",
+            "city": "Daan District",
+            "country": "Taiwan",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Elevator",
+                "Jeans",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-28%3AIMG_2893.jpeg",
+            "date": "2023-04-28",
+            "timestamp": 1682676367.942,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Higashiyama, Kyoto, Kyoto, Japan",
+            "city": "Higashiyama, Kyoto",
+            "country": "Japan",
+            "peopleCount": 1,
+            "labels": [
+                "Alley",
+                "Blue Sky",
+                "Clothing",
+                "Footwear",
+                "Jacket",
+                "Land",
+                "Outdoor",
+                "Path",
+                "People",
+                "Shoes",
+                "Sidewalk",
+                "Sky"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-14%3AIMG_1089.jpeg",
+            "date": "2023-04-14",
+            "timestamp": 1681482224.009,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Daan District, Taiwan",
+            "city": "Daan District",
+            "country": "Taiwan",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-05-03%3AIMG_3336.jpeg",
+            "date": "2023-05-03",
+            "timestamp": 1683153256.005,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Art",
+                "Container",
+                "Frame",
+                "Furniture",
+                "Interior Room",
+                "People",
+                "Plant",
+                "Vase"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": [
+                "Bookstore",
+                "Media Service",
+                "Shopping"
+            ]
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-04-25%3AIMG_2486.jpeg",
+            "date": "2023-04-25",
+            "timestamp": 1682405238.294,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Museum of Contemporary Art Tokyo, Koto, Tokyo, Japan",
+            "city": "Koto",
+            "country": "Japan",
+            "peopleCount": 1,
+            "labels": [
+                "Camera",
+                "Clothing",
+                "Jeans",
+                "People",
+                "Recreation"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Dining",
+                "Lunch",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Caf\u00e9",
+                "Family Restaurant",
+                "Japanese Cuisine",
+                "Restaurant"
+            ]
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-03-30%3AIMG_9705.jpeg",
             "date": "2023-03-30",
             "timestamp": 1680192329.269,
