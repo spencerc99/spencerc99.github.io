@@ -73,7 +73,7 @@
 </div>
 <div class=mainContainer>
 <div class="listDescription textContent">
-<script>const newsletterFeedUrl='https://spencerchang.substack.com/feed';fetch(`http://api.rss2json.com/v1/api.json?rss_url=${newsletterFeedUrl}`).then(a=>a.json()).then(a=>{document.querySelector('#latestRedirect').setAttribute('href',a.items[0].link),window.location.replace(a.items[0].link)})</script>
+<script>const newsletterFeedUrl='https://spencerchang.substack.com/feed';fetch(`https://api.rss2json.com/v1/api.json?rss_url=${newsletterFeedUrl}`).then(a=>a.json()).then(a=>{document.querySelector('#latestRedirect').setAttribute('href',a.items[0].link),window.location.replace(a.items[0].link)})</script>
 <p>
 you should be redirected soon, but if not head <a id=latestRedirect href>here</a>
 </p>
