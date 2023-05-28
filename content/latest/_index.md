@@ -8,6 +8,14 @@ title: "latest from spencer"
     fetch(`http://api.rss2json.com/v1/api.json?rss_url=${newsletterFeedUrl}`)
         .then(response => {
              return response.json();})
-        .then(data => {window.location.replace(data.items[0].link)});
+        .then(data => {
+            document.querySelector('#latestRedirect').setAttribute('href', data.items[0].link);
+            window.location.replace(data.items[0].link)
+        });
+
 </script>
 
+
+<p>
+you should be redirected soon, but if not head <a id="latestRedirect" href="">here</a>
+</p>
