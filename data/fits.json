@@ -2,6 +2,32 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-05-28%3AIMG_3920.jpeg",
+            "date": "2023-05-28",
+            "timestamp": 1685303803.698,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Art",
+                "Frame",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": [
+                "Bookstore",
+                "Media Service",
+                "Shopping"
+            ]
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-05-19%3AIMG_3650.jpeg",
             "date": "2023-05-19",
             "timestamp": 1684535975.681,
