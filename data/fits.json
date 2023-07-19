@@ -2,6 +2,47 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-07-09%3AIMG_5260.jpeg",
+            "date": "2023-07-09",
+            "timestamp": 1688945245.918,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-07-08%3AIMG_5244.jpeg",
+            "date": "2023-07-08",
+            "timestamp": 1688858013.035,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "People",
+                "Window"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-07-05%3AIMG_5176.jpeg",
             "date": "2023-07-05",
             "timestamp": 1688592454.948,
