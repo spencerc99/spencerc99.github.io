@@ -7,5 +7,5 @@ external_link: "https://pluriverse.world/"
 related: []
 tags: ['projects', 'software', 'favorite']
 featured: true
-weight: 900
+weight: 10000
 ---
