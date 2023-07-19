@@ -1,0 +1,196 @@
+<!doctype html><html>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>html garden</title>
+<meta name=description content="a seasonal website that honors the humble html element">
+<meta name=keywords content>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.spencerchang.me/projects/html-garden/">
+<meta property="og:title" content="html garden">
+<meta property="og:description" content="a seasonal website that honors the humble html element">
+<meta property="og:image" content="https://codahosted.io/docs/_ObKm8enqO/blobs/bl-ELhFN0CMFg/dcd5aa5151b52c866213ef1e7a15a16307b44937dc540e4a335ee4fb1b1ad6ce15d8a9902e1822b4b03408fdbc5229526becc90de2e19f738b8823852627a2ffc396ef6d5001d081e0a1366e82413c16c37f67bd13ba316e754e4b1f29cf3b5d5a810797">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:domain value=https://www.spencerchang.me>
+<meta name=twitter:title value="html garden">
+<meta name=twitter:description value="a seasonal website that honors the humble html element">
+<meta name=twitter:image content="https://codahosted.io/docs/_ObKm8enqO/blobs/bl-ELhFN0CMFg/dcd5aa5151b52c866213ef1e7a15a16307b44937dc540e4a335ee4fb1b1ad6ce15d8a9902e1822b4b03408fdbc5229526becc90de2e19f738b8823852627a2ffc396ef6d5001d081e0a1366e82413c16c37f67bd13ba316e754e4b1f29cf3b5d5a810797">
+<meta name=twitter:url value=https://www.spencerchang.me/projects/html-garden/>
+<meta name=twitter:label1 value="Posted on">
+<meta name=twitter:data1 value="April 1, 2023">
+<meta name=twitter:label2 value="Reading time">
+<meta name=twitter:data2 value="0 mins🕐">
+<meta name=robots content="noodp">
+<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.9b6dd275e44b8ef447c9979e92001708d98c38ee2c045d745506615b1ec52f09.css>
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel=stylesheet>
+<link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/line.css>
+<link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/solid.css>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-159413154-1','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+<link rel=apple-touch-icon sizes=180x180 href=/assets/name-stamp.png>
+<link rel=icon type=image/png sizes=32x32 href=/assets/name-stamp.png>
+<link rel=icon type=image/png sizes=16x16 href=/assets/name-stamp.png>
+<link rel=manifest href=/site.webmanifest>
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-159413154-1','auto'),ga('require','outboundLinkTracker'),ga('require','mediaQueryTracker'),ga('require','impressionTracker'),ga('require','maxScrollTracker'),ga('require','pageVisibilityTracker'),ga('send','pageview')</script>
+<script async src=/autotrack.js></script>
+<script src=//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js></script>
+<script async src=/lazysizes.min.js></script>
+<script async src=/helpers.js></script>
+<script src=https://unpkg.com/telescopic-text@latest/lib/index.js></script>
+<link href=https://unpkg.com/telescopic-text@latest/lib/index.css rel=stylesheet>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+</head>
+<body>
+<script>document.addEventListener("DOMContentLoaded",function(b){if(!document.querySelector('.navbarActions'))return;const a=document.querySelector(".navbarActions").children;for(const b of a){if(!b.attributes.href)continue;window.location.href.indexOf(b.attributes.href.value)>-1?b.className='active':b.className=''}})</script>
+<nav id=navbar>
+<div class=navbarContainer>
+<a href=/ class=avatarLink>
+<img class="avatar small" src=/assets/companion-in-a-box-final.png></a>
+<div class=navbarActions>
+<a href=/posts><span>writing</span> <b>📝</b></a>
+<a href=/projects><span>creations</span> <b>🪄</b></a>
+<a href=/fits><b>🧢</b></a>
+<a href=/photos><b>📸</b></a>
+<a href=/window><b>🪟</b></a>
+<div class=divider></div>
+<button id=darkModeToggle onclick=toggleDarkMode() class=link><b></b></button>
+</div>
+<script>function setDarkMode(a){document.documentElement.classList.toggle("dark-mode",a),document.querySelector("#darkModeToggle").children[0].innerHTML=a?"☀️":"🌑"}function toggleDarkMode(){setDarkMode(!document.documentElement.classList.contains("dark-mode"))}const useDark=window.matchMedia("(prefers-color-scheme: dark)");useDark.addListener(a=>setDarkMode(a.matches)),setDarkMode(useDark.matches)</script>
+</div>
+<script>var navbarElem=document.getElementById("navbar"),navClasses=navbarElem.classList,navbarHeight=navbarElem.clientHeight,scrollTop,scrollState,scrollDetect;function downAction(){navClasses.remove("open"),navClasses.add("collapse")}function upAction(){navClasses.remove("collapse"),navClasses.add("open")}scrollTop=function(){return window.scrollY},scrollState=0,scrollDetect=function(b,c){var a=scrollTop();a>scrollState&&a>navbarHeight/3?b():a<scrollState&&c(),scrollState=scrollTop()},window.addEventListener("scroll",function(){scrollDetect(downAction,upAction)})</script>
+</nav>
+<div id=background></div>
+<div id=cursor-chat-layer>
+<input type=text id=cursor-chat-box>
+</div>
+<div id=content>
+<div class="progress-container fixed-top">
+<span class=progress-bar></span>
+</div>
+<div class="headerContainer textContent postHeader"></div>
+<div class=mainContainer>
+<div class="postContainer textContent">
+<div class="post meta">
+<span class=postDate>04.01.2023</span>
+</div>
+<h1 class=title>html garden
+<div class="emojiContainer inline"><button id=emoji onclick=updateEmoji()></button></div>
+<script>const defaultEmojis=['🎋','🍂','🌑','🪸','🌀'],inputEmojis=null,shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
+</h1>
+<h3 class=description>a seasonal website that honors the humble html element</h3>
+<div>
+<div class=postContent>
+<p>This post was originally published <a href=https://htmlgarden.spencerchang.me/>somewhere else</a>.</p>
+</div>
+</div>
+</div>
+<footer class=textContent>
+<div class=postFooter>
+<p>I write for emotional resonance and thought provoking, so please <a href=https://twitter.com/@spencerc99>message me</a> (<a href=mailto:spencerc99@gmail.com>spencerc99@gmail.com</a>) if you have thoughts :)</span>
+<p>You can submit your email below (or use <a href=/index.xml>RSS</a>) to get updates on new writing and projects (also on <a href=https://twitter.com/spencerc99/>Twitter</a>)</p>
+</div>
+<div class=shareCta>
+<iframe class=subscribe src=https://spencerchang.substack.com/embed style="border:1px solid #eee;background:#fff" frameborder=0 scrolling=no></iframe>
+<div class=shareActions>
+<button class="icon link" href onclick='copyLink("https://www.spencerchang.me/projects/html-garden/")'><i class="uil uil-link-h"></i> Copy Link</button>
+</div>
+</div>
+<h3>Related Posts</h3>
+<div class=relatedPosts>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>11.18.22</span>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://coda.io/@spencer/new-twitter target=_blank>𝕟𝕖𝕨 𝓷𝓮𝔀 𝚗𝚎𝚠 twitter</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+a new folk twitter, net art project inspired by the chaos ensuing at twitter from elon musk&rsquo;s takeover.
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src="https://codaio.imgix.net/docs/rKZAtonGiV/blobs/bl-v84HDRI0nQ/328b2383587cdfb0d7c96c355ee56dd5287171f99737bf92e71a52e48b5aa59e9e3e13f67a3645b7880faa51407c55bccc050df2c4257bd298bca9f9835829e0b010e01e4943d237caa7866f31a114500006b97fe7762dacf332f8f907ad4bf0d5445515?auto=format%2Ccompress&fit=max&w=3840&crop=entropy">
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>08.10.22</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://coda.io/@spencer/tiny-internets/our-internet-map-51 target=_blank>our internet map</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+a participatory art exhibit that invited visitors to create digital space together showcased during the Interact Summer Symposium 2022.
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src="https://codaio.imgix.net/docs/p0TR-1QoTT/blobs/bl-7Dg5ssAuS9/64ba74b4dfb579e578b2e1068db7fd074fd62f31d3a337d5e481d413013a6cad5e80905d484025732bde506cc629866ce95798ca67a9f5fe5f0ddd0b8dc4c385282a77db511fcf203fdb097e70c355d60efe274de6f95d5705e6519c5a9e8ab3745b647b?auto=format%2Ccompress&fit=max">
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>02.25.23</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://we-b.site/ target=_blank>(we)bsite</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+a garden for everyday internet dreams.<br><br>This (we)bsite is a space for the community to cultivate, nourish, and grow, centered around internet hopes.
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src=projects/images/we-bsite-screen-cap.png>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>12.08.22</span>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://twitter.com/everycolorhaiku target=_blank>every color haiku bot</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+a twitter bot that tweets out a new hex color every hour with a generated haiku.
+</div>
+</div>
+</article>
+</div>
+<br>
+<div><i>back to my <a href=/>favorites</a> or <a href=/posts>all my writing</a>.</i></div>
+<script src=/plugins/permalink/permalink.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script>const images=Array.from(document.querySelectorAll("figure img:not(.galleryImage)"));images.forEach(a=>{mediumZoom(a,{margin:0,scrollOffset:40,container:null,template:null})})</script>
+</footer>
+<script>function scrollProgressBar(){var b=function(){return $(document).height()-$(window).height()},h=function(){return $(window).scrollTop()},f=$(".progress-bar"),d=b(),g=function(){return e=h(),a=e/d*100,a=a+"%",a},c=function(){f.css({width:g()})},e,a;$(document).on("scroll",c),$(window).on("resize",function(){d=b(),c()})}$(document).ready(function(){scrollProgressBar()})</script>
+</div>
+</div>
+<div id=snackbar>
+<script type=module>
+        import { initCursorChat } from 'https://esm.sh/cursor-chat';
+        initCursorChat("spencerchang.me");
+    </script>
+<link rel=stylesheet type=text/css href=https://unpkg.com/cursor-chat/dist/style.css>
+<script type=module src=https://unpkg.com/playhtml@latest></script>
+<link rel=stylesheet href=https://unpkg.com/playhtml@latest/dist/style.css>
+</body>
+</html>

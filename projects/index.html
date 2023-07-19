@@ -17,11 +17,11 @@
 <meta name=twitter:image content="https://www.spencerchang.me/assets/name-stamp.png">
 <meta name=twitter:url value=https://www.spencerchang.me/projects/>
 <meta name=twitter:label1 value="Posted on">
-<meta name=twitter:data1 value="February 25, 2023">
+<meta name=twitter:data1 value="July 9, 2023">
 <meta name=twitter:label2 value="Reading time">
 <meta name=twitter:data2 value="1 mins🕐">
 <meta name=robots content="noodp">
-<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.943d5c68e9fea4851b3726560ef84b64c409dda1e095ce3cfe7f8c7fe4944f15.css>
+<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.9b6dd275e44b8ef447c9979e92001708d98c38ee2c045d745506615b1ec52f09.css>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel=stylesheet>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/line.css>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/solid.css>
@@ -37,8 +37,8 @@
 <script src=//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js></script>
 <script async src=/lazysizes.min.js></script>
 <script async src=/helpers.js></script>
-<script src=https://unpkg.com/telescopic-text/lib/index.js></script>
-<link href=https://unpkg.com/telescopic-text/lib/index.css rel=stylesheet>
+<script src=https://unpkg.com/telescopic-text@latest/lib/index.js></script>
+<link href=https://unpkg.com/telescopic-text@latest/lib/index.css rel=stylesheet>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin=anonymous referrerpolicy=no-referrer></script>
 </head>
 <body>
@@ -80,6 +80,28 @@
 <div class=postSummaryHeader>
 <div class="post summary meta">
 <span>
+<span class=postDate>02.25.23</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://we-b.site/ target=_blank>(we)bsite</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+a garden for everyday internet dreams.<br><br>This (we)bsite is a space for the community to cultivate, nourish, and grow, centered around internet hopes.
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src=projects/images/we-bsite-screen-cap.png>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
 <span class=postDate>02.15.22</span>
 //
 <div class=icons>
@@ -102,7 +124,7 @@ An interactive, participatory essay proposing the “pluriverse” as a new bann
 <div class=postSummaryHeader>
 <div class="post summary meta">
 <span>
-<span class=postDate>02.25.23</span>
+<span class=postDate>07.09.23</span>
 //
 <div class=icons>
 <i class="uis uis-star"></i>
@@ -110,14 +132,29 @@ An interactive, participatory essay proposing the “pluriverse” as a new bann
 </span>
 </div>
 <h2 class=postSummaryTitle>
-<a href=https://we-b.site/ target=_blank>(we)bsite</a> <i class="uil uil-external-link-alt"></i>
+<a href=https://playhtml.fun/ target=_blank>playhtml</a> <i class="uil uil-external-link-alt"></i>
 </h2>
 <div class=postSummary>
-a garden for everyday internet dreams.<br><br>This (we)bsite is a space for the community to cultivate, nourish, and grow, centered around internet hopes.
+interactive, collaborative html elements with a single attribute.
+</div>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>04.01.23</span>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://htmlgarden.spencerchang.me/ target=_blank>html garden</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+a seasonal website that honors the humble html element
 </div>
 </div>
 <div class=postSummaryImageContainer>
-<img loading=lazy class="lazyload postSummaryImage" data-src=projects/images/we-bsite-screen-cap.png>
+<img loading=lazy class="lazyload postSummaryImage" data-src=https://codahosted.io/docs/_ObKm8enqO/blobs/bl-ELhFN0CMFg/dcd5aa5151b52c866213ef1e7a15a16307b44937dc540e4a335ee4fb1b1ad6ce15d8a9902e1822b4b03408fdbc5229526becc90de2e19f738b8823852627a2ffc396ef6d5001d081e0a1366e82413c16c37f67bd13ba316e754e4b1f29cf3b5d5a810797>
 </div>
 </article>
 <article class=postSummaryContainer>
@@ -515,7 +552,12 @@ Introducing our Knowledge Graph for encoding relationships and surfacing relevan
 </div>
 </div>
 <div id=snackbar>
-<script src=https://unpkg.com/cursor-chat></script>
+<script type=module>
+        import { initCursorChat } from 'https://esm.sh/cursor-chat';
+        initCursorChat("spencerchang.me");
+    </script>
 <link rel=stylesheet type=text/css href=https://unpkg.com/cursor-chat/dist/style.css>
+<script type=module src=https://unpkg.com/playhtml@latest></script>
+<link rel=stylesheet href=https://unpkg.com/playhtml@latest/dist/style.css>
 </body>
 </html>
