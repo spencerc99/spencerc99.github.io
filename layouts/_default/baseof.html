@@ -52,40 +52,12 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/name-stamp.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/name-stamp.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/name-stamp.png">
-    <!-- <link rel="icon" type="image/svg+xml" sizes="32x32" href="/assets/name-stamp.svg">
-    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/assets/name-stamp.svg"> -->
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- add rss feed -->
     {{ range .AlternativeOutputFormats -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
-
-    <!-- prevent copying images -->
-    <!-- <script>
-       document.addEventListener('contextmenu', event => {
-           if (event.target.tagName === 'IMG') {
-               event.preventDefault()
-           }
-        });
-
-    </script> -->
-    <!-- Enhanced google analytics -->
-    <script>
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-        ga('create', '{{ .Site.GoogleAnalytics }}', 'auto');
-
-        // Additional plugins to use
-        ga('require', 'outboundLinkTracker');
-        ga('require', 'mediaQueryTracker');
-        ga('require', 'impressionTracker');
-        ga('require', 'maxScrollTracker');
-        ga('require', 'pageVisibilityTracker');
-
-        ga('send', 'pageview');
-    </script>
-    <script async src="/autotrack.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
     <!-- lazy load images to prioritize those in view -->
     <script async src="/lazysizes.min.js"></script>
@@ -99,6 +71,9 @@
         href="https://unpkg.com/telescopic-text@latest/lib/index.css"
         rel="stylesheet"
     />
+
+    <!-- plausible.io analytics -->
+    <script defer data-domain="spencerchang.me" src="https://plausible.io/js/script.js"></script>
 
     <!-- HammerJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
