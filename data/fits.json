@@ -2,6 +2,66 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-07-22%3AIMG_5527.jpeg",
+            "date": "2023-07-22",
+            "timestamp": 1690068584.303,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [
+                "Bed",
+                "Bedroom",
+                "Camera",
+                "Clothing",
+                "Document",
+                "Door",
+                "Footwear",
+                "Furniture",
+                "Interior Room",
+                "People",
+                "Shoes",
+                "Tool"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-07-20%3AIMG_5477.jpeg",
+            "date": "2023-07-20",
+            "timestamp": 1689873053.139,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Chair",
+                "Clothing",
+                "Door",
+                "Footwear",
+                "Furniture",
+                "Light",
+                "People",
+                "Shoes",
+                "Window"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-07-14%3AIMG_5354.jpeg",
             "date": "2023-07-14",
             "timestamp": 1689382670.407,
