@@ -1811,6 +1811,11 @@ button {
   background: var(--color-background-lavender);
   border:1px solid var(--color-text-color);
   padding: 2px 8px;
+  color: var(--color-text-color);
+  
+  &.cta {
+    box-shadow: var(--color-box-shadow) 0px 0px 10px 1px;
+  }
 
   &.link {
     border: none;
@@ -1840,7 +1845,6 @@ button {
   }
 
   &.disable-button {
-    color: opacity
   }
 }
 
@@ -2195,5 +2199,54 @@ button {
 
     border-color: #1fac1f;
     width: 18px;
+  }
+}
+
+
+#sponsorBtn {
+  background: rgb(110, 64, 201);
+  box-shadow: rgba(110, 64, 201, 0.3) 0px 0px 10px 3px;
+  transition: box-shadow 0.2s ease-in-out;
+  color: $color-text-dark;
+  font-weight: bold;
+  font-size: 1em;
+
+  &:hover {
+    animation-name: jiggle;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 10%;
+    animation-duration: 0.3s;
+    box-shadow: rgba(110, 64, 201, 0.3) 0px 0px 8px 8px;
+  }
+}
+
+#coffeeBtn {
+  background-color: rgb(255, 221, 0);
+  box-shadow: rgba(255, 221, 0, 0.508) 0px 0px 10px 3px;
+  transition: box-shadow 0.2s ease-in-out;
+  color: $color-text-color;
+  font-weight: bold;
+  font-size: 1em;
+  
+  &:hover {
+    animation-name: jiggle;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 30% 5%;
+    animation-duration: 0.4s;
+    box-shadow: rgba(255, 221, 0, 0.508) 0px 0px 8px 8px;
+  }
+}
+
+
+@keyframes jiggle {
+  0% {
+    transform: rotate(-1.5deg);
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: rotate(2deg);
+    animation-timing-function: ease-out;
   }
 }

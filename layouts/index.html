@@ -65,7 +65,31 @@
     <!-- idk why but it's getting really broken when I inline this content when there are more than two "https://" on one line... -->
     {{ .Content }}
 
-    <p id="expandingLikes"></p>
+        <!-- TODO: make an art page -->
+    <p>Open to collaborations for fun websites, speculative infrastructure for a defensibly open internet, and community-embedded computing. Say hi!</p>
+<p>
+  <button id="sponsorBtn" onclick="openLink('https://github.com/sponsors/spencerc99')">Sponsor me <i class='uil uil-github'></i></button> <button id="coffeeBtn" onclick="openLink('https://www.buymeacoffee.com/spencerchang')">Buy me 🥚</button>
+  <br/>
+</p>
+    <p>
+        <details>
+        <summary>some things I'm proud of...</summary>
+        <div>
+            <ul class="noPadding">
+            <li><a href="https://coda.io/packs">Packs Ecosystem</a>: A platform and ecosystem for extending the functionality of Coda by 
+            connecting to external services and taking action on data. Makes Coda better achieve a promise of interoperability and being an operating layer on top of all your existing data from anywhere.</li>
+            <li><a href="https://pluriverse.world">Towards a Digital Pluriverse</a>: An interactive, participatory essay proposing the "pluriverse" as a new banner for the community to rally around for how we look at imagining a "new web." It is co-created with visitors and readers of the site.</li>
+            <li><a href="https://coda.io/@steve/meet-custom-templates">Custom Templates</a>: empowered anyone to create a template on Coda, a reusable and shareable set of components, to streamline common workflows, share personal tools with their team, and adopt practices from the wider community in their own doc.</li>
+            <li><a href="https://tiny-inter.net">tiny internets</a>: a research inquiry on what does a more natural, soft, and quiet internet look like, one where public spaces are actively shaped by us to not only use but live in? Explored during the Interact Residency and created browser extension explroing different avenues for intimacy with beta users, including digital geocaching, commuting, and time capsules.</li>
+            <li><a href="/posts/everyday-magic">Everyday Magic</a> essay for <a href="https://reboothq.substack.com/">reboot</a> on the magic of the technology and why we need to and how we make it accessible to everyone.</li>
+            <li><a href="/experiments/100posts">100 mini-essays</a>: A collection of 100 posts I've written in 2021, comprising personal essays, poems, short stories, and more.</li>
+            <li>My <a href="/fits">Fits Stream</a>, an auto-stream of my daily outfits.</li>
+            </ul>
+        </div>
+        </details>
+    </p>
+
+        <p id="expandingLikes"></p>
 
 <script>
 // TODO: can you add hover tooltips with images and previews?
@@ -218,32 +242,11 @@ function onClickMore() {
 }
 onClickMore();
 
+function openLink(link) {
+  window.open(link, '_blank');
+}
+
 </script>
-
-<p>
-  Support my work by buying me a coffee on <a href="https://github.com/sponsors/spencerc99">Github Sponsors</a>. Or if you'd like to work together, I'm open to part-time collaborations and speaking engagements (send me a note!).
-</p>
-    <p>
-        <details>
-        <summary>some things I'm proud of...</summary>
-        <div>
-            <ul class="noPadding">
-            <li><a href="https://coda.io/packs">Packs Ecosystem</a>: A platform and ecosystem for extending the functionality of Coda by 
-            connecting to external services and taking action on data. Makes Coda better achieve a promise of interoperability and being an operating layer on top of all your existing data from anywhere.</li>
-            <li><a href="https://pluriverse.world">Towards a Digital Pluriverse</a>: An interactive, participatory essay proposing the "pluriverse" as a new banner for the community to rally around for how we look at imagining a "new web." It is co-created with visitors and readers of the site.</li>
-            <li><a href="https://coda.io/@steve/meet-custom-templates">Custom Templates</a>: empowered anyone to create a template on Coda, a reusable and shareable set of components, to streamline common workflows, share personal tools with their team, and adopt practices from the wider community in their own doc.</li>
-            <li><a href="https://tiny-inter.net">tiny internets</a>: a research inquiry on what does a more natural, soft, and quiet internet look like, one where public spaces are actively shaped by us to not only use but live in? Explored during the Interact Residency and created browser extension explroing different avenues for intimacy with beta users, including digital geocaching, commuting, and time capsules.</li>
-            <li><a href="/posts/everyday-magic">Everyday Magic</a> essay for <a href="https://reboothq.substack.com/">reboot</a> on the magic of the technology and why we need to and how we make it accessible to everyone.</li>
-            <li><a href="/experiments/100posts">100 mini-essays</a>: A collection of 100 posts I've written in 2021, comprising personal essays, poems, short stories, and more.</li>
-            <li>My <a href="/fits">Fits Stream</a>, an auto-stream of my daily outfits.</li>
-            </ul>
-        </div>
-        </details>
-    </p>
-
-    <!-- TODO: make an art page -->
-    <p>Open to collaborations and chatting around <a href="https://coda.io/@spencer/tiny-internets/public-presentations-39">digital media art</a>, <a href="/experiments/100posts/future-of-tools/">speculative infrastructure</a>, and alternative <a href="https://tiny-inter.net/">internets</a>.</p>
-
     
     <div id="signature"><div class="signatureContent">
       <!-- TODO: hover over for photo in lil modal? -->
