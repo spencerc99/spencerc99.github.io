@@ -1571,15 +1571,6 @@ ul.noPadding {
   padding-left: 18px;
 }
 
-.subscribe {
-  max-width: $viewport-width;
-  padding: 0 10px;
-  height: 75px;
-  padding-top: 15px;
-  display: flex;
-  margin-top: 18px;
-}
-
 .galleryContainer {
   @media (min-width: 801px) {
     &.fullWidth {
@@ -2128,6 +2119,8 @@ button {
 }
 
 #signature#signature {
+  margin-left: 12px;
+
   .stamp {
     margin-top: 5.3px;
     margin-left: 10px;
@@ -2202,14 +2195,19 @@ button {
   }
 }
 
+.ctaBtn {
+  transition: box-shadow 0.2s ease-in-out;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 8px 1em;
+  border-radius: 24px;
+}
 
 #sponsorBtn {
   background: rgb(110, 64, 201);
   box-shadow: rgba(110, 64, 201, 0.3) 0px 0px 10px 3px;
-  transition: box-shadow 0.2s ease-in-out;
   color: $color-text-dark;
-  font-weight: bold;
-  font-size: 1em;
+  @extend .ctaBtn;
 
   &:hover {
     animation-name: jiggle;
@@ -2223,10 +2221,8 @@ button {
 #coffeeBtn {
   background-color: rgb(255, 221, 0);
   box-shadow: rgba(255, 221, 0, 0.508) 0px 0px 10px 3px;
-  transition: box-shadow 0.2s ease-in-out;
   color: $color-text-color;
-  font-weight: bold;
-  font-size: 1em;
+  @extend .ctaBtn;
   
   &:hover {
     animation-name: jiggle;
@@ -2235,6 +2231,16 @@ button {
     transform-origin: 30% 5%;
     animation-duration: 0.4s;
     box-shadow: rgba(255, 221, 0, 0.508) 0px 0px 8px 8px;
+  }
+}
+
+hr.separator {
+  border: none;
+  text-align: center;
+
+  &::after {
+    content: '࿌ ࿌ ࿌ ࿌ ࿌ ࿌ ࿌ ࿌ ࿌';
+    font-size: 1.2em;
   }
 }
 
@@ -2250,3 +2256,25 @@ button {
     animation-timing-function: ease-out;
   }
 }
+
+
+.emailEmbedContainer {
+  max-width: $viewport-width;
+  min-width:200px;
+  margin-top: 18px;
+  position: relative;
+  height: 75px;
+  border:1px solid #EEE; 
+  background:#fefcf6;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  min-width: 280px;
+  
+  .subscribe {
+    top: -22px;
+    position: absolute;
+    width: 100%;
+  }
+}
+
