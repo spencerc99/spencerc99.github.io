@@ -89,15 +89,15 @@
 <div class=marquee title="this is a set of live attributes from what I consume and make streamed to this little status bar. The numbers represent Spencer epoch time, a play on UNIX epoch.">
 <span class=marqueeContent>
 [<span class=date><span class=timestamp>08.21|13:09</span><span class=epoch>832012818</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/ti-07-my-homecooked-apps>[TI-07] my homecooked apps</a> •
-[<span class=date><span class=timestamp>08.23|01:09</span><span class=epoch>832144929</span></span>] 🎧 <a href=https://open.spotify.com/track/5dGZZQGVOIjMjQCmguuYEo>Night Cruise</a> •
+[<span class=date><span class=timestamp>08.24|00:09</span><span class=epoch>832224887</span></span>] 🎧 <a href=https://open.spotify.com/track/7Kk5e6Ipnm2uJQ6IrKbghy>DOWNTOWN BOY</a> •
 [<span class=date><span class=timestamp>10.30|07:09</span><span class=epoch>806502420</span></span>] 📿 “I start every day with two empty hands” •
-[<span class=date><span class=timestamp>07.24|06:09</span><span class=epoch>829570511</span></span>] 🔨 <a href=https://github.com/spencerc99/dwelling>dwelling</a> •
+[<span class=date><span class=timestamp>08.12|05:09</span><span class=epoch>831206327</span></span>] 🔨 <a href=https://github.com/spencerc99/spencers-cafe>spencers-cafe</a> •
 [<span class=date><span class=timestamp>10.13|05:09</span><span class=epoch>805029828</span></span>] 📖 <a href=https://goodreads.com/book/show/13237099-madness-rack-and-honey>Madness, Rack, and Honey: Collected Lectures</a> •
 [<span class=date><span class=timestamp>04.13|08:09</span><span class=epoch>820762363</span></span>] 🚲 <a href=https://www.strava.com/activities/>i love taipei: 12.5km</a> •
 [<span class=date><span class=timestamp>08.21|13:09</span><span class=epoch>832012818</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/ti-07-my-homecooked-apps>[TI-07] my homecooked apps</a> •
-[<span class=date><span class=timestamp>08.23|01:09</span><span class=epoch>832144929</span></span>] 🎧 <a href=https://open.spotify.com/track/5dGZZQGVOIjMjQCmguuYEo>Night Cruise</a> •
+[<span class=date><span class=timestamp>08.24|00:09</span><span class=epoch>832224887</span></span>] 🎧 <a href=https://open.spotify.com/track/7Kk5e6Ipnm2uJQ6IrKbghy>DOWNTOWN BOY</a> •
 [<span class=date><span class=timestamp>10.30|07:09</span><span class=epoch>806502420</span></span>] 📿 “I start every day with two empty hands” •
-[<span class=date><span class=timestamp>07.24|06:09</span><span class=epoch>829570511</span></span>] 🔨 <a href=https://github.com/spencerc99/dwelling>dwelling</a> •
+[<span class=date><span class=timestamp>08.12|05:09</span><span class=epoch>831206327</span></span>] 🔨 <a href=https://github.com/spencerc99/spencers-cafe>spencers-cafe</a> •
 [<span class=date><span class=timestamp>10.13|05:09</span><span class=epoch>805029828</span></span>] 📖 <a href=https://goodreads.com/book/show/13237099-madness-rack-and-honey>Madness, Rack, and Honey: Collected Lectures</a> •
 [<span class=date><span class=timestamp>04.13|08:09</span><span class=epoch>820762363</span></span>] 🚲 <a href=https://www.strava.com/activities/>i love taipei: 12.5km</a> •
 </span>
@@ -110,7 +110,10 @@
         initCursorChat(window.location.href);
     </script>
 <link rel=stylesheet type=text/css href=https://unpkg.com/cursor-chat/dist/style.css>
-<script type=module src=https://unpkg.com/playhtml@latest></script>
+<script type=module>
+        import "https://unpkg.com/playhtml@latest";
+        playhtml.init();
+    </script>
 <link rel=stylesheet href=https://unpkg.com/playhtml@latest/dist/style.css>
 </body>
 </html>

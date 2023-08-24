@@ -219,7 +219,10 @@ Learning from nature, past leaders, and the consequences of human toils
         initCursorChat(window.location.href);
     </script>
 <link rel=stylesheet type=text/css href=https://unpkg.com/cursor-chat/dist/style.css>
-<script type=module src=https://unpkg.com/playhtml@latest></script>
+<script type=module>
+        import "https://unpkg.com/playhtml@latest";
+        playhtml.init();
+    </script>
 <link rel=stylesheet href=https://unpkg.com/playhtml@latest/dist/style.css>
 </body>
 </html>
