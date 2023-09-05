@@ -2,6 +2,323 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-25%3AIMG_6401.jpeg",
+            "date": "2023-08-25",
+            "timestamp": 1693008596.069,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Cardboard Box",
+                "Clothing",
+                "Container",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-02%3AIMG_5727.jpeg",
+            "date": "2023-08-02",
+            "timestamp": 1691025591.387,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Door",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-31%3AIMG_6527.jpeg",
+            "date": "2023-08-31",
+            "timestamp": 1693527521.021,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-27%3AIMG_6447.jpeg",
+            "date": "2023-08-27",
+            "timestamp": 1693175438.81,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Footwear",
+                "Furniture",
+                "People",
+                "Shoes",
+                "Window"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-29%3AIMG_6491.jpeg",
+            "date": "2023-08-29",
+            "timestamp": 1693337042.15,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-23%3AIMG_6382.jpeg",
+            "date": "2023-08-23",
+            "timestamp": 1692846194.581,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Door",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-09-04%3AIMG_6649.jpeg",
+            "date": "2023-09-04",
+            "timestamp": 1693871271.759,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Door",
+                "People",
+                "Window"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-08%3AIMG_5901.jpeg",
+            "date": "2023-08-08",
+            "timestamp": 1691512305.491,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "Jeans",
+                "People",
+                "Window"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-16%3AIMG_6097.jpeg",
+            "date": "2023-08-16",
+            "timestamp": 1692224610.403,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Newark Liberty International Airport, Elizabeth, New Jersey, United States",
+            "city": "Elizabeth",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Child",
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-21%3AIMG_6224.jpeg",
+            "date": "2023-08-21",
+            "timestamp": 1692619236.914,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "New York, North Hudson, United States",
+            "city": "New York",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-07-29%3AIMG_5684.jpeg",
+            "date": "2023-07-29",
+            "timestamp": 1690663042.256,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Art",
+                "Bedroom",
+                "Closet",
+                "Clothing",
+                "Footwear",
+                "Frame",
+                "Furniture",
+                "Interior Room",
+                "Jeans",
+                "Painting",
+                "People",
+                "Plant",
+                "Shoes"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-09-01%3AIMG_6562.jpeg",
+            "date": "2023-09-01",
+            "timestamp": 1693600058.809,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "People",
+                "Window"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-20%3AIMG_6217.jpeg",
+            "date": "2023-08-20",
+            "timestamp": 1692555785.079,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "People"
+            ],
+            "season": "Summer",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Cafe & Coffee Shop",
+                "Food & Grocery"
+            ]
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-26%3AIMG_6417.jpeg",
+            "date": "2023-08-26",
+            "timestamp": 1693084630.833,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "Furniture",
+                "People",
+                "Window"
+            ],
+            "season": "Summer",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-04%3AIMG_5836.jpeg",
             "date": "2023-08-04",
             "timestamp": 1691205848.975,
