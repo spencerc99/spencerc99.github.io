@@ -20,7 +20,7 @@
 <meta name=twitter:label1 value=Currently>
 <meta name=twitter:data1 value="Engineering in San Francisco 🌉⛰">
 <meta name=robots content="noodp">
-<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.dc9097ecb10ba5fc2e6e5251cad5207e7148b77f526a74b4072a94ff3ed30198.css>
+<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.a00195ac0f461630e4f0ce8aab16f68d41db1d78011e0675df061bdd171531dc.css>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel=stylesheet>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/line.css>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/solid.css>
@@ -176,7 +176,6 @@ hi! i'm spencer
 <iframe class=subscribe src=https://spencerchang.substack.com/embed frameborder=0 scrolling=no></iframe>
 </div>
 <p>
-<button id=sponsorBtn onclick="openLink('https://github.com/sponsors/spencerc99')">Sponsor me <i class="uil uil-github"></i></button> <button id=coffeeBtn onclick="openLink('https://www.buymeacoffee.com/spencerchang')">Buy me 🥚</button>
 <br>
 </p>
 <p id=expandingLikes></p>
@@ -870,6 +869,7 @@ Check out <a href=/posts>all 177 posts</a>.
 </div>
 </div>
 </div>
+<br>
 <div class=marquee title="this is a set of live attributes from what I consume and make streamed to this little status bar. The numbers represent Spencer epoch time, a play on UNIX epoch.">
 <span class=marqueeContent>
 [<span class=date><span class=timestamp>09.05|17:09</span><span class=epoch>833322841</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/two-questions>two questions</a> •
@@ -887,6 +887,13 @@ Check out <a href=/posts>all 177 posts</a>.
 </span>
 </div>
 <script>let summaryIdx=0;const listElement=document.querySelector('.tabContent'),items=listElement.children,tabs=document.querySelector('.tabs').children,total=items.length;if("ontouchstart"in document.documentElement){const a=new Hammer(listElement,{recognizers:[[Hammer.Swipe,{direction:Hammer.DIRECTION_HORIZONTAL}]]});a.on("swipeleft",()=>{navForward()}),a.on("swiperight",()=>{navBackward()})}const navForward=()=>{hideEleAtIdx(),summaryIdx=(summaryIdx+1)%total,renderEleAtIdx()},navBackward=()=>{hideEleAtIdx(),summaryIdx=summaryIdx===0?total-1:(summaryIdx-1)%total,renderEleAtIdx()},hideEleAtIdx=()=>{items[summaryIdx].classList.add('hidden'),tabs[summaryIdx].classList.remove('active')},renderEleAtIdx=()=>{items[summaryIdx].classList.remove('hidden'),tabs[summaryIdx].classList.add('active')},setTab=a=>{hideEleAtIdx(summaryIdx),summaryIdx=a,renderEleAtIdx(summaryIdx)};renderEleAtIdx(summaryIdx)</script>
+</div>
+<div class=footerCta>
+<h3 class=serif>Thanks for visiting, and safe travels!<br>If you'd like to support my independent work, I have some fun buttons for you 🧡</h3>
+<div class=ctaBtns>
+<button id=sponsorBtn onclick="openLink('https://github.com/sponsors/spencerc99')">Sponsor me <i class="uil uil-github"></i></button>
+<button id=coffeeBtn onclick="openLink('https://www.buymeacoffee.com/spencerchang')">Buy me 🥚</button>
+</div>
 </div>
 </div>
 <div id=snackbar>
