@@ -502,11 +502,11 @@ h6 {
   font-family: "Raleway";
   position: relative;
 
-  .serif & {
+  .serif &, &.serif {
     font-family: "Playfair Display";
   }
 
-  .mono & {
+  .mono &, &.mono {
     font-family: "Cousine", monospace;
   }
 }
@@ -2277,4 +2277,21 @@ hr.separator {
     width: 100%;
   }
 }
+.ctaBtns {
+  display:flex;
+  gap: 1em;
+  justify-content: center;
+}
 
+.footerCta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 3em;
+  text-align: center;
+  width: 100%;
+
+  h3 {
+    font-style: italic;
+  }
+}
