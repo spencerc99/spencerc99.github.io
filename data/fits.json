@@ -2,6 +2,138 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-09-07%3AIMG_6699.jpeg",
+            "date": "2023-09-07",
+            "timestamp": 1694129539.041,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Jeans",
+                "People"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-09-09%3AIMG_6785.jpeg",
+            "date": "2023-09-09",
+            "timestamp": 1694288214.726,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "People",
+                "Window"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-09-05%3AIMG_6672.jpeg",
+            "date": "2023-09-05",
+            "timestamp": 1693948699.618,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "People",
+                "Window"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-09-16%3AIMG_6980.jpeg",
+            "date": "2023-09-16",
+            "timestamp": 1694907956.131,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Furniture",
+                "Interior Room",
+                "Machine",
+                "People",
+                "Vehicle"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-09-11%3AIMG_6845.jpeg",
+            "date": "2023-09-11",
+            "timestamp": 1694474302.713,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "People",
+                "Window"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-09-12%3AIMG_6856.jpeg",
+            "date": "2023-09-12",
+            "timestamp": 1694562271.584,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Chair",
+                "Clothing",
+                "Furniture",
+                "Jeans",
+                "People",
+                "Sofa",
+                "Tool",
+                "Window"
+            ],
+            "season": "Fall",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-08-25%3AIMG_6401.jpeg",
             "date": "2023-08-25",
             "timestamp": 1693008596.069,
