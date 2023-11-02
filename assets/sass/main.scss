@@ -42,6 +42,7 @@ $color-telescopic-background-dark: rgba(196, 119, 2, .3);
 $color-telescopic-background-dark-hover: rgba(196, 119, 2, 1);
 $color-box-shadow:#132d40fa;
 $color-box-shadow-dark: #e3f3fffa;
+$site-font: "Cabin","Muli";
 
 @keyframes roll-and-move-animation {
   25% {
@@ -197,7 +198,7 @@ $color-box-shadow-dark: #e3f3fffa;
 
   .sans-serif &,
   &.sans-serif {
-    font-family: "Muli";
+    font-family: $site-font;
   }
   
   .serif &,
@@ -288,13 +289,13 @@ $screenMaxWidths: (
 @mixin extend-width() {
   // Old code for making it span the entire screen
   // source: https://gomakethings.com/how-to-break-an-image-out-of-its-parent-container-with-css/
-  // left: 50%;
-  // right: 50%;
-  // margin-left: -50vw;
-  // margin-right: -50vw;
-  // position: relative;
-  // width: 100vw;
-  // min-width: calc(min(#{$viewport-width}, 100vw));
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
+  width: 100vw;
+  min-width: calc(min(#{$viewport-width}, 100vw));
   // width: 800px;
 }
 
@@ -329,7 +330,7 @@ $screenMaxWidths: (
 }
 
 body {
-  font-family: "Muli";
+  font-family: $site-font;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -390,7 +391,7 @@ $quote-padding: 12px;
 
   &:not(.callout)::before {
     content: "“";
-    font-family: "Muli";
+    font-family: $site-font;
     position: absolute;
     right: 100%;
     font-size: 80px;
@@ -452,7 +453,7 @@ div {
 }
 
 p {
-  font-family: "Muli";
+  font-family: $site-font;
   line-height: $default-line-height;
   font-size: $paragraph-font-size;
   margin: $paragraph-vertical-margin 0;
@@ -973,7 +974,7 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
 
   @media (min-width: 801px) {
     & {
-      @include extend-width();
+      // @include extend-width();
     }
   }
 }
@@ -1574,7 +1575,7 @@ ul.noPadding {
 .galleryContainer {
   @media (min-width: 801px) {
     &.fullWidth {
-      @include extend-width();
+      // @include extend-width();
     }
   }
 
@@ -1732,7 +1733,7 @@ ul.noPadding {
   animation-delay: 1s;
   margin-bottom:12px;
   margin-top: 0;
-  font-family: "Muli";
+  font-family: $site-font;
   position: relative;
 }
 
@@ -1797,7 +1798,7 @@ ul.noPadding {
 
 button {
   border-radius: 16px;
-  font-family: "Muli";
+  font-family: $site-font;
   font-size: $default-font-size * .9;
   background: var(--color-background-lavender);
   border:1px solid var(--color-text-color);
@@ -2294,4 +2295,19 @@ hr.separator {
   h3 {
     font-style: italic;
   }
+}
+
+
+
+#friends {
+  @include extend-width();
+  @include media(largeScreen, xlargeScreen) {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+.friendContainer {
+  display: inline-flex;
+  flex-direction: column;
 }
