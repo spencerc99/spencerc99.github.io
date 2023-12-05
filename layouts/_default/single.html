@@ -3,6 +3,13 @@
   <span class="progress-bar"></span>
 </div>
 <div class="headerContainer textContent postHeader"></div>
+<script>
+  const searchParams = new URLSearchParams(window.location.search);
+  if (searchParams.has("redirect")) {
+    const redirectEle = document.createElement('meta');
+    window.location.href = "{{ .Params.external_link }}";
+  }
+</script>
 {{ end }} 
 {{ define "main"}}
 <div class="postContainer textContent {{ with .Params.storyType }} {{ . }} {{ end }}">
