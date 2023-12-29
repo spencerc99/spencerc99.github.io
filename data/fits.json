@@ -2,6 +2,140 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-12-19%3AIMG_9865.jpeg",
+            "date": "2023-12-19",
+            "timestamp": 1703024929.428,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Chair",
+                "Furniture",
+                "People",
+                "Window"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-12-25%3AIMG_0024.jpeg",
+            "date": "2023-12-25",
+            "timestamp": 1703576247.842,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Closet",
+                "Clothing",
+                "Door",
+                "Interior Room",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-12-24%3AIMG_0002.jpeg",
+            "date": "2023-12-24",
+            "timestamp": 1703453544.022,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Houston, Texas, United States",
+            "city": "Houston",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Building",
+                "Ceiling",
+                "Clothing",
+                "Door",
+                "Outdoor",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-12-27%3AIMG_0048.jpeg",
+            "date": "2023-12-27",
+            "timestamp": 1703724410.814,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-12-21%3AIMG_9913.jpeg",
+            "date": "2023-12-21",
+            "timestamp": 1703202412.608,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "The Galleria, Houston, Texas, United States",
+            "city": "Houston",
+            "country": "United States",
+            "peopleCount": 3,
+            "labels": [
+                "People",
+                "Window"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-12-26%3AIMG_0030.jpeg",
+            "date": "2023-12-26",
+            "timestamp": 1703624622.448,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Camera",
+                "Interior Room",
+                "People",
+                "Recreation"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-12-18%3AIMG_9853.jpeg",
             "date": "2023-12-18",
             "timestamp": 1702939381.478,
@@ -15088,7 +15222,7 @@
         },
         {
             "description": "",
-            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-06-27%3AIMG_2133_edited.jpeg",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-06-27%3AIMG_2133_edited+%281%29+%281%29.jpeg",
             "date": "2021-06-27",
             "timestamp": 1624826730.688844,
             "width": 2411,
