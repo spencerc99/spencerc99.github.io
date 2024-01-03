@@ -2,6 +2,23 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-12-31%3AIMG_0110.jpeg",
+            "date": "2023-12-31",
+            "timestamp": 1704067080.285,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-12-19%3AIMG_9865.jpeg",
             "date": "2023-12-19",
             "timestamp": 1703024929.428,
