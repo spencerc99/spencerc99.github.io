@@ -35,6 +35,7 @@
 <link href=https://unpkg.com/telescopic-text@latest/lib/index.css rel=stylesheet>
 <script defer data-domain=spencerchang.me data-api=https://sharingan.spencerc99.workers.dev/genjutsu/event src=https://sharingan.spencerc99.workers.dev/genjutsu/script.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script src=https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js></script>
 </head>
 <body>
 <script>document.addEventListener("DOMContentLoaded",function(b){if(!document.querySelector('.navbarActions'))return;const a=document.querySelector(".navbarActions").children;for(const b of a){if(!b.attributes.href)continue;window.location.href.indexOf(b.attributes.href.value)>-1?b.className='active':b.className=''}})</script>
@@ -93,9 +94,9 @@
 <div class=emailEmbedContainer>
 <div id=custom-substack-embed>
 </div>
-<div class=descriptionText><i>Absolutely no spam. Only the occasional <img src=/assets/spam-transparent.png / id=spam> and my latest projects and musings.</i></div>
+<div class=descriptionText><i>Absolutely no spam. Only the occasional <img src=/assets/spam-transparent.png / id=spam onmouseover=launchSpam() onclick=launchSpam()> and my latest projects and musings.</i></div>
 </div>
-<script>window.CustomSubstackWidget={substackUrl:"prostack.substack.com",placeholder:"your@email.com",buttonText:"Subscribe"}</script>
+<script>window.CustomSubstackWidget={substackUrl:"prostack.substack.com",placeholder:"your@email.com",buttonText:"Subscribe"};const spam=confetti.shapeFromPath({path:'M16.5 0C14 0.833333 6.5 2.5 0 14V32L3 48V74.5L2 91.5L0 112L2 121L14.5 130H50.5L60 126L66.5 113L65 74.5L66.5 39.5V12.5L60 4L50.5 0H16.5Z',matrix:[.07692307692307693,0,0,.07692307692307693,-2.5384615384615388,-5]}),defaults={spread:20,ticks:130,gravity:2,flat:!0,angle:75,startVelocity:34};function launchSpam(){const c=document.getElementById('spam'),a=c.getBoundingClientRect(),d=(b,c)=>({x:(a.left-(a.left-a.right)*b)/window.innerWidth,y:(a.top-(a.top-a.bottom)*c)/window.innerHeight}),b=d(1,0);console.log(b),confetti({...defaults,shapes:[spam],colors:['#D79B99','#D3A9A1','#CD9995'],origin:b,particleCount:Math.random()*3*2+8})}</script>
 <script src=https://substackapi.com/widget.js async></script>
 <div class=shareActions>
 <button class="icon link" href onclick='copyLink("https://www.spencerchang.me/experiments/100posts/shaping-the-world/")'><i class="uil uil-link-h"></i> Copy Link</button>
