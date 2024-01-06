@@ -4,7 +4,7 @@
   <p>You can submit your email below (or use <a href="/index.xml">RSS</a>) to get updates on new writing and projects (also on <a href="https://twitter.com/spencerc99/">Twitter</a>)</p>
 </div>
 <div class="shareCta">
-  <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  {{ partial "email_embed.html" }}
   <div class="shareActions">
     {{ with .Permalink }}
       <button class="icon link" href="" onclick="copyLink({{.}})"><i class="uil uil-link-h" ></i> Copy Link</button>

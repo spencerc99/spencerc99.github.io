@@ -186,6 +186,14 @@ $site-font: "Cabin","Muli";
   transition:color .2s ease-in-out;
   --color-box-shadow: #{$color-box-shadow};
 
+  // For email subscription widget
+  #custom-substack-embed .custom-substack-widget {
+    --csw-primary-color: #{$color-link};
+    --csw-input-color: white;
+    --csw-text-color: #{$color-text-color};
+    --csw-input-text-color: #{$color-text-color};
+  }
+
   /* For telescopic text styling */
 
   // #telescope .details {
@@ -227,6 +235,14 @@ $site-font: "Cabin","Muli";
     --telescope-highlight: #{$color-telescopic-background-dark};
     --telescope-highlight-hover: #{$color-telescopic-background-dark-hover};
     --color-box-shadow: #{$color-box-shadow-dark};
+    
+    // For email subscription widget
+    #custom-substack-embed .custom-substack-widget{
+      --csw-primary-color: #{$color-background-teal-dark} !important;
+      --csw-input-color: #{$color-quote-background-dark}  !important;
+      --csw-text-color: #{$color-text-color-white}  !important;
+      --csw-input-text-color: #{$color-text-color-white}  !important;
+    }
 
     #background#background {
       background-color: $color-site-background-dark;
@@ -525,23 +541,24 @@ code {
 }
 
 .shareCta {
-  display:flex;
-  align-items: center;
+  display:grid;
+  grid-template-columns: 1fr auto;
 
   button {
     margin-bottom: 6px;
     padding: 0;
+    height:fit-content
   }
 
   .shareActions {
     margin-left:auto;
     display:flex;
+    align-items: center;
     gap: 0 6px;
   }
 
   @include media(xsmallScreen, smallScreen) {
-    flex-direction: column;
-    align-items: baseline;
+    grid-template-columns: 1fr;
 
     .shareActions {
       margin-left:0;
@@ -2259,24 +2276,15 @@ hr.separator {
 }
 
 
-.emailEmbedContainer {
+.emailEmbedContainer.emailEmbedContainer {
   max-width: $viewport-width;
   min-width:200px;
-  margin-top: 18px;
+  margin-top: 24px;
+  margin-bottom: 24px !important;
   position: relative;
-  height: 75px;
-  border:1px solid #EEE; 
-  background:#fefcf6;
   display: flex;
-  overflow: hidden;
-  justify-content: center;
+  flex-wrap: wrap;
   min-width: 280px;
-  
-  .subscribe {
-    top: -22px;
-    position: absolute;
-    width: 100%;
-  }
 }
 .ctaBtns {
   display:flex;
@@ -2310,4 +2318,25 @@ hr.separator {
 .friendContainer {
   display: inline-flex;
   flex-direction: column;
+}
+
+
+#custom-substack-embed * {
+  font-family: $site-font !important;
+}
+
+.custom-substack-widget {
+  border: none !important;
+  overflow:visible !important;
+
+  button {
+    transition: box-shadow 0.2s ease-in-out;
+    &:hover {
+      animation-name: jiggle;
+      animation-iteration-count: infinite;
+      transform-origin: 50% 10%;
+      animation-duration: 0.3s;
+      box-shadow: #fea68058 0px 0px 8px 8px;
+    }
+  }
 }
