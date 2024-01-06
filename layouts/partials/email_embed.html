@@ -2,7 +2,7 @@
 <div class="emailEmbedContainer">
     <div id="custom-substack-embed">
     </div>
-    <div class="descriptionText"><i>Absolutely no spam. Only the occasional <img src="/assets/spam-transparent.png"/ id="spam"> and my latest projects and musings.</i></div>
+    <div class="descriptionText"><i>Absolutely no spam. Only the occasional <img src="/assets/spam-transparent.png"/ id="spam" onmouseover="launchSpam()" onclick="launchSpam()"> and my latest projects and musings.</i></div>
 </div>
 
 <!-- <iframe class="subscribe" src="https://spencerchang.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe> -->
@@ -14,6 +14,43 @@
     buttonText: "Subscribe",
     // Go to substackapi.com to unlock custom redirect
   };
+
+  const spam = confetti.shapeFromPath({
+    path: 'M16.5 0C14 0.833333 6.5 2.5 0 14V32L3 48V74.5L2 91.5L0 112L2 121L14.5 130H50.5L60 126L66.5 113L65 74.5L66.5 39.5V12.5L60 4L50.5 0H16.5Z',
+    matrix: [0.07692307692307693, 0, 0, 0.07692307692307693, -2.5384615384615388, -5],
+    });
+
+    const defaults = {
+    spread: 20,
+    ticks: 130,
+    gravity: 2,
+    flat:true,
+    angle: 75,
+    startVelocity: 34,
+    };
+
+
+  function launchSpam() {
+    // from https://github.com/catdad/canvas-confetti/issues/147
+    const spamEl = document.getElementById('spam');
+    const rect = spamEl.getBoundingClientRect();
+
+    const buildPos = (factorX, factorY) => ({
+        x: (rect.left - ((rect.left - rect.right) * factorX)) / window.innerWidth,
+        y: (rect.top - ((rect.top - rect.bottom) * factorY)) / window.innerHeight
+    })
+
+    const topRight = buildPos(1, 0);
+    console.log(topRight);
+
+    confetti({
+    ...defaults,
+    shapes: [spam],
+    colors: ['#D79B99', '#D3A9A1', '#CD9995'],
+    origin: topRight,
+    particleCount: Math.random() * 3 * 2 + 8
+    });
+  }
 </script>
 <script src="https://substackapi.com/widget.js" async></script>
 
