@@ -2275,12 +2275,15 @@ hr.separator {
   }
 }
 
-
-.emailEmbedContainer.emailEmbedContainer {
-  max-width: $viewport-width;
-  min-width:200px;
+.emailEmbedContainer {
   margin-top: 24px;
   margin-bottom: 24px !important;
+}
+
+#custom-substack-embed {
+  max-width: $viewport-width;
+  margin: 0 !important;
+  min-width:200px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -2325,6 +2328,10 @@ hr.separator {
   font-family: $site-font !important;
 }
 
+#custom-substack-embed .error {
+  font-size:.8em !important;
+}
+
 .custom-substack-widget {
   border: none !important;
   overflow:visible !important;
@@ -2339,4 +2346,18 @@ hr.separator {
       box-shadow: #fea68058 0px 0px 8px 8px;
     }
   }
+}
+
+.descriptionText {
+  margin-top: 4px;
+  font-size: .8em;
+  color: $color-light-grey;
+  line-height: 1;
+}
+
+#spam {
+  vertical-align: middle;
+  width: 20px;
+  height: 24px;
+  transform: translate(2px,-3px) rotate(8deg);
 }
