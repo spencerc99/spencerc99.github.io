@@ -2,6 +2,52 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-05%3AIMG_0153.jpeg",
+            "date": "2024-01-05",
+            "timestamp": 1704509912.406,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "",
+            "city": "",
+            "country": "",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "Interior Room",
+                "Jacket",
+                "Jeans",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-06%3AIMG_0180.jpeg",
+            "date": "2024-01-06",
+            "timestamp": 1704600634.112,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "Interior Room",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-12-31%3AIMG_0110.jpeg",
             "date": "2023-12-31",
             "timestamp": 1704067080.285,
