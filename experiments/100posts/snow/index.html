@@ -21,7 +21,7 @@
 <meta name=twitter:label2 value="Reading time">
 <meta name=twitter:data2 value="0 mins🕐">
 <meta name=robots content="noodp">
-<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.5956d3199bb8b8b8e41afac6f305a54599c2c0f9d0304ec07de1ef96774e85bb.css>
+<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.16c2924c40594f54c7890d63bbae55e6e2f9b8ddb1627385cf8cea7201bb1676.css>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel=stylesheet>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/line.css>
 <link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/solid.css>
@@ -57,9 +57,6 @@
 <script>var navbarElem=document.getElementById("navbar"),navClasses=navbarElem.classList,navbarHeight=navbarElem.clientHeight,scrollTop,scrollState,scrollDetect;function downAction(){navClasses.remove("open"),navClasses.add("collapse")}function upAction(){navClasses.remove("collapse"),navClasses.add("open")}scrollTop=function(){return window.scrollY},scrollState=0,scrollDetect=function(b,c){var a=scrollTop();a>scrollState&&a>navbarHeight/3?b():a<scrollState&&c(),scrollState=scrollTop()},window.addEventListener("scroll",function(){scrollDetect(downAction,upAction)})</script>
 </nav>
 <div id=background></div>
-<div id=cursor-chat-layer>
-<input type=text id=cursor-chat-box>
-</div>
 <div id=content>
 <div class="progress-container fixed-top">
 <span class=progress-bar></span>
@@ -177,17 +174,13 @@ I never want to feel so comfortable that I feel scared to leave. I want to teete
 <div class=footerCta>
 <h3 class=serif>Thanks for visiting, and safe travels!<br>If you'd like to support my independent work, I have some fun buttons for you 🧡</h3>
 <div class=ctaBtns>
-<button id=sponsorBtn onclick="openLink('https://github.com/sponsors/spencerc99')">Sponsor me <i class="uil uil-github"></i></button>
-<button id=coffeeBtn onclick="openLink('https://buymeacoffee.com/spencerchang')">Tip me 🥚s</button>
+<a href=https://github.com/sponsors/spencerc99 target=_blank><button id=sponsorBtn>Sponsor me <i class="uil uil-github"></i></button></a>
+<a href=https://buymeacoffee.com/spencerchang target=_blank><button id=coffeeBtn>Tip me 🥚s</button></a>
 </div>
 </div>
 </div>
 <div id=snackbar>
-<script type=module>
-        import { initCursorChat } from 'https://esm.sh/cursor-chat';
-        initCursorChat(window.location.href);
-    </script>
-<link rel=stylesheet type=text/css href=https://unpkg.com/cursor-chat/dist/style.css>
+<script src=https://cursor-party.spencerc99.partykit.dev/cursors.js></script>
 <script type=module>
         import "https://unpkg.com/playhtml@latest";
         playhtml.init();
