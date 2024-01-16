@@ -28,6 +28,8 @@ title: friends
     </script>
 </div>
 
+<br/>
+<br/>
 <div style="text-align: center">
 Send me a letter if you'd like to join this circle of poeticomp friends.
 </div>
