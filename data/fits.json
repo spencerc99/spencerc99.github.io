@@ -2,6 +2,52 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-09%3AIMG_0193.jpeg",
+            "date": "2024-01-09",
+            "timestamp": 1704837421.093,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Chandelier",
+                "Door",
+                "Light",
+                "People",
+                "Tripod",
+                "Window"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-10%3AIMG_0206.jpeg",
+            "date": "2024-01-10",
+            "timestamp": 1704939828.313,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "Light",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-05%3AIMG_0153.jpeg",
             "date": "2024-01-05",
             "timestamp": 1704509912.406,
