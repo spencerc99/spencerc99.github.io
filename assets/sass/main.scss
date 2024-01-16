@@ -851,7 +851,7 @@ $internal-link-selectors: '
 ';
 
 // external links
-a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galleryLink) {
+a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galleryLink):not(.button) {
   color: $color-external-link;
   text-decoration: none;
   transition: background-color 0.25s ease-in-out;

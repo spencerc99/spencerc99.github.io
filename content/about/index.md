@@ -1,9 +1,16 @@
 ---
-title: "who is spencer chang?"
-draft: true
+title: "who is spencer?"
+description: programmer, artist, writer, internet imagineer, computational poet
 ---
+<!-- TODO: make this rotating bios that are live hooked up to a data source -->
 
-<div class="aboutContent">
+Spencer creates infrastructure for a more playful, light, and communal internet in the form of new interaction mediums, website environments, open protocols, and local-first applications. He does this through creating (tools|games|spaces) that push how we're allowed to dictate digital places and objects, making site-specific net art that question our assumptions of what websites are and who we are when we visit them, and writing about his findings and the emotional journey of this independent path.
+
+They find it hard to describe themselves, so they prefer to reveal who they are through the things they care about. They've designed and built products at [Square](http://squareup.com/), [Airbnb](https://www.airbnb.com/), and most recently [Coda](https://coda.io/) and [verses](https://verses.xyz/). Their art has been shown at the [de Young Museum](https://www.famsf.org/), [CultureHub](https://www.culturehub.org/events/inspect-elements), and [SFPC](https://sfpc.study/), and their work has been featured in [Frieze](https://www.frieze.com/) and [MIT Technology Review](https://www.technologyreview.com/2023/12/21/1084525/internet-whimsy-html-energy/). Their words have been published in [Kernel Magazine](https://www.kernelmag.io/), [Syllabus Project](https://syllabusproject.org/syllabus-for-taking-an-internet-walk/), and regularly in their newsletter [spencer's paradoxes](https://spencerchang.substack.com/).
+
+Some other explorations that don't quite fit into these boxes include [baristaing](https://twitter.com/spencerc99/status/1629293479825375233), [site-specific digital media installations](https://twitter.com/MatthewWSiu/status/1623910442921000961?s=20), [unusual mediums](https://twitter.com/spencerc99/status/1744415360089280835) for computing, and communal sites for connection.
+
+<!-- <div class="aboutContent">
 <p>
         <details>
         <summary>some things I'm proud of...</summary>
@@ -21,15 +28,6 @@ draft: true
         </div>
         </details>
     </p>
-
-Some other explorations that don't quite fit into these boxes include baristaing, <a href="https://twitter.com/MatthewWSiu/status/1623910442921000961?s=20">site-specific digital media installations</a>, and wearable ritual makers.
 <p>welcome to my digital home., why did i make this website? why is it so important? why did i make this website? why is it so important? why did i make this website? why is it so important?</p>
 <img src="/assets/spencer_real_person.png"/>
-</div>
-
-
-# Website
-why did i make this website? why is it so important? why did i make this website? why is it so important? why did i make this website? why is it so important?
-
-# Inspiration
-list website inspiration
+</div> -->
