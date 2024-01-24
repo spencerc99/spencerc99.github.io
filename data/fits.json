@@ -2,6 +2,94 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-20%3AIMG_0301.jpeg",
+            "date": "2024-01-20",
+            "timestamp": 1705794440.931,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Building",
+                "Clothing",
+                "Coat",
+                "Door",
+                "Outdoor",
+                "People",
+                "Sign",
+                "Storefront"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-17%3AIMG_0277.jpeg",
+            "date": "2024-01-17",
+            "timestamp": 1705554588.548,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Interior Room",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-19%3AIMG_0292_edited.jpeg",
+            "date": "2024-01-19",
+            "timestamp": 1705697938.393,
+            "width": 2552,
+            "height": 3402,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "People",
+                "Tripod",
+                "Window"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-18%3AIMG_0286.jpeg",
+            "date": "2024-01-18",
+            "timestamp": 1705631524.828,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-09%3AIMG_0193.jpeg",
             "date": "2024-01-09",
             "timestamp": 1704837421.093,
