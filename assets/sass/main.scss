@@ -2278,6 +2278,14 @@ hr.separator {
 .emailEmbedContainer {
   margin-top: 24px;
   margin-bottom: 24px !important;
+
+  .subscribe {
+    width: 50%;
+
+    @include media(xsmallScreen, smallScreen) {
+      width: 100%;
+    }
+  }
 }
 
 #custom-substack-embed {
