@@ -2,6 +2,74 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-27%3AIMG_0381.jpeg",
+            "date": "2024-01-27",
+            "timestamp": 1706401408.985,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Light",
+                "People",
+                "Window"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-28%3AIMG_0388.jpeg",
+            "date": "2024-01-28",
+            "timestamp": 1706503630.46,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Chair",
+                "Clothing",
+                "Door",
+                "Furniture",
+                "Interior Room",
+                "Jeans",
+                "Light",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-25%3AIMG_0361.jpeg",
+            "date": "2024-01-25",
+            "timestamp": 1706247521.148,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Interior Room",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-01-20%3AIMG_0301.jpeg",
             "date": "2024-01-20",
             "timestamp": 1705794440.931,
