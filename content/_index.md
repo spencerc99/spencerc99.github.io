@@ -15,7 +15,7 @@ const workDescription =`
 - exploring <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>,
   - exploring <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>,
   - ones where we can shape according to <a href="https://we-b.site">our internet dreams</a>,
-- and exploring poetry, through <a href="https://reboothq.substack.com/p/everyday-magic">writing</a>, <a href="https://www.frieze.com/article/online-publications-bridging-poetry-and-code">art</a>, and
+- and exploring poetry, through <a href="https://reboothq.substack.com/p/everyday-magic">writing</a>, <a href="https://www.technologyreview.com/2023/12/21/1084525/internet-whimsy-html-energy/">art</a>, and
 - software.
   - playful
     - playful,
