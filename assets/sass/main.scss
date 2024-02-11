@@ -22,7 +22,7 @@ $color-site-background: $color-light-peach;
 $color-site-background-translucent: $color-light-peach-translucent;
 $color-site-background-dark: rgb(28, 22, 8);
 $color-site-background-dark-translucent: rgba(35, 28, 10, .6);
-$color-background-teal: #f4fdff87;
+$color-background-teal: #dbf8ffa7;
 $color-background-teal-dark: #353c3d87;
 $color-text-dark: rgb(227, 223, 226);
 $color-quote-background-dark: rgb(24, 26, 27);
@@ -999,11 +999,10 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
 $expandThresholdPadding: 80px;
 .summaryList {
   width: 100%;
-  max-width: $viewport-width;
 
   &.expand {
     @include biggerThanViewport($expandThresholdPadding) {
-      max-width: none;
+      // max-width: none;
     }
   }
 
@@ -1012,7 +1011,7 @@ $expandThresholdPadding: 80px;
       display:none;
 
       @include biggerThanViewport($expandThresholdPadding) {
-        display: inherit;
+        // display: inherit;
       }
     }
   }
@@ -1044,15 +1043,16 @@ $expandThresholdPadding: 80px;
         @include link-highlight();
       }
 
+      box-shadow: inset 0.3px 0.5px 1.6px var(--color-box-shadow);
 
-      @include biggerThanViewport($expandThresholdPadding) {
-        background: var(--color-background-teal);
-        box-shadow: inset 0.3px 0.5px 1.6px var(--color-box-shadow);
-      }
+      // @include biggerThanViewport($expandThresholdPadding) {
+      //   background: var(--color-background-teal);
+      //   box-shadow: inset 0.3px 0.5px 1.6px var(--color-box-shadow);
+      // }
 
       &.active {
         background: var(--color-background-teal);
-        box-shadow: inset 0.3px 0.5px 1.6px var(--color-box-shadow);
+        
       }
 
       h3 {
