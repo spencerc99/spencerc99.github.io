@@ -14,11 +14,11 @@
       can-toggle
       title="this is one of my favorite Noguchi lamps..."
     />
-    <p><i>programmer, writer, internet imagineer, computational poet</i><br/>last in <a href="/window">{{ $location.location }}</a></p>
+    <p><i>internet practitioner & computational poet</i></p>
     <!-- <div >
       <img class="mainWindow" src="https://raw.githubusercontent.com/spencerc99/spencer-net-shots/main/window.png"/>
     </div> -->
-    <p>
+    <!-- <p>
     <details>
         <summary>Dreaming, wandering, laughing, and thinking about...</summary>
         <div>
@@ -38,7 +38,7 @@
             </ul>
         </div>
         </details>
-    </p>
+    </p> -->
     <div aria-hidden="true" class="plant" can-grow >
         <hr style="bottom: 12px; left: 0px; position: absolute; transform: rotate(270deg);">
         <hr style="bottom: 13.851px; left: -11.8564px; position: absolute; transform: rotate(240deg);">
@@ -61,21 +61,29 @@
         <hr style="bottom: 61.851px; left: 11.8564px; position: absolute; transform: rotate(300deg);">
         <hr style="bottom: 60.571px; left: 3.65773px; position: absolute; transform: rotate(60deg);">
     </div>
-    <p>
-      I'm a researcher and artist whose practice involves creating technology (tools, public infrastructure, instruction manuals) and internet <i>sites</i> (places, dinner parties, neighborhood libraries) that highlight the humanity shining in every seam of the computers we use and the materiality of these invisible bits and pixels. I want to subvert the overwhelming understanding of technology as an oppressive force pushed by large technology platforms and apps that feed on our attention to survive. I want to create space for real dialogue between the human and the computer, where computing is a medium for people to express themselves, cherish others, and create the possibility for imaginative change. I want to make computers feel more like feelings, as <a href="https://docs.google.com/document/d/1QbPa3URLo5cp07bi6U-vTFjX_4btORAlwSnSRxEapsk/edit">Tim Hwang and Omar Rizwan claim</a>: "For us, computer is the specific feeling of artifacts that allow for intimate systems of personal meaning.
+     <p>
+    <details>
+        <summary>Who am I?</summary>
+        <div>
+          <p>
+                      I'm a programmer, artist, and researcher who creates infrastructure (<a href="https://bulletin.spencerchang.me/home">tools</a>, <a href="https://github.com/spencerc99/playhtml">open-source libraries</a>, <a href="https://syllabusproject.org/syllabus-for-taking-an-internet-walk/">instruction manuals</a>) and internet <i>environments</i> (<a href="https://htmls.garden/">living ecosystems</a>, <a href="https://playhtml.fun/fridge.html">playful spaces</a>, and <a href="https://www.spencerchang.me/pacman-poem/">games</a>) that highlight the humanity shining in every seam of the computers we use and the materiality of these invisible bits and pixels. I want to create space for real dialogue between the human and the computer, where computing is a medium for people to express themselves, cherish others, and create the possibility for imaginative change.
+                      </p>
+        </div>
+        </details>
     </p>
     <p id="expandingWork"></p>
     <!-- idk why but it's getting really broken when I inline this content when there are more than two "https://" on one line... -->
     {{ .Content }}
 
         <!-- TODO: make an art page -->
-    <p>Open to collaborations for provocative internet experiences, speculative infrastructure for a defensibly open internet, and community-embedded computing. Say hi! And check out my lovely <a href="/friends">web friends</a>.</p>
-    <p>Also available are a <a href="/about">succinct, professional bio</a> and <a href="https://spencer.place/art">an overview of my art</a></p>
+    <p>🆕 Open to collaborations for provocative internet experiences, speculative infrastructure for a defensibly open internet, and community-embedded computing (<a href="/about">bio</a>, <a href="https://spencer.place/art">art overview</a>)</p>
 
 <div id="signature"><div class="signatureContent">
       <!-- TODO: hover over for photo in lil modal? -->
       <div class="serif">Spencer 張正 Chang<br/>spencerc99@gmail.com</div>
       <img can-spin id="stamp" class="stamp" src="/assets/name-stamp.png" title="this is my name stamp. my chinese name is 張正, 正 being my given name. 正 has many meanings: just, right, 5 if marking tallies on a food ordering sheet, proper, main, positive (for numbers). this animation was made on winter solstice and inspired by the scene from avatar the last airbender where aang opens the door to visit avatar roku during the winter solstice."/>
+      <div><a href="/window">{{ $location.location }}</a></div>
+      <br/>
       {{ partial "social_media.html" . }}
       </div>
     </div>

@@ -7,26 +7,14 @@ description: "Spencer is a programmer, researcher, artist, and world maker in Sa
 <script>
 const workDescription =`
 - I spend my days
-- imagining communal <a href="https://spencerchang.substack.com/p/towards-flight">futures of computing</a>,
-  - imagining communal <a href="https://spencerchang.substack.com/p/towards-flight">futures of computing</a>
-  - the kind with new ways for <a href="/posts/our-internet/">making space</a> on the internet, 
-    - the kind with new ways for <a href="/posts/our-internet/">making space</a> and <a href="https://playhtml.fun">relating to each other</a> on the internet,
-  - and community-owned, <a href="https://twitter.com/spencerc99/status/1619086724231208961?s=20">small-scale</a> infrastructure.
-- exploring <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>,
-  - exploring <a id="tinyInternets" href="https://tiny-inter.net/">𝓽𝓲𝓷𝔂 𝓲𝓷𝓽𝓮𝓻𝓷𝓮𝓽𝓼</a>,
-  - ones where we can shape according to <a href="https://we-b.site">our internet dreams</a>,
-- and exploring poetry, through <a href="https://reboothq.substack.com/p/everyday-magic">writing</a>, <a href="https://www.technologyreview.com/2023/12/21/1084525/internet-whimsy-html-energy/">art</a>, and
-- software.
-  - playful
-    - playful,
-    - open,
-      - open,
-      - and empowering
-  - software (like this <a href="https://htmlgarden.spencerchang.me">seasonal garden website</a>).
-    - software (like this <a href="https://htmlgarden.spencerchang.me">seasonal garden website</a>
-    - and <a href="https://poems.verses.xyz">expanding poems library</a>).
-      - and <a href="https://poems.verses.xyz">expanding poems library</a>
-      - and <a href="/pacman-poem">pacman poem</a>).
+- creating <a href="https://spencerchang.substack.com/p/towards-flight">communal computing</a> artifacts,
+  - creating <a href="https://spencerchang.substack.com/p/towards-flight">communal computing</a>
+  - artifacts
+    - internet environments and infrastructure
+      - net art, empowering software, and tangible computing devices
+  - the kind with new ways for <a href="https://tiny-inter.net/">making space</a> on the internet, 
+    - the kind with new ways for <a href="https://tiny-inter.net/">making space</a> and <a href="https://playhtml.fun">relating to each other</a> on the internet,
+  - and community-owned, <a href="https://spencerchang.substack.com/p/ti-10-make-small-web-tools">small-scale</a> infrastructure.
 - Before, I crafted
 - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> for several years
   - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> for several years (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and helped extend the <a href="https://coda.io/packs">Packs platform</a>)
