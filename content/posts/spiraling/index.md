@@ -57,26 +57,19 @@ It feels like I'm entirely captured by the song, each tiny movement and gesture,
 
 It's the same feeling I get in the heat and afterglow of dancing. There's an aura of power that radiates off my body. Everywhere I go, the air feels full of possibility. I feel unstoppable.
 
-These are the closest comparisons to the moments of creation that have felt magical to me this year. It's not quite the same as "flow," although my body is certainly in a continuous, rhythmic motion. The "flow" I'm used to comes with a loss of control; I enter a frenzy to devour my challenges as quickly as possible. 
+These are the closest comparisons to the moments of creation that have felt magical to me this year. It's not quite the same as "flow," although my body is certainly in a continuous, rhythmic motion. The "flow" I'm used to comes with a loss of control; I enter a frenzy to devour my challenges as quickly as possible. I start avoiding tradeoffs by simply putting more hours into the day, but whenever I stop to rest, it feels like I'm betraying myself.
 
 Rather, this "dance" feels like I'm moving with the natural motion of the universe and my body. In each moment, the immediate next steps become clear without thinking about what comes next. I'm aware of my actions and can tune them in response to my surroundings and my inner feelings. I'm moving constantly, but I'm in control. I'm light. I feel free.
 
-Yesterday, I sat on the sidewalk and cried for a good hour. I was releasing all the unprocessed grief from the past year—the loss of innocence in the departure from my job, some personal betrayals and let downs, and the weight of holding each day with exacting precision to my standard of meaning and joy.
-
-I've always had a hunger and an urgency to do more, faster. I hunger to have a prolific body of work. I avoid making tradeoffs by simply putting more hours into the day or when it feels too overwhelming, I avoid the problem hoping to stumble upon divine inspiration. But the urgency burns me out, and I can never stop to rest without feeling like I am betraying myself. 
-
 ---
-I've always deeply admired people who follow their hearts contrary to what the majority of others think they should do. I don't mean people who act contrarian for the sake of being contrarian. Rather, I think of the people who continue to follow their heart, despite the constant voice questioning themselves because of the words of the critics, the haters, even concerned, well-meaning colleagues and friends. Even when they try and ultimately fail, I deeply respect them for having tried at all. 
 
-This past year I've dreaded failure. Even as I've explored all these avenues of creation, it feels like I've played it safe. I've avoided committing myself to building a vehicle that will hold me for life. I've dismissed my time off as a "sabbatical" or downplayed the importance of my work to me. I've contained my energy when I explain what I do and omitted important aspects out of fear of overwhelming others. 
+In November, underneath the stars on a cloudless night in Northern California, I shared a dance circle with a new friend who told me that my movements looked like waterbending. Like water, I flowed in a single motion, sometimes gentle like a stream, and other times, crashing like a waterfall.
 
-I keep reading and re-reading accounts of people who have followed paths that seemed like "career suicide." Like [Omar Sy](https://www.newyorker.com/magazine/2021/06/21/the-formidable-charm-of-omar-sy), who I first discovered in 2021, starting fresh as an unknown in the U.S. acting world after winning the top acting prize in France. 
-
-I want to embody that same courage to live my life according to my own path. At the same time, I don't want to build just for myself. I want to build foundations for others to build on top of, to invite in and form bonds and create open spaces. I want to build a collective engine for creating technological change.
+I've found that I can't sit still. My inertia biases towards movement. Even on the days that I want to do nothing, I find myself grabbing for something to fiddle with, something to engage my mind. I seem to want to find a current no matter where I go. 
 
 ---
 
-At the start of the year, my mind was consumed with the search for a word to capture my year. The pictures that kept coming to mind were watery forms. I think of the way water moves when it encounters obstacles, how it simply finds a different way past. I think of how water moves according to nature's laws, changing in response to the environment while still abiding to those laws. Water does not change itself *for* anyone else. It moves purposefully, yet flexibly—constantly, yet calmly. 
+Last month, as my mind was consumed with searching for this year's theme, watery forms kept coming to my mind. I think of the way water moves when it encounters obstacles, how it simply finds a different way past. I think of how water moves according to nature's laws, changing in response to the environment while still abiding to those laws. Water does not change itself *for* anyone else. It moves purposefully, yet flexibly—constantly, yet calmly. 
 
 > “She was a quiet mover,” said Burns. “Like water moving over a rock.”
 > — a statement about Ruth Asawa from her biography, *Everything She Touched*
@@ -85,13 +78,13 @@ Moving slowly, but steadily in alignment with my purpose. That's how I want to b
 
 ---
 
-Underneath the stars on a cloudless night in Northern California, A friend who I had just met and shared a dance circle with told me that my dance movements looked like waterbending. And even like water itself, flowing in a single motion, sometimes gentle like a stream, and other times, crashing like a waterfall.
+Yesterday, among the occasional firework from Super Bowl celebrations and the hum of revelers, I sat on the curb and sobbed for a good hour. I had been trying to make dinner, and the power kept going out to stop me before I could finish, and it triggered this release of emotion I had been holding onto. I felt all the unprocessed anxiety, urgency, and grief from the past year pass through me—the loss of innocence in the departure from my job, personal betrayals, and the weight of holding each day with exacting precision to my standard of meaning and joy.
 
-I can't sit still. My inertia biases towards movement. Even on the days that I want to do nothing, I find myself grabbing for something to fiddle with, to keep my mind busy. I want to find a current in water no matter where you go. There is always an internal motion that you can find if you look closely. 
+Let me be weightless. Let me change. Let me be water, unmoored and unbound. 
 
 ---
 
-I said that I was building a [spine for a lifetime](https://spencerchang.substack.com/p/spines-for-a-lifetime) and I’ll do so by following my natural movements. R replied that it reminded them of lentils simmering. The more I think about that the more I resonate with the comparison. A stew [never dies](https://en.m.wikipedia.org/wiki/Perpetual_stew); it simmers and sustains and starts over again.
+I said that I was building a [spine for a lifetime](https://spencerchang.substack.com/p/spines-for-a-lifetime) and I’ll do so by following my natural movements. R replied that this metaphor reminded them of lentils simmering, and the more I simmer on this comparison, the more it resonates. A stew [never dies](https://en.m.wikipedia.org/wiki/Perpetual_stew); it sustains and simmer and starts over again.
 
 > “I start every day with two empty hands” — Ocean Vuong
 
@@ -120,7 +113,7 @@ From the eye of a storm, it looks like nothing is moving, but someday, all those
 - Victoria for starting our lovely letter exchange and giving me something to look forward to every month
 - Kristoffer for the endless generosity and support and fierce dedication to creating space for the quiet, the gentle, and the overlooked. 
 - Jacky for helping nurture and push little seedlings of ideas and the collaborations that always manage to surprise with delight
-- Alice, Mark, and Max (and my classmates in SFPC's Solidarity Infrastructures) for teaching me about how to move in concert with others, to create space for others, and to be *in service of*
+- Alice, Mark, and Max (and my classmates in Solidarity Infrastructures) for teaching me about how to move in concert with others, to create space for others, and to be *in service of*
 - Jess for weaving a force of care and whimsical wonder, for the silliness to picking up a door off the street and carrying it across SF hills.
 - Riley for being my Taiwan buddy and always creating a space for laughter and joy
 - Raymond for always believing in me and providing a calm space to evaluate
