@@ -15,7 +15,7 @@ In 2024, I'm channeling this spiraling energy as an active pursuit rather than a
 ## moving in 2023
 Dear 2023 Spencer,
 
-This year is a strange one to reflect on. Your "unemployed" journey started almost exactly at the start of this year, which means, this reflection is really a reflection of this new chapter of your life, being suddenly jolted from your old job into the independent researcher/artist/designer life that you yearned to try for so long. 
+This year is a strange one to reflect on. Your "unemployed" journey started almost exactly at the start of this year, which means, this reflection is really a reflection of this new chapter of your life, jolted from your corporate job into the independent researcher/artist/designer life that you yearned to try for so long. 
 
 To be honest, you're scared of writing this letter. You've been in conflict over the past few months over how much you've really done this year. I think you're still struggling to value your self-worth in the absence of some prestigious and income-stabilizing job. You preemptively worry about what other people will think, even if you know that what you get to say now sounds way truer (and likely cooler) than your prior struggle of explaining your day job and side projects separately. You judge yourself more than ever—your time being solely your time, with only yourself to blame and suffer from your actions. You compare yourself to people with day jobs and try to extrapolate a linearly increasing rate of output given your full devotion. You compare yourself to people who have embraced the independent journey for a long time and berate yourself for not having more things figured out by now. You tell yourself that everyone's just making it up as they go, but it doesn't comfort you. You still yearn to make faster, go further, manifest larger. 
 
@@ -27,11 +27,11 @@ You wonder if you really *deserve* to focus full-time on your passions. You wond
 
 You overvalue proactivity. You prize the creation of new things. But why can't your act of self-preservation be just as valuable—just as sacred? Why can't you internalize that *your maintenance* [is part of the work, too](https://queensmuseum.org/wp-content/uploads/2016/04/Ukeles-Manifesto-for-Maintenance-Art-1969.pdf)? Why can't you give yourself permission to do all the things that you've always wanted to do—slowly and purposefully—regardless of how *deserved*.
 
-You're reading last year's reflection and worrying that nothing has changed. You're looking at your reflection in the glass of the plane, and you can tell that much is the same. You love full moon nights and making your own coffee and an excessive amount of peanut butter. You're reluctant to deviate from the standard 9-5 working routine. You still haven't figured out how to negotiate a good regular sleeping schedule and the urgency that occasionally summons you late at night.
+You're reading last year's reflection and worrying that nothing has changed. You're looking at your reflection in the glass of the plane, and you can tell that much is the same. You love full moon nights and making your own coffee and an excessive amount of peanut butter. You still haven't figured out how to negotiate a good regular sleeping schedule and the urgency that occasionally summons you late at night.
 
 But perhaps you're not looking close enough. In many ways, your perception is sharper, your sensibilities deeper, your attention calmer. You notice the moon in unexpected places more often these days. You pick out birds perched on phone lines and nestled in the nooks of trees. You find the eyes of strangers in the shifting reflections of subway windows. Your [fits](https://www.spencerchang.me/fits/) have become more textured. You can let natural curiosity lead with people for longer before becoming self-conscious. You can craft art concepts that sound cohesive. You can talk about the things you care about at length, with a fire and clarity that discloses the depth to which you care. 
 
-You have come so far in a year. Maybe a lot isn't obvious from the surface. But if you look inward, you feel more powerful. This year, you contended with the most doubt of your life. At the same time, the you from years ago wouldn't have thought it possible to make it to where you are. 
+You have come so far in a year, even if it isn't obvious. Looking inward, you feel more powerful. This year, you contended with the most doubt of your life. At the same time, the you from years ago wouldn't have thought it possible to make it to where you are. 
 
 Your word for 2023 was *motion*, and you really didn't stop once the year began. It flew by like a flash, felt like living 3 lives in the span of 1. You embraced your multitude of selves, with all their conflicts and differing desires—the artist, the designer, the programmer, the life enjoyer, the Taiwanese, the researcher, the poet—all of you.
 
@@ -57,9 +57,9 @@ It feels like I'm entirely captured by the song, each tiny movement and gesture,
 
 It's the same feeling I get in the heat and afterglow of dancing. There's an aura of power that radiates off my body. Everywhere I go, the air feels full of possibility. I feel unstoppable.
 
-These are the closest comparisons to the moments of creation that have felt magical to me this year. It's not quite the same as "flow," although my body is certainly in a continuous, rhythmic motion. The "flow" I'm used to comes with a loss of control; I enter a frenzy to devour my challenges as quickly as possible. I start avoiding tradeoffs by simply putting more hours into the day, but whenever I stop to rest, it feels like I'm betraying myself.
+These are the closest comparisons to the moments of creation that have felt magical to me this year. It's not quite the same as "flow," although my body is certainly in a continuous, rhythmic motion. The "flow" I'm used to comes with a loss of control; I feel an urgency to devour my challenges as quickly as possible.
 
-Rather, this "dance" feels like I'm moving with the natural motion of the universe and my body. In each moment, the immediate next steps become clear without thinking about what comes next. I'm aware of my actions and can tune them in response to my surroundings and my inner feelings. I'm moving constantly, but I'm in control. I'm light. I feel free.
+Instead, this "dance" feels like I'm moving with the natural motion of the universe and my body. In each moment, the immediate next steps become clear without thinking about what comes next. I'm aware of my actions and can tune them in response to my surroundings and my inner feelings. I'm moving constantly, but I'm in control. I'm light. I feel free.
 
 ---
 
