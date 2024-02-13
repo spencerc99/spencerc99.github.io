@@ -5,7 +5,6 @@ date: "2024-02-12"
 tags: ['personal', 'reflection']
 emojis: [😵‍💫,🌀,🐚,🎋]
 ---
-# spiraling in 2024
 _Every year, I do an annual reflection where I write a letter to my past self looking back on my theme for the year and setting an intention for a new theme moving forward. Last year, I took on [motion](http://spencerchang.me/posts/motion) as a theme._
 
 I've been caught in various spirals over the past few months. Questions around my worth, the importance of my work, and the strength of my love for the world. When I spiral, I don't move. I'm stopped up, trapped, motionless. I lost the motion I intended to cultivate because I lost control. I wanted to be free, but I landed in quicksand. It still feels like I'm emerging these days. 
