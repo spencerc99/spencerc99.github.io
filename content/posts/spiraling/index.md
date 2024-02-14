@@ -120,5 +120,6 @@ From the eye of a storm, it looks like nothing is moving, but someday, all those
 - Ameesh for being the 赤 to my 青
 - JW for showing me how to bring people together
 - Rishi for reminding me of the power we hold in ourselves
+- Matt for being a gentle thought partner
 - Jamie for always holding a safe space for feeling overwhelmed
 - Sabrina for being a constant source of joy, love, and hope
