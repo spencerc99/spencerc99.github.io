@@ -7,14 +7,14 @@ description: "Spencer is a programmer, researcher, artist, and world maker in Sa
 <script>
 const workDescription =`
 - I spend my days
-- creating <a href="https://spencerchang.substack.com/p/towards-flight">communal computing</a> artifacts,
-  - creating <a href="https://spencerchang.substack.com/p/towards-flight">communal computing</a>
-  - artifacts
-    - internet environments and infrastructure
-      - net art, empowering software, and tangible computing devices
-  - the kind with new ways for <a href="https://tiny-inter.net/">making space</a> on the internet, 
-    - the kind with new ways for <a href="https://tiny-inter.net/">making space</a> and <a href="https://playhtml.fun">relating to each other</a> on the internet,
-  - and community-owned, <a href="https://spencerchang.substack.com/p/ti-10-make-small-web-tools">small-scale</a> infrastructure.
+- imagining <a href="https://spencerchang.substack.com/p/towards-flight">communal computing</a> futures,
+  - imagining <a href="https://spencerchang.substack.com/p/towards-flight">communal computing</a> futures,
+  - through 
+  - internet environments and solidarity infrastructure,
+    - internet environments and solidarity infrastructure,
+    - the kinds with new ways for <a href="https://tiny-inter.net/">making space</a> on the internet, 
+      - the kinds with new ways for <a href="https://tiny-inter.net/">making space</a> and <a href="https://playhtml.fun">relating to each other</a> on the internet,
+    - and community-owned, <a href="https://spencerchang.substack.com/p/ti-10-make-small-web-tools">small-scale</a> infrastructure.
 - Before, I crafted
 - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> for several years
   - tools for tinkers at <a id="coda" href="https://coda.io">Coda</a> for several years (I built out our <a href="/posts/rituals-remixing">custom templates platform</a> and helped extend the <a href="https://coda.io/packs">Packs platform</a>)
