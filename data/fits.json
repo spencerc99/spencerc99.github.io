@@ -2,6 +2,168 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-16%3AIMG_0792.jpeg",
+            "date": "2024-02-16",
+            "timestamp": 1708142366.06,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Puerto Vallarta, Jalisco, Mexico",
+            "city": "Puerto Vallarta",
+            "country": "Mexico",
+            "peopleCount": 1,
+            "labels": [
+                "Art",
+                "Bed",
+                "Bedding",
+                "Bedroom",
+                "Furniture",
+                "Housewares",
+                "Interior Design",
+                "Interior Room",
+                "People",
+                "Pillow",
+                "Tool"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-20%3AIMG_0946.jpeg",
+            "date": "2024-02-20",
+            "timestamp": 1708474238.603,
+            "width": 2316,
+            "height": 3088,
+            "favorite": false,
+            "place": "Puerto Vallarta, Jalisco, Mexico",
+            "city": "Puerto Vallarta",
+            "country": "Mexico",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "Footwear",
+                "Jeans",
+                "People",
+                "Shoes",
+                "Sneaker"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-11%3AIMG_0684.jpeg",
+            "date": "2024-02-11",
+            "timestamp": 1707708368.809,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Door",
+                "Interior Room",
+                "People",
+                "Scarf"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-10%3AIMG_0668.jpeg",
+            "date": "2024-02-10",
+            "timestamp": 1707614293.582,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Bag",
+                "Clothing",
+                "Container",
+                "Light",
+                "Luggage",
+                "People",
+                "Window"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-21%3AIMG_0978.jpeg",
+            "date": "2024-02-21",
+            "timestamp": 1708567534.684,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Hospital",
+                "Interior Room",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-19%3AIMG_0905.jpeg",
+            "date": "2024-02-19",
+            "timestamp": 1708400804.904,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Puerto Vallarta, Jalisco, Mexico",
+            "city": "Puerto Vallarta",
+            "country": "Mexico",
+            "peopleCount": 1,
+            "labels": [
+                "Blue Sky",
+                "Clothing",
+                "Decorative Plant",
+                "Footwear",
+                "Outdoor",
+                "People",
+                "Plant",
+                "Shoes",
+                "Sky"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-05%3AIMG_0565.jpeg",
             "date": "2024-02-05",
             "timestamp": 1707187719.062,

@@ -1,6 +1,6 @@
 ---
 title: "spiraling in 2024"
-image: '/posts/spiraling/images/cover.png'
+image: '/posts/spiraling/images/cyclone.png'
 date: "2024-02-12"
 tags: ['personal', 'reflection']
 emojis: [😵‍💫,🌀,🐚,🎋]

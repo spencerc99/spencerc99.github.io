@@ -999,6 +999,7 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
 $expandThresholdPadding: 80px;
 .summaryList {
   width: 100%;
+  max-width: $viewport-width;
 
   &.expand {
     @include biggerThanViewport($expandThresholdPadding) {
