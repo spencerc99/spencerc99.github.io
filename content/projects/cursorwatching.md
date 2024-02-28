@@ -3,25 +3,18 @@ title: "cursor watching"
 emojis: ["👁️"]
 ---
 
-
 this link will activate at 9:00PM EST on Saturday, March 2nd.
 
+<figure><video src="/projects/images/cursor-watching-teaser.webm" muted controls autoplay loop/></figure>
+
+<br/>
+<br/>
 <div id="time" style="font-size: 3em; font-weight: bold; display: flex; justify-content: center;"></div>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 
 <script>
     const targetDate = new Date("March 2, 2024 21:00:00 EST");
