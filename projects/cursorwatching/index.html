@@ -2,21 +2,20 @@
 <head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<title>Vignettes</title>
+<title>cursor watching</title>
 <meta name=description content>
 <meta name=keywords content>
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.spencerchang.me/vignettes/">
-<meta property="og:title" content="Vignettes">
+<meta property="og:url" content="https://www.spencerchang.me/projects/cursorwatching/">
+<meta property="og:title" content="cursor watching">
 <meta property="og:description" content>
 <meta property="og:image" content="https://www.spencerchang.me/assets/name-stamp.png">
-<meta name=robots content="noindex">
 <meta name=twitter:card content="summary">
 <meta name=twitter:domain value=https://www.spencerchang.me>
-<meta name=twitter:title value=Vignettes>
+<meta name=twitter:title value="cursor watching">
 <meta name=twitter:description value>
 <meta name=twitter:image content="https://www.spencerchang.me/assets/name-stamp.png">
-<meta name=twitter:url value=https://www.spencerchang.me/vignettes/>
+<meta name=twitter:url value=https://www.spencerchang.me/projects/cursorwatching/>
 <meta name=twitter:label1 value="Posted on">
 <meta name=twitter:data1 value="January 1, 0001">
 <meta name=twitter:label2 value="Reading time">
@@ -30,7 +29,6 @@
 <link rel=icon type=image/png sizes=32x32 href=/assets/name-stamp.png>
 <link rel=icon type=image/png sizes=16x16 href=/assets/name-stamp.png>
 <link rel=manifest href=/site.webmanifest>
-<link rel=alternate type=application/rss+xml href=https://www.spencerchang.me/vignettes/index.xml title="Spencer Chang">
 <script async src=/lazysizes.min.js></script>
 <script async src=/helpers.js></script>
 <script src=https://unpkg.com/telescopic-text@latest/lib/index.js></script>
@@ -60,34 +58,63 @@
 </nav>
 <div id=background></div>
 <div id=content>
-<div class="headerContainer textContent">
-<h1>Vignettes
-<div class="emojiContainer inline"><button id=emoji onclick=updateEmoji()></button></div>
-<script>const defaultEmojis=['🎋','🍂','🌑','🪸','🌀'],inputEmojis=null,shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
-</h1>
+<div class="progress-container fixed-top">
+<span class=progress-bar></span>
 </div>
+<div class="headerContainer textContent postHeader"></div>
+<script>const searchParams=new URLSearchParams(window.location.search);if(searchParams.has("redirect")){const a=document.createElement('meta');window.location.href=""}</script>
 <div class=mainContainer>
-<div class="listDescription textContent">
-<p>vignettes</p>
+<div class="postContainer textContent">
+<div class="post meta">
 </div>
-<div class=summaryList>
+<h1 class=title>cursor watching
+<div class="emojiContainer inline"><button id=emoji onclick=updateEmoji()></button></div>
+<script>const defaultEmojis=['🎋','🍂','🌑','🪸','🌀'],inputEmojis=["👁️"],shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
+</h1>
+<h3 class=description></h3>
+<div>
+<div class=postContent>
+<p>this link will activate at 9:00PM EST on Saturday, March 2nd.</p>
+<div id=time style=font-size:3em;font-weight:700;display:flex;justify-content:center></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script>const targetDate=new Date("March 2, 2024 21:00:00 EST"),time=document.getElementById("time"),updateCountdown=()=>{const b=new Date,a=targetDate-b,c=Math.floor(a/(1e3*60*60*24)),d=c*24+Math.floor(a%(1e3*60*60*24)/(1e3*60*60)),e=Math.floor(a%(1e3*60*60)/(1e3*60)),f=Math.floor(a%(1e3*60)/1e3);time.innerText=`${padLeft(d,'0',2)}:${padLeft(e,'0',2)}:${padLeft(f,'0',2)}`};function padLeft(b,c,d){let a=b.toString();while(a.length<d)a=c+a;return a}updateCountdown(),setInterval(updateCountdown,1e3)</script>
 </div>
-<div class=marquee title="this is a set of live attributes from what I consume and make streamed to this little status bar. The numbers represent Spencer epoch time, a play on UNIX epoch.">
-<span class=marqueeContent>
-[<span class=date><span class=timestamp>02.14|00:09</span><span class=epoch>847255690</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/spiraling-in-2024>spiraling in 2024</a> •
-[<span class=date><span class=timestamp>02.27|21:09</span><span class=epoch>848453389</span></span>] 🎧 <a href=https://open.spotify.com/track/1ijdNZ3SYfptnGrlT4533t>sunday :)</a> •
-[<span class=date><span class=timestamp>10.30|07:09</span><span class=epoch>806502420</span></span>] 📿 “I start every day with two empty hands” •
-[<span class=date><span class=timestamp>02.27|16:09</span><span class=epoch>848435823</span></span>] 🔨 <a href=https://github.com/spencerc99/playhtml>playhtml</a> •
-[<span class=date><span class=timestamp>10.13|05:09</span><span class=epoch>805029828</span></span>] 📖 <a href=https://goodreads.com/book/show/65214963-wrong-way>Wrong Way</a> •
-[<span class=date><span class=timestamp>02.24|19:09</span><span class=epoch>848189003</span></span>] 🚲 <a href=https://www.strava.com/activities/>lmao got a flat from a stray staple: 13.1km</a> •
-[<span class=date><span class=timestamp>02.14|00:09</span><span class=epoch>847255690</span></span>] ✍️ <a href=https://spencerchang.substack.com/p/spiraling-in-2024>spiraling in 2024</a> •
-[<span class=date><span class=timestamp>02.27|21:09</span><span class=epoch>848453389</span></span>] 🎧 <a href=https://open.spotify.com/track/1ijdNZ3SYfptnGrlT4533t>sunday :)</a> •
-[<span class=date><span class=timestamp>10.30|07:09</span><span class=epoch>806502420</span></span>] 📿 “I start every day with two empty hands” •
-[<span class=date><span class=timestamp>02.27|16:09</span><span class=epoch>848435823</span></span>] 🔨 <a href=https://github.com/spencerc99/playhtml>playhtml</a> •
-[<span class=date><span class=timestamp>10.13|05:09</span><span class=epoch>805029828</span></span>] 📖 <a href=https://goodreads.com/book/show/65214963-wrong-way>Wrong Way</a> •
-[<span class=date><span class=timestamp>02.24|19:09</span><span class=epoch>848189003</span></span>] 🚲 <a href=https://www.strava.com/activities/>lmao got a flat from a stray staple: 13.1km</a> •
-</span>
 </div>
+</div>
+<footer class=textContent>
+<div class=postFooter>
+<p>I write for emotional resonance and thought provoking, so please <a href=https://twitter.com/@spencerc99>message me</a> (<a href=mailto:spencerc99@gmail.com>spencerc99@gmail.com</a>) if you have thoughts :)</span>
+<p>You can submit your email below (or use <a href=/index.xml>RSS</a>) to get updates on new writing and projects (also on <a href=https://twitter.com/spencerc99/>Twitter</a>)</p>
+</div>
+<div class=shareCta>
+<div class=emailEmbedContainer>
+<iframe class=subscribe src=https://spencerchang.substack.com/embed style="border:1px solid #eee;background:#fff" frameborder=0 scrolling=no></iframe>
+</div>
+<div class=shareActions>
+<button class="icon link" href onclick='copyLink("https://www.spencerchang.me/projects/cursorwatching/")'><i class="uil uil-link-h"></i> Copy Link</button>
+</div>
+</div>
+<br>
+<div><i>back to my <a href=/>favorites</a> or <a href=/posts>all my writing</a>.</i></div>
+<script src=/plugins/permalink/permalink.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script>const images=Array.from(document.querySelectorAll("figure img:not(.galleryImage)"));images.forEach(a=>{mediumZoom(a,{margin:0,scrollOffset:40,container:null,template:null})})</script>
+</footer>
+<script>function scrollProgressBar(){var b=function(){return $(document).height()-$(window).height()},h=function(){return $(window).scrollTop()},f=$(".progress-bar"),d=b(),g=function(){return e=h(),a=e/d*100,a=a+"%",a},c=function(){f.css({width:g()})},e,a;$(document).on("scroll",c),$(window).on("resize",function(){d=b(),c()})}$(document).ready(function(){scrollProgressBar()})</script>
 </div>
 <div class=footerCta>
 <h3 class=serif>Thanks for visiting, and safe travels!<br>If you'd like to support my independent work, I have some fun buttons for you 🧡</h3>
