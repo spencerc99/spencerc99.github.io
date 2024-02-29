@@ -11,7 +11,10 @@ emojis: ["👁️"]
 
 this link will activate at 9:00PM EST on Saturday, March 2nd. Fill out your <a href="https://forms.gle/pWn6mU3Kct5681KS6">info</a> to get a reminder and listed in the credits.
 
-<figure><video src="/projects/images/cursor-watching-teaser.webm" muted controls autoplay loop/></figure>
+<figure>
+<video src="/projects/images/cursor-watching-teaser.webm" muted controls autoplay loop></video>
+    <figcaption><p>just a preview of what's to come...</p></figcaption>
+</figure>
 
 <br/>
 <br/>
@@ -20,7 +23,6 @@ this link will activate at 9:00PM EST on Saturday, March 2nd. Fill out your <a h
 <br/>
 <br/>
 <br/>
-
 
 <script>
     const targetDate = new Date("March 2, 2024 21:00:00 EST");
