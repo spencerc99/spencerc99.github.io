@@ -3,7 +3,13 @@ title: "cursor watching"
 emojis: ["👁️"]
 ---
 
-this link will activate at 9:00PM EST on Saturday, March 2nd.
+<!-- <script>
+    // good try if you found this :) this will be updated on Saturday
+    const url = "";
+    window.location.replace(url)
+</script> -->
+
+this link will activate at 9:00PM EST on Saturday, March 2nd. Fill out your <a href="https://forms.gle/pWn6mU3Kct5681KS6">info</a> to get a reminder and listed in the credits.
 
 <figure><video src="/projects/images/cursor-watching-teaser.webm" muted controls autoplay loop/></figure>
 
