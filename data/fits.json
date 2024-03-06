@@ -2,6 +2,194 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-29%3AIMG_1164.jpeg",
+            "date": "2024-02-29",
+            "timestamp": 1709220774.538,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Appliance",
+                "Cabinet",
+                "Clothing",
+                "Furniture",
+                "Headgear",
+                "Jacket",
+                "Jeans",
+                "Machine",
+                "People",
+                "Scarf"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-03-04%3AIMG_1412.jpeg",
+            "date": "2024-03-04",
+            "timestamp": 1709606669.24,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Coat",
+                "Door",
+                "Jacket",
+                "Outerwear",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-28%3AIMG_1159.jpeg",
+            "date": "2024-02-28",
+            "timestamp": 1709166710.757,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Chelsea Market, New York, North Hudson, United States",
+            "city": "New York",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "People"
+            ],
+            "season": "Winter",
+            "activities": [
+                "Entertainment",
+                "Museum",
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": [
+                "Art Museum",
+                "Arts",
+                "Museum"
+            ]
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-03-02%3AIMG_1276.jpeg",
+            "date": "2024-03-02",
+            "timestamp": 1709356174.581,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Cord",
+                "Decorative Plant",
+                "Furniture",
+                "People",
+                "Plant",
+                "Sofa",
+                "Tool"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-03-04%3AIMG_1361.jpeg",
+            "date": "2024-03-04",
+            "timestamp": 1709565216.949,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Houseplant",
+                "People",
+                "Plant"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-26%3AIMG_1059.jpeg",
+            "date": "2024-02-26",
+            "timestamp": 1708968342.859,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Chair",
+                "Chandelier",
+                "Clothing",
+                "Furniture",
+                "Light",
+                "People",
+                "Swivel Chair",
+                "Window"
+            ],
+            "season": "Winter",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-03-02%3AIMG_1277.jpeg",
+            "date": "2024-03-02",
+            "timestamp": 1709398626.21,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
+            "city": "Brooklyn",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Chair",
+                "Cord",
+                "Decorative Plant",
+                "Furniture",
+                "People",
+                "Plant",
+                "Tool"
+            ],
+            "season": "Spring",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-23%3AIMG_1023.jpeg",
             "date": "2024-02-23",
             "timestamp": 1708759200.586,
