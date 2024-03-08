@@ -2,6 +2,25 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-03-07%3AIMG_1487.jpeg",
+            "date": "2024-03-07",
+            "timestamp": 1709856002.213,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "People"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-02-29%3AIMG_1164.jpeg",
             "date": "2024-02-29",
             "timestamp": 1709220774.538,
@@ -167,7 +186,7 @@
             "timestamp": 1709398626.21,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "Long Island, Brooklyn, New York Metropolitan Area, United States",
             "city": "Brooklyn",
             "country": "United States",
@@ -182,10 +201,7 @@
                 "Tool"
             ],
             "season": "Spring",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -217,11 +233,18 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Chair",
+                "Clothing",
+                "Door",
+                "Furniture",
+                "People",
+                "Window"
+            ],
             "season": "Winter",
             "activities": "",
             "venue_types": ""
@@ -281,8 +304,6 @@
             ],
             "season": "Winter",
             "activities": [
-                "Dining",
-                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -581,7 +602,7 @@
             "timestamp": 1705794440.931,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -628,7 +649,7 @@
             "timestamp": 1705697938.393,
             "width": 2552,
             "height": 3402,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -669,7 +690,7 @@
             "timestamp": 1704837421.093,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -800,7 +821,7 @@
             "timestamp": 1703576247.842,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -890,7 +911,7 @@
             "timestamp": 1703624622.448,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -917,7 +938,14 @@
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Closet",
+                "Clothing",
+                "Interior Room",
+                "People",
+                "Scarf",
+                "Window"
+            ],
             "season": "Winter",
             "activities": "",
             "venue_types": ""
@@ -929,11 +957,11 @@
             "timestamp": 1702514630.188,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
-            "peopleCount": 2,
+            "peopleCount": 1,
             "labels": [
                 "Bed",
                 "Bedding",
@@ -961,7 +989,7 @@
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
-            "peopleCount": 2,
+            "peopleCount": 1,
             "labels": [
                 "Backpack",
                 "Bed",
@@ -1016,7 +1044,7 @@
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
-            "peopleCount": 2,
+            "peopleCount": 1,
             "labels": [
                 "Clothing",
                 "Interior Room",
@@ -1051,7 +1079,7 @@
             "timestamp": 1701905383.046,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "Houston, Texas, United States",
             "city": "Houston",
             "country": "United States",
@@ -1064,10 +1092,7 @@
                 "People"
             ],
             "season": "Winter",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -1093,7 +1118,10 @@
                 "Shoes"
             ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -1116,7 +1144,10 @@
                 "Sky"
             ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -1141,7 +1172,10 @@
                 "Scarf"
             ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -1171,7 +1205,10 @@
                 "Water Body"
             ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -1182,13 +1219,21 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "Kathmandu, Bagmati, Nepal",
+            "city": "Kathmandu",
+            "country": "Nepal",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Clothing",
+                "Coat",
+                "Jacket",
+                "People"
+            ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -1199,13 +1244,26 @@
             "width": 1536,
             "height": 2048,
             "favorite": true,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "Pokhara, Gandaki, Nepal",
+            "city": "Pokhara",
+            "country": "Nepal",
             "peopleCount": 1,
-            "labels": [],
+            "labels": [
+                "Clothing",
+                "Fence",
+                "Grass",
+                "Land",
+                "Outdoor",
+                "Path",
+                "People",
+                "Plant",
+                "Water"
+            ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -1248,7 +1306,10 @@
                 "People"
             ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -1330,9 +1391,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Clothing",
@@ -1373,9 +1434,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Chandelier",
@@ -1397,7 +1458,7 @@
             "timestamp": 1699392863.53,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1424,9 +1485,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Bag",
@@ -1446,7 +1507,7 @@
             "timestamp": 1699421710.789,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1454,6 +1515,7 @@
             "labels": [
                 "Chair",
                 "Clothing",
+                "Coat",
                 "Door",
                 "Furniture",
                 "Light",
@@ -1471,9 +1533,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Clothing",
@@ -1492,9 +1554,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Camera",
@@ -1514,10 +1576,10 @@
             "timestamp": 1698091901.038,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "favorite": true,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Clothing",
@@ -1563,9 +1625,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Interior Room",
@@ -1585,9 +1647,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Clothing",
@@ -1610,7 +1672,7 @@
             "timestamp": 1697587241.075,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1634,9 +1696,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Clothing",
@@ -1653,10 +1715,10 @@
             "timestamp": 1696956818.651,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "favorite": true,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Clothing",
@@ -1690,10 +1752,7 @@
                 "Window"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -1725,9 +1784,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Interior Room",
@@ -1854,7 +1913,7 @@
             "timestamp": 1694652041.895,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -1875,13 +1934,15 @@
             "timestamp": 1693603802.903,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Bed",
+                "Clothing",
+                "Coat",
                 "Furniture",
                 "Hospital",
                 "Interior Room",
@@ -1947,9 +2008,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Cabinet",
@@ -1972,15 +2033,16 @@
             "timestamp": 1695758429.846,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "favorite": true,
+            "place": "de Young museum, San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Bath",
                 "Bathroom",
                 "Bathroom Faucet",
+                "Bathtub",
                 "Clothing",
                 "Interior Room",
                 "People",
@@ -2012,9 +2074,9 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Chair",
@@ -2297,7 +2359,7 @@
             "timestamp": 1693337042.15,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -2359,7 +2421,7 @@
             "timestamp": 1691512305.491,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -2386,9 +2448,8 @@
             "place": "Newark Liberty International Airport, Elizabeth, New Jersey, United States",
             "city": "Elizabeth",
             "country": "United States",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
-                "Child",
                 "People"
             ],
             "season": "Summer",
@@ -2405,7 +2466,7 @@
             "timestamp": 1692619236.914,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "New York, North Hudson, United States",
             "city": "New York",
             "country": "United States",
@@ -2427,7 +2488,7 @@
             "timestamp": 1690663042.256,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -2492,10 +2553,7 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": [
-                "Cafe & Coffee Shop",
-                "Food & Grocery"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -2527,7 +2585,7 @@
             "timestamp": 1691205848.975,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -2816,17 +2874,19 @@
             "timestamp": 1689873053.139,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Art",
                 "Chair",
                 "Clothing",
                 "Door",
                 "Footwear",
                 "Furniture",
+                "Interior Design",
                 "Light",
                 "People",
                 "Shoes",
@@ -2850,7 +2910,9 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Machine",
+                "Outerwear",
                 "People"
             ],
             "season": "Summer",
@@ -2870,7 +2932,6 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Art",
                 "People",
                 "Plant"
             ],
@@ -2930,7 +2991,7 @@
             "timestamp": 1689207899.266,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -2971,7 +3032,7 @@
             "timestamp": 1689028867.239,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -3025,7 +3086,7 @@
             "timestamp": 1688504291.379,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -3275,7 +3336,6 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Art",
                 "Clothing",
                 "People"
             ],
@@ -3362,6 +3422,7 @@
             "peopleCount": 1,
             "labels": [
                 "Bicycle",
+                "Bicycle Wheel",
                 "Clothing",
                 "Door",
                 "Headgear",
@@ -3425,6 +3486,7 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Door",
                 "Machine",
                 "People"
@@ -3471,7 +3533,7 @@
             "timestamp": 1685668522.881,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -3533,11 +3595,7 @@
             ],
             "season": "Spring",
             "activities": "",
-            "venue_types": [
-                "Bookstore",
-                "Media Service",
-                "Shopping"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -3562,11 +3620,7 @@
             ],
             "season": "Spring",
             "activities": "",
-            "venue_types": [
-                "Bookstore",
-                "Media Service",
-                "Shopping"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -3616,8 +3670,15 @@
                 "Sneaker"
             ],
             "season": "Spring",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": [
+                "Modern European Cuisine",
+                "New American Cuisine",
+                "Restaurant"
+            ]
         },
         {
             "description": "",
@@ -3650,7 +3711,7 @@
             "timestamp": 1685139275.338,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -3671,11 +3732,7 @@
             ],
             "season": "Spring",
             "activities": "",
-            "venue_types": [
-                "Bookstore",
-                "Media Service",
-                "Shopping"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -3684,7 +3741,7 @@
             "timestamp": 1684613562.588,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "Napa, California, United States",
             "city": "Napa",
             "country": "United States",
@@ -3798,9 +3855,8 @@
             ],
             "venue_types": [
                 "Caf\u00e9",
-                "Family Restaurant",
-                "Japanese Cuisine",
-                "Restaurant"
+                "Restaurant",
+                "Soup"
             ]
         },
         {
@@ -3888,7 +3944,7 @@
             "timestamp": 1681719946.163,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "Wanhua District, Taiwan",
             "city": "Wanhua District",
             "country": "Taiwan",
@@ -3926,7 +3982,7 @@
             "timestamp": 1683313912.413,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -3964,7 +4020,7 @@
             "place": "Shinjuku, Tokyo, Japan",
             "city": "Shinjuku",
             "country": "Japan",
-            "peopleCount": 2,
+            "peopleCount": 1,
             "labels": [
                 "Baseball Hat",
                 "Clothing",
@@ -4069,7 +4125,7 @@
             "place": "Shibuya, Tokyo, Japan",
             "city": "Shibuya",
             "country": "Japan",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Clothing",
                 "People",
@@ -4173,11 +4229,7 @@
                 "Dining",
                 "Lunch"
             ],
-            "venue_types": [
-                "Bookstore",
-                "Media Service",
-                "Shopping"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -4246,7 +4298,7 @@
             "timestamp": 1681482224.009,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "Daan District, Taiwan",
             "city": "Daan District",
             "country": "Taiwan",
@@ -4288,11 +4340,7 @@
             ],
             "season": "Spring",
             "activities": "",
-            "venue_types": [
-                "Bookstore",
-                "Media Service",
-                "Shopping"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -4322,9 +4370,8 @@
             ],
             "venue_types": [
                 "Caf\u00e9",
-                "Family Restaurant",
-                "Japanese Cuisine",
-                "Restaurant"
+                "Restaurant",
+                "Soup"
             ]
         },
         {
@@ -4357,15 +4404,18 @@
             "width": 3024,
             "height": 4032,
             "favorite": false,
-            "place": "",
-            "city": "",
-            "country": "",
+            "place": "Zhongzheng District, Taiwan",
+            "city": "Zhongzheng District",
+            "country": "Taiwan",
             "peopleCount": 1,
             "labels": [
                 "People"
             ],
             "season": "Spring",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -4453,7 +4503,10 @@
                 "People"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -4610,10 +4663,7 @@
                 "People"
             ],
             "season": "Spring",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -4632,6 +4682,7 @@
                 "Door",
                 "Machine",
                 "People",
+                "Plaster",
                 "Vehicle",
                 "Window"
             ],
@@ -4653,6 +4704,7 @@
             "peopleCount": 1,
             "labels": [
                 "Bicycle",
+                "Bicycle Wheel",
                 "Clothing",
                 "Door",
                 "Machine",
@@ -4703,6 +4755,7 @@
             "peopleCount": 1,
             "labels": [
                 "Bicycle",
+                "Bicycle Wheel",
                 "Camera",
                 "Clothing",
                 "Door",
@@ -4714,7 +4767,10 @@
                 "Window"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Entertainment",
+                "Museum"
+            ],
             "venue_types": ""
         },
         {
@@ -4731,6 +4787,7 @@
             "peopleCount": 1,
             "labels": [
                 "Bicycle",
+                "Bicycle Wheel",
                 "Camera",
                 "Clothing",
                 "Door",
@@ -4778,6 +4835,7 @@
             "peopleCount": 1,
             "labels": [
                 "Bicycle",
+                "Bicycle Wheel",
                 "Boot",
                 "Clothing",
                 "Door",
@@ -4828,7 +4886,7 @@
             "timestamp": 1678164969.584,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -4849,9 +4907,14 @@
             "venue_types": [
                 "Breakfast Restaurant",
                 "Comfort Food Restaurant",
+                "Contractor",
+                "Filipino Cuisine",
+                "Home Services",
                 "Korean Cuisine",
                 "New American Cuisine",
-                "Restaurant"
+                "Painting Service",
+                "Restaurant",
+                "Roofing Contractor"
             ]
         },
         {
@@ -4922,6 +4985,7 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Container",
                 "Jacket",
                 "Luggage",
@@ -4972,6 +5036,7 @@
             "peopleCount": 1,
             "labels": [
                 "Bicycle",
+                "Bicycle Wheel",
                 "Clothing",
                 "Footwear",
                 "Machine",
@@ -4991,7 +5056,7 @@
             "timestamp": 1676152350.972,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -5005,7 +5070,10 @@
                 "Window"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
             "venue_types": ""
         },
         {
@@ -5044,6 +5112,8 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Clothing",
+                "Coat",
                 "Interior Room",
                 "Interior Shop",
                 "People"
@@ -5062,14 +5132,13 @@
             "timestamp": 1676747480.509,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
             "peopleCount": 1,
             "labels": [
                 "Chair",
-                "Chair Other",
                 "Clothing",
                 "Furniture",
                 "People",
@@ -5089,7 +5158,7 @@
             "timestamp": 1675902803.107,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
@@ -5136,7 +5205,15 @@
                 "Dining",
                 "Dinner"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Caf\u00e9",
+                "Cheese Shop",
+                "Food & Grocery",
+                "Food Stand",
+                "Gourmet Food",
+                "Mexican Cuisine",
+                "Restaurant"
+            ]
         },
         {
             "description": "",
@@ -5164,7 +5241,9 @@
             "season": "Winter",
             "activities": [
                 "Dining",
-                "Dinner"
+                "Dinner",
+                "Entertainment",
+                "Performance"
             ],
             "venue_types": ""
         },
@@ -5247,7 +5326,7 @@
             "timestamp": 1674233990.286,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "Oakland, California, United States",
             "city": "Oakland",
             "country": "United States",
@@ -5281,7 +5360,10 @@
                 "Plant"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
             "venue_types": ""
         },
         {
@@ -5307,10 +5389,7 @@
                 "Shoes"
             ],
             "season": "Winter",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -5381,10 +5460,7 @@
                 "People"
             ],
             "season": "Winter",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -5543,7 +5619,10 @@
                 "Window"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
             "venue_types": ""
         },
         {
@@ -5553,7 +5632,7 @@
             "timestamp": 1673074992.801,
             "width": 3024,
             "height": 4032,
-            "favorite": false,
+            "favorite": true,
             "place": "Oakland, California, United States",
             "city": "Oakland",
             "country": "United States",
@@ -5567,11 +5646,7 @@
                 "Plant"
             ],
             "season": "Winter",
-            "activities": [
-                "Dining",
-                "Dinner",
-                "Entertainment"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -5691,8 +5766,6 @@
             ],
             "season": "Winter",
             "activities": [
-                "Dining",
-                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -5711,12 +5784,14 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Art",
                 "Boot",
                 "Cabinet",
                 "Clothing",
                 "Consumer Electronics",
                 "Footwear",
                 "Furniture",
+                "Interior Design",
                 "Machine",
                 "People",
                 "Plant",
@@ -5932,6 +6007,7 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Footwear",
                 "People",
                 "Plant",
@@ -6026,6 +6102,7 @@
             "labels": [
                 "Boot",
                 "Clothing",
+                "Coat",
                 "Footwear",
                 "Furniture",
                 "People",
@@ -6114,7 +6191,10 @@
                 "Sneaker"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
             "venue_types": ""
         },
         {
@@ -6350,11 +6430,13 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Art",
                 "Clothing",
                 "Consumer Electronics",
                 "Cord",
                 "Footwear",
                 "Furniture",
+                "Interior Design",
                 "Machine",
                 "People",
                 "Plant",
@@ -6527,6 +6609,7 @@
                 "Furniture",
                 "Hat",
                 "Headgear",
+                "Houseplant",
                 "Interior Room",
                 "People",
                 "Plant",
@@ -6561,7 +6644,7 @@
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
-            "peopleCount": 3,
+            "peopleCount": 2,
             "labels": [
                 "Clothing",
                 "Container",
@@ -6595,10 +6678,7 @@
                 "Shoes"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -6624,15 +6704,8 @@
                 "Sneaker"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Lunch"
-            ],
-            "venue_types": [
-                "Bakery",
-                "Food & Grocery",
-                "Grocery Store"
-            ]
+            "activities": "",
+            "venue_types": ""
         },
         {
             "description": "",
@@ -6706,10 +6779,7 @@
                 "Shoes"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -6725,19 +6795,18 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Art",
                 "Clothing",
                 "Cord",
                 "Footwear",
                 "Furniture",
+                "Interior Design",
                 "Jacket",
                 "People",
                 "Shoes"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -6761,10 +6830,7 @@
                 "Plant"
             ],
             "season": "Fall",
-            "activities": [
-                "Entertainment",
-                "Museum"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -6789,7 +6855,10 @@
                 "Sneaker"
             ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
             "venue_types": ""
         },
         {
@@ -6855,10 +6924,7 @@
                 "People"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -6972,10 +7038,7 @@
                 "People"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -7040,9 +7103,7 @@
             "country": "",
             "peopleCount": 1,
             "labels": [
-                "People",
-                "Recreation",
-                "Sport"
+                "People"
             ],
             "season": "Fall",
             "activities": "",
@@ -7186,10 +7247,7 @@
                 "People"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -7240,10 +7298,7 @@
                 "People"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -7270,7 +7325,10 @@
                 "Window"
             ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
             "venue_types": ""
         },
         {
@@ -7366,10 +7424,7 @@
                 "Window"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -7780,10 +7835,7 @@
                 "Window"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Lunch"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -7903,6 +7955,8 @@
             ],
             "season": "Fall",
             "activities": [
+                "Activity",
+                "Hiking",
                 "Travel",
                 "Trip"
             ],
@@ -7919,9 +7973,10 @@
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
-            "peopleCount": 2,
+            "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Door",
                 "Jacket",
                 "People"
@@ -7954,12 +8009,18 @@
             ],
             "season": "Fall",
             "activities": [
+                "Concert",
                 "Dining",
                 "Dinner",
+                "Entertainment",
+                "Performance",
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Arts",
+                "Music Venue"
+            ]
         },
         {
             "description": "",
@@ -8000,7 +8061,6 @@
             "peopleCount": 2,
             "labels": [
                 "Chair",
-                "Chair Other",
                 "Furniture",
                 "People",
                 "Stool",
@@ -8110,14 +8170,12 @@
                 "Door",
                 "Foliage",
                 "Furniture",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
             "season": "Summer",
-            "activities": [
-                "Activity",
-                "Hiking"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -8214,8 +8272,18 @@
                 "Tool"
             ],
             "season": "Summer",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Concert",
+                "Entertainment",
+                "Performance"
+            ],
+            "venue_types": [
+                "Bar",
+                "Beer Bar",
+                "Comedy Club",
+                "Karaoke",
+                "Nightlife"
+            ]
         },
         {
             "description": "",
@@ -8337,10 +8405,7 @@
                 "People"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -8430,7 +8495,10 @@
                 "Window"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8453,7 +8521,10 @@
                 "People"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8478,7 +8549,10 @@
                 "Table"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8505,7 +8579,10 @@
                 "Table"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8535,7 +8612,10 @@
                 "Table"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8558,7 +8638,10 @@
                 "Sneaker"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8582,7 +8665,10 @@
                 "Sneaker"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8609,7 +8695,10 @@
                 "Table"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8629,7 +8718,10 @@
                 "People"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8681,7 +8773,10 @@
                 "Table"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8704,7 +8799,10 @@
                 "Table"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8731,7 +8829,10 @@
                 "Sneaker"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8753,7 +8854,10 @@
                 "Sneaker"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8777,7 +8881,10 @@
                 "Table"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8801,7 +8908,10 @@
                 "Plant"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8825,7 +8935,10 @@
                 "Purse"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8852,7 +8965,10 @@
                 "Table"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8882,7 +8998,9 @@
                 "Celebration",
                 "Concert",
                 "Entertainment",
-                "Performance"
+                "Performance",
+                "Travel",
+                "Trip"
             ],
             "venue_types": [
                 "Arts",
@@ -8922,7 +9040,10 @@
                 "Table"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8948,7 +9069,10 @@
                 "Window"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -8965,13 +9089,19 @@
             "peopleCount": 1,
             "labels": [
                 "Art",
+                "Building",
+                "Ceiling",
                 "Furniture",
+                "Outdoor",
                 "Painting",
                 "People",
                 "Table"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9020,7 +9150,10 @@
                 "Shoes"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9037,7 +9170,6 @@
             "peopleCount": 1,
             "labels": [
                 "Chair",
-                "Chair Other",
                 "Decorative Plant",
                 "Furniture",
                 "People",
@@ -9047,13 +9179,16 @@
             "season": "Summer",
             "activities": [
                 "Dining",
-                "Dinner"
+                "Dinner",
+                "Travel",
+                "Trip"
             ],
             "venue_types": [
                 "Fast Food",
                 "Japanese Cuisine",
                 "Peruvian Cuisine",
                 "Restaurant",
+                "Seafood Restaurant",
                 "Sushi Restaurant"
             ]
         },
@@ -9074,10 +9209,7 @@
                 "People"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Lunch"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -9126,7 +9258,9 @@
             "season": "Summer",
             "activities": [
                 "Dining",
-                "Dinner"
+                "Dinner",
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -9151,10 +9285,7 @@
                 "Shoes"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Lunch"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -9172,11 +9303,10 @@
             "labels": [
                 "Clothing",
                 "Container",
-                "Eyeglasses",
                 "Footwear",
                 "Luggage",
-                "Optical Equipment",
                 "People",
+                "Shirt",
                 "Shoes",
                 "Sneaker"
             ],
@@ -9209,7 +9339,10 @@
                 "Tool"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9227,7 +9360,6 @@
             "labels": [
                 "Clothing",
                 "Footwear",
-                "High Heel",
                 "People",
                 "Shoes"
             ],
@@ -9255,13 +9387,16 @@
                 "Footwear",
                 "Jeans",
                 "People",
+                "Shirt",
                 "Shoes",
                 "Stairs"
             ],
             "season": "Summer",
             "activities": [
                 "Dining",
-                "Dinner"
+                "Dinner",
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -9288,7 +9423,9 @@
             "season": "Summer",
             "activities": [
                 "Dining",
-                "Dinner"
+                "Dinner",
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -9313,7 +9450,10 @@
                 "Sneaker"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9333,7 +9473,10 @@
                 "People"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9349,6 +9492,7 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Advertising",
                 "Automobile",
                 "Billboards",
                 "Bus",
@@ -9358,6 +9502,7 @@
                 "Light",
                 "Luggage",
                 "Machine",
+                "Media",
                 "Night Sky",
                 "Outdoor",
                 "Path",
@@ -9372,7 +9517,9 @@
             "season": "Summer",
             "activities": [
                 "Dining",
-                "Dinner"
+                "Dinner",
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -9398,7 +9545,10 @@
                 "Sneaker"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9424,7 +9574,9 @@
             "season": "Summer",
             "activities": [
                 "Dining",
-                "Dinner"
+                "Dinner",
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -9454,7 +9606,10 @@
                 "Vehicle"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9475,10 +9630,14 @@
                 "Land",
                 "Outdoor",
                 "People",
+                "Shirt",
                 "Window"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9502,7 +9661,10 @@
                 "Shoes"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9525,7 +9687,10 @@
                 "Sky"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9554,16 +9719,11 @@
                 "Dinner",
                 "Entertainment",
                 "Festival",
-                "Performance"
+                "Performance",
+                "Travel",
+                "Trip"
             ],
-            "venue_types": [
-                "Arts",
-                "Event Services",
-                "Music Venue",
-                "Night Club",
-                "Nightlife",
-                "Venue & Event Space"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -9587,7 +9747,9 @@
             "season": "Summer",
             "activities": [
                 "Celebration",
-                "Holiday"
+                "Holiday",
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -9611,7 +9773,10 @@
                 "Sneaker"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9639,7 +9804,10 @@
                 "Tool"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9666,7 +9834,10 @@
                 "Tool"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9688,7 +9859,10 @@
                 "People"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -9719,7 +9893,10 @@
                 "Tool"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -10072,7 +10249,8 @@
                 "Eyeglasses",
                 "Hoodie",
                 "Optical Equipment",
-                "People"
+                "People",
+                "Sleeve"
             ],
             "season": "Summer",
             "activities": "",
@@ -10119,11 +10297,7 @@
                 "Suit"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Dinner",
-                "Entertainment"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -10251,7 +10425,7 @@
             "place": "San Francisco, California, United States",
             "city": "San Francisco",
             "country": "United States",
-            "peopleCount": 2,
+            "peopleCount": 1,
             "labels": [
                 "Clothing",
                 "Door",
@@ -10348,6 +10522,7 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Decorative Plant",
                 "Footwear",
                 "People",
@@ -10485,7 +10660,10 @@
                 "Plant"
             ],
             "season": "Spring",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
             "venue_types": ""
         },
         {
@@ -10526,14 +10704,12 @@
             "peopleCount": 1,
             "labels": [
                 "Decorative Plant",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
             "season": "Spring",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -10557,8 +10733,17 @@
                 "Sneaker"
             ],
             "season": "Spring",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "",
@@ -10648,6 +10833,7 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Interior Room",
                 "People",
                 "Plant"
@@ -10729,10 +10915,16 @@
             ],
             "season": "Spring",
             "activities": [
-                "Entertainment",
-                "Performance"
+                "Dining",
+                "Lunch"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "kakashi accompanying me to dance",
@@ -10758,8 +10950,17 @@
                 "Sneaker"
             ],
             "season": "Spring",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "",
@@ -10814,13 +11015,17 @@
             "venue_types": [
                 "Bubble Tea Store",
                 "Cafe & Coffee Shop",
+                "Cantonese Cuisine",
                 "Chinese Cuisine",
+                "Dim Sum",
                 "Food & Grocery",
-                "Grocery Store",
+                "Halal",
+                "Middle Eastern Cuisine",
                 "Noodle Restaurant",
                 "Restaurant",
                 "Sandwich Shop",
-                "Seafood Restaurant"
+                "Seafood Restaurant",
+                "Street Vendor"
             ]
         },
         {
@@ -10966,6 +11171,7 @@
                 "Footwear",
                 "Frame",
                 "Furniture",
+                "Interior Design",
                 "Interior Room",
                 "Lamp",
                 "Light",
@@ -10997,9 +11203,14 @@
             "peopleCount": 1,
             "labels": [
                 "Apron",
+                "Art",
                 "Clothing",
+                "Container",
                 "Decorative Plant",
                 "Eyeglasses",
+                "Flowerpot",
+                "Houseplant",
+                "Interior Design",
                 "Optical Equipment",
                 "People",
                 "Plant",
@@ -11026,9 +11237,11 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Decorative Plant",
                 "Footwear",
                 "Jeans",
+                "Outerwear",
                 "People",
                 "Plant",
                 "Shoes"
@@ -11055,8 +11268,17 @@
                 "People"
             ],
             "season": "Spring",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "",
@@ -11158,13 +11380,7 @@
                 "Recreation"
             ],
             "season": "Spring",
-            "activities": [
-                "Concert",
-                "Dining",
-                "Dinner",
-                "Entertainment",
-                "Performance"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -11218,10 +11434,7 @@
                 "Entertainment",
                 "Museum"
             ],
-            "venue_types": [
-                "Arts",
-                "Museum"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -11284,6 +11497,7 @@
             "peopleCount": 1,
             "labels": [
                 "Decorative Plant",
+                "Houseplant",
                 "Interior Room",
                 "People",
                 "Plant"
@@ -11363,6 +11577,7 @@
             "peopleCount": 2,
             "labels": [
                 "Agriculture",
+                "Botanical Garden",
                 "Clothing",
                 "Flower",
                 "Footwear",
@@ -11375,11 +11590,14 @@
                 "Plant",
                 "Shoes",
                 "Sneaker",
+                "Spring",
                 "Tulip",
                 "Vegetation"
             ],
             "season": "Spring",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -11453,6 +11671,7 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Decorative Plant",
                 "Footwear",
                 "Jacket",
@@ -11679,7 +11898,11 @@
                 "Recreation"
             ],
             "season": "Spring",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Dinner",
+                "Entertainment"
+            ],
             "venue_types": ""
         },
         {
@@ -11852,6 +12075,7 @@
             "labels": [
                 "Decorative Plant",
                 "Foliage",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
@@ -11881,7 +12105,13 @@
             ],
             "season": "Spring",
             "activities": "",
-            "venue_types": ""
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "patterns and checkered pants",
@@ -11962,6 +12192,7 @@
                 "Automobile",
                 "Car",
                 "Clothing",
+                "Coat",
                 "Land",
                 "Machine",
                 "Outdoor",
@@ -11975,6 +12206,8 @@
             ],
             "season": "Spring",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -12163,6 +12396,8 @@
             ],
             "season": "Spring",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
@@ -12205,7 +12440,7 @@
             "place": "New York, North Hudson, United States",
             "city": "New York",
             "country": "United States",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Clothing",
                 "Container",
@@ -12238,6 +12473,7 @@
             "labels": [
                 "Boot",
                 "Clothing",
+                "Coat",
                 "Footwear",
                 "Hat",
                 "Headgear",
@@ -12269,6 +12505,7 @@
                 "Automobile",
                 "Car",
                 "Clothing",
+                "Coat",
                 "Footwear",
                 "Land",
                 "Machine",
@@ -12366,6 +12603,7 @@
                 "Boot",
                 "Closet",
                 "Clothing",
+                "Coat",
                 "Door",
                 "Footwear",
                 "Interior Room",
@@ -12375,10 +12613,17 @@
             ],
             "season": "Spring",
             "activities": [
+                "Dining",
+                "Dinner",
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Bakery",
+                "Dessert Shop",
+                "Food & Grocery",
+                "Restaurant"
+            ]
         },
         {
             "description": "",
@@ -12394,6 +12639,7 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Door",
                 "Footwear",
                 "Jacket",
@@ -12402,16 +12648,10 @@
             ],
             "season": "Spring",
             "activities": [
-                "Dining",
-                "Dinner",
-                "Entertainment"
+                "Travel",
+                "Trip"
             ],
-            "venue_types": [
-                "Bar",
-                "Cocktail Bar",
-                "Nightlife",
-                "Whiskey Bar"
-            ]
+            "venue_types": ""
         },
         {
             "description": "",
@@ -12474,7 +12714,10 @@
                 "Suitcase"
             ],
             "season": "Spring",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -12507,11 +12750,14 @@
             "venue_types": [
                 "Bar",
                 "Caf\u00e9",
+                "Chinese Cuisine",
                 "Cocktail Bar",
                 "Latin American Cuisine",
                 "Nightlife",
                 "Peruvian Cuisine",
-                "Restaurant"
+                "Restaurant",
+                "Szechuan Cuisine",
+                "Vegan Restaurant"
             ]
         },
         {
@@ -12529,6 +12775,7 @@
             "labels": [
                 "Boot",
                 "Clothing",
+                "Coat",
                 "Door",
                 "Footwear",
                 "People",
@@ -12538,7 +12785,9 @@
             "activities": [
                 "Dining",
                 "Dinner",
-                "Entertainment"
+                "Entertainment",
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -12557,6 +12806,7 @@
             "labels": [
                 "Closet",
                 "Clothing",
+                "Coat",
                 "Door",
                 "Footwear",
                 "Interior Room",
@@ -12585,6 +12835,7 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Door",
                 "Elevator",
                 "Footwear",
@@ -12595,7 +12846,9 @@
             "season": "Spring",
             "activities": [
                 "Dining",
-                "Dinner"
+                "Dinner",
+                "Travel",
+                "Trip"
             ],
             "venue_types": ""
         },
@@ -12630,11 +12883,14 @@
             "season": "Spring",
             "activities": [
                 "Dining",
-                "Dinner"
+                "Dinner",
+                "Travel",
+                "Trip"
             ],
             "venue_types": [
                 "Japanese Cuisine",
-                "Restaurant"
+                "Restaurant",
+                "Sushi Restaurant"
             ]
         },
         {
@@ -12660,7 +12916,10 @@
                 "Sneaker"
             ],
             "season": "Spring",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -12903,8 +13162,17 @@
                 "Plant"
             ],
             "season": "Spring",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "",
@@ -12924,8 +13192,17 @@
                 "Plant"
             ],
             "season": "Winter",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "1st covid positive fit. yes i\u2019m going to dress up to stay in the house. covid will not win!!!",
@@ -13051,6 +13328,7 @@
             "labels": [
                 "Boot",
                 "Clothing",
+                "Coat",
                 "Footwear",
                 "Interior Room",
                 "Jacket",
@@ -13059,10 +13337,7 @@
                 "Shoes"
             ],
             "season": "Winter",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -13153,9 +13428,10 @@
             "place": "\u00cele de Montr\u00e9al, Montr\u00e9al, Quebec, Canada",
             "city": "Montr\u00e9al",
             "country": "Canada",
-            "peopleCount": 2,
+            "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Container",
                 "Interior Room",
                 "People"
@@ -13169,10 +13445,10 @@
             ],
             "venue_types": [
                 "Food Stand",
-                "Mexican Cuisine",
+                "French Cuisine",
                 "New Canadian Cuisine",
                 "Restaurant",
-                "Tex-Mex Cuisine"
+                "Tapas & Small Plates"
             ]
         },
         {
@@ -13203,10 +13479,10 @@
             ],
             "venue_types": [
                 "Food Stand",
-                "Mexican Cuisine",
+                "French Cuisine",
                 "New Canadian Cuisine",
                 "Restaurant",
-                "Tex-Mex Cuisine"
+                "Tapas & Small Plates"
             ]
         },
         {
@@ -13234,10 +13510,10 @@
             ],
             "venue_types": [
                 "Food Stand",
-                "Mexican Cuisine",
+                "French Cuisine",
                 "New Canadian Cuisine",
                 "Restaurant",
-                "Tex-Mex Cuisine"
+                "Tapas & Small Plates"
             ]
         },
         {
@@ -13270,10 +13546,10 @@
             ],
             "venue_types": [
                 "Food Stand",
-                "Mexican Cuisine",
+                "French Cuisine",
                 "New Canadian Cuisine",
                 "Restaurant",
-                "Tex-Mex Cuisine"
+                "Tapas & Small Plates"
             ]
         },
         {
@@ -13305,10 +13581,10 @@
             ],
             "venue_types": [
                 "Food Stand",
-                "Mexican Cuisine",
+                "French Cuisine",
                 "New Canadian Cuisine",
                 "Restaurant",
-                "Tex-Mex Cuisine"
+                "Tapas & Small Plates"
             ]
         },
         {
@@ -13338,10 +13614,10 @@
             ],
             "venue_types": [
                 "Food Stand",
-                "Mexican Cuisine",
+                "French Cuisine",
                 "New Canadian Cuisine",
                 "Restaurant",
-                "Tex-Mex Cuisine"
+                "Tapas & Small Plates"
             ]
         },
         {
@@ -13369,10 +13645,10 @@
             ],
             "venue_types": [
                 "Food Stand",
-                "Mexican Cuisine",
+                "French Cuisine",
                 "New Canadian Cuisine",
                 "Restaurant",
-                "Tex-Mex Cuisine"
+                "Tapas & Small Plates"
             ]
         },
         {
@@ -13407,10 +13683,10 @@
             ],
             "venue_types": [
                 "Food Stand",
-                "Mexican Cuisine",
+                "French Cuisine",
                 "New Canadian Cuisine",
                 "Restaurant",
-                "Tex-Mex Cuisine"
+                "Tapas & Small Plates"
             ]
         },
         {
@@ -13838,6 +14114,7 @@
                 "Camera",
                 "Clothing",
                 "Decorative Plant",
+                "Houseplant",
                 "People",
                 "Plant",
                 "Recreation"
@@ -13887,6 +14164,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Foliage",
+                "Houseplant",
                 "Interior Room",
                 "People",
                 "Plant"
@@ -13934,6 +14212,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Footwear",
+                "Houseplant",
                 "People",
                 "Plant",
                 "Shoes"
@@ -14046,9 +14325,15 @@
                 "Land",
                 "Outdoor",
                 "People",
+                "Recreation",
+                "Ski Run",
+                "Skiing",
                 "Sky",
                 "Snow",
-                "Water"
+                "Sport",
+                "Water",
+                "Winter",
+                "Winter Sport"
             ],
             "season": "Winter",
             "activities": [
@@ -14153,6 +14438,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Footwear",
+                "Houseplant",
                 "Interior Room",
                 "Jeans",
                 "People",
@@ -14192,9 +14478,18 @@
             "season": "Winter",
             "activities": [
                 "Celebration",
+                "Dining",
+                "Dinner",
+                "Entertainment",
                 "Holiday"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Bar",
+                "Beer Bar",
+                "Comedy Club",
+                "Karaoke",
+                "Nightlife"
+            ]
         },
         {
             "description": "happy new year!!! \ud83e\udd42 tried to do an avant-garde take on a blazer/black tie dress",
@@ -14220,9 +14515,18 @@
             "season": "Winter",
             "activities": [
                 "Celebration",
+                "Dining",
+                "Dinner",
+                "Entertainment",
                 "Holiday"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Bar",
+                "Beer Bar",
+                "Comedy Club",
+                "Karaoke",
+                "Nightlife"
+            ]
         },
         {
             "description": "",
@@ -14268,7 +14572,10 @@
                 "Recreation"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -14295,8 +14602,21 @@
                 "Sneaker"
             ],
             "season": "Winter",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": [
+                "Bakery",
+                "Chicken Wings",
+                "Cuban Cuisine",
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Noodle Restaurant",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "",
@@ -14316,7 +14636,10 @@
                 "Recreation"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -14339,7 +14662,10 @@
                 "Recreation"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -14363,7 +14689,10 @@
                 "Shoes"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -14386,7 +14715,10 @@
                 "Recreation"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -14410,13 +14742,19 @@
                 "Ocean",
                 "Outdoor",
                 "People",
+                "Sea",
                 "Sky",
                 "Sunset Sunrise",
                 "Water",
                 "Water Body"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Activity",
+                "Beach Activity",
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -14434,6 +14772,7 @@
             "labels": [
                 "Camera",
                 "Clothing",
+                "Coat",
                 "Door",
                 "Footwear",
                 "Jacket",
@@ -14447,7 +14786,9 @@
                 "Dining",
                 "Dinner",
                 "Entertainment",
-                "Performance"
+                "Performance",
+                "Travel",
+                "Trip"
             ],
             "venue_types": [
                 "Bar",
@@ -14472,6 +14813,7 @@
             "peopleCount": 1,
             "labels": [
                 "Building",
+                "City",
                 "Cityscape",
                 "Clothing",
                 "Cloudy",
@@ -14483,10 +14825,14 @@
                 "Shrub",
                 "Sky",
                 "Skyscraper",
-                "Tree"
+                "Tree",
+                "Urban Area"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -14538,7 +14884,10 @@
                 "Sneaker"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Travel",
+                "Trip"
+            ],
             "venue_types": ""
         },
         {
@@ -14558,6 +14907,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Footwear",
+                "Houseplant",
                 "Jacket",
                 "People",
                 "Plant",
@@ -14565,8 +14915,17 @@
                 "Shoes"
             ],
             "season": "Winter",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "rainy days \u2614\ufe0f ",
@@ -14586,6 +14945,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Footwear",
+                "Houseplant",
                 "Interior Room",
                 "Jeans",
                 "People",
@@ -14768,6 +15128,7 @@
             "labels": [
                 "Clothing",
                 "Decorative Plant",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
@@ -14868,7 +15229,10 @@
                 "Sneaker"
             ],
             "season": "Winter",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
             "venue_types": ""
         },
         {
@@ -14882,7 +15246,7 @@
             "place": "Los Angeles, California, United States",
             "city": "Los Angeles",
             "country": "United States",
-            "peopleCount": 1,
+            "peopleCount": 2,
             "labels": [
                 "Building",
                 "Clothing",
@@ -14917,6 +15281,7 @@
                 "Clothing",
                 "Foliage",
                 "Footwear",
+                "Houseplant",
                 "Machine",
                 "People",
                 "Plant",
@@ -14940,6 +15305,7 @@
             "peopleCount": 4,
             "labels": [
                 "Clothing",
+                "Coat",
                 "People"
             ],
             "season": "Fall",
@@ -14981,7 +15347,13 @@
                 "Travel",
                 "Trip"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Caf\u00e9",
+                "Food & Grocery",
+                "Juice Bar",
+                "Restaurant",
+                "Sushi Restaurant"
+            ]
         },
         {
             "description": "",
@@ -14998,12 +15370,15 @@
             "labels": [
                 "Blue Sky",
                 "Clothing",
+                "Coast",
                 "Hill",
                 "Land",
                 "Ocean",
                 "Outdoor",
                 "People",
                 "Plant",
+                "Sea",
+                "Shore",
                 "Shrub",
                 "Sky",
                 "Water",
@@ -15144,6 +15519,7 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Footwear",
                 "Interior Room",
                 "Interior Shop",
@@ -15230,10 +15606,7 @@
                 "Plant"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -15252,6 +15625,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Foliage",
+                "Houseplant",
                 "Jacket",
                 "Jeans",
                 "People",
@@ -15350,6 +15724,7 @@
             "labels": [
                 "Clothing",
                 "Decorative Plant",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
@@ -15399,6 +15774,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Footwear",
+                "Houseplant",
                 "People",
                 "Plant",
                 "Shoes"
@@ -15495,8 +15871,10 @@
             "peopleCount": 1,
             "labels": [
                 "Clothing",
+                "Coat",
                 "Decorative Plant",
                 "Footwear",
+                "Houseplant",
                 "Interior Room",
                 "People",
                 "Plant",
@@ -15543,6 +15921,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Door",
+                "Houseplant",
                 "Jeans",
                 "People",
                 "Plant"
@@ -15567,6 +15946,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Door",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
@@ -15589,6 +15969,7 @@
             "labels": [
                 "Clothing",
                 "Fence",
+                "Formal Wear",
                 "People",
                 "Suit"
             ],
@@ -15621,8 +16002,17 @@
                 "Plant"
             ],
             "season": "Fall",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "",
@@ -15638,6 +16028,7 @@
             "peopleCount": 1,
             "labels": [
                 "Decorative Plant",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
@@ -15782,6 +16173,7 @@
                 "Decorative Plant",
                 "Door",
                 "Foliage",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
@@ -15888,7 +16280,10 @@
                 "Sneaker"
             ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
             "venue_types": ""
         },
         {
@@ -15993,7 +16388,7 @@
         },
         {
             "description": "",
-            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-06-27%3AIMG_2133_edited+%281%29+%281%29.jpeg",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2021-06-27%3AIMG_2133_edited.jpeg",
             "date": "2021-06-27",
             "timestamp": 1624826730.688844,
             "width": 2411,
@@ -16031,6 +16426,7 @@
             "labels": [
                 "Clothing",
                 "Foliage",
+                "Houseplant",
                 "Jeans",
                 "People",
                 "Plant"
@@ -16079,10 +16475,7 @@
                 "Shoes"
             ],
             "season": "Fall",
-            "activities": [
-                "Activity",
-                "Beach Activity"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -16120,6 +16513,7 @@
             "labels": [
                 "Decorative Plant",
                 "Foliage",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
@@ -16172,8 +16566,17 @@
                 "Recreation"
             ],
             "season": "Summer",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "",
@@ -16241,6 +16644,7 @@
             "labels": [
                 "Clothing",
                 "Decorative Plant",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
@@ -16296,7 +16700,15 @@
                 "Dining",
                 "Dinner"
             ],
-            "venue_types": ""
+            "venue_types": [
+                "Bagel Store",
+                "Bakery",
+                "Cafe & Coffee Shop",
+                "Dessert Shop",
+                "Food & Grocery",
+                "Restaurant",
+                "Sandwich Shop"
+            ]
         },
         {
             "description": "",
@@ -16539,10 +16951,7 @@
                 "Vehicle"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -16567,10 +16976,7 @@
                 "Shoes"
             ],
             "season": "Fall",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -16742,11 +17148,15 @@
             "labels": [
                 "Clothing",
                 "Decorative Plant",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
             "season": "Fall",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
             "venue_types": ""
         },
         {
@@ -16768,8 +17178,19 @@
                 "Plant"
             ],
             "season": "Summer",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": [
+                "Bakery",
+                "Chicken Wings",
+                "Cuban Cuisine",
+                "Food & Grocery",
+                "Noodle Restaurant",
+                "Restaurant",
+                "Russian Cuisine"
+            ]
         },
         {
             "description": "",
@@ -16968,6 +17389,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Footwear",
+                "Houseplant",
                 "Jacket",
                 "People",
                 "Plant",
@@ -17033,11 +17455,15 @@
             "peopleCount": 1,
             "labels": [
                 "Book",
+                "Bookcase",
                 "Bookshelf",
                 "Clothing",
+                "Continental Shelf",
                 "Document",
+                "Furniture",
                 "Jacket",
                 "Jeans",
+                "Natural Environment",
                 "People"
             ],
             "season": "Spring",
@@ -17062,10 +17488,7 @@
                 "Plant"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -17089,10 +17512,7 @@
                 "Sky"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -17225,10 +17645,7 @@
                 "Plant"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -17293,6 +17710,7 @@
             "labels": [
                 "Clothing",
                 "Decorative Plant",
+                "Houseplant",
                 "Jeans",
                 "People",
                 "Plant"
@@ -17334,10 +17752,7 @@
                 "Water Body"
             ],
             "season": "Fall",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -17471,6 +17886,7 @@
                 "Decorative Plant",
                 "Foliage",
                 "Furniture",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
@@ -17491,10 +17907,14 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Building",
+                "Ceiling",
                 "Clothing",
                 "Decorative Plant",
                 "Foliage",
                 "Footwear",
+                "Houseplant",
+                "Outdoor",
                 "People",
                 "Plant",
                 "Shoes"
@@ -17579,12 +17999,12 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
-                "Art",
                 "Bed",
                 "Bedding",
                 "Bookshelf",
                 "Clothing",
                 "Container",
+                "Continental Shelf",
                 "Document",
                 "Door",
                 "Furniture",
@@ -17592,6 +18012,7 @@
                 "Interior Room",
                 "Jacket",
                 "Luggage",
+                "Natural Environment",
                 "People"
             ],
             "season": "Spring",
@@ -17624,8 +18045,21 @@
                 "Tree"
             ],
             "season": "Spring",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
+            "venue_types": [
+                "Bakery",
+                "Chicken Wings",
+                "Cuban Cuisine",
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Noodle Restaurant",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "",
@@ -17644,6 +18078,7 @@
                 "Clothing",
                 "Decorative Plant",
                 "Footwear",
+                "Houseplant",
                 "Interior Room",
                 "People",
                 "Plant",
@@ -17668,6 +18103,7 @@
             "labels": [
                 "Decorative Plant",
                 "Foliage",
+                "Houseplant",
                 "People",
                 "Plant"
             ],
@@ -17690,6 +18126,7 @@
             "labels": [
                 "Clothing",
                 "Decorative Plant",
+                "Houseplant",
                 "Jeans",
                 "People",
                 "Plant"
@@ -17762,15 +18199,13 @@
                 "Clothing",
                 "Decorative Plant",
                 "Foliage",
+                "Houseplant",
                 "People",
                 "Plant",
                 "Suit"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -17789,6 +18224,7 @@
                 "Clothing",
                 "Foliage",
                 "Footwear",
+                "Houseplant",
                 "People",
                 "Plant",
                 "Shoes"
@@ -17817,7 +18253,10 @@
                 "Shoes"
             ],
             "season": "Summer",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
             "venue_types": ""
         },
         {
@@ -17938,10 +18377,7 @@
                 "Shoes"
             ],
             "season": "Summer",
-            "activities": [
-                "Travel",
-                "Trip"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
@@ -17978,7 +18414,7 @@
             "place": "Ted Stevens Anchorage International Airport, Anchorage, Alaska, United States",
             "city": "Anchorage",
             "country": "United States",
-            "peopleCount": 2,
+            "peopleCount": 3,
             "labels": [
                 "Bar",
                 "Boot",
@@ -18026,19 +18462,8 @@
                 "Shoes"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Dinner",
-                "Entertainment"
-            ],
-            "venue_types": [
-                "Dessert Shop",
-                "Food & Grocery",
-                "Mexican Cuisine",
-                "New American Cuisine",
-                "Restaurant",
-                "Tacos"
-            ]
+            "activities": "",
+            "venue_types": ""
         },
         {
             "description": "",
@@ -18076,6 +18501,7 @@
             "country": "United States",
             "peopleCount": 1,
             "labels": [
+                "Bodybuilding",
                 "Clothing",
                 "Footwear",
                 "Health Club",
@@ -18084,6 +18510,8 @@
                 "Recreation",
                 "Shoes",
                 "Sneaker",
+                "Sport",
+                "Weightlifting",
                 "Workout"
             ],
             "season": "Summer",
@@ -18119,8 +18547,17 @@
                 "People"
             ],
             "season": "Summer",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": [
+                "Food & Grocery",
+                "Food Truck",
+                "Mexican Cuisine",
+                "Restaurant",
+                "Tacos"
+            ]
         },
         {
             "description": "",
@@ -18160,11 +18597,15 @@
                 "Forest",
                 "Headgear",
                 "Jacket",
+                "Landscape",
                 "Moss",
+                "Natural Environment",
                 "Outdoor",
                 "People",
                 "Plant",
-                "Vegetation"
+                "Vegetation",
+                "Wilderness",
+                "Woodland"
             ],
             "season": "Fall",
             "activities": [
@@ -18237,8 +18678,19 @@
                 "Plant"
             ],
             "season": "Summer",
-            "activities": "",
-            "venue_types": ""
+            "activities": [
+                "Dining",
+                "Lunch"
+            ],
+            "venue_types": [
+                "Bakery",
+                "Chicken Wings",
+                "Cuban Cuisine",
+                "Food & Grocery",
+                "Noodle Restaurant",
+                "Restaurant",
+                "Russian Cuisine"
+            ]
         },
         {
             "description": "",
@@ -18268,7 +18720,8 @@
                 "Rocks",
                 "Scarf",
                 "Water",
-                "Water Body"
+                "Water Body",
+                "Winter"
             ],
             "season": "Fall",
             "activities": [
@@ -18291,7 +18744,6 @@
             "peopleCount": 2,
             "labels": [
                 "Chair",
-                "Chair Other",
                 "Clothing",
                 "Footwear",
                 "Furniture",
@@ -18330,7 +18782,10 @@
                 "Window"
             ],
             "season": "Spring",
-            "activities": "",
+            "activities": [
+                "Dining",
+                "Dinner"
+            ],
             "venue_types": ""
         },
         {
@@ -18410,10 +18865,7 @@
                 "Plant"
             ],
             "season": "Summer",
-            "activities": [
-                "Dining",
-                "Dinner"
-            ],
+            "activities": "",
             "venue_types": ""
         },
         {
