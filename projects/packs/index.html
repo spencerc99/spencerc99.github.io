@@ -1,0 +1,205 @@
+<!doctype html><html>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Coda Packs Platform</title>
+<meta name=description content="a platform for extending Coda's functionality by bringing in and taking action on external apps' data">
+<meta name=keywords content>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.spencerchang.me/projects/packs/">
+<meta property="og:title" content="Coda Packs Platform">
+<meta property="og:description" content="a platform for extending Coda's functionality by bringing in and taking action on external apps' data">
+<meta property="og:image" content="https://codahosted.io/docs/_ObKm8enqO/blobs/bl-3Qk9djtK_i/1e3d0b6b977da036d8495750b9bf5093f3a3fc2e796fa647e1f79bb5049ec29ffee77a7315ed2741aa88620039894da06c191f6e209637e6aa870b08775fbc785c1e8e919af26513c86533605ba885afd4f7df286b6bf15fda1203b0e8399967fbd9737a">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:domain value=https://www.spencerchang.me>
+<meta name=twitter:title value="Coda Packs Platform">
+<meta name=twitter:description value="a platform for extending Coda's functionality by bringing in and taking action on external apps' data">
+<meta name=twitter:image content="https://codahosted.io/docs/_ObKm8enqO/blobs/bl-3Qk9djtK_i/1e3d0b6b977da036d8495750b9bf5093f3a3fc2e796fa647e1f79bb5049ec29ffee77a7315ed2741aa88620039894da06c191f6e209637e6aa870b08775fbc785c1e8e919af26513c86533605ba885afd4f7df286b6bf15fda1203b0e8399967fbd9737a">
+<meta name=twitter:url value=https://www.spencerchang.me/projects/packs/>
+<meta name=twitter:label1 value="Posted on">
+<meta name=twitter:data1 value="November 1, 2021">
+<meta name=twitter:label2 value="Reading time">
+<meta name=twitter:data2 value="1 mins🕐">
+<meta name=robots content="noodp">
+<link rel=stylesheet href=https://www.spencerchang.me/sass/main.min.98c0fe516091cd0b7857e2fc31b49dcf1a0f7e47585766905025bc9534a85b29.css>
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900|Muli:400,500,700,800,900|Cousine:400,400i,700,700i|Playfair+Display:400,400i,500,500i,700|Crimson+Text:400,400i,600,600i,700,700i&display=swap" rel=stylesheet>
+<link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/line.css>
+<link rel=stylesheet href=https://unicons.iconscout.com/release/v3.0.6/css/solid.css>
+<link rel=apple-touch-icon sizes=180x180 href=/assets/name-stamp.png>
+<link rel=icon type=image/png sizes=32x32 href=/assets/name-stamp.png>
+<link rel=icon type=image/png sizes=16x16 href=/assets/name-stamp.png>
+<link rel=manifest href=/site.webmanifest>
+<script async src=/lazysizes.min.js></script>
+<script async src=/helpers.js></script>
+<script src=https://unpkg.com/telescopic-text@latest/lib/index.js></script>
+<link href=https://unpkg.com/telescopic-text@latest/lib/index.css rel=stylesheet>
+<script defer data-domain=spencerchang.me data-api=https://sharingan.spencerc99.workers.dev/genjutsu/event src=https://sharingan.spencerc99.workers.dev/genjutsu/script.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script src=https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js></script>
+</head>
+<body>
+<script>document.addEventListener("DOMContentLoaded",function(b){if(!document.querySelector('.navbarActions'))return;const a=document.querySelector(".navbarActions").children;for(const b of a){if(!b.attributes.href)continue;window.location.href.indexOf(b.attributes.href.value)>-1?b.className='active':b.className=''}})</script>
+<nav id=navbar>
+<div class=navbarContainer>
+<a href=/ class=avatarLink>
+<img class="avatar small" src=/assets/companion-in-a-box-final.png></a>
+<div class=navbarActions>
+<a href=/posts><span>writing</span> <b>📝</b></a>
+<a href=/projects><span>creations</span> <b>🪄</b></a>
+<a href=/fits><b>🧢</b></a>
+<a href=/photos><b>📸</b></a>
+<a href=/window><b>🪟</b></a>
+<div class=divider></div>
+<button id=darkModeToggle onclick=toggleDarkMode() class=link><b></b></button>
+</div>
+<script>function setDarkMode(a){document.documentElement.classList.toggle("dark-mode",a),document.querySelector("#darkModeToggle").children[0].innerHTML=a?"☀️":"🌑"}function toggleDarkMode(){setDarkMode(!document.documentElement.classList.contains("dark-mode"))}const useDark=window.matchMedia("(prefers-color-scheme: dark)");useDark.addListener(a=>setDarkMode(a.matches)),setDarkMode(useDark.matches)</script>
+</div>
+<script>var navbarElem=document.getElementById("navbar"),navClasses=navbarElem.classList,navbarHeight=navbarElem.clientHeight,scrollTop,scrollState,scrollDetect;function downAction(){navClasses.remove("open"),navClasses.add("collapse")}function upAction(){navClasses.remove("collapse"),navClasses.add("open")}scrollTop=function(){return window.scrollY},scrollState=0,scrollDetect=function(b,c){var a=scrollTop();a>scrollState&&a>navbarHeight/3?b():a<scrollState&&c(),scrollState=scrollTop()},window.addEventListener("scroll",function(){scrollDetect(downAction,upAction)})</script>
+</nav>
+<div id=background></div>
+<div id=content>
+<div class="progress-container fixed-top">
+<span class=progress-bar></span>
+</div>
+<div class="headerContainer textContent postHeader"></div>
+<script>const searchParams=new URLSearchParams(window.location.search);if(searchParams.has("redirect")){const a=document.createElement('meta');window.location.href=""}</script>
+<div class=mainContainer>
+<div class="postContainer textContent">
+<div class="post meta">
+<span class=postDate>11.01.2021</span>
+</div>
+<h1 class=title>Coda Packs Platform
+<div class="emojiContainer inline"><button id=emoji onclick=updateEmoji()></button></div>
+<script>const defaultEmojis=['🎋','🍂','🌑','🪸','🌀'],inputEmojis=null,shuffleArray=a=>{for(let b=a.length-1;b>0;b--){const c=Math.floor(Math.random()*(b+1)),d=a[b];a[b]=a[c],a[c]=d}};let emojis=inputEmojis||defaultEmojis;shuffleArray(emojis);var idx=0;function updateEmoji(){let a=emojis[idx];document.getElementById('emoji').innerHTML=a,idx=(idx+1)%emojis.length}updateEmoji()</script>
+</h1>
+<h3 class=description>a platform for extending Coda&rsquo;s functionality by bringing in and taking action on external apps' data</h3>
+<div>
+<div class=postContent>
+<p>For two years, I was a core engineer on <a href=https://coda.io/packs>Packs</a>, a platform for extending Coda&rsquo;s functionality by bringing in and taking action on external apps' data. I worked across the board on the <a href=https://community.coda.io/t/launched-improvements-for-copying-cross-doc-tables/23707>user-</a> and <a href=https://coda.io/packs/build/latest/tutorials/get-started/web/>developer-facing experience</a>, platform infrastructure, and the open-source <a href=https://github.com/coda/packs-sdk>Packs SDK</a>. Select highlights:</p>
+<ul>
+<li>Created <a href=https://community.coda.io/t/pack-makers-assemble-add-cards-to-your-packs/39318>Pack Cards</a>, a live data, customizable card for external app data.</li>
+<li>Created <a href=https://community.coda.io/t/pack-makers-assemble-add-cards-to-your-packs/39318>OpenAI Pack</a>, an integration for everyone to leverage AI for their work and creative expression with their everyday tools. <a href=https://www.producthunt.com/products/open-ai-for-coda#openai-for-coda>#6 on ProductHunt</a>.</li>
+</ul>
+</div>
+</div>
+</div>
+<footer class=textContent>
+<div class=postFooter>
+<p>I write for emotional resonance and thought provoking, so please <a href=https://twitter.com/@spencerc99>message me</a> (<a href=mailto:spencerc99@gmail.com>spencerc99@gmail.com</a>) if you have thoughts :)</span>
+<p>You can submit your email below (or use <a href=/index.xml>RSS</a>) to get updates on new writing and projects (also on <a href=https://twitter.com/spencerc99/>Twitter</a>)</p>
+</div>
+<div class=shareCta>
+<div class=emailEmbedContainer>
+<iframe class=subscribe src=https://spencerchang.substack.com/embed style="border:1px solid #eee;background:#fff" frameborder=0 scrolling=no></iframe>
+</div>
+<div class=shareActions>
+<button class="icon link" href onclick='copyLink("https://www.spencerchang.me/projects/packs/")'><i class="uil uil-link-h"></i> Copy Link</button>
+</div>
+</div>
+<h3>Related Posts</h3>
+<div class=relatedPosts>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>10.12.21</span>
+// 1932 words
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=/fits>Fits Stream</a>
+</h2>
+<div class=postSummary>
+A stream of my daily outfits.
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src=https://assets.spencerchang.me/fits-stream/2022-04-05%3AIMG_0605_edited.jpeg>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>05.13.21</span>
+// 68 words
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=/projects/templates/>Coda Custom Templates</a>
+</h2>
+<div class=postSummary>
+a system for saving everything from repeated snippets to entire workflows into shareable, reusable templates
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src=https://codahosted.io/docs/_ObKm8enqO/blobs/bl-lAQsOhGgr5/218c73f02b2a598728669749ede00803c6c9f687791de16f32f613ab5b369f1178fa80a9149b4b2a5e9ce11e33603383b857dbefa7557a5e223669def223487706c27cfdfa87bffa4a70d527a6c097c74a0473a8c2c01b854e49682ed9a1491b42a87cf2>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>05.13.21</span>
+//
+<div class=icons>
+<i class="uis uis-star"></i>
+</div>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://coda.io/@spencer/rituals-at-scale-how-we-remixed-templates target=_blank>Rituals at Scale: How we remixed templates</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+The details behind Coda&rsquo;s custom templates system.
+</div>
+</div>
+<div class=postSummaryImageContainer>
+<img loading=lazy class="lazyload postSummaryImage" data-src=/posts/rituals-remixing/images/rituals-remixing_hu994033bde3c5007a2901b392f8d8f085_4918444_400x0_resize_q75_box.jpg>
+</div>
+</article>
+<article class=postSummaryContainer>
+<div class=postSummaryHeader>
+<div class="post summary meta">
+<span>
+<span class=postDate>05.01.20</span>
+</span>
+</div>
+<h2 class=postSummaryTitle>
+<a href=https://coda.io/@spencer/friend-powered-recommendations target=_blank>Crowdsourced Birthday Recommendations</a> <i class="uil uil-external-link-alt"></i>
+</h2>
+<div class=postSummary>
+An experiment in crowd-sourcing birthday recommendations and the fruits of it.
+</div>
+</div>
+</article>
+</div>
+<br>
+<div><i>back to my <a href=/>favorites</a> or <a href=/posts>all my writing</a>.</i></div>
+<script src=/plugins/permalink/permalink.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js integrity="sha512-N9IJRoc3LaP3NDoiGkcPa4gG94kapGpaA5Zq9/Dr04uf5TbLFU5q0o8AbRhLKUUlp8QFS2u7S+Yti0U7QtuZvQ==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script>const images=Array.from(document.querySelectorAll("figure img:not(.galleryImage)"));images.forEach(a=>{mediumZoom(a,{margin:0,scrollOffset:40,container:null,template:null})})</script>
+</footer>
+<script>function scrollProgressBar(){var b=function(){return $(document).height()-$(window).height()},h=function(){return $(window).scrollTop()},f=$(".progress-bar"),d=b(),g=function(){return e=h(),a=e/d*100,a=a+"%",a},c=function(){f.css({width:g()})},e,a;$(document).on("scroll",c),$(window).on("resize",function(){d=b(),c()})}$(document).ready(function(){scrollProgressBar()})</script>
+</div>
+<div class=footerCta>
+<h3 class=serif>Thanks for visiting, and safe travels!<br>If you'd like to support my independent work, I have some fun buttons for you 🧡</h3>
+<div class=ctaBtns>
+<a href=https://github.com/sponsors/spencerc99 class=button target=_blank><button id=sponsorBtn>Sponsor me <i class="uil uil-github"></i></button></a>
+<a href=https://buymeacoffee.com/spencerchang class=button target=_blank><button id=coffeeBtn>Tip me 🥚s</button></a>
+</div>
+</div>
+</div>
+<div id=snackbar>
+<script src=https://cursor-party.spencerc99.partykit.dev/cursors.js></script>
+<script type=module>
+        import "https://unpkg.com/playhtml@latest";
+        playhtml.init();
+    </script>
+<link rel=stylesheet href=https://unpkg.com/playhtml@latest/dist/style.css>
+</body>
+</html>
