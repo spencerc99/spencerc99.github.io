@@ -31,3 +31,168 @@ Some other explorations that don't quite fit into these boxes include [baristain
 <p>welcome to my digital home., why did i make this website? why is it so important? why did i make this website? why is it so important? why did i make this website? why is it so important?</p>
 <img src="/assets/spencer_real_person.png"/>
 </div> -->
+
+<p id="expandingLikes"></p>
+
+<!-- Likes logic -->
+<script>
+// TODO: can you add hover tooltips with images and previews?
+// TODO: support descriptors for each in the list, and have a way to "ellipsis" to add a new of the top level one
+// 'in my room', 'snuggled in quiet corners', 'in public parks'
+let likes = [
+  ['writing'],
+  ['reading'],
+  ['eating'],
+  ['dressing up'],
+  ['dancing'],      
+  ['paying attention'],      
+  ['wondering'],      
+  ['wandering'],      
+  ['daydreaming'],      
+  ['capturing moments'],
+  ['being in nature'],
+  ['loving people'],
+  ['sipping water'],
+  ['loving life'],
+  ['cracking my joints'],
+  ['watermelon on a hot day'],
+  ['recognizing constellations'],
+  ['the city skyline at night'],
+  ['uncontrollable crying'],
+  ['creating magic'],
+  ['experimenting'],
+  ['speculative infrastructure'],
+  ['computational poetry'],
+  ['creative technology'],
+  ['agencyful computation'],
+  ['alternative futures'],
+  ['playful tools'],
+  ['evocative writing'],
+  ['imaginative fiction'],
+  ['tools for wonder'],
+  ['everyday beauty'],
+  ['accessible magic'],
+  ['cybernetic ecology'],
+  ['pluriversality'],
+  ['rain drops rolling down the side of a window'],
+  ["a large scarf that covers your face when it's cold outside"],
+  ['warm pockets'],
+  ['tender hugs'],
+  ['lingering tastes'],
+  ['warm lighting'],
+  ['fantasizing being a blade of grass in a Hayao Miyazaki film'],
+  ['stardust and shoreless seeds'],
+  ['unexpected light'],
+  ['unexpected mediums'],
+  ['folk practices'],
+  ['daily rituals'],
+  ['dreaming'],
+  ["art that doesn't take itself too seriously"],
+  ["creating things"],
+  ["making new stuff from old stuff"],
+  ["laughing with friends"],
+  ["sharing food"],
+  ["hole-in-the-walls"],
+  ["complimenting people on their outfits"],
+  ["getting complimented on my outfit"],
+  ["receiving a reply on my newsletter"],
+  ["receiving an email from a visitor to my site"],
+  ["a full water bottle"],
+  ["sufficiently chapsticked lips"],
+  ["worn books"],
+  ["marginalia"],
+  ["soulful things"],
+  ["people who look at the world"],
+  ["walking aimlessly"],
+  ["running under 6 miles in nice weather"],
+  ["taking care of things"],
+  ["cultivating life"],
+  ["naming"],
+  ["sitting with the unknown"],
+  ["laying under the stars"],
+  ["watching meteor showers"],
+  ["making things up and committing to the bit"],
+  ["saying hi to the moon"],
+  ["collecting sunset colors"],
+  ["smiskis"],
+  ["Noguchi lamps"],
+  ["oranges (the color)"],
+  ["oranges (the fruit)"],
+  ["oranges (the mood)"],
+  ["a crisp wifi connection"],
+  ["overlapping voices in a cafe"],
+  ["a hot cortado (oat milk please!)"],
+  ["sliced watermelon on a hot summer day"],
+  ["feeling the wind on my cheek while biking"],
+  ["plants (that are easy to keep alive)"],
+  ["San Francisco's air"],
+  ["New York's energy"],
+  ["noticing a stranger's smile on a bus"],
+  ["things made with love"],
+  ["anything soft and fuzzy"],
+  ["aeropress coffee"],
+  ["fast wifi"],
+  ["dance circles in playgrounds at night"],
+  ["Yohji Yamamoto clothing"],
+  ["bags in bags"],
+]
+const enjoyPrompt = `<a href="https://coda.io/form/spencers-enjoy-list_dGFsXoodVB1">what do you think I'll like?</a>`;
+// randomize likes
+likes = likes.sort(() => Math.random() - 0.5);
+likes.splice(12, 0, [enjoyPrompt]);
+let likeExpandedIdx = 0;
+
+function createLikeNode(like) {
+  const likeNode = document.createElement("span");
+  likeNode.classList.add('likeItem')
+  likeNode.innerHTML = `${like}`;
+  if (likeExpandedIdx < likes.length - 1) {
+    likeNode.innerHTML += ', ';
+  } 
+  if (likeExpandedIdx === likes.length - 2) {
+    likeNode.innerHTML += 'and ';
+  } 
+  return likeNode;
+}
+const likesNode = document.createElement("div");
+likesNode.id = 'telescope';
+const onMoreNode = document.createElement("div");
+onMoreNode.style = "display: inline-block;"
+onMoreNode.setAttribute('role', 'button')
+onMoreNode.setAttribute('tabindex', '0')
+onMoreNode.setAttribute('title', 'click me to see more! try tabbing to me and using enter or space to go even faster!')
+onMoreNode.innerHTML = 'and...';
+onMoreNode.addEventListener('click', onClickMore);
+onMoreNode.addEventListener('keydown', onKeyDown);
+const likesContainer = document.getElementById("expandingLikes")
+likesContainer.appendChild(likesNode);
+likesNode.appendChild(document.createTextNode('A non-exhaustive list of the things I enjoy:'))
+likesNode.appendChild(document.createElement("br"))
+likesNode.appendChild(onMoreNode);
+onMoreNode.classList.add("details");
+onMoreNode.classList.add("close");
+
+
+function onKeyDown(e) {
+  if (event.key === 'Enter' || event.key === ' ') {
+    onClickMore();
+    e.preventDefault();
+  }
+}
+
+function onClickMore() {
+  const likeNode = createLikeNode(likes[likeExpandedIdx]);
+  likesNode.insertBefore(likeNode, onMoreNode);
+  likeExpandedIdx++;
+  if (likeExpandedIdx === likes.length) {
+    onMoreNode.remove();
+    return;
+  }
+}
+// start with 3 open
+onClickMore();
+onClickMore();
+onClickMore();
+onClickMore();
+
+</script>

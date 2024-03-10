@@ -6,7 +6,6 @@
     {{ partial "personal_emoji.html" }}
   </h1>
   <div class="description">
-    {{ $location := getJSON "https://status.spencerchang.me/api/metadata" }}
     <img
       class="lamp"
       id="lamp-akari"
@@ -14,7 +13,7 @@
       can-toggle
       title="this is one of my favorite Noguchi lamps..."
     />
-    <p><i>internet practitioner & computational poet</i></p>
+    <p><i>engineer, artist, & internet ecologist</i></p>
     <!-- <div >
       <img class="mainWindow" src="https://raw.githubusercontent.com/spencerc99/spencer-net-shots/main/window.png"/>
     </div> -->
@@ -61,23 +60,27 @@
         <hr style="bottom: 61.851px; left: 11.8564px; position: absolute; transform: rotate(300deg);">
         <hr style="bottom: 60.571px; left: 3.65773px; position: absolute; transform: rotate(60deg);">
     </div>
-     <p>
-    <details>
-        <summary>Who am I?</summary>
-        <div>
-          <p>
-                      I'm a programmer, artist, and researcher who creates infrastructure (<a href="https://bulletin.spencerchang.me/home">tools</a>, <a href="https://github.com/spencerc99/playhtml">open-source libraries</a>, <a href="https://syllabusproject.org/syllabus-for-taking-an-internet-walk/">instruction manuals</a>) and internet <i>environments</i> (<a href="https://htmls.garden/">living ecosystems</a>, <a href="https://playhtml.fun/fridge.html">playful spaces</a>, and <a href="https://www.spencerchang.me/pacman-poem/">games</a>) that highlight the humanity shining in every seam of the computers we use and the materiality of these invisible bits and pixels. I want to create space for real dialogue between the human and the computer, where computing is a medium for people to express themselves, cherish others, and create the possibility for imaginative change.
-                      </p>
-        </div>
-        </details>
-    </p>
     <p id="expandingWork"></p>
     <!-- idk why but it's getting really broken when I inline this content when there are more than two "https://" on one line... -->
     {{ .Content }}
 
-        <!-- TODO: make an art page -->
-    <p>🆕 Open to collaborations for provocative internet experiences, speculative infrastructure for a defensibly open internet, and community-embedded computing (<a href="/about">bio</a>, <a href="https://spencer.place/art">art overview</a>)</p>
+    <details>
+      <summary>
+        Open to collaborations <span id="new">NEW</span>
+      </summary>
+      <div>
+      <p> I'm interested in:</p>
+        <ul>
+        <li>provocative internet experiences for art pieces or businesses (<a href="">e.g.1</a>, <a href="https://newsroom.spotify.com/2023-01-04/give-yourself-a-musical-surprise-in-january-2024-with-spotifys-playlist-in-a-bottle/">e.g.2</a>)</li>
+        <li>open internet infrastructure (<a href="https://atproto.com/">e.g.</a>), community-embedded software systems (<a href="https://www.are.na/">e.g.</a>)</li>
+         <li>new computing interfaces (<a href="https://play.date/">e.g.</a>)</li>
+      </ul>
+        <p>I excel at creative interface and system design and prototype designs rapidly through code, while identifying a path to scalable implementation. If you're interested in working together, email spencerc99 at gmail dot com</p>
+        </div>
+    </details>
 
+<div style="width:100%">
+{{ $location := getJSON "https://status.spencerchang.me/api/metadata" }}
 <div id="signature"><div class="signatureContent">
       <!-- TODO: hover over for photo in lil modal? -->
       <div class="serif">Spencer 張正 Chang<br/>spencerc99@gmail.com</div>
@@ -90,188 +93,33 @@
     {{ partial "email_embed.html" . }}
     <p>
 </p>
-        <p id="expandingLikes"></p>
-  </div>    
+</div>    
 </div>
-
-<!-- Likes logic -->
-<script>
-// TODO: can you add hover tooltips with images and previews?
-// TODO: support descriptors for each in the list, and have a way to "ellipsis" to add a new of the top level one
-// 'in my room', 'snuggled in quiet corners', 'in public parks'
-let likes = [
-  ['writing'],
-  ['reading'],
-  ['eating'],
-  ['dressing up'],
-  ['dancing'],      
-  ['paying attention'],      
-  ['wondering'],      
-  ['wandering'],      
-  ['daydreaming'],      
-  ['capturing moments'],
-  ['being in nature'],
-  ['loving people'],
-  ['sipping water'],
-  ['loving life'],
-  ['cracking my joints'],
-  ['watermelon on a hot day'],
-  ['recognizing constellations'],
-  ['the city skyline at night'],
-  ['uncontrollable crying'],
-  ['creating magic'],
-  ['experimenting'],
-  ['speculative infrastructure'],
-  ['computational poetry'],
-  ['creative technology'],
-  ['agencyful computation'],
-  ['alternative futures'],
-  ['playful tools'],
-  ['evocative writing'],
-  ['imaginative fiction'],
-  ['tools for wonder'],
-  ['everyday beauty'],
-  ['accessible magic'],
-  ['cybernetic ecology'],
-  ['pluriversality'],
-  ['rain drops rolling down the side of a window'],
-  ["a large scarf that covers your face when it's cold outside"],
-  ['warm pockets'],
-  ['tender hugs'],
-  ['lingering tastes'],
-  ['warm lighting'],
-  ['fantasizing being a blade of grass in a Hayao Miyazaki film'],
-  ['stardust and shoreless seeds'],
-  ['unexpected light'],
-  ['unexpected mediums'],
-  ['folk practices'],
-  ['daily rituals'],
-  ['dreaming'],
-  ["art that doesn't take itself too seriously"],
-  ["creating things"],
-  ["making new stuff from old stuff"],
-  ["laughing with friends"],
-  ["sharing food"],
-  ["hole-in-the-walls"],
-  ["complimenting people on their outfits"],
-  ["getting complimented on my outfit"],
-  ["receiving a reply on my newsletter"],
-  ["receiving an email from a visitor to my site"],
-  ["a full water bottle"],
-  ["sufficiently chapsticked lips"],
-  ["worn books"],
-  ["marginalia"],
-  ["soulful things"],
-  ["people who look at the world"],
-  ["walking aimlessly"],
-  ["running under 6 miles in nice weather"],
-  ["taking care of things"],
-  ["cultivating life"],
-  ["naming"],
-  ["sitting with the unknown"],
-  ["laying under the stars"],
-  ["watching meteor showers"],
-  ["making things up and committing to the bit"],
-  ["saying hi to the moon"],
-  ["collecting sunset colors"],
-  ["smiskis"],
-  ["Noguchi lamps"],
-  ["oranges (the color)"],
-  ["oranges (the fruit)"],
-  ["oranges (the mood)"],
-  ["a crisp wifi connection"],
-  ["overlapping voices in a cafe"],
-  ["a hot cortado (oat milk please!)"],
-  ["sliced watermelon on a hot summer day"],
-  ["feeling the wind on my cheek while biking"],
-  ["plants (that are easy to keep alive)"],
-  ["San Francisco's air"],
-  ["New York's energy"],
-  ["noticing a stranger's smile on a bus"],
-  ["things made with love"],
-  ["anything soft and fuzzy"],
-  ["aeropress coffee"],
-  ["fast wifi"],
-  ["dance circles in playgrounds at night"],
-  ["Yohji Yamamoto clothing"],
-  ["bags in bags"],
-]
-const enjoyPrompt = `<a href="https://coda.io/form/spencers-enjoy-list_dGFsXoodVB1">what do you think I'll like?</a>`;
-// randomize likes
-likes = likes.sort(() => Math.random() - 0.5);
-likes.splice(12, 0, [enjoyPrompt]);
-let likeExpandedIdx = 0;
-
-function createLikeNode(like) {
-  const likeNode = document.createElement("span");
-  likeNode.classList.add('likeItem')
-  likeNode.innerHTML = `${like}`;
-  if (likeExpandedIdx < likes.length - 1) {
-    likeNode.innerHTML += ', ';
-  } 
-  if (likeExpandedIdx === likes.length - 2) {
-    likeNode.innerHTML += 'and ';
-  } 
-  return likeNode;
-}
-const likesNode = document.createElement("div");
-likesNode.id = 'telescope';
-const onMoreNode = document.createElement("div");
-onMoreNode.style = "display: inline-block;"
-onMoreNode.setAttribute('role', 'button')
-onMoreNode.setAttribute('tabindex', '0')
-onMoreNode.setAttribute('title', 'click me to see more! try tabbing to me and using enter or space to go even faster!')
-onMoreNode.innerHTML = 'and...';
-onMoreNode.addEventListener('click', onClickMore);
-onMoreNode.addEventListener('keydown', onKeyDown);
-const likesContainer = document.getElementById("expandingLikes")
-likesContainer.appendChild(likesNode);
-likesNode.appendChild(document.createTextNode('A non-exhaustive list of the things I enjoy:'))
-likesNode.appendChild(document.createElement("br"))
-likesNode.appendChild(onMoreNode);
-onMoreNode.classList.add("details");
-onMoreNode.classList.add("close");
-
-
-function onKeyDown(e) {
-  if (event.key === 'Enter' || event.key === ' ') {
-    onClickMore();
-    e.preventDefault();
-  }
-}
-
-function onClickMore() {
-  const likeNode = createLikeNode(likes[likeExpandedIdx]);
-  likesNode.insertBefore(likeNode, onMoreNode);
-  likeExpandedIdx++;
-  if (likeExpandedIdx === likes.length) {
-    onMoreNode.remove();
-    return;
-  }
-}
-// start with 3 open
-onClickMore();
-onClickMore();
-onClickMore();
-onClickMore();
-
-</script>
-
 {{ end }} 
 {{ define "main" }}
+
+<div class="summaryList expand featured">
+  <h2>Featured Work</h2>
+  {{ $featured := where .Site.RegularPages "Params.homepage" "==" true }}
+  {{ range $featured  }}
+            {{ .Render "summary" }} 
+  {{ end }}
+</div>
+
 <!-- TODO: replace this with kaleidoscope or feral.earth stuff -->
 <div class="summaryList expand">
   <!-- TODO: make this a tab -->
-  <div class="tabs">
+  <!-- <div class="tabs">
     <button onclick="setTab(0)"><h3>recent</h3></button>
     <button onclick="setTab(1)"><h3>creations</h3></button>
     <button onclick="setTab(2)"><h3>writing</h3></button>
-  </div>
+  </div> -->
+  <h2>Recent</h2>
   <div class="tabContent">
     {{ $project := slice "projects" }}
     {{ $projects := where .Site.RegularPages "Params.tags" "intersect" $project }}
     {{ $writing := .Site.RegularPages | complement $projects }}
-    <div class="recentReleases hidden">
+    <div class="recentReleases">
       <div class="postsList">
         {{ $recentCands := .Site.RegularPages.ByDate.Reverse }}
         {{ $recentCands = where $recentCands "Draft" "==" false }}
@@ -280,32 +128,6 @@ onClickMore();
         {{ end }}
         <!-- TODO: add "check out my feed link to feed of everything" -->
         Check out <a href="/projects">all {{ len $projects}} creations</a> or <a href="/posts">all {{ len $writing}} posts</a>.
-      </div>
-    </div>
-    <div class="projects hidden">
-        <div class="postsList">
-        {{ $favorite := slice "favorite" }}
-        {{ $favorites := where .Site.RegularPages "Params.tags" "intersect" $favorite }}
-        {{ $faveProjects := intersect $favorites $projects }}
-        {{ $intersectedProjects := intersect $favorites $projects }}
-        {{ range first 7 ($faveProjects | append $intersectedProjects) }}
-          {{ .Render "compact_summary" }} 
-        {{ end }}
-        <br/>
-        Check out <a href="/projects">all {{ len $projects}} creations</a>.
-      </div>
-    </div>
-    <div class="writing hidden">
-        <div class="postsList">
-        {{ $favorite := slice "favorite" }}
-        {{ $favorites := (where .Site.RegularPages "Params.tags" "intersect" $favorite) | complement $projects }}
-        {{ $favorites = where $favorites "Draft" "==" false }}
-        {{ $intersectedWriting := $favorites}}        
-        {{ range first 7 ($favorites | append $intersectedWriting)  }}
-          {{ .Render "compact_summary" }} 
-        {{ end }}
-        <br/>
-        Check out <a href="/posts">all {{ len $writing}} posts</a>.
       </div>
     </div>
   </div>

@@ -36,7 +36,7 @@
   <div>
     <div class="postContent">
       {{ with .Params.external_link }}
-      <p>This post was originally published <a href="{{.}}">somewhere else</a>.</p>
+      <p><a href="{{.}}">{{.}}</a></p>
       {{ end }}
       {{ with .Params.internal_link }}
       <p>This post was published on a <a href="{{.}}">different part of my website</a>.</p>
