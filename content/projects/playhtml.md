@@ -6,7 +6,7 @@ description: an open-source library for designing communal internet experiences
 
 date: "2023-07-09"
 
-image: "https://codahosted.io/docs/_ObKm8enqO/blobs/bl-4iaX8EbFR8/db6e62f006f9a6d9681f5a48b700844ef4265e8847b05712c4ee8d1210ec7d2df49db1f29963a76064515014b0b96d52b4ec5ac43e57c561ce56a7dbc665f71feb200e2403a7b57db162c973c105d7d2cbb5cf8450986e61e033aee6b8be669ec03b15f6"
+image: "/projects/images/playhtml-all-short-demo.gif"
 
 tags: [projects, software, favorite]
 
