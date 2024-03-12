@@ -1869,6 +1869,12 @@ button {
   width: $large-content-width;
   margin-left: -(($large-content-width - $viewport-width) / 2);
 
+  @media only screen and (min-width: 1800px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 1600px;
+    margin-left: -480px;
+  }
+
   @include media(xsmallScreen, smallScreen, mediumScreen) {
     grid-template-columns: 1fr 1fr;
     margin-left: 0;
