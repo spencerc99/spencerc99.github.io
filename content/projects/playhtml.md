@@ -15,6 +15,4 @@ weight: 899
 homepage: true
 ---
 
-[playhtml](https://playhtml.fun) is an [open-source library](https://github.com/spencerc99/playhtml) for designing communal internet experiences by enhancing web elements with real-time, collaborative interactivity.
-
-This project started out as a way to explore how I could make collective interactive design more accessible to people who just know basic HTML and CSS and create weird, personal internet sites (see [html.energy](https://html.energy/)). In [(we)bsite](https://we-b.site/), we tried out a lot of new interaction mechanisms for collective space-making but it involved syncing state, creating a database to store history, and handling all the nitty gritty of manipulating HTML elements.
+[playhtml](https://playhtml.fun) is an [open-source library](https://github.com/spencerc99/playhtml) for designing communal internet experiences by enhancing web elements with real-time, collaborative interactivity. playhtml aims to provide the infrastructure for making new diverse and open forms of "social media" that make the web feel alive. By providing the means to shape the way we interact with each other on the web, I invite people to imagine what websites can become and who we can become when we inhabit them.
