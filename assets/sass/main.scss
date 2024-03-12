@@ -957,10 +957,8 @@ a:not(#{$internal-link-selectors}):not(.socialMediaLink):not(.anchor):not(.galle
   }
 
   i, svg {
-    &:before {
-      margin-left: 0.1em;
-      margin-right: 0.1em;
-    }
+      margin-left: 0.05em;
+      margin-right: 0.05em;
   }
 }
 
