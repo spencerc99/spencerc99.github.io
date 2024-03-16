@@ -2,6 +2,47 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-03-14%3AIMG_1631.jpeg",
+            "date": "2024-03-14",
+            "timestamp": 1710461343.813,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Clothing",
+                "Coat",
+                "Door",
+                "Hospital",
+                "Interior Room",
+                "People"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-03-15%3AIMG_1659.jpeg",
+            "date": "2024-03-15",
+            "timestamp": 1710552970.85,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2023-11-02%3AIMG_8029.jpeg",
             "date": "2023-11-02",
             "timestamp": 1698963958.215,

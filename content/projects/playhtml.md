@@ -6,7 +6,7 @@ description: an open-source library for designing communal internet experiences
 
 date: "2023-07-09"
 
-image: "/projects/images/playhtml-all-short-demo.gif"
+image: "/projects/images/playhtml-logo.png"
 
 tags: [projects, software, favorite]
 

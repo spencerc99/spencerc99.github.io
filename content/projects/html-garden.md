@@ -6,7 +6,7 @@ description: "a seasonal website that honors the humble html element<br/><br/>as
 
 date: "2023-04-01"
 
-image: "/projects/images/html-garden-growing.gif"
+image: "/projects/images/html-garden-still-full.png"
 
 tags: [projects, software, art, favorite]
 
