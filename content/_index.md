@@ -37,8 +37,8 @@ container.appendChild(node);
 
 
 I'm an engineer, artist, and researcher (<a href="/about">bio</a>, <a href="https://spencer.place/art">art overview</a>) who crafts
-1. infrastructure (<a href="http://poems.verses.xyz/test">creative tools</a>, <a href="https://github.com/spencerc99/playhtml">open-source libraries</a>, <a href="https://spencerchang.substack.com/p/tangible-computing">experimental interfaces</a>, <a href="https://gather.directory/">local-first apps</a>, <a href="https://syllabusproject.org/syllabus-for-taking-an-internet-walk/">instruction manuals</a>) and 
-2. <i>environments</i> (<a href="https://htmls.garden/">living ecosystems</a>, <a href="https://playhtml.fun/fridge.html">playful spaces</a>, <a href="https://html-portal.vercel.app/">html gatherings in the park</a>, <a href="https://www.spencerchang.me/pacman-poem/">games</a>)
+1. infrastructure (<a href="https://github.com/spencerc99/playhtml">creative tools</a>, <a href="https://spencerchang.substack.com/p/tangible-computing">experimental interfaces</a>, <a href="https://gather.directory/">local-first apps</a>, <a href="http://poems.verses.xyz/test">text playgrounds</a>, <a href="https://spencers.cafe/projects/i-love-living">archival automations</a>, <a href="https://syllabusproject.org/syllabus-for-taking-an-internet-walk/">instruction manuals</a>) and 
+2. <i>environments</i> (<a href="https://htmls.garden/">living ecosystems</a>, <a href="https://playhtml.fun/fridge.html">playful spaces</a>, <a href="https://cursorwatch.ing/">live windows</a>, <a href="https://html-portal.vercel.app/">html gatherings in the park</a>, <a href="https://we-b.site">collections of dreams</a>, <a href="https://www.spencerchang.me/pacman-poem/">games</a>)
 
 that highlight the humanity inherent to all technology and empower us to actively shape computing. I want to create space for human-computer dialogue, so that computing becomes a material for people to express themselves, cherish others, and create the possibility for imaginative change.
 

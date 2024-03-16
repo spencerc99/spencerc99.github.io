@@ -10,8 +10,6 @@ image: "https://codahosted.io/docs/_ObKm8enqO/blobs/bl-lAQsOhGgr5/218c73f02b2a59
 
 tags: [projects, software]
 
-homepage: true
-
 ---
 
 [Templates](https://community.coda.io/t/launched-custom-templates-drag-drop-and-slash-your-way/22718) are a system enabling anyone to create reusable shared snippets and tools (from idea brainstorms, to task trackers, to coffee brew guides), available to drag-and-drop into docs, which dramatically increased the ease of getting started and making things with Coda
