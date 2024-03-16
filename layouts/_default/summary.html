@@ -63,19 +63,29 @@
           {{end}}
     </div>
   </div>
-    {{ with .Params.image }}
-      {{ $savedImageParam := . }}
-      {{- $matchingSiteResource := resources.Get . -}}
-      {{ $firstResource := or (index $matchingResource 0) $matchingSiteResource }}
-      {{ with $firstResource }}
-        {{ $thumbnail := .Resize "400x" }}
+    {{ if isset .Params "video" }}
+      {{ with .Params.video }}
         <div class="postSummaryImageContainer">
-            <img loading="lazy" class="lazyload postSummaryImage" data-src="{{ $thumbnail.RelPermalink }}" />
+          <video class="postSummaryImage" autoplay muted loop>
+            <source src="{{ . }}" type="video/webm">
+          </video>
         </div>
-      {{ else}}
-        <div class="postSummaryImageContainer">
-            <img loading="lazy" class="lazyload postSummaryImage" data-src="{{ $savedImageParam }}" />
-        </div>
+      {{ end }}
+    {{ else }}
+      {{ with .Params.image }}
+        {{ $savedImageParam := . }}
+        {{- $matchingSiteResource := resources.Get . -}}
+        {{ $firstResource := or (index $matchingResource 0) $matchingSiteResource }}
+        {{ with $firstResource }}
+          {{ $thumbnail := .Resize "400x" }}
+          <div class="postSummaryImageContainer">
+              <img loading="lazy" class="lazyload postSummaryImage" data-src="{{ $thumbnail.RelPermalink }}" />
+          </div>
+        {{ else}}
+          <div class="postSummaryImageContainer">
+              <img loading="lazy" class="lazyload postSummaryImage" data-src="{{ $savedImageParam }}" />
+          </div>
+        {{ end }}
       {{ end }}
     {{ end }}
   <!-- TODO: add tags or something here -->

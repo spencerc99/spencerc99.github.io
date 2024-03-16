@@ -8,12 +8,21 @@ date: "2023-04-01"
 
 image: "/projects/images/html-garden-still-full.png"
 
+video: "/projects/images/html-garden-growing.webm"
+
 tags: [projects, software, art, favorite]
 
 weight: 900
 
 homepage: true
 ---
+
+<figure>
+<video src="/projects/images/html-garden-growing.webm" controls muted autoplay loop></video>
+</figure>
+
+<br/>
+<br/>
 
 html garden imagines what a "seasonal website" looks like, one that rewards visitors for coming back and noticing, contrasting itself to the way our web content constantly shifts. html garden is composed of digitally-native plants, each species derived from a set of related HTML elements, that simulate the growth patterns of real plants (backed by a grammar that means you could create your own plant!).
 
