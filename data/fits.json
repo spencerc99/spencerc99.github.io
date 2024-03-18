@@ -2,6 +2,30 @@
     "fits": [
         {
             "description": "",
+            "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-03-16%3AIMG_1670.jpeg",
+            "date": "2024-03-16",
+            "timestamp": 1710646434.99,
+            "width": 3024,
+            "height": 4032,
+            "favorite": false,
+            "place": "San Francisco, California, United States",
+            "city": "San Francisco",
+            "country": "United States",
+            "peopleCount": 1,
+            "labels": [
+                "Boot",
+                "Clothing",
+                "Coat",
+                "Footwear",
+                "People",
+                "Shoes"
+            ],
+            "season": "Spring",
+            "activities": "",
+            "venue_types": ""
+        },
+        {
+            "description": "",
             "imgSrc": "https://assets.spencerchang.me/fits-stream/2024-03-14%3AIMG_1631.jpeg",
             "date": "2024-03-14",
             "timestamp": 1710461343.813,
