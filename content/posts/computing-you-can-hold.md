@@ -2,7 +2,7 @@
 
 title: "computing you can hold"
 
-description: [TI-13] webstones, mobile apps, and intimate handheld computing experiences
+description: "[TI-13] webstones, mobile apps, and intimate handheld computing experiences"
 
 date: "2024-05-11"
 
