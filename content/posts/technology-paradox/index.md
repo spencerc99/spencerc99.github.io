@@ -18,7 +18,7 @@ A lot of the present discourse around technology feels one-sided. It either focu
 
 
 <figure class="embed">
-    {{< tweet 1416727117597974535 >}}
+    <em>this tweet is no longer available</em>
     <figcaption><p>an example of how people in tech try to caveat their affiliations because of this paradox.</p></figcaption>
 </figure>
 

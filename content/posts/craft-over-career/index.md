@@ -14,7 +14,7 @@ related: []
 I came across this tweet today on a life philosophy to follow that really resonated with me.
 
 <figure class="embed">
-    {{< tweet 1384499318934188032 >}}
+    {{< twitter user="anyuser" id="1384499318934188032" >}}
 </figure>
 
 > everything I do is the most important thing I do.... I will be ambitious with my job and not my career.

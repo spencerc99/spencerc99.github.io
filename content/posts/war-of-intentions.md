@@ -16,7 +16,7 @@ tags: ['culture', 'ideas', 'politics']
 The other day, I came across this juicy [thread on Twitter](https://twitter.com/cyantist/status/1233898149153927168) ([2](https://twitter.com/EricaMighetto/status/1234221363734310912)) (yeah, I'm on [twitter](http://twitter.com/@spencerc99) now if you didn't know). Two people, who started with a disagreement about minimum wage, had a back and forth that quickly escalated into personal attacks and a warzone as opinionated scrollersby joined the fray. By the time I arrived, the initial disagreement was buried so deep I had to do some dedicated snooping just to understand how it started and what it was about. It got me thinking: how did this happen? How does a simple disagreement morph into an all out Hunger Games-esque brawl?
 
 <figure class="embed">
-    {{< tweet 1234222184056229888 >}}
+    {{< twitter user="anyuser" id="1234222184056229888" >}}
     <figcaption><p>a particularly juicy excerpt</p></figcaption>
 </figure>
 

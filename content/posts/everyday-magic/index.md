@@ -58,7 +58,7 @@ Some of my favorite examples of playful software solve boring utilitarian needs 
 For example, [Figma](http://figma.com) provides simple operations around aligning shapes and vectors, and as a result, you see people creating everything from digital art pieces to tic tac toe.
 
 <figure class="embed">
-    {{< tweet 1365850040376455168 >}}
+    {{< twitter user="anyuser" id="1365850040376455168" >}}
     <figcaption><p><em>See the full <a href="https://twitter.com/rogie/status/1366506054608056320">thread of projects</a></em></p></figcaption>
 </figure>
 
